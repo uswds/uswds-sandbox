@@ -9,7 +9,10 @@ bundle install
 ```
 npm install
 ```
-To run the site locally, run:
+To run the site locally, run these commands in separate terminal windows:
+```
+npm run watch
+```
 ```
 bundle exec jekyll serve
 ```
