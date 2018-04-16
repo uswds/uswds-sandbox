@@ -1,0 +1,14 @@
+title: USWDS Sandbox
+baseurl: ""
+url: ""
+
+sass:
+  sass_dir: node_modules
+
+exclude:
+  - assets/js/build
+  - Gemfile*
+  - node_modules
+  - package*.json
+  - vendor
+  - webpack.config.js

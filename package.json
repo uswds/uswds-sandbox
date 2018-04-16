@@ -1,0 +1,20 @@
+{
+  "private": true,
+  "author": "18F",
+  "license": "CC0-1.0",
+  "scripts": {
+    "dev": "cross-env NODE_ENV=development node_modules/webpack/bin/webpack.js --progress --hide-modules --config=webpack.config.js",
+    "watch": "cross-env NODE_ENV=development node_modules/webpack/bin/webpack.js --watch --progress --hide-modules --config=webpack.config.js",
+    "prod": "cross-env NODE_ENV=production node_modules/webpack/bin/webpack.js --no-progress --hide-modules --config=webpack.config.js",
+    "update-uswds": "npm run update-uswds-fonts && npm run update-uswds-img",
+    "update-uswds-fonts": "rsync -avr --delete node_modules/uswds/dist/fonts/ assets/fonts/",
+    "update-uswds-img": "rsync -avr --delete node_modules/uswds/dist/img/ assets/img/"
+  },
+  "devDependencies": {
+    "cross-env": "^5.1",
+    "webpack": "^3.8.1"
+  },
+  "dependencies": {
+    "uswds": "uswds/uswds#release-2.0"
+  }
+}
