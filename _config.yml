@@ -6,7 +6,7 @@ sass:
   sass_dir: node_modules
 
 exclude:
-  - assets/js/build
+  - assets/js/src
   - Gemfile*
   - node_modules
   - package*.json
