@@ -15,6 +15,6 @@
     "webpack": "^3.8.1"
   },
   "dependencies": {
-    "uswds": "uswds/uswds#release-2.0"
+    "uswds": "uswds/uswds#dw-utilities-sandbox"
   }
 }
