@@ -8,7 +8,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <title>{{ page.title | default: site.title }}</title>
-  <link rel="stylesheet" href="assets/css/main.css">
+  <link rel="stylesheet" href="{{ '/assets/css/main.css' | prepend:site.baseurl }}">
 </head>
 
 <body>
@@ -205,7 +205,7 @@
     </div>
   </footer>
 
-  <script src="assets/js/build/main.js"></script>
+  <script src="{{ '/assets/js/build/main.js' | prepend:site.baseurl }}"></script>
 
 </body>
 </html>
