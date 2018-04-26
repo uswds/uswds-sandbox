@@ -6,12 +6,12 @@
     "dev": "webpack --progress --hide-modules",
     "watch": "webpack --watch --progress --hide-modules",
     "prod": "webpack --no-progress --hide-modules",
-    "federalist": "npm run prod",
-    "postinstall": "npm run uswds-build && npm run uswds-assets",
-    "uswds-build": "npm explore uswds -- npm run prepare",
+    "federalist": "npm run uswds-install && npm run uswds-build && npm run uswds-assets",
+    "uswds-install": "npm explore uswds -- npm install --only=dev",
+    "uswds-build": "npm explore uswds -- npm run build",
     "uswds-assets": "npm run uswds-mkdir && npm run uswds-fonts && npm run uswds-img",
-    "uswds-fonts": "cp -R ./node_modules/uswds/dist/fonts/* ./assets/fonts/",
-    "uswds-img": "cp -R ./node_modules/uswds/dist/img/* ./assets/img/",
+    "uswds-fonts": "cp -R node_modules/uswds/dist/fonts/* assets/fonts/",
+    "uswds-img": "cp -R node_modules/uswds/dist/img/* assets/img/",
     "uswds-mkdir": "mkdir -p assets/fonts/ && mkdir -p assets/img/"
   },
   "dependencies": {
