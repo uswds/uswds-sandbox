@@ -1,1 +1,1 @@
-import uswds from 'uswds'
+require('uswds');

@@ -3,7 +3,9 @@ baseurl: ""
 url: ""
 
 sass:
-  sass_dir: node_modules
+  sass_dir: _sass/
+  load_paths:
+    - node_modules/
 
 exclude:
   - assets/js/src
