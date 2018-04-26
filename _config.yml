@@ -5,7 +5,7 @@ url: ""
 sass:
   sass_dir: _sass/
   load_paths:
-    - node_modules/
+    - node_modules/uswds/dist/scss/
 
 exclude:
   - assets/js/src
