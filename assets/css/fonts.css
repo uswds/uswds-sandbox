@@ -1,0 +1,1307 @@
+@charset "UTF-8";
+/*
+========================================
+PROJECT THEME SETTINGS
+----------------------------------------
+*/
+/*
+----------------------------------------
+Root font size
+----------------------------------------
+Sets the font size of the html root
+for rem calculations
+----------------------------------------
+*/
+/*
+----------------------------------------
+Border box sizing
+----------------------------------------
+When set to true, it sets the box-sizing
+property of all elements to
+`border-box`.
+----------------------------------------
+*/
+/*
+----------------------------------------
+Paths
+----------------------------------------
+Relative font and image file paths
+----------------------------------------
+*/
+/*
+----------------------------------------
+Custom font definitions
+----------------------------------------
+Add a new custom font definition if
+your project uses a typeface we've
+not already defined.
+----------------------------------------
+The following faces already are
+defined in the system:
+
+'system'
+'united-sans'
+'source-sans-pro'
+'helvetica'
+'georgia'
+'merriweather'
+'roboto-mono'
+----------------------------------------
+*/
+/*
+----------------------------------------
+Fonts in use
+----------------------------------------
+Set the sans, serif, and mono faces for
+your project
+----------------------------------------
+currently available:
+
+'system'
+'united-sans'
+'source-sans-pro'
+'helvetica'
+'georgia'
+'merriweather'
+'roboto-mono'
+----------------------------------------
+*/
+/*
+----------------------------------------
+Fonts by type
+----------------------------------------
+Set the heading, body, code, and alt
+faces for your project from
+
+$theme-font-sans
+$theme-font-serif
+$theme-font-mono
+$theme-font-cond
+----------------------------------------
+*/
+/*
+----------------------------------------
+Type scale
+----------------------------------------
+Define your project's type scale using
+values from the USWDS system type scale
+
+1-20
+----------------------------------------
+*/
+/*
+----------------------------------------
+Font weights
+----------------------------------------
+Assign weights 100-900
+Or use `false` for unneeded weights.
+----------------------------------------
+*/
+/*
+----------------------------------------
+Palette colors
+----------------------------------------
+*/
+/*
+----------------------------------------
+State colors
+----------------------------------------
+*/
+/*
+----------------------------------------
+Border radius
+----------------------------------------
+2px         2px
+sp5         4px
+s1          8px
+s1p5        12px
+s2          16px
+s3          24px
+s4          32px
+s5          40px
+s6          48px
+s7          56px
+s8          64px
+s9          72px
+----------------------------------------
+*/
+/*! uswds @version */
+/*
+========================================
+uswds-fonts
+----------------------------------------
+Output the @font-face rules for a
+USWDS project
+----------------------------------------
+*/
+/*
+========================================
+PROJECT THEME SETTINGS
+----------------------------------------
+*/
+/*
+----------------------------------------
+Root font size
+----------------------------------------
+Sets the font size of the html root
+for rem calculations
+----------------------------------------
+*/
+/*
+----------------------------------------
+Border box sizing
+----------------------------------------
+When set to true, it sets the box-sizing
+property of all elements to
+`border-box`.
+----------------------------------------
+*/
+/*
+----------------------------------------
+Paths
+----------------------------------------
+Relative font and image file paths
+----------------------------------------
+*/
+/*
+----------------------------------------
+Output breakpoints
+----------------------------------------
+Which breakpoints does your project
+need? Select as `true` any breakpoint
+used by utilities or layout grid
+----------------------------------------
+*/
+/*
+----------------------------------------
+Custom font definitions
+----------------------------------------
+Add a new custom font definition if
+your project uses a typeface we've
+not already defined.
+----------------------------------------
+The following faces already are
+defined in the system:
+
+'system'
+'united-sans'
+'source-sans-pro'
+'helvetica'
+'georgia'
+'merriweather'
+'roboto-mono'
+----------------------------------------
+*/
+/*
+----------------------------------------
+Fonts in use
+----------------------------------------
+Set the sans, serif, and mono faces for
+your project
+----------------------------------------
+currently available:
+
+'system'
+'united-sans'
+'source-sans-pro'
+'helvetica'
+'georgia'
+'merriweather'
+'roboto-mono'
+----------------------------------------
+*/
+/*
+----------------------------------------
+Fonts by type
+----------------------------------------
+Set the heading, body, code, and alt
+faces for your project from
+
+$theme-font-sans
+$theme-font-serif
+$theme-font-mono
+$theme-font-cond
+----------------------------------------
+*/
+/*
+----------------------------------------
+Type scale
+----------------------------------------
+Define your project's type scale using
+values from the USWDS system type scale
+
+1-20
+----------------------------------------
+*/
+/*
+----------------------------------------
+Font weights
+----------------------------------------
+Assign weights 100-900
+Or use `false` for unneeded weights.
+----------------------------------------
+*/
+/*
+----------------------------------------
+Palette colors
+----------------------------------------
+*/
+/*
+----------------------------------------
+State colors
+----------------------------------------
+*/
+/*
+----------------------------------------
+Border radius
+----------------------------------------
+2px            2px
+units('05')    4px
+units(1)       8px
+units('105')   12px
+units(2)       16px
+units(3)       24px
+units(4)       32px
+units(5)       40px
+units(6)       48px
+units(7)       56px
+units(8)       64px
+units(9)       72px
+----------------------------------------
+*/
+/*
+----------------------------------------
+Column gap
+----------------------------------------
+2px         2px
+units('05')   4px
+units(1)    8px
+units(2)    16px
+units(3)    24px
+units(4)    32px
+units(5)    48px
+----------------------------------------
+*/
+/*
+========================================
+USWDS UTILITIES SETTINGS
+----------------------------------------
+*/
+/*
+----------------------------------------
+global colors
+----------------------------------------
+The following plugins will be added to
+- background-color
+- border-color
+- color
+- text-decoration-color
+----------------------------------------
+*/
+/*
+========================================
+.align-items
+----------------------------------------
+*/
+/*
+========================================
+.background-color
+----------------------------------------
+*/
+/*
+========================================
+.border (width and solid)
+----------------------------------------
+*/
+/*
+========================================
+.border-color
+----------------------------------------
+*/
+/*
+========================================
+.border-radius
+----------------------------------------
+*/
+/*
+========================================
+.border-style
+----------------------------------------
+*/
+/*
+========================================
+.border-width
+----------------------------------------
+*/
+/*
+========================================
+.bottom
+----------------------------------------
+*/
+/*
+========================================
+.box-shadow
+----------------------------------------
+*/
+/*
+========================================
+.circle
+----------------------------------------
+*/
+/*
+========================================
+.clearfix
+----------------------------------------
+*/
+/*
+========================================
+.color
+----------------------------------------
+*/
+/*
+========================================
+.display
+----------------------------------------
+*/
+/*
+========================================
+.flex
+----------------------------------------
+*/
+/*
+========================================
+.flex-direction
+----------------------------------------
+*/
+/*
+========================================
+.flex-wrap
+----------------------------------------
+*/
+/*
+========================================
+.float
+----------------------------------------
+*/
+/*
+========================================
+.font
+----------------------------------------
+*/
+/*
+========================================
+.font-family
+----------------------------------------
+*/
+/*
+========================================
+.font-feature-settings
+----------------------------------------
+*/
+/*
+========================================
+.font-style
+----------------------------------------
+*/
+/*
+========================================
+.font-weight
+----------------------------------------
+*/
+/*
+========================================
+.height
+----------------------------------------
+*/
+/*
+========================================
+.justify-content
+----------------------------------------
+*/
+/*
+========================================
+.left
+----------------------------------------
+*/
+/*
+========================================
+.letter-spacing
+----------------------------------------
+*/
+/*
+========================================
+.line-height
+----------------------------------------
+*/
+/*
+========================================
+.list-reset
+----------------------------------------
+*/
+/*
+========================================
+.margin
+----------------------------------------
+*/
+/*
+========================================
+.max-height
+----------------------------------------
+*/
+/*
+========================================
+.max-width
+----------------------------------------
+*/
+/*
+========================================
+.measure
+----------------------------------------
+*/
+/*
+========================================
+.min-height
+----------------------------------------
+*/
+/*
+========================================
+.min-width
+----------------------------------------
+*/
+/*
+========================================
+.opacity
+----------------------------------------
+*/
+/*
+========================================
+.order
+----------------------------------------
+*/
+/*
+========================================
+.outline
+----------------------------------------
+*/
+/*
+========================================
+.outline-color
+----------------------------------------
+*/
+/*
+========================================
+.overflow
+----------------------------------------
+*/
+/*
+========================================
+.padding
+----------------------------------------
+*/
+/*
+========================================
+.position
+----------------------------------------
+*/
+/*
+========================================
+.right
+----------------------------------------
+*/
+/*
+========================================
+.square
+----------------------------------------
+*/
+/*
+========================================
+.text-align
+----------------------------------------
+*/
+/*
+========================================
+.text-decoration
+----------------------------------------
+*/
+/*
+========================================
+.text-decoration-color
+----------------------------------------
+*/
+/*
+========================================
+.text-indent
+----------------------------------------
+*/
+/*
+========================================
+.text-transform
+----------------------------------------
+*/
+/*
+========================================
+.top
+----------------------------------------
+*/
+/*
+========================================
+.vertical-align
+----------------------------------------
+*/
+/*
+========================================
+.white-space
+----------------------------------------
+*/
+/*
+========================================
+.width
+----------------------------------------
+*/
+/*
+========================================
+.z-index
+----------------------------------------
+*/
+html {
+  box-sizing: border-box; }
+
+*, *::after, *::before {
+  box-sizing: inherit; }
+
+/*
+========================================
+Functions
+----------------------------------------
+*/
+/*
+========================================
+General-purpose functions
+----------------------------------------
+*/
+/*
+----------------------------------------
+map-deep-get()
+----------------------------------------
+@author Hugo Giraudel
+@access public
+@param {Map} $map - Map
+@param {Arglist} $keys - Key chain
+@return {*} - Desired value
+----------------------------------------
+*/
+/*
+----------------------------------------
+strip-unit()
+----------------------------------------
+Remove the unit of a length
+@author Hugo Giraudel
+@param {Number} $number - Number to remove unit from
+@return {Number} - Unitless number
+----------------------------------------
+*/
+/*
+----------------------------------------
+multi-cat()
+----------------------------------------
+Concatenate two lists
+----------------------------------------
+*/
+/*
+----------------------------------------
+map-collect()
+----------------------------------------
+Collect multiple maps into a single
+large map
+source: https://gist.github.com/bigglesrocks/d75091700f8f2be5abfe
+----------------------------------------
+*/
+/* stylelint-disable */
+/*
+----------------------------------------
+smart-quote()
+----------------------------------------
+Quotes strings
+Inspects numbers
+Leaves bools as is
+----------------------------------------
+*/
+/*
+----------------------------------------
+remove()
+----------------------------------------
+Remove a value from a list
+----------------------------------------
+*/
+/*
+----------------------------------------
+strunquote()
+----------------------------------------
+Unquote a string
+----------------------------------------
+*/
+/*
+----------------------------------------
+to-map()
+----------------------------------------
+Convert a single value to a USWDS
+value map.
+
+Candidate for deprecation if we remove
+isReadable
+----------------------------------------
+*/
+/*
+----------------------------------------
+base-to-map()
+----------------------------------------
+Convert a single base to a USWDS
+value map.
+
+Candidate for deprecation if we remove
+isReadable
+----------------------------------------
+*/
+/*
+----------------------------------------
+grid-units()
+----------------------------------------
+Converts a spacing unit multiple into
+the desired final units (currently rem)
+----------------------------------------
+*/
+/*
+----------------------------------------
+px()
+----------------------------------------
+Converts a value in px to a value in rem
+----------------------------------------
+*/
+/*
+----------------------------------------
+grid-to-base-em()
+----------------------------------------
+Converts a value in px to a value in em
+----------------------------------------
+*/
+/*
+----------------------------------------
+cap-height()
+----------------------------------------
+Get the cap height of a defined font
+----------------------------------------
+*/
+/*
+----------------------------------------
+type-scale()
+----------------------------------------
+Normalizes a specific face's optical size
+to a set target
+----------------------------------------
+*/
+/*
+----------------------------------------
+utility-font()
+----------------------------------------
+Get a normalized font-size in rem from
+a family and a type size in either
+system scale or project scale
+----------------------------------------
+Not the public-facing function.
+Used for building the utilities and
+withholds certain errors.
+----------------------------------------
+*/
+/*
+----------------------------------------
+lh()
+----------------------------------------
+Get a normalized line-height from
+a family and a line-height scale unit
+----------------------------------------
+*/
+/*
+----------------------------------------
+get-uswds-color()
+----------------------------------------
+Derive a system color from its
+family, value, and vivid or a passed
+variable that is, itself, a list
+----------------------------------------
+*/
+/*
+----------------------------------------
+system-type-scale()
+----------------------------------------
+Get a value from the system type scale
+----------------------------------------
+*/
+/*
+----------------------------------------
+simple-color()
+----------------------------------------
+Derive a color from its $family and
+value
+----------------------------------------
+ex:
+background-color: simple-color($red-warm, 50v);
+----------------------------------------
+*/
+/*
+========================================
+Utility functions
+----------------------------------------
+TODO: convert/translate these to mixins?
+----------------------------------------
+*/
+/*
+----------------------------------------
+calc-gap-offset()
+----------------------------------------
+Calculate a valid uswds unit that is
+half the width of a given unit, for
+calculating gap offset in the layout
+grid.
+----------------------------------------
+*/
+/*
+----------------------------------------
+get-standard-values()
+----------------------------------------
+Gets a map of USWDS standard values
+for a property
+----------------------------------------
+*/
+/*
+----------------------------------------
+get-uswds-value()
+----------------------------------------
+Finds and outputs a value from the
+USWDS standard values.
+
+Used to build other standard utility
+functions and mixins.
+----------------------------------------
+*/
+/*
+----------------------------------------
+border-radius()
+----------------------------------------
+Get a border-radius from the system
+border-radii
+----------------------------------------
+*/
+/*
+----------------------------------------
+color()
+----------------------------------------
+Derive a color from the map of all
+colors: project and system
+----------------------------------------
+*/
+/*
+----------------------------------------
+feature()
+----------------------------------------
+Gets a valid USWDS font feature setting
+----------------------------------------
+*/
+/*
+----------------------------------------
+flex()
+----------------------------------------
+Gets a valid USWDS flex value
+----------------------------------------
+*/
+/*
+----------------------------------------
+font()
+----------------------------------------
+Get a normalized font-size in rem from
+a family and a type size in either
+system scale or project scale
+----------------------------------------
+*/
+/*
+----------------------------------------
+font-weight()
+----------------------------------------
+Gets a valid USWDS font-weight
+----------------------------------------
+*/
+/*
+----------------------------------------
+letter-spacing()
+----------------------------------------
+Get a letter-spacing value from the
+system letter-spacing
+----------------------------------------
+*/
+/*
+----------------------------------------
+line-height()
+----------------------------------------
+Get a line height from the system
+line heights
+----------------------------------------
+*/
+/*
+----------------------------------------
+measure()
+----------------------------------------
+Gets a valid USWDS reading line length
+----------------------------------------
+*/
+/*
+----------------------------------------
+opacity()
+----------------------------------------
+Get an opacity from the system
+opacities
+----------------------------------------
+*/
+/*
+----------------------------------------
+order()
+----------------------------------------
+Get an order value from the
+system orders
+----------------------------------------
+*/
+/*
+----------------------------------------
+spacing()
+----------------------------------------
+Converts a spacing unit multiple into
+the desired final units (currently rem)
+----------------------------------------
+*/
+/*
+----------------------------------------
+z-index()
+----------------------------------------
+Get a z-index value from the
+system z-index
+----------------------------------------
+*/
+/*
+----------------------------------------
+get-plugins()
+----------------------------------------
+Build a single map of plugin values
+from a list of plugin keys.
+----------------------------------------
+TODO: Somewhat crude now. Could be more
+elegant
+----------------------------------------
+*/
+/*
+----------------------------------------
+@render-pseudoclass
+----------------------------------------
+Build a pseucoclass utiliy from values
+calculated in the @render-utilities-in
+loop
+----------------------------------------
+*/
+/*
+----------------------------------------
+@render-placeholder
+----------------------------------------
+Build a placeholder utility from values
+calculated in the @render-utilities-in
+loop
+
+Could be deprecated if we never choose
+to style placeholder text
+----------------------------------------
+*/
+/*
+----------------------------------------
+@render-media-queries
+----------------------------------------
+Build @media media queries from values
+calculated in the @render-utilities-in
+loop
+----------------------------------------
+*/
+/*
+----------------------------------------
+@render-utility
+----------------------------------------
+Build a utility from values calculated
+in the @render-utilities-in loop
+----------------------------------------
+TODO: Determine the proper use of
+unquote() in the following. Changed to
+account for a "interpolation near
+operators will be simplified in a
+future version of Sass" warning.
+----------------------------------------
+*/
+/*
+----------------------------------------
+@render-utilities-in
+----------------------------------------
+The master loop that sets the building
+blocks of utilities from the values
+in individual rule settings and loops
+through all possible variants
+----------------------------------------
+*/
+/* stylelint-enable */
+/*
+========================================
+core/units
+----------------------------------------
+The master palettes of
+- colors
+- whitespace
+- typescale
+----------------------------------------
+This file is not meant to be modified
+by USWDS project teams. Change your
+project values in
+project/uswds-project-settings
+----------------------------------------
+*/
+/*
+----------------------------------------
+Spacing grid multiplier
+----------------------------------------
+*/
+/*
+----------------------------------------
+Spacing grid
+----------------------------------------
+*/
+/*
+----------------------------------------
+Breakpoints
+----------------------------------------
+*/
+/*
+----------------------------------------
+Units
+----------------------------------------
+*/
+/*
+----------------------------------------
+Layout grid widths
+----------------------------------------
+*/
+/*
+----------------------------------------
+Type scale
+----------------------------------------
+*/
+/*
+----------------------------------------
+Measure
+----------------------------------------
+*/
+/*
+----------------------------------------
+Line height
+----------------------------------------
+*/
+/*
+----------------------------------------
+Base cap height
+----------------------------------------
+500px 'N' height measured in Sketch.
+Used for normalizing font sizes.
+Current normalized to Apple system
+fonts.
+----------------------------------------
+*/
+/*
+----------------------------------------
+Colors
+----------------------------------------
+TODO: It would be great to get these to
+load from a common location like tokens
+stored as YAML.
+----------------------------------------
+*/
+/*
+========================================
+USWDS 2.0 Variables
+Use for computed variables not meant
+to be set by system users.
+----------------------------------------
+Master system palette variables are set
+in core/_units
+----------------------------------------
+Anything meant to be set directly should
+go in:
+
+core/_settings
+(for default settings)
+
+and its pair:
+©
+project/_uswds-project-settings
+(for project overrides)
+----------------------------------------
+*/
+/*
+----------------------------------------
+Namespace
+----------------------------------------
+*/
+/*
+----------------------------------------
+Spacing
+----------------------------------------
+All spacing values that can be called
+by spacing()
+----------------------------------------
+*/
+/*
+----------------------------------------
+Font stack
+----------------------------------------
+Compute the project font stack based on
+the project fonts and the font
+definition values set in
+core/_font-definitions
+----------------------------------------
+*/
+/*
+----------------------------------------
+Set basic font rules for the font
+utilities to reference.
+----------------------------------------
+TODO: Do these need to integrate the
+namespace var set in utilities-settings?
+----------------------------------------
+*/
+[class*='mono'], .font-family-mono {
+  font-family: "Roboto Mono Web", "Bitstream Vera Sans Mono", "Consolas", "Courier", monospace; }
+
+[class*='sans'], .font-family-sans {
+  font-family: "United Sans Web", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol"; }
+
+[class*='serif'], .font-family-serif {
+  font-family: "Georgia", "Georgia", "Cambria", "Times New Roman", "Times", serif; }
+
+[class*='heading'], .font-family-heading {
+  font-family: "United Sans Web", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol"; }
+
+[class*='body'], .font-family-body {
+  font-family: "United Sans Web", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol"; }
+
+[class*='code'], .font-family-code {
+  font-family: "Roboto Mono Web", "Bitstream Vera Sans Mono", "Consolas", "Courier", monospace; }
+
+/*
+----------------------------------------
+Build the project type scale map
+----------------------------------------
+*/
+/*
+----------------------------------------
+Border-radius
+----------------------------------------
+*/
+/*
+----------------------------------------
+Color palettes
+----------------------------------------
+*/
+/*
+========================================
+Old USWDS Variables
+Many of these will be deprecated
+or converted into settings
+----------------------------------------
+These variables drive almost every
+aspect of the U.S. Web Design system.
+Every variable is declared as !default
+so that it can be overridden by a
+previous import.
+
+XXX Do not modify this file!
+
+If you want to override a variable, set
+that variable in one of your own partials,
+then
+@import '{path/to/uswds/}core/variables'.
+----------------------------------------
+*/
+/*
+----------------------------------------
+Typography
+----------------------------------------
+TODO: Rethink naming and consolidate in
+settings
+----------------------------------------
+*/
+/*
+----------------------------------------
+Font weights
+----------------------------------------
+TODO: Consolidate in settings
+----------------------------------------
+*/
+/*
+----------------------------------------
+Colors
+----------------------------------------
+TODO:
+1. These should be set in settings
+2. Probably need different naming rubric
+----------------------------------------
+*/
+/*
+----------------------------------------
+Mobile First Breakpoints
+----------------------------------------
+TODO: deprecate in favor of the values
+in settings
+----------------------------------------
+*/
+/*
+----------------------------------------
+Grid column counts by screen size
+----------------------------------------
+TODO: Lots of grid work to come
+----------------------------------------
+*/
+/*
+----------------------------------------
+@media single-keyword helpers
+----------------------------------------
+TODO: Need to rethink these
+----------------------------------------
+*/
+/*
+----------------------------------------
+@Relative font and image file paths
+----------------------------------------
+TODO: This should be deprecated in favor
+of the values in settings
+----------------------------------------
+*/
+/*
+----------------------------------------
+Set $asset-pipeline to true if you're
+using the Rails Asset Pipeline
+----------------------------------------
+TODO: This should be set in settings
+----------------------------------------
+*/
+/*
+----------------------------------------
+Magic numbers
+----------------------------------------
+TODO: Evaluate which of these should be
+set in settings and which are static or
+calculated variables
+----------------------------------------
+*/
+/*
+----------------------------------------
+USWDS Properties
+----------------------------------------
+*/
+.usa-sr-only {
+  position: absolute;
+  left: -999em; }
+
+/*
+----------------------------------------
+font()
+----------------------------------------
+Get a normalized font-size in rem from
+a family and a type size in either
+system scale or project scale
+----------------------------------------
+*/
+/* stylelint-disable */
+@font-face {
+  font-family: "Roboto Mono Web";
+  font-style: normal;
+  font-weight: 100;
+  src: url("../fonts/roboto-mono/roboto-mono-v5-latin-100.eot?#iefix") format("embedded-opentype"), url("../fonts/roboto-mono/roboto-mono-v5-latin-100.woff2") format("woff2"), url("../fonts/roboto-mono/roboto-mono-v5-latin-100.woff") format("woff"), url("../fonts/roboto-mono/roboto-mono-v5-latin-100.ttf") format("truetype"); }
+
+@font-face {
+  font-family: "Roboto Mono Web";
+  font-style: normal;
+  font-weight: 300;
+  src: url("../fonts/roboto-mono/roboto-mono-v5-latin-300.eot?#iefix") format("embedded-opentype"), url("../fonts/roboto-mono/roboto-mono-v5-latin-300.woff2") format("woff2"), url("../fonts/roboto-mono/roboto-mono-v5-latin-300.woff") format("woff"), url("../fonts/roboto-mono/roboto-mono-v5-latin-300.ttf") format("truetype"); }
+
+@font-face {
+  font-family: "Roboto Mono Web";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/roboto-mono/roboto-mono-v5-latin-regular.eot?#iefix") format("embedded-opentype"), url("../fonts/roboto-mono/roboto-mono-v5-latin-regular.woff2") format("woff2"), url("../fonts/roboto-mono/roboto-mono-v5-latin-regular.woff") format("woff"), url("../fonts/roboto-mono/roboto-mono-v5-latin-regular.ttf") format("truetype"); }
+
+@font-face {
+  font-family: "Roboto Mono Web";
+  font-style: normal;
+  font-weight: 500;
+  src: url("../fonts/roboto-mono/roboto-mono-v5-latin-500.eot?#iefix") format("embedded-opentype"), url("../fonts/roboto-mono/roboto-mono-v5-latin-500.woff2") format("woff2"), url("../fonts/roboto-mono/roboto-mono-v5-latin-500.woff") format("woff"), url("../fonts/roboto-mono/roboto-mono-v5-latin-500.ttf") format("truetype"); }
+
+@font-face {
+  font-family: "Roboto Mono Web";
+  font-style: normal;
+  font-weight: 700;
+  src: url("../fonts/roboto-mono/roboto-mono-v5-latin-700.eot?#iefix") format("embedded-opentype"), url("../fonts/roboto-mono/roboto-mono-v5-latin-700.woff2") format("woff2"), url("../fonts/roboto-mono/roboto-mono-v5-latin-700.woff") format("woff"), url("../fonts/roboto-mono/roboto-mono-v5-latin-700.ttf") format("truetype"); }
+
+@font-face {
+  font-family: "United Sans Web";
+  font-style: normal;
+  font-weight: 100;
+  src: url("../fonts/united-sans/UnitedSans-Thin.eot?#iefix") format("embedded-opentype"), url("../fonts/united-sans/UnitedSans-Thin.woff2") format("woff2"), url("../fonts/united-sans/UnitedSans-Thin.woff") format("woff"), url("../fonts/united-sans/UnitedSans-Thin.ttf") format("truetype"); }
+
+@font-face {
+  font-family: "United Sans Web";
+  font-style: normal;
+  font-weight: 200;
+  src: url("../fonts/united-sans/UnitedSans-ExtraLight.eot?#iefix") format("embedded-opentype"), url("../fonts/united-sans/UnitedSans-ExtraLight.woff2") format("woff2"), url("../fonts/united-sans/UnitedSans-ExtraLight.woff") format("woff"), url("../fonts/united-sans/UnitedSans-ExtraLight.ttf") format("truetype"); }
+
+@font-face {
+  font-family: "United Sans Web";
+  font-style: normal;
+  font-weight: 300;
+  src: url("../fonts/united-sans/UnitedSans-Light.eot?#iefix") format("embedded-opentype"), url("../fonts/united-sans/UnitedSans-Light.woff2") format("woff2"), url("../fonts/united-sans/UnitedSans-Light.woff") format("woff"), url("../fonts/united-sans/UnitedSans-Light.ttf") format("truetype"); }
+
+@font-face {
+  font-family: "United Sans Web";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/united-sans/UnitedSans-Regular.eot?#iefix") format("embedded-opentype"), url("../fonts/united-sans/UnitedSans-Regular.woff2") format("woff2"), url("../fonts/united-sans/UnitedSans-Regular.woff") format("woff"), url("../fonts/united-sans/UnitedSans-Regular.ttf") format("truetype"); }
+
+@font-face {
+  font-family: "United Sans Web";
+  font-style: normal;
+  font-weight: 500;
+  src: url("../fonts/united-sans/UnitedSans-Medium.eot?#iefix") format("embedded-opentype"), url("../fonts/united-sans/UnitedSans-Medium.woff2") format("woff2"), url("../fonts/united-sans/UnitedSans-Medium.woff") format("woff"), url("../fonts/united-sans/UnitedSans-Medium.ttf") format("truetype"); }
+
+@font-face {
+  font-family: "United Sans Web";
+  font-style: normal;
+  font-weight: 600;
+  src: url("../fonts/united-sans/UnitedSans-SemiBold.eot?#iefix") format("embedded-opentype"), url("../fonts/united-sans/UnitedSans-SemiBold.woff2") format("woff2"), url("../fonts/united-sans/UnitedSans-SemiBold.woff") format("woff"), url("../fonts/united-sans/UnitedSans-SemiBold.ttf") format("truetype"); }
+
+@font-face {
+  font-family: "United Sans Web";
+  font-style: normal;
+  font-weight: 700;
+  src: url("../fonts/united-sans/UnitedSans-Bold.eot?#iefix") format("embedded-opentype"), url("../fonts/united-sans/UnitedSans-Bold.woff2") format("woff2"), url("../fonts/united-sans/UnitedSans-Bold.woff") format("woff"), url("../fonts/united-sans/UnitedSans-Bold.ttf") format("truetype"); }
+
+@font-face {
+  font-family: "United Sans Web";
+  font-style: normal;
+  font-weight: 800;
+  src: url("../fonts/united-sans/UnitedSans-ExtraBold.eot?#iefix") format("embedded-opentype"), url("../fonts/united-sans/UnitedSans-ExtraBold.woff2") format("woff2"), url("../fonts/united-sans/UnitedSans-ExtraBold.woff") format("woff"), url("../fonts/united-sans/UnitedSans-ExtraBold.ttf") format("truetype"); }
+
+@font-face {
+  font-family: "United Sans Web";
+  font-style: normal;
+  font-weight: 900;
+  src: url("../fonts/united-sans/UnitedSans-Black.eot?#iefix") format("embedded-opentype"), url("../fonts/united-sans/UnitedSans-Black.woff2") format("woff2"), url("../fonts/united-sans/UnitedSans-Black.woff") format("woff"), url("../fonts/united-sans/UnitedSans-Black.ttf") format("truetype"); }
+
+/* stylelint-enable */

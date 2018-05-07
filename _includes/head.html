@@ -103,8 +103,8 @@
     </style>
     <link rel="preload" href="{{ "/assets/css/10x-fonts.min.css" | relative_url }}" as="style">
   {% else %}
-    <link rel="stylesheet" href="{{ "/assets/css/app.css" | relative_url }}">
-    <link rel="stylesheet" href="{{ "/assets/css/fonts.css" | relative_url }}">
+    <link rel="stylesheet" href="{{ "/assets/css/styles.min.css" | relative_url }}">
+    <link rel="stylesheet" href="{{ "/assets/css/fonts.min.css" | relative_url }}">
   {% endif %}
   <link rel="canonical" href="{{ page.url | replace:'index.html','' | absolute_url }}">
   {% comment %}
@@ -112,7 +112,9 @@
   <link rel="alternate" type="application/rss+xml" title="{{ site.title | escape }}" href="{{ "/feed.xml" | relative_url }}">
   {% endcomment %}
 
-  <link rel="preload" href="{{ "/assets/js/uswds.min.js" | relative_url }}" as="script">
+  {% comment %}
+  <link rel="preload" href="{{ "/assets/js/build/main.js" | relative_url }}" as="script">
+  {% endcomment %}
 
   {% if site.environment == 'production' or site.environment == 'development' %}
     {% include dap-script.html %}

@@ -35,18 +35,18 @@ Relative font and image file paths
 ----------------------------------------
 */
 
-$theme-font-path:   '../uswds/fonts';
-$theme-image-path:  '../uswds/img';
+$theme-font-path:   '../fonts';
+$theme-image-path:  '../img';
 
 $theme-output-breakpoints: (
   'card':            false,   // 160px
-  'card-plus':       false,   // 240px
+  'card-lg':         false,   // 240px
   'mobile':          true,    // 320px
-  'mobile-plus':     true,    // 480px
+  'mobile-lg':       true,    // 480px
   'tablet':          true,    // 640px
-  'tablet-plus':     true,    // 800px
+  'tablet-lg':       true,    // 800px
   'desktop':         true,    // 1040px
-  'desktop-plus':    false,   // 1200px
+  'desktop-lg':      false,   // 1200px
   'wide':            false,   // 1400px
 );
 
@@ -203,7 +203,7 @@ $theme-color-neutral-base:        $theme-color-neutral, 80;
 $theme-color-neutral-dark:        $theme-color-neutral, 90;
 $theme-color-neutral-darker:      false;
 
-$theme-color-primary:             red;
+$theme-color-primary:             blue;
 $theme-color-primary-lighter:     $theme-color-primary, 10;
 $theme-color-primary-light:       $theme-color-primary, 30;
 $theme-color-primary-base:        $theme-color-primary, 50;
@@ -211,7 +211,7 @@ $theme-color-primary-vivid:       $theme-color-primary, 50, vivid;
 $theme-color-primary-dark:        $theme-color-primary, 70;
 $theme-color-primary-darker:      false;
 
-$theme-color-secondary:           blue;
+$theme-color-secondary:           red;
 $theme-color-secondary-light:     $theme-color-secondary, 50;
 $theme-color-secondary-base:      $theme-color-secondary, 60;
 $theme-color-secondary-vivid:     $theme-color-secondary, 50, vivid;
