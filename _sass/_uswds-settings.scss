@@ -196,6 +196,7 @@ Palette colors
 */
 
 $theme-color-neutral:             black;
+$theme-color-neutral-lightest:    white;
 $theme-color-neutral-lighter:     $theme-color-neutral, 5;
 $theme-color-neutral-light:       $theme-color-neutral, 50;
 $theme-color-neutral-base:        $theme-color-neutral, 80;
@@ -223,10 +224,6 @@ $theme-color-accent-warm-base:    $theme-color-accent-warm, 50, vivid;
 $theme-color-accent-cool:         cyan;
 $theme-color-accent-cool-lighter: $theme-color-accent-cool, 50, vivid;
 $theme-color-accent-cool-base:    $theme-color-accent-cool, 50, vivid;
-
-$theme-color-inverse:             white;
-$theme-color-inverse-base:        $theme-color-inverse, 0;
-$theme-color-inverse-dark:        black, 10;
 
 /*
 ----------------------------------------
