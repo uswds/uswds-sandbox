@@ -14,7 +14,7 @@ html {
 }
 
 *:focus {
-  @include u-outline(p5);
+  @include u-outline('05');
   @include u-outline-color(highlight);
 }
 
@@ -26,15 +26,15 @@ html {
   h3 {
     @include u-font(sans, 10);
     @include u-font-weight(thin);
-    @include u-line-height(small);
-    @include at-media(tablet-plus) {
+    @include u-line-height(heading, 3);
+    @include at-media(tablet-lg) {
       @include u-font(sans, 15);
     }
   }
 }
 
 *:active:focus {
-  @include u-outline(p5);
+  @include u-outline('05');
   @include u-outline-color(indigo-warm, 50, vivid);
 }
 
@@ -59,7 +59,7 @@ html {
 
 .o-normalize-headings {
   @include u-font-weight(normal);
-  @include u-line-height(smaller);
+  @include u-line-height(heading, 2);
   @include u-margin-y(0);
 }
 
@@ -75,7 +75,7 @@ html {
   @include u-margin-top(2);
   @include u-padding-top(2);
 
-  @include at-media(tablet-plus){
+  @include at-media('tablet-lg'){
     @include u-font(sans, 11);
     @include u-margin-top(3);
   }
@@ -86,7 +86,7 @@ html {
   @include u-font-weight(bold);
   @include u-margin-top(2);
   @include u-padding-top(1);
-  @include at-media(tablet-plus){
+  @include at-media('tablet-lg'){
     @include u-margin-top(2);
     @include u-padding-top(2);
     @include u-font(sans, 8);
@@ -97,13 +97,13 @@ html {
 }
 
 .txt-p {
-  @include u-line-height(base);
+  @include u-line-height(body, 4);
   @include u-margin-bottom(0);
   @include u-margin-top(1em);
-  @include u-max-width(measure-base);
-  @include at-media(tablet-plus){
+  @include u-measure(4);
+  @include at-media('tablet-lg'){
     @include u-font(body, 8);
-    @include u-line-height(large);
+    @include u-line-height(body, 5);
   }
 }
 
@@ -111,7 +111,7 @@ html {
   @include u-border-top();
   @include u-border-color(black, 20);
   @include u-padding-y(1);
-  @include at-media(tablet-plus){
+  @include at-media('tablet-lg'){
     @include u-padding-y(1);
   }
 }
@@ -120,17 +120,17 @@ html {
   @include u-font(mono, 4);
   @include u-font(mono);
   @include u-font-weight(400);
-  @include u-padding-x(p5);
+  @include u-padding-x('05');
   @include u-padding-y(2px);
-  @include u-background-color(white-warm, 4);
-  @include u-border-radius(small);
+  @include u-background-color(black-warm, 4);
+  @include u-border-radius(sm);
 }
 
 .txt-a {
   @include u-color(black, 90);
-  @include u-text-decoration-color(30);
+  @include u-text-decoration-color(black, 30);
   &:hover{
-    @include u-text-decoration-color(90);
+    @include u-text-decoration-color(black, 90);
   }
 }
 
@@ -168,169 +168,6 @@ html {
   }
 }
 
-.usa-card {
-  @include u-border(2px)
-  @include u-border-color(black, 100);
-  @include u-margin-top(2);
-  @include u-padding-x(1);
-  @include u-padding-y(1p5);
-  @include u-border-radius(base);
-
-  @include at-media(tablet-plus){
-    @include u-padding-x(2);
-    @include u-margin-top(4);
-    @include u-padding-bottom(3);
-    @include u-padding-top(2);
-  }
-}
-
-.usa-link-circle {
-  @include u-border(2px);
-  @include u-border-color(black, 20);
-  @include u-border-radius(pill);
-  @include u-color(black, 50);
-  @include u-display(inline-block);
-  @include u-font(sans, 1);
-  @include u-font-weight(normal);
-  @include u-line-height(smallest);
-  @include u-margin-left(2px);
-  @include u-padding(p5);
-  @include u-text-align(center);
-  @include u-text-decoration(none);
-
-  width: spacing(3);
-  &:hover {
-    @include u-border-color(indigo-warm, 60, vivid);
-    @include u-color(indigo-warm, 60, vivid);
-  }
-}
-
-.usa-lede-sup {
-  @include u-display(none);
-  @include u-position(relative);
-  @include u-vertical-align(baseline);
-
-  bottom: spacing(1p5);
-}
-
-.usa-menu-btn {
-  @include u-background-color(indigo-warm, 70);
-  @include u-border-color(60);
-  @include u-border-radius(small);
-  @include u-border-width(0);
-  @include u-color(white);
-  @include u-font(sans, smallest);
-  @include u-margin-top(p5);
-  @include u-min-height(5);
-  @include u-min-width(9);
-  @include u-padding-x(2);
-  @include u-padding-y(1);
-  &:hover{
-    @include u-background-color(red-warm, 50, vivid);
-  }
-  @include at-media(tablet){
-    @include u-display(none);
-  }
-}
-
-.usa-nav-close {
-  @include u-background-color(transparent);
-  @include u-border(0);
-  @include u-display(inline-block);
-  @include u-padding(0);
-  &:focus {
-    outline-color: transparent;
-  }
-  @include at-media(tablet){
-    @include u-display(none);
-  }
-}
-
-.usa-nav-menu-title {
-  @include u-color(red-warm, 50)
-  @include u-font(sans,
-  larger);
-  @include u-font-weight(light);
-  @include at-media(mobile-plus){
-    @include u-font(sans,
-    largest);
-  }
-  @include at-media(tablet){
-    @include u-display(none);
-  }
-}
-
-.usa-nav {
-  @include u-display(none);
-  &.is-visible {
-    @include u-background-color(90);
-    @include u-color(white);
-    @include u-display(block);
-    @include u-height(viewport);
-    @include u-left(0);
-    @include u-padding(2);
-    @include u-position(fixed);
-    @include u-right(0);
-    @include u-text-align(right);
-    @include u-top(0);
-  }
-  @include at-media(tablet){
-    @include u-display(block);
-  }
-}
-
-.usa-nav-primary {
-  @include o-list-reset;
-  @include u-font(sans, larger);
-  @include u-font-weight(light);
-  @include u-line-height(smaller);
-  @include u-text-align(right);
-  @include at-media(mobile-plus){
-    @include u-font(sans, largest);
-  }
-  @include at-media(tablet){
-    @include u-align-items(center)
-    @include u-display(flex);
-    @include u-flex-direction(row);
-    @include u-font(sans, base);
-    @include u-justify-content(flex-end);
-    @include u-margin-y(0);
-  }
-}
-
-.usa-nav-primary-item {
-  @include u-margin-top(2);
-  @include at-media(tablet){
-    @include u-flex(auto);
-  }
-  &.is-active {
-    @include u-font-weight(bold);
-  }
-  & + .usa-nav-primary-item {
-    @include u-margin-left(3);
-  }
-}
-
-.usa-nav-link {
-  @include u-color(white);
-  @include u-text-decoration(none);
-  &:hover {
-    @include u-color(50);
-  }
-  &:active {
-    @include u-color(30);
-  }
-  @include at-media(tablet){
-    @include u-border-bottom(1px);
-    @include u-border-color(indigo-warm, 70);
-    @include u-padding-bottom(p5);
-    &:hover {
-      @include u-border-color(white);
-      @include u-color(white);
-    }
-  }
-}
-
 /* ---------- G - R - I - D ---------- */
 
 .docs-text {
@@ -349,16 +186,16 @@ strong {
   @include u-font(mono, 4);
   @include u-font(mono);
   @include u-padding-y(2px);
-  @include u-padding-x(p5);
-  @include u-background-color(white-warm, 4);
-  @include u-border-radius(small);
+  @include u-padding-x('05');
+  @include u-background-color(black-warm, 4);
+  @include u-border-radius(sm);
 }
 
 .token {
-  @include u-background-color(white-warm, 3);
-  @include u-border-radius(small);
+  @include u-background-color(black-warm, 3);
+  @include u-border-radius(sm);
   @include u-font(mono, 1);
   @include u-font(mono);
-  @include u-padding-x(p5);
+  @include u-padding-x('05');
   @include u-padding-y(2px);
 }
