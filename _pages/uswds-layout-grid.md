@@ -1,7 +1,7 @@
 ---
 layout: prototype-clean
 title: USWDS layout grid draft
-permalink: /layout-grid/
+permalink: /uswds-layout-grid/
 ---
 
 <div class="font-mono-4 font-weight-300 padding-top-2 padding-bottom-4 tablet:padding-top-4 tablet:padding-bottom-6">
