@@ -51,84 +51,84 @@ permalink: /uswds-color-docs-introduction/
         <div class="row gap margin-top-4">
           <div class="col-3 margin-bottom-4">
             <div class="row">
-              <div class="col-fill border-1px border-color-white-1 height-3 background-color-red-5"></div>
-              <div class="col-fill border-1px border-color-white-1 border-left-0 height-3 background-color-red-10"></div>
-              <div class="col-fill border-1px border-color-white-1 border-left-0 height-3 background-color-red-20"></div>
-              <div class="col-fill border-1px border-color-white-1 border-left-0 height-3 background-color-red-30"></div>
-              <div class="col-fill border-1px border-color-white-1 border-left-0 height-3 background-color-red-40"></div>
-              <div class="col-fill border-1px border-color-white-1 border-left-0 height-3 background-color-red-50"></div>
-              <div class="col-fill border-1px border-color-white-1 border-left-0 height-3 background-color-red-60"></div>
-              <div class="col-fill border-1px border-color-white-1 border-left-0 height-3 background-color-red-70"></div>
-              <div class="col-fill border-1px border-color-white-1 border-left-0 height-3 background-color-red-80"></div>
-              <div class="col-fill border-1px border-color-white-1 border-left-0 height-3 background-color-red-90"></div>
+              <div class="col-fill border-1px border-white-1 height-3 background-color-red-5"></div>
+              <div class="col-fill border-1px border-white-1 border-left-0 height-3 background-color-red-10"></div>
+              <div class="col-fill border-1px border-white-1 border-left-0 height-3 background-color-red-20"></div>
+              <div class="col-fill border-1px border-white-1 border-left-0 height-3 background-color-red-30"></div>
+              <div class="col-fill border-1px border-white-1 border-left-0 height-3 background-color-red-40"></div>
+              <div class="col-fill border-1px border-white-1 border-left-0 height-3 background-color-red-50"></div>
+              <div class="col-fill border-1px border-white-1 border-left-0 height-3 background-color-red-60"></div>
+              <div class="col-fill border-1px border-white-1 border-left-0 height-3 background-color-red-70"></div>
+              <div class="col-fill border-1px border-white-1 border-left-0 height-3 background-color-red-80"></div>
+              <div class="col-fill border-1px border-white-1 border-left-0 height-3 background-color-red-90"></div>
             </div>
             <div class="row">
-              <div class="col-fill border-1px border-color-white-1 border-top-0 height-3 background-color-red-5v"></div>
-              <div class="col-fill border-1px border-color-white-1 border-left-0 border-top-0 height-3 background-color-red-10v"></div>
-              <div class="col-fill border-1px border-color-white-1 border-left-0 border-top-0 height-3 background-color-red-20v"></div>
-              <div class="col-fill border-1px border-color-white-1 border-left-0 border-top-0 height-3 background-color-red-30v"></div>
-              <div class="col-fill border-1px border-color-white-1 border-left-0 border-top-0 height-3 background-color-red-40v"></div>
-              <div class="col-fill border-1px border-color-white-1 border-left-0 border-top-0 height-3 background-color-red-50v"></div>
-              <div class="col-fill border-1px border-color-white-1 border-left-0 border-top-0 height-3 background-color-red-60v"></div>
-              <div class="col-fill border-1px border-color-white-1 border-left-0 border-top-0 height-3 background-color-red-70v"></div>
-              <div class="col-fill border-1px border-color-white-1 border-left-0 border-top-0 height-3 background-color-red-80v"></div>
-              <div class="col-fill border-1px border-color-white-1 border-left-0 border-top-0 height-3 background-color-red-90v"></div>
+              <div class="col-fill border-1px border-white-1 border-top-0 height-3 background-color-red-5v"></div>
+              <div class="col-fill border-1px border-white-1 border-left-0 border-top-0 height-3 background-color-red-10v"></div>
+              <div class="col-fill border-1px border-white-1 border-left-0 border-top-0 height-3 background-color-red-20v"></div>
+              <div class="col-fill border-1px border-white-1 border-left-0 border-top-0 height-3 background-color-red-30v"></div>
+              <div class="col-fill border-1px border-white-1 border-left-0 border-top-0 height-3 background-color-red-40v"></div>
+              <div class="col-fill border-1px border-white-1 border-left-0 border-top-0 height-3 background-color-red-50v"></div>
+              <div class="col-fill border-1px border-white-1 border-left-0 border-top-0 height-3 background-color-red-60v"></div>
+              <div class="col-fill border-1px border-white-1 border-left-0 border-top-0 height-3 background-color-red-70v"></div>
+              <div class="col-fill border-1px border-white-1 border-left-0 border-top-0 height-3 background-color-red-80v"></div>
+              <div class="col-fill border-1px border-white-1 border-left-0 border-top-0 height-3 background-color-red-90v"></div>
             </div>
             <p class="sans-2 margin-top-p5 fw-700">Red</p>
           </div><!-- swatch -->
 
           <div class="col-3">
             <div class="row">
-              <div class="col-fill border-1px border-color-white-1 height-3 background-color-red-warm-5"></div>
-              <div class="col-fill border-1px border-color-white-1 border-left-0 height-3 background-color-red-warm-10"></div>
-              <div class="col-fill border-1px border-color-white-1 border-left-0 height-3 background-color-red-warm-20"></div>
-              <div class="col-fill border-1px border-color-white-1 border-left-0 height-3 background-color-red-warm-30"></div>
-              <div class="col-fill border-1px border-color-white-1 border-left-0 height-3 background-color-red-warm-40"></div>
-              <div class="col-fill border-1px border-color-white-1 border-left-0 height-3 background-color-red-warm-50"></div>
-              <div class="col-fill border-1px border-color-white-1 border-left-0 height-3 background-color-red-warm-60"></div>
-              <div class="col-fill border-1px border-color-white-1 border-left-0 height-3 background-color-red-warm-70"></div>
-              <div class="col-fill border-1px border-color-white-1 border-left-0 height-3 background-color-red-warm-80"></div>
-              <div class="col-fill border-1px border-color-white-1 border-left-0 height-3 background-color-red-warm-90"></div>
+              <div class="col-fill border-1px border-white-1 height-3 background-color-red-warm-5"></div>
+              <div class="col-fill border-1px border-white-1 border-left-0 height-3 background-color-red-warm-10"></div>
+              <div class="col-fill border-1px border-white-1 border-left-0 height-3 background-color-red-warm-20"></div>
+              <div class="col-fill border-1px border-white-1 border-left-0 height-3 background-color-red-warm-30"></div>
+              <div class="col-fill border-1px border-white-1 border-left-0 height-3 background-color-red-warm-40"></div>
+              <div class="col-fill border-1px border-white-1 border-left-0 height-3 background-color-red-warm-50"></div>
+              <div class="col-fill border-1px border-white-1 border-left-0 height-3 background-color-red-warm-60"></div>
+              <div class="col-fill border-1px border-white-1 border-left-0 height-3 background-color-red-warm-70"></div>
+              <div class="col-fill border-1px border-white-1 border-left-0 height-3 background-color-red-warm-80"></div>
+              <div class="col-fill border-1px border-white-1 border-left-0 height-3 background-color-red-warm-90"></div>
             </div>
             <div class="row">
-              <div class="col-fill border-1px border-color-white-1 border-top-0 height-3 background-color-red-warm-5v"></div>
-              <div class="col-fill border-1px border-color-white-1 border-left-0 border-top-0 height-3 background-color-red-warm-10v"></div>
-              <div class="col-fill border-1px border-color-white-1 border-left-0 border-top-0 height-3 background-color-red-warm-20v"></div>
-              <div class="col-fill border-1px border-color-white-1 border-left-0 border-top-0 height-3 background-color-red-warm-30v"></div>
-              <div class="col-fill border-1px border-color-white-1 border-left-0 border-top-0 height-3 background-color-red-warm-40v"></div>
-              <div class="col-fill border-1px border-color-white-1 border-left-0 border-top-0 height-3 background-color-red-warm-50v"></div>
-              <div class="col-fill border-1px border-color-white-1 border-left-0 border-top-0 height-3 background-color-red-warm-60v"></div>
-              <div class="col-fill border-1px border-color-white-1 border-left-0 border-top-0 height-3 background-color-red-warm-70v"></div>
-              <div class="col-fill border-1px border-color-white-1 border-left-0 border-top-0 height-3 background-color-red-warm-80v"></div>
-              <div class="col-fill border-1px border-color-white-1 border-left-0 border-top-0 height-3 background-color-red-warm-90v"></div>
+              <div class="col-fill border-1px border-white-1 border-top-0 height-3 background-color-red-warm-5v"></div>
+              <div class="col-fill border-1px border-white-1 border-left-0 border-top-0 height-3 background-color-red-warm-10v"></div>
+              <div class="col-fill border-1px border-white-1 border-left-0 border-top-0 height-3 background-color-red-warm-20v"></div>
+              <div class="col-fill border-1px border-white-1 border-left-0 border-top-0 height-3 background-color-red-warm-30v"></div>
+              <div class="col-fill border-1px border-white-1 border-left-0 border-top-0 height-3 background-color-red-warm-40v"></div>
+              <div class="col-fill border-1px border-white-1 border-left-0 border-top-0 height-3 background-color-red-warm-50v"></div>
+              <div class="col-fill border-1px border-white-1 border-left-0 border-top-0 height-3 background-color-red-warm-60v"></div>
+              <div class="col-fill border-1px border-white-1 border-left-0 border-top-0 height-3 background-color-red-warm-70v"></div>
+              <div class="col-fill border-1px border-white-1 border-left-0 border-top-0 height-3 background-color-red-warm-80v"></div>
+              <div class="col-fill border-1px border-white-1 border-left-0 border-top-0 height-3 background-color-red-warm-90v"></div>
             </div>
             <p class="sans-2 margin-top-p5 fw-700">Red warm</p>
           </div><!-- swatch -->
 
           <div class="col-3">
             <div class="row">
-              <div class="col-fill border-1px border-color-white-1 height-3 background-color-orange-warm-5"></div>
-              <div class="col-fill border-1px border-color-white-1 border-left-0 height-3 background-color-orange-warm-10"></div>
-              <div class="col-fill border-1px border-color-white-1 border-left-0 height-3 background-color-orange-warm-20"></div>
-              <div class="col-fill border-1px border-color-white-1 border-left-0 height-3 background-color-orange-warm-30"></div>
-              <div class="col-fill border-1px border-color-white-1 border-left-0 height-3 background-color-orange-warm-40"></div>
-              <div class="col-fill border-1px border-color-white-1 border-left-0 height-3 background-color-orange-warm-50"></div>
-              <div class="col-fill border-1px border-color-white-1 border-left-0 height-3 background-color-orange-warm-60"></div>
-              <div class="col-fill border-1px border-color-white-1 border-left-0 height-3 background-color-orange-warm-70"></div>
-              <div class="col-fill border-1px border-color-white-1 border-left-0 height-3 background-color-orange-warm-80"></div>
-              <div class="col-fill border-1px border-color-white-1 border-left-0 height-3 background-color-orange-warm-90"></div>
+              <div class="col-fill border-1px border-white-1 height-3 background-color-orange-warm-5"></div>
+              <div class="col-fill border-1px border-white-1 border-left-0 height-3 background-color-orange-warm-10"></div>
+              <div class="col-fill border-1px border-white-1 border-left-0 height-3 background-color-orange-warm-20"></div>
+              <div class="col-fill border-1px border-white-1 border-left-0 height-3 background-color-orange-warm-30"></div>
+              <div class="col-fill border-1px border-white-1 border-left-0 height-3 background-color-orange-warm-40"></div>
+              <div class="col-fill border-1px border-white-1 border-left-0 height-3 background-color-orange-warm-50"></div>
+              <div class="col-fill border-1px border-white-1 border-left-0 height-3 background-color-orange-warm-60"></div>
+              <div class="col-fill border-1px border-white-1 border-left-0 height-3 background-color-orange-warm-70"></div>
+              <div class="col-fill border-1px border-white-1 border-left-0 height-3 background-color-orange-warm-80"></div>
+              <div class="col-fill border-1px border-white-1 border-left-0 height-3 background-color-orange-warm-90"></div>
             </div>
             <div class="row">
-              <div class="col-fill border-1px border-color-white-1 border-top-0 height-3 background-color-orange-warm-5v"></div>
-              <div class="col-fill border-1px border-color-white-1 border-left-0 border-top-0 height-3 background-color-orange-warm-10v"></div>
-              <div class="col-fill border-1px border-color-white-1 border-left-0 border-top-0 height-3 background-color-orange-warm-20v"></div>
-              <div class="col-fill border-1px border-color-white-1 border-left-0 border-top-0 height-3 background-color-orange-warm-30v"></div>
-              <div class="col-fill border-1px border-color-white-1 border-left-0 border-top-0 height-3 background-color-orange-warm-40v"></div>
-              <div class="col-fill border-1px border-color-white-1 border-left-0 border-top-0 height-3 background-color-orange-warm-50v"></div>
-              <div class="col-fill border-1px border-color-white-1 border-left-0 border-top-0 height-3 background-color-orange-warm-60v"></div>
-              <div class="col-fill border-1px border-color-white-1 border-left-0 border-top-0 height-3 background-color-orange-warm-70v"></div>
-              <div class="col-fill border-1px border-color-white-1 border-left-0 border-top-0 height-3 background-color-orange-warm-80v"></div>
-              <div class="col-fill border-1px border-color-white-1 border-left-0 border-top-0 height-3 background-color-orange-warm-90v"></div>
+              <div class="col-fill border-1px border-white-1 border-top-0 height-3 background-color-orange-warm-5v"></div>
+              <div class="col-fill border-1px border-white-1 border-left-0 border-top-0 height-3 background-color-orange-warm-10v"></div>
+              <div class="col-fill border-1px border-white-1 border-left-0 border-top-0 height-3 background-color-orange-warm-20v"></div>
+              <div class="col-fill border-1px border-white-1 border-left-0 border-top-0 height-3 background-color-orange-warm-30v"></div>
+              <div class="col-fill border-1px border-white-1 border-left-0 border-top-0 height-3 background-color-orange-warm-40v"></div>
+              <div class="col-fill border-1px border-white-1 border-left-0 border-top-0 height-3 background-color-orange-warm-50v"></div>
+              <div class="col-fill border-1px border-white-1 border-left-0 border-top-0 height-3 background-color-orange-warm-60v"></div>
+              <div class="col-fill border-1px border-white-1 border-left-0 border-top-0 height-3 background-color-orange-warm-70v"></div>
+              <div class="col-fill border-1px border-white-1 border-left-0 border-top-0 height-3 background-color-orange-warm-80v"></div>
+              <div class="col-fill border-1px border-white-1 border-left-0 border-top-0 height-3 background-color-orange-warm-90v"></div>
             </div>
             <p class="sans-2 margin-top-p5 fw-700">Orange warm</p>
           </div><!-- swatch -->
@@ -136,555 +136,555 @@ permalink: /uswds-color-docs-introduction/
 
           <div class="col-3">
             <div class="row">
-              <div class="col-fill border-1px border-color-white-1 height-3 background-color-orange-5"></div>
-              <div class="col-fill border-1px border-color-white-1 border-left-0 height-3 background-color-orange-10"></div>
-              <div class="col-fill border-1px border-color-white-1 border-left-0 height-3 background-color-orange-20"></div>
-              <div class="col-fill border-1px border-color-white-1 border-left-0 height-3 background-color-orange-30"></div>
-              <div class="col-fill border-1px border-color-white-1 border-left-0 height-3 background-color-orange-40"></div>
-              <div class="col-fill border-1px border-color-white-1 border-left-0 height-3 background-color-orange-50"></div>
-              <div class="col-fill border-1px border-color-white-1 border-left-0 height-3 background-color-orange-60"></div>
-              <div class="col-fill border-1px border-color-white-1 border-left-0 height-3 background-color-orange-70"></div>
-              <div class="col-fill border-1px border-color-white-1 border-left-0 height-3 background-color-orange-80"></div>
-              <div class="col-fill border-1px border-color-white-1 border-left-0 height-3 background-color-orange-90"></div>
+              <div class="col-fill border-1px border-white-1 height-3 background-color-orange-5"></div>
+              <div class="col-fill border-1px border-white-1 border-left-0 height-3 background-color-orange-10"></div>
+              <div class="col-fill border-1px border-white-1 border-left-0 height-3 background-color-orange-20"></div>
+              <div class="col-fill border-1px border-white-1 border-left-0 height-3 background-color-orange-30"></div>
+              <div class="col-fill border-1px border-white-1 border-left-0 height-3 background-color-orange-40"></div>
+              <div class="col-fill border-1px border-white-1 border-left-0 height-3 background-color-orange-50"></div>
+              <div class="col-fill border-1px border-white-1 border-left-0 height-3 background-color-orange-60"></div>
+              <div class="col-fill border-1px border-white-1 border-left-0 height-3 background-color-orange-70"></div>
+              <div class="col-fill border-1px border-white-1 border-left-0 height-3 background-color-orange-80"></div>
+              <div class="col-fill border-1px border-white-1 border-left-0 height-3 background-color-orange-90"></div>
             </div>
             <div class="row">
-              <div class="col-fill border-1px border-color-white-1 border-top-0 height-3 background-color-orange-5v"></div>
-              <div class="col-fill border-1px border-color-white-1 border-left-0 border-top-0 height-3 background-color-orange-10v"></div>
-              <div class="col-fill border-1px border-color-white-1 border-left-0 border-top-0 height-3 background-color-orange-20v"></div>
-              <div class="col-fill border-1px border-color-white-1 border-left-0 border-top-0 height-3 background-color-orange-30v"></div>
-              <div class="col-fill border-1px border-color-white-1 border-left-0 border-top-0 height-3 background-color-orange-40v"></div>
-              <div class="col-fill border-1px border-color-white-1 border-left-0 border-top-0 height-3 background-color-orange-50v"></div>
-              <div class="col-fill border-1px border-color-white-1 border-left-0 border-top-0 height-3 background-color-orange-60v"></div>
-              <div class="col-fill border-1px border-color-white-1 border-left-0 border-top-0 height-3 background-color-orange-70v"></div>
-              <div class="col-fill border-1px border-color-white-1 border-left-0 border-top-0 height-3 background-color-orange-80v"></div>
-              <div class="col-fill border-1px border-color-white-1 border-left-0 border-top-0 height-3 background-color-orange-90v"></div>
+              <div class="col-fill border-1px border-white-1 border-top-0 height-3 background-color-orange-5v"></div>
+              <div class="col-fill border-1px border-white-1 border-left-0 border-top-0 height-3 background-color-orange-10v"></div>
+              <div class="col-fill border-1px border-white-1 border-left-0 border-top-0 height-3 background-color-orange-20v"></div>
+              <div class="col-fill border-1px border-white-1 border-left-0 border-top-0 height-3 background-color-orange-30v"></div>
+              <div class="col-fill border-1px border-white-1 border-left-0 border-top-0 height-3 background-color-orange-40v"></div>
+              <div class="col-fill border-1px border-white-1 border-left-0 border-top-0 height-3 background-color-orange-50v"></div>
+              <div class="col-fill border-1px border-white-1 border-left-0 border-top-0 height-3 background-color-orange-60v"></div>
+              <div class="col-fill border-1px border-white-1 border-left-0 border-top-0 height-3 background-color-orange-70v"></div>
+              <div class="col-fill border-1px border-white-1 border-left-0 border-top-0 height-3 background-color-orange-80v"></div>
+              <div class="col-fill border-1px border-white-1 border-left-0 border-top-0 height-3 background-color-orange-90v"></div>
             </div>
             <p class="sans-2 margin-top-p5 fw-700">Orange</p>
           </div><!-- swatch -->
           <div class="col-3">
             <div class="row">
-              <div class="col-fill border-1px border-color-white-1 height-3 background-color-gold-5"></div>
-              <div class="col-fill border-1px border-color-white-1 border-left-0 height-3 background-color-gold-10"></div>
-              <div class="col-fill border-1px border-color-white-1 border-left-0 height-3 background-color-gold-20"></div>
-              <div class="col-fill border-1px border-color-white-1 border-left-0 height-3 background-color-gold-30"></div>
-              <div class="col-fill border-1px border-color-white-1 border-left-0 height-3 background-color-gold-40"></div>
-              <div class="col-fill border-1px border-color-white-1 border-left-0 height-3 background-color-gold-50"></div>
-              <div class="col-fill border-1px border-color-white-1 border-left-0 height-3 background-color-gold-60"></div>
-              <div class="col-fill border-1px border-color-white-1 border-left-0 height-3 background-color-gold-70"></div>
-              <div class="col-fill border-1px border-color-white-1 border-left-0 height-3 background-color-gold-80"></div>
-              <div class="col-fill border-1px border-color-white-1 border-left-0 height-3 background-color-gold-90"></div>
+              <div class="col-fill border-1px border-white-1 height-3 background-color-gold-5"></div>
+              <div class="col-fill border-1px border-white-1 border-left-0 height-3 background-color-gold-10"></div>
+              <div class="col-fill border-1px border-white-1 border-left-0 height-3 background-color-gold-20"></div>
+              <div class="col-fill border-1px border-white-1 border-left-0 height-3 background-color-gold-30"></div>
+              <div class="col-fill border-1px border-white-1 border-left-0 height-3 background-color-gold-40"></div>
+              <div class="col-fill border-1px border-white-1 border-left-0 height-3 background-color-gold-50"></div>
+              <div class="col-fill border-1px border-white-1 border-left-0 height-3 background-color-gold-60"></div>
+              <div class="col-fill border-1px border-white-1 border-left-0 height-3 background-color-gold-70"></div>
+              <div class="col-fill border-1px border-white-1 border-left-0 height-3 background-color-gold-80"></div>
+              <div class="col-fill border-1px border-white-1 border-left-0 height-3 background-color-gold-90"></div>
             </div>
             <div class="row">
-              <div class="col-fill border-1px border-color-white-1 border-top-0 height-3 background-color-gold-5v"></div>
-              <div class="col-fill border-1px border-color-white-1 border-left-0 border-top-0 height-3 background-color-gold-10v"></div>
-              <div class="col-fill border-1px border-color-white-1 border-left-0 border-top-0 height-3 background-color-gold-20v"></div>
-              <div class="col-fill border-1px border-color-white-1 border-left-0 border-top-0 height-3 background-color-gold-30v"></div>
-              <div class="col-fill border-1px border-color-white-1 border-left-0 border-top-0 height-3 background-color-gold-40v"></div>
-              <div class="col-fill border-1px border-color-white-1 border-left-0 border-top-0 height-3 background-color-gold-50v"></div>
-              <div class="col-fill border-1px border-color-white-1 border-left-0 border-top-0 height-3 background-color-gold-60v"></div>
-              <div class="col-fill border-1px border-color-white-1 border-left-0 border-top-0 height-3 background-color-gold-70v"></div>
-              <div class="col-fill border-1px border-color-white-1 border-left-0 border-top-0 height-3 background-color-gold-80v"></div>
-              <div class="col-fill border-1px border-color-white-1 border-left-0 border-top-0 height-3 background-color-gold-90v"></div>
+              <div class="col-fill border-1px border-white-1 border-top-0 height-3 background-color-gold-5v"></div>
+              <div class="col-fill border-1px border-white-1 border-left-0 border-top-0 height-3 background-color-gold-10v"></div>
+              <div class="col-fill border-1px border-white-1 border-left-0 border-top-0 height-3 background-color-gold-20v"></div>
+              <div class="col-fill border-1px border-white-1 border-left-0 border-top-0 height-3 background-color-gold-30v"></div>
+              <div class="col-fill border-1px border-white-1 border-left-0 border-top-0 height-3 background-color-gold-40v"></div>
+              <div class="col-fill border-1px border-white-1 border-left-0 border-top-0 height-3 background-color-gold-50v"></div>
+              <div class="col-fill border-1px border-white-1 border-left-0 border-top-0 height-3 background-color-gold-60v"></div>
+              <div class="col-fill border-1px border-white-1 border-left-0 border-top-0 height-3 background-color-gold-70v"></div>
+              <div class="col-fill border-1px border-white-1 border-left-0 border-top-0 height-3 background-color-gold-80v"></div>
+              <div class="col-fill border-1px border-white-1 border-left-0 border-top-0 height-3 background-color-gold-90v"></div>
             </div>
             <p class="sans-2 margin-top-p5 fw-700">Gold</p>
           </div><!-- swatch -->
 
           <div class="col-3">
             <div class="row">
-              <div class="col-fill border-1px border-color-white-1 height-3 background-color-yellow-5"></div>
-              <div class="col-fill border-1px border-color-white-1 border-left-0 height-3 background-color-yellow-10"></div>
-              <div class="col-fill border-1px border-color-white-1 border-left-0 height-3 background-color-yellow-20"></div>
-              <div class="col-fill border-1px border-color-white-1 border-left-0 height-3 background-color-yellow-30"></div>
-              <div class="col-fill border-1px border-color-white-1 border-left-0 height-3 background-color-yellow-40"></div>
-              <div class="col-fill border-1px border-color-white-1 border-left-0 height-3 background-color-yellow-50"></div>
-              <div class="col-fill border-1px border-color-white-1 border-left-0 height-3 background-color-yellow-60"></div>
-              <div class="col-fill border-1px border-color-white-1 border-left-0 height-3 background-color-yellow-70"></div>
-              <div class="col-fill border-1px border-color-white-1 border-left-0 height-3 background-color-yellow-80"></div>
-              <div class="col-fill border-1px border-color-white-1 border-left-0 height-3 background-color-yellow-90"></div>
+              <div class="col-fill border-1px border-white-1 height-3 background-color-yellow-5"></div>
+              <div class="col-fill border-1px border-white-1 border-left-0 height-3 background-color-yellow-10"></div>
+              <div class="col-fill border-1px border-white-1 border-left-0 height-3 background-color-yellow-20"></div>
+              <div class="col-fill border-1px border-white-1 border-left-0 height-3 background-color-yellow-30"></div>
+              <div class="col-fill border-1px border-white-1 border-left-0 height-3 background-color-yellow-40"></div>
+              <div class="col-fill border-1px border-white-1 border-left-0 height-3 background-color-yellow-50"></div>
+              <div class="col-fill border-1px border-white-1 border-left-0 height-3 background-color-yellow-60"></div>
+              <div class="col-fill border-1px border-white-1 border-left-0 height-3 background-color-yellow-70"></div>
+              <div class="col-fill border-1px border-white-1 border-left-0 height-3 background-color-yellow-80"></div>
+              <div class="col-fill border-1px border-white-1 border-left-0 height-3 background-color-yellow-90"></div>
             </div>
             <div class="row">
-              <div class="col-fill border-1px border-color-white-1 border-top-0 height-3 background-color-yellow-5v"></div>
-              <div class="col-fill border-1px border-color-white-1 border-left-0 border-top-0 height-3 background-color-yellow-10v"></div>
-              <div class="col-fill border-1px border-color-white-1 border-left-0 border-top-0 height-3 background-color-yellow-20v"></div>
-              <div class="col-fill border-1px border-color-white-1 border-left-0 border-top-0 height-3 background-color-yellow-30v"></div>
-              <div class="col-fill border-1px border-color-white-1 border-left-0 border-top-0 height-3 background-color-yellow-40v"></div>
-              <div class="col-fill border-1px border-color-white-1 border-left-0 border-top-0 height-3 background-color-yellow-50v"></div>
-              <div class="col-fill border-1px border-color-white-1 border-left-0 border-top-0 height-3 background-color-yellow-60v"></div>
-              <div class="col-fill border-1px border-color-white-1 border-left-0 border-top-0 height-3 background-color-yellow-70v"></div>
-              <div class="col-fill border-1px border-color-white-1 border-left-0 border-top-0 height-3 background-color-yellow-80v"></div>
-              <div class="col-fill border-1px border-color-white-1 border-left-0 border-top-0 height-3 background-color-yellow-90v"></div>
+              <div class="col-fill border-1px border-white-1 border-top-0 height-3 background-color-yellow-5v"></div>
+              <div class="col-fill border-1px border-white-1 border-left-0 border-top-0 height-3 background-color-yellow-10v"></div>
+              <div class="col-fill border-1px border-white-1 border-left-0 border-top-0 height-3 background-color-yellow-20v"></div>
+              <div class="col-fill border-1px border-white-1 border-left-0 border-top-0 height-3 background-color-yellow-30v"></div>
+              <div class="col-fill border-1px border-white-1 border-left-0 border-top-0 height-3 background-color-yellow-40v"></div>
+              <div class="col-fill border-1px border-white-1 border-left-0 border-top-0 height-3 background-color-yellow-50v"></div>
+              <div class="col-fill border-1px border-white-1 border-left-0 border-top-0 height-3 background-color-yellow-60v"></div>
+              <div class="col-fill border-1px border-white-1 border-left-0 border-top-0 height-3 background-color-yellow-70v"></div>
+              <div class="col-fill border-1px border-white-1 border-left-0 border-top-0 height-3 background-color-yellow-80v"></div>
+              <div class="col-fill border-1px border-white-1 border-left-0 border-top-0 height-3 background-color-yellow-90v"></div>
             </div>
             <p class="sans-2 margin-top-p5 fw-700">Yellow</p>
           </div><!-- swatch -->
 
           <div class="col-3 margin-bottom-4">
             <div class="row">
-              <div class="col-fill border-1px border-color-white-1 height-3 background-color-green-warm-5"></div>
-              <div class="col-fill border-1px border-color-white-1 border-left-0 height-3 background-color-green-warm-10"></div>
-              <div class="col-fill border-1px border-color-white-1 border-left-0 height-3 background-color-green-warm-20"></div>
-              <div class="col-fill border-1px border-color-white-1 border-left-0 height-3 background-color-green-warm-30"></div>
-              <div class="col-fill border-1px border-color-white-1 border-left-0 height-3 background-color-green-warm-40"></div>
-              <div class="col-fill border-1px border-color-white-1 border-left-0 height-3 background-color-green-warm-50"></div>
-              <div class="col-fill border-1px border-color-white-1 border-left-0 height-3 background-color-green-warm-60"></div>
-              <div class="col-fill border-1px border-color-white-1 border-left-0 height-3 background-color-green-warm-70"></div>
-              <div class="col-fill border-1px border-color-white-1 border-left-0 height-3 background-color-green-warm-80"></div>
-              <div class="col-fill border-1px border-color-white-1 border-left-0 height-3 background-color-green-warm-90"></div>
+              <div class="col-fill border-1px border-white-1 height-3 background-color-green-warm-5"></div>
+              <div class="col-fill border-1px border-white-1 border-left-0 height-3 background-color-green-warm-10"></div>
+              <div class="col-fill border-1px border-white-1 border-left-0 height-3 background-color-green-warm-20"></div>
+              <div class="col-fill border-1px border-white-1 border-left-0 height-3 background-color-green-warm-30"></div>
+              <div class="col-fill border-1px border-white-1 border-left-0 height-3 background-color-green-warm-40"></div>
+              <div class="col-fill border-1px border-white-1 border-left-0 height-3 background-color-green-warm-50"></div>
+              <div class="col-fill border-1px border-white-1 border-left-0 height-3 background-color-green-warm-60"></div>
+              <div class="col-fill border-1px border-white-1 border-left-0 height-3 background-color-green-warm-70"></div>
+              <div class="col-fill border-1px border-white-1 border-left-0 height-3 background-color-green-warm-80"></div>
+              <div class="col-fill border-1px border-white-1 border-left-0 height-3 background-color-green-warm-90"></div>
             </div>
             <div class="row">
-              <div class="col-fill border-1px border-color-white-1 border-top-0 height-3 background-color-green-warm-5v"></div>
-              <div class="col-fill border-1px border-color-white-1 border-left-0 border-top-0 height-3 background-color-green-warm-10v"></div>
-              <div class="col-fill border-1px border-color-white-1 border-left-0 border-top-0 height-3 background-color-green-warm-20v"></div>
-              <div class="col-fill border-1px border-color-white-1 border-left-0 border-top-0 height-3 background-color-green-warm-30v"></div>
-              <div class="col-fill border-1px border-color-white-1 border-left-0 border-top-0 height-3 background-color-green-warm-40v"></div>
-              <div class="col-fill border-1px border-color-white-1 border-left-0 border-top-0 height-3 background-color-green-warm-50v"></div>
-              <div class="col-fill border-1px border-color-white-1 border-left-0 border-top-0 height-3 background-color-green-warm-60v"></div>
-              <div class="col-fill border-1px border-color-white-1 border-left-0 border-top-0 height-3 background-color-green-warm-70v"></div>
-              <div class="col-fill border-1px border-color-white-1 border-left-0 border-top-0 height-3 background-color-green-warm-80v"></div>
-              <div class="col-fill border-1px border-color-white-1 border-left-0 border-top-0 height-3 background-color-green-warm-90v"></div>
+              <div class="col-fill border-1px border-white-1 border-top-0 height-3 background-color-green-warm-5v"></div>
+              <div class="col-fill border-1px border-white-1 border-left-0 border-top-0 height-3 background-color-green-warm-10v"></div>
+              <div class="col-fill border-1px border-white-1 border-left-0 border-top-0 height-3 background-color-green-warm-20v"></div>
+              <div class="col-fill border-1px border-white-1 border-left-0 border-top-0 height-3 background-color-green-warm-30v"></div>
+              <div class="col-fill border-1px border-white-1 border-left-0 border-top-0 height-3 background-color-green-warm-40v"></div>
+              <div class="col-fill border-1px border-white-1 border-left-0 border-top-0 height-3 background-color-green-warm-50v"></div>
+              <div class="col-fill border-1px border-white-1 border-left-0 border-top-0 height-3 background-color-green-warm-60v"></div>
+              <div class="col-fill border-1px border-white-1 border-left-0 border-top-0 height-3 background-color-green-warm-70v"></div>
+              <div class="col-fill border-1px border-white-1 border-left-0 border-top-0 height-3 background-color-green-warm-80v"></div>
+              <div class="col-fill border-1px border-white-1 border-left-0 border-top-0 height-3 background-color-green-warm-90v"></div>
             </div>
             <p class="sans-2 margin-top-p5 fw-700">Green warm</p>
           </div><!-- swatch -->
 
           <div class="col-3 margin-bottom-4">
             <div class="row">
-              <div class="col-fill border-1px border-color-white-1 height-3 background-color-green-5"></div>
-              <div class="col-fill border-1px border-color-white-1 border-left-0 height-3 background-color-green-10"></div>
-              <div class="col-fill border-1px border-color-white-1 border-left-0 height-3 background-color-green-20"></div>
-              <div class="col-fill border-1px border-color-white-1 border-left-0 height-3 background-color-green-30"></div>
-              <div class="col-fill border-1px border-color-white-1 border-left-0 height-3 background-color-green-40"></div>
-              <div class="col-fill border-1px border-color-white-1 border-left-0 height-3 background-color-green-50"></div>
-              <div class="col-fill border-1px border-color-white-1 border-left-0 height-3 background-color-green-60"></div>
-              <div class="col-fill border-1px border-color-white-1 border-left-0 height-3 background-color-green-70"></div>
-              <div class="col-fill border-1px border-color-white-1 border-left-0 height-3 background-color-green-80"></div>
-              <div class="col-fill border-1px border-color-white-1 border-left-0 height-3 background-color-green-90"></div>
+              <div class="col-fill border-1px border-white-1 height-3 background-color-green-5"></div>
+              <div class="col-fill border-1px border-white-1 border-left-0 height-3 background-color-green-10"></div>
+              <div class="col-fill border-1px border-white-1 border-left-0 height-3 background-color-green-20"></div>
+              <div class="col-fill border-1px border-white-1 border-left-0 height-3 background-color-green-30"></div>
+              <div class="col-fill border-1px border-white-1 border-left-0 height-3 background-color-green-40"></div>
+              <div class="col-fill border-1px border-white-1 border-left-0 height-3 background-color-green-50"></div>
+              <div class="col-fill border-1px border-white-1 border-left-0 height-3 background-color-green-60"></div>
+              <div class="col-fill border-1px border-white-1 border-left-0 height-3 background-color-green-70"></div>
+              <div class="col-fill border-1px border-white-1 border-left-0 height-3 background-color-green-80"></div>
+              <div class="col-fill border-1px border-white-1 border-left-0 height-3 background-color-green-90"></div>
             </div>
             <div class="row">
-              <div class="col-fill border-1px border-color-white-1 border-top-0 height-3 background-color-green-5v"></div>
-              <div class="col-fill border-1px border-color-white-1 border-left-0 border-top-0 height-3 background-color-green-10v"></div>
-              <div class="col-fill border-1px border-color-white-1 border-left-0 border-top-0 height-3 background-color-green-20v"></div>
-              <div class="col-fill border-1px border-color-white-1 border-left-0 border-top-0 height-3 background-color-green-30v"></div>
-              <div class="col-fill border-1px border-color-white-1 border-left-0 border-top-0 height-3 background-color-green-40v"></div>
-              <div class="col-fill border-1px border-color-white-1 border-left-0 border-top-0 height-3 background-color-green-50v"></div>
-              <div class="col-fill border-1px border-color-white-1 border-left-0 border-top-0 height-3 background-color-green-60v"></div>
-              <div class="col-fill border-1px border-color-white-1 border-left-0 border-top-0 height-3 background-color-green-70v"></div>
-              <div class="col-fill border-1px border-color-white-1 border-left-0 border-top-0 height-3 background-color-green-80v"></div>
-              <div class="col-fill border-1px border-color-white-1 border-left-0 border-top-0 height-3 background-color-green-90v"></div>
+              <div class="col-fill border-1px border-white-1 border-top-0 height-3 background-color-green-5v"></div>
+              <div class="col-fill border-1px border-white-1 border-left-0 border-top-0 height-3 background-color-green-10v"></div>
+              <div class="col-fill border-1px border-white-1 border-left-0 border-top-0 height-3 background-color-green-20v"></div>
+              <div class="col-fill border-1px border-white-1 border-left-0 border-top-0 height-3 background-color-green-30v"></div>
+              <div class="col-fill border-1px border-white-1 border-left-0 border-top-0 height-3 background-color-green-40v"></div>
+              <div class="col-fill border-1px border-white-1 border-left-0 border-top-0 height-3 background-color-green-50v"></div>
+              <div class="col-fill border-1px border-white-1 border-left-0 border-top-0 height-3 background-color-green-60v"></div>
+              <div class="col-fill border-1px border-white-1 border-left-0 border-top-0 height-3 background-color-green-70v"></div>
+              <div class="col-fill border-1px border-white-1 border-left-0 border-top-0 height-3 background-color-green-80v"></div>
+              <div class="col-fill border-1px border-white-1 border-left-0 border-top-0 height-3 background-color-green-90v"></div>
             </div>
             <p class="sans-2 margin-top-p5 fw-700">Green</p>
           </div><!-- swatch -->
 
           <div class="col-3 margin-bottom-4">
             <div class="row">
-              <div class="col-fill border-1px border-color-white-1 height-3 background-color-green-cool-5"></div>
-              <div class="col-fill border-1px border-color-white-1 border-left-0 height-3 background-color-green-cool-10"></div>
-              <div class="col-fill border-1px border-color-white-1 border-left-0 height-3 background-color-green-cool-20"></div>
-              <div class="col-fill border-1px border-color-white-1 border-left-0 height-3 background-color-green-cool-30"></div>
-              <div class="col-fill border-1px border-color-white-1 border-left-0 height-3 background-color-green-cool-40"></div>
-              <div class="col-fill border-1px border-color-white-1 border-left-0 height-3 background-color-green-cool-50"></div>
-              <div class="col-fill border-1px border-color-white-1 border-left-0 height-3 background-color-green-cool-60"></div>
-              <div class="col-fill border-1px border-color-white-1 border-left-0 height-3 background-color-green-cool-70"></div>
-              <div class="col-fill border-1px border-color-white-1 border-left-0 height-3 background-color-green-cool-80"></div>
-              <div class="col-fill border-1px border-color-white-1 border-left-0 height-3 background-color-green-cool-90"></div>
+              <div class="col-fill border-1px border-white-1 height-3 background-color-green-cool-5"></div>
+              <div class="col-fill border-1px border-white-1 border-left-0 height-3 background-color-green-cool-10"></div>
+              <div class="col-fill border-1px border-white-1 border-left-0 height-3 background-color-green-cool-20"></div>
+              <div class="col-fill border-1px border-white-1 border-left-0 height-3 background-color-green-cool-30"></div>
+              <div class="col-fill border-1px border-white-1 border-left-0 height-3 background-color-green-cool-40"></div>
+              <div class="col-fill border-1px border-white-1 border-left-0 height-3 background-color-green-cool-50"></div>
+              <div class="col-fill border-1px border-white-1 border-left-0 height-3 background-color-green-cool-60"></div>
+              <div class="col-fill border-1px border-white-1 border-left-0 height-3 background-color-green-cool-70"></div>
+              <div class="col-fill border-1px border-white-1 border-left-0 height-3 background-color-green-cool-80"></div>
+              <div class="col-fill border-1px border-white-1 border-left-0 height-3 background-color-green-cool-90"></div>
             </div>
             <div class="row">
-              <div class="col-fill border-1px border-color-white-1 border-top-0 height-3 background-color-green-cool-5v"></div>
-              <div class="col-fill border-1px border-color-white-1 border-left-0 border-top-0 height-3 background-color-green-cool-10v"></div>
-              <div class="col-fill border-1px border-color-white-1 border-left-0 border-top-0 height-3 background-color-green-cool-20v"></div>
-              <div class="col-fill border-1px border-color-white-1 border-left-0 border-top-0 height-3 background-color-green-cool-30v"></div>
-              <div class="col-fill border-1px border-color-white-1 border-left-0 border-top-0 height-3 background-color-green-cool-40v"></div>
-              <div class="col-fill border-1px border-color-white-1 border-left-0 border-top-0 height-3 background-color-green-cool-50v"></div>
-              <div class="col-fill border-1px border-color-white-1 border-left-0 border-top-0 height-3 background-color-green-cool-60v"></div>
-              <div class="col-fill border-1px border-color-white-1 border-left-0 border-top-0 height-3 background-color-green-cool-70v"></div>
-              <div class="col-fill border-1px border-color-white-1 border-left-0 border-top-0 height-3 background-color-green-cool-80v"></div>
-              <div class="col-fill border-1px border-color-white-1 border-left-0 border-top-0 height-3 background-color-green-cool-90v"></div>
+              <div class="col-fill border-1px border-white-1 border-top-0 height-3 background-color-green-cool-5v"></div>
+              <div class="col-fill border-1px border-white-1 border-left-0 border-top-0 height-3 background-color-green-cool-10v"></div>
+              <div class="col-fill border-1px border-white-1 border-left-0 border-top-0 height-3 background-color-green-cool-20v"></div>
+              <div class="col-fill border-1px border-white-1 border-left-0 border-top-0 height-3 background-color-green-cool-30v"></div>
+              <div class="col-fill border-1px border-white-1 border-left-0 border-top-0 height-3 background-color-green-cool-40v"></div>
+              <div class="col-fill border-1px border-white-1 border-left-0 border-top-0 height-3 background-color-green-cool-50v"></div>
+              <div class="col-fill border-1px border-white-1 border-left-0 border-top-0 height-3 background-color-green-cool-60v"></div>
+              <div class="col-fill border-1px border-white-1 border-left-0 border-top-0 height-3 background-color-green-cool-70v"></div>
+              <div class="col-fill border-1px border-white-1 border-left-0 border-top-0 height-3 background-color-green-cool-80v"></div>
+              <div class="col-fill border-1px border-white-1 border-left-0 border-top-0 height-3 background-color-green-cool-90v"></div>
             </div>
             <p class="sans-2 margin-top-p5 fw-700">Green cool</p>
           </div><!-- swatch -->
 
           <div class="col-3 margin-bottom-4">
             <div class="row">
-              <div class="col-fill border-1px border-color-white-1 height-3 background-color-mint-5"></div>
-              <div class="col-fill border-1px border-color-white-1 border-left-0 height-3 background-color-mint-10"></div>
-              <div class="col-fill border-1px border-color-white-1 border-left-0 height-3 background-color-mint-20"></div>
-              <div class="col-fill border-1px border-color-white-1 border-left-0 height-3 background-color-mint-30"></div>
-              <div class="col-fill border-1px border-color-white-1 border-left-0 height-3 background-color-mint-40"></div>
-              <div class="col-fill border-1px border-color-white-1 border-left-0 height-3 background-color-mint-50"></div>
-              <div class="col-fill border-1px border-color-white-1 border-left-0 height-3 background-color-mint-60"></div>
-              <div class="col-fill border-1px border-color-white-1 border-left-0 height-3 background-color-mint-70"></div>
-              <div class="col-fill border-1px border-color-white-1 border-left-0 height-3 background-color-mint-80"></div>
-              <div class="col-fill border-1px border-color-white-1 border-left-0 height-3 background-color-mint-90"></div>
+              <div class="col-fill border-1px border-white-1 height-3 background-color-mint-5"></div>
+              <div class="col-fill border-1px border-white-1 border-left-0 height-3 background-color-mint-10"></div>
+              <div class="col-fill border-1px border-white-1 border-left-0 height-3 background-color-mint-20"></div>
+              <div class="col-fill border-1px border-white-1 border-left-0 height-3 background-color-mint-30"></div>
+              <div class="col-fill border-1px border-white-1 border-left-0 height-3 background-color-mint-40"></div>
+              <div class="col-fill border-1px border-white-1 border-left-0 height-3 background-color-mint-50"></div>
+              <div class="col-fill border-1px border-white-1 border-left-0 height-3 background-color-mint-60"></div>
+              <div class="col-fill border-1px border-white-1 border-left-0 height-3 background-color-mint-70"></div>
+              <div class="col-fill border-1px border-white-1 border-left-0 height-3 background-color-mint-80"></div>
+              <div class="col-fill border-1px border-white-1 border-left-0 height-3 background-color-mint-90"></div>
             </div>
             <div class="row">
-              <div class="col-fill border-1px border-color-white-1 border-top-0 height-3 background-color-mint-5v"></div>
-              <div class="col-fill border-1px border-color-white-1 border-left-0 border-top-0 height-3 background-color-mint-10v"></div>
-              <div class="col-fill border-1px border-color-white-1 border-left-0 border-top-0 height-3 background-color-mint-20v"></div>
-              <div class="col-fill border-1px border-color-white-1 border-left-0 border-top-0 height-3 background-color-mint-30v"></div>
-              <div class="col-fill border-1px border-color-white-1 border-left-0 border-top-0 height-3 background-color-mint-40v"></div>
-              <div class="col-fill border-1px border-color-white-1 border-left-0 border-top-0 height-3 background-color-mint-50v"></div>
-              <div class="col-fill border-1px border-color-white-1 border-left-0 border-top-0 height-3 background-color-mint-60v"></div>
-              <div class="col-fill border-1px border-color-white-1 border-left-0 border-top-0 height-3 background-color-mint-70v"></div>
-              <div class="col-fill border-1px border-color-white-1 border-left-0 border-top-0 height-3 background-color-mint-80v"></div>
-              <div class="col-fill border-1px border-color-white-1 border-left-0 border-top-0 height-3 background-color-mint-90v"></div>
+              <div class="col-fill border-1px border-white-1 border-top-0 height-3 background-color-mint-5v"></div>
+              <div class="col-fill border-1px border-white-1 border-left-0 border-top-0 height-3 background-color-mint-10v"></div>
+              <div class="col-fill border-1px border-white-1 border-left-0 border-top-0 height-3 background-color-mint-20v"></div>
+              <div class="col-fill border-1px border-white-1 border-left-0 border-top-0 height-3 background-color-mint-30v"></div>
+              <div class="col-fill border-1px border-white-1 border-left-0 border-top-0 height-3 background-color-mint-40v"></div>
+              <div class="col-fill border-1px border-white-1 border-left-0 border-top-0 height-3 background-color-mint-50v"></div>
+              <div class="col-fill border-1px border-white-1 border-left-0 border-top-0 height-3 background-color-mint-60v"></div>
+              <div class="col-fill border-1px border-white-1 border-left-0 border-top-0 height-3 background-color-mint-70v"></div>
+              <div class="col-fill border-1px border-white-1 border-left-0 border-top-0 height-3 background-color-mint-80v"></div>
+              <div class="col-fill border-1px border-white-1 border-left-0 border-top-0 height-3 background-color-mint-90v"></div>
             </div>
             <p class="sans-2 margin-top-p5 fw-700">Mint</p>
           </div><!-- swatch -->
 
           <div class="col-3 margin-bottom-4">
             <div class="row">
-              <div class="col-fill border-1px border-color-white-1 height-3 background-color-mint-cool-5"></div>
-              <div class="col-fill border-1px border-color-white-1 border-left-0 height-3 background-color-mint-cool-10"></div>
-              <div class="col-fill border-1px border-color-white-1 border-left-0 height-3 background-color-mint-cool-20"></div>
-              <div class="col-fill border-1px border-color-white-1 border-left-0 height-3 background-color-mint-cool-30"></div>
-              <div class="col-fill border-1px border-color-white-1 border-left-0 height-3 background-color-mint-cool-40"></div>
-              <div class="col-fill border-1px border-color-white-1 border-left-0 height-3 background-color-mint-cool-50"></div>
-              <div class="col-fill border-1px border-color-white-1 border-left-0 height-3 background-color-mint-cool-60"></div>
-              <div class="col-fill border-1px border-color-white-1 border-left-0 height-3 background-color-mint-cool-70"></div>
-              <div class="col-fill border-1px border-color-white-1 border-left-0 height-3 background-color-mint-cool-80"></div>
-              <div class="col-fill border-1px border-color-white-1 border-left-0 height-3 background-color-mint-cool-90"></div>
+              <div class="col-fill border-1px border-white-1 height-3 background-color-mint-cool-5"></div>
+              <div class="col-fill border-1px border-white-1 border-left-0 height-3 background-color-mint-cool-10"></div>
+              <div class="col-fill border-1px border-white-1 border-left-0 height-3 background-color-mint-cool-20"></div>
+              <div class="col-fill border-1px border-white-1 border-left-0 height-3 background-color-mint-cool-30"></div>
+              <div class="col-fill border-1px border-white-1 border-left-0 height-3 background-color-mint-cool-40"></div>
+              <div class="col-fill border-1px border-white-1 border-left-0 height-3 background-color-mint-cool-50"></div>
+              <div class="col-fill border-1px border-white-1 border-left-0 height-3 background-color-mint-cool-60"></div>
+              <div class="col-fill border-1px border-white-1 border-left-0 height-3 background-color-mint-cool-70"></div>
+              <div class="col-fill border-1px border-white-1 border-left-0 height-3 background-color-mint-cool-80"></div>
+              <div class="col-fill border-1px border-white-1 border-left-0 height-3 background-color-mint-cool-90"></div>
             </div>
             <div class="row">
-              <div class="col-fill border-1px border-color-white-1 border-top-0 height-3 background-color-mint-cool-5v"></div>
-              <div class="col-fill border-1px border-color-white-1 border-left-0 border-top-0 height-3 background-color-mint-cool-10v"></div>
-              <div class="col-fill border-1px border-color-white-1 border-left-0 border-top-0 height-3 background-color-mint-cool-20v"></div>
-              <div class="col-fill border-1px border-color-white-1 border-left-0 border-top-0 height-3 background-color-mint-cool-30v"></div>
-              <div class="col-fill border-1px border-color-white-1 border-left-0 border-top-0 height-3 background-color-mint-cool-40v"></div>
-              <div class="col-fill border-1px border-color-white-1 border-left-0 border-top-0 height-3 background-color-mint-cool-50v"></div>
-              <div class="col-fill border-1px border-color-white-1 border-left-0 border-top-0 height-3 background-color-mint-cool-60v"></div>
-              <div class="col-fill border-1px border-color-white-1 border-left-0 border-top-0 height-3 background-color-mint-cool-70v"></div>
-              <div class="col-fill border-1px border-color-white-1 border-left-0 border-top-0 height-3 background-color-mint-cool-80v"></div>
-              <div class="col-fill border-1px border-color-white-1 border-left-0 border-top-0 height-3 background-color-mint-cool-90v"></div>
+              <div class="col-fill border-1px border-white-1 border-top-0 height-3 background-color-mint-cool-5v"></div>
+              <div class="col-fill border-1px border-white-1 border-left-0 border-top-0 height-3 background-color-mint-cool-10v"></div>
+              <div class="col-fill border-1px border-white-1 border-left-0 border-top-0 height-3 background-color-mint-cool-20v"></div>
+              <div class="col-fill border-1px border-white-1 border-left-0 border-top-0 height-3 background-color-mint-cool-30v"></div>
+              <div class="col-fill border-1px border-white-1 border-left-0 border-top-0 height-3 background-color-mint-cool-40v"></div>
+              <div class="col-fill border-1px border-white-1 border-left-0 border-top-0 height-3 background-color-mint-cool-50v"></div>
+              <div class="col-fill border-1px border-white-1 border-left-0 border-top-0 height-3 background-color-mint-cool-60v"></div>
+              <div class="col-fill border-1px border-white-1 border-left-0 border-top-0 height-3 background-color-mint-cool-70v"></div>
+              <div class="col-fill border-1px border-white-1 border-left-0 border-top-0 height-3 background-color-mint-cool-80v"></div>
+              <div class="col-fill border-1px border-white-1 border-left-0 border-top-0 height-3 background-color-mint-cool-90v"></div>
             </div>
             <p class="sans-2 margin-top-p5 fw-700">Mint cool</p>
           </div><!-- swatch -->
 
           <div class="col-3 margin-bottom-4">
             <div class="row">
-              <div class="col-fill border-1px border-color-white-1 height-3 background-color-cyan-5"></div>
-              <div class="col-fill border-1px border-color-white-1 border-left-0 height-3 background-color-cyan-10"></div>
-              <div class="col-fill border-1px border-color-white-1 border-left-0 height-3 background-color-cyan-20"></div>
-              <div class="col-fill border-1px border-color-white-1 border-left-0 height-3 background-color-cyan-30"></div>
-              <div class="col-fill border-1px border-color-white-1 border-left-0 height-3 background-color-cyan-40"></div>
-              <div class="col-fill border-1px border-color-white-1 border-left-0 height-3 background-color-cyan-50"></div>
-              <div class="col-fill border-1px border-color-white-1 border-left-0 height-3 background-color-cyan-60"></div>
-              <div class="col-fill border-1px border-color-white-1 border-left-0 height-3 background-color-cyan-70"></div>
-              <div class="col-fill border-1px border-color-white-1 border-left-0 height-3 background-color-cyan-80"></div>
-              <div class="col-fill border-1px border-color-white-1 border-left-0 height-3 background-color-cyan-90"></div>
+              <div class="col-fill border-1px border-white-1 height-3 background-color-cyan-5"></div>
+              <div class="col-fill border-1px border-white-1 border-left-0 height-3 background-color-cyan-10"></div>
+              <div class="col-fill border-1px border-white-1 border-left-0 height-3 background-color-cyan-20"></div>
+              <div class="col-fill border-1px border-white-1 border-left-0 height-3 background-color-cyan-30"></div>
+              <div class="col-fill border-1px border-white-1 border-left-0 height-3 background-color-cyan-40"></div>
+              <div class="col-fill border-1px border-white-1 border-left-0 height-3 background-color-cyan-50"></div>
+              <div class="col-fill border-1px border-white-1 border-left-0 height-3 background-color-cyan-60"></div>
+              <div class="col-fill border-1px border-white-1 border-left-0 height-3 background-color-cyan-70"></div>
+              <div class="col-fill border-1px border-white-1 border-left-0 height-3 background-color-cyan-80"></div>
+              <div class="col-fill border-1px border-white-1 border-left-0 height-3 background-color-cyan-90"></div>
             </div>
             <div class="row">
-              <div class="col-fill border-1px border-color-white-1 border-top-0 height-3 background-color-cyan-5v"></div>
-              <div class="col-fill border-1px border-color-white-1 border-left-0 border-top-0 height-3 background-color-cyan-10v"></div>
-              <div class="col-fill border-1px border-color-white-1 border-left-0 border-top-0 height-3 background-color-cyan-20v"></div>
-              <div class="col-fill border-1px border-color-white-1 border-left-0 border-top-0 height-3 background-color-cyan-30v"></div>
-              <div class="col-fill border-1px border-color-white-1 border-left-0 border-top-0 height-3 background-color-cyan-40v"></div>
-              <div class="col-fill border-1px border-color-white-1 border-left-0 border-top-0 height-3 background-color-cyan-50v"></div>
-              <div class="col-fill border-1px border-color-white-1 border-left-0 border-top-0 height-3 background-color-cyan-60v"></div>
-              <div class="col-fill border-1px border-color-white-1 border-left-0 border-top-0 height-3 background-color-cyan-70v"></div>
-              <div class="col-fill border-1px border-color-white-1 border-left-0 border-top-0 height-3 background-color-cyan-80v"></div>
-              <div class="col-fill border-1px border-color-white-1 border-left-0 border-top-0 height-3 background-color-cyan-90v"></div>
+              <div class="col-fill border-1px border-white-1 border-top-0 height-3 background-color-cyan-5v"></div>
+              <div class="col-fill border-1px border-white-1 border-left-0 border-top-0 height-3 background-color-cyan-10v"></div>
+              <div class="col-fill border-1px border-white-1 border-left-0 border-top-0 height-3 background-color-cyan-20v"></div>
+              <div class="col-fill border-1px border-white-1 border-left-0 border-top-0 height-3 background-color-cyan-30v"></div>
+              <div class="col-fill border-1px border-white-1 border-left-0 border-top-0 height-3 background-color-cyan-40v"></div>
+              <div class="col-fill border-1px border-white-1 border-left-0 border-top-0 height-3 background-color-cyan-50v"></div>
+              <div class="col-fill border-1px border-white-1 border-left-0 border-top-0 height-3 background-color-cyan-60v"></div>
+              <div class="col-fill border-1px border-white-1 border-left-0 border-top-0 height-3 background-color-cyan-70v"></div>
+              <div class="col-fill border-1px border-white-1 border-left-0 border-top-0 height-3 background-color-cyan-80v"></div>
+              <div class="col-fill border-1px border-white-1 border-left-0 border-top-0 height-3 background-color-cyan-90v"></div>
             </div>
             <p class="sans-2 margin-top-p5 fw-700">Cyan</p>
           </div><!-- swatch -->
 
           <div class="col-3 margin-bottom-4">
             <div class="row">
-              <div class="col-fill border-1px border-color-white-1 height-3 background-color-blue-5"></div>
-              <div class="col-fill border-1px border-color-white-1 border-left-0 height-3 background-color-blue-10"></div>
-              <div class="col-fill border-1px border-color-white-1 border-left-0 height-3 background-color-blue-20"></div>
-              <div class="col-fill border-1px border-color-white-1 border-left-0 height-3 background-color-blue-30"></div>
-              <div class="col-fill border-1px border-color-white-1 border-left-0 height-3 background-color-blue-40"></div>
-              <div class="col-fill border-1px border-color-white-1 border-left-0 height-3 background-color-blue-50"></div>
-              <div class="col-fill border-1px border-color-white-1 border-left-0 height-3 background-color-blue-60"></div>
-              <div class="col-fill border-1px border-color-white-1 border-left-0 height-3 background-color-blue-70"></div>
-              <div class="col-fill border-1px border-color-white-1 border-left-0 height-3 background-color-blue-80"></div>
-              <div class="col-fill border-1px border-color-white-1 border-left-0 height-3 background-color-blue-90"></div>
+              <div class="col-fill border-1px border-white-1 height-3 background-color-blue-5"></div>
+              <div class="col-fill border-1px border-white-1 border-left-0 height-3 background-color-blue-10"></div>
+              <div class="col-fill border-1px border-white-1 border-left-0 height-3 background-color-blue-20"></div>
+              <div class="col-fill border-1px border-white-1 border-left-0 height-3 background-color-blue-30"></div>
+              <div class="col-fill border-1px border-white-1 border-left-0 height-3 background-color-blue-40"></div>
+              <div class="col-fill border-1px border-white-1 border-left-0 height-3 background-color-blue-50"></div>
+              <div class="col-fill border-1px border-white-1 border-left-0 height-3 background-color-blue-60"></div>
+              <div class="col-fill border-1px border-white-1 border-left-0 height-3 background-color-blue-70"></div>
+              <div class="col-fill border-1px border-white-1 border-left-0 height-3 background-color-blue-80"></div>
+              <div class="col-fill border-1px border-white-1 border-left-0 height-3 background-color-blue-90"></div>
             </div>
             <div class="row">
-              <div class="col-fill border-1px border-color-white-1 border-top-0 height-3 background-color-blue-5v"></div>
-              <div class="col-fill border-1px border-color-white-1 border-left-0 border-top-0 height-3 background-color-blue-10v"></div>
-              <div class="col-fill border-1px border-color-white-1 border-left-0 border-top-0 height-3 background-color-blue-20v"></div>
-              <div class="col-fill border-1px border-color-white-1 border-left-0 border-top-0 height-3 background-color-blue-30v"></div>
-              <div class="col-fill border-1px border-color-white-1 border-left-0 border-top-0 height-3 background-color-blue-40v"></div>
-              <div class="col-fill border-1px border-color-white-1 border-left-0 border-top-0 height-3 background-color-blue-50v"></div>
-              <div class="col-fill border-1px border-color-white-1 border-left-0 border-top-0 height-3 background-color-blue-60v"></div>
-              <div class="col-fill border-1px border-color-white-1 border-left-0 border-top-0 height-3 background-color-blue-70v"></div>
-              <div class="col-fill border-1px border-color-white-1 border-left-0 border-top-0 height-3 background-color-blue-80v"></div>
-              <div class="col-fill border-1px border-color-white-1 border-left-0 border-top-0 height-3 background-color-blue-90v"></div>
+              <div class="col-fill border-1px border-white-1 border-top-0 height-3 background-color-blue-5v"></div>
+              <div class="col-fill border-1px border-white-1 border-left-0 border-top-0 height-3 background-color-blue-10v"></div>
+              <div class="col-fill border-1px border-white-1 border-left-0 border-top-0 height-3 background-color-blue-20v"></div>
+              <div class="col-fill border-1px border-white-1 border-left-0 border-top-0 height-3 background-color-blue-30v"></div>
+              <div class="col-fill border-1px border-white-1 border-left-0 border-top-0 height-3 background-color-blue-40v"></div>
+              <div class="col-fill border-1px border-white-1 border-left-0 border-top-0 height-3 background-color-blue-50v"></div>
+              <div class="col-fill border-1px border-white-1 border-left-0 border-top-0 height-3 background-color-blue-60v"></div>
+              <div class="col-fill border-1px border-white-1 border-left-0 border-top-0 height-3 background-color-blue-70v"></div>
+              <div class="col-fill border-1px border-white-1 border-left-0 border-top-0 height-3 background-color-blue-80v"></div>
+              <div class="col-fill border-1px border-white-1 border-left-0 border-top-0 height-3 background-color-blue-90v"></div>
             </div>
             <p class="sans-2 margin-top-p5 fw-700">Blue</p>
           </div><!-- swatch -->
 
           <div class="col-3 margin-bottom-4">
             <div class="row">
-              <div class="col-fill border-1px border-color-white-1 height-3 background-color-blue-warm-5"></div>
-              <div class="col-fill border-1px border-color-white-1 border-left-0 height-3 background-color-blue-warm-10"></div>
-              <div class="col-fill border-1px border-color-white-1 border-left-0 height-3 background-color-blue-warm-20"></div>
-              <div class="col-fill border-1px border-color-white-1 border-left-0 height-3 background-color-blue-warm-30"></div>
-              <div class="col-fill border-1px border-color-white-1 border-left-0 height-3 background-color-blue-warm-40"></div>
-              <div class="col-fill border-1px border-color-white-1 border-left-0 height-3 background-color-blue-warm-50"></div>
-              <div class="col-fill border-1px border-color-white-1 border-left-0 height-3 background-color-blue-warm-60"></div>
-              <div class="col-fill border-1px border-color-white-1 border-left-0 height-3 background-color-blue-warm-70"></div>
-              <div class="col-fill border-1px border-color-white-1 border-left-0 height-3 background-color-blue-warm-80"></div>
-              <div class="col-fill border-1px border-color-white-1 border-left-0 height-3 background-color-blue-warm-90"></div>
+              <div class="col-fill border-1px border-white-1 height-3 background-color-blue-warm-5"></div>
+              <div class="col-fill border-1px border-white-1 border-left-0 height-3 background-color-blue-warm-10"></div>
+              <div class="col-fill border-1px border-white-1 border-left-0 height-3 background-color-blue-warm-20"></div>
+              <div class="col-fill border-1px border-white-1 border-left-0 height-3 background-color-blue-warm-30"></div>
+              <div class="col-fill border-1px border-white-1 border-left-0 height-3 background-color-blue-warm-40"></div>
+              <div class="col-fill border-1px border-white-1 border-left-0 height-3 background-color-blue-warm-50"></div>
+              <div class="col-fill border-1px border-white-1 border-left-0 height-3 background-color-blue-warm-60"></div>
+              <div class="col-fill border-1px border-white-1 border-left-0 height-3 background-color-blue-warm-70"></div>
+              <div class="col-fill border-1px border-white-1 border-left-0 height-3 background-color-blue-warm-80"></div>
+              <div class="col-fill border-1px border-white-1 border-left-0 height-3 background-color-blue-warm-90"></div>
             </div>
             <div class="row">
-              <div class="col-fill border-1px border-color-white-1 border-top-0 height-3 background-color-blue-warm-5v"></div>
-              <div class="col-fill border-1px border-color-white-1 border-left-0 border-top-0 height-3 background-color-blue-warm-10v"></div>
-              <div class="col-fill border-1px border-color-white-1 border-left-0 border-top-0 height-3 background-color-blue-warm-20v"></div>
-              <div class="col-fill border-1px border-color-white-1 border-left-0 border-top-0 height-3 background-color-blue-warm-30v"></div>
-              <div class="col-fill border-1px border-color-white-1 border-left-0 border-top-0 height-3 background-color-blue-warm-40v"></div>
-              <div class="col-fill border-1px border-color-white-1 border-left-0 border-top-0 height-3 background-color-blue-warm-50v"></div>
-              <div class="col-fill border-1px border-color-white-1 border-left-0 border-top-0 height-3 background-color-blue-warm-60v"></div>
-              <div class="col-fill border-1px border-color-white-1 border-left-0 border-top-0 height-3 background-color-blue-warm-70v"></div>
-              <div class="col-fill border-1px border-color-white-1 border-left-0 border-top-0 height-3 background-color-blue-warm-80v"></div>
-              <div class="col-fill border-1px border-color-white-1 border-left-0 border-top-0 height-3 background-color-blue-warm-90v"></div>
+              <div class="col-fill border-1px border-white-1 border-top-0 height-3 background-color-blue-warm-5v"></div>
+              <div class="col-fill border-1px border-white-1 border-left-0 border-top-0 height-3 background-color-blue-warm-10v"></div>
+              <div class="col-fill border-1px border-white-1 border-left-0 border-top-0 height-3 background-color-blue-warm-20v"></div>
+              <div class="col-fill border-1px border-white-1 border-left-0 border-top-0 height-3 background-color-blue-warm-30v"></div>
+              <div class="col-fill border-1px border-white-1 border-left-0 border-top-0 height-3 background-color-blue-warm-40v"></div>
+              <div class="col-fill border-1px border-white-1 border-left-0 border-top-0 height-3 background-color-blue-warm-50v"></div>
+              <div class="col-fill border-1px border-white-1 border-left-0 border-top-0 height-3 background-color-blue-warm-60v"></div>
+              <div class="col-fill border-1px border-white-1 border-left-0 border-top-0 height-3 background-color-blue-warm-70v"></div>
+              <div class="col-fill border-1px border-white-1 border-left-0 border-top-0 height-3 background-color-blue-warm-80v"></div>
+              <div class="col-fill border-1px border-white-1 border-left-0 border-top-0 height-3 background-color-blue-warm-90v"></div>
             </div>
             <p class="sans-2 margin-top-p5 fw-700">Blue warm</p>
           </div><!-- swatch -->
 
           <div class="col-3 margin-bottom-4">
             <div class="row">
-              <div class="col-fill border-1px border-color-white-1 height-3 background-color-indigo-cool-5"></div>
-              <div class="col-fill border-1px border-color-white-1 border-left-0 height-3 background-color-indigo-cool-10"></div>
-              <div class="col-fill border-1px border-color-white-1 border-left-0 height-3 background-color-indigo-cool-20"></div>
-              <div class="col-fill border-1px border-color-white-1 border-left-0 height-3 background-color-indigo-cool-30"></div>
-              <div class="col-fill border-1px border-color-white-1 border-left-0 height-3 background-color-indigo-cool-40"></div>
-              <div class="col-fill border-1px border-color-white-1 border-left-0 height-3 background-color-indigo-cool-50"></div>
-              <div class="col-fill border-1px border-color-white-1 border-left-0 height-3 background-color-indigo-cool-60"></div>
-              <div class="col-fill border-1px border-color-white-1 border-left-0 height-3 background-color-indigo-cool-70"></div>
-              <div class="col-fill border-1px border-color-white-1 border-left-0 height-3 background-color-indigo-cool-80"></div>
-              <div class="col-fill border-1px border-color-white-1 border-left-0 height-3 background-color-indigo-cool-90"></div>
+              <div class="col-fill border-1px border-white-1 height-3 background-color-indigo-cool-5"></div>
+              <div class="col-fill border-1px border-white-1 border-left-0 height-3 background-color-indigo-cool-10"></div>
+              <div class="col-fill border-1px border-white-1 border-left-0 height-3 background-color-indigo-cool-20"></div>
+              <div class="col-fill border-1px border-white-1 border-left-0 height-3 background-color-indigo-cool-30"></div>
+              <div class="col-fill border-1px border-white-1 border-left-0 height-3 background-color-indigo-cool-40"></div>
+              <div class="col-fill border-1px border-white-1 border-left-0 height-3 background-color-indigo-cool-50"></div>
+              <div class="col-fill border-1px border-white-1 border-left-0 height-3 background-color-indigo-cool-60"></div>
+              <div class="col-fill border-1px border-white-1 border-left-0 height-3 background-color-indigo-cool-70"></div>
+              <div class="col-fill border-1px border-white-1 border-left-0 height-3 background-color-indigo-cool-80"></div>
+              <div class="col-fill border-1px border-white-1 border-left-0 height-3 background-color-indigo-cool-90"></div>
             </div>
             <div class="row">
-              <div class="col-fill border-1px border-color-white-1 border-top-0 height-3 background-color-indigo-cool-5v"></div>
-              <div class="col-fill border-1px border-color-white-1 border-left-0 border-top-0 height-3 background-color-indigo-cool-10v"></div>
-              <div class="col-fill border-1px border-color-white-1 border-left-0 border-top-0 height-3 background-color-indigo-cool-20v"></div>
-              <div class="col-fill border-1px border-color-white-1 border-left-0 border-top-0 height-3 background-color-indigo-cool-30v"></div>
-              <div class="col-fill border-1px border-color-white-1 border-left-0 border-top-0 height-3 background-color-indigo-cool-40v"></div>
-              <div class="col-fill border-1px border-color-white-1 border-left-0 border-top-0 height-3 background-color-indigo-cool-50v"></div>
-              <div class="col-fill border-1px border-color-white-1 border-left-0 border-top-0 height-3 background-color-indigo-cool-60v"></div>
-              <div class="col-fill border-1px border-color-white-1 border-left-0 border-top-0 height-3 background-color-indigo-cool-70v"></div>
-              <div class="col-fill border-1px border-color-white-1 border-left-0 border-top-0 height-3 background-color-indigo-cool-80v"></div>
-              <div class="col-fill border-1px border-color-white-1 border-left-0 border-top-0 height-3 background-color-indigo-cool-90v"></div>
+              <div class="col-fill border-1px border-white-1 border-top-0 height-3 background-color-indigo-cool-5v"></div>
+              <div class="col-fill border-1px border-white-1 border-left-0 border-top-0 height-3 background-color-indigo-cool-10v"></div>
+              <div class="col-fill border-1px border-white-1 border-left-0 border-top-0 height-3 background-color-indigo-cool-20v"></div>
+              <div class="col-fill border-1px border-white-1 border-left-0 border-top-0 height-3 background-color-indigo-cool-30v"></div>
+              <div class="col-fill border-1px border-white-1 border-left-0 border-top-0 height-3 background-color-indigo-cool-40v"></div>
+              <div class="col-fill border-1px border-white-1 border-left-0 border-top-0 height-3 background-color-indigo-cool-50v"></div>
+              <div class="col-fill border-1px border-white-1 border-left-0 border-top-0 height-3 background-color-indigo-cool-60v"></div>
+              <div class="col-fill border-1px border-white-1 border-left-0 border-top-0 height-3 background-color-indigo-cool-70v"></div>
+              <div class="col-fill border-1px border-white-1 border-left-0 border-top-0 height-3 background-color-indigo-cool-80v"></div>
+              <div class="col-fill border-1px border-white-1 border-left-0 border-top-0 height-3 background-color-indigo-cool-90v"></div>
             </div>
             <p class="sans-2 margin-top-p5 fw-700">Indigo cool</p>
           </div><!-- swatch -->
 
           <div class="col-3 margin-bottom-4">
             <div class="row">
-              <div class="col-fill border-1px border-color-white-1 height-3 background-color-indigo-5"></div>
-              <div class="col-fill border-1px border-color-white-1 border-left-0 height-3 background-color-indigo-10"></div>
-              <div class="col-fill border-1px border-color-white-1 border-left-0 height-3 background-color-indigo-20"></div>
-              <div class="col-fill border-1px border-color-white-1 border-left-0 height-3 background-color-indigo-30"></div>
-              <div class="col-fill border-1px border-color-white-1 border-left-0 height-3 background-color-indigo-40"></div>
-              <div class="col-fill border-1px border-color-white-1 border-left-0 height-3 background-color-indigo-50"></div>
-              <div class="col-fill border-1px border-color-white-1 border-left-0 height-3 background-color-indigo-60"></div>
-              <div class="col-fill border-1px border-color-white-1 border-left-0 height-3 background-color-indigo-70"></div>
-              <div class="col-fill border-1px border-color-white-1 border-left-0 height-3 background-color-indigo-80"></div>
-              <div class="col-fill border-1px border-color-white-1 border-left-0 height-3 background-color-indigo-90"></div>
+              <div class="col-fill border-1px border-white-1 height-3 background-color-indigo-5"></div>
+              <div class="col-fill border-1px border-white-1 border-left-0 height-3 background-color-indigo-10"></div>
+              <div class="col-fill border-1px border-white-1 border-left-0 height-3 background-color-indigo-20"></div>
+              <div class="col-fill border-1px border-white-1 border-left-0 height-3 background-color-indigo-30"></div>
+              <div class="col-fill border-1px border-white-1 border-left-0 height-3 background-color-indigo-40"></div>
+              <div class="col-fill border-1px border-white-1 border-left-0 height-3 background-color-indigo-50"></div>
+              <div class="col-fill border-1px border-white-1 border-left-0 height-3 background-color-indigo-60"></div>
+              <div class="col-fill border-1px border-white-1 border-left-0 height-3 background-color-indigo-70"></div>
+              <div class="col-fill border-1px border-white-1 border-left-0 height-3 background-color-indigo-80"></div>
+              <div class="col-fill border-1px border-white-1 border-left-0 height-3 background-color-indigo-90"></div>
             </div>
             <div class="row">
-              <div class="col-fill border-1px border-color-white-1 border-top-0 height-3 background-color-indigo-5v"></div>
-              <div class="col-fill border-1px border-color-white-1 border-left-0 border-top-0 height-3 background-color-indigo-10v"></div>
-              <div class="col-fill border-1px border-color-white-1 border-left-0 border-top-0 height-3 background-color-indigo-20v"></div>
-              <div class="col-fill border-1px border-color-white-1 border-left-0 border-top-0 height-3 background-color-indigo-30v"></div>
-              <div class="col-fill border-1px border-color-white-1 border-left-0 border-top-0 height-3 background-color-indigo-40v"></div>
-              <div class="col-fill border-1px border-color-white-1 border-left-0 border-top-0 height-3 background-color-indigo-50v"></div>
-              <div class="col-fill border-1px border-color-white-1 border-left-0 border-top-0 height-3 background-color-indigo-60v"></div>
-              <div class="col-fill border-1px border-color-white-1 border-left-0 border-top-0 height-3 background-color-indigo-70v"></div>
-              <div class="col-fill border-1px border-color-white-1 border-left-0 border-top-0 height-3 background-color-indigo-80v"></div>
-              <div class="col-fill border-1px border-color-white-1 border-left-0 border-top-0 height-3 background-color-indigo-90v"></div>
+              <div class="col-fill border-1px border-white-1 border-top-0 height-3 background-color-indigo-5v"></div>
+              <div class="col-fill border-1px border-white-1 border-left-0 border-top-0 height-3 background-color-indigo-10v"></div>
+              <div class="col-fill border-1px border-white-1 border-left-0 border-top-0 height-3 background-color-indigo-20v"></div>
+              <div class="col-fill border-1px border-white-1 border-left-0 border-top-0 height-3 background-color-indigo-30v"></div>
+              <div class="col-fill border-1px border-white-1 border-left-0 border-top-0 height-3 background-color-indigo-40v"></div>
+              <div class="col-fill border-1px border-white-1 border-left-0 border-top-0 height-3 background-color-indigo-50v"></div>
+              <div class="col-fill border-1px border-white-1 border-left-0 border-top-0 height-3 background-color-indigo-60v"></div>
+              <div class="col-fill border-1px border-white-1 border-left-0 border-top-0 height-3 background-color-indigo-70v"></div>
+              <div class="col-fill border-1px border-white-1 border-left-0 border-top-0 height-3 background-color-indigo-80v"></div>
+              <div class="col-fill border-1px border-white-1 border-left-0 border-top-0 height-3 background-color-indigo-90v"></div>
             </div>
             <p class="sans-2 margin-top-p5 fw-700">Indigo</p>
           </div><!-- swatch -->
 
           <div class="col-3 margin-bottom-4">
             <div class="row">
-              <div class="col-fill border-1px border-color-white-1 height-3 background-color-indigo-warm-5"></div>
-              <div class="col-fill border-1px border-color-white-1 border-left-0 height-3 background-color-indigo-warm-10"></div>
-              <div class="col-fill border-1px border-color-white-1 border-left-0 height-3 background-color-indigo-warm-20"></div>
-              <div class="col-fill border-1px border-color-white-1 border-left-0 height-3 background-color-indigo-warm-30"></div>
-              <div class="col-fill border-1px border-color-white-1 border-left-0 height-3 background-color-indigo-warm-40"></div>
-              <div class="col-fill border-1px border-color-white-1 border-left-0 height-3 background-color-indigo-warm-50"></div>
-              <div class="col-fill border-1px border-color-white-1 border-left-0 height-3 background-color-indigo-warm-60"></div>
-              <div class="col-fill border-1px border-color-white-1 border-left-0 height-3 background-color-indigo-warm-70"></div>
-              <div class="col-fill border-1px border-color-white-1 border-left-0 height-3 background-color-indigo-warm-80"></div>
-              <div class="col-fill border-1px border-color-white-1 border-left-0 height-3 background-color-indigo-warm-90"></div>
+              <div class="col-fill border-1px border-white-1 height-3 background-color-indigo-warm-5"></div>
+              <div class="col-fill border-1px border-white-1 border-left-0 height-3 background-color-indigo-warm-10"></div>
+              <div class="col-fill border-1px border-white-1 border-left-0 height-3 background-color-indigo-warm-20"></div>
+              <div class="col-fill border-1px border-white-1 border-left-0 height-3 background-color-indigo-warm-30"></div>
+              <div class="col-fill border-1px border-white-1 border-left-0 height-3 background-color-indigo-warm-40"></div>
+              <div class="col-fill border-1px border-white-1 border-left-0 height-3 background-color-indigo-warm-50"></div>
+              <div class="col-fill border-1px border-white-1 border-left-0 height-3 background-color-indigo-warm-60"></div>
+              <div class="col-fill border-1px border-white-1 border-left-0 height-3 background-color-indigo-warm-70"></div>
+              <div class="col-fill border-1px border-white-1 border-left-0 height-3 background-color-indigo-warm-80"></div>
+              <div class="col-fill border-1px border-white-1 border-left-0 height-3 background-color-indigo-warm-90"></div>
             </div>
             <div class="row">
-              <div class="col-fill border-1px border-color-white-1 border-top-0 height-3 background-color-indigo-warm-5v"></div>
-              <div class="col-fill border-1px border-color-white-1 border-left-0 border-top-0 height-3 background-color-indigo-warm-10v"></div>
-              <div class="col-fill border-1px border-color-white-1 border-left-0 border-top-0 height-3 background-color-indigo-warm-20v"></div>
-              <div class="col-fill border-1px border-color-white-1 border-left-0 border-top-0 height-3 background-color-indigo-warm-30v"></div>
-              <div class="col-fill border-1px border-color-white-1 border-left-0 border-top-0 height-3 background-color-indigo-warm-40v"></div>
-              <div class="col-fill border-1px border-color-white-1 border-left-0 border-top-0 height-3 background-color-indigo-warm-50v"></div>
-              <div class="col-fill border-1px border-color-white-1 border-left-0 border-top-0 height-3 background-color-indigo-warm-60v"></div>
-              <div class="col-fill border-1px border-color-white-1 border-left-0 border-top-0 height-3 background-color-indigo-warm-70v"></div>
-              <div class="col-fill border-1px border-color-white-1 border-left-0 border-top-0 height-3 background-color-indigo-warm-80v"></div>
-              <div class="col-fill border-1px border-color-white-1 border-left-0 border-top-0 height-3 background-color-indigo-warm-90v"></div>
+              <div class="col-fill border-1px border-white-1 border-top-0 height-3 background-color-indigo-warm-5v"></div>
+              <div class="col-fill border-1px border-white-1 border-left-0 border-top-0 height-3 background-color-indigo-warm-10v"></div>
+              <div class="col-fill border-1px border-white-1 border-left-0 border-top-0 height-3 background-color-indigo-warm-20v"></div>
+              <div class="col-fill border-1px border-white-1 border-left-0 border-top-0 height-3 background-color-indigo-warm-30v"></div>
+              <div class="col-fill border-1px border-white-1 border-left-0 border-top-0 height-3 background-color-indigo-warm-40v"></div>
+              <div class="col-fill border-1px border-white-1 border-left-0 border-top-0 height-3 background-color-indigo-warm-50v"></div>
+              <div class="col-fill border-1px border-white-1 border-left-0 border-top-0 height-3 background-color-indigo-warm-60v"></div>
+              <div class="col-fill border-1px border-white-1 border-left-0 border-top-0 height-3 background-color-indigo-warm-70v"></div>
+              <div class="col-fill border-1px border-white-1 border-left-0 border-top-0 height-3 background-color-indigo-warm-80v"></div>
+              <div class="col-fill border-1px border-white-1 border-left-0 border-top-0 height-3 background-color-indigo-warm-90v"></div>
             </div>
             <p class="sans-2 margin-top-p5 fw-700">Indigo warm</p>
           </div><!-- swatch -->
 
           <div class="col-3 margin-bottom-4">
             <div class="row">
-              <div class="col-fill border-1px border-color-white-1 height-3 background-color-violet-5"></div>
-              <div class="col-fill border-1px border-color-white-1 border-left-0 height-3 background-color-violet-10"></div>
-              <div class="col-fill border-1px border-color-white-1 border-left-0 height-3 background-color-violet-20"></div>
-              <div class="col-fill border-1px border-color-white-1 border-left-0 height-3 background-color-violet-30"></div>
-              <div class="col-fill border-1px border-color-white-1 border-left-0 height-3 background-color-violet-40"></div>
-              <div class="col-fill border-1px border-color-white-1 border-left-0 height-3 background-color-violet-50"></div>
-              <div class="col-fill border-1px border-color-white-1 border-left-0 height-3 background-color-violet-60"></div>
-              <div class="col-fill border-1px border-color-white-1 border-left-0 height-3 background-color-violet-70"></div>
-              <div class="col-fill border-1px border-color-white-1 border-left-0 height-3 background-color-violet-80"></div>
-              <div class="col-fill border-1px border-color-white-1 border-left-0 height-3 background-color-violet-90"></div>
+              <div class="col-fill border-1px border-white-1 height-3 background-color-violet-5"></div>
+              <div class="col-fill border-1px border-white-1 border-left-0 height-3 background-color-violet-10"></div>
+              <div class="col-fill border-1px border-white-1 border-left-0 height-3 background-color-violet-20"></div>
+              <div class="col-fill border-1px border-white-1 border-left-0 height-3 background-color-violet-30"></div>
+              <div class="col-fill border-1px border-white-1 border-left-0 height-3 background-color-violet-40"></div>
+              <div class="col-fill border-1px border-white-1 border-left-0 height-3 background-color-violet-50"></div>
+              <div class="col-fill border-1px border-white-1 border-left-0 height-3 background-color-violet-60"></div>
+              <div class="col-fill border-1px border-white-1 border-left-0 height-3 background-color-violet-70"></div>
+              <div class="col-fill border-1px border-white-1 border-left-0 height-3 background-color-violet-80"></div>
+              <div class="col-fill border-1px border-white-1 border-left-0 height-3 background-color-violet-90"></div>
             </div>
             <div class="row">
-              <div class="col-fill border-1px border-color-white-1 border-top-0 height-3 background-color-violet-5v"></div>
-              <div class="col-fill border-1px border-color-white-1 border-left-0 border-top-0 height-3 background-color-violet-10v"></div>
-              <div class="col-fill border-1px border-color-white-1 border-left-0 border-top-0 height-3 background-color-violet-20v"></div>
-              <div class="col-fill border-1px border-color-white-1 border-left-0 border-top-0 height-3 background-color-violet-30v"></div>
-              <div class="col-fill border-1px border-color-white-1 border-left-0 border-top-0 height-3 background-color-violet-40v"></div>
-              <div class="col-fill border-1px border-color-white-1 border-left-0 border-top-0 height-3 background-color-violet-50v"></div>
-              <div class="col-fill border-1px border-color-white-1 border-left-0 border-top-0 height-3 background-color-violet-60v"></div>
-              <div class="col-fill border-1px border-color-white-1 border-left-0 border-top-0 height-3 background-color-violet-70v"></div>
-              <div class="col-fill border-1px border-color-white-1 border-left-0 border-top-0 height-3 background-color-violet-80v"></div>
-              <div class="col-fill border-1px border-color-white-1 border-left-0 border-top-0 height-3 background-color-violet-90v"></div>
+              <div class="col-fill border-1px border-white-1 border-top-0 height-3 background-color-violet-5v"></div>
+              <div class="col-fill border-1px border-white-1 border-left-0 border-top-0 height-3 background-color-violet-10v"></div>
+              <div class="col-fill border-1px border-white-1 border-left-0 border-top-0 height-3 background-color-violet-20v"></div>
+              <div class="col-fill border-1px border-white-1 border-left-0 border-top-0 height-3 background-color-violet-30v"></div>
+              <div class="col-fill border-1px border-white-1 border-left-0 border-top-0 height-3 background-color-violet-40v"></div>
+              <div class="col-fill border-1px border-white-1 border-left-0 border-top-0 height-3 background-color-violet-50v"></div>
+              <div class="col-fill border-1px border-white-1 border-left-0 border-top-0 height-3 background-color-violet-60v"></div>
+              <div class="col-fill border-1px border-white-1 border-left-0 border-top-0 height-3 background-color-violet-70v"></div>
+              <div class="col-fill border-1px border-white-1 border-left-0 border-top-0 height-3 background-color-violet-80v"></div>
+              <div class="col-fill border-1px border-white-1 border-left-0 border-top-0 height-3 background-color-violet-90v"></div>
             </div>
             <p class="sans-2 margin-top-p5 fw-700">Violet</p>
           </div><!-- swatch -->
 
           <div class="col-3 margin-bottom-4">
             <div class="row">
-              <div class="col-fill border-1px border-color-white-1 height-3 background-color-violet-warm-5"></div>
-              <div class="col-fill border-1px border-color-white-1 border-left-0 height-3 background-color-violet-warm-10"></div>
-              <div class="col-fill border-1px border-color-white-1 border-left-0 height-3 background-color-violet-warm-20"></div>
-              <div class="col-fill border-1px border-color-white-1 border-left-0 height-3 background-color-violet-warm-30"></div>
-              <div class="col-fill border-1px border-color-white-1 border-left-0 height-3 background-color-violet-warm-40"></div>
-              <div class="col-fill border-1px border-color-white-1 border-left-0 height-3 background-color-violet-warm-50"></div>
-              <div class="col-fill border-1px border-color-white-1 border-left-0 height-3 background-color-violet-warm-60"></div>
-              <div class="col-fill border-1px border-color-white-1 border-left-0 height-3 background-color-violet-warm-70"></div>
-              <div class="col-fill border-1px border-color-white-1 border-left-0 height-3 background-color-violet-warm-80"></div>
-              <div class="col-fill border-1px border-color-white-1 border-left-0 height-3 background-color-violet-warm-90"></div>
+              <div class="col-fill border-1px border-white-1 height-3 background-color-violet-warm-5"></div>
+              <div class="col-fill border-1px border-white-1 border-left-0 height-3 background-color-violet-warm-10"></div>
+              <div class="col-fill border-1px border-white-1 border-left-0 height-3 background-color-violet-warm-20"></div>
+              <div class="col-fill border-1px border-white-1 border-left-0 height-3 background-color-violet-warm-30"></div>
+              <div class="col-fill border-1px border-white-1 border-left-0 height-3 background-color-violet-warm-40"></div>
+              <div class="col-fill border-1px border-white-1 border-left-0 height-3 background-color-violet-warm-50"></div>
+              <div class="col-fill border-1px border-white-1 border-left-0 height-3 background-color-violet-warm-60"></div>
+              <div class="col-fill border-1px border-white-1 border-left-0 height-3 background-color-violet-warm-70"></div>
+              <div class="col-fill border-1px border-white-1 border-left-0 height-3 background-color-violet-warm-80"></div>
+              <div class="col-fill border-1px border-white-1 border-left-0 height-3 background-color-violet-warm-90"></div>
             </div>
             <div class="row">
-              <div class="col-fill border-1px border-color-white-1 border-top-0 height-3 background-color-violet-warm-5v"></div>
-              <div class="col-fill border-1px border-color-white-1 border-left-0 border-top-0 height-3 background-color-violet-warm-10v"></div>
-              <div class="col-fill border-1px border-color-white-1 border-left-0 border-top-0 height-3 background-color-violet-warm-20v"></div>
-              <div class="col-fill border-1px border-color-white-1 border-left-0 border-top-0 height-3 background-color-violet-warm-30v"></div>
-              <div class="col-fill border-1px border-color-white-1 border-left-0 border-top-0 height-3 background-color-violet-warm-40v"></div>
-              <div class="col-fill border-1px border-color-white-1 border-left-0 border-top-0 height-3 background-color-violet-warm-50v"></div>
-              <div class="col-fill border-1px border-color-white-1 border-left-0 border-top-0 height-3 background-color-violet-warm-60v"></div>
-              <div class="col-fill border-1px border-color-white-1 border-left-0 border-top-0 height-3 background-color-violet-warm-70v"></div>
-              <div class="col-fill border-1px border-color-white-1 border-left-0 border-top-0 height-3 background-color-violet-warm-80v"></div>
-              <div class="col-fill border-1px border-color-white-1 border-left-0 border-top-0 height-3 background-color-violet-warm-90v"></div>
+              <div class="col-fill border-1px border-white-1 border-top-0 height-3 background-color-violet-warm-5v"></div>
+              <div class="col-fill border-1px border-white-1 border-left-0 border-top-0 height-3 background-color-violet-warm-10v"></div>
+              <div class="col-fill border-1px border-white-1 border-left-0 border-top-0 height-3 background-color-violet-warm-20v"></div>
+              <div class="col-fill border-1px border-white-1 border-left-0 border-top-0 height-3 background-color-violet-warm-30v"></div>
+              <div class="col-fill border-1px border-white-1 border-left-0 border-top-0 height-3 background-color-violet-warm-40v"></div>
+              <div class="col-fill border-1px border-white-1 border-left-0 border-top-0 height-3 background-color-violet-warm-50v"></div>
+              <div class="col-fill border-1px border-white-1 border-left-0 border-top-0 height-3 background-color-violet-warm-60v"></div>
+              <div class="col-fill border-1px border-white-1 border-left-0 border-top-0 height-3 background-color-violet-warm-70v"></div>
+              <div class="col-fill border-1px border-white-1 border-left-0 border-top-0 height-3 background-color-violet-warm-80v"></div>
+              <div class="col-fill border-1px border-white-1 border-left-0 border-top-0 height-3 background-color-violet-warm-90v"></div>
             </div>
             <p class="sans-2 margin-top-p5 fw-700">Violet warm</p>
           </div><!-- swatch -->
 
           <div class="col-3 margin-bottom-4">
             <div class="row">
-              <div class="col-fill border-1px border-color-white-1 height-3 background-color-magenta-5"></div>
-              <div class="col-fill border-1px border-color-white-1 border-left-0 height-3 background-color-magenta-10"></div>
-              <div class="col-fill border-1px border-color-white-1 border-left-0 height-3 background-color-magenta-20"></div>
-              <div class="col-fill border-1px border-color-white-1 border-left-0 height-3 background-color-magenta-30"></div>
-              <div class="col-fill border-1px border-color-white-1 border-left-0 height-3 background-color-magenta-40"></div>
-              <div class="col-fill border-1px border-color-white-1 border-left-0 height-3 background-color-magenta-50"></div>
-              <div class="col-fill border-1px border-color-white-1 border-left-0 height-3 background-color-magenta-60"></div>
-              <div class="col-fill border-1px border-color-white-1 border-left-0 height-3 background-color-magenta-70"></div>
-              <div class="col-fill border-1px border-color-white-1 border-left-0 height-3 background-color-magenta-80"></div>
-              <div class="col-fill border-1px border-color-white-1 border-left-0 height-3 background-color-magenta-90"></div>
+              <div class="col-fill border-1px border-white-1 height-3 background-color-magenta-5"></div>
+              <div class="col-fill border-1px border-white-1 border-left-0 height-3 background-color-magenta-10"></div>
+              <div class="col-fill border-1px border-white-1 border-left-0 height-3 background-color-magenta-20"></div>
+              <div class="col-fill border-1px border-white-1 border-left-0 height-3 background-color-magenta-30"></div>
+              <div class="col-fill border-1px border-white-1 border-left-0 height-3 background-color-magenta-40"></div>
+              <div class="col-fill border-1px border-white-1 border-left-0 height-3 background-color-magenta-50"></div>
+              <div class="col-fill border-1px border-white-1 border-left-0 height-3 background-color-magenta-60"></div>
+              <div class="col-fill border-1px border-white-1 border-left-0 height-3 background-color-magenta-70"></div>
+              <div class="col-fill border-1px border-white-1 border-left-0 height-3 background-color-magenta-80"></div>
+              <div class="col-fill border-1px border-white-1 border-left-0 height-3 background-color-magenta-90"></div>
             </div>
             <div class="row">
-              <div class="col-fill border-1px border-color-white-1 border-top-0 height-3 background-color-magenta-5v"></div>
-              <div class="col-fill border-1px border-color-white-1 border-left-0 border-top-0 height-3 background-color-magenta-10v"></div>
-              <div class="col-fill border-1px border-color-white-1 border-left-0 border-top-0 height-3 background-color-magenta-20v"></div>
-              <div class="col-fill border-1px border-color-white-1 border-left-0 border-top-0 height-3 background-color-magenta-30v"></div>
-              <div class="col-fill border-1px border-color-white-1 border-left-0 border-top-0 height-3 background-color-magenta-40v"></div>
-              <div class="col-fill border-1px border-color-white-1 border-left-0 border-top-0 height-3 background-color-magenta-50v"></div>
-              <div class="col-fill border-1px border-color-white-1 border-left-0 border-top-0 height-3 background-color-magenta-60v"></div>
-              <div class="col-fill border-1px border-color-white-1 border-left-0 border-top-0 height-3 background-color-magenta-70v"></div>
-              <div class="col-fill border-1px border-color-white-1 border-left-0 border-top-0 height-3 background-color-magenta-80v"></div>
-              <div class="col-fill border-1px border-color-white-1 border-left-0 border-top-0 height-3 background-color-magenta-90v"></div>
+              <div class="col-fill border-1px border-white-1 border-top-0 height-3 background-color-magenta-5v"></div>
+              <div class="col-fill border-1px border-white-1 border-left-0 border-top-0 height-3 background-color-magenta-10v"></div>
+              <div class="col-fill border-1px border-white-1 border-left-0 border-top-0 height-3 background-color-magenta-20v"></div>
+              <div class="col-fill border-1px border-white-1 border-left-0 border-top-0 height-3 background-color-magenta-30v"></div>
+              <div class="col-fill border-1px border-white-1 border-left-0 border-top-0 height-3 background-color-magenta-40v"></div>
+              <div class="col-fill border-1px border-white-1 border-left-0 border-top-0 height-3 background-color-magenta-50v"></div>
+              <div class="col-fill border-1px border-white-1 border-left-0 border-top-0 height-3 background-color-magenta-60v"></div>
+              <div class="col-fill border-1px border-white-1 border-left-0 border-top-0 height-3 background-color-magenta-70v"></div>
+              <div class="col-fill border-1px border-white-1 border-left-0 border-top-0 height-3 background-color-magenta-80v"></div>
+              <div class="col-fill border-1px border-white-1 border-left-0 border-top-0 height-3 background-color-magenta-90v"></div>
             </div>
             <p class="sans-2 margin-top-p5 fw-700">Magenta</p>
           </div><!-- swatch -->
 
           <div class="col-3 margin-bottom-4">
             <div class="row">
-              <div class="col-fill border-1px border-color-white-1 height-3 background-color-black-warm-5"></div>
-              <div class="col-fill border-1px border-color-white-1 border-left-0 height-3 background-color-black-warm-10"></div>
-              <div class="col-fill border-1px border-color-white-1 border-left-0 height-3 background-color-black-warm-20"></div>
-              <div class="col-fill border-1px border-color-white-1 border-left-0 height-3 background-color-black-warm-30"></div>
-              <div class="col-fill border-1px border-color-white-1 border-left-0 height-3 background-color-black-warm-40"></div>
-              <div class="col-fill border-1px border-color-white-1 border-left-0 height-3 background-color-black-warm-50"></div>
-              <div class="col-fill border-1px border-color-white-1 border-left-0 height-3 background-color-black-warm-60"></div>
-              <div class="col-fill border-1px border-color-white-1 border-left-0 height-3 background-color-black-warm-70"></div>
-              <div class="col-fill border-1px border-color-white-1 border-left-0 height-3 background-color-black-warm-80"></div>
-              <div class="col-fill border-1px border-color-white-1 border-left-0 height-3 background-color-black-warm-90"></div>
+              <div class="col-fill border-1px border-white-1 height-3 background-color-black-warm-5"></div>
+              <div class="col-fill border-1px border-white-1 border-left-0 height-3 background-color-black-warm-10"></div>
+              <div class="col-fill border-1px border-white-1 border-left-0 height-3 background-color-black-warm-20"></div>
+              <div class="col-fill border-1px border-white-1 border-left-0 height-3 background-color-black-warm-30"></div>
+              <div class="col-fill border-1px border-white-1 border-left-0 height-3 background-color-black-warm-40"></div>
+              <div class="col-fill border-1px border-white-1 border-left-0 height-3 background-color-black-warm-50"></div>
+              <div class="col-fill border-1px border-white-1 border-left-0 height-3 background-color-black-warm-60"></div>
+              <div class="col-fill border-1px border-white-1 border-left-0 height-3 background-color-black-warm-70"></div>
+              <div class="col-fill border-1px border-white-1 border-left-0 height-3 background-color-black-warm-80"></div>
+              <div class="col-fill border-1px border-white-1 border-left-0 height-3 background-color-black-warm-90"></div>
             </div>
             <p class="sans-2 margin-top-p5 fw-700">Black warm</p>
           </div><!-- swatch -->
 
           <div class="col-3 margin-bottom-4">
             <div class="row">
-              <div class="col-fill border-1px border-color-white-1 height-3 background-color-black-5"></div>
-              <div class="col-fill border-1px border-color-white-1 border-left-0 height-3 background-color-black-10"></div>
-              <div class="col-fill border-1px border-color-white-1 border-left-0 height-3 background-color-black-20"></div>
-              <div class="col-fill border-1px border-color-white-1 border-left-0 height-3 background-color-black-30"></div>
-              <div class="col-fill border-1px border-color-white-1 border-left-0 height-3 background-color-black-40"></div>
-              <div class="col-fill border-1px border-color-white-1 border-left-0 height-3 background-color-black-50"></div>
-              <div class="col-fill border-1px border-color-white-1 border-left-0 height-3 background-color-black-60"></div>
-              <div class="col-fill border-1px border-color-white-1 border-left-0 height-3 background-color-black-70"></div>
-              <div class="col-fill border-1px border-color-white-1 border-left-0 height-3 background-color-black-80"></div>
-              <div class="col-fill border-1px border-color-white-1 border-left-0 height-3 background-color-black-90"></div>
-              <div class="col-fill border-1px border-color-white-1 border-left-0 height-3 background-color-black"></div>
+              <div class="col-fill border-1px border-white-1 height-3 background-color-black-5"></div>
+              <div class="col-fill border-1px border-white-1 border-left-0 height-3 background-color-black-10"></div>
+              <div class="col-fill border-1px border-white-1 border-left-0 height-3 background-color-black-20"></div>
+              <div class="col-fill border-1px border-white-1 border-left-0 height-3 background-color-black-30"></div>
+              <div class="col-fill border-1px border-white-1 border-left-0 height-3 background-color-black-40"></div>
+              <div class="col-fill border-1px border-white-1 border-left-0 height-3 background-color-black-50"></div>
+              <div class="col-fill border-1px border-white-1 border-left-0 height-3 background-color-black-60"></div>
+              <div class="col-fill border-1px border-white-1 border-left-0 height-3 background-color-black-70"></div>
+              <div class="col-fill border-1px border-white-1 border-left-0 height-3 background-color-black-80"></div>
+              <div class="col-fill border-1px border-white-1 border-left-0 height-3 background-color-black-90"></div>
+              <div class="col-fill border-1px border-white-1 border-left-0 height-3 background-color-black"></div>
             </div>
             <p class="sans-2 margin-top-p5 fw-700">Black</p>
           </div><!-- swatch -->
 
           <div class="col-3 margin-bottom-4">
             <div class="row">
-              <div class="col-fill border-1px border-color-white-1 height-3 background-color-black-cool-5"></div>
-              <div class="col-fill border-1px border-color-white-1 border-left-0 height-3 background-color-black-cool-10"></div>
-              <div class="col-fill border-1px border-color-white-1 border-left-0 height-3 background-color-black-cool-20"></div>
-              <div class="col-fill border-1px border-color-white-1 border-left-0 height-3 background-color-black-cool-30"></div>
-              <div class="col-fill border-1px border-color-white-1 border-left-0 height-3 background-color-black-cool-40"></div>
-              <div class="col-fill border-1px border-color-white-1 border-left-0 height-3 background-color-black-cool-50"></div>
-              <div class="col-fill border-1px border-color-white-1 border-left-0 height-3 background-color-black-cool-60"></div>
-              <div class="col-fill border-1px border-color-white-1 border-left-0 height-3 background-color-black-cool-70"></div>
-              <div class="col-fill border-1px border-color-white-1 border-left-0 height-3 background-color-black-cool-80"></div>
-              <div class="col-fill border-1px border-color-white-1 border-left-0 height-3 background-color-black-cool-90"></div>
+              <div class="col-fill border-1px border-white-1 height-3 background-color-black-cool-5"></div>
+              <div class="col-fill border-1px border-white-1 border-left-0 height-3 background-color-black-cool-10"></div>
+              <div class="col-fill border-1px border-white-1 border-left-0 height-3 background-color-black-cool-20"></div>
+              <div class="col-fill border-1px border-white-1 border-left-0 height-3 background-color-black-cool-30"></div>
+              <div class="col-fill border-1px border-white-1 border-left-0 height-3 background-color-black-cool-40"></div>
+              <div class="col-fill border-1px border-white-1 border-left-0 height-3 background-color-black-cool-50"></div>
+              <div class="col-fill border-1px border-white-1 border-left-0 height-3 background-color-black-cool-60"></div>
+              <div class="col-fill border-1px border-white-1 border-left-0 height-3 background-color-black-cool-70"></div>
+              <div class="col-fill border-1px border-white-1 border-left-0 height-3 background-color-black-cool-80"></div>
+              <div class="col-fill border-1px border-white-1 border-left-0 height-3 background-color-black-cool-90"></div>
             </div>
             <p class="sans-2 margin-top-p5 fw-700">Black cool</p>
           </div><!-- swatch -->
 
           <div class="col-3 margin-bottom-4">
             <div class="row">
-              <div class="col-fill border-1px border-color-white-1 height-3 background-color-white-warm-1"></div>
-              <div class="col-fill border-1px border-color-white-1 border-left-0 height-3 background-color-white-warm-2"></div>
-              <div class="col-fill border-1px border-color-white-1 border-left-0 height-3 background-color-white-warm-3"></div>
-              <div class="col-fill border-1px border-color-white-1 border-left-0 height-3 background-color-white-warm-4"></div>
+              <div class="col-fill border-1px border-white-1 height-3 background-color-white-warm-1"></div>
+              <div class="col-fill border-1px border-white-1 border-left-0 height-3 background-color-white-warm-2"></div>
+              <div class="col-fill border-1px border-white-1 border-left-0 height-3 background-color-white-warm-3"></div>
+              <div class="col-fill border-1px border-white-1 border-left-0 height-3 background-color-white-warm-4"></div>
             </div>
             <p class="sans-2 margin-top-p5 fw-700">White warm</p>
           </div><!-- swatch -->
 
           <div class="col-3 margin-bottom-4">
             <div class="row">
-              <div class="col-fill border-1px border-color-white-1 height-3 background-color-white"></div>
-              <div class="col-fill border-1px border-color-white-1 height-3 background-color-white-1"></div>
-              <div class="col-fill border-1px border-color-white-1 border-left-0 height-3 background-color-white-2"></div>
-              <div class="col-fill border-1px border-color-white-1 border-left-0 height-3 background-color-white-3"></div>
-              <div class="col-fill border-1px border-color-white-1 border-left-0 height-3 background-color-white-4"></div>
+              <div class="col-fill border-1px border-white-1 height-3 background-color-white"></div>
+              <div class="col-fill border-1px border-white-1 height-3 background-color-white-1"></div>
+              <div class="col-fill border-1px border-white-1 border-left-0 height-3 background-color-white-2"></div>
+              <div class="col-fill border-1px border-white-1 border-left-0 height-3 background-color-white-3"></div>
+              <div class="col-fill border-1px border-white-1 border-left-0 height-3 background-color-white-4"></div>
             </div>
             <p class="sans-2 margin-top-p5 fw-700">White</p>
           </div><!-- swatch -->
 
           <div class="col-3 margin-bottom-4">
             <div class="row">
-              <div class="col-fill border-1px border-color-white-1 height-3 background-color-white-cool-1"></div>
-              <div class="col-fill border-1px border-color-white-1 border-left-0 height-3 background-color-white-cool-2"></div>
-              <div class="col-fill border-1px border-color-white-1 border-left-0 height-3 background-color-white-cool-3"></div>
-              <div class="col-fill border-1px border-color-white-1 border-left-0 height-3 background-color-white-cool-4"></div>
+              <div class="col-fill border-1px border-white-1 height-3 background-color-white-cool-1"></div>
+              <div class="col-fill border-1px border-white-1 border-left-0 height-3 background-color-white-cool-2"></div>
+              <div class="col-fill border-1px border-white-1 border-left-0 height-3 background-color-white-cool-3"></div>
+              <div class="col-fill border-1px border-white-1 border-left-0 height-3 background-color-white-cool-4"></div>
             </div>
             <p class="sans-2 margin-top-p5 fw-700">White cool</p>
           </div><!-- swatch -->
@@ -718,51 +718,51 @@ permalink: /uswds-color-docs-introduction/
           <div class="row mono-2 fw-400">
             <div class="col-fill">
               <div class="background-color-white height-4"></div>
-              <div class="text-align-center margin-top-2px">0</div>
+              <div class="center margin-top-2px">0</div>
             </div><!-- swwatch -->
             <div class="col-fill">
               <div class="background-color-black-5 height-4"></div>
-              <div class="text-align-center margin-top-2px">5</div>
+              <div class="center margin-top-2px">5</div>
             </div><!-- swwatch -->
             <div class="col-fill">
               <div class="background-color-black-10 height-4"></div>
-              <div class="text-align-center margin-top-2px">10</div>
+              <div class="center margin-top-2px">10</div>
             </div><!-- swwatch -->
             <div class="col-fill">
               <div class="background-color-black-20 height-4"></div>
-              <div class="text-align-center margin-top-2px">20</div>
+              <div class="center margin-top-2px">20</div>
             </div><!-- swwatch -->
             <div class="col-fill">
               <div class="background-color-black-30 height-4"></div>
-              <div class="text-align-center margin-top-2px">30</div>
+              <div class="center margin-top-2px">30</div>
             </div><!-- swwatch -->
             <div class="col-fill">
               <div class="background-color-black-40 height-4"></div>
-              <div class="text-align-center margin-top-2px">40</div>
+              <div class="center margin-top-2px">40</div>
             </div><!-- swwatch -->
             <div class="col-fill">
               <div class="background-color-black-50 height-4"></div>
-              <div class="text-align-center margin-top-2px">50</div>
+              <div class="center margin-top-2px">50</div>
             </div><!-- swwatch -->
             <div class="col-fill">
               <div class="background-color-black-60 height-4"></div>
-              <div class="text-align-center margin-top-2px">60</div>
+              <div class="center margin-top-2px">60</div>
             </div><!-- swwatch -->
             <div class="col-fill">
               <div class="background-color-black-70 height-4"></div>
-              <div class="text-align-center margin-top-2px">70</div>
+              <div class="center margin-top-2px">70</div>
             </div><!-- swwatch -->
             <div class="col-fill">
               <div class="background-color-black-80 height-4"></div>
-              <div class="text-align-center margin-top-2px">80</div>
+              <div class="center margin-top-2px">80</div>
             </div><!-- swwatch -->
             <div class="col-fill">
               <div class="background-color-black-90 height-4"></div>
-              <div class="text-align-center margin-top-2px">90</div>
+              <div class="center margin-top-2px">90</div>
             </div><!-- swwatch -->
             <div class="col-fill">
               <div class="background-color-black height-4"></div>
-              <div class="text-align-center margin-top-2px">100</div>
+              <div class="center margin-top-2px">100</div>
             </div><!-- swwatch -->
           </div>
         </div>
@@ -779,19 +779,19 @@ permalink: /uswds-color-docs-introduction/
             <div class="background-color-black-90 padding-2  padding-bottom-4 border-radius-small is-inverse">
               <div class="color-black-40 mono-1 margin-bottom-4 fw-400"><span class="sans-2">background color:</span><span class="color-white-1"> Black 90</span></div>
               <div class="color-black-50 sans-16 lh-smallest margin-y-0 fw-700">Black 50</div>
-              <div class="mono-1 lh-smallest fw-400 color-black-30 border-top-1px border-color-black-70 padding-top-1 margin-top-p5 row">
+              <div class="mono-1 lh-smallest fw-400 color-black-30 border-top-1px border-black-70 padding-top-1 margin-top-p5 row">
                 <div class="col-fill"><span class="sans-2">text color:</span><span class="color-white-1"> Black 50</span></div>
                 <div class="col-2"><span class="sans-2">delta:</span><span class="color-white-1"> 40</span></div>
                 <div class="col-2"><span class="sans-2">size:</span><span class="color-white-1"> 80px</span></div>
-                <div class="col-4 text-align-right"><span class="sans-2">contrast:</span><span class="color-white-1"> 3.89:1 (AA Large)</span></div>
+                <div class="col-4 right"><span class="sans-2">contrast:</span><span class="color-white-1"> 3.89:1 (AA Large)</span></div>
               </div>
               <div class="color-black-40 sans-6 lh-smallest padding-0 margin-top-4">Black 40</div>
               <div class="color-black-40 sans-6 lh-smallest padding-0 margin-top-1">A grade difference of 50+ conforms to Section 508 AA.</div>
-              <div class="mono-1 lh-smallest fw-400 color-black-30 border-top-1px border-color-black-70 padding-top-1 margin-top-1p5 row">
+              <div class="mono-1 lh-smallest fw-400 color-black-30 border-top-1px border-black-70 padding-top-1 margin-top-1p5 row">
                 <div class="col-fill"><span class="sans-2">text color:</span><span class="color-white-1"> Black 40</span></div>
                 <div class="col-2"><span class="sans-2">delta:</span><span class="color-white-1"> 50</span></div>
                 <div class="col-2"><span class="sans-2">size:</span><span class="color-white-1"> 17px</span></div>
-                <div class="col-4 text-align-right"><span class="sans-2">contrast:</span><span class="color-white-1"> 5.69:1 (AA)</span></div>
+                <div class="col-4 right"><span class="sans-2">contrast:</span><span class="color-white-1"> 5.69:1 (AA)</span></div>
               </div>
             </div>
           </div>
@@ -804,19 +804,19 @@ permalink: /uswds-color-docs-introduction/
             <div class="background-color-black-90 padding-2  padding-bottom-4 border-radius-small is-inverse">
               <div class="color-black-40 mono-1 margin-bottom-4 fw-400">background color: <span class="color-white-1">Black 90</span></div>
               <div class="color-indigo-warm-50v sans-16 lh-smallest margin-y-0 fw-700">Indigo warm 50v</div>
-              <div class="mono-1 lh-smallest fw-400 color-black-30 border-top-1px border-color-black-70 padding-top-1 margin-top-p5 row">
+              <div class="mono-1 lh-smallest fw-400 color-black-30 border-top-1px border-black-70 padding-top-1 margin-top-p5 row">
                 <div class="col-fill"><span class="sans-2">text color:</span><span class="color-white-1"> Indigo warm 50v</span></div>
                 <div class="col-2"><span class="sans-2">delta:</span><span class="color-white-1"> 40</span></div>
                 <div class="col-2"><span class="sans-2">size:</span><span class="color-white-1"> 80px</span></div>
-                <div class="col-4 text-align-right"><span class="sans-2">contrast:</span><span class="color-white-1"> 3.89:1 (AA Large)</span></div>
+                <div class="col-4 right"><span class="sans-2">contrast:</span><span class="color-white-1"> 3.89:1 (AA Large)</span></div>
               </div>
               <div class="color-red-warm-40v sans-6 lh-smallest padding-0 margin-top-4">Red warm 40v</div>
               <div class="color-red-warm-40v sans-6 lh-smallest padding-0 margin-top-1">A grade difference of 40+ conforms to Section 508 AA Large.</div>
-              <div class="mono-1 lh-smallest fw-400 color-black-30 border-top-1px border-color-black-70 padding-top-1 margin-top-1p5 row">
+              <div class="mono-1 lh-smallest fw-400 color-black-30 border-top-1px border-black-70 padding-top-1 margin-top-1p5 row">
                 <div class="col-fill"><span class="sans-2">text color:</span><span class="color-white-1"> Red warm 40v</span></div>
                 <div class="col-2"><span class="sans-2">delta:</span><span class="color-white-1"> 50</span></div>
                 <div class="col-2"><span class="sans-2">size:</span><span class="color-white-1"> 17px</span></div>
-                <div class="col-4 text-align-right"><span class="sans-2">contrast:</span><span class="color-white-1"> 5.36:1 (AA)</span></div>
+                <div class="col-4 right"><span class="sans-2">contrast:</span><span class="color-white-1"> 5.36:1 (AA)</span></div>
               </div>
             </div>
           </div>
@@ -842,11 +842,11 @@ permalink: /uswds-color-docs-introduction/
         <p>The vivid palette is incomplete. We’ve added vivid variants as we’ve found a project need. This number will continue to grow and we <a href="#0">welcome new suggetions</a> in our Github repo for vivid variants where none currently exist.</p>
 
         <figure class="margin-top-4 margin-x-0 margin-bottom-0 display-block padding-4 background-color-white border-top-radius-large">
-            <div class="text-align-center sans-8 fw-300 margin-bottom-4">USWDS base color wheel</div>
+            <div class="center sans-8 fw-300 margin-bottom-4">USWDS base color wheel</div>
             <img class="max-width-full display-block margin-x-auto" src="{{ '/assets/img/uswds/uswds-standard-color-wheel.webp' | relative_url }}" alt="A color wheel showing the standard USWDS color families arranged around the 360° of the HSL color model">
         </figure>
         <figure class="margin-top-4 margin-x-0 margin-top-0 display-block padding-4 padding-top-2 background-color-white border-bottom-radius-large">
-          <div class="text-align-center sans-8 fw-300 margin-bottom-4 border-top-1px padding-top-6">USWDS vivid color wheel</div>
+          <div class="center sans-8 fw-300 margin-bottom-4 border-top-1px padding-top-6">USWDS vivid color wheel</div>
           <img class="max-width-full display-block margin-x-auto" src="{{ '/assets/img/uswds/uswds-vivid-color-wheel.webp' | relative_url }}" alt="A color wheel showing the standard USWDS color families arranged around the 360° of the HSL color model">
         </figure>
 

@@ -14,7 +14,7 @@ permalink: /uswds-type-scale/
     <div class="col-4 fw-700 sans-1">-serif (Georgia)</div>
     <div class="col-4 fw-700 sans-1">-mono (Roboto Mono)</div>
   </div>
-  <div class="row gap align-items-center fw-400 padding-bottom-2 margin-bottom-2 border-bottom border-color-20">
+  <div class="row gap align-items-center fw-400 padding-bottom-2 margin-bottom-2 border-bottom border-20">
     <div class="col-4 display-flex flex-direction-column justify-content-flex-end">
       <div class="sans-1 color-black-90">Tuscaloosa</div>
       <div class="mono-1 padding-top-2"><code class="txt-code mono-2">u-sans-1</code></div>
@@ -35,7 +35,7 @@ permalink: /uswds-type-scale/
     </div>
   </div>
 
-  <div class="row gap align-items-center fw-400 padding-bottom-2 margin-bottom-2 border-bottom border-color-20">
+  <div class="row gap align-items-center fw-400 padding-bottom-2 margin-bottom-2 border-bottom border-20">
     <div class="col-4 display-flex flex-direction-column justify-content-flex-end">
       <div class="sans-2">Tuscaloosa</div>
       <div class="mono-1 padding-top-2"><code class="txt-code mono-2">u-sans-2</code></div>
@@ -53,7 +53,7 @@ permalink: /uswds-type-scale/
     </div>
   </div>
 
-  <div class="row gap align-items-center fw-400 padding-bottom-2 margin-bottom-2 border-bottom border-color-20">
+  <div class="row gap align-items-center fw-400 padding-bottom-2 margin-bottom-2 border-bottom border-20">
     <div class="col-4 display-flex flex-direction-column justify-content-flex-end">
       <div class="sans-3 color-black-90">Tuscaloosa</div>
       <div class="mono-1 padding-top-2"><code class="txt-code mono-2">u-sans-3</code></div>
@@ -74,7 +74,7 @@ permalink: /uswds-type-scale/
     </div>
   </div>
 
-  <div class="row gap align-items-center fw-400 padding-bottom-2 margin-bottom-2 border-bottom border-color-20">
+  <div class="row gap align-items-center fw-400 padding-bottom-2 margin-bottom-2 border-bottom border-20">
     <div class="col-4 display-flex flex-direction-column justify-content-flex-end">
       <div class="sans-4">Tuscaloosa</div>
       <div class="mono-1 padding-top-2"><code class="txt-code mono-2">u-sans-4</code></div>
@@ -92,7 +92,7 @@ permalink: /uswds-type-scale/
     </div>
   </div>
 
-  <div class="row gap align-items-center fw-400 padding-bottom-2 margin-bottom-2 border-bottom border-color-20">
+  <div class="row gap align-items-center fw-400 padding-bottom-2 margin-bottom-2 border-bottom border-20">
     <div class="col-4 display-flex flex-direction-column justify-content-flex-end">
       <div class="sans-5 color-black-90">Tuscaloosa</div>
       <div class="mono-1 padding-top-2"><code class="txt-code mono-2">u-sans-5</code></div>
@@ -113,7 +113,7 @@ permalink: /uswds-type-scale/
     </div>
   </div>
 
-  <div class="row gap align-items-center fw-400 padding-bottom-2 margin-bottom-2 border-bottom border-color-20">
+  <div class="row gap align-items-center fw-400 padding-bottom-2 margin-bottom-2 border-bottom border-20">
     <div class="col-4 display-flex flex-direction-column justify-content-flex-end">
       <div class="sans-6 color-black-90">Tuscaloosa</div>
       <div class="mono-1 padding-top-2"><code class="txt-code mono-2">u-sans-6</code></div>
@@ -134,7 +134,7 @@ permalink: /uswds-type-scale/
     </div>
   </div>
 
-  <div class="row gap align-items-center fw-400 padding-bottom-2 margin-bottom-2 border-bottom border-color-20">
+  <div class="row gap align-items-center fw-400 padding-bottom-2 margin-bottom-2 border-bottom border-20">
     <div class="col-4 display-flex flex-direction-column justify-content-flex-end">
       <div class="sans-7 color-black-90">Tuscaloosa</div>
       <div class="mono-1 padding-top-2"><code class="txt-code mono-2">u-sans-7</code></div>
@@ -155,7 +155,7 @@ permalink: /uswds-type-scale/
     </div>
   </div>
 
-  <div class="row gap align-items-center fw-400 padding-bottom-2 margin-bottom-2 border-bottom border-color-20">
+  <div class="row gap align-items-center fw-400 padding-bottom-2 margin-bottom-2 border-bottom border-20">
     <div class="col-4 display-flex flex-direction-column justify-content-flex-end">
       <div class="sans-8">Tuscaloosa</div>
       <div class="mono-1 padding-top-2"><code class="txt-code mono-2">u-sans-8</code></div>
@@ -173,7 +173,7 @@ permalink: /uswds-type-scale/
     </div>
   </div>
 
-  <div class="row gap align-items-center fw-400 padding-bottom-2 margin-bottom-2 border-bottom border-color-20">
+  <div class="row gap align-items-center fw-400 padding-bottom-2 margin-bottom-2 border-bottom border-20">
     <div class="col-4 display-flex flex-direction-column justify-content-flex-end">
       <div class="sans-9">Tuscaloosa</div>
       <div class="mono-1 padding-top-2"><code class="txt-code mono-2">u-sans-9</code></div>
@@ -191,7 +191,7 @@ permalink: /uswds-type-scale/
     </div>
   </div>
 
-  <div class="row gap align-items-center fw-400 padding-bottom-2 margin-bottom-2 border-bottom border-color-20">
+  <div class="row gap align-items-center fw-400 padding-bottom-2 margin-bottom-2 border-bottom border-20">
     <div class="col-4 display-flex flex-direction-column justify-content-flex-end">
       <div class="sans-10 color-black-90">Tuscaloosa</div>
       <div class="mono-1 padding-top-2"><code class="txt-code mono-2">u-sans-10</code></div>
@@ -212,7 +212,7 @@ permalink: /uswds-type-scale/
     </div>
   </div>
 
-  <div class="row gap align-items-center fw-400 padding-bottom-2 margin-bottom-2 border-bottom border-color-20">
+  <div class="row gap align-items-center fw-400 padding-bottom-2 margin-bottom-2 border-bottom border-20">
     <div class="col-4 display-flex flex-direction-column justify-content-flex-end">
       <div class="sans-11">Tuscaloosa</div>
       <div class="mono-1 padding-top-2"><code class="txt-code mono-2">u-sans-11</code></div>
@@ -230,7 +230,7 @@ permalink: /uswds-type-scale/
     </div>
   </div>
 
-  <div class="row gap align-items-center fw-400 padding-bottom-2 margin-bottom-2 border-bottom border-color-20">
+  <div class="row gap align-items-center fw-400 padding-bottom-2 margin-bottom-2 border-bottom border-20">
     <div class="col-4 display-flex flex-direction-column justify-content-flex-end">
       <div class="sans-12 color-black-90">Tuscaloosa</div>
       <div class="mono-1 padding-top-2"><code class="txt-code mono-2">u-sans-12</code></div>
@@ -251,7 +251,7 @@ permalink: /uswds-type-scale/
     </div>
   </div>
 
-  <div class="row gap align-items-center fw-400 padding-bottom-2 margin-bottom-2 border-bottom border-color-20">
+  <div class="row gap align-items-center fw-400 padding-bottom-2 margin-bottom-2 border-bottom border-20">
     <div class="col-4 display-flex flex-direction-column justify-content-flex-end">
       <div class="sans-13">Tuscaloosa</div>
       <div class="mono-1 padding-top-2"><code class="txt-code mono-2">u-sans-13</code></div>
@@ -269,7 +269,7 @@ permalink: /uswds-type-scale/
     </div>
   </div>
 
-  <div class="row gap align-items-center fw-400 padding-bottom-2 margin-bottom-2 border-bottom border-color-20">
+  <div class="row gap align-items-center fw-400 padding-bottom-2 margin-bottom-2 border-bottom border-20">
     <div class="col-4 display-flex flex-direction-column justify-content-flex-end">
       <div class="sans-14 color-black-90">Tuscaloosa</div>
       <div class="mono-1 padding-top-2"><code class="txt-code mono-2">u-sans-14</code></div>
@@ -290,7 +290,7 @@ permalink: /uswds-type-scale/
     </div>
   </div>
 
-  <div class="row gap align-items-center fw-400 padding-bottom-2 margin-bottom-2 border-bottom border-color-20">
+  <div class="row gap align-items-center fw-400 padding-bottom-2 margin-bottom-2 border-bottom border-20">
     <div class="col-4 display-flex flex-direction-column justify-content-flex-end">
       <div class="sans-15">Tuscaloosa</div>
       <div class="mono-1 padding-top-2"><code class="txt-code mono-2">u-sans-15</code></div>
@@ -308,7 +308,7 @@ permalink: /uswds-type-scale/
     </div>
   </div>
 
-  <div class="row gap align-items-center fw-400 padding-bottom-2 margin-bottom-2 border-bottom border-color-20">
+  <div class="row gap align-items-center fw-400 padding-bottom-2 margin-bottom-2 border-bottom border-20">
     <div class="col-4 display-flex flex-direction-column justify-content-flex-end">
       <div class="sans-16">Utica</div>
       <div class="mono-1 padding-top-2"><code class="txt-code mono-2">u-sans-16</code></div>
@@ -329,7 +329,7 @@ permalink: /uswds-type-scale/
     </div>
   </div>
 
-  <div class="row gap align-items-center fw-400 padding-bottom-2 margin-bottom-2 border-bottom border-color-20">
+  <div class="row gap align-items-center fw-400 padding-bottom-2 margin-bottom-2 border-bottom border-20">
     <div class="col-4 display-flex flex-direction-column justify-content-flex-end">
       <div class="sans-17">Utica</div>
       <div class="mono-1 padding-top-2"><code class="txt-code mono-2">u-sans-17</code></div>
@@ -347,7 +347,7 @@ permalink: /uswds-type-scale/
     </div>
   </div>
 
-  <div class="row gap align-items-center fw-400 padding-bottom-2 margin-bottom-2 border-bottom border-color-20">
+  <div class="row gap align-items-center fw-400 padding-bottom-2 margin-bottom-2 border-bottom border-20">
     <div class="col-4 display-flex flex-direction-column justify-content-flex-end">
       <div class="sans-18">Utica</div>
       <div class="mono-1 padding-top-2"><code class="txt-code mono-2">u-sans-18</code></div>
@@ -365,7 +365,7 @@ permalink: /uswds-type-scale/
     </div>
   </div>
 
-  <div class="row gap fw-400 padding-bottom-2 margin-bottom-2 border-bottom border-color-20">
+  <div class="row gap fw-400 padding-bottom-2 margin-bottom-2 border-bottom border-20">
     <div class="col-4 display-flex flex-direction-column justify-content-flex-end">
       <div class="sans-19">LA</div>
       <div class="mono-1 padding-top-2"><code class="txt-code mono-2">u-sans-19</code></div>
@@ -383,7 +383,7 @@ permalink: /uswds-type-scale/
     </div>
   </div>
 
-  <div class="row gap fw-400 padding-bottom-2 margin-bottom-2 border-bottom border-color-20">
+  <div class="row gap fw-400 padding-bottom-2 margin-bottom-2 border-bottom border-20">
     <div class="col-4 display-flex flex-direction-column justify-content-flex-end">
       <div class="sans-20">LA</div>
       <div class="mono-1 padding-top-2"><code class="txt-code mono-2">u-sans-20</code></div>

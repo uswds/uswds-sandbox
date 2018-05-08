@@ -41,9 +41,9 @@ permalink: /uswds-color-docs-theme/
 
         <p class="sans-11 fw-300 lh-base margin-top-0">Your project theme palette defines the specific color families and grades used in your project, based on the role these colors play on your site.</p>
 
-        <div class="row gap margin-y-4 text-align-center">
+        <div class="row gap margin-y-4 center">
           <div class="col-fill">
-            <a href="#0" class="display-flex flex-direction-column justify-content-center min-height-card-plus border border-radius-large padding-2 color-black-90 text-decoration-none border-color-black-20 hover:border-color-black-90 hover:border-width-2px">
+            <a href="#0" class="display-flex flex-direction-column justify-content-center min-height-card-plus border border-radius-large padding-2 color-black-90 text-decoration-none border-black-20 hover:border-black-90 hover:border-width-2px">
               <figure class="margin-0 display-block width-4 margin-x-auto">
                 <img class="max-width-full display-block margin-x-auto" src="{{ '/assets/img/uswds/project-theme-palette-icon.svg' | relative_url }}" alt="Project theme palette icon">
               </figure>
@@ -52,7 +52,7 @@ permalink: /uswds-color-docs-theme/
             </a>
           </div>
           <div class="col-fill">
-            <a href="#0" class="display-flex flex-direction-column justify-content-center min-height-card-plus border border-radius-large padding-2 color-black-90 text-decoration-none border-color-black-20 hover:border-color-black-90 hover:border-width-2px">
+            <a href="#0" class="display-flex flex-direction-column justify-content-center min-height-card-plus border border-radius-large padding-2 color-black-90 text-decoration-none border-black-20 hover:border-black-90 hover:border-width-2px">
               <figure class="margin-0 display-block width-4 margin-x-auto">
                 <img class="max-width-full display-block margin-x-auto" src="{{ '/assets/img/uswds/Sketch_logo_frame.svg' | relative_url }}" alt="Sketch application icon">
               </figure>
@@ -146,7 +146,7 @@ permalink: /uswds-color-docs-theme/
             <div class="margin-top-3 border border-radius-base padding-2">
               <h4 class="margin-0 sans-8">Primary</h4>
               <div>
-                <div class="row sans-1 border-top border-color-black-10 margin-top-2 padding-top-1p5">
+                <div class="row sans-1 border-top border-black-10 margin-top-2 padding-top-1p5">
                   <div class="col-fit fw-700">Lightest</div>
                   <div class="col-fit margin-left-auto">Grade 1–5</div>
                 </div>
@@ -159,7 +159,7 @@ permalink: /uswds-color-docs-theme/
                 </ul>
               </div><!-- color -->
               <div>
-                <div class="row sans-1 border-top border-color-black-10 margin-top-2 padding-top-1p5">
+                <div class="row sans-1 border-top border-black-10 margin-top-2 padding-top-1p5">
                   <div class="col-fit fw-700">Lighter</div>
                   <div class="col-fit margin-left-auto">Grade 10–20</div>
                 </div>
@@ -172,7 +172,7 @@ permalink: /uswds-color-docs-theme/
                 </ul>
               </div><!-- color -->
               <div>
-                <div class="row sans-1 border-top border-color-black-10 margin-top-2 padding-top-1p5">
+                <div class="row sans-1 border-top border-black-10 margin-top-2 padding-top-1p5">
                   <div class="col-fit fw-700">Light</div>
                   <div class="col-fit margin-left-auto">Grade 30–40</div>
                 </div>
@@ -185,7 +185,7 @@ permalink: /uswds-color-docs-theme/
                 </ul>
               </div><!-- color -->
               <div>
-                <div class="row sans-1 border-top border-color-black-10 margin-top-2 padding-top-1p5">
+                <div class="row sans-1 border-top border-black-10 margin-top-2 padding-top-1p5">
                   <div class="col-fit fw-700">Base</div>
                   <div class="col-fit margin-left-auto">Grade 40–60</div>
                 </div>
@@ -198,7 +198,7 @@ permalink: /uswds-color-docs-theme/
                 </ul>
               </div><!-- color -->
               <div>
-                <div class="row sans-1 border-top border-color-black-10 margin-top-2 padding-top-1p5">
+                <div class="row sans-1 border-top border-black-10 margin-top-2 padding-top-1p5">
                   <div class="col-fit fw-700">Vivid</div>
                   <div class="col-fit margin-left-auto">Grade 20v-60v</div>
                 </div>
@@ -211,7 +211,7 @@ permalink: /uswds-color-docs-theme/
                 </ul>
               </div><!-- color -->
               <div>
-                <div class="row sans-1 border-top border-color-black-10 margin-top-2 padding-top-1p5">
+                <div class="row sans-1 border-top border-black-10 margin-top-2 padding-top-1p5">
                   <div class="col-fit fw-700">Dark</div>
                   <div class="col-fit margin-left-auto">Grade 60-70</div>
                 </div>
@@ -224,7 +224,7 @@ permalink: /uswds-color-docs-theme/
                 </ul>
               </div><!-- color -->
               <div>
-                <div class="row sans-1 border-top border-color-black-10 margin-top-2 padding-top-1p5">
+                <div class="row sans-1 border-top border-black-10 margin-top-2 padding-top-1p5">
                   <div class="col-fit fw-700">Darker</div>
                   <div class="col-fit margin-left-auto">Grade 80–100</div>
                 </div>
@@ -242,7 +242,7 @@ permalink: /uswds-color-docs-theme/
             <div class="margin-top-3 border border-radius-base padding-2">
               <h4 class="margin-0 sans-8">Secondary</h4>
               <div>
-                <div class="row sans-1 border-top border-color-black-10 margin-top-2 padding-top-1p5">
+                <div class="row sans-1 border-top border-black-10 margin-top-2 padding-top-1p5">
                   <div class="col-fit fw-700">Lightest</div>
                   <div class="col-fit margin-left-auto">Grade 1–5</div>
                 </div>
@@ -255,7 +255,7 @@ permalink: /uswds-color-docs-theme/
                 </ul>
               </div><!-- color -->
               <div>
-                <div class="row sans-1 border-top border-color-black-10 margin-top-2 padding-top-1p5">
+                <div class="row sans-1 border-top border-black-10 margin-top-2 padding-top-1p5">
                   <div class="col-fit fw-700">Lighter</div>
                   <div class="col-fit margin-left-auto">Grade 10–20</div>
                 </div>
@@ -268,7 +268,7 @@ permalink: /uswds-color-docs-theme/
                 </ul>
               </div><!-- color -->
               <div>
-                <div class="row sans-1 border-top border-color-black-10 margin-top-2 padding-top-1p5">
+                <div class="row sans-1 border-top border-black-10 margin-top-2 padding-top-1p5">
                   <div class="col-fit fw-700">Light</div>
                   <div class="col-fit margin-left-auto">Grade 30–40</div>
                 </div>
@@ -281,7 +281,7 @@ permalink: /uswds-color-docs-theme/
                 </ul>
               </div><!-- color -->
               <div>
-                <div class="row sans-1 border-top border-color-black-10 margin-top-2 padding-top-1p5">
+                <div class="row sans-1 border-top border-black-10 margin-top-2 padding-top-1p5">
                   <div class="col-fit fw-700">Base</div>
                   <div class="col-fit margin-left-auto">Grade 40–60</div>
                 </div>
@@ -294,7 +294,7 @@ permalink: /uswds-color-docs-theme/
                 </ul>
               </div><!-- color -->
               <div>
-                <div class="row sans-1 border-top border-color-black-10 margin-top-2 padding-top-1p5">
+                <div class="row sans-1 border-top border-black-10 margin-top-2 padding-top-1p5">
                   <div class="col-fit fw-700">Vivid</div>
                   <div class="col-fit margin-left-auto">Grade 20v-60v</div>
                 </div>
@@ -307,7 +307,7 @@ permalink: /uswds-color-docs-theme/
                 </ul>
               </div><!-- color -->
               <div>
-                <div class="row sans-1 border-top border-color-black-10 margin-top-2 padding-top-1p5">
+                <div class="row sans-1 border-top border-black-10 margin-top-2 padding-top-1p5">
                   <div class="col-fit fw-700">Dark</div>
                   <div class="col-fit margin-left-auto">Grade 60-70</div>
                 </div>
@@ -320,7 +320,7 @@ permalink: /uswds-color-docs-theme/
                 </ul>
               </div><!-- color -->
               <div>
-                <div class="row sans-1 border-top border-color-black-10 margin-top-2 padding-top-1p5">
+                <div class="row sans-1 border-top border-black-10 margin-top-2 padding-top-1p5">
                   <div class="col-fit fw-700">Darker</div>
                   <div class="col-fit margin-left-auto">Grade 80–100</div>
                 </div>
@@ -339,7 +339,7 @@ permalink: /uswds-color-docs-theme/
             <div class="margin-top-3 border border-radius-base padding-2">
               <h4 class="margin-0 sans-8">Accent warm</h4>
               <div>
-                <div class="row sans-1 border-top border-color-black-10 margin-top-2 padding-top-1p5">
+                <div class="row sans-1 border-top border-black-10 margin-top-2 padding-top-1p5">
                   <div class="col-fit fw-700">Base</div>
                   <div class="col-fit margin-left-auto">Grade 20v–50v</div>
                 </div>
@@ -352,7 +352,7 @@ permalink: /uswds-color-docs-theme/
                 </ul>
               </div><!-- color -->
               <div>
-                <div class="row sans-1 border-top border-color-black-10 margin-top-2 padding-top-1p5">
+                <div class="row sans-1 border-top border-black-10 margin-top-2 padding-top-1p5">
                   <div class="col-fit fw-700">Dark</div>
                   <div class="col-fit margin-left-auto">Grade 40–60</div>
                 </div>
@@ -370,7 +370,7 @@ permalink: /uswds-color-docs-theme/
             <div class="margin-top-3 border border-radius-base padding-2">
               <h4 class="margin-0 sans-8">Accent cool</h4>
               <div>
-                <div class="row sans-1 border-top border-color-black-10 margin-top-2 padding-top-1p5">
+                <div class="row sans-1 border-top border-black-10 margin-top-2 padding-top-1p5">
                   <div class="col-fit fw-700">Base</div>
                   <div class="col-fit margin-left-auto">Grade 20v–50v</div>
                 </div>
@@ -383,7 +383,7 @@ permalink: /uswds-color-docs-theme/
                 </ul>
               </div><!-- color -->
               <div>
-                <div class="row sans-1 border-top border-color-black-10 margin-top-2 padding-top-1p5">
+                <div class="row sans-1 border-top border-black-10 margin-top-2 padding-top-1p5">
                   <div class="col-fit fw-700">Dark</div>
                   <div class="col-fit margin-left-auto">Grade 40–60</div>
                 </div>
@@ -401,7 +401,7 @@ permalink: /uswds-color-docs-theme/
             <div class="margin-top-3 border border-radius-base padding-2 background-color-white">
               <h4 class="margin-0 sans-8">Neutral</h4>
               <div>
-                <div class="row sans-1 border-top border-color-black-10 margin-top-2 padding-top-1p5">
+                <div class="row sans-1 border-top border-black-10 margin-top-2 padding-top-1p5">
                   <div class="col-fit fw-700">Lightest</div>
                   <div class="col-fit margin-left-auto">Grade 0–5</div>
                 </div>
@@ -414,7 +414,7 @@ permalink: /uswds-color-docs-theme/
                 </ul>
               </div><!-- color -->
               <div>
-                <div class="row sans-1 border-top border-color-black-10 margin-top-2 padding-top-1p5">
+                <div class="row sans-1 border-top border-black-10 margin-top-2 padding-top-1p5">
                   <div class="col-fit fw-700">Lighter</div>
                   <div class="col-fit margin-left-auto">Grade 10–20</div>
                 </div>
@@ -426,7 +426,7 @@ permalink: /uswds-color-docs-theme/
                 </ul>
               </div><!-- color -->
               <div>
-                <div class="row sans-1 border-top border-color-black-10 margin-top-2 padding-top-1p5">
+                <div class="row sans-1 border-top border-black-10 margin-top-2 padding-top-1p5">
                   <div class="col-fit fw-700">Light</div>
                   <div class="col-fit margin-left-auto">Grade 20–30</div>
                 </div>
@@ -438,7 +438,7 @@ permalink: /uswds-color-docs-theme/
                 </ul>
               </div><!-- color -->
               <div>
-                <div class="row sans-1 border-top border-color-black-10 margin-top-2 padding-top-1p5">
+                <div class="row sans-1 border-top border-black-10 margin-top-2 padding-top-1p5">
                   <div class="col-fit fw-700">Base</div>
                   <div class="col-fit margin-left-auto">Grade 40–60</div>
                 </div>
@@ -450,7 +450,7 @@ permalink: /uswds-color-docs-theme/
                 </ul>
               </div><!-- color -->
               <div>
-                <div class="row sans-1 border-top border-color-black-10 margin-top-2 padding-top-1p5">
+                <div class="row sans-1 border-top border-black-10 margin-top-2 padding-top-1p5">
                   <div class="col-fit fw-700">Dark</div>
                   <div class="col-fit margin-left-auto">Grade 60–70</div>
                 </div>
@@ -462,7 +462,7 @@ permalink: /uswds-color-docs-theme/
                 </ul>
               </div><!-- color -->
               <div>
-                <div class="row sans-1 border-top border-color-black-10 margin-top-2 padding-top-1p5">
+                <div class="row sans-1 border-top border-black-10 margin-top-2 padding-top-1p5">
                   <div class="col-fit fw-700">Darker</div>
                   <div class="col-fit margin-left-auto">Grade 80–100</div>
                 </div>

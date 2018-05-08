@@ -18,7 +18,7 @@ permalink: /uswds-spacing-units/
       <div class=""></div>
     </div>
   </div>
-  <div class="row gap align-items-center padding-bottom-2 margin-bottom-2 border-bottom border-color-10">
+  <div class="row gap align-items-center padding-bottom-2 margin-bottom-2 border-bottom border-10">
     <div class="col-2 fw-300 mono-3"><span class="txt-code fw-300">1px</span></div>
     <div class="col-2 fw-300 sans-3">—</div>
     <div class="col-1 fw-300 sans-3">1px</div>
@@ -27,7 +27,7 @@ permalink: /uswds-spacing-units/
     </div>
     <div class="col-3 fw-300 mono-3">u-bottom-1px</div>
   </div>
-  <div class="row gap align-items-center padding-bottom-2 margin-bottom-2 border-bottom border-color-10">
+  <div class="row gap align-items-center padding-bottom-2 margin-bottom-2 border-bottom border-10">
     <div class="col-2 fw-300 mono-3"><span class="txt-code fw-300">2px</span></div>
     <div class="col-2 fw-300 sans-3">—</div>
     <div class="col-1 fw-300 sans-3">2px</div>
@@ -36,7 +36,7 @@ permalink: /uswds-spacing-units/
     </div>
     <div class="col-3 fw-300 mono-3">u-border-top-2px</div>
   </div>
-  <div class="row gap align-items-center padding-bottom-2 margin-bottom-2 border-bottom border-color-10">
+  <div class="row gap align-items-center padding-bottom-2 margin-bottom-2 border-bottom border-10">
     <div class="col-2 fw-300 mono-3"><span class="txt-code fw-300">p5</span></div>
     <div class="col-2 fw-300 sans-3">0.5 spacing units</div>
     <div class="col-1 fw-300 sans-3">4px</div>
@@ -45,7 +45,7 @@ permalink: /uswds-spacing-units/
     </div>
     <div class="col-3 fw-300 mono-3">u-padding-y-p5</div>
   </div>
-  <div class="row gap align-items-center padding-bottom-2 margin-bottom-2 border-bottom border-color-10">
+  <div class="row gap align-items-center padding-bottom-2 margin-bottom-2 border-bottom border-10">
     <div class="col-2 fw-300 mono-3"><span class="txt-code fw-300">1</span></div>
     <div class="col-2 fw-300 sans-3">1 spacing unit</div>
     <div class="col-1 fw-300 sans-3">8px</div>
@@ -54,7 +54,7 @@ permalink: /uswds-spacing-units/
     </div>
     <div class="col-3 fw-300 mono-3">u-padding-x-1</div>
   </div>
-  <div class="row gap align-items-center padding-bottom-2 margin-bottom-2 border-bottom border-color-10">
+  <div class="row gap align-items-center padding-bottom-2 margin-bottom-2 border-bottom border-10">
     <div class="col-2 fw-300 mono-3"><span class="txt-code fw-300">1p5</span></div>
     <div class="col-2 fw-300 sans-3">1.5 spacing units</div>
     <div class="col-1 fw-300 sans-3">12px</div>
@@ -63,7 +63,7 @@ permalink: /uswds-spacing-units/
     </div>
     <div class="col-3 fw-300 mono-3">u-margin-top-1p5</div>
   </div>
-  <div class="row gap align-items-center padding-bottom-2 margin-bottom-2 border-bottom border-color-10">
+  <div class="row gap align-items-center padding-bottom-2 margin-bottom-2 border-bottom border-10">
     <div class="col-2 fw-300 mono-3"><span class="txt-code fw-300">2</span></div>
     <div class="col-2 fw-300 sans-3">2 spacing units</div>
     <div class="col-1 fw-300 sans-3">16px</div>
@@ -72,7 +72,7 @@ permalink: /uswds-spacing-units/
     </div>
     <div class="col-3 fw-300 mono-3">u-square-2</div>
   </div>
-  <div class="row gap align-items-center padding-bottom-2 margin-bottom-2 border-bottom border-color-10">
+  <div class="row gap align-items-center padding-bottom-2 margin-bottom-2 border-bottom border-10">
     <div class="col-2 fw-300 mono-3"><span class="txt-code fw-300">3</span></div>
     <div class="col-2 fw-300 sans-3">3 spacing units</div>
     <div class="col-1 fw-300 sans-3">24px</div>
@@ -81,7 +81,7 @@ permalink: /uswds-spacing-units/
     </div>
     <div class="col-3 fw-300 mono-3">u-margin-left-neg-3</div>
   </div>
-  <div class="row gap align-items-center padding-bottom-2 margin-bottom-2 border-bottom border-color-10">
+  <div class="row gap align-items-center padding-bottom-2 margin-bottom-2 border-bottom border-10">
     <div class="col-2 fw-300 mono-3"><span class="txt-code fw-300">4</span></div>
     <div class="col-2 fw-300 sans-3">4 spacing units</div>
     <div class="col-1 fw-300 sans-3">32px</div>
@@ -90,7 +90,7 @@ permalink: /uswds-spacing-units/
     </div>
     <div class="col-3 fw-300 mono-3">u-min-height-4</div>
   </div>
-  <div class="row gap align-items-center padding-bottom-2 margin-bottom-2 border-bottom border-color-10">
+  <div class="row gap align-items-center padding-bottom-2 margin-bottom-2 border-bottom border-10">
     <div class="col-2 fw-300 mono-3"><span class="txt-code fw-300">5</span></div>
     <div class="col-2 fw-300 sans-3">5 spacing units</div>
     <div class="col-1 fw-300 sans-3">40px</div>
@@ -99,7 +99,7 @@ permalink: /uswds-spacing-units/
     </div>
     <div class="col-3 fw-300 mono-3">tablet:u-margin-top-4</div>
   </div>
-  <div class="row gap align-items-center padding-bottom-2 margin-bottom-2 border-bottom border-color-10">
+  <div class="row gap align-items-center padding-bottom-2 margin-bottom-2 border-bottom border-10">
     <div class="col-2 fw-300 mono-3"><span class="txt-code fw-300">6</span></div>
     <div class="col-2 fw-300 sans-3">6 spacing units</div>
     <div class="col-1 fw-300 sans-3">48px</div>
@@ -108,7 +108,7 @@ permalink: /uswds-spacing-units/
     </div>
     <div class="col-3 fw-300 mono-3">u-text-indent-6</div>
   </div>
-  <div class="row gap align-items-center padding-bottom-2 margin-bottom-2 border-bottom border-color-10">
+  <div class="row gap align-items-center padding-bottom-2 margin-bottom-2 border-bottom border-10">
     <div class="col-2 fw-300 mono-3"><span class="txt-code fw-300">7</span></div>
     <div class="col-2 fw-300 sans-3">7 spacing units</div>
     <div class="col-1 fw-300 sans-3">56px</div>
@@ -117,7 +117,7 @@ permalink: /uswds-spacing-units/
     </div>
     <div class="col-3 fw-300 mono-3">u-bottom-neg-7</div>
   </div>
-  <div class="row gap align-items-center padding-bottom-2 margin-bottom-2 border-bottom border-color-10">
+  <div class="row gap align-items-center padding-bottom-2 margin-bottom-2 border-bottom border-10">
     <div class="col-2 fw-300 mono-3"><span class="txt-code fw-300">8</span></div>
     <div class="col-2 fw-300 sans-3">8 spacing units</div>
     <div class="col-1 fw-300 sans-3">64px</div>
@@ -126,7 +126,7 @@ permalink: /uswds-spacing-units/
     </div>
     <div class="col-3 fw-300 mono-3">u-min-width-8</div>
   </div>
-  <div class="row gap align-items-center padding-bottom-2 margin-bottom-2 border-bottom border-color-10">
+  <div class="row gap align-items-center padding-bottom-2 margin-bottom-2 border-bottom border-10">
     <div class="col-2 fw-300 mono-3"><span class="txt-code fw-300">9</span></div>
     <div class="col-2 fw-300 sans-3">9 spacing units</div>
     <div class="col-1 fw-300 sans-3">72px</div>
