@@ -2,7 +2,7 @@ title: USWDS Sandbox
 baseurl: ""
 url: ""
 
-include: ["_pages"]
+include: ["_pages", "_process"]
 
 sass:
   sass_dir: _sass/
