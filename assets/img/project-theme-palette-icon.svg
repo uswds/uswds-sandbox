@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="68px" height="68px" viewBox="0 0 68 68" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49.3 (51167) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 10</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="5" y="5" width="40" height="40"></rect>
+        <rect id="path-3" x="-3.55271368e-15" y="3.55271368e-15" width="50" height="50" rx="5"></rect>
+        <rect id="path-5" x="5" y="5" width="40" height="40"></rect>
+        <rect id="path-7" x="-3.55271368e-15" y="3.55271368e-15" width="40" height="40"></rect>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group-10" transform="translate(-2.000000, -2.000000)">
+            <g id="Group-9" transform="translate(36.000000, 36.000000) rotate(-45.000000) translate(-36.000000, -36.000000) translate(11.000000, 11.000000)">
+                <mask id="mask-2" fill="white">
+                    <use xlink:href="#path-1"></use>
+                </mask>
+                <g id="Rectangle-4"></g>
+                <mask id="mask-4" fill="white">
+                    <use xlink:href="#path-3"></use>
+                </mask>
+                <rect stroke="#1C1C1C" stroke-width="2.5" x="1.25" y="1.25" width="47.5" height="47.5" rx="5"></rect>
+                <mask id="mask-6" fill="white">
+                    <use xlink:href="#path-5"></use>
+                </mask>
+                <g id="Rectangle-4"></g>
+                <g id="Group-8" mask="url(#mask-6)" stroke="#FFFFFF" stroke-width="3">
+                    <g transform="translate(31.010408, 17.575379) rotate(-45.000000) translate(-31.010408, -17.575379) translate(-21.489592, -40.424621)" id="Rectangle-4">
+                        <rect fill="#55E1FA" transform="translate(38.416327, 28.767439) rotate(-315.000000) translate(-38.416327, -28.767439) " x="18.4163272" y="8.76743895" width="40" height="40"></rect>
+                        <rect fill="#1C1C1C" transform="translate(53.949747, 51.849242) rotate(-315.000000) translate(-53.949747, -51.849242) " x="44.8994949" y="42.7989899" width="18.1005051" height="18.1005051"></rect>
+                        <rect fill="#0C4D82" transform="translate(28.949747, 61.878680) rotate(-315.000000) translate(-28.949747, -61.878680) " x="8.94974747" y="41.8786797" width="40" height="40"></rect>
+                        <rect fill="#FF7B0F" transform="translate(76.464466, 64.648232) rotate(-315.000000) translate(-76.464466, -64.648232) " x="56.4644661" y="44.6482323" width="40" height="40"></rect>
+                        <rect fill="#1E8461" transform="translate(53.949747, 86.878680) rotate(-315.000000) translate(-53.949747, -86.878680) " x="33.9497475" y="66.8786797" width="40" height="40"></rect>
+                    </g>
+                </g>
+            </g>
+            <g id="Group-9-Copy" transform="translate(36.000000, 36.000000) rotate(-45.000000) translate(-36.000000, -36.000000) translate(16.000000, 16.000000)">
+                <mask id="mask-8" fill="white">
+                    <use xlink:href="#path-7"></use>
+                </mask>
+                <g id="Rectangle-4"></g>
+                <g id="Group-8" mask="url(#mask-8)" stroke="#FFFFFF" stroke-width="3">
+                    <g transform="translate(26.010408, 12.575379) rotate(-45.000000) translate(-26.010408, -12.575379) translate(-26.489592, -45.424621)" id="Rectangle-4">
+                        <rect fill="#55E1FA" transform="translate(38.416327, 28.767439) rotate(-315.000000) translate(-38.416327, -28.767439) " x="18.4163272" y="8.76743895" width="40" height="40"></rect>
+                        <rect fill="#1C1C1C" transform="translate(53.949747, 51.849242) rotate(-315.000000) translate(-53.949747, -51.849242) " x="44.8994949" y="42.7989899" width="18.1005051" height="18.1005051"></rect>
+                        <rect fill="#0C4D82" transform="translate(28.949747, 61.878680) rotate(-315.000000) translate(-28.949747, -61.878680) " x="8.94974747" y="41.8786797" width="40" height="40"></rect>
+                        <rect fill="#FF7B0F" transform="translate(76.464466, 64.648232) rotate(-315.000000) translate(-76.464466, -64.648232) " x="56.4644661" y="44.6482323" width="40" height="40"></rect>
+                        <rect fill="#1E8461" transform="translate(53.949747, 86.878680) rotate(-315.000000) translate(-53.949747, -86.878680) " x="33.9497475" y="66.8786797" width="40" height="40"></rect>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

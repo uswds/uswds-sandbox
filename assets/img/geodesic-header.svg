@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="389px" height="176px" viewBox="0 0 389 176" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49.3 (51167) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 7</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="402" height="180"></rect>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group-8" transform="translate(-622.000000, -4.000000)">
+            <g id="Group-7" transform="translate(615.000000, 0.000000)">
+                <mask id="mask-2" fill="white">
+                    <use xlink:href="#path-1"></use>
+                </mask>
+                <g id="Rectangle"></g>
+                <g id="Group-5" mask="url(#mask-2)">
+                    <g transform="translate(-6.000000, 5.000000)">
+                        <g id="Group-4" stroke="none" stroke-width="1" fill="none" transform="translate(5.000000, 4.000000)">
+                            <polygon id="Path" stroke="#171717" stroke-width="2" points="0.45703125 201.6875 29.625 99.0664062 100.414062 38.859375 200.667969 0.95703125 302.695313 38.859375 374.511719 99.0664062 404.167969 201.6875 365.328125 260.390625 266.519531 302.203125 141.522839 302.203125 36.9804688 262.390625"></polygon>
+                            <polyline id="Path-2" stroke="#171717" stroke-width="2" points="2.625 203.222656 38.9335938 140.589844 140.457031 103.785156 264.539078 103.785156 364.71875 140.589844 402.476562 203.222656"></polyline>
+                            <polyline id="Path-3" stroke="#171717" stroke-width="2" points="37.8242188 263.585938 37.8242188 141.550781 99.6640625 42.5859375 140.152344 102.53125 203.363281 202.980469 140.152344 300.917969 95.4414062 202.980469 309.281129 202.980469 263.757812 300.917969"></polyline>
+                            <polyline id="Path-4" stroke="#171717" stroke-width="2" points="29.2265625 99.0898438 39.4765625 140.785156 96.6875 202.847656 140.234375 103.648437 200.421875 31.703125 265.582031 103.648438 312.101562 202.847656 363.898437 260.308594"></polyline>
+                            <polyline id="Path-6" stroke="#171717" stroke-width="2" points="264.511719 302.265625 202.59375 203.191406 302.953125 40.2851562 364.15625 139.164062 364.15625 260.128906"></polyline>
+                            <polyline id="Path-7" stroke="#171717" stroke-width="2" points="310.320312 201.9375 364.28125 138.117188 373.804688 100.511719"></polyline>
+                            <polyline id="Path-8" stroke="#171717" stroke-width="2" points="101.25 42.078125 202.203125 30.9609375 302.691406 42.078125"></polyline>
+                            <path d="M201.636719,1.32421875 L201.636719,31.25" id="Path-9" stroke="#171717" stroke-width="2"></path>
+                        </g>
+                        <circle id="Oval" stroke="#FFFFFF" stroke-width="2" fill="#171717" cx="206" cy="6" r="6"></circle>
+                        <circle id="Oval" stroke="#FFFFFF" stroke-width="2" fill="#F28F88" cx="206" cy="35" r="6"></circle>
+                        <circle id="Oval" stroke="#FFFFFF" stroke-width="2" fill="#B7A1E3" cx="146" cy="107" r="6"></circle>
+                        <circle id="Oval" stroke="#FFFFFF" stroke-width="2" fill="#317CB9" cx="35" cy="105" r="6"></circle>
+                        <circle id="Oval" stroke="#FFFFFF" stroke-width="2" fill="#97ACF0" cx="379" cy="105" r="6"></circle>
+                        <circle id="Oval" stroke="#FFFFFF" stroke-width="2" fill="#DEC798" cx="369" cy="144" r="6"></circle>
+                        <circle id="Oval" stroke="#FFFFFF" stroke-width="2" fill="#D83731" cx="45" cy="144" r="6"></circle>
+                        <circle id="Oval" stroke="#FFFFFF" stroke-width="2" fill="#7E9E1E" cx="270" cy="107" r="6"></circle>
+                        <circle id="Oval" stroke="#FFFFFF" stroke-width="2" fill="#0DAF01" cx="104" cy="45" r="6"></circle>
+                        <circle id="Oval" stroke="#FFFFFF" stroke-width="2" fill="#FFBB75" cx="308" cy="45" r="6"></circle>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
