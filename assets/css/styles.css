@@ -26213,16 +26213,28 @@ example:
   .desktop\:u-right {
     text-align: right !important; } }
 
+.u-strike {
+  text-decoration: strike !important; }
+
+.hover\:u-strike:hover {
+  text-decoration: strike !important; }
+
 .u-underline {
   text-decoration: underline !important; }
 
 .hover\:u-underline:hover {
   text-decoration: underline !important; }
 
-.u-none {
+.u-no-underline {
   text-decoration: none !important; }
 
-.hover\:u-none:hover {
+.hover\:u-no-underline:hover {
+  text-decoration: none !important; }
+
+.u-no-strike {
+  text-decoration: none !important; }
+
+.hover\:u-no-strike:hover {
   text-decoration: none !important; }
 
 .u-underline-color-red-warm-40v {

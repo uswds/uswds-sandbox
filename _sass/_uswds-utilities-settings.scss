@@ -1370,14 +1370,13 @@ $text-decoration-settings: (
 $text-decoration-plugins: (
   /*
   */
+  'plugin-standard-text-decoration'
 );
 
 $text-decoration-manual-values: (
   /*
   strike:           'strike',
   */
-  underline:        'underline',
-  none:             'none'
 );
 
 /*

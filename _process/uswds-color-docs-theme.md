@@ -4,60 +4,60 @@ title: USWDS project theme palette
 permalink: /uswds-color-docs-theme/
 ---
 
-<div class="u-fw-300 u-padding-top-2 u-padding-bottom-4 tablet:padding-top-4 tablet:padding-bottom-6">
+<div class="u-fw-300 u-padding-top-2 u-padding-bottom-4 tablet:u-padding-top-4 tablet:u-padding-bottom-6">
 
   <div class="g-container-desktop u-margin-bottom-0 u-padding-x-4 u-padding-top-2 u-margin-top-0">
     <div class="g-row">
       <div class="g-col-8">
-        <p class="u-sans-4 color-black-50 u-margin-top-0 u-margin-bottom-2 u-fw-400"><span class="color-black u-fw-800 u-padding-2px u-border-2px u-lh-smallest u-padding-bottom-0 u-margin-right-1">USWDS</span> Docs <span class="color-black">/</span> Style <span class="color-black">/</span> Colors</p>
-          <h1 class="u-sans-14 u-fw-300 u-margin-top-0 u-lh-smaller u-margin-bottom-0">Project theme palette</h1>
+        <p class="u-sans-4 u-color-black-50 u-margin-top-0 u-margin-bottom-2 u-fw-400"><span class="u-color-black u-fw-800 u-padding-2px u-border-2px u-lh-sans-1 u-padding-bottom-0 u-margin-right-1">USWDS</span> Docs <span class="u-color-black">/</span> Style <span class="u-color-black">/</span> Colors</p>
+          <h1 class="u-sans-14 u-fw-300 u-margin-top-0 u-lh-sans-2 u-margin-bottom-0">Project theme palette</h1>
       </div>
       <div class="g-col-4">
         <figure class="u-margin-0 u-display-block">
-          <img class="max-width-full u-display-block u-margin-x-auto" src="{{ '/assets/img/uswds/geodesic-header.svg' | relative_url }}" alt="A geodesic dome with colorful nodes">
+          <img class="u-maxw-full u-display-block u-margin-x-auto" src="{{ '/assets/img//geodesic-header.svg' | relative_url }}" alt="A geodesic dome with colorful nodes">
         </figure>
       </div>
     </div>
 
     <div class="g-row u-padding-top-3 u-border-top-1px">
       <div class="g-col-3 sidenav">
-        <ul class="list-reset u-sans-6 u-fw-700">
-          <li class="u-padding-bottom-1"><a class="color-black-90 text-decoration-none hover:text-decoration-underline" href="{{ '/uswds-color-docs-introduction' | relative_url }}">Introduction</a>
+        <ul class="o-list-reset u-sans-6 u-fw-700">
+          <li class="u-padding-bottom-1"><a class="u-color-black-90 u-no-underline hover:u-underline" href="{{ '/uswds-color-docs-introduction' | relative_url }}">Introduction</a>
           </li>
-          <li class="u-padding-bottom-1"><a class="color-black-90 text-decoration-none hover:text-decoration-underline" href="{{ '/uswds-color-docs-theme' | relative_url }}">Project theme palette</a>
-            <ul class="list-reset u-fw-300 u-margin-top-1 u-margin-bottom-2">
+          <li class="u-padding-bottom-1"><a class="u-color-black-90 u-no-underline hover:u-underline" href="{{ '/uswds-color-docs-theme' | relative_url }}">Project theme palette</a>
+            <ul class="o-list-reset u-fw-300 u-margin-top-1 u-margin-bottom-2">
               <li>Using role-based palettes</li>
               <li>Project theme palette gallery</li>
               <li>Pairing colors</li>
             </ul>
           </li>
-          <li class="u-padding-bottom-1"><a class="color-black-90 text-decoration-none hover:text-decoration-underline" href="{{ '/uswds-color-docs-system' | relative_url }}">System palette</a></li>
-          <li><a class="color-black-90 text-decoration-none hover:text-decoration-underline" href="{{ '/uswds-color-docs-system' | relative_url }}">Special palettes</a></li>
+          <li class="u-padding-bottom-1"><a class="u-color-black-90 u-no-underline hover:u-underline" href="{{ '/uswds-color-docs-system' | relative_url }}">System palette</a></li>
+          <li><a class="u-color-black-90 u-no-underline hover:u-underline" href="{{ '/uswds-color-docs-system' | relative_url }}">Special palettes</a></li>
         </ul>
       </div>
       <div class="g-col-9 usa-prose u-padding-x-3 u-sans-8">
 
         <!-- ###################################################### -->
 
-        <p class="u-sans-11 u-fw-300 u-lh-base u-margin-top-0">Your project theme palette defines the specific color families and grades used in your project, based on the role these colors play on your site.</p>
+        <p class="u-sans-11 u-fw-300 u-lh-sans-4 u-margin-top-0">Your project theme palette defines the specific color families and grades used in your project, based on the role these colors play on your site.</p>
 
-        <div class="g-row g-gap u-margin-y-4 center">
+        <div class="g-row g-gap u-margin-y-4 u-center">
           <div class="g-col-fill">
-            <a href="#0" class="u-display-flex u-flex-column u-flex-justify-center min-height-card-plus u-border u-border-radius-large u-padding-2 color-black-90 text-decoration-none u-border-black-20 hover:border-black-90 hover:border-width-2px">
+            <a href="#0" class="u-display-flex u-flex-column u-flex-justify-center u-minh-card-lg u-border u-radius-lg u-padding-2 u-color-black-90 u-no-underline u-border-black-20 hover:u-border-black-90 hover:u-border-width-2px">
               <figure class="u-margin-0 u-display-block u-width-4 u-margin-x-auto">
-                <img class="max-width-full u-display-block u-margin-x-auto" src="{{ '/assets/img/uswds/project-theme-palette-icon.svg' | relative_url }}" alt="Project theme palette icon">
+                <img class="u-maxw-full u-display-block u-margin-x-auto" src="{{ '/assets/img//project-theme-palette-icon.svg' | relative_url }}" alt="Project theme palette icon">
               </figure>
-              <p class="flex-auto u-width-full u-margin-bottom-0 u-sans-6 u-fw-700 u-lh-small u-margin-top-1">Theme palette gallery</p>
-              <p class="alex-auto u-width-full u-margin-0 u-margin-top-1 u-sans-6 u-lh-small u-padding-bottom-1">View and download project theme palettes</p>
+              <p class="flex-auto u-width-full u-margin-bottom-0 u-sans-6 u-fw-700 u-lh-sans-3 u-margin-top-1">Theme palette gallery</p>
+              <p class="alex-auto u-width-full u-margin-0 u-margin-top-1 u-sans-6 u-lh-sans-3 u-padding-bottom-1">View and download project theme palettes</p>
             </a>
           </div>
           <div class="g-col-fill">
-            <a href="#0" class="u-display-flex u-flex-column u-flex-justify-center min-height-card-plus u-border u-border-radius-large u-padding-2 color-black-90 text-decoration-none u-border-black-20 hover:border-black-90 hover:border-width-2px">
+            <a href="#0" class="u-display-flex u-flex-column u-flex-justify-center u-minh-card-lg u-border u-radius-lg u-padding-2 u-color-black-90 u-no-underline u-border-black-20 hover:u-border-black-90 hover:u-border-width-2px">
               <figure class="u-margin-0 u-display-block u-width-4 u-margin-x-auto">
-                <img class="max-width-full u-display-block u-margin-x-auto" src="{{ '/assets/img/uswds/Sketch_logo_frame.svg' | relative_url }}" alt="Sketch application icon">
+                <img class="u-maxw-full u-display-block u-margin-x-auto" src="{{ '/assets/img//Sketch_logo_frame.svg' | relative_url }}" alt="Sketch application icon">
               </figure>
-              <p class="flex-auto u-width-full u-margin-bottom-0 u-sans-6 u-fw-700 u-lh-small u-margin-top-1">Get the design assets</p>
-              <p class="alex-auto u-width-full u-margin-0 u-margin-top-1 u-sans-6 u-lh-small u-padding-bottom-1">Use project theme palettes in your Sketch files</p>
+              <p class="u-flex-auto u-width-full u-margin-bottom-0 u-sans-6 u-fw-700 u-lh-sans-3 u-margin-top-1">Get the design assets</p>
+              <p class="u-flex-auto u-width-full u-margin-0 u-margin-top-1 u-sans-6 u-lh-sans-3 u-padding-bottom-1">Use project theme palettes in your Sketch files</p>
             </a>
           </div>
         </div>
@@ -98,19 +98,19 @@ permalink: /uswds-color-docs-theme/
           <div class="g-row g-gap u-margin-top-2">
             <div class="g-col-auto g-row u-flex-align-center">
               <div class="g-col-auto o-circle-2 u-bg-blue-70v u-margin-right-1"></div>
-              <div class="u-lh-smallest u-sans-4 u-fw-700 u-padding-top-2px ">Primary</div>
+              <div class="u-lh-sans-1 u-sans-4 u-fw-700 u-padding-top-2px ">Primary</div>
             </div>
             <div class="g-col-auto g-row u-flex-align-center">
               <div class="g-col-auto o-circle-2 u-bg-mint-50 u-margin-right-1"></div>
-              <div class="u-lh-smallest u-sans-4 u-fw-700 u-padding-top-2px ">Secondary</div>
+              <div class="u-lh-sans-1 u-sans-4 u-fw-700 u-padding-top-2px ">Secondary</div>
             </div>
             <div class="g-col-auto g-row u-flex-align-center">
               <div class="g-col-auto o-circle-2 u-bg-orange-30v u-margin-right-1"></div>
-              <div class="u-lh-smallest u-sans-4 u-fw-700 u-padding-top-2px ">Accent warm</div>
+              <div class="u-lh-sans-1 u-sans-4 u-fw-700 u-padding-top-2px ">Accent warm</div>
             </div>
             <div class="g-col-auto g-row u-flex-align-center">
               <div class="g-col-auto o-circle-2 u-bg-cyan-20v u-margin-right-1"></div>
-              <div class="u-lh-smallest u-sans-4 u-fw-700 u-padding-top-2px ">Accent cool</div>
+              <div class="u-lh-sans-1 u-sans-4 u-fw-700 u-padding-top-2px ">Accent cool</div>
             </div>
           </div>
         </div>
@@ -123,18 +123,18 @@ permalink: /uswds-color-docs-theme/
 
         <p>Here’s an example of how these might work together:</p>
 
-        <aside class="u-bg-white-warm-3 u-padding-3 u-margin-y-4 u-border-radius-small">
-          <div class="g-row g-gap-large">
+        <aside class="u-bg-black-warm-3 u-padding-3 u-margin-y-4 u-radius-sm">
+          <div class="g-row g-gap-lg">
             <div class="g-col-4">
               <figure class="u-margin-0 u-display-block">
-                <img class="max-width-full u-display-block u-margin-left-auto" src="{{ '/assets/img/uswds/project-theme-palette-example.svg' | relative_url }}" alt="An example of the 6-30-10 principle applied to a project theme">
+                <img class="u-maxw-full u-display-block u-margin-left-auto" src="{{ '/assets/img//project-theme-palette-example.svg' | relative_url }}" alt="An example of the 6-30-10 principle applied to a project theme">
               </figure>
             </div>
             <div class="g-col-fill">
-              <p class="u-margin-top-0 u-sans-6 u-fw-400">The <strong>primary</strong> color family of <code class="u-bg-blue-70v color-white">Blue</code> occupies the majority of the non-neutral color on the page.</p>
-              <p class="u-border-top u-margin-top-1 u-padding-top-1 u-sans-6 u-fw-400">The <strong>secondary</strong> color family of <code class="u-bg-mint-50 color-white">Mint</code> functions as a background color for an occasional content type.</p>
-              <p class="u-border-top u-margin-top-1 u-padding-top-1 u-sans-6 u-fw-400">The <strong>warm and cool accent color families</strong> of <code class="u-bg-orange-40v color-black-90">Orange</code> and <code class="u-bg-cyan-20v color-black-90">Cyan</code> serve as special call-to-action buttons and headings for special content.</p>
-              <p class="u-border-top u-margin-top-1 u-padding-top-1 u-sans-6 u-fw-400"><strong>Neutral</strong> <code class="u-bg-black-90 color-white">Black</code> is the color family of most text.</p>
+              <p class="u-margin-top-0 u-sans-6 u-fw-400">The <strong>primary</strong> color family of <code class="u-bg-blue-70v u-color-white">Blue</code> occupies the majority of the non-neutral color on the page.</p>
+              <p class="u-border-top u-margin-top-1 u-padding-top-1 u-sans-6 u-fw-400">The <strong>secondary</strong> color family of <code class="u-bg-mint-50 u-color-white">Mint</code> functions as a background color for an occasional content type.</p>
+              <p class="u-border-top u-margin-top-1 u-padding-top-1 u-sans-6 u-fw-400">The <strong>warm and cool accent color families</strong> of <code class="u-bg-orange-40v u-color-black-90">Orange</code> and <code class="u-bg-cyan-20v u-color-black-90">Cyan</code> serve as special call-to-action buttons and headings for special content.</p>
+              <p class="u-border-top u-margin-top-1 u-padding-top-1 u-sans-6 u-fw-400"><strong>Neutral</strong> <code class="u-bg-black-90 u-color-white">Black</code> is the color family of most text.</p>
             </div>
           </div>
         </aside>
@@ -143,7 +143,7 @@ permalink: /uswds-color-docs-theme/
         <p>Each project theme palette include the five theme color families we’ve discussed (primary, secondary, accent warm, accent cool, and neutral) in a range of relative grades from <code>lightest</code> to <code>darker</code>, plus a <code>vivid</code> variant. No color family includes all these grades and variants. The following chart shows the available families and grades of a project theme palette in more detail.</p>
         <div class="g-row g-gap">
           <div class="g-col-6">
-            <div class="u-margin-top-3 u-border u-border-radius-base u-padding-2">
+            <div class="u-margin-top-3 u-border u-radius-base u-padding-2">
               <h4 class="u-margin-0 u-sans-8">Primary</h4>
               <div>
                 <div class="g-row u-sans-1 u-border-top u-border-black-10 u-margin-top-2 u-padding-top-105">
@@ -153,7 +153,7 @@ permalink: /uswds-color-docs-theme/
                 <div class="u-height-4 u-display-flex u-flex-align-center  u-margin-top-05">
                   <div class="u-margin-x-auto o-circle-2px u-bg-black-90"></div>
                 </div><!-- blank -->
-                <ul class="swatch-info list-reset u-mono-1 u-margin-top-1">
+                <ul class="swatch-info o-list-reset u-mono-1 u-margin-top-1">
                   <li class="u-margin-y-2px u-border-0 u-padding-0"><span class="u-sans-2">Utility suffix:</span> <span class="token">—</span></li>
                   <li class="u-margin-y-2px u-border-0 u-padding-0"><span class="u-sans-2">SASS:</span> <span class="token">—</span></li>
                 </ul>
@@ -166,7 +166,7 @@ permalink: /uswds-color-docs-theme/
                 <div class="u-height-4 u-display-flex u-flex-align-center u-bg-blue-10 u-margin-top-05">
                   <div class="u-margin-x-auto o-circle-2px u-bg-black-90 u-display-none"></div>
                 </div>
-                <ul class="swatch-info list-reset u-mono-1 u-margin-top-1">
+                <ul class="swatch-info o-list-reset u-mono-1 u-margin-top-1">
                   <li class="u-margin-y-2px u-border-0 u-padding-0"><span class="u-sans-2">Utility suffix:</span> <span class="token">-primary-lighter</span></li>
                   <li class="u-margin-y-2px u-border-0 u-padding-0"><span class="u-sans-2">SASS:</span> <span class="token">color(primary, lighter)</span></li>
                 </ul>
@@ -179,7 +179,7 @@ permalink: /uswds-color-docs-theme/
                 <div class="u-height-4 u-display-flex u-flex-align-center u-bg-blue-30 u-margin-top-05">
                   <div class="u-margin-x-auto o-circle-2px u-bg-black-90 u-display-none"></div>
                 </div>
-                <ul class="swatch-info list-reset u-mono-1 u-margin-top-1">
+                <ul class="swatch-info o-list-reset u-mono-1 u-margin-top-1">
                   <li class="u-margin-y-2px u-border-0 u-padding-0"><span class="u-sans-2">Utility suffix:</span> <span class="token">-primary-light</span></li>
                   <li class="u-margin-y-2px u-border-0 u-padding-0"><span class="u-sans-2">SASS:</span> <span class="token">color(primary, light)</span></li>
                 </ul>
@@ -192,7 +192,7 @@ permalink: /uswds-color-docs-theme/
                 <div class="u-height-4 u-display-flex u-flex-align-center u-bg-blue-50 u-margin-top-05">
                   <div class="u-margin-x-auto o-circle-2px u-bg-black-90 u-display-none"></div>
                 </div>
-                <ul class="swatch-info list-reset u-mono-1 u-margin-top-1">
+                <ul class="swatch-info o-list-reset u-mono-1 u-margin-top-1">
                   <li class="u-margin-y-2px u-border-0 u-padding-0"><span class="u-sans-2">Utility suffix:</span> <span class="token">-primary-base</span></li>
                   <li class="u-margin-y-2px u-border-0 u-padding-0"><span class="u-sans-2">SASS:</span> <span class="token">color(primary, base)</span></li>
                 </ul>
@@ -205,7 +205,7 @@ permalink: /uswds-color-docs-theme/
                 <div class="u-height-4 u-display-flex u-flex-align-center u-bg-blue-50v u-margin-top-05">
                   <div class="u-margin-x-auto o-circle-2px u-bg-black-90 u-display-none"></div>
                 </div>
-                <ul class="swatch-info list-reset u-mono-1 u-margin-top-1">
+                <ul class="swatch-info o-list-reset u-mono-1 u-margin-top-1">
                   <li class="u-margin-y-2px u-border-0 u-padding-0"><span class="u-sans-2">Utility suffix:</span> <span class="token">-primary-vivid</span></li>
                   <li class="u-margin-y-2px u-border-0 u-padding-0"><span class="u-sans-2">SASS:</span> <span class="token">color(primary, vivid)</span></li>
                 </ul>
@@ -218,7 +218,7 @@ permalink: /uswds-color-docs-theme/
                 <div class="u-height-4 u-display-flex u-flex-align-center u-bg-blue-70 u-margin-top-05">
                   <div class="u-margin-x-auto o-circle-2px u-bg-black-90 u-display-none"></div>
                 </div>
-                <ul class="swatch-info list-reset u-mono-1 u-margin-top-1">
+                <ul class="swatch-info o-list-reset u-mono-1 u-margin-top-1">
                   <li class="u-margin-y-2px u-border-0 u-padding-0"><span class="u-sans-2">Utility suffix:</span> <span class="token">-primary-large</span></li>
                   <li class="u-margin-y-2px u-border-0 u-padding-0"><span class="u-sans-2">SASS:</span> <span class="token">color(primary, large)</span></li>
                 </ul>
@@ -231,7 +231,7 @@ permalink: /uswds-color-docs-theme/
                 <div class="u-height-4 u-display-flex u-flex-align-center u-bg-blue-90 u-margin-top-05">
                   <div class="u-margin-x-auto o-circle-2px u-bg-black-90 u-display-none"></div>
                 </div>
-                <ul class="swatch-info list-reset u-mono-1 u-margin-top-1">
+                <ul class="swatch-info o-list-reset u-mono-1 u-margin-top-1">
                   <li class="u-margin-y-2px u-border-0 u-padding-0"><span class="u-sans-2">Utility suffix:</span> <span class="token">-primary-darker</span></li>
                   <li class="u-margin-y-2px u-border-0 u-padding-0"><span class="u-sans-2">SASS:</span> <span class="token">color(primary, darker)</span></li>
                 </ul>
@@ -239,7 +239,7 @@ permalink: /uswds-color-docs-theme/
             </div><!-- card -->
           </div><!-- column -->
           <div class="g-col-6">
-            <div class="u-margin-top-3 u-border u-border-radius-base u-padding-2">
+            <div class="u-margin-top-3 u-border u-radius-base u-padding-2">
               <h4 class="u-margin-0 u-sans-8">Secondary</h4>
               <div>
                 <div class="g-row u-sans-1 u-border-top u-border-black-10 u-margin-top-2 u-padding-top-105">
@@ -249,7 +249,7 @@ permalink: /uswds-color-docs-theme/
                 <div class="u-height-4 u-display-flex u-flex-align-center  u-margin-top-05">
                   <div class="u-margin-x-auto o-circle-2px u-bg-black-90"></div>
                 </div><!-- blank -->
-                <ul class="swatch-info list-reset u-mono-1 u-margin-top-1">
+                <ul class="swatch-info o-list-reset u-mono-1 u-margin-top-1">
                   <li class="u-margin-y-2px u-border-0 u-padding-0"><span class="u-sans-2">Utility suffix:</span> <span class="token">—</span></li>
                   <li class="u-margin-y-2px u-border-0 u-padding-0"><span class="u-sans-2">SASS:</span> <span class="token">—</span></li>
                 </ul>
@@ -262,7 +262,7 @@ permalink: /uswds-color-docs-theme/
                 <div class="u-height-4 u-display-flex u-flex-align-center u-margin-top-05">
                   <div class="u-margin-x-auto o-circle-2px u-bg-black-90"></div>
                 </div>
-                <ul class="swatch-info list-reset u-mono-1 u-margin-top-1">
+                <ul class="swatch-info o-list-reset u-mono-1 u-margin-top-1">
                   <li class="u-margin-y-2px u-border-0 u-padding-0"><span class="u-sans-2">Utility suffix:</span> <span class="token">—</span></li>
                   <li class="u-margin-y-2px u-border-0 u-padding-0"><span class="u-sans-2">SASS:</span> <span class="token">—</span></li>
                 </ul>
@@ -275,7 +275,7 @@ permalink: /uswds-color-docs-theme/
                 <div class="u-height-4 u-display-flex u-flex-align-center u-bg-mint-30 u-margin-top-05">
                   <div class="u-margin-x-auto o-circle-2px u-bg-black-90 u-display-none"></div>
                 </div>
-                <ul class="swatch-info list-reset u-mono-1 u-margin-top-1">
+                <ul class="swatch-info o-list-reset u-mono-1 u-margin-top-1">
                   <li class="u-margin-y-2px u-border-0 u-padding-0"><span class="u-sans-2">Utility suffix:</span> <span class="token">-secondary-light</span></li>
                   <li class="u-margin-y-2px u-border-0 u-padding-0"><span class="u-sans-2">SASS:</span> <span class="token">color(secondary, light)</span></li>
                 </ul>
@@ -288,7 +288,7 @@ permalink: /uswds-color-docs-theme/
                 <div class="u-height-4 u-display-flex u-flex-align-center u-bg-mint-50 u-margin-top-05">
                   <div class="u-margin-x-auto o-circle-2px u-bg-black-90 u-display-none"></div>
                 </div>
-                <ul class="swatch-info list-reset u-mono-1 u-margin-top-1">
+                <ul class="swatch-info o-list-reset u-mono-1 u-margin-top-1">
                   <li class="u-margin-y-2px u-border-0 u-padding-0"><span class="u-sans-2">Utility suffix:</span> <span class="token">-secondary-base</span></li>
                   <li class="u-margin-y-2px u-border-0 u-padding-0"><span class="u-sans-2">SASS:</span> <span class="token">color(secondary, base)</span></li>
                 </ul>
@@ -301,7 +301,7 @@ permalink: /uswds-color-docs-theme/
                 <div class="u-height-4 u-display-flex u-flex-align-center u-bg-mint-cool-40v u-margin-top-05">
                   <div class="u-margin-x-auto o-circle-2px u-bg-black-90 u-display-none"></div>
                 </div>
-                <ul class="swatch-info list-reset u-mono-1 u-margin-top-1">
+                <ul class="swatch-info o-list-reset u-mono-1 u-margin-top-1">
                   <li class="u-margin-y-2px u-border-0 u-padding-0"><span class="u-sans-2">Utility suffix:</span> <span class="token">-secondary-vivid</span></li>
                   <li class="u-margin-y-2px u-border-0 u-padding-0"><span class="u-sans-2">SASS:</span> <span class="token">color(secondary, vivid)</span></li>
                 </ul>
@@ -314,7 +314,7 @@ permalink: /uswds-color-docs-theme/
                 <div class="u-height-4 u-display-flex u-flex-align-center u-bg-mint-70 u-margin-top-05">
                   <div class="u-margin-x-auto o-circle-2px u-bg-black-90 u-display-none"></div>
                 </div>
-                <ul class="swatch-info list-reset u-mono-1 u-margin-top-1">
+                <ul class="swatch-info o-list-reset u-mono-1 u-margin-top-1">
                   <li class="u-margin-y-2px u-border-0 u-padding-0"><span class="u-sans-2">Utility suffix:</span> <span class="token">-secondary-dark</span></li>
                   <li class="u-margin-y-2px u-border-0 u-padding-0"><span class="u-sans-2">SASS:</span> <span class="token">color(secondary, dark)</span></li>
                 </ul>
@@ -327,7 +327,7 @@ permalink: /uswds-color-docs-theme/
                 <div class="u-height-4 u-display-flex u-flex-align-center u-margin-top-05">
                   <div class="u-margin-x-auto o-circle-2px u-bg-black-90"></div>
                 </div>
-                <ul class="swatch-info list-reset u-mono-1 u-margin-top-1">
+                <ul class="swatch-info o-list-reset u-mono-1 u-margin-top-1">
                   <li class="u-margin-y-2px u-border-0 u-padding-0"><span class="u-sans-2">Utility suffix:</span> <span class="token">—</span></li>
                   <li class="u-margin-y-2px u-border-0 u-padding-0"><span class="u-sans-2">SASS:</span> <span class="token">—</span></li>
                 </ul>
@@ -336,7 +336,7 @@ permalink: /uswds-color-docs-theme/
           </div><!-- column -->
 
           <div class="g-col-6">
-            <div class="u-margin-top-3 u-border u-border-radius-base u-padding-2">
+            <div class="u-margin-top-3 u-border u-radius-base u-padding-2">
               <h4 class="u-margin-0 u-sans-8">Accent warm</h4>
               <div>
                 <div class="g-row u-sans-1 u-border-top u-border-black-10 u-margin-top-2 u-padding-top-105">
@@ -346,7 +346,7 @@ permalink: /uswds-color-docs-theme/
                 <div class="u-height-4 u-display-flex u-flex-align-center u-bg-orange-40v u-margin-top-05">
                   <div class="u-margin-x-auto o-circle-2px u-bg-black-90 u-display-none"></div>
                 </div>
-                <ul class="swatch-info list-reset u-mono-1 u-margin-top-1">
+                <ul class="swatch-info o-list-reset u-mono-1 u-margin-top-1">
                   <li class="u-margin-y-2px u-border-0 u-padding-0"><span class="u-sans-2">Utility suffix:</span> <span class="token">-accent-warm-base</span></li>
                   <li class="u-margin-y-2px u-border-0 u-padding-0"><span class="u-sans-2">SASS:</span> <span class="token">color(accent-warm, base)</span></li>
                 </ul>
@@ -359,7 +359,7 @@ permalink: /uswds-color-docs-theme/
                 <div class="u-height-4 u-display-flex u-flex-align-center u-bg-orange-50v u-margin-top-05">
                   <div class="u-margin-x-auto o-circle-2px u-bg-black-90 u-display-none"></div>
                 </div>
-                <ul class="swatch-info list-reset u-mono-1 u-margin-top-1">
+                <ul class="swatch-info o-list-reset u-mono-1 u-margin-top-1">
                   <li class="u-margin-y-2px u-border-0 u-padding-0"><span class="u-sans-2">Utility suffix:</span> <span class="token">-accent-warm-dark</span></li>
                   <li class="u-margin-y-2px u-border-0 u-padding-0"><span class="u-sans-2">SASS:</span> <span class="token">color(accent-warm, dark)</span></li>
                 </ul>
@@ -367,7 +367,7 @@ permalink: /uswds-color-docs-theme/
             </div><!-- card -->
           </div><!-- column -->
           <div class="g-col-6">
-            <div class="u-margin-top-3 u-border u-border-radius-base u-padding-2">
+            <div class="u-margin-top-3 u-border u-radius-base u-padding-2">
               <h4 class="u-margin-0 u-sans-8">Accent cool</h4>
               <div>
                 <div class="g-row u-sans-1 u-border-top u-border-black-10 u-margin-top-2 u-padding-top-105">
@@ -377,7 +377,7 @@ permalink: /uswds-color-docs-theme/
                 <div class="u-height-4 u-display-flex u-flex-align-center u-bg-cyan-20v u-margin-top-05">
                   <div class="u-margin-x-auto o-circle-2px u-bg-black-90 u-display-none"></div>
                 </div>
-                <ul class="swatch-info list-reset u-mono-1 u-margin-top-1">
+                <ul class="swatch-info o-list-reset u-mono-1 u-margin-top-1">
                   <li class="u-margin-y-2px u-border-0 u-padding-0"><span class="u-sans-2">Utility suffix:</span> <span class="token">-accent-cool-base</span></li>
                   <li class="u-margin-y-2px u-border-0 u-padding-0"><span class="u-sans-2">SASS:</span> <span class="token">color(accent-cool, base)</span></li>
                 </ul>
@@ -390,7 +390,7 @@ permalink: /uswds-color-docs-theme/
                 <div class="u-height-4 u-display-flex u-flex-align-center u-bg-cyan-40v u-margin-top-05">
                   <div class="u-margin-x-auto o-circle-2px u-bg-black-90 u-display-none"></div>
                 </div>
-                <ul class="swatch-info list-reset u-mono-1 u-margin-top-1">
+                <ul class="swatch-info o-list-reset u-mono-1 u-margin-top-1">
                   <li class="u-margin-y-2px u-border-0 u-padding-0"><span class="u-sans-2">Utility suffix:</span> <span class="token">-accent-cool-dark</span></li>
                   <li class="u-margin-y-2px u-border-0 u-padding-0"><span class="u-sans-2">SASS:</span> <span class="token">color(accent-cool, dark)</span></li>
                 </ul>
@@ -398,7 +398,7 @@ permalink: /uswds-color-docs-theme/
             </div><!-- card -->
           </div><!-- column -->
           <div class="g-col-12">
-            <div class="u-margin-top-3 u-border u-border-radius-base u-padding-2 u-bg-white">
+            <div class="u-margin-top-3 u-border u-radius-base u-padding-2 u-bg-white">
               <h4 class="u-margin-0 u-sans-8">Neutral</h4>
               <div>
                 <div class="g-row u-sans-1 u-border-top u-border-black-10 u-margin-top-2 u-padding-top-105">
@@ -408,7 +408,7 @@ permalink: /uswds-color-docs-theme/
                 <div class="u-height-4 u-display-flex u-flex-align-center u-margin-top-05 u-bg-white-1">
                   <div class="u-margin-x-auto o-circle-2px u-bg-black-90 u-display-none"></div>
                 </div>
-                <ul class="g-row swatch-info list-reset u-mono-1 u-margin-top-1">
+                <ul class="g-row swatch-info o-list-reset u-mono-1 u-margin-top-1">
                   <li class="g-col-auto u-margin-y-2px u-border-0 u-padding-0"><span class="u-sans-2">Utility suffix:</span> <span class="token">-neutral-lightest</span></li>
                   <li class="g-col-auto u-margin-left-auto u-margin-y-2px u-border-0 u-padding-0"><span class="u-sans-2">SASS:</span> <span class="token">color(neutral, lightest)</span></li>
                 </ul>
@@ -420,7 +420,7 @@ permalink: /uswds-color-docs-theme/
                 </div>
                 <div class="u-height-4 u-display-flex u-flex-align-center u-margin-top-05 u-bg-black-10">
                 </div>
-                <ul class="g-row swatch-info list-reset u-mono-1 u-margin-top-1">
+                <ul class="g-row swatch-info o-list-reset u-mono-1 u-margin-top-1">
                   <li class="g-col-auto u-margin-y-2px u-border-0 u-padding-0"><span class="u-sans-2">Utility suffix:</span> <span class="token">-neutral-lighter</span></li>
                   <li class="g-col-auto u-margin-left-auto u-margin-y-2px u-border-0 u-padding-0"><span class="u-sans-2">SASS:</span> <span class="token">color(neutral, lighter)</span></li>
                 </ul>
@@ -432,7 +432,7 @@ permalink: /uswds-color-docs-theme/
                 </div>
                 <div class="u-height-4 u-display-flex u-flex-align-center u-margin-top-05 u-bg-black-30">
                 </div>
-                <ul class="g-row swatch-info list-reset u-mono-1 u-margin-top-1">
+                <ul class="g-row swatch-info o-list-reset u-mono-1 u-margin-top-1">
                   <li class="g-col-auto u-margin-y-2px u-border-0 u-padding-0"><span class="u-sans-2">Utility suffix:</span> <span class="token">-neutral-light</span></li>
                   <li class="g-col-auto u-margin-left-auto u-margin-y-2px u-border-0 u-padding-0"><span class="u-sans-2">SASS:</span> <span class="token">color(neutral, light)</span></li>
                 </ul>
@@ -444,7 +444,7 @@ permalink: /uswds-color-docs-theme/
                 </div>
                 <div class="u-height-4 u-display-flex u-flex-align-center u-margin-top-05 u-bg-black-50">
                 </div>
-                <ul class="g-row swatch-info list-reset u-mono-1 u-margin-top-1">
+                <ul class="g-row swatch-info o-list-reset u-mono-1 u-margin-top-1">
                   <li class="g-col-auto u-margin-y-2px u-border-0 u-padding-0"><span class="u-sans-2">Utility suffix:</span> <span class="token">-neutral-base</span></li>
                   <li class="g-col-auto u-margin-left-auto u-margin-y-2px u-border-0 u-padding-0"><span class="u-sans-2">SASS:</span> <span class="token">color(neutral, base)</span></li>
                 </ul>
@@ -456,7 +456,7 @@ permalink: /uswds-color-docs-theme/
                 </div>
                 <div class="u-height-4 u-display-flex u-flex-align-center u-margin-top-05 u-bg-black-70">
                 </div>
-                <ul class="g-row swatch-info list-reset u-mono-1 u-margin-top-1">
+                <ul class="g-row swatch-info o-list-reset u-mono-1 u-margin-top-1">
                   <li class="g-col-auto u-margin-y-2px u-border-0 u-padding-0"><span class="u-sans-2">Utility suffix:</span> <span class="token">-neutral-dark</span></li>
                   <li class="g-col-auto u-margin-left-auto u-margin-y-2px u-border-0 u-padding-0"><span class="u-sans-2">SASS:</span> <span class="token">color(neutral, dark)</span></li>
                 </ul>
@@ -468,7 +468,7 @@ permalink: /uswds-color-docs-theme/
                 </div>
                 <div class="u-height-4 u-display-flex u-flex-align-center u-margin-top-05 u-bg-black-90">
                 </div>
-                <ul class="g-row swatch-info list-reset u-mono-1 u-margin-top-1">
+                <ul class="g-row swatch-info o-list-reset u-mono-1 u-margin-top-1">
                   <li class="g-col-auto u-margin-y-2px u-border-0 u-padding-0"><span class="u-sans-2">Utility suffix:</span> <span class="token">-neutral-darker</span></li>
                   <li class="g-col-auto u-margin-left-auto u-margin-y-2px u-border-0 u-padding-0"><span class="u-sans-2">SASS:</span> <span class="token">color(neutral, darker)</span></li>
                 </ul>
@@ -483,7 +483,7 @@ permalink: /uswds-color-docs-theme/
 
         <div class="g-row g-gap u-margin-top-4">
           <div class="g-col-6">
-            <div class="palette-card u-border u-border-radius-small u-padding-1 u-margin-top-3">
+            <div class="palette-card u-border u-radius-sm u-padding-1 u-margin-top-3">
               <div class="g-row g-gap-2px">
                 <!-- ========================================= -->
                 <div class="g-col-fill">
@@ -566,24 +566,24 @@ permalink: /uswds-color-docs-theme/
                   <div class="u-bg-black-80 u-height-1 u-margin-top-2px"></div>
                 </div><!-- family-column -->
               </div> <!-- this-palette -->
-              <h4 class="u-sans-5 u-margin-bottom-1 u-lh-smaller">Onondaga</h4>
-              <ul class="list-reset g-row g-gap u-sans-1 u-fw-400 u-margin-bottom-0 u-margin-x-0 min-height-6 u-flex-align-flex-start u-margin-top-05">
-                <li class="g-col-auto u-border-0 u-bg-white-warm-4 u-border-radius-small u-padding-y-05 u-padding-x-1 u-lh-smallest u-margin-right-05">professional</li>
-                <li class="g-col-auto u-border-0 u-bg-white-warm-4 u-border-radius-small u-padding-y-05 u-padding-x-1 u-lh-smallest u-margin-right-05">young</li>
-                <li class="g-col-auto u-border-0 u-bg-white-warm-4 u-border-radius-small u-padding-y-05 u-padding-x-1 u-lh-smallest u-margin-right-05">natural</li>
+              <h4 class="u-sans-5 u-margin-bottom-1 u-lh-sans-2">Onondaga</h4>
+              <ul class="o-list-reset g-row g-gap u-sans-1 u-fw-400 u-margin-bottom-0 u-margin-x-0 u-minh-6 u-flex-align-flex-start u-margin-top-05">
+                <li class="g-col-auto u-border-0 u-bg-black-warm-4 u-radius-sm u-padding-y-05 u-padding-x-1 u-lh-sans-1 u-margin-right-05">professional</li>
+                <li class="g-col-auto u-border-0 u-bg-black-warm-4 u-radius-sm u-padding-y-05 u-padding-x-1 u-lh-sans-1 u-margin-right-05">young</li>
+                <li class="g-col-auto u-border-0 u-bg-black-warm-4 u-radius-sm u-padding-y-05 u-padding-x-1 u-lh-sans-1 u-margin-right-05">natural</li>
               </ul><!-- tags -->
               <div class="g-row u-margin-top-2 u-flex-align-center">
-                <a href="#0" class="g-col-auto u-lh-smallest u-sans-1 u-fw-400 u-padding-y-1 u-padding-x-2 u-bg-black-90 color-white u-border-radius-small text-decoration-none">
+                <a href="#0" class="g-col-auto u-lh-sans-1 u-sans-1 u-fw-400 u-padding-y-1 u-padding-x-2 u-bg-black-90 u-color-white u-radius-sm u-no-underline">
                   Download palette ⇣
                 </a><!-- palette-button -->
-                <a href="#0" class="g-col-auto u-margin-left-auto color-black-90 u-sans-1 text-decoration-underline u-lh-smallest">See more examples</a>
+                <a href="#0" class="g-col-auto u-margin-left-auto u-color-black-90 u-sans-1 u-underline u-lh-sans-1">See more examples</a>
               </div><!-- palette-actions -->
             </div><!-- palette-card -->
           </div>
 
           <!-- * * * * * * =================================== -->
           <div class="g-col-6">
-            <div class="palette-card u-border u-border-radius-small u-padding-1 u-margin-top-3">
+            <div class="palette-card u-border u-radius-sm u-padding-1 u-margin-top-3">
               <div class="g-row g-gap-2px">
                 <!-- ========================================= -->
                 <div class="g-col-fill">
@@ -666,24 +666,24 @@ permalink: /uswds-color-docs-theme/
                   <div class="u-bg-blacksolid-90 u-height-1 u-margin-top-2px"></div>
                 </div><!-- family-column -->
               </div> <!-- this-palette -->
-              <h4 class="u-sans-5 u-margin-bottom-1 u-lh-smaller">Federal <span class="u-fw-300">(Original USWDS)</span></h4>
-              <ul class="list-reset g-row g-gap u-sans-1 u-fw-400 u-margin-bottom-0 u-margin-x-0 min-height-6 u-flex-align-flex-start u-margin-top-05">
-                <li class="g-col-auto u-border-0 u-bg-white-warm-4 u-border-radius-small u-padding-y-05 u-padding-x-1 u-lh-smallest u-margin-right-05">traditional</li>
-                <li class="g-col-auto u-border-0 u-bg-white-warm-4 u-border-radius-small u-padding-y-05 u-padding-x-1 u-lh-smallest u-margin-right-05">straightforward</li>
-                <li class="g-col-auto u-border-0 u-bg-white-warm-4 u-border-radius-small u-padding-y-05 u-padding-x-1 u-lh-smallest u-margin-right-05">trustworthy</li>
+              <h4 class="u-sans-5 u-margin-bottom-1 u-lh-sans-2">Federal <span class="u-fw-300">(Original USWDS)</span></h4>
+              <ul class="o-list-reset g-row g-gap u-sans-1 u-fw-400 u-margin-bottom-0 u-margin-x-0 u-minh-6 u-flex-align-flex-start u-margin-top-05">
+                <li class="g-col-auto u-border-0 u-bg-black-warm-4 u-radius-sm u-padding-y-05 u-padding-x-1 u-lh-sans-1 u-margin-right-05">traditional</li>
+                <li class="g-col-auto u-border-0 u-bg-black-warm-4 u-radius-sm u-padding-y-05 u-padding-x-1 u-lh-sans-1 u-margin-right-05">straightforward</li>
+                <li class="g-col-auto u-border-0 u-bg-black-warm-4 u-radius-sm u-padding-y-05 u-padding-x-1 u-lh-sans-1 u-margin-right-05">trustworthy</li>
               </ul><!-- tags -->
               <div class="g-row u-margin-top-2 u-flex-align-center">
-                <a href="#0" class="g-col-auto u-lh-smallest u-sans-1 u-fw-400 u-padding-y-1 u-padding-x-2 u-bg-black-90 color-white u-border-radius-small text-decoration-none">
+                <a href="#0" class="g-col-auto u-lh-sans-1 u-sans-1 u-fw-400 u-padding-y-1 u-padding-x-2 u-bg-black-90 u-color-white u-radius-sm u-no-underline">
                   Download palette ⇣
                 </a><!-- palette-button -->
-                <a href="#0" class="g-col-auto u-margin-left-auto color-black-90 u-sans-1 text-decoration-underline u-lh-smallest">See more examples</a>
+                <a href="#0" class="g-col-auto u-margin-left-auto u-color-black-90 u-sans-1 u-underline u-lh-sans-1">See more examples</a>
               </div><!-- palette-actions -->
             </div><!-- palette-card -->
           </div><!-- card column -->
 
           <!-- * * * * * * =================================== -->
           <div class="g-col-6">
-            <div class="palette-card u-border u-border-radius-small u-padding-1 u-margin-top-3">
+            <div class="palette-card u-border u-radius-sm u-padding-1 u-margin-top-3">
               <div class="g-row g-gap-2px">
                 <!-- ========================================= -->
                 <div class="g-col-fill">
@@ -755,7 +755,7 @@ permalink: /uswds-color-docs-theme/
                 </div><!-- family-column -->
                 <!-- ========================================= -->
                 <div class="g-col-fill">
-                  <div class="u-bg-white-cool-1 u-height-1"></div>
+                  <div class="u-bg-black-cool-1 u-height-1"></div>
                   <div class="u-bg-black-cool-10 u-height-1 u-margin-top-2px"></div>
                   <div class="u-bg-black-cool-30 u-height-1 u-margin-top-2px"></div>
                   <div class="u-bg-black-cool-50 u-height-1 u-margin-top-2px"></div>
@@ -766,26 +766,26 @@ permalink: /uswds-color-docs-theme/
                   <div class="u-bg-black-cool-90 u-height-1 u-margin-top-2px"></div>
                 </div><!-- family-column -->
               </div> <!-- this-palette -->
-              <h4 class="u-sans-5 u-margin-bottom-1 u-lh-smaller u-margin-bottom-0">Pennant</h4>
-              <ul class="list-reset g-row g-gap u-sans-1 u-fw-400 u-margin-bottom-0 u-margin-x-0 min-height-6 u-flex-align-flex-start u-margin-top-05">
-                <li class="g-col-auto u-border-0 u-bg-white-warm-4 u-border-radius-small u-padding-y-05 u-padding-x-1 u-lh-smallest u-margin-right-05 u-margin-top-05">solid</li>
-                <li class="g-col-auto u-border-0 u-bg-white-warm-4 u-border-radius-small u-padding-y-05 u-padding-x-1 u-lh-smallest u-margin-right-05 u-margin-top-05">friendly</li>
-                <li class="g-col-auto u-border-0 u-bg-white-warm-4 u-border-radius-small u-padding-y-05 u-padding-x-1 u-lh-smallest u-margin-right-05 u-margin-top-05">energetic</li>
-                <li class="g-col-auto u-border-0 u-bg-white-warm-4 u-border-radius-small u-padding-y-05 u-padding-x-1 u-lh-smallest u-margin-right-05 u-margin-top-05">outgoing</li>
-                <li class="g-col-auto u-border-0 u-bg-white-warm-4 u-border-radius-small u-padding-y-05 u-padding-x-1 u-lh-smallest u-margin-right-05 u-margin-top-05">all-American</li>
+              <h4 class="u-sans-5 u-margin-bottom-1 u-lh-sans-2 u-margin-bottom-0">Pennant</h4>
+              <ul class="o-list-reset g-row g-gap u-sans-1 u-fw-400 u-margin-bottom-0 u-margin-x-0 u-minh-6 u-flex-align-flex-start u-margin-top-05">
+                <li class="g-col-auto u-border-0 u-bg-black-warm-4 u-radius-sm u-padding-y-05 u-padding-x-1 u-lh-sans-1 u-margin-right-05 u-margin-top-05">solid</li>
+                <li class="g-col-auto u-border-0 u-bg-black-warm-4 u-radius-sm u-padding-y-05 u-padding-x-1 u-lh-sans-1 u-margin-right-05 u-margin-top-05">friendly</li>
+                <li class="g-col-auto u-border-0 u-bg-black-warm-4 u-radius-sm u-padding-y-05 u-padding-x-1 u-lh-sans-1 u-margin-right-05 u-margin-top-05">energetic</li>
+                <li class="g-col-auto u-border-0 u-bg-black-warm-4 u-radius-sm u-padding-y-05 u-padding-x-1 u-lh-sans-1 u-margin-right-05 u-margin-top-05">outgoing</li>
+                <li class="g-col-auto u-border-0 u-bg-black-warm-4 u-radius-sm u-padding-y-05 u-padding-x-1 u-lh-sans-1 u-margin-right-05 u-margin-top-05">all-American</li>
               </ul><!-- tags -->
               <div class="g-row u-margin-top-2 u-flex-align-center">
-                <a href="#0" class="g-col-auto u-lh-smallest u-sans-1 u-fw-400 u-padding-y-1 u-padding-x-2 u-bg-black-90 color-white u-border-radius-small text-decoration-none">
+                <a href="#0" class="g-col-auto u-lh-sans-1 u-sans-1 u-fw-400 u-padding-y-1 u-padding-x-2 u-bg-black-90 u-color-white u-radius-sm u-no-underline">
                   Download palette ⇣
                 </a><!-- palette-button -->
-                <a href="#0" class="g-col-auto u-margin-left-auto color-black-90 u-sans-1 text-decoration-underline u-lh-smallest">See more examples</a>
+                <a href="#0" class="g-col-auto u-margin-left-auto u-color-black-90 u-sans-1 u-underline u-lh-sans-1">See more examples</a>
               </div><!-- palette-actions -->
             </div><!-- palette-card -->
           </div><!-- card-column -->
 
           <!-- * * * * * * =================================== -->
           <div class="g-col-6">
-            <div class="palette-card u-border u-border-radius-small u-padding-1 u-margin-top-3">
+            <div class="palette-card u-border u-radius-sm u-padding-1 u-margin-top-3">
               <div class="g-row g-gap-2px">
                 <!-- ========================================= -->
                 <div class="g-col-fill">
@@ -857,7 +857,7 @@ permalink: /uswds-color-docs-theme/
                 </div><!-- family-column -->
                 <!-- ========================================= -->
                 <div class="g-col-fill">
-                  <div class="u-bg-white-warm-3 u-height-1"></div>
+                  <div class="u-bg-black-warm-3 u-height-1"></div>
                   <div class="u-bg-black-warm-10 u-height-1 u-margin-top-2px"></div>
                   <div class="u-bg-black-warm-30 u-height-1 u-margin-top-2px"></div>
                   <div class="u-bg-black-warm-50 u-height-1 u-margin-top-2px"></div>
@@ -868,25 +868,25 @@ permalink: /uswds-color-docs-theme/
                   <div class="u-bg-black-warm-90 u-height-1 u-margin-top-2px"></div>
                 </div><!-- family-column -->
               </div> <!-- this-palette -->
-              <h4 class="u-sans-5 u-margin-bottom-1 u-lh-smaller">Marine</h4>
-              <ul class="list-reset g-row g-gap u-sans-1 u-fw-400 u-margin-bottom-0 u-margin-x-0 min-height-6 u-flex-align-flex-start u-margin-top-05">
-                <li class="g-col-auto u-border-0 u-bg-white-warm-4 u-border-radius-small u-padding-y-05 u-padding-x-1 u-lh-smallest u-margin-right-05">no nonsense</li>
-                <li class="g-col-auto u-border-0 u-bg-white-warm-4 u-border-radius-small u-padding-y-05 u-padding-x-1 u-lh-smallest u-margin-right-05">professional</li>
-                <li class="g-col-auto u-border-0 u-bg-white-warm-4 u-border-radius-small u-padding-y-05 u-padding-x-1 u-lh-smallest u-margin-right-05">conservative</li>
+              <h4 class="u-sans-5 u-margin-bottom-1 u-lh-sans-2">Marine</h4>
+              <ul class="o-list-reset g-row g-gap u-sans-1 u-fw-400 u-margin-bottom-0 u-margin-x-0 u-minh-6 u-flex-align-flex-start u-margin-top-05">
+                <li class="g-col-auto u-border-0 u-bg-black-warm-4 u-radius-sm u-padding-y-05 u-padding-x-1 u-lh-sans-1 u-margin-right-05">no nonsense</li>
+                <li class="g-col-auto u-border-0 u-bg-black-warm-4 u-radius-sm u-padding-y-05 u-padding-x-1 u-lh-sans-1 u-margin-right-05">professional</li>
+                <li class="g-col-auto u-border-0 u-bg-black-warm-4 u-radius-sm u-padding-y-05 u-padding-x-1 u-lh-sans-1 u-margin-right-05">conservative</li>
               </ul><!-- tags -->
               <div class="g-row u-margin-top-2 u-flex-align-center">
-                <a href="#0" class="g-col-auto u-lh-smallest u-sans-1 u-fw-400 u-padding-y-1 u-padding-x-2 u-bg-black-90 color-white u-border-radius-small text-decoration-none">
+                <a href="#0" class="g-col-auto u-lh-sans-1 u-sans-1 u-fw-400 u-padding-y-1 u-padding-x-2 u-bg-black-90 u-color-white u-radius-sm u-no-underline">
                   Download palette ⇣
                 </a><!-- palette-button -->
-                <a href="#0" class="g-col-auto u-margin-left-auto color-black-90 u-sans-1 text-decoration-underline u-lh-smallest">See more examples</a>
+                <a href="#0" class="g-col-auto u-margin-left-auto u-color-black-90 u-sans-1 u-underline u-lh-sans-1">See more examples</a>
               </div><!-- palette-actions -->
             </div><!-- palette-card -->
           </div><!-- card-column -->
 
           <!-- * * * * * * =================================== -->
           <div class="g-col-6">
-            <div class="palette-card u-border u-border-radius-small u-padding-1 u-margin-top-3 u-display-flex u-flex-column">
-              <h4 class="u-sans-5 u-margin-bottom-05 u-lh-smaller order-2">Cascade</h4>
+            <div class="palette-card u-border u-radius-sm u-padding-1 u-margin-top-3 u-display-flex u-flex-column">
+              <h4 class="u-sans-5 u-margin-bottom-05 u-lh-sans-2 order-2">Cascade</h4>
               <div class="g-row g-gap-2px order-first">
                 <!-- ========================================= -->
                 <div class="g-col-fill">
@@ -958,7 +958,7 @@ permalink: /uswds-color-docs-theme/
                 </div><!-- family-column -->
                 <!-- ========================================= -->
                 <div class="g-col-fill">
-                  <div class="u-bg-white-cool-2 u-height-1"></div>
+                  <div class="u-bg-black-cool-2 u-height-1"></div>
                   <div class="u-bg-black-cool-10 u-height-1 u-margin-top-2px"></div>
                   <div class="u-bg-black-cool-30 u-height-1 u-margin-top-2px"></div>
                   <div class="u-bg-black-cool-50 u-height-1 u-margin-top-2px"></div>
@@ -969,25 +969,25 @@ permalink: /uswds-color-docs-theme/
                   <div class="u-bg-black-cool-90 u-height-1 u-margin-top-2px"></div>
                 </div><!-- family-column -->
               </div> <!-- this-palette -->
-              <ul class="order-3 list-reset g-row g-gap u-sans-1 u-fw-400 u-margin-bottom-0 u-margin-x-0 min-height-6 u-flex-align-flex-start u-margin-top-05">
-                <li class="g-col-auto u-border-0 u-bg-white-warm-4 u-border-radius-small u-padding-y-05 u-padding-x-1 u-lh-smallest u-margin-right-05 u-margin-top-05">fresh</li>
-                <li class="g-col-auto u-border-0 u-bg-white-warm-4 u-border-radius-small u-padding-y-05 u-padding-x-1 u-lh-smallest u-margin-right-05 u-margin-top-05">compassionate</li>
-                <li class="g-col-auto u-border-0 u-bg-white-warm-4 u-border-radius-small u-padding-y-05 u-padding-x-1 u-lh-smallest u-margin-right-05 u-margin-top-05">energetic</li>
-                <li class="g-col-auto u-border-0 u-bg-white-warm-4 u-border-radius-small u-padding-y-05 u-padding-x-1 u-lh-smallest u-margin-right-05 u-margin-top-05">healthy</li>
+              <ul class="order-3 o-list-reset g-row g-gap u-sans-1 u-fw-400 u-margin-bottom-0 u-margin-x-0 u-minh-6 u-flex-align-flex-start u-margin-top-05">
+                <li class="g-col-auto u-border-0 u-bg-black-warm-4 u-radius-sm u-padding-y-05 u-padding-x-1 u-lh-sans-1 u-margin-right-05 u-margin-top-05">fresh</li>
+                <li class="g-col-auto u-border-0 u-bg-black-warm-4 u-radius-sm u-padding-y-05 u-padding-x-1 u-lh-sans-1 u-margin-right-05 u-margin-top-05">compassionate</li>
+                <li class="g-col-auto u-border-0 u-bg-black-warm-4 u-radius-sm u-padding-y-05 u-padding-x-1 u-lh-sans-1 u-margin-right-05 u-margin-top-05">energetic</li>
+                <li class="g-col-auto u-border-0 u-bg-black-warm-4 u-radius-sm u-padding-y-05 u-padding-x-1 u-lh-sans-1 u-margin-right-05 u-margin-top-05">healthy</li>
               </ul><!-- tags -->
               <div class="order-4 g-row u-margin-top-2 u-flex-align-center">
-                <a href="#0" class="g-col-auto u-lh-smallest u-sans-1 u-fw-400 u-padding-y-1 u-padding-x-2 u-bg-black-90 color-white u-border-radius-small text-decoration-none">
+                <a href="#0" class="g-col-auto u-lh-sans-1 u-sans-1 u-fw-400 u-padding-y-1 u-padding-x-2 u-bg-black-90 u-color-white u-radius-sm u-no-underline">
                   Download palette ⇣
                 </a><!-- palette-button -->
-                <a href="#0" class="g-col-auto u-margin-left-auto color-black-90 u-sans-1 text-decoration-underline u-lh-smallest">See more examples</a>
+                <a href="#0" class="g-col-auto u-margin-left-auto u-color-black-90 u-sans-1 u-underline u-lh-sans-1">See more examples</a>
               </div><!-- palette-actions -->
             </div><!-- palette-card -->
           </div><!-- card-column -->
 
           <!-- * * * * * * =================================== -->
           <div class="g-col-6">
-            <div class="palette-card u-border u-border-radius-small u-padding-1 u-margin-top-3 u-display-flex u-flex-column">
-              <h4 class="u-sans-5 u-margin-bottom-05 u-lh-smaller order-2">Columbia</h4>
+            <div class="palette-card u-border u-radius-sm u-padding-1 u-margin-top-3 u-display-flex u-flex-column">
+              <h4 class="u-sans-5 u-margin-bottom-05 u-lh-sans-2 order-2">Columbia</h4>
               <div class="g-row g-gap-2px order-first">
                 <!-- ========================================= -->
                 <div class="g-col-fill">
@@ -1059,7 +1059,7 @@ permalink: /uswds-color-docs-theme/
                 </div><!-- family-column -->
                 <!-- ========================================= -->
                 <div class="g-col-fill">
-                  <div class="u-bg-white-cool-1 u-height-1"></div>
+                  <div class="u-bg-black-cool-1 u-height-1"></div>
                   <div class="u-bg-black-cool-5 u-height-1 u-margin-top-2px"></div>
                   <div class="u-bg-black-cool-30 u-height-1 u-margin-top-2px"></div>
                   <div class="u-bg-black-cool-50 u-height-1 u-margin-top-2px"></div>
@@ -1070,17 +1070,17 @@ permalink: /uswds-color-docs-theme/
                   <div class="u-bg-black-cool-90 u-height-1 u-margin-top-2px"></div>
                 </div><!-- family-column -->
               </div> <!-- this-palette -->
-              <ul class="order-3 list-reset g-row g-gap u-sans-1 u-fw-400 u-margin-bottom-0 u-margin-x-0 min-height-6 u-flex-align-flex-start u-margin-top-05">
-                <li class="g-col-auto u-border-0 u-bg-white-warm-4 u-border-radius-small u-padding-y-05 u-padding-x-1 u-lh-smallest u-margin-right-05">clean</li>
-                <li class="g-col-auto u-border-0 u-bg-white-warm-4 u-border-radius-small u-padding-y-05 u-padding-x-1 u-lh-smallest u-margin-right-05">fresh</li>
-                <li class="g-col-auto u-border-0 u-bg-white-warm-4 u-border-radius-small u-padding-y-05 u-padding-x-1 u-lh-smallest u-margin-right-05">earthy</li>
-                <li class="g-col-auto u-border-0 u-bg-white-warm-4 u-border-radius-small u-padding-y-05 u-padding-x-1 u-lh-smallest u-margin-right-05 u-margin-top-05">earnest</li>
+              <ul class="order-3 o-list-reset g-row g-gap u-sans-1 u-fw-400 u-margin-bottom-0 u-margin-x-0 u-minh-6 u-flex-align-flex-start u-margin-top-05">
+                <li class="g-col-auto u-border-0 u-bg-black-warm-4 u-radius-sm u-padding-y-05 u-padding-x-1 u-lh-sans-1 u-margin-right-05">clean</li>
+                <li class="g-col-auto u-border-0 u-bg-black-warm-4 u-radius-sm u-padding-y-05 u-padding-x-1 u-lh-sans-1 u-margin-right-05">fresh</li>
+                <li class="g-col-auto u-border-0 u-bg-black-warm-4 u-radius-sm u-padding-y-05 u-padding-x-1 u-lh-sans-1 u-margin-right-05">earthy</li>
+                <li class="g-col-auto u-border-0 u-bg-black-warm-4 u-radius-sm u-padding-y-05 u-padding-x-1 u-lh-sans-1 u-margin-right-05 u-margin-top-05">earnest</li>
               </ul><!-- tags -->
               <div class="order-4 g-row u-margin-top-2 u-flex-align-center">
-                <a href="#0" class="g-col-auto u-lh-smallest u-sans-1 u-fw-400 u-padding-y-1 u-padding-x-2 u-bg-black-90 color-white u-border-radius-small text-decoration-none">
+                <a href="#0" class="g-col-auto u-lh-sans-1 u-sans-1 u-fw-400 u-padding-y-1 u-padding-x-2 u-bg-black-90 u-color-white u-radius-sm u-no-underline">
                   Download palette ⇣
                 </a><!-- palette-button -->
-                <a href="#0" class="g-col-auto u-margin-left-auto color-black-90 u-sans-1 text-decoration-underline u-lh-smallest">See more examples</a>
+                <a href="#0" class="g-col-auto u-margin-left-auto u-color-black-90 u-sans-1 u-underline u-lh-sans-1">See more examples</a>
               </div><!-- palette-actions -->
             </div><!-- palette-card -->
           </div><!-- card-column -->
@@ -1089,7 +1089,7 @@ permalink: /uswds-color-docs-theme/
 
         <h2 class="u-sans-10 u-margin-y-4 u-border-top-1px u-padding-top-2">Downloading and using palettes</h2>
         <p>Selecting <strong>Download palette</strong> will download a small SCSS file named <code>_theme-palette-[palette-name].scss</code>. Its contents set the USWDS variables necessary to use these colors in your project. (Developers, this is the same as manually setting these values in <code>_uswds-project-settings.scss</code>.)</p>
-        <pre class="max-width-full u-bg-white-warm-4  u-padding-2 white-space-pre-wrap u-margin-y-4">
+        <pre class="u-maxw-full u-bg-black-warm-4  u-padding-2 white-space-pre-wrap u-margin-y-4">
 <code class="u-mono-1 u-padding-0">&lt;!-- * * * * * * =================================== -->
 // USWDS Project theme palette
 // _theme-palette-onondaga.scss
@@ -1126,7 +1126,7 @@ $theme-color-accent-cool-dark:    $accent-cool, 50, vivid;</code></pre>
 
         <p>Move this file to your project’s SASS directory and <code>@import</code> it after your existing project settings and before <code>@import 'uswds'</code>.</p>
 
-<pre class="max-width-full u-bg-white-warm-4 u-padding-2 white-space-pre-wrap u-margin-y-4"><code class="u-mono-1 u-padding-0">@import 'uswds-project-settings';
+<pre class="u-maxw-full u-bg-black-warm-4 u-padding-2 white-space-pre-wrap u-margin-y-4"><code class="u-mono-1 u-padding-0">@import 'uswds-project-settings';
 @import 'uswds-project-utilities-settings';
 @import 'theme-palette-onondaga'; // &lt;-- Add the palette import here.
 @import 'uswds';

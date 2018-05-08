@@ -87,6 +87,7 @@ gulp.task('build-app', ['build-sass'], function() {
     .pipe(postcss(plugins))
     .pipe(rename('styles.app.css'))
     .pipe(gulp.dest(`${INC_DEST}`))
+    .pipe(gulp.dest(`${CSS_DEST}`))
     .pipe(size())
     .pipe(gzip({ extension: 'gz' }))
     .pipe(gulp.dest(`${CSS_DEST}`))
@@ -103,4 +104,4 @@ gulp.task('watch', ['build-sass'], function (){
 
 // - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 // Set watch as default task
-gulp.task('default', ['watch', 'sass', 'copy-uswds-assets']);
+gulp.task('default', ['watch', 'sass']);

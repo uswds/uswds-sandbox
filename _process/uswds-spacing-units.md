@@ -4,10 +4,10 @@ title: USWDS spacing units
 permalink: /uswds-spacing-units/
 ---
 
-<div class="o-clearfix g-container-tablet-lg u-padding-y-6 u-lh-smallest">
+<div class="o-clearfix g-container-tablet-lg u-padding-y-6 u-lh-sans-1">
   <h1 class="u-fw-300 u-margin-bottom-4 u-margin-top-0">USWDS spacing units</h1>
-  <p class="u-lh-base u-fw-300 u-margin-bottom-2">Any utility that accepts a spacing value uses the following USWDS spacing units. These values are common to all USWDS projects and are based on multiples of 8px. They are the only values we use to build official components. Any components <a class="u-color-black-90 u-underline-color-black-30" href="#0">we accept back into the system</a> need to be built with these common spacing units.</p>
-  <p class="u-lh-base u-fw-300 u-margin-bottom-6">You can output negative values with a <code class="txt-code">neg-</code> prefix, like <code class="txt-code">u-margin-x-neg-2</code>.</p>
+  <p class="u-lh-sans-4 u-fw-300 u-margin-bottom-2">Any utility that accepts a spacing value uses the following USWDS spacing units. These values are common to all USWDS projects and are based on multiples of 8px. They are the only values we use to build official components. Any components <a class="u-color-black-90 u-underline-color-black-30" href="#0">we accept back into the system</a> need to be built with these common spacing units.</p>
+  <p class="u-lh-sans-4 u-fw-300 u-margin-bottom-6">You can output negative values with a <code class="txt-code">neg-</code> prefix, like <code class="txt-code">u-margin-x-neg-2</code>.</p>
   <div class="g-row g-gap u-flex-align-center u-margin-bottom-2 u-padding-bottom-1 u-border-bottom-2px">
     <div class="g-col-2 u-fw-700 u-sans-1">utility suffix</div>
     <div class="g-col-2 u-fw-700 u-sans-1">spacing units</div>
@@ -88,7 +88,7 @@ permalink: /uswds-spacing-units/
     <div class="g-col-fill">
       <span class="u-display-block u-width-full u-height-4 u-bg-blue-60v"></span>
     </div>
-    <div class="g-col-3 u-fw-300 u-mono-3">u-min-height-4</div>
+    <div class="g-col-3 u-fw-300 u-mono-3">u-u-minh-4</div>
   </div>
   <div class="g-row g-gap u-flex-align-center u-padding-bottom-2 u-margin-bottom-2 u-border-bottom u-border-10">
     <div class="g-col-2 u-fw-300 u-mono-3"><span class="txt-code u-fw-300">5</span></div>
