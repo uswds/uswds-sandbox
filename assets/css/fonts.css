@@ -141,6 +141,11 @@ PROJECT THEME SETTINGS
 */
 /*
 ----------------------------------------
+Namespace
+----------------------------------------
+*/
+/*
+----------------------------------------
 Root font size
 ----------------------------------------
 Sets the font size of the html root
@@ -664,6 +669,14 @@ isReadable
 */
 /*
 ----------------------------------------
+ns()
+----------------------------------------
+Add a namesspace of $type if that
+namespace is set to output
+----------------------------------------
+*/
+/*
+----------------------------------------
 grid-units()
 ----------------------------------------
 Converts a spacing unit multiple into
@@ -1047,11 +1060,6 @@ project/_uswds-project-settings
 */
 /*
 ----------------------------------------
-Namespace
-----------------------------------------
-*/
-/*
-----------------------------------------
 Spacing
 ----------------------------------------
 All spacing values that can be called
@@ -1077,22 +1085,22 @@ TODO: Do these need to integrate the
 namespace var set in utilities-settings?
 ----------------------------------------
 */
-[class*='mono'], .font-family-mono {
+[class*='u-mono'], .font-family-mono {
   font-family: "Roboto Mono Web", "Bitstream Vera Sans Mono", "Consolas", "Courier", monospace; }
 
-[class*='sans'], .font-family-sans {
+[class*='u-sans'], .font-family-sans {
   font-family: "United Sans Web", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol"; }
 
-[class*='serif'], .font-family-serif {
+[class*='u-serif'], .font-family-serif {
   font-family: "Georgia", "Georgia", "Cambria", "Times New Roman", "Times", serif; }
 
-[class*='heading'], .font-family-heading {
+[class*='u-heading'], .font-family-heading {
   font-family: "United Sans Web", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol"; }
 
-[class*='body'], .font-family-body {
+[class*='u-body'], .font-family-body {
   font-family: "United Sans Web", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol"; }
 
-[class*='code'], .font-family-code {
+[class*='u-code'], .font-family-code {
   font-family: "Roboto Mono Web", "Bitstream Vera Sans Mono", "Consolas", "Courier", monospace; }
 
 /*
