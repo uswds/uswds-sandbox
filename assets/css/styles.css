@@ -31149,11 +31149,11 @@ system scale or project scale
   display: flex;
   flex-wrap: wrap; }
   .g-row.g-gap {
-    margin-left: -0.5rem;
-    margin-right: -0.5rem; }
+    margin-left: -2px;
+    margin-right: -2px; }
     .g-row.g-gap > [class*='g-col'] {
-      padding-left: 0.5rem;
-      padding-right: 0.5rem; }
+      padding-left: 2px;
+      padding-right: 2px; }
   .g-row.g-gap-2px {
     margin-left: -1px;
     margin-right: -1px; }
@@ -31204,11 +31204,11 @@ system scale or project scale
       padding-right: 0.75rem; }
   @media screen and (min-width: 20em) {
     .g-row.mobile\:g-gap {
-      margin-left: -0.5rem;
-      margin-right: -0.5rem; }
+      margin-left: -2px;
+      margin-right: -2px; }
       .g-row.mobile\:g-gap > [class*='g-col'] {
-        padding-left: 0.5rem;
-        padding-right: 0.5rem; }
+        padding-left: 2px;
+        padding-right: 2px; }
     .g-row.mobile\:g-gap-sm {
       margin-left: -1px;
       margin-right: -1px; }
@@ -31223,11 +31223,11 @@ system scale or project scale
         padding-right: 0.75rem; } }
   @media screen and (min-width: 30em) {
     .g-row.mobile-lg\:g-gap {
-      margin-left: -0.5rem;
-      margin-right: -0.5rem; }
+      margin-left: -2px;
+      margin-right: -2px; }
       .g-row.mobile-lg\:g-gap > [class*='g-col'] {
-        padding-left: 0.5rem;
-        padding-right: 0.5rem; }
+        padding-left: 2px;
+        padding-right: 2px; }
     .g-row.mobile-lg\:g-gap-sm {
       margin-left: -1px;
       margin-right: -1px; }
@@ -31242,11 +31242,11 @@ system scale or project scale
         padding-right: 0.75rem; } }
   @media screen and (min-width: 40em) {
     .g-row.tablet\:g-gap {
-      margin-left: -0.5rem;
-      margin-right: -0.5rem; }
+      margin-left: -2px;
+      margin-right: -2px; }
       .g-row.tablet\:g-gap > [class*='g-col'] {
-        padding-left: 0.5rem;
-        padding-right: 0.5rem; }
+        padding-left: 2px;
+        padding-right: 2px; }
     .g-row.tablet\:g-gap-sm {
       margin-left: -1px;
       margin-right: -1px; }
@@ -31261,11 +31261,11 @@ system scale or project scale
         padding-right: 0.75rem; } }
   @media screen and (min-width: 55em) {
     .g-row.tablet-lg\:g-gap {
-      margin-left: -0.5rem;
-      margin-right: -0.5rem; }
+      margin-left: -2px;
+      margin-right: -2px; }
       .g-row.tablet-lg\:g-gap > [class*='g-col'] {
-        padding-left: 0.5rem;
-        padding-right: 0.5rem; }
+        padding-left: 2px;
+        padding-right: 2px; }
     .g-row.tablet-lg\:g-gap-sm {
       margin-left: -1px;
       margin-right: -1px; }
@@ -31280,11 +31280,11 @@ system scale or project scale
         padding-right: 0.75rem; } }
   @media screen and (min-width: 64em) {
     .g-row.desktop\:g-gap {
-      margin-left: -0.5rem;
-      margin-right: -0.5rem; }
+      margin-left: -2px;
+      margin-right: -2px; }
       .g-row.desktop\:g-gap > [class*='g-col'] {
-        padding-left: 0.5rem;
-        padding-right: 0.5rem; }
+        padding-left: 2px;
+        padding-right: 2px; }
     .g-row.desktop\:g-gap-sm {
       margin-left: -1px;
       margin-right: -1px; }
