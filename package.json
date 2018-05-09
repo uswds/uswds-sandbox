@@ -17,7 +17,10 @@
     "uswds-copy-fonts": "cp -R ./node_modules/uswds/dist/fonts/* ./assets/fonts/",
     "uswds-copy-img": "cp -R ./node_modules/uswds/dist/img/* ./assets/img/",
     "uswds-copy-project": "cp -R ./node_modules/uswds/dist/scss/project/* ./_sass",
-    "uswds-mkdir": "mkdir -p assets/fonts/ && mkdir -p assets/img/ && mkdir -p _sass"
+    "uswds-mkdir": "mkdir -p assets/fonts/ && mkdir -p assets/img/ && mkdir -p _sass",
+    "uswds-build-sass": "gulp build-sass",
+    "uswds-build-app": "gulp build-app",
+    "uswds-watch": "gulp watch"
   },
   "dependencies": {
     "autoprefixer": "^8.3.0",
