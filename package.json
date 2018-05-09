@@ -14,10 +14,10 @@
     "uswds-build": "npm explore uswds -- npm run build",
     "uswds-update": "npm update uswds && npm run uswds-install && npm run uswds-build",
     "uswds-copy-assets": "npm run uswds-mkdir && npm run uswds-copy-fonts && npm run uswds-copy-img",
-    "uswds-copy-fonts": "cp -R ./node_modules/uswds/dist/fonts/* ./assets/fonts/",
-    "uswds-copy-img": "cp -R ./node_modules/uswds/dist/img/* ./assets/img/",
+    "uswds-copy-fonts": "cp -R ./node_modules/uswds/dist/fonts/* ./assets/fonts/uswds",
+    "uswds-copy-img": "cp -R ./node_modules/uswds/dist/img/* ./assets/img/uswds",
     "uswds-copy-project": "cp -R ./node_modules/uswds/dist/scss/project/* ./_sass",
-    "uswds-mkdir": "mkdir -p assets/fonts/ && mkdir -p assets/img/ && mkdir -p _sass",
+    "uswds-mkdir": "mkdir -p assets/fonts/uswds && mkdir -p assets/img/uswds && mkdir -p _sass",
     "uswds-build-sass": "gulp build-sass",
     "uswds-build-app": "gulp build-app",
     "uswds-watch": "gulp watch"
