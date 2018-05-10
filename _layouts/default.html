@@ -8,7 +8,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <title>{{ page.title | default: site.title }}</title>
-  <link rel="stylesheet" href="{{ '/assets/css/main.css' | prepend:site.baseurl }}">
+  <link rel="stylesheet" href="{{ '/assets/css/styles.min.css' | prepend:site.baseurl }}">
 </head>
 
 <body>
@@ -18,7 +18,7 @@
     <div class="usa-accordion">
       <header class="usa-banner-header">
         <div class="usa-grid usa-banner-inner">
-          <img src="assets/img/favicons/favicon-57.png" alt="U.S. flag">
+          <img src="assets/img/uswds/favicons/favicon-57.png" alt="U.S. flag">
           <p>An official website of the United States government</p>
           <button class="usa-accordion-button usa-banner-button" aria-expanded="false" aria-controls="gov-banner">
         <span class="usa-banner-button-text">Here's how you know</span>
@@ -27,7 +27,7 @@
       </header>
       <div class="usa-banner-content usa-grid usa-accordion-content" id="gov-banner">
         <div class="usa-banner-guidance-gov usa-width-one-half">
-          <img class="usa-banner-icon usa-media_block-img" src="assets/img/icon-dot-gov.svg" alt="Dot gov">
+          <img class="usa-banner-icon usa-media_block-img" src="assets/img/uswds/icon-dot-gov.svg" alt="Dot gov">
           <div class="usa-media_block-body">
             <p>
               <strong>The .gov means it’s official.</strong>
@@ -36,7 +36,7 @@
           </div>
         </div>
         <div class="usa-banner-guidance-ssl usa-width-one-half">
-          <img class="usa-banner-icon usa-media_block-img" src="assets/img/icon-https.svg" alt="Https">
+          <img class="usa-banner-icon usa-media_block-img" src="assets/img/uswds/icon-https.svg" alt="Https">
           <div class="usa-media_block-body">
             <p>
               <strong>The site is secure.</strong>
@@ -65,7 +65,7 @@
     <nav role="navigation" class="usa-nav">
       <div class="usa-nav-inner">
         <button class="usa-nav-close">
-  <img src="assets/img/close.svg" alt="close">
+  <img src="assets/img/uswds/close.svg" alt="close">
 </button>
         <ul class="usa-nav-primary usa-accordion">
           <li><button class="usa-accordion-button usa-nav-link" aria-expanded="false" aria-controls="extended-nav-section-one">
@@ -173,7 +173,7 @@
     <div class="usa-footer-secondary_section">
       <div class="usa-grid">
         <div class="usa-footer-logo usa-width-one-half">
-          <img class="usa-footer-logo-img" src="assets/img/logo-img.png" alt="">
+          <img class="usa-footer-logo-img" src="assets/img/uswds/logo-img.png" alt="">
           <h3 class="usa-footer-logo-heading">Name of Agency</h3>
         </div>
         <div class="usa-footer-contact-links usa-width-one-half">
@@ -205,9 +205,7 @@
     </div>
   </footer>
 
-{% comment %}
-  <script src="{{ '/assets/js/build/main.js' | prepend:site.baseurl }}"></script>
-{% endcomment %}
+  <script src="{{ '/assets/js/build/main.js' | relative_url }}"></script>
 
 </body>
 </html>

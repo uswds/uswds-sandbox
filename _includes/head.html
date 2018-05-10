@@ -1,7 +1,7 @@
 <!-- * * * * * ======================= -->
-<!--  * * * *  ======================= -->
 <!-- * * * * * ======================= -->
-<!--  * * * *  ======================= -->
+<!-- * * * * * ======================= -->
+<!-- * * * * * ======================= -->
 <!-- ================================= -->
 <!-- ================================= -->
 <!-- ================================= -->
@@ -14,109 +14,15 @@
   <title>{% if page.title %}{{ page.title | escape }}{% else %}{{ site.title | escape }}{% endif %}</title>
   <meta name="description" content="{{ page.excerpt | default: site.description | strip_html | normalize_whitespace | truncate: 160 | escape }}">
 
-  <!-- inline css technique https://jakearchibald.com/2016/link-in-body/ -->
-  {% if site.optimize_css %}
-    <link rel="preload"
-      href="{{ "/assets/css/10x-fonts.min.css" | relative_url }}"
-      as="style"
-      onload="this.onload=null;this.rel='stylesheet'">
-    <noscript><link rel="stylesheet" href="{{ "/assets/css/10x-fonts.min.css" | relative_url }}"></noscript>
-    <script>
-      /*! loadCSS rel=preload polyfill. [c]2017 Filament Group, Inc. MIT License */
-      // https://github.com/filamentgroup/loadCSS
-      /*! loadCSS. [c]2017 Filament Group, Inc. MIT License */
-      (function( w ){
-      	"use strict";
-      	if( !w.loadCSS ){
-      		w.loadCSS = function(){};
-      	}
-      	var rp = loadCSS.relpreload = {};
-      	rp.support = (function(){
-      		var ret;
-      		try {
-      			ret = w.document.createElement( "link" ).relList.supports( "preload" );
-      		} catch (e) {
-      			ret = false;
-      		}
-      		return function(){
-      			return ret;
-      		};
-      	})();
+  <link rel="stylesheet" href="{{ "/assets/css/styles.min.css" | relative_url }}">
 
-      	rp.bindMediaToggle = function( link ){
-      		var finalMedia = link.media || "all";
-
-      		function enableStylesheet(){
-      			link.media = finalMedia;
-      		}
-      		if( link.addEventListener ){
-      			link.addEventListener( "load", enableStylesheet );
-      		} else if( link.attachEvent ){
-      			link.attachEvent( "onload", enableStylesheet );
-      		}
-      		setTimeout(function(){
-      			link.rel = "stylesheet";
-      			link.media = "only x";
-      		});
-      		setTimeout( enableStylesheet, 3000 );
-      	};
-      	rp.poly = function(){
-      		if( rp.support() ){
-      			return;
-      		}
-      		var links = w.document.getElementsByTagName( "link" );
-      		for( var i = 0; i < links.length; i++ ){
-      			var link = links[ i ];
-      			if( link.rel === "preload" && link.getAttribute( "as" ) === "style" && !link.getAttribute( "data-loadcss" ) ){
-      				link.setAttribute( "data-loadcss", true );
-      				rp.bindMediaToggle( link );
-      			}
-      		}
-      	};
-      	if( !rp.support() ){
-      		rp.poly();
-      		var run = w.setInterval( rp.poly, 500 );
-      		if( w.addEventListener ){
-      			w.addEventListener( "load", function(){
-      				rp.poly();
-      				w.clearInterval( run );
-      			} );
-      		} else if( w.attachEvent ){
-      			w.attachEvent( "onload", function(){
-      				rp.poly();
-      				w.clearInterval( run );
-      			} );
-      		}
-      	}
-
-      	if( typeof exports !== "undefined" ){
-      		exports.loadCSS = loadCSS;
-      	}
-      	else {
-      		w.loadCSS = loadCSS;
-      	}
-      }( typeof global !== "undefined" ? global : this ) );
-
-    </script>
-    <style>
-    {% include 10x.app.min.css %}
-    </style>
-    <link rel="preload" href="{{ "/assets/css/10x-fonts.min.css" | relative_url }}" as="style">
-  {% else %}
-    <link rel="stylesheet" href="{{ "/assets/css/styles.min.css" | relative_url }}">
-    <link rel="stylesheet" href="{{ "/assets/css/fonts.min.css" | relative_url }}">
-  {% endif %}
   <link rel="canonical" href="{{ page.url | replace:'index.html','' | absolute_url }}">
+
   {% comment %}
   TODO: Add a real RSS feed if necessary
   <link rel="alternate" type="application/rss+xml" title="{{ site.title | escape }}" href="{{ "/feed.xml" | relative_url }}">
   {% endcomment %}
 
-  {% comment %}
   <link rel="preload" href="{{ "/assets/js/build/main.js" | relative_url }}" as="script">
-  {% endcomment %}
 
-  {% if site.environment == 'production' or site.environment == 'development' %}
-    {% include dap-script.html %}
-  {% endif %}
 </head>
