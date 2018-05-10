@@ -44,16 +44,6 @@ const STYLESHEET_BASE   = 'styles';
 // - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 // BUILD USWDS STYLES
 
-gulp.task('copy-uswds-assets', () => {
-  return gulp.src(`${USWDS_SRC}/@(fonts|img)/**/**`)
-  .pipe(gulp.dest(`${ASSETS_DEST}`));
-});
-
-gulp.task('copy-uswds-settings', () => {
-  return gulp.src(`${USWDS_SRC}/stylesheets/project/**/**`)
-  .pipe(gulp.dest(`${PROJECT_SASS_SRC}`));
-});
-
 gulp.task('clean-css', function () {
   return del([
     `${CSS_DEST}/**/*`
@@ -115,10 +105,6 @@ gulp.task('watch', ['build-sass'], function (){
   gulp.watch(`${PROJECT_SASS_SRC}/*.scss`, ['build-sass'])
   gulp.watch(`${USWDS_SRC}/scss/*.scss`, ['build-sass']);
 });
-
-// - - - - - - - - - - - - - - - - - - - - - - - - - - - -
-// Initialize project
-gulp.task('uswds-init', ['copy-uswds-assets', 'copy-uswds-settings']);
 
 // - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 // Set watch as default task
