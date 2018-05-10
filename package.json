@@ -8,7 +8,7 @@
     "watch": "webpack --watch --progress --hide-modules",
     "prod": "webpack --no-progress --hide-modules",
     "prepare": "npm run federalist",
-    "federalist": "./build.sh && npm run uswds-copy-assets && npm run prod && gem install bundler && bundle install && bundle exec jekyll build && npm run uswds-build-app && bundle exec jekyll build",
+    "federalist": "./build.sh && npm run uswds-copy-assets && npm run prod && \curl -sSL https://get.rvm.io | bash -s stable --auto-dotfiles && rvm install ruby-2.4.2 && rvm use ruby-2.4.2 --default && gem install bundler && bundle install && bundle exec jekyll build && npm run uswds-build-app && bundle exec jekyll build",
     "startup": "npm install && npm run uswds-init",
     "serve": "bundle exec jekyll serve",
     "uswds-init": "npm run uswds-install && npm run uswds-build && gem install bundler && bundle install && npm run uswds-mkdir && npm run uswds-copy-assets && npm run uswds-copy-project && uswds-build-sass",
