@@ -17,3 +17,5 @@ exclude:
   - README.md
   - vendor
   - webpack.config.js
+  - gulpfile.js
+  - build.sh
