@@ -1,37 +1,16 @@
 /*
-* * * * * ==============================
-* * * * * ==============================
-* * * * * ==============================
-* * * * * ==============================
 ========================================
-========================================
-========================================
-----------------------------------------
 USWDS UTILITIES SETTINGS
 ----------------------------------------
 */
 
-$utilities-use-namespace:     true ;
-$utilities-use-important:     false;
+$utilities-namespace-prefix:  '';
+$utilities-use-important:     true;
 
-$output-all-utilities:        false;
-
-/*
-----------------------------------------
-global colors
-----------------------------------------
-The following plugins will be added to
-- background-color
-- border-color
-- color
-- text-decoration-color
-----------------------------------------
-*/
+$output-all-utilities:  false;
 
 $global-color-plugins: (
-  'plugin-color-palette-theme',
-  'plugin-color-black-all',
-  'plugin-color-palette-basic'
+  'plugin-color-all'
 );
 
 /*
@@ -41,8 +20,8 @@ $global-color-plugins: (
 */
 
 $align-items-settings: (
-  output:       false,
-  responsive:   false,
+  output:       true,
+  responsive:   true,
   active:       false,
   focus:        false,
   hover:        false,
@@ -52,12 +31,15 @@ $align-items-settings: (
 $align-items-plugins: (
   /*
   */
-  'plugin-standard-align-items'
 );
 
 $align-items-manual-values: (
   /*
   */
+  'flex-start':   flex-start,
+  'flex-end':     flex-end,
+  'center':       center,
+  'stretch':      stretch
 );
 
 /*
@@ -70,7 +52,7 @@ $background-color-settings: (
   output:       true,
   responsive:   false,
   active:       false,
-  focus:        false,
+  focus:        true,
   hover:        true,
   visited:      false
 );
@@ -87,8 +69,18 @@ $background-color-plugins: (
   'plugin-color-[color]-standard'
   'plugin-color-[color]-vivid'
   'plugin-color-palette-status'
-  'plugin-standard-background-color',
+
+  'plugin-color-red-warm-medium-vivid',
+  'plugin-color-gold-light-vivid',
+  'plugin-color-gold-light',
+  'plugin-color-white-warm-all',
+  'plugin-color-black-cool-dark',
+  'plugin-color-black-transparent-all',
+  'plugin-color-indigo-warm-medium-vivid',
+  'plugin-color-palette-required',
+  'plugin-color-palette-grayscale',
   */
+  'plugin-color-all'
 );
 
 $background-color-manual-values: (
@@ -104,7 +96,7 @@ $background-color-manual-values: (
 
 $border-settings: (
   output:       true,
-  responsive:   false,
+  responsive:   true,
   active:       false,
   focus:        false,
   hover:        false,
@@ -117,12 +109,14 @@ $border-plugins: (
   'plugin-spacing-uswds-small'
   'plugin-spacing-uswds-medium'
   */
-  'plugin-standard-border',
+  'plugin-spacing-uswds-small',
+  'plugin-spacing-uswds-smaller',
 );
 
 $border-manual-values: (
   /*
   */
+  '0':            0
 );
 
 /*
@@ -152,8 +146,12 @@ $border-color-plugins: (
   'plugin-color-[color]-standard'
   'plugin-color-[color]-vivid'
   'plugin-color-palette-status'
-  'plugin-standard-border-color'
   */
+  'plugin-color-black-cool-all',
+  'plugin-color-indigo-warm-medium-vivid',
+  'plugin-color-red-warm-medium-vivid',
+  'plugin-color-gold-light-vivid',
+  'plugin-color-palette-grayscale'
 );
 
 $border-color-manual-values: (
@@ -169,7 +167,7 @@ $border-color-manual-values: (
 
 $border-radius-settings: (
   output:       true,
-  responsive:   false,
+  responsive:   true,
   active:       false,
   focus:        false,
   hover:        false,
@@ -178,7 +176,6 @@ $border-radius-settings: (
 
 $border-radius-plugins: (
   /*
-  'plugin-spacing-uswds-smaller'
   'plugin-spacing-uswds-small'
   'plugin-spacing-uswds-medium'
   */
@@ -208,12 +205,14 @@ $border-style-settings: (
 $border-style-plugins: (
   /*
   */
-  'plugin-standard-border-style'
 );
 
 $border-style-manual-values: (
   /*
   */
+  dashed:       'dashed',
+  dotted:       'dotted',
+  solid:        'solid'
 );
 
 /*
@@ -224,10 +223,10 @@ $border-style-manual-values: (
 
 $border-width-settings: (
   output:       true,
-  responsive:   false,
+  responsive:   true,
   active:       false,
   focus:        false,
-  hover:        false,
+  hover:        true,
   visited:      false
 );
 
@@ -236,12 +235,14 @@ $border-width-plugins: (
   'plugin-spacing-uswds-small'
   'plugin-spacing-uswds-medium'
   */
-  'plugin-standard-border-width',
+  'plugin-spacing-uswds-small',
+  'plugin-spacing-uswds-smaller'
 );
 
 $border-width-manual-values: (
   /*
   */
+  0:       0,
 );
 
 /*
@@ -251,7 +252,7 @@ $border-width-manual-values: (
 */
 
 $bottom-settings: (
-  output:       false,
+  output:       true,
   responsive:   false,
   active:       false,
   focus:        false,
@@ -273,12 +274,16 @@ $bottom-plugins: (
   'plugin-spacing-uswds-smaller'
   'plugin-spacing-uswds-smaller-negative'
   */
-  'plugin-standard-bottom',
+  'plugin-spacing-uswds-smaller',
+  'plugin-spacing-uswds-smaller-negative',
+  'plugin-spacing-uswds-small',
 );
 
 $bottom-manual-values: (
   /*
   */
+  0:        0,
+  auto:     'auto',
 );
 
 /*
@@ -299,12 +304,16 @@ $box-shadow-settings: (
 $box-shadow-plugins: (
   /*
   */
-  'plugin-standard-box-shadow'
 );
 
 $box-shadow-manual-values: (
   /*
   */
+  none:     'none',
+  low:      '0 1px 2px 0 rgba(0,0,0,0.10)',
+  high:     '0 4px 8px 0 rgba(0,0,0,0.10)',
+  higher:   '0 6px 12px 0 rgba(0,0,0,0.10)',
+  highest:  '0 8px 16px 0 rgba(0,0,0,0.10)',
 );
 
 /*
@@ -333,7 +342,9 @@ $circle-plugins: (
   'plugin-spacing-uswds-large'
   'plugin-spacing-uswds-xlarge'
   */
-  'plugin-standard-circle',
+  'plugin-spacing-uswds-smaller',
+  'plugin-spacing-uswds-small',
+  'plugin-spacing-uswds-medium'
 );
 
 $circle-manual-values: (
@@ -366,7 +377,7 @@ $color-settings: (
   output:       true,
   responsive:   false,
   active:       false,
-  focus:        false,
+  focus:        true,
   hover:        true,
   visited:      false
 );
@@ -383,8 +394,14 @@ $color-plugins: (
   'plugin-[color]-standard'
   'plugin-[color]-vivid'
   'plugin-palette-status'
-  'plugin-standard-color'
   */
+  'plugin-color-black-cool-light',
+  'plugin-color-black-cool-medium',
+  'plugin-color-black-cool-dark',
+  'plugin-color-indigo-warm-vivid',
+  'plugin-color-red-warm-vivid',
+  'plugin-color-red-vivid',
+  'plugin-color-palette-grayscale'
 );
 
 $color-manual-values: (
@@ -400,7 +417,7 @@ $color-manual-values: (
 
 $display-settings: (
   output:       true,
-  responsive:   false,
+  responsive:   true,
   active:       false,
   focus:        false,
   hover:        false,
@@ -410,12 +427,18 @@ $display-settings: (
 $display-plugins: (
   /*
   */
-  'plugin-standard-display'
 );
 
 $display-manual-values: (
   /*
   */
+  block:        'block',
+  flex:         'flex',
+  none:         'none',
+  inline:       'inline',
+  inline-block: 'inline-block',
+  table:        'table',
+  table-cell:   'table-cell'
 );
 
 /*
@@ -425,7 +448,7 @@ $display-manual-values: (
 */
 
 $flex-settings: (
-  output:       false,
+  output:       true,
   responsive:   false,
   active:       false,
   focus:        false,
@@ -451,21 +474,21 @@ $flex-manual-values: (
 */
 
 $flex-direction-settings: (
-  output:       false,
-  responsive:   false,
+  output:       true,
+  responsive:   true,
   active:       false,
   focus:        false,
   hover:        false,
   visited:      false
 );
 
-$flex-direction-plugins: (
-  'plugin-standard-flex-direction'
-);
+$flex-direction-plugins: ();
 
 $flex-direction-manual-values: (
   /*
   */
+  row:          'row',
+  column:       'column'
 );
 
 /*
@@ -483,11 +506,11 @@ $flex-wrap-settings: (
   visited:      false
 );
 
-$flex-wrap-plugins: (
-  'plugin-standard-flex-wrap'
-);
+$flex-wrap-plugins: ();
 
 $flex-wrap-manual-values: (
+  wrap:         'wrap',
+  nowrap:       'nowrap'
 );
 
 /*
@@ -505,13 +528,14 @@ $float-settings: (
   visited:      false
 );
 
-$float-plugins: (
-  'plugin-standard-float'
-);
+$float-plugins: ();
 
 $float-manual-values: (
   /*
   */
+  left:         'left',
+  none:         'none',
+  right:        'right'
 );
 
 /*
@@ -522,7 +546,7 @@ $float-manual-values: (
 
 $font-settings: (
   output:       true,
-  responsive:   false,
+  responsive:   true,
   active:       false,
   focus:        false,
   hover:        false,
@@ -541,8 +565,9 @@ $font-plugins: (
   'plugin-system-[family]-xlarge'
   'plugin-system-[family]-all'
   */
-  'plugin-font-theme-all',
-  'plugin-font-theme-roles-all'
+  'plugin-font-sans-uswds-all',
+  'plugin-font-serif-uswds-all',
+  'plugin-font-mono-uswds-all'
 );
 
 $font-manual-values: (
@@ -567,8 +592,10 @@ $font-family-settings: (
 
 $font-family-plugins: (
   /*
+  'plugin-font-stack-roles'
+  'plugin-font-stack-types'
   */
-  'plugin-standard-font-family'
+  'plugin-font-stack-types'
 );
 
 $font-family-manual-values: (
@@ -617,11 +644,11 @@ $font-style-settings: (
   visited:      false
 );
 
-$font-style-plugins: (
-  'plugin-standard-font-style'
-);
+$font-style-plugins: ();
 
 $font-style-manual-values: (
+  normal:       'normal',
+  italic:       'italic'
 );
 
 /*
@@ -641,9 +668,9 @@ $font-weight-settings: (
 
 $font-weight-plugins: (
   /*
-  'plugin-font-weights-numeric'
+  'plugin-font-weights-theme'
   */
-  'plugin-standard-font-weight'
+  'plugin-font-weights-numeric'
 );
 
 $font-weight-manual-values: (
@@ -658,10 +685,10 @@ $font-weight-manual-values: (
 */
 
 $height-settings: (
-  output:       false,
+  output:       true,
   responsive:   false,
   active:       false,
-  focus:        false,
+  focus:        true,
   hover:        false,
   visited:      false
 );
@@ -677,13 +704,20 @@ $height-plugins: (
   'plugin-spacing-uswds-medium'
   'plugin-spacing-uswds-large'
   'plugin-spacing-uswds-xlarge'
+  'plugin-spacing-uswds-all'
   */
-  'plugin-standard-height'
+  'plugin-spacing-units-percentage',
+  'plugin-spacing-uswds-smaller',
+  'plugin-spacing-uswds-small',
+  'plugin-spacing-uswds-medium',
 );
 
 $height-manual-values: (
   /*
   */
+  0:      0,
+  auto:   auto,
+  100vh:  100vh
 );
 
 /*
@@ -693,13 +727,13 @@ $height-manual-values: (
 */
 
 $justify-content-settings: (
-  output:       false,
+  output:       true,
   responsive:   false,
   active:       false,
   focus:        false,
   hover:        false,
   visited:      false
-);
+) !default;
 
 $justify-content-plugins: (
   /*
@@ -716,12 +750,12 @@ $justify-content-plugins: (
   'plugin-spacing-uswds-smaller-negative'
   */
   'plugin-standard-justify-content'
-);
+) !default;
 
 $justify-content-manual-values: (
   /*
   */
-);
+) !default;
 
 /*
 ========================================
@@ -730,7 +764,7 @@ $justify-content-manual-values: (
 */
 
 $left-settings: (
-  output:       false,
+  output:       true,
   responsive:   false,
   active:       false,
   focus:        false,
@@ -752,12 +786,16 @@ $left-plugins: (
   'plugin-spacing-uswds-smaller'
   'plugin-spacing-uswds-smaller-negative'
   */
-  'plugin-standard-left'
+  'plugin-spacing-uswds-smaller',
+  'plugin-spacing-uswds-smaller-negative',
+  'plugin-spacing-units-percentage',
 );
 
 $left-manual-values: (
   /*
   */
+  0:        0,
+  auto:     'auto',
 );
 
 /*
@@ -794,7 +832,7 @@ $letter-spacing-manual-values: (
 
 $line-height-settings: (
   output:       true,
-  responsive:   false,
+  responsive:   true,
   active:       false,
   focus:        false,
   hover:        false,
@@ -835,7 +873,7 @@ $list-reset-settings: (
 
 $margin-settings: (
   output:       true,
-  responsive:   false,
+  responsive:   true,
   active:       false,
   focus:        false,
   hover:        false,
@@ -853,26 +891,18 @@ $margin-plugins: (
   'plugin-spacing-units-ch-negative',
   'plugin-spacing-units-em'
   */
-  'plugin-standard-margin'
+  'plugin-spacing-uswds-smaller',
+  'plugin-spacing-uswds-smaller-negative',
+  'plugin-spacing-uswds-small-negative',
+  'plugin-spacing-uswds-small',
+  'plugin-spacing-uswds-medium',
 );
 
 $margin-manual-values: (
   /*
   */
-);
-
-$margin-vertical-plugins: (
-  'plugin-standard-margin-vertical'
-);
-
-$margin-vertical-manual-values: (
-);
-
-$margin-horizontal-plugins: (
-  'plugin-standard-margin-horizontal'
-);
-
-$margin-horizontal-manual-values: (
+  0:            '0',
+  auto:         'auto',
 );
 
 /*
@@ -896,12 +926,15 @@ $max-height-plugins: (
   'plugin-spacing-uswds-all',
   'plugin-spacing-uswds-smaller'
   */
-  'plugin-standard-max-height'
+  'plugin-spacing-uswds-small'
+  'plugin-spacing-uswds-medium'
+  'plugin-spacing-uswds-large'
 );
 
 $max-height-manual-values: (
   /*
   */
+  none:         'none',
 );
 
 /*
@@ -924,38 +957,15 @@ $max-width-plugins: (
   'plugin-spacing-units-percentage',
   'plugin-spacing-uswds-breakpoints'
   */
+  'plugin-spacing-uswds-large',
+  'plugin-spacing-uswds-larger',
   'plugin-standard-max-width'
 );
 
 $max-width-manual-values: (
   /*
   */
-);
-
-/*
-========================================
-.measure
-----------------------------------------
-*/
-
-$measure-settings: (
-  output:       true,
-  responsive:   false,
-  active:       false,
-  focus:        false,
-  hover:        false,
-  visited:      false
-);
-
-$measure-plugins: (
-  /*
-  */
-  'plugin-standard-measure'
-);
-
-$measure-manual-values: (
-  /*
-  */
+  none:         'none',
 );
 
 /*
@@ -965,8 +975,8 @@ $measure-manual-values: (
 */
 
 $min-height-settings: (
-  output:       false,
-  responsive:   false,
+  output:       true,
+  responsive:   true,
   active:       false,
   focus:        false,
   hover:        false,
@@ -985,6 +995,8 @@ $min-height-plugins: (
 $min-height-manual-values: (
   /*
   */
+  '100ct':      100%,
+  '100vh':      100vh,
 );
 
 /*
@@ -994,8 +1006,8 @@ $min-height-manual-values: (
 */
 
 $min-width-settings: (
-  output:       false,
-  responsive:   false,
+  output:       true,
+  responsive:   true,
   active:       false,
   focus:        false,
   hover:        false,
@@ -1010,7 +1022,10 @@ $min-width-plugins: (
   'plugin-spacing-units-ch'
   'plugin-spacing-units-percentage'
   */
-  'plugin-standard-min-width'
+  'plugin-spacing-uswds-small',
+  'plugin-spacing-uswds-medium',
+  'plugin-spacing-uswds-large',
+  'plugin-spacing-uswds-larger'
 );
 
 $min-width-manual-values: (
@@ -1062,8 +1077,8 @@ $opacity-manual-values: (
 */
 
 $order-settings: (
-  output:       false,
-  responsive:   false,
+  output:       true,
+  responsive:   true,
   active:       false,
   focus:        false,
   hover:        false,
@@ -1113,12 +1128,14 @@ $outline-settings: (
 $outline-plugins: (
   /*
   */
-  'plugin-standard-outline'
+  'plugin-spacing-uswds-smaller',
+  'plugin-spacing-uswds-small'
 );
 
 $outline-manual-values: (
   /*
   */
+  0:            'none'
 );
 
 /*
@@ -1139,7 +1156,6 @@ $outline-color-settings: (
 $outline-color-plugins: (
   /*
   */
-  'plugin-standard-outline-color'
 );
 
 $outline-color-manual-values: (
@@ -1154,7 +1170,7 @@ $outline-color-manual-values: (
 */
 
 $overflow-settings: (
-  output:       false,
+  output:       true,
   responsive:   false,
   active:       false,
   focus:        false,
@@ -1165,12 +1181,15 @@ $overflow-settings: (
 $overflow-plugins: (
   /*
   */
-  'plugin-standard-overflow'
 );
 
 $overflow-manual-values: (
   /*
   */
+  'hidden':            hidden,
+  'scroll':            scroll,
+  'auto':              auto,
+  'visiable':          visible,
 );
 
 /*
@@ -1181,7 +1200,7 @@ $overflow-manual-values: (
 
 $padding-settings: (
   output:       true,
-  responsive:   false,
+  responsive:   true,
   active:       false,
   focus:        false,
   hover:        false,
@@ -1192,12 +1211,15 @@ $padding-plugins: (
   /*
   'plugin-spacing-uswds-smaller',
   */
-  'plugin-standard-padding'
+  'plugin-spacing-uswds-smaller',
+  'plugin-spacing-uswds-small',
+  'plugin-spacing-uswds-medium',
 );
 
 $padding-manual-values: (
   /*
   */
+  0:            '0'
 );
 
 /*
@@ -1207,7 +1229,7 @@ $padding-manual-values: (
 */
 
 $position-settings: (
-  output:       false,
+  output:       true,
   responsive:   false,
   active:       false,
   focus:        false,
@@ -1218,12 +1240,16 @@ $position-settings: (
 $position-plugins: (
   /*
   */
-  'plugin-standard-position'
 );
 
 $position-manual-values: (
   /*
   */
+  absolute:     'absolute',
+  fixed:        'fixed',
+  relative:     'relative',
+  static:       'static',
+  sticky:       'sticky'
 );
 
 /*
@@ -1233,7 +1259,7 @@ $position-manual-values: (
 */
 
 $right-settings: (
-  output:       false,
+  output:       true,
   responsive:   false,
   active:       false,
   focus:        false,
@@ -1255,12 +1281,17 @@ $right-plugins: (
   'plugin-spacing-uswds-smaller'
   'plugin-spacing-uswds-smaller-negative'
   */
-  'plugin-standard-right'
+  'plugin-spacing-uswds-smaller',
+  'plugin-spacing-uswds-smaller-negative',
+  'plugin-spacing-units-percentage',
+  'plugin-spacing-uswds-small',
 );
 
 $right-manual-values: (
   /*
   */
+  0:        0,
+  auto:     'auto',
 );
 
 /*
@@ -1270,7 +1301,7 @@ $right-manual-values: (
 */
 
 $square-settings: (
-  output:       false,
+  output:       true,
   responsive:   false,
   active:       false,
   focus:        false,
@@ -1281,7 +1312,9 @@ $square-settings: (
 $square-plugins: (
   /*
   */
-  'plugin-standard-square'
+  'plugin-spacing-uswds-smaller',
+  'plugin-spacing-uswds-small',
+  'plugin-spacing-uswds-medium',
 );
 
 $square-manual-values: (
@@ -1297,7 +1330,7 @@ $square-manual-values: (
 
 $text-align-settings: (
   output:       true,
-  responsive:   false,
+  responsive:   true,
   active:       false,
   focus:        false,
   hover:        false,
@@ -1307,12 +1340,16 @@ $text-align-settings: (
 $text-align-plugins: (
   /*
   */
-  'plugin-standard-text-align'
 );
 
 $text-align-manual-values: (
   /*
+  justify:      'justify',
+  right:        'right',
   */
+  center:       'center',
+  left:         'left',
+  right:        'right',
 );
 
 /*
@@ -1326,7 +1363,7 @@ $text-decoration-settings: (
   responsive:   false,
   active:       false,
   focus:        false,
-  hover:        false,
+  hover:        true,
   visited:      false
 );
 
@@ -1338,6 +1375,7 @@ $text-decoration-plugins: (
 
 $text-decoration-manual-values: (
   /*
+  strike:           'strike',
   */
 );
 
@@ -1352,15 +1390,17 @@ $text-decoration-color-settings: (
   responsive:   false,
   active:       false,
   focus:        false,
-  hover:        false,
+  hover:        true,
   visited:      false
 );
 
 $text-decoration-color-plugins: (
   /*
   'plugin-color-palette-grayscale'
-  'plugin-standard-text-decoration-color'
   */
+  'plugin-color-red-warm-medium-vivid',
+  'plugin-color-indigo-warm-vivid',
+  'plugin-color-palette-grayscale',
 );
 
 $text-decoration-color-manual-values: (
@@ -1375,23 +1415,12 @@ $text-decoration-color-manual-values: (
 */
 
 $text-indent-settings: (
-  output:       false,
-  responsive:   false,
+  output:       true,
+  responsive:   true,
   active:       false,
   focus:        false,
   hover:        false,
   visited:      false
-);
-
-$text-indent-plugins: (
-  /*
-  */
-  'plugin-standard-text-indent'
-);
-
-$text-indent-manual-values: (
-  /*
-  */
 );
 
 /*
@@ -1412,12 +1441,15 @@ $text-transform-settings: (
 $text-transform-plugins: (
   /*
   */
-  'plugin-standard-text-transform'
 );
 
 $text-transform-manual-values: (
   /*
+  capitalize:     'capitalize',
+  lowercase:      'lowercase',
   */
+  uppercase:      'uppercase',
+  none:           'none'
 );
 
 /*
@@ -1427,7 +1459,7 @@ $text-transform-manual-values: (
 */
 
 $top-settings: (
-  output:       false,
+  output:       true,
   responsive:   false,
   active:       false,
   focus:        false,
@@ -1449,12 +1481,17 @@ $top-plugins: (
   'plugin-spacing-uswds-smaller'
   'plugin-spacing-uswds-smaller-negative'
   */
-  'plugin-standard-top'
+  'plugin-spacing-uswds-smaller',
+  'plugin-spacing-uswds-smaller-negative',
+  'plugin-spacing-units-percentage',
+  'plugin-spacing-uswds-small',
 );
 
 $top-manual-values: (
   /*
   */
+  0:        0,
+  auto:     'auto',
 );
 
 /*
@@ -1464,7 +1501,7 @@ $top-manual-values: (
 */
 
 $vertical-align-settings: (
-  output:       false,
+  output:       true,
   responsive:   false,
   active:       false,
   focus:        false,
@@ -1475,12 +1512,19 @@ $vertical-align-settings: (
 $vertical-align-plugins: (
   /*
   */
-  'plugin-standard-vertical-align'
 );
 
 $vertical-align-manual-values: (
   /*
+  bottom:       'bottom',
+  sub:          'sub',
+  super:        'super',
+  text-bottom:  'text-bottom',
+  text-top:     'text-top',
+  top:          'top',
   */
+  middle:       'middle',
+  baseline:     'baseline',
 );
 
 /*
@@ -1490,7 +1534,7 @@ $vertical-align-manual-values: (
 */
 
 $whitespace-settings: (
-  output:       false,
+  output:       true,
   responsive:   false,
   active:       false,
   focus:        false,
@@ -1501,12 +1545,16 @@ $whitespace-settings: (
 $whitespace-plugins: (
   /*
   */
-  'plugin-standard-white-space'
 );
 
 $whitespace-manual-values: (
   /*
+  pre:          'pre',
+  pre-line:     'pre-line',
   */
+  pre-wrap:     'pre-wrap',
+  normal:       'normal',
+  nowrap:       'nowrap'
 );
 
 /*
@@ -1516,10 +1564,10 @@ $whitespace-manual-values: (
 */
 
 $width-settings: (
-  output:       false,
-  responsive:   false,
+  output:       true,
+  responsive:   true,
   active:       false,
-  focus:        false,
+  focus:        true,
   hover:        false,
   visited:      false
 );
@@ -1537,7 +1585,6 @@ $width-plugins: (
 
 $width-manual-values: (
   /*
-  100ct:        '100%'
   */
 );
 
@@ -1565,4 +1612,5 @@ $z-index-plugins: (
 $z-index-manual-values: (
   /*
   */
+  auto:         'auto',
 );

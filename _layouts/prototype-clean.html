@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html class="min-height-viewport color-black-90 font-family-sans" lang="{{ page.lang | default: site.lang | default: "en" }}">
+
+  {% include head.html %}
+
+  <body class="margin-0 font-sans-6 desktop:font-sans-8 lh-sans-4 min-height-viewport">
+
+    <main aria-label="Content">
+      {{ content }}
+    </main>
+
+    {% comment %}
+    <script src="{{ "/assets/js/build/main.js" | relative_url }}"></script>
+    {% endcomment %}
+</body>
+
+</html>

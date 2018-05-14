@@ -1,46 +1,8 @@
 /*
-* * * * * ==============================
-* * * * * ==============================
-* * * * * ==============================
-* * * * * ==============================
 ========================================
-========================================
-========================================
-----------------------------------------
 PROJECT THEME SETTINGS
 ----------------------------------------
-!! Copy this file to your project's
-   sass root. Don't edit the version
-   in node_modules.
-----------------------------------------
 */
-
-@function units($u) { @return $u; }
-
-/*
-----------------------------------------
-Namespace
-----------------------------------------
-*/
-
-$uswds-namespace: (
-  'component': (
-    namespace:  'usa-',
-    output:     true,
-  ),
-  'grid': (
-    namespace:  'g-',
-    output:     true,
-  ),
-  'object': (
-    namespace:  'o-',
-    output:     true,
-  ),
-  'utility': (
-    namespace:  'u-',
-    output:     true,
-  ),
-);
 
 /*
 ----------------------------------------
@@ -51,7 +13,7 @@ for rem calculations
 ----------------------------------------
 */
 
-$theme-root-font-size: 10px;
+$theme-root-font-size: 16px;
 
 /*
 ----------------------------------------
@@ -63,7 +25,7 @@ property of all elements to
 ----------------------------------------
 */
 
-$border-box-sizing: false;
+$border-box-sizing: true;
 
 /*
 ----------------------------------------
@@ -76,26 +38,16 @@ Relative font and image file paths
 $theme-font-path:   '../fonts/uswds';
 $theme-image-path:  '../img/uswds';
 
-/*
-----------------------------------------
-Output breakpoints
-----------------------------------------
-Which breakpoints does your project
-need? Select as `true` any breakpoint
-used by utilities or layout grid
-----------------------------------------
-*/
-
 $theme-output-breakpoints: (
   'card':            false,   // 160px
-  'card-plus':       false,   // 240px
-  'mobile':          false,   // 320px
-  'mobile-plus':     true,    // 480px
+  'card-lg':         false,   // 240px
+  'mobile':          true,    // 320px
+  'mobile-lg':       true,    // 480px
   'tablet':          true,    // 640px
-  'tablet-plus':     false,   // 800px
+  'tablet-lg':       true,    // 800px
   'desktop':         true,    // 1040px
-  'desktop-plus':    false,   // 1200px
-  'widescreen':      false,   // 1400px
+  'desktop-lg':      false,   // 1200px
+  'wide':            false,   // 1400px
 );
 
 /*
@@ -174,8 +126,8 @@ currently available:
 */
 
 $theme-font-mono:   'roboto-mono';
-$theme-font-sans:   'source-sans-pro';
-$theme-font-serif:  'merriweather';
+$theme-font-sans:   'united-sans';
+$theme-font-serif:  'georgia';
 $theme-font-cond:   false;
 
 /*
@@ -193,7 +145,7 @@ $theme-font-cond
 */
 
 $theme-font-heading:  $theme-font-sans;
-$theme-font-body:     $theme-font-serif;
+$theme-font-body:     $theme-font-sans;
 $theme-font-code:     $theme-font-mono;
 $theme-font-alt:      false;
 
@@ -227,15 +179,15 @@ Or use `false` for unneeded weights.
 ----------------------------------------
 */
 
-$theme-output-all-weights:        false;
+$theme-output-all-weights:        true;
 
-$theme-font-weight-thin:          false;
+$theme-font-weight-thin:          100;
 $theme-font-weight-light:         300;
 $theme-font-weight-normal:        400;
 $theme-font-weight-medium:        false;
 $theme-font-weight-semibold:      false;
 $theme-font-weight-bold:          700;
-$theme-font-weight-black:         false;
+$theme-font-weight-black:         900;
 
 /*
 ----------------------------------------
@@ -266,16 +218,12 @@ $theme-color-secondary-vivid:     $theme-color-secondary, 50, vivid;
 $theme-color-secondary-dark:      $theme-color-secondary, 80;
 
 $theme-color-accent-warm:         orange;
-$theme-color-accent-warm-base:    $theme-color-accent-warm, 30, vivid;
-$theme-color-accent-warm-dark:    $theme-color-accent-warm, 60, vivid;
+$theme-color-accent-warm-lighter: $theme-color-accent-warm, 50, vivid;
+$theme-color-accent-warm-base:    $theme-color-accent-warm, 50, vivid;
 
 $theme-color-accent-cool:         cyan;
-$theme-color-accent-cool-base:    $theme-color-accent-cool, 30, vivid;
-$theme-color-accent-cool-dark:    $theme-color-accent-cool, 60, vivid;
-
-$theme-color-inverse:             white;
-$theme-color-inverse-base:        $theme-color-inverse;
-$theme-color-inverse-dark:        black, 10;
+$theme-color-accent-cool-lighter: $theme-color-accent-cool, 50, vivid;
+$theme-color-accent-cool-base:    $theme-color-accent-cool, 50, vivid;
 
 /*
 ----------------------------------------
@@ -315,39 +263,21 @@ $theme-color-disabled-base:    $theme-color-disabled, 30;
 ----------------------------------------
 Border radius
 ----------------------------------------
-2px            2px
-units('05')    4px
-units(1)       8px
-units('105')   12px
-units(2)       16px
-units(3)       24px
-units(4)       32px
-units(5)       40px
-units(6)       48px
-units(7)       56px
-units(8)       64px
-units(9)       72px
-----------------------------------------
-*/
-
-$theme-border-radius-sm:       2px;
-$theme-border-radius-md:       units('05');
-$theme-border-radius-lg:       units(1);
-
-/*
-----------------------------------------
-Column gap
-----------------------------------------
 2px         2px
-units('05')   4px
-units(1)    8px
-units(2)    16px
-units(3)    24px
-units(4)    32px
-units(5)    48px
+sp5         4px
+s1          8px
+s1p5        12px
+s2          16px
+s3          24px
+s4          32px
+s5          40px
+s6          48px
+s7          56px
+s8          64px
+s9          72px
 ----------------------------------------
 */
 
-$theme-column-gap-small: 2px;
-$theme-column-gap:       units(2);
-$theme-column-gap-large: units(3);
+$theme-border-radius-small:       2px;
+$theme-border-radius-base:        '05';
+$theme-border-radius-large:       2;
