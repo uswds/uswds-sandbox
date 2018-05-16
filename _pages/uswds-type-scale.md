@@ -4,7 +4,7 @@ title: USWDS type scale
 permalink: /uswds-type-scale/
 ---
 
-<div class="clearfix container-tablet-lg padding-top-6 lh-sans-1 margin-bottom-9">
+<div class="clearfix container-tablet-lg  padding-x-2 padding-top-6 lh-sans-1 margin-bottom-9">
   <h1 class="fw-300 margin-bottom-4 margin-top-0">USWDS type scale</h1>
   <p class="lh-sans-4 fw-300 margin-bottom-2">The 20-step USWDS type scale is the scale common to any USWDS project. It is designed to accomodate any project typeface, regardless of its optical size, with minimal impact to component layout. To achieve this, our type scale is regularized — each specific face has a different value at each point in the scale. The absolute sizes are different so they can appear to be the same size to the end user.</p>
   <p class="lh-sans-4 fw-300 margin-bottom-2">Since each typeface has different type scale values, use <code class="txt-code">u-font-[type]-[value]</code> instead of <code class="txt-code">u-font-[value]</code>.</p>
@@ -414,6 +414,17 @@ permalink: /uswds-type-scale/
       I found Simon Wheeler dozing comfortably by the bar-room stove of the old, dilapidated tavern in the ancient mining camp of Angel's, and I noticed that he was fat and bald-headed, and had an expression of winning gentleness and simplicity upon his tranquil countenance. He roused up and gave me good-day. I told him a friend of mine had commissioned me to make some inquiries about a cherished companion of his boyhood named Leonidas W. Smiley Rev. Leonidas W. Smiley a young minister of the Gospel, who he had heard was at one time a resident of Angel's Camp. I added that, if Mr. Wheeler could tell me any thing about this Rev. Leonidas W. Smiley, I would feel under many obligations to him.
     </div>
     <div class="col-6 font-serif-6 lh-serif-5">
+      I found Simon Wheeler dozing comfortably by the bar-room stove of the old, dilapidated tavern in the ancient mining camp of Angel's, and I noticed that he was fat and bald-headed, and had an expression of winning gentleness and simplicity upon his tranquil countenance. He roused up and gave me good-day. I told him a friend of mine had commissioned me to make some inquiries about a cherished companion of his boyhood named Leonidas W. Smiley Rev. Leonidas W. Smiley a young minister of the Gospel, who he had heard was at one time a resident of Angel's Camp. I added that, if Mr. Wheeler could tell me any thing about this Rev. Leonidas W. Smiley, I would feel under many obligations to him.
+    </div>
+  </div>
+  <div class="row gap-lg margin-top-4 padding-top-4 border-top">
+    <div class="col-4 font-sans-3 lh-sans-5 fw-400">
+      I found Simon Wheeler dozing comfortably by the bar-room stove of the old, dilapidated tavern in the ancient mining camp of Angel's, and I noticed that he was fat and bald-headed, and had an expression of winning gentleness and simplicity upon his tranquil countenance. He roused up and gave me good-day. I told him a friend of mine had commissioned me to make some inquiries about a cherished companion of his boyhood named Leonidas W. Smiley Rev. Leonidas W. Smiley a young minister of the Gospel, who he had heard was at one time a resident of Angel's Camp. I added that, if Mr. Wheeler could tell me any thing about this Rev. Leonidas W. Smiley, I would feel under many obligations to him.
+    </div>
+    <div class="col-4 font-serif-3 lh-serif-5">
+      I found Simon Wheeler dozing comfortably by the bar-room stove of the old, dilapidated tavern in the ancient mining camp of Angel's, and I noticed that he was fat and bald-headed, and had an expression of winning gentleness and simplicity upon his tranquil countenance. He roused up and gave me good-day. I told him a friend of mine had commissioned me to make some inquiries about a cherished companion of his boyhood named Leonidas W. Smiley Rev. Leonidas W. Smiley a young minister of the Gospel, who he had heard was at one time a resident of Angel's Camp. I added that, if Mr. Wheeler could tell me any thing about this Rev. Leonidas W. Smiley, I would feel under many obligations to him.
+    </div>
+    <div class="col-4 font-mono-3 lh-mono-5">
       I found Simon Wheeler dozing comfortably by the bar-room stove of the old, dilapidated tavern in the ancient mining camp of Angel's, and I noticed that he was fat and bald-headed, and had an expression of winning gentleness and simplicity upon his tranquil countenance. He roused up and gave me good-day. I told him a friend of mine had commissioned me to make some inquiries about a cherished companion of his boyhood named Leonidas W. Smiley Rev. Leonidas W. Smiley a young minister of the Gospel, who he had heard was at one time a resident of Angel's Camp. I added that, if Mr. Wheeler could tell me any thing about this Rev. Leonidas W. Smiley, I would feel under many obligations to him.
     </div>
   </div>

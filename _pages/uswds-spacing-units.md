@@ -4,7 +4,7 @@ title: USWDS spacing units
 permalink: /uswds-spacing-units/
 ---
 
-<div class="clearfix container-tablet-lg padding-y-6 lh-sans-1">
+<div class="clearfix container-tablet-lg padding-x-2 padding-y-6 lh-sans-1">
   <h1 class="fw-300 margin-bottom-4 margin-top-0">USWDS spacing units</h1>
   <p class="lh-sans-4 fw-300 margin-bottom-2">Any utility that accepts a spacing value uses the following USWDS spacing units. These values are common to all USWDS projects and are based on multiples of 8px. They are the only values we use to build official components. Any components <a class="color-black-90 underline-color-black-30" href="#0">we accept back into the system</a> need to be built with these common spacing units.</p>
   <p class="lh-sans-4 fw-300 margin-bottom-6">You can output negative values with a <code class="txt-code">neg-</code> prefix, like <code class="txt-code">u-margin-x-neg-2</code>.</p>
