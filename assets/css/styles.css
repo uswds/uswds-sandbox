@@ -767,17 +767,6 @@ Get a value from the system type scale
 ----------------------------------------
 */
 /*
-----------------------------------------
-simple-color()
-----------------------------------------
-Derive a color from its $family and
-value
-----------------------------------------
-ex:
-background-color: simple-color($red-warm, 50v);
-----------------------------------------
-*/
-/*
 ========================================
 Utility functions
 ----------------------------------------
@@ -847,9 +836,19 @@ Gets a valid USWDS flex value
 ----------------------------------------
 font()
 ----------------------------------------
-Get a normalized font-size in rem from
-a family and a type size in either
-system scale or project scale
+Gets
+- 'family'
+- 'size'
+- 'weight'
+based on on props passed
+----------------------------------------
+*/
+/*
+----------------------------------------
+fw()
+----------------------------------------
+Get a font-weight value from the
+system font-weight
 ----------------------------------------
 */
 /*
@@ -904,6 +903,14 @@ spacing()
 ----------------------------------------
 Converts a spacing unit multiple into
 the desired final units (currently rem)
+----------------------------------------
+*/
+/*
+----------------------------------------
+radius()
+----------------------------------------
+Get a border-radius value from the
+system letter-spacing
 ----------------------------------------
 */
 /*
@@ -1272,46 +1279,6 @@ These plugins collect standard property
 values as plugin
 ----------------------------------------
 */
-/* this is the old theme
-$plugin-color-palette-theme: (
-  primary:                  $color-primary,
-  primary-darker:           $color-primary-darker,
-  primary-darkest:          $color-primary-darkest,
-  base:                     $color-base,
-  primary-alt:              $color-primary-alt,
-  primary-alt-darkest:      $color-primary-alt-darkest,
-  primary-alt-dark:         $color-primary-alt-dark,
-  primary-alt-light:        $color-primary-alt-light,
-  primary-alt-lightest:     $color-primary-alt-lightest,
-  secondary:                $color-secondary,
-  secondary-darkest:        $color-secondary-darkest,
-  secondary-dark:           $color-secondary-dark,
-  secondary-light:          $color-secondary-light,
-  secondary-lightest:       $color-secondary-lightest,
-  gold:                     $color-gold,
-  gold-light:               $color-gold-light,
-  gold-lighter:             $color-gold-lighter,
-  gold-lightest:            $color-gold-lightest,
-  green:                    $color-green,
-  green-light:              $color-green-light,
-  green-lighter:            $color-green-lighter,
-  green-lightest:           $color-green-lightest,
-  blue:                     $color-blue,
-  blue-light:               $color-blue-light,
-  blue-lighter:             $color-blue-lighter,
-  blue-lightest:            $color-blue-lightest,
-  gray:                     $color-gray,
-  gray-dark:                $color-gray-dark,
-  gray-light:               $color-gray-light,
-  gray-lighter:             $color-gray-lighter,
-  gray-lightest:            $color-gray-lightest,
-  gray-warm-dark:           $color-gray-warm-dark,
-  gray-warm-light:          $color-gray-warm-light,
-  gray-cool-light:          $color-gray-cool-light,
-  focus:                    $color-focus,
-  visited:                  $color-visited,
-);
-*/
 /*
 ========================================
 PLUGIN REGISTRY
@@ -1518,16 +1485,31 @@ example:
 */
 /*
 ========================================
+color
+----------------------------------------
+usage:
+  .cursor-[key]
+----------------------------------------
+output:
+  cursor: [value];
+----------------------------------------
+example:
+  .cursor-pointer {
+    cursor: pointer; }
+----------------------------------------
+*/
+/*
+========================================
 display
 ----------------------------------------
 usage:
-  .display-[key]
+  .[key]
 ----------------------------------------
 output:
   display: [value]
 ----------------------------------------
 example:
-  .display-none {
+  .hidden {
     display: none; }
 ----------------------------------------
 */
@@ -1685,13 +1667,13 @@ example:
 font-weight
 ----------------------------------------
 usage:
-  .font-weight-[key]
+  .font-[key]
 ----------------------------------------
 output:
   font-weight: [value];
 ----------------------------------------
 example:
-  .font-weight-300 {
+  .font-300 {
     font-weight: 300; }
 ----------------------------------------
 */
@@ -1764,13 +1746,13 @@ example:
 line-height
 ----------------------------------------
 usage:
-  .line-height-[value]
+  .lh-[value]
 ----------------------------------------
 output:
   line-height: [value];
 ----------------------------------------
 example:
-  .line-height-heading {
+  .lh-sans-2 {
     line-height: 1.15; }
 ----------------------------------------
 */
@@ -1990,13 +1972,13 @@ example:
 position
 ----------------------------------------
 usage:
-  .position-[keye]
+  .[key]
 ----------------------------------------
 output:
   position: [value];
 ----------------------------------------
 example:
-  .position-absolute {
+  .absolute {
     position: absolute; }
 ----------------------------------------
 */
@@ -2176,15 +2158,15 @@ example:
 z-index
 ----------------------------------------
 usage:
-  z-index-[key]
+  z-[key]
 ----------------------------------------
 output:
   z-index: [value];
 ----------------------------------------
 example:
-  .z-index-100 {
+  .z-100 {
     z-index: 100; }
-  .z-index-top {
+  .z-top {
     z-index: 9999; }
 ----------------------------------------
 */
@@ -2280,132 +2262,6 @@ example:
   .desktop\:flex-align-stretch {
     align-items: stretch !important; } }
 
-.bg-black-cool-1 {
-  background-color: #fafbfc !important; }
-
-.hover\:bg-black-cool-1:hover {
-  background-color: #fafbfc !important; }
-
-.focus\:bg-black-cool-1:focus {
-  background-color: #fafbfc !important; }
-
-.bg-black-cool-2 {
-  background-color: #f7f9fa !important; }
-
-.hover\:bg-black-cool-2:hover {
-  background-color: #f7f9fa !important; }
-
-.focus\:bg-black-cool-2:focus {
-  background-color: #f7f9fa !important; }
-
-.bg-black-cool-3 {
-  background-color: #f5f6f7 !important; }
-
-.hover\:bg-black-cool-3:hover {
-  background-color: #f5f6f7 !important; }
-
-.focus\:bg-black-cool-3:focus {
-  background-color: #f5f6f7 !important; }
-
-.bg-black-cool-4 {
-  background-color: #f0f2f5 !important; }
-
-.hover\:bg-black-cool-4:hover {
-  background-color: #f0f2f5 !important; }
-
-.focus\:bg-black-cool-4:focus {
-  background-color: #f0f2f5 !important; }
-
-.bg-black-cool-5 {
-  background-color: #edeff0 !important; }
-
-.hover\:bg-black-cool-5:hover {
-  background-color: #edeff0 !important; }
-
-.focus\:bg-black-cool-5:focus {
-  background-color: #edeff0 !important; }
-
-.bg-black-cool-10 {
-  background-color: #d5d8db !important; }
-
-.hover\:bg-black-cool-10:hover {
-  background-color: #d5d8db !important; }
-
-.focus\:bg-black-cool-10:focus {
-  background-color: #d5d8db !important; }
-
-.bg-black-cool-20 {
-  background-color: #b8bdc2 !important; }
-
-.hover\:bg-black-cool-20:hover {
-  background-color: #b8bdc2 !important; }
-
-.focus\:bg-black-cool-20:focus {
-  background-color: #b8bdc2 !important; }
-
-.bg-black-cool-30 {
-  background-color: #9da2a6 !important; }
-
-.hover\:bg-black-cool-30:hover {
-  background-color: #9da2a6 !important; }
-
-.focus\:bg-black-cool-30:focus {
-  background-color: #9da2a6 !important; }
-
-.bg-black-cool-40 {
-  background-color: #8c9196 !important; }
-
-.hover\:bg-black-cool-40:hover {
-  background-color: #8c9196 !important; }
-
-.focus\:bg-black-cool-40:focus {
-  background-color: #8c9196 !important; }
-
-.bg-black-cool-50 {
-  background-color: #6f7478 !important; }
-
-.hover\:bg-black-cool-50:hover {
-  background-color: #6f7478 !important; }
-
-.focus\:bg-black-cool-50:focus {
-  background-color: #6f7478 !important; }
-
-.bg-black-cool-60 {
-  background-color: #595d63 !important; }
-
-.hover\:bg-black-cool-60:hover {
-  background-color: #595d63 !important; }
-
-.focus\:bg-black-cool-60:focus {
-  background-color: #595d63 !important; }
-
-.bg-black-cool-70 {
-  background-color: #404347 !important; }
-
-.hover\:bg-black-cool-70:hover {
-  background-color: #404347 !important; }
-
-.focus\:bg-black-cool-70:focus {
-  background-color: #404347 !important; }
-
-.bg-black-cool-80 {
-  background-color: #292a2b !important; }
-
-.hover\:bg-black-cool-80:hover {
-  background-color: #292a2b !important; }
-
-.focus\:bg-black-cool-80:focus {
-  background-color: #292a2b !important; }
-
-.bg-black-cool-90 {
-  background-color: #1c1d1f !important; }
-
-.hover\:bg-black-cool-90:hover {
-  background-color: #1c1d1f !important; }
-
-.focus\:bg-black-cool-90:focus {
-  background-color: #1c1d1f !important; }
-
 .bg-black-transparent-5 {
   background-color: rgba(0, 0, 0, 0.01) !important; }
 
@@ -2496,256 +2352,382 @@ example:
 .focus\:bg-black-transparent-90:focus {
   background-color: rgba(0, 0, 0, 0.9) !important; }
 
-.bg-black-1 {
+.bg-gray-cool-1 {
+  background-color: #fafbfc !important; }
+
+.hover\:bg-gray-cool-1:hover {
+  background-color: #fafbfc !important; }
+
+.focus\:bg-gray-cool-1:focus {
+  background-color: #fafbfc !important; }
+
+.bg-gray-cool-2 {
+  background-color: #f7f9fa !important; }
+
+.hover\:bg-gray-cool-2:hover {
+  background-color: #f7f9fa !important; }
+
+.focus\:bg-gray-cool-2:focus {
+  background-color: #f7f9fa !important; }
+
+.bg-gray-cool-3 {
+  background-color: #f5f6f7 !important; }
+
+.hover\:bg-gray-cool-3:hover {
+  background-color: #f5f6f7 !important; }
+
+.focus\:bg-gray-cool-3:focus {
+  background-color: #f5f6f7 !important; }
+
+.bg-gray-cool-4 {
+  background-color: #f0f2f5 !important; }
+
+.hover\:bg-gray-cool-4:hover {
+  background-color: #f0f2f5 !important; }
+
+.focus\:bg-gray-cool-4:focus {
+  background-color: #f0f2f5 !important; }
+
+.bg-gray-cool-5 {
+  background-color: #edeff0 !important; }
+
+.hover\:bg-gray-cool-5:hover {
+  background-color: #edeff0 !important; }
+
+.focus\:bg-gray-cool-5:focus {
+  background-color: #edeff0 !important; }
+
+.bg-gray-cool-10 {
+  background-color: #d5d8db !important; }
+
+.hover\:bg-gray-cool-10:hover {
+  background-color: #d5d8db !important; }
+
+.focus\:bg-gray-cool-10:focus {
+  background-color: #d5d8db !important; }
+
+.bg-gray-cool-20 {
+  background-color: #b8bdc2 !important; }
+
+.hover\:bg-gray-cool-20:hover {
+  background-color: #b8bdc2 !important; }
+
+.focus\:bg-gray-cool-20:focus {
+  background-color: #b8bdc2 !important; }
+
+.bg-gray-cool-30 {
+  background-color: #9da2a6 !important; }
+
+.hover\:bg-gray-cool-30:hover {
+  background-color: #9da2a6 !important; }
+
+.focus\:bg-gray-cool-30:focus {
+  background-color: #9da2a6 !important; }
+
+.bg-gray-cool-40 {
+  background-color: #8c9196 !important; }
+
+.hover\:bg-gray-cool-40:hover {
+  background-color: #8c9196 !important; }
+
+.focus\:bg-gray-cool-40:focus {
+  background-color: #8c9196 !important; }
+
+.bg-gray-cool-50 {
+  background-color: #6f7478 !important; }
+
+.hover\:bg-gray-cool-50:hover {
+  background-color: #6f7478 !important; }
+
+.focus\:bg-gray-cool-50:focus {
+  background-color: #6f7478 !important; }
+
+.bg-gray-cool-60 {
+  background-color: #595d63 !important; }
+
+.hover\:bg-gray-cool-60:hover {
+  background-color: #595d63 !important; }
+
+.focus\:bg-gray-cool-60:focus {
+  background-color: #595d63 !important; }
+
+.bg-gray-cool-70 {
+  background-color: #404347 !important; }
+
+.hover\:bg-gray-cool-70:hover {
+  background-color: #404347 !important; }
+
+.focus\:bg-gray-cool-70:focus {
+  background-color: #404347 !important; }
+
+.bg-gray-cool-80 {
+  background-color: #292a2b !important; }
+
+.hover\:bg-gray-cool-80:hover {
+  background-color: #292a2b !important; }
+
+.focus\:bg-gray-cool-80:focus {
+  background-color: #292a2b !important; }
+
+.bg-gray-cool-90 {
+  background-color: #1c1d1f !important; }
+
+.hover\:bg-gray-cool-90:hover {
+  background-color: #1c1d1f !important; }
+
+.focus\:bg-gray-cool-90:focus {
+  background-color: #1c1d1f !important; }
+
+.bg-gray-1 {
   background-color: #fcfcfc !important; }
 
-.hover\:bg-black-1:hover {
+.hover\:bg-gray-1:hover {
   background-color: #fcfcfc !important; }
 
-.focus\:bg-black-1:focus {
+.focus\:bg-gray-1:focus {
   background-color: #fcfcfc !important; }
 
-.bg-black-2 {
+.bg-gray-2 {
   background-color: #f9f9f9 !important; }
 
-.hover\:bg-black-2:hover {
+.hover\:bg-gray-2:hover {
   background-color: #f9f9f9 !important; }
 
-.focus\:bg-black-2:focus {
+.focus\:bg-gray-2:focus {
   background-color: #f9f9f9 !important; }
 
-.bg-black-3 {
+.bg-gray-3 {
   background-color: #f6f6f6 !important; }
 
-.hover\:bg-black-3:hover {
+.hover\:bg-gray-3:hover {
   background-color: #f6f6f6 !important; }
 
-.focus\:bg-black-3:focus {
+.focus\:bg-gray-3:focus {
   background-color: #f6f6f6 !important; }
 
-.bg-black-4 {
+.bg-gray-4 {
   background-color: #f3f3f3 !important; }
 
-.hover\:bg-black-4:hover {
+.hover\:bg-gray-4:hover {
   background-color: #f3f3f3 !important; }
 
-.focus\:bg-black-4:focus {
+.focus\:bg-gray-4:focus {
   background-color: #f3f3f3 !important; }
 
-.bg-black-5 {
+.bg-gray-5 {
   background-color: #f0f0f0 !important; }
 
-.hover\:bg-black-5:hover {
+.hover\:bg-gray-5:hover {
   background-color: #f0f0f0 !important; }
 
-.focus\:bg-black-5:focus {
+.focus\:bg-gray-5:focus {
   background-color: #f0f0f0 !important; }
 
-.bg-black-10 {
+.bg-gray-10 {
   background-color: #e6e6e6 !important; }
 
-.hover\:bg-black-10:hover {
+.hover\:bg-gray-10:hover {
   background-color: #e6e6e6 !important; }
 
-.focus\:bg-black-10:focus {
+.focus\:bg-gray-10:focus {
   background-color: #e6e6e6 !important; }
 
-.bg-black-20 {
+.bg-gray-20 {
   background-color: #c9c9c9 !important; }
 
-.hover\:bg-black-20:hover {
+.hover\:bg-gray-20:hover {
   background-color: #c9c9c9 !important; }
 
-.focus\:bg-black-20:focus {
+.focus\:bg-gray-20:focus {
   background-color: #c9c9c9 !important; }
 
-.bg-black-30 {
+.bg-gray-30 {
   background-color: #adadad !important; }
 
-.hover\:bg-black-30:hover {
+.hover\:bg-gray-30:hover {
   background-color: #adadad !important; }
 
-.focus\:bg-black-30:focus {
+.focus\:bg-gray-30:focus {
   background-color: #adadad !important; }
 
-.bg-black-40 {
+.bg-gray-40 {
   background-color: #919191 !important; }
 
-.hover\:bg-black-40:hover {
+.hover\:bg-gray-40:hover {
   background-color: #919191 !important; }
 
-.focus\:bg-black-40:focus {
+.focus\:bg-gray-40:focus {
   background-color: #919191 !important; }
 
-.bg-black-50 {
+.bg-gray-50 {
   background-color: #757575 !important; }
 
-.hover\:bg-black-50:hover {
+.hover\:bg-gray-50:hover {
   background-color: #757575 !important; }
 
-.focus\:bg-black-50:focus {
+.focus\:bg-gray-50:focus {
   background-color: #757575 !important; }
 
-.bg-black-60 {
+.bg-gray-60 {
   background-color: #5c5c5c !important; }
 
-.hover\:bg-black-60:hover {
+.hover\:bg-gray-60:hover {
   background-color: #5c5c5c !important; }
 
-.focus\:bg-black-60:focus {
+.focus\:bg-gray-60:focus {
   background-color: #5c5c5c !important; }
 
-.bg-black-70 {
+.bg-gray-70 {
   background-color: #454545 !important; }
 
-.hover\:bg-black-70:hover {
+.hover\:bg-gray-70:hover {
   background-color: #454545 !important; }
 
-.focus\:bg-black-70:focus {
+.focus\:bg-gray-70:focus {
   background-color: #454545 !important; }
 
-.bg-black-80 {
+.bg-gray-80 {
   background-color: #2e2e2e !important; }
 
-.hover\:bg-black-80:hover {
+.hover\:bg-gray-80:hover {
   background-color: #2e2e2e !important; }
 
-.focus\:bg-black-80:focus {
+.focus\:bg-gray-80:focus {
   background-color: #2e2e2e !important; }
 
-.bg-black-90 {
+.bg-gray-90 {
   background-color: #171717 !important; }
 
-.hover\:bg-black-90:hover {
+.hover\:bg-gray-90:hover {
   background-color: #171717 !important; }
 
-.focus\:bg-black-90:focus {
+.focus\:bg-gray-90:focus {
   background-color: #171717 !important; }
 
-.bg-black-warm-1 {
+.bg-gray-warm-1 {
   background-color: #fdfdfc !important; }
 
-.hover\:bg-black-warm-1:hover {
+.hover\:bg-gray-warm-1:hover {
   background-color: #fdfdfc !important; }
 
-.focus\:bg-black-warm-1:focus {
+.focus\:bg-gray-warm-1:focus {
   background-color: #fdfdfc !important; }
 
-.bg-black-warm-2 {
+.bg-gray-warm-2 {
   background-color: #fafaf8 !important; }
 
-.hover\:bg-black-warm-2:hover {
+.hover\:bg-gray-warm-2:hover {
   background-color: #fafaf8 !important; }
 
-.focus\:bg-black-warm-2:focus {
+.focus\:bg-gray-warm-2:focus {
   background-color: #fafaf8 !important; }
 
-.bg-black-warm-3 {
+.bg-gray-warm-3 {
   background-color: #f7f7f3 !important; }
 
-.hover\:bg-black-warm-3:hover {
+.hover\:bg-gray-warm-3:hover {
   background-color: #f7f7f3 !important; }
 
-.focus\:bg-black-warm-3:focus {
+.focus\:bg-gray-warm-3:focus {
   background-color: #f7f7f3 !important; }
 
-.bg-black-warm-4 {
+.bg-gray-warm-4 {
   background-color: #f5f5f0 !important; }
 
-.hover\:bg-black-warm-4:hover {
+.hover\:bg-gray-warm-4:hover {
   background-color: #f5f5f0 !important; }
 
-.focus\:bg-black-warm-4:focus {
+.focus\:bg-gray-warm-4:focus {
   background-color: #f5f5f0 !important; }
 
-.bg-black-warm-5 {
+.bg-gray-warm-5 {
   background-color: #f5f5f1 !important; }
 
-.hover\:bg-black-warm-5:hover {
+.hover\:bg-gray-warm-5:hover {
   background-color: #f5f5f1 !important; }
 
-.focus\:bg-black-warm-5:focus {
+.focus\:bg-gray-warm-5:focus {
   background-color: #f5f5f1 !important; }
 
-.bg-black-warm-10 {
+.bg-gray-warm-10 {
   background-color: #e0e0da !important; }
 
-.hover\:bg-black-warm-10:hover {
+.hover\:bg-gray-warm-10:hover {
   background-color: #e0e0da !important; }
 
-.focus\:bg-black-warm-10:focus {
+.focus\:bg-gray-warm-10:focus {
   background-color: #e0e0da !important; }
 
-.bg-black-warm-20 {
+.bg-gray-warm-20 {
   background-color: #d6d5cb !important; }
 
-.hover\:bg-black-warm-20:hover {
+.hover\:bg-gray-warm-20:hover {
   background-color: #d6d5cb !important; }
 
-.focus\:bg-black-warm-20:focus {
+.focus\:bg-gray-warm-20:focus {
   background-color: #d6d5cb !important; }
 
-.bg-black-warm-30 {
+.bg-gray-warm-30 {
   background-color: #c2c1b4 !important; }
 
-.hover\:bg-black-warm-30:hover {
+.hover\:bg-gray-warm-30:hover {
   background-color: #c2c1b4 !important; }
 
-.focus\:bg-black-warm-30:focus {
+.focus\:bg-gray-warm-30:focus {
   background-color: #c2c1b4 !important; }
 
-.bg-black-warm-40 {
+.bg-gray-warm-40 {
   background-color: #969689 !important; }
 
-.hover\:bg-black-warm-40:hover {
+.hover\:bg-gray-warm-40:hover {
   background-color: #969689 !important; }
 
-.focus\:bg-black-warm-40:focus {
+.focus\:bg-gray-warm-40:focus {
   background-color: #969689 !important; }
 
-.bg-black-warm-50 {
+.bg-gray-warm-50 {
   background-color: #707064 !important; }
 
-.hover\:bg-black-warm-50:hover {
+.hover\:bg-gray-warm-50:hover {
   background-color: #707064 !important; }
 
-.focus\:bg-black-warm-50:focus {
+.focus\:bg-gray-warm-50:focus {
   background-color: #707064 !important; }
 
-.bg-black-warm-60 {
+.bg-gray-warm-60 {
   background-color: #5e5e53 !important; }
 
-.hover\:bg-black-warm-60:hover {
+.hover\:bg-gray-warm-60:hover {
   background-color: #5e5e53 !important; }
 
-.focus\:bg-black-warm-60:focus {
+.focus\:bg-gray-warm-60:focus {
   background-color: #5e5e53 !important; }
 
-.bg-black-warm-70 {
+.bg-gray-warm-70 {
   background-color: #42423c !important; }
 
-.hover\:bg-black-warm-70:hover {
+.hover\:bg-gray-warm-70:hover {
   background-color: #42423c !important; }
 
-.focus\:bg-black-warm-70:focus {
+.focus\:bg-gray-warm-70:focus {
   background-color: #42423c !important; }
 
-.bg-black-warm-80 {
+.bg-gray-warm-80 {
   background-color: #2b2b27 !important; }
 
-.hover\:bg-black-warm-80:hover {
+.hover\:bg-gray-warm-80:hover {
   background-color: #2b2b27 !important; }
 
-.focus\:bg-black-warm-80:focus {
+.focus\:bg-gray-warm-80:focus {
   background-color: #2b2b27 !important; }
 
-.bg-black-warm-90 {
+.bg-gray-warm-90 {
   background-color: #1c1c1b !important; }
 
-.hover\:bg-black-warm-90:hover {
+.hover\:bg-gray-warm-90:hover {
   background-color: #1c1c1b !important; }
 
-.focus\:bg-black-warm-90:focus {
+.focus\:bg-gray-warm-90:focus {
   background-color: #1c1c1b !important; }
 
 .bg-blue-5 {
@@ -5583,13 +5565,13 @@ example:
 .focus\:bg-white:focus {
   background-color: white !important; }
 
-.bg-outline {
+.bg-highlight {
   background-color: #e6a100 !important; }
 
-.hover\:bg-outline:hover {
+.hover\:bg-highlight:hover {
   background-color: #e6a100 !important; }
 
-.focus\:bg-outline:focus {
+.focus\:bg-highlight:focus {
   background-color: #e6a100 !important; }
 
 .border-05 {
@@ -7167,94 +7149,94 @@ example:
 .hover\:border-white:hover {
   border-color: white !important; }
 
-.border-outline {
+.border-highlight {
   border-color: #e6a100 !important; }
 
-.hover\:border-outline:hover {
+.hover\:border-highlight:hover {
   border-color: #e6a100 !important; }
 
-.border-black-cool-1 {
+.border-gray-cool-1 {
   border-color: #fafbfc !important; }
 
-.hover\:border-black-cool-1:hover {
+.hover\:border-gray-cool-1:hover {
   border-color: #fafbfc !important; }
 
-.border-black-cool-2 {
+.border-gray-cool-2 {
   border-color: #f7f9fa !important; }
 
-.hover\:border-black-cool-2:hover {
+.hover\:border-gray-cool-2:hover {
   border-color: #f7f9fa !important; }
 
-.border-black-cool-3 {
+.border-gray-cool-3 {
   border-color: #f5f6f7 !important; }
 
-.hover\:border-black-cool-3:hover {
+.hover\:border-gray-cool-3:hover {
   border-color: #f5f6f7 !important; }
 
-.border-black-cool-4 {
+.border-gray-cool-4 {
   border-color: #f0f2f5 !important; }
 
-.hover\:border-black-cool-4:hover {
+.hover\:border-gray-cool-4:hover {
   border-color: #f0f2f5 !important; }
 
-.border-black-cool-5 {
+.border-gray-cool-5 {
   border-color: #edeff0 !important; }
 
-.hover\:border-black-cool-5:hover {
+.hover\:border-gray-cool-5:hover {
   border-color: #edeff0 !important; }
 
-.border-black-cool-10 {
+.border-gray-cool-10 {
   border-color: #d5d8db !important; }
 
-.hover\:border-black-cool-10:hover {
+.hover\:border-gray-cool-10:hover {
   border-color: #d5d8db !important; }
 
-.border-black-cool-20 {
+.border-gray-cool-20 {
   border-color: #b8bdc2 !important; }
 
-.hover\:border-black-cool-20:hover {
+.hover\:border-gray-cool-20:hover {
   border-color: #b8bdc2 !important; }
 
-.border-black-cool-30 {
+.border-gray-cool-30 {
   border-color: #9da2a6 !important; }
 
-.hover\:border-black-cool-30:hover {
+.hover\:border-gray-cool-30:hover {
   border-color: #9da2a6 !important; }
 
-.border-black-cool-40 {
+.border-gray-cool-40 {
   border-color: #8c9196 !important; }
 
-.hover\:border-black-cool-40:hover {
+.hover\:border-gray-cool-40:hover {
   border-color: #8c9196 !important; }
 
-.border-black-cool-50 {
+.border-gray-cool-50 {
   border-color: #6f7478 !important; }
 
-.hover\:border-black-cool-50:hover {
+.hover\:border-gray-cool-50:hover {
   border-color: #6f7478 !important; }
 
-.border-black-cool-60 {
+.border-gray-cool-60 {
   border-color: #595d63 !important; }
 
-.hover\:border-black-cool-60:hover {
+.hover\:border-gray-cool-60:hover {
   border-color: #595d63 !important; }
 
-.border-black-cool-70 {
+.border-gray-cool-70 {
   border-color: #404347 !important; }
 
-.hover\:border-black-cool-70:hover {
+.hover\:border-gray-cool-70:hover {
   border-color: #404347 !important; }
 
-.border-black-cool-80 {
+.border-gray-cool-80 {
   border-color: #292a2b !important; }
 
-.hover\:border-black-cool-80:hover {
+.hover\:border-gray-cool-80:hover {
   border-color: #292a2b !important; }
 
-.border-black-cool-90 {
+.border-gray-cool-90 {
   border-color: #1c1d1f !important; }
 
-.hover\:border-black-cool-90:hover {
+.hover\:border-gray-cool-90:hover {
   border-color: #1c1d1f !important; }
 
 .border-indigo-warm-40v {
@@ -7311,88 +7293,88 @@ example:
 .hover\:border-gold-30v:hover {
   border-color: #e6a100 !important; }
 
-.border-black-1 {
+.border-gray-1 {
   border-color: #fcfcfc !important; }
 
-.hover\:border-black-1:hover {
+.hover\:border-gray-1:hover {
   border-color: #fcfcfc !important; }
 
-.border-black-2 {
+.border-gray-2 {
   border-color: #f9f9f9 !important; }
 
-.hover\:border-black-2:hover {
+.hover\:border-gray-2:hover {
   border-color: #f9f9f9 !important; }
 
-.border-black-3 {
+.border-gray-3 {
   border-color: #f6f6f6 !important; }
 
-.hover\:border-black-3:hover {
+.hover\:border-gray-3:hover {
   border-color: #f6f6f6 !important; }
 
-.border-black-4 {
+.border-gray-4 {
   border-color: #f3f3f3 !important; }
 
-.hover\:border-black-4:hover {
+.hover\:border-gray-4:hover {
   border-color: #f3f3f3 !important; }
 
-.border-black-5 {
+.border-gray-5 {
   border-color: #f0f0f0 !important; }
 
-.hover\:border-black-5:hover {
+.hover\:border-gray-5:hover {
   border-color: #f0f0f0 !important; }
 
-.border-black-10 {
+.border-gray-10 {
   border-color: #e6e6e6 !important; }
 
-.hover\:border-black-10:hover {
+.hover\:border-gray-10:hover {
   border-color: #e6e6e6 !important; }
 
-.border-black-20 {
+.border-gray-20 {
   border-color: #c9c9c9 !important; }
 
-.hover\:border-black-20:hover {
+.hover\:border-gray-20:hover {
   border-color: #c9c9c9 !important; }
 
-.border-black-30 {
+.border-gray-30 {
   border-color: #adadad !important; }
 
-.hover\:border-black-30:hover {
+.hover\:border-gray-30:hover {
   border-color: #adadad !important; }
 
-.border-black-40 {
+.border-gray-40 {
   border-color: #919191 !important; }
 
-.hover\:border-black-40:hover {
+.hover\:border-gray-40:hover {
   border-color: #919191 !important; }
 
-.border-black-50 {
+.border-gray-50 {
   border-color: #757575 !important; }
 
-.hover\:border-black-50:hover {
+.hover\:border-gray-50:hover {
   border-color: #757575 !important; }
 
-.border-black-60 {
+.border-gray-60 {
   border-color: #5c5c5c !important; }
 
-.hover\:border-black-60:hover {
+.hover\:border-gray-60:hover {
   border-color: #5c5c5c !important; }
 
-.border-black-70 {
+.border-gray-70 {
   border-color: #454545 !important; }
 
-.hover\:border-black-70:hover {
+.hover\:border-gray-70:hover {
   border-color: #454545 !important; }
 
-.border-black-80 {
+.border-gray-80 {
   border-color: #2e2e2e !important; }
 
-.hover\:border-black-80:hover {
+.hover\:border-gray-80:hover {
   border-color: #2e2e2e !important; }
 
-.border-black-90 {
+.border-gray-90 {
   border-color: #171717 !important; }
 
-.hover\:border-black-90:hover {
+.hover\:border-gray-90:hover {
   border-color: #171717 !important; }
 
 .border-black-transparent-5 {
@@ -7455,88 +7437,88 @@ example:
 .hover\:border-black-transparent-90:hover {
   border-color: rgba(0, 0, 0, 0.9) !important; }
 
-.border-black-warm-1 {
+.border-gray-warm-1 {
   border-color: #fdfdfc !important; }
 
-.hover\:border-black-warm-1:hover {
+.hover\:border-gray-warm-1:hover {
   border-color: #fdfdfc !important; }
 
-.border-black-warm-2 {
+.border-gray-warm-2 {
   border-color: #fafaf8 !important; }
 
-.hover\:border-black-warm-2:hover {
+.hover\:border-gray-warm-2:hover {
   border-color: #fafaf8 !important; }
 
-.border-black-warm-3 {
+.border-gray-warm-3 {
   border-color: #f7f7f3 !important; }
 
-.hover\:border-black-warm-3:hover {
+.hover\:border-gray-warm-3:hover {
   border-color: #f7f7f3 !important; }
 
-.border-black-warm-4 {
+.border-gray-warm-4 {
   border-color: #f5f5f0 !important; }
 
-.hover\:border-black-warm-4:hover {
+.hover\:border-gray-warm-4:hover {
   border-color: #f5f5f0 !important; }
 
-.border-black-warm-5 {
+.border-gray-warm-5 {
   border-color: #f5f5f1 !important; }
 
-.hover\:border-black-warm-5:hover {
+.hover\:border-gray-warm-5:hover {
   border-color: #f5f5f1 !important; }
 
-.border-black-warm-10 {
+.border-gray-warm-10 {
   border-color: #e0e0da !important; }
 
-.hover\:border-black-warm-10:hover {
+.hover\:border-gray-warm-10:hover {
   border-color: #e0e0da !important; }
 
-.border-black-warm-20 {
+.border-gray-warm-20 {
   border-color: #d6d5cb !important; }
 
-.hover\:border-black-warm-20:hover {
+.hover\:border-gray-warm-20:hover {
   border-color: #d6d5cb !important; }
 
-.border-black-warm-30 {
+.border-gray-warm-30 {
   border-color: #c2c1b4 !important; }
 
-.hover\:border-black-warm-30:hover {
+.hover\:border-gray-warm-30:hover {
   border-color: #c2c1b4 !important; }
 
-.border-black-warm-40 {
+.border-gray-warm-40 {
   border-color: #969689 !important; }
 
-.hover\:border-black-warm-40:hover {
+.hover\:border-gray-warm-40:hover {
   border-color: #969689 !important; }
 
-.border-black-warm-50 {
+.border-gray-warm-50 {
   border-color: #707064 !important; }
 
-.hover\:border-black-warm-50:hover {
+.hover\:border-gray-warm-50:hover {
   border-color: #707064 !important; }
 
-.border-black-warm-60 {
+.border-gray-warm-60 {
   border-color: #5e5e53 !important; }
 
-.hover\:border-black-warm-60:hover {
+.hover\:border-gray-warm-60:hover {
   border-color: #5e5e53 !important; }
 
-.border-black-warm-70 {
+.border-gray-warm-70 {
   border-color: #42423c !important; }
 
-.hover\:border-black-warm-70:hover {
+.hover\:border-gray-warm-70:hover {
   border-color: #42423c !important; }
 
-.border-black-warm-80 {
+.border-gray-warm-80 {
   border-color: #2b2b27 !important; }
 
-.hover\:border-black-warm-80:hover {
+.hover\:border-gray-warm-80:hover {
   border-color: #2b2b27 !important; }
 
-.border-black-warm-90 {
+.border-gray-warm-90 {
   border-color: #1c1c1b !important; }
 
-.hover\:border-black-warm-90:hover {
+.hover\:border-gray-warm-90:hover {
   border-color: #1c1c1b !important; }
 
 .border-blue-5 {
@@ -12414,103 +12396,103 @@ example:
 .focus\:color-white:focus {
   color: white !important; }
 
-.color-outline {
+.color-highlight {
   color: #e6a100 !important; }
 
-.hover\:color-outline:hover {
+.hover\:color-highlight:hover {
   color: #e6a100 !important; }
 
-.focus\:color-outline:focus {
+.focus\:color-highlight:focus {
   color: #e6a100 !important; }
 
-.color-black-cool-5 {
+.color-gray-cool-5 {
   color: #edeff0 !important; }
 
-.hover\:color-black-cool-5:hover {
+.hover\:color-gray-cool-5:hover {
   color: #edeff0 !important; }
 
-.focus\:color-black-cool-5:focus {
+.focus\:color-gray-cool-5:focus {
   color: #edeff0 !important; }
 
-.color-black-cool-10 {
+.color-gray-cool-10 {
   color: #d5d8db !important; }
 
-.hover\:color-black-cool-10:hover {
+.hover\:color-gray-cool-10:hover {
   color: #d5d8db !important; }
 
-.focus\:color-black-cool-10:focus {
+.focus\:color-gray-cool-10:focus {
   color: #d5d8db !important; }
 
-.color-black-cool-20 {
+.color-gray-cool-20 {
   color: #b8bdc2 !important; }
 
-.hover\:color-black-cool-20:hover {
+.hover\:color-gray-cool-20:hover {
   color: #b8bdc2 !important; }
 
-.focus\:color-black-cool-20:focus {
+.focus\:color-gray-cool-20:focus {
   color: #b8bdc2 !important; }
 
-.color-black-cool-30 {
+.color-gray-cool-30 {
   color: #9da2a6 !important; }
 
-.hover\:color-black-cool-30:hover {
+.hover\:color-gray-cool-30:hover {
   color: #9da2a6 !important; }
 
-.focus\:color-black-cool-30:focus {
+.focus\:color-gray-cool-30:focus {
   color: #9da2a6 !important; }
 
-.color-black-cool-40 {
+.color-gray-cool-40 {
   color: #8c9196 !important; }
 
-.hover\:color-black-cool-40:hover {
+.hover\:color-gray-cool-40:hover {
   color: #8c9196 !important; }
 
-.focus\:color-black-cool-40:focus {
+.focus\:color-gray-cool-40:focus {
   color: #8c9196 !important; }
 
-.color-black-cool-50 {
+.color-gray-cool-50 {
   color: #6f7478 !important; }
 
-.hover\:color-black-cool-50:hover {
+.hover\:color-gray-cool-50:hover {
   color: #6f7478 !important; }
 
-.focus\:color-black-cool-50:focus {
+.focus\:color-gray-cool-50:focus {
   color: #6f7478 !important; }
 
-.color-black-cool-60 {
+.color-gray-cool-60 {
   color: #595d63 !important; }
 
-.hover\:color-black-cool-60:hover {
+.hover\:color-gray-cool-60:hover {
   color: #595d63 !important; }
 
-.focus\:color-black-cool-60:focus {
+.focus\:color-gray-cool-60:focus {
   color: #595d63 !important; }
 
-.color-black-cool-70 {
+.color-gray-cool-70 {
   color: #404347 !important; }
 
-.hover\:color-black-cool-70:hover {
+.hover\:color-gray-cool-70:hover {
   color: #404347 !important; }
 
-.focus\:color-black-cool-70:focus {
+.focus\:color-gray-cool-70:focus {
   color: #404347 !important; }
 
-.color-black-cool-80 {
+.color-gray-cool-80 {
   color: #292a2b !important; }
 
-.hover\:color-black-cool-80:hover {
+.hover\:color-gray-cool-80:hover {
   color: #292a2b !important; }
 
-.focus\:color-black-cool-80:focus {
+.focus\:color-gray-cool-80:focus {
   color: #292a2b !important; }
 
-.color-black-cool-90 {
+.color-gray-cool-90 {
   color: #1c1d1f !important; }
 
-.hover\:color-black-cool-90:hover {
+.hover\:color-gray-cool-90:hover {
   color: #1c1d1f !important; }
 
-.focus\:color-black-cool-90:focus {
+.focus\:color-gray-cool-90:focus {
   color: #1c1d1f !important; }
 
 .color-indigo-warm-30v {
@@ -12657,167 +12639,131 @@ example:
 .focus\:color-red-80v:focus {
   color: #631212 !important; }
 
-.color-black-1 {
+.color-gray-1 {
   color: #fcfcfc !important; }
 
-.hover\:color-black-1:hover {
+.hover\:color-gray-1:hover {
   color: #fcfcfc !important; }
 
-.focus\:color-black-1:focus {
+.focus\:color-gray-1:focus {
   color: #fcfcfc !important; }
 
-.color-black-2 {
+.color-gray-2 {
   color: #f9f9f9 !important; }
 
-.hover\:color-black-2:hover {
+.hover\:color-gray-2:hover {
   color: #f9f9f9 !important; }
 
-.focus\:color-black-2:focus {
+.focus\:color-gray-2:focus {
   color: #f9f9f9 !important; }
 
-.color-black-3 {
+.color-gray-3 {
   color: #f6f6f6 !important; }
 
-.hover\:color-black-3:hover {
+.hover\:color-gray-3:hover {
   color: #f6f6f6 !important; }
 
-.focus\:color-black-3:focus {
+.focus\:color-gray-3:focus {
   color: #f6f6f6 !important; }
 
-.color-black-4 {
+.color-gray-4 {
   color: #f3f3f3 !important; }
 
-.hover\:color-black-4:hover {
+.hover\:color-gray-4:hover {
   color: #f3f3f3 !important; }
 
-.focus\:color-black-4:focus {
+.focus\:color-gray-4:focus {
   color: #f3f3f3 !important; }
 
-.color-black-5 {
+.color-gray-5 {
   color: #f0f0f0 !important; }
 
-.hover\:color-black-5:hover {
+.hover\:color-gray-5:hover {
   color: #f0f0f0 !important; }
 
-.focus\:color-black-5:focus {
+.focus\:color-gray-5:focus {
   color: #f0f0f0 !important; }
 
-.color-black-10 {
+.color-gray-10 {
   color: #e6e6e6 !important; }
 
-.hover\:color-black-10:hover {
+.hover\:color-gray-10:hover {
   color: #e6e6e6 !important; }
 
-.focus\:color-black-10:focus {
+.focus\:color-gray-10:focus {
   color: #e6e6e6 !important; }
 
-.color-black-20 {
+.color-gray-20 {
   color: #c9c9c9 !important; }
 
-.hover\:color-black-20:hover {
+.hover\:color-gray-20:hover {
   color: #c9c9c9 !important; }
 
-.focus\:color-black-20:focus {
+.focus\:color-gray-20:focus {
   color: #c9c9c9 !important; }
 
-.color-black-30 {
+.color-gray-30 {
   color: #adadad !important; }
 
-.hover\:color-black-30:hover {
+.hover\:color-gray-30:hover {
   color: #adadad !important; }
 
-.focus\:color-black-30:focus {
+.focus\:color-gray-30:focus {
   color: #adadad !important; }
 
-.color-black-40 {
+.color-gray-40 {
   color: #919191 !important; }
 
-.hover\:color-black-40:hover {
+.hover\:color-gray-40:hover {
   color: #919191 !important; }
 
-.focus\:color-black-40:focus {
+.focus\:color-gray-40:focus {
   color: #919191 !important; }
 
-.color-black-50 {
+.color-gray-50 {
   color: #757575 !important; }
 
-.hover\:color-black-50:hover {
+.hover\:color-gray-50:hover {
   color: #757575 !important; }
 
-.focus\:color-black-50:focus {
+.focus\:color-gray-50:focus {
   color: #757575 !important; }
 
-.color-black-60 {
+.color-gray-60 {
   color: #5c5c5c !important; }
 
-.hover\:color-black-60:hover {
+.hover\:color-gray-60:hover {
   color: #5c5c5c !important; }
 
-.focus\:color-black-60:focus {
+.focus\:color-gray-60:focus {
   color: #5c5c5c !important; }
 
-.color-black-70 {
+.color-gray-70 {
   color: #454545 !important; }
 
-.hover\:color-black-70:hover {
+.hover\:color-gray-70:hover {
   color: #454545 !important; }
 
-.focus\:color-black-70:focus {
+.focus\:color-gray-70:focus {
   color: #454545 !important; }
 
-.color-black-80 {
+.color-gray-80 {
   color: #2e2e2e !important; }
 
-.hover\:color-black-80:hover {
+.hover\:color-gray-80:hover {
   color: #2e2e2e !important; }
 
-.focus\:color-black-80:focus {
+.focus\:color-gray-80:focus {
   color: #2e2e2e !important; }
 
-.color-black-90 {
+.color-gray-90 {
   color: #171717 !important; }
 
-.hover\:color-black-90:hover {
+.hover\:color-gray-90:hover {
   color: #171717 !important; }
 
-.focus\:color-black-90:focus {
+.focus\:color-gray-90:focus {
   color: #171717 !important; }
-
-.color-black-cool-1 {
-  color: #fafbfc !important; }
-
-.hover\:color-black-cool-1:hover {
-  color: #fafbfc !important; }
-
-.focus\:color-black-cool-1:focus {
-  color: #fafbfc !important; }
-
-.color-black-cool-2 {
-  color: #f7f9fa !important; }
-
-.hover\:color-black-cool-2:hover {
-  color: #f7f9fa !important; }
-
-.focus\:color-black-cool-2:focus {
-  color: #f7f9fa !important; }
-
-.color-black-cool-3 {
-  color: #f5f6f7 !important; }
-
-.hover\:color-black-cool-3:hover {
-  color: #f5f6f7 !important; }
-
-.focus\:color-black-cool-3:focus {
-  color: #f5f6f7 !important; }
-
-.color-black-cool-4 {
-  color: #f0f2f5 !important; }
-
-.hover\:color-black-cool-4:hover {
-  color: #f0f2f5 !important; }
-
-.focus\:color-black-cool-4:focus {
-  color: #f0f2f5 !important; }
 
 .color-black-transparent-5 {
   color: rgba(0, 0, 0, 0.01) !important; }
@@ -12909,130 +12855,166 @@ example:
 .focus\:color-black-transparent-90:focus {
   color: rgba(0, 0, 0, 0.9) !important; }
 
-.color-black-warm-1 {
+.color-gray-cool-1 {
+  color: #fafbfc !important; }
+
+.hover\:color-gray-cool-1:hover {
+  color: #fafbfc !important; }
+
+.focus\:color-gray-cool-1:focus {
+  color: #fafbfc !important; }
+
+.color-gray-cool-2 {
+  color: #f7f9fa !important; }
+
+.hover\:color-gray-cool-2:hover {
+  color: #f7f9fa !important; }
+
+.focus\:color-gray-cool-2:focus {
+  color: #f7f9fa !important; }
+
+.color-gray-cool-3 {
+  color: #f5f6f7 !important; }
+
+.hover\:color-gray-cool-3:hover {
+  color: #f5f6f7 !important; }
+
+.focus\:color-gray-cool-3:focus {
+  color: #f5f6f7 !important; }
+
+.color-gray-cool-4 {
+  color: #f0f2f5 !important; }
+
+.hover\:color-gray-cool-4:hover {
+  color: #f0f2f5 !important; }
+
+.focus\:color-gray-cool-4:focus {
+  color: #f0f2f5 !important; }
+
+.color-gray-warm-1 {
   color: #fdfdfc !important; }
 
-.hover\:color-black-warm-1:hover {
+.hover\:color-gray-warm-1:hover {
   color: #fdfdfc !important; }
 
-.focus\:color-black-warm-1:focus {
+.focus\:color-gray-warm-1:focus {
   color: #fdfdfc !important; }
 
-.color-black-warm-2 {
+.color-gray-warm-2 {
   color: #fafaf8 !important; }
 
-.hover\:color-black-warm-2:hover {
+.hover\:color-gray-warm-2:hover {
   color: #fafaf8 !important; }
 
-.focus\:color-black-warm-2:focus {
+.focus\:color-gray-warm-2:focus {
   color: #fafaf8 !important; }
 
-.color-black-warm-3 {
+.color-gray-warm-3 {
   color: #f7f7f3 !important; }
 
-.hover\:color-black-warm-3:hover {
+.hover\:color-gray-warm-3:hover {
   color: #f7f7f3 !important; }
 
-.focus\:color-black-warm-3:focus {
+.focus\:color-gray-warm-3:focus {
   color: #f7f7f3 !important; }
 
-.color-black-warm-4 {
+.color-gray-warm-4 {
   color: #f5f5f0 !important; }
 
-.hover\:color-black-warm-4:hover {
+.hover\:color-gray-warm-4:hover {
   color: #f5f5f0 !important; }
 
-.focus\:color-black-warm-4:focus {
+.focus\:color-gray-warm-4:focus {
   color: #f5f5f0 !important; }
 
-.color-black-warm-5 {
+.color-gray-warm-5 {
   color: #f5f5f1 !important; }
 
-.hover\:color-black-warm-5:hover {
+.hover\:color-gray-warm-5:hover {
   color: #f5f5f1 !important; }
 
-.focus\:color-black-warm-5:focus {
+.focus\:color-gray-warm-5:focus {
   color: #f5f5f1 !important; }
 
-.color-black-warm-10 {
+.color-gray-warm-10 {
   color: #e0e0da !important; }
 
-.hover\:color-black-warm-10:hover {
+.hover\:color-gray-warm-10:hover {
   color: #e0e0da !important; }
 
-.focus\:color-black-warm-10:focus {
+.focus\:color-gray-warm-10:focus {
   color: #e0e0da !important; }
 
-.color-black-warm-20 {
+.color-gray-warm-20 {
   color: #d6d5cb !important; }
 
-.hover\:color-black-warm-20:hover {
+.hover\:color-gray-warm-20:hover {
   color: #d6d5cb !important; }
 
-.focus\:color-black-warm-20:focus {
+.focus\:color-gray-warm-20:focus {
   color: #d6d5cb !important; }
 
-.color-black-warm-30 {
+.color-gray-warm-30 {
   color: #c2c1b4 !important; }
 
-.hover\:color-black-warm-30:hover {
+.hover\:color-gray-warm-30:hover {
   color: #c2c1b4 !important; }
 
-.focus\:color-black-warm-30:focus {
+.focus\:color-gray-warm-30:focus {
   color: #c2c1b4 !important; }
 
-.color-black-warm-40 {
+.color-gray-warm-40 {
   color: #969689 !important; }
 
-.hover\:color-black-warm-40:hover {
+.hover\:color-gray-warm-40:hover {
   color: #969689 !important; }
 
-.focus\:color-black-warm-40:focus {
+.focus\:color-gray-warm-40:focus {
   color: #969689 !important; }
 
-.color-black-warm-50 {
+.color-gray-warm-50 {
   color: #707064 !important; }
 
-.hover\:color-black-warm-50:hover {
+.hover\:color-gray-warm-50:hover {
   color: #707064 !important; }
 
-.focus\:color-black-warm-50:focus {
+.focus\:color-gray-warm-50:focus {
   color: #707064 !important; }
 
-.color-black-warm-60 {
+.color-gray-warm-60 {
   color: #5e5e53 !important; }
 
-.hover\:color-black-warm-60:hover {
+.hover\:color-gray-warm-60:hover {
   color: #5e5e53 !important; }
 
-.focus\:color-black-warm-60:focus {
+.focus\:color-gray-warm-60:focus {
   color: #5e5e53 !important; }
 
-.color-black-warm-70 {
+.color-gray-warm-70 {
   color: #42423c !important; }
 
-.hover\:color-black-warm-70:hover {
+.hover\:color-gray-warm-70:hover {
   color: #42423c !important; }
 
-.focus\:color-black-warm-70:focus {
+.focus\:color-gray-warm-70:focus {
   color: #42423c !important; }
 
-.color-black-warm-80 {
+.color-gray-warm-80 {
   color: #2b2b27 !important; }
 
-.hover\:color-black-warm-80:hover {
+.hover\:color-gray-warm-80:hover {
   color: #2b2b27 !important; }
 
-.focus\:color-black-warm-80:focus {
+.focus\:color-gray-warm-80:focus {
   color: #2b2b27 !important; }
 
-.color-black-warm-90 {
+.color-gray-warm-90 {
   color: #1c1c1b !important; }
 
-.hover\:color-black-warm-90:hover {
+.hover\:color-gray-warm-90:hover {
   color: #1c1c1b !important; }
 
-.focus\:color-black-warm-90:focus {
+.focus\:color-gray-warm-90:focus {
   color: #1c1c1b !important; }
 
 .color-blue-5 {
@@ -15699,165 +15681,183 @@ example:
 .focus\:color-yellow-20v:focus {
   color: #edc730 !important; }
 
-.display-block {
+.cursor-auto {
+  cursor: auto !important; }
+
+.cursor-default {
+  cursor: default !important; }
+
+.cursor-pointer {
+  cursor: pointer !important; }
+
+.cursor-wait {
+  cursor: wait !important; }
+
+.cursor-move {
+  cursor: move !important; }
+
+.cursor-not-allowed {
+  cursor: not-allowed !important; }
+
+.block {
   display: block !important; }
 
 @media (min-width: 20em) {
-  .mobile\:display-block {
+  .mobile\:block {
     display: block !important; } }
 
 @media (min-width: 30em) {
-  .mobile-lg\:display-block {
+  .mobile-lg\:block {
     display: block !important; } }
 
 @media (min-width: 40em) {
-  .tablet\:display-block {
+  .tablet\:block {
     display: block !important; } }
 
 @media (min-width: 55em) {
-  .tablet-lg\:display-block {
+  .tablet-lg\:block {
     display: block !important; } }
 
 @media (min-width: 64em) {
-  .desktop\:display-block {
+  .desktop\:block {
     display: block !important; } }
 
-.display-flex {
+.flex {
   display: flex !important; }
 
 @media (min-width: 20em) {
-  .mobile\:display-flex {
+  .mobile\:flex {
     display: flex !important; } }
 
 @media (min-width: 30em) {
-  .mobile-lg\:display-flex {
+  .mobile-lg\:flex {
     display: flex !important; } }
 
 @media (min-width: 40em) {
-  .tablet\:display-flex {
+  .tablet\:flex {
     display: flex !important; } }
 
 @media (min-width: 55em) {
-  .tablet-lg\:display-flex {
+  .tablet-lg\:flex {
     display: flex !important; } }
 
 @media (min-width: 64em) {
-  .desktop\:display-flex {
+  .desktop\:flex {
     display: flex !important; } }
 
-.display-none {
+.none {
   display: none !important; }
 
 @media (min-width: 20em) {
-  .mobile\:display-none {
+  .mobile\:none {
     display: none !important; } }
 
 @media (min-width: 30em) {
-  .mobile-lg\:display-none {
+  .mobile-lg\:none {
     display: none !important; } }
 
 @media (min-width: 40em) {
-  .tablet\:display-none {
+  .tablet\:none {
     display: none !important; } }
 
 @media (min-width: 55em) {
-  .tablet-lg\:display-none {
+  .tablet-lg\:none {
     display: none !important; } }
 
 @media (min-width: 64em) {
-  .desktop\:display-none {
+  .desktop\:none {
     display: none !important; } }
 
-.display-inline {
+.inline {
   display: inline !important; }
 
 @media (min-width: 20em) {
-  .mobile\:display-inline {
+  .mobile\:inline {
     display: inline !important; } }
 
 @media (min-width: 30em) {
-  .mobile-lg\:display-inline {
+  .mobile-lg\:inline {
     display: inline !important; } }
 
 @media (min-width: 40em) {
-  .tablet\:display-inline {
+  .tablet\:inline {
     display: inline !important; } }
 
 @media (min-width: 55em) {
-  .tablet-lg\:display-inline {
+  .tablet-lg\:inline {
     display: inline !important; } }
 
 @media (min-width: 64em) {
-  .desktop\:display-inline {
+  .desktop\:inline {
     display: inline !important; } }
 
-.display-inline-block {
+.inline-block {
   display: inline-block !important; }
 
 @media (min-width: 20em) {
-  .mobile\:display-inline-block {
+  .mobile\:inline-block {
     display: inline-block !important; } }
 
 @media (min-width: 30em) {
-  .mobile-lg\:display-inline-block {
+  .mobile-lg\:inline-block {
     display: inline-block !important; } }
 
 @media (min-width: 40em) {
-  .tablet\:display-inline-block {
+  .tablet\:inline-block {
     display: inline-block !important; } }
 
 @media (min-width: 55em) {
-  .tablet-lg\:display-inline-block {
+  .tablet-lg\:inline-block {
     display: inline-block !important; } }
 
 @media (min-width: 64em) {
-  .desktop\:display-inline-block {
+  .desktop\:inline-block {
     display: inline-block !important; } }
 
-.display-table {
+.table {
   display: table !important; }
 
 @media (min-width: 20em) {
-  .mobile\:display-table {
+  .mobile\:table {
     display: table !important; } }
 
 @media (min-width: 30em) {
-  .mobile-lg\:display-table {
+  .mobile-lg\:table {
     display: table !important; } }
 
 @media (min-width: 40em) {
-  .tablet\:display-table {
+  .tablet\:table {
     display: table !important; } }
 
 @media (min-width: 55em) {
-  .tablet-lg\:display-table {
+  .tablet-lg\:table {
     display: table !important; } }
 
 @media (min-width: 64em) {
-  .desktop\:display-table {
+  .desktop\:table {
     display: table !important; } }
 
-.display-table-cell {
+.table-cell {
   display: table-cell !important; }
 
 @media (min-width: 20em) {
-  .mobile\:display-table-cell {
+  .mobile\:table-cell {
     display: table-cell !important; } }
 
 @media (min-width: 30em) {
-  .mobile-lg\:display-table-cell {
+  .mobile-lg\:table-cell {
     display: table-cell !important; } }
 
 @media (min-width: 40em) {
-  .tablet\:display-table-cell {
+  .tablet\:table-cell {
     display: table-cell !important; } }
 
 @media (min-width: 55em) {
-  .tablet-lg\:display-table-cell {
+  .tablet-lg\:table-cell {
     display: table-cell !important; } }
 
 @media (min-width: 64em) {
-  .desktop\:display-table-cell {
+  .desktop\:table-cell {
     display: table-cell !important; } }
 
 .flex-1 {
@@ -16878,464 +16878,464 @@ example:
     font-size: 9.15462rem !important; } }
 
 .font-mono-1 {
-  font-size: 0.75rem !important; }
+  font-size: 0.73378rem !important; }
 
 @media (min-width: 20em) {
   .mobile\:font-mono-1 {
-    font-size: 0.75rem !important; } }
+    font-size: 0.73378rem !important; } }
 
 @media (min-width: 30em) {
   .mobile-lg\:font-mono-1 {
-    font-size: 0.75rem !important; } }
+    font-size: 0.73378rem !important; } }
 
 @media (min-width: 40em) {
   .tablet\:font-mono-1 {
-    font-size: 0.75rem !important; } }
+    font-size: 0.73378rem !important; } }
 
 @media (min-width: 55em) {
   .tablet-lg\:font-mono-1 {
-    font-size: 0.75rem !important; } }
+    font-size: 0.73378rem !important; } }
 
 @media (min-width: 64em) {
   .desktop\:font-mono-1 {
-    font-size: 0.75rem !important; } }
+    font-size: 0.73378rem !important; } }
 
 .font-mono-2 {
-  font-size: 0.8125rem !important; }
+  font-size: 0.79493rem !important; }
 
 @media (min-width: 20em) {
   .mobile\:font-mono-2 {
-    font-size: 0.8125rem !important; } }
+    font-size: 0.79493rem !important; } }
 
 @media (min-width: 30em) {
   .mobile-lg\:font-mono-2 {
-    font-size: 0.8125rem !important; } }
+    font-size: 0.79493rem !important; } }
 
 @media (min-width: 40em) {
   .tablet\:font-mono-2 {
-    font-size: 0.8125rem !important; } }
+    font-size: 0.79493rem !important; } }
 
 @media (min-width: 55em) {
   .tablet-lg\:font-mono-2 {
-    font-size: 0.8125rem !important; } }
+    font-size: 0.79493rem !important; } }
 
 @media (min-width: 64em) {
   .desktop\:font-mono-2 {
-    font-size: 0.8125rem !important; } }
+    font-size: 0.79493rem !important; } }
 
 .font-mono-3 {
-  font-size: 0.875rem !important; }
+  font-size: 0.85608rem !important; }
 
 @media (min-width: 20em) {
   .mobile\:font-mono-3 {
-    font-size: 0.875rem !important; } }
+    font-size: 0.85608rem !important; } }
 
 @media (min-width: 30em) {
   .mobile-lg\:font-mono-3 {
-    font-size: 0.875rem !important; } }
+    font-size: 0.85608rem !important; } }
 
 @media (min-width: 40em) {
   .tablet\:font-mono-3 {
-    font-size: 0.875rem !important; } }
+    font-size: 0.85608rem !important; } }
 
 @media (min-width: 55em) {
   .tablet-lg\:font-mono-3 {
-    font-size: 0.875rem !important; } }
+    font-size: 0.85608rem !important; } }
 
 @media (min-width: 64em) {
   .desktop\:font-mono-3 {
-    font-size: 0.875rem !important; } }
+    font-size: 0.85608rem !important; } }
 
 .font-mono-4 {
-  font-size: 0.9375rem !important; }
+  font-size: 0.91723rem !important; }
 
 @media (min-width: 20em) {
   .mobile\:font-mono-4 {
-    font-size: 0.9375rem !important; } }
+    font-size: 0.91723rem !important; } }
 
 @media (min-width: 30em) {
   .mobile-lg\:font-mono-4 {
-    font-size: 0.9375rem !important; } }
+    font-size: 0.91723rem !important; } }
 
 @media (min-width: 40em) {
   .tablet\:font-mono-4 {
-    font-size: 0.9375rem !important; } }
+    font-size: 0.91723rem !important; } }
 
 @media (min-width: 55em) {
   .tablet-lg\:font-mono-4 {
-    font-size: 0.9375rem !important; } }
+    font-size: 0.91723rem !important; } }
 
 @media (min-width: 64em) {
   .desktop\:font-mono-4 {
-    font-size: 0.9375rem !important; } }
+    font-size: 0.91723rem !important; } }
 
 .font-mono-5 {
-  font-size: 1rem !important; }
+  font-size: 0.97838rem !important; }
 
 @media (min-width: 20em) {
   .mobile\:font-mono-5 {
-    font-size: 1rem !important; } }
+    font-size: 0.97838rem !important; } }
 
 @media (min-width: 30em) {
   .mobile-lg\:font-mono-5 {
-    font-size: 1rem !important; } }
+    font-size: 0.97838rem !important; } }
 
 @media (min-width: 40em) {
   .tablet\:font-mono-5 {
-    font-size: 1rem !important; } }
+    font-size: 0.97838rem !important; } }
 
 @media (min-width: 55em) {
   .tablet-lg\:font-mono-5 {
-    font-size: 1rem !important; } }
+    font-size: 0.97838rem !important; } }
 
 @media (min-width: 64em) {
   .desktop\:font-mono-5 {
-    font-size: 1rem !important; } }
+    font-size: 0.97838rem !important; } }
 
 .font-mono-6 {
-  font-size: 1.0625rem !important; }
+  font-size: 1.03953rem !important; }
 
 @media (min-width: 20em) {
   .mobile\:font-mono-6 {
-    font-size: 1.0625rem !important; } }
+    font-size: 1.03953rem !important; } }
 
 @media (min-width: 30em) {
   .mobile-lg\:font-mono-6 {
-    font-size: 1.0625rem !important; } }
+    font-size: 1.03953rem !important; } }
 
 @media (min-width: 40em) {
   .tablet\:font-mono-6 {
-    font-size: 1.0625rem !important; } }
+    font-size: 1.03953rem !important; } }
 
 @media (min-width: 55em) {
   .tablet-lg\:font-mono-6 {
-    font-size: 1.0625rem !important; } }
+    font-size: 1.03953rem !important; } }
 
 @media (min-width: 64em) {
   .desktop\:font-mono-6 {
-    font-size: 1.0625rem !important; } }
+    font-size: 1.03953rem !important; } }
 
 .font-mono-7 {
-  font-size: 1.125rem !important; }
+  font-size: 1.10068rem !important; }
 
 @media (min-width: 20em) {
   .mobile\:font-mono-7 {
-    font-size: 1.125rem !important; } }
+    font-size: 1.10068rem !important; } }
 
 @media (min-width: 30em) {
   .mobile-lg\:font-mono-7 {
-    font-size: 1.125rem !important; } }
+    font-size: 1.10068rem !important; } }
 
 @media (min-width: 40em) {
   .tablet\:font-mono-7 {
-    font-size: 1.125rem !important; } }
+    font-size: 1.10068rem !important; } }
 
 @media (min-width: 55em) {
   .tablet-lg\:font-mono-7 {
-    font-size: 1.125rem !important; } }
+    font-size: 1.10068rem !important; } }
 
 @media (min-width: 64em) {
   .desktop\:font-mono-7 {
-    font-size: 1.125rem !important; } }
+    font-size: 1.10068rem !important; } }
 
 .font-mono-8 {
-  font-size: 1.25rem !important; }
+  font-size: 1.22297rem !important; }
 
 @media (min-width: 20em) {
   .mobile\:font-mono-8 {
-    font-size: 1.25rem !important; } }
+    font-size: 1.22297rem !important; } }
 
 @media (min-width: 30em) {
   .mobile-lg\:font-mono-8 {
-    font-size: 1.25rem !important; } }
+    font-size: 1.22297rem !important; } }
 
 @media (min-width: 40em) {
   .tablet\:font-mono-8 {
-    font-size: 1.25rem !important; } }
+    font-size: 1.22297rem !important; } }
 
 @media (min-width: 55em) {
   .tablet-lg\:font-mono-8 {
-    font-size: 1.25rem !important; } }
+    font-size: 1.22297rem !important; } }
 
 @media (min-width: 64em) {
   .desktop\:font-mono-8 {
-    font-size: 1.25rem !important; } }
+    font-size: 1.22297rem !important; } }
 
 .font-mono-9 {
-  font-size: 1.375rem !important; }
+  font-size: 1.34527rem !important; }
 
 @media (min-width: 20em) {
   .mobile\:font-mono-9 {
-    font-size: 1.375rem !important; } }
+    font-size: 1.34527rem !important; } }
 
 @media (min-width: 30em) {
   .mobile-lg\:font-mono-9 {
-    font-size: 1.375rem !important; } }
+    font-size: 1.34527rem !important; } }
 
 @media (min-width: 40em) {
   .tablet\:font-mono-9 {
-    font-size: 1.375rem !important; } }
+    font-size: 1.34527rem !important; } }
 
 @media (min-width: 55em) {
   .tablet-lg\:font-mono-9 {
-    font-size: 1.375rem !important; } }
+    font-size: 1.34527rem !important; } }
 
 @media (min-width: 64em) {
   .desktop\:font-mono-9 {
-    font-size: 1.375rem !important; } }
+    font-size: 1.34527rem !important; } }
 
 .font-mono-10 {
-  font-size: 1.5rem !important; }
+  font-size: 1.46757rem !important; }
 
 @media (min-width: 20em) {
   .mobile\:font-mono-10 {
-    font-size: 1.5rem !important; } }
+    font-size: 1.46757rem !important; } }
 
 @media (min-width: 30em) {
   .mobile-lg\:font-mono-10 {
-    font-size: 1.5rem !important; } }
+    font-size: 1.46757rem !important; } }
 
 @media (min-width: 40em) {
   .tablet\:font-mono-10 {
-    font-size: 1.5rem !important; } }
+    font-size: 1.46757rem !important; } }
 
 @media (min-width: 55em) {
   .tablet-lg\:font-mono-10 {
-    font-size: 1.5rem !important; } }
+    font-size: 1.46757rem !important; } }
 
 @media (min-width: 64em) {
   .desktop\:font-mono-10 {
-    font-size: 1.5rem !important; } }
+    font-size: 1.46757rem !important; } }
 
 .font-mono-11 {
-  font-size: 1.75rem !important; }
+  font-size: 1.71216rem !important; }
 
 @media (min-width: 20em) {
   .mobile\:font-mono-11 {
-    font-size: 1.75rem !important; } }
+    font-size: 1.71216rem !important; } }
 
 @media (min-width: 30em) {
   .mobile-lg\:font-mono-11 {
-    font-size: 1.75rem !important; } }
+    font-size: 1.71216rem !important; } }
 
 @media (min-width: 40em) {
   .tablet\:font-mono-11 {
-    font-size: 1.75rem !important; } }
+    font-size: 1.71216rem !important; } }
 
 @media (min-width: 55em) {
   .tablet-lg\:font-mono-11 {
-    font-size: 1.75rem !important; } }
+    font-size: 1.71216rem !important; } }
 
 @media (min-width: 64em) {
   .desktop\:font-mono-11 {
-    font-size: 1.75rem !important; } }
+    font-size: 1.71216rem !important; } }
 
 .font-mono-12 {
-  font-size: 2rem !important; }
+  font-size: 1.95676rem !important; }
 
 @media (min-width: 20em) {
   .mobile\:font-mono-12 {
-    font-size: 2rem !important; } }
+    font-size: 1.95676rem !important; } }
 
 @media (min-width: 30em) {
   .mobile-lg\:font-mono-12 {
-    font-size: 2rem !important; } }
+    font-size: 1.95676rem !important; } }
 
 @media (min-width: 40em) {
   .tablet\:font-mono-12 {
-    font-size: 2rem !important; } }
+    font-size: 1.95676rem !important; } }
 
 @media (min-width: 55em) {
   .tablet-lg\:font-mono-12 {
-    font-size: 2rem !important; } }
+    font-size: 1.95676rem !important; } }
 
 @media (min-width: 64em) {
   .desktop\:font-mono-12 {
-    font-size: 2rem !important; } }
+    font-size: 1.95676rem !important; } }
 
 .font-mono-13 {
-  font-size: 2.25rem !important; }
+  font-size: 2.20135rem !important; }
 
 @media (min-width: 20em) {
   .mobile\:font-mono-13 {
-    font-size: 2.25rem !important; } }
+    font-size: 2.20135rem !important; } }
 
 @media (min-width: 30em) {
   .mobile-lg\:font-mono-13 {
-    font-size: 2.25rem !important; } }
+    font-size: 2.20135rem !important; } }
 
 @media (min-width: 40em) {
   .tablet\:font-mono-13 {
-    font-size: 2.25rem !important; } }
+    font-size: 2.20135rem !important; } }
 
 @media (min-width: 55em) {
   .tablet-lg\:font-mono-13 {
-    font-size: 2.25rem !important; } }
+    font-size: 2.20135rem !important; } }
 
 @media (min-width: 64em) {
   .desktop\:font-mono-13 {
-    font-size: 2.25rem !important; } }
+    font-size: 2.20135rem !important; } }
 
 .font-mono-14 {
-  font-size: 2.5rem !important; }
+  font-size: 2.44595rem !important; }
 
 @media (min-width: 20em) {
   .mobile\:font-mono-14 {
-    font-size: 2.5rem !important; } }
+    font-size: 2.44595rem !important; } }
 
 @media (min-width: 30em) {
   .mobile-lg\:font-mono-14 {
-    font-size: 2.5rem !important; } }
+    font-size: 2.44595rem !important; } }
 
 @media (min-width: 40em) {
   .tablet\:font-mono-14 {
-    font-size: 2.5rem !important; } }
+    font-size: 2.44595rem !important; } }
 
 @media (min-width: 55em) {
   .tablet-lg\:font-mono-14 {
-    font-size: 2.5rem !important; } }
+    font-size: 2.44595rem !important; } }
 
 @media (min-width: 64em) {
   .desktop\:font-mono-14 {
-    font-size: 2.5rem !important; } }
+    font-size: 2.44595rem !important; } }
 
 .font-mono-15 {
-  font-size: 3rem !important; }
+  font-size: 2.93514rem !important; }
 
 @media (min-width: 20em) {
   .mobile\:font-mono-15 {
-    font-size: 3rem !important; } }
+    font-size: 2.93514rem !important; } }
 
 @media (min-width: 30em) {
   .mobile-lg\:font-mono-15 {
-    font-size: 3rem !important; } }
+    font-size: 2.93514rem !important; } }
 
 @media (min-width: 40em) {
   .tablet\:font-mono-15 {
-    font-size: 3rem !important; } }
+    font-size: 2.93514rem !important; } }
 
 @media (min-width: 55em) {
   .tablet-lg\:font-mono-15 {
-    font-size: 3rem !important; } }
+    font-size: 2.93514rem !important; } }
 
 @media (min-width: 64em) {
   .desktop\:font-mono-15 {
-    font-size: 3rem !important; } }
+    font-size: 2.93514rem !important; } }
 
 .font-mono-16 {
-  font-size: 3.5rem !important; }
+  font-size: 3.42432rem !important; }
 
 @media (min-width: 20em) {
   .mobile\:font-mono-16 {
-    font-size: 3.5rem !important; } }
+    font-size: 3.42432rem !important; } }
 
 @media (min-width: 30em) {
   .mobile-lg\:font-mono-16 {
-    font-size: 3.5rem !important; } }
+    font-size: 3.42432rem !important; } }
 
 @media (min-width: 40em) {
   .tablet\:font-mono-16 {
-    font-size: 3.5rem !important; } }
+    font-size: 3.42432rem !important; } }
 
 @media (min-width: 55em) {
   .tablet-lg\:font-mono-16 {
-    font-size: 3.5rem !important; } }
+    font-size: 3.42432rem !important; } }
 
 @media (min-width: 64em) {
   .desktop\:font-mono-16 {
-    font-size: 3.5rem !important; } }
+    font-size: 3.42432rem !important; } }
 
 .font-mono-17 {
-  font-size: 4rem !important; }
+  font-size: 3.91351rem !important; }
 
 @media (min-width: 20em) {
   .mobile\:font-mono-17 {
-    font-size: 4rem !important; } }
+    font-size: 3.91351rem !important; } }
 
 @media (min-width: 30em) {
   .mobile-lg\:font-mono-17 {
-    font-size: 4rem !important; } }
+    font-size: 3.91351rem !important; } }
 
 @media (min-width: 40em) {
   .tablet\:font-mono-17 {
-    font-size: 4rem !important; } }
+    font-size: 3.91351rem !important; } }
 
 @media (min-width: 55em) {
   .tablet-lg\:font-mono-17 {
-    font-size: 4rem !important; } }
+    font-size: 3.91351rem !important; } }
 
 @media (min-width: 64em) {
   .desktop\:font-mono-17 {
-    font-size: 4rem !important; } }
+    font-size: 3.91351rem !important; } }
 
 .font-mono-18 {
-  font-size: 5rem !important; }
+  font-size: 4.89189rem !important; }
 
 @media (min-width: 20em) {
   .mobile\:font-mono-18 {
-    font-size: 5rem !important; } }
+    font-size: 4.89189rem !important; } }
 
 @media (min-width: 30em) {
   .mobile-lg\:font-mono-18 {
-    font-size: 5rem !important; } }
+    font-size: 4.89189rem !important; } }
 
 @media (min-width: 40em) {
   .tablet\:font-mono-18 {
-    font-size: 5rem !important; } }
+    font-size: 4.89189rem !important; } }
 
 @media (min-width: 55em) {
   .tablet-lg\:font-mono-18 {
-    font-size: 5rem !important; } }
+    font-size: 4.89189rem !important; } }
 
 @media (min-width: 64em) {
   .desktop\:font-mono-18 {
-    font-size: 5rem !important; } }
+    font-size: 4.89189rem !important; } }
 
 .font-mono-19 {
-  font-size: 7.5rem !important; }
+  font-size: 7.33784rem !important; }
 
 @media (min-width: 20em) {
   .mobile\:font-mono-19 {
-    font-size: 7.5rem !important; } }
+    font-size: 7.33784rem !important; } }
 
 @media (min-width: 30em) {
   .mobile-lg\:font-mono-19 {
-    font-size: 7.5rem !important; } }
+    font-size: 7.33784rem !important; } }
 
 @media (min-width: 40em) {
   .tablet\:font-mono-19 {
-    font-size: 7.5rem !important; } }
+    font-size: 7.33784rem !important; } }
 
 @media (min-width: 55em) {
   .tablet-lg\:font-mono-19 {
-    font-size: 7.5rem !important; } }
+    font-size: 7.33784rem !important; } }
 
 @media (min-width: 64em) {
   .desktop\:font-mono-19 {
-    font-size: 7.5rem !important; } }
+    font-size: 7.33784rem !important; } }
 
 .font-mono-20 {
-  font-size: 8.75rem !important; }
+  font-size: 8.56081rem !important; }
 
 @media (min-width: 20em) {
   .mobile\:font-mono-20 {
-    font-size: 8.75rem !important; } }
+    font-size: 8.56081rem !important; } }
 
 @media (min-width: 30em) {
   .mobile-lg\:font-mono-20 {
-    font-size: 8.75rem !important; } }
+    font-size: 8.56081rem !important; } }
 
 @media (min-width: 40em) {
   .tablet\:font-mono-20 {
-    font-size: 8.75rem !important; } }
+    font-size: 8.56081rem !important; } }
 
 @media (min-width: 55em) {
   .tablet-lg\:font-mono-20 {
-    font-size: 8.75rem !important; } }
+    font-size: 8.56081rem !important; } }
 
 @media (min-width: 64em) {
   .desktop\:font-mono-20 {
-    font-size: 8.75rem !important; } }
+    font-size: 8.56081rem !important; } }
 
 .cond {
   font-family: false !important; }
@@ -17929,142 +17929,142 @@ example:
     line-height: 1.67265 !important; } }
 
 .lh-mono-1 {
-  line-height: 1 !important; }
+  line-height: 1.0221 !important; }
 
 @media (min-width: 20em) {
   .mobile\:lh-mono-1 {
-    line-height: 1 !important; } }
+    line-height: 1.0221 !important; } }
 
 @media (min-width: 30em) {
   .mobile-lg\:lh-mono-1 {
-    line-height: 1 !important; } }
+    line-height: 1.0221 !important; } }
 
 @media (min-width: 40em) {
   .tablet\:lh-mono-1 {
-    line-height: 1 !important; } }
+    line-height: 1.0221 !important; } }
 
 @media (min-width: 55em) {
   .tablet-lg\:lh-mono-1 {
-    line-height: 1 !important; } }
+    line-height: 1.0221 !important; } }
 
 @media (min-width: 64em) {
   .desktop\:lh-mono-1 {
-    line-height: 1 !important; } }
+    line-height: 1.0221 !important; } }
 
 .lh-mono-2 {
-  line-height: 1.15 !important; }
+  line-height: 1.17541 !important; }
 
 @media (min-width: 20em) {
   .mobile\:lh-mono-2 {
-    line-height: 1.15 !important; } }
+    line-height: 1.17541 !important; } }
 
 @media (min-width: 30em) {
   .mobile-lg\:lh-mono-2 {
-    line-height: 1.15 !important; } }
+    line-height: 1.17541 !important; } }
 
 @media (min-width: 40em) {
   .tablet\:lh-mono-2 {
-    line-height: 1.15 !important; } }
+    line-height: 1.17541 !important; } }
 
 @media (min-width: 55em) {
   .tablet-lg\:lh-mono-2 {
-    line-height: 1.15 !important; } }
+    line-height: 1.17541 !important; } }
 
 @media (min-width: 64em) {
   .desktop\:lh-mono-2 {
-    line-height: 1.15 !important; } }
+    line-height: 1.17541 !important; } }
 
 .lh-mono-3 {
-  line-height: 1.35 !important; }
+  line-height: 1.37983 !important; }
 
 @media (min-width: 20em) {
   .mobile\:lh-mono-3 {
-    line-height: 1.35 !important; } }
+    line-height: 1.37983 !important; } }
 
 @media (min-width: 30em) {
   .mobile-lg\:lh-mono-3 {
-    line-height: 1.35 !important; } }
+    line-height: 1.37983 !important; } }
 
 @media (min-width: 40em) {
   .tablet\:lh-mono-3 {
-    line-height: 1.35 !important; } }
+    line-height: 1.37983 !important; } }
 
 @media (min-width: 55em) {
   .tablet-lg\:lh-mono-3 {
-    line-height: 1.35 !important; } }
+    line-height: 1.37983 !important; } }
 
 @media (min-width: 64em) {
   .desktop\:lh-mono-3 {
-    line-height: 1.35 !important; } }
+    line-height: 1.37983 !important; } }
 
 .lh-mono-4 {
-  line-height: 1.5 !important; }
+  line-height: 1.53315 !important; }
 
 @media (min-width: 20em) {
   .mobile\:lh-mono-4 {
-    line-height: 1.5 !important; } }
+    line-height: 1.53315 !important; } }
 
 @media (min-width: 30em) {
   .mobile-lg\:lh-mono-4 {
-    line-height: 1.5 !important; } }
+    line-height: 1.53315 !important; } }
 
 @media (min-width: 40em) {
   .tablet\:lh-mono-4 {
-    line-height: 1.5 !important; } }
+    line-height: 1.53315 !important; } }
 
 @media (min-width: 55em) {
   .tablet-lg\:lh-mono-4 {
-    line-height: 1.5 !important; } }
+    line-height: 1.53315 !important; } }
 
 @media (min-width: 64em) {
   .desktop\:lh-mono-4 {
-    line-height: 1.5 !important; } }
+    line-height: 1.53315 !important; } }
 
 .lh-mono-5 {
-  line-height: 1.62 !important; }
+  line-height: 1.6558 !important; }
 
 @media (min-width: 20em) {
   .mobile\:lh-mono-5 {
-    line-height: 1.62 !important; } }
+    line-height: 1.6558 !important; } }
 
 @media (min-width: 30em) {
   .mobile-lg\:lh-mono-5 {
-    line-height: 1.62 !important; } }
+    line-height: 1.6558 !important; } }
 
 @media (min-width: 40em) {
   .tablet\:lh-mono-5 {
-    line-height: 1.62 !important; } }
+    line-height: 1.6558 !important; } }
 
 @media (min-width: 55em) {
   .tablet-lg\:lh-mono-5 {
-    line-height: 1.62 !important; } }
+    line-height: 1.6558 !important; } }
 
 @media (min-width: 64em) {
   .desktop\:lh-mono-5 {
-    line-height: 1.62 !important; } }
+    line-height: 1.6558 !important; } }
 
 .lh-mono-6 {
-  line-height: 1.75 !important; }
+  line-height: 1.78867 !important; }
 
 @media (min-width: 20em) {
   .mobile\:lh-mono-6 {
-    line-height: 1.75 !important; } }
+    line-height: 1.78867 !important; } }
 
 @media (min-width: 30em) {
   .mobile-lg\:lh-mono-6 {
-    line-height: 1.75 !important; } }
+    line-height: 1.78867 !important; } }
 
 @media (min-width: 40em) {
   .tablet\:lh-mono-6 {
-    line-height: 1.75 !important; } }
+    line-height: 1.78867 !important; } }
 
 @media (min-width: 55em) {
   .tablet-lg\:lh-mono-6 {
-    line-height: 1.75 !important; } }
+    line-height: 1.78867 !important; } }
 
 @media (min-width: 64em) {
   .desktop\:lh-mono-6 {
-    line-height: 1.75 !important; } }
+    line-height: 1.78867 !important; } }
 
 .list-reset {
   margin-bottom: 0 !important;
@@ -25866,19 +25866,19 @@ example:
   .desktop\:padding-left-0 {
     padding-left: 0 !important; } }
 
-.position-absolute {
+.absolute {
   position: absolute !important; }
 
-.position-fixed {
+.fixed {
   position: fixed !important; }
 
-.position-relative {
+.relative {
   position: relative !important; }
 
-.position-static {
+.static {
   position: static !important; }
 
-.position-sticky {
+.sticky {
   position: sticky !important; }
 
 .right-1px {
@@ -26137,173 +26137,89 @@ example:
 .hover\:underline-color-indigo-warm-60v:hover {
   text-decoration-color: #5740d1 !important; }
 
-.underline-color-black-1 {
+.underline-color-gray-1 {
   text-decoration-color: #fcfcfc !important; }
 
-.hover\:underline-color-black-1:hover {
+.hover\:underline-color-gray-1:hover {
   text-decoration-color: #fcfcfc !important; }
 
-.underline-color-black-2 {
+.underline-color-gray-2 {
   text-decoration-color: #f9f9f9 !important; }
 
-.hover\:underline-color-black-2:hover {
+.hover\:underline-color-gray-2:hover {
   text-decoration-color: #f9f9f9 !important; }
 
-.underline-color-black-3 {
+.underline-color-gray-3 {
   text-decoration-color: #f6f6f6 !important; }
 
-.hover\:underline-color-black-3:hover {
+.hover\:underline-color-gray-3:hover {
   text-decoration-color: #f6f6f6 !important; }
 
-.underline-color-black-4 {
+.underline-color-gray-4 {
   text-decoration-color: #f3f3f3 !important; }
 
-.hover\:underline-color-black-4:hover {
+.hover\:underline-color-gray-4:hover {
   text-decoration-color: #f3f3f3 !important; }
 
-.underline-color-black-5 {
+.underline-color-gray-5 {
   text-decoration-color: #f0f0f0 !important; }
 
-.hover\:underline-color-black-5:hover {
+.hover\:underline-color-gray-5:hover {
   text-decoration-color: #f0f0f0 !important; }
 
-.underline-color-black-10 {
+.underline-color-gray-10 {
   text-decoration-color: #e6e6e6 !important; }
 
-.hover\:underline-color-black-10:hover {
+.hover\:underline-color-gray-10:hover {
   text-decoration-color: #e6e6e6 !important; }
 
-.underline-color-black-20 {
+.underline-color-gray-20 {
   text-decoration-color: #c9c9c9 !important; }
 
-.hover\:underline-color-black-20:hover {
+.hover\:underline-color-gray-20:hover {
   text-decoration-color: #c9c9c9 !important; }
 
-.underline-color-black-30 {
+.underline-color-gray-30 {
   text-decoration-color: #adadad !important; }
 
-.hover\:underline-color-black-30:hover {
+.hover\:underline-color-gray-30:hover {
   text-decoration-color: #adadad !important; }
 
-.underline-color-black-40 {
+.underline-color-gray-40 {
   text-decoration-color: #919191 !important; }
 
-.hover\:underline-color-black-40:hover {
+.hover\:underline-color-gray-40:hover {
   text-decoration-color: #919191 !important; }
 
-.underline-color-black-50 {
+.underline-color-gray-50 {
   text-decoration-color: #757575 !important; }
 
-.hover\:underline-color-black-50:hover {
+.hover\:underline-color-gray-50:hover {
   text-decoration-color: #757575 !important; }
 
-.underline-color-black-60 {
+.underline-color-gray-60 {
   text-decoration-color: #5c5c5c !important; }
 
-.hover\:underline-color-black-60:hover {
+.hover\:underline-color-gray-60:hover {
   text-decoration-color: #5c5c5c !important; }
 
-.underline-color-black-70 {
+.underline-color-gray-70 {
   text-decoration-color: #454545 !important; }
 
-.hover\:underline-color-black-70:hover {
+.hover\:underline-color-gray-70:hover {
   text-decoration-color: #454545 !important; }
 
-.underline-color-black-80 {
+.underline-color-gray-80 {
   text-decoration-color: #2e2e2e !important; }
 
-.hover\:underline-color-black-80:hover {
+.hover\:underline-color-gray-80:hover {
   text-decoration-color: #2e2e2e !important; }
 
-.underline-color-black-90 {
+.underline-color-gray-90 {
   text-decoration-color: #171717 !important; }
 
-.hover\:underline-color-black-90:hover {
+.hover\:underline-color-gray-90:hover {
   text-decoration-color: #171717 !important; }
-
-.underline-color-black-cool-1 {
-  text-decoration-color: #fafbfc !important; }
-
-.hover\:underline-color-black-cool-1:hover {
-  text-decoration-color: #fafbfc !important; }
-
-.underline-color-black-cool-2 {
-  text-decoration-color: #f7f9fa !important; }
-
-.hover\:underline-color-black-cool-2:hover {
-  text-decoration-color: #f7f9fa !important; }
-
-.underline-color-black-cool-3 {
-  text-decoration-color: #f5f6f7 !important; }
-
-.hover\:underline-color-black-cool-3:hover {
-  text-decoration-color: #f5f6f7 !important; }
-
-.underline-color-black-cool-4 {
-  text-decoration-color: #f0f2f5 !important; }
-
-.hover\:underline-color-black-cool-4:hover {
-  text-decoration-color: #f0f2f5 !important; }
-
-.underline-color-black-cool-5 {
-  text-decoration-color: #edeff0 !important; }
-
-.hover\:underline-color-black-cool-5:hover {
-  text-decoration-color: #edeff0 !important; }
-
-.underline-color-black-cool-10 {
-  text-decoration-color: #d5d8db !important; }
-
-.hover\:underline-color-black-cool-10:hover {
-  text-decoration-color: #d5d8db !important; }
-
-.underline-color-black-cool-20 {
-  text-decoration-color: #b8bdc2 !important; }
-
-.hover\:underline-color-black-cool-20:hover {
-  text-decoration-color: #b8bdc2 !important; }
-
-.underline-color-black-cool-30 {
-  text-decoration-color: #9da2a6 !important; }
-
-.hover\:underline-color-black-cool-30:hover {
-  text-decoration-color: #9da2a6 !important; }
-
-.underline-color-black-cool-40 {
-  text-decoration-color: #8c9196 !important; }
-
-.hover\:underline-color-black-cool-40:hover {
-  text-decoration-color: #8c9196 !important; }
-
-.underline-color-black-cool-50 {
-  text-decoration-color: #6f7478 !important; }
-
-.hover\:underline-color-black-cool-50:hover {
-  text-decoration-color: #6f7478 !important; }
-
-.underline-color-black-cool-60 {
-  text-decoration-color: #595d63 !important; }
-
-.hover\:underline-color-black-cool-60:hover {
-  text-decoration-color: #595d63 !important; }
-
-.underline-color-black-cool-70 {
-  text-decoration-color: #404347 !important; }
-
-.hover\:underline-color-black-cool-70:hover {
-  text-decoration-color: #404347 !important; }
-
-.underline-color-black-cool-80 {
-  text-decoration-color: #292a2b !important; }
-
-.hover\:underline-color-black-cool-80:hover {
-  text-decoration-color: #292a2b !important; }
-
-.underline-color-black-cool-90 {
-  text-decoration-color: #1c1d1f !important; }
-
-.hover\:underline-color-black-cool-90:hover {
-  text-decoration-color: #1c1d1f !important; }
 
 .underline-color-black-transparent-5 {
   text-decoration-color: rgba(0, 0, 0, 0.01) !important; }
@@ -26365,88 +26281,172 @@ example:
 .hover\:underline-color-black-transparent-90:hover {
   text-decoration-color: rgba(0, 0, 0, 0.9) !important; }
 
-.underline-color-black-warm-1 {
+.underline-color-gray-cool-1 {
+  text-decoration-color: #fafbfc !important; }
+
+.hover\:underline-color-gray-cool-1:hover {
+  text-decoration-color: #fafbfc !important; }
+
+.underline-color-gray-cool-2 {
+  text-decoration-color: #f7f9fa !important; }
+
+.hover\:underline-color-gray-cool-2:hover {
+  text-decoration-color: #f7f9fa !important; }
+
+.underline-color-gray-cool-3 {
+  text-decoration-color: #f5f6f7 !important; }
+
+.hover\:underline-color-gray-cool-3:hover {
+  text-decoration-color: #f5f6f7 !important; }
+
+.underline-color-gray-cool-4 {
+  text-decoration-color: #f0f2f5 !important; }
+
+.hover\:underline-color-gray-cool-4:hover {
+  text-decoration-color: #f0f2f5 !important; }
+
+.underline-color-gray-cool-5 {
+  text-decoration-color: #edeff0 !important; }
+
+.hover\:underline-color-gray-cool-5:hover {
+  text-decoration-color: #edeff0 !important; }
+
+.underline-color-gray-cool-10 {
+  text-decoration-color: #d5d8db !important; }
+
+.hover\:underline-color-gray-cool-10:hover {
+  text-decoration-color: #d5d8db !important; }
+
+.underline-color-gray-cool-20 {
+  text-decoration-color: #b8bdc2 !important; }
+
+.hover\:underline-color-gray-cool-20:hover {
+  text-decoration-color: #b8bdc2 !important; }
+
+.underline-color-gray-cool-30 {
+  text-decoration-color: #9da2a6 !important; }
+
+.hover\:underline-color-gray-cool-30:hover {
+  text-decoration-color: #9da2a6 !important; }
+
+.underline-color-gray-cool-40 {
+  text-decoration-color: #8c9196 !important; }
+
+.hover\:underline-color-gray-cool-40:hover {
+  text-decoration-color: #8c9196 !important; }
+
+.underline-color-gray-cool-50 {
+  text-decoration-color: #6f7478 !important; }
+
+.hover\:underline-color-gray-cool-50:hover {
+  text-decoration-color: #6f7478 !important; }
+
+.underline-color-gray-cool-60 {
+  text-decoration-color: #595d63 !important; }
+
+.hover\:underline-color-gray-cool-60:hover {
+  text-decoration-color: #595d63 !important; }
+
+.underline-color-gray-cool-70 {
+  text-decoration-color: #404347 !important; }
+
+.hover\:underline-color-gray-cool-70:hover {
+  text-decoration-color: #404347 !important; }
+
+.underline-color-gray-cool-80 {
+  text-decoration-color: #292a2b !important; }
+
+.hover\:underline-color-gray-cool-80:hover {
+  text-decoration-color: #292a2b !important; }
+
+.underline-color-gray-cool-90 {
+  text-decoration-color: #1c1d1f !important; }
+
+.hover\:underline-color-gray-cool-90:hover {
+  text-decoration-color: #1c1d1f !important; }
+
+.underline-color-gray-warm-1 {
   text-decoration-color: #fdfdfc !important; }
 
-.hover\:underline-color-black-warm-1:hover {
+.hover\:underline-color-gray-warm-1:hover {
   text-decoration-color: #fdfdfc !important; }
 
-.underline-color-black-warm-2 {
+.underline-color-gray-warm-2 {
   text-decoration-color: #fafaf8 !important; }
 
-.hover\:underline-color-black-warm-2:hover {
+.hover\:underline-color-gray-warm-2:hover {
   text-decoration-color: #fafaf8 !important; }
 
-.underline-color-black-warm-3 {
+.underline-color-gray-warm-3 {
   text-decoration-color: #f7f7f3 !important; }
 
-.hover\:underline-color-black-warm-3:hover {
+.hover\:underline-color-gray-warm-3:hover {
   text-decoration-color: #f7f7f3 !important; }
 
-.underline-color-black-warm-4 {
+.underline-color-gray-warm-4 {
   text-decoration-color: #f5f5f0 !important; }
 
-.hover\:underline-color-black-warm-4:hover {
+.hover\:underline-color-gray-warm-4:hover {
   text-decoration-color: #f5f5f0 !important; }
 
-.underline-color-black-warm-5 {
+.underline-color-gray-warm-5 {
   text-decoration-color: #f5f5f1 !important; }
 
-.hover\:underline-color-black-warm-5:hover {
+.hover\:underline-color-gray-warm-5:hover {
   text-decoration-color: #f5f5f1 !important; }
 
-.underline-color-black-warm-10 {
+.underline-color-gray-warm-10 {
   text-decoration-color: #e0e0da !important; }
 
-.hover\:underline-color-black-warm-10:hover {
+.hover\:underline-color-gray-warm-10:hover {
   text-decoration-color: #e0e0da !important; }
 
-.underline-color-black-warm-20 {
+.underline-color-gray-warm-20 {
   text-decoration-color: #d6d5cb !important; }
 
-.hover\:underline-color-black-warm-20:hover {
+.hover\:underline-color-gray-warm-20:hover {
   text-decoration-color: #d6d5cb !important; }
 
-.underline-color-black-warm-30 {
+.underline-color-gray-warm-30 {
   text-decoration-color: #c2c1b4 !important; }
 
-.hover\:underline-color-black-warm-30:hover {
+.hover\:underline-color-gray-warm-30:hover {
   text-decoration-color: #c2c1b4 !important; }
 
-.underline-color-black-warm-40 {
+.underline-color-gray-warm-40 {
   text-decoration-color: #969689 !important; }
 
-.hover\:underline-color-black-warm-40:hover {
+.hover\:underline-color-gray-warm-40:hover {
   text-decoration-color: #969689 !important; }
 
-.underline-color-black-warm-50 {
+.underline-color-gray-warm-50 {
   text-decoration-color: #707064 !important; }
 
-.hover\:underline-color-black-warm-50:hover {
+.hover\:underline-color-gray-warm-50:hover {
   text-decoration-color: #707064 !important; }
 
-.underline-color-black-warm-60 {
+.underline-color-gray-warm-60 {
   text-decoration-color: #5e5e53 !important; }
 
-.hover\:underline-color-black-warm-60:hover {
+.hover\:underline-color-gray-warm-60:hover {
   text-decoration-color: #5e5e53 !important; }
 
-.underline-color-black-warm-70 {
+.underline-color-gray-warm-70 {
   text-decoration-color: #42423c !important; }
 
-.hover\:underline-color-black-warm-70:hover {
+.hover\:underline-color-gray-warm-70:hover {
   text-decoration-color: #42423c !important; }
 
-.underline-color-black-warm-80 {
+.underline-color-gray-warm-80 {
   text-decoration-color: #2b2b27 !important; }
 
-.hover\:underline-color-black-warm-80:hover {
+.hover\:underline-color-gray-warm-80:hover {
   text-decoration-color: #2b2b27 !important; }
 
-.underline-color-black-warm-90 {
+.underline-color-gray-warm-90 {
   text-decoration-color: #1c1c1b !important; }
 
-.hover\:underline-color-black-warm-90:hover {
+.hover\:underline-color-gray-warm-90:hover {
   text-decoration-color: #1c1c1b !important; }
 
 .underline-color-blue-5 {
@@ -28993,13 +28993,13 @@ example:
 .vertical-align-baseline {
   vertical-align: baseline !important; }
 
-.white-space-pre-wrap {
+.whitespace-pre-wrap {
   white-space: pre-wrap !important; }
 
-.white-space-normal {
+.whitespace-normal {
   white-space: normal !important; }
 
-.white-space-nowrap {
+.whitespace-nowrap {
   white-space: nowrap !important; }
 
 .width-1px {
@@ -30023,17 +30023,6 @@ Get a value from the system type scale
 ----------------------------------------
 */
 /*
-----------------------------------------
-simple-color()
-----------------------------------------
-Derive a color from its $family and
-value
-----------------------------------------
-ex:
-background-color: simple-color($red-warm, 50v);
-----------------------------------------
-*/
-/*
 ========================================
 Utility functions
 ----------------------------------------
@@ -30103,9 +30092,19 @@ Gets a valid USWDS flex value
 ----------------------------------------
 font()
 ----------------------------------------
-Get a normalized font-size in rem from
-a family and a type size in either
-system scale or project scale
+Gets
+- 'family'
+- 'size'
+- 'weight'
+based on on props passed
+----------------------------------------
+*/
+/*
+----------------------------------------
+fw()
+----------------------------------------
+Get a font-weight value from the
+system font-weight
 ----------------------------------------
 */
 /*
@@ -30160,6 +30159,14 @@ spacing()
 ----------------------------------------
 Converts a spacing unit multiple into
 the desired final units (currently rem)
+----------------------------------------
+*/
+/*
+----------------------------------------
+radius()
+----------------------------------------
+Get a border-radius value from the
+system letter-spacing
 ----------------------------------------
 */
 /*
@@ -31416,7 +31423,7 @@ html {
 
 *:focus {
   outline: 0.25rem solid;
-  outline-color: #faaf00; }
+  outline-color: #e6a100; }
 
 .is-inverse {
   -moz-osx-font-smoothing: grayscale;
@@ -31424,7 +31431,7 @@ html {
 
 .page-content h3 {
   font-size: 1.5rem;
-  font-weight: 100;
+  font-size: 100;
   line-height: 1.35; }
   @media screen and (min-width: 55em) {
     .page-content h3 {
@@ -31446,31 +31453,47 @@ html {
 [aria-expanded=true] > .usa-banner-button-text--open {
   display: inline; }
 
-.o-normalize-headings, .txt-h1,
-.txt-h2, .usa-body-content h2, .usa-prose h2,
-.txt-h3, .usa-body-content h3, .usa-prose h3, .usa-body-content h1, .usa-prose h1 {
+.txt-h1,
+.txt-h2,
+.usa-body-content h2,
+.usa-prose h2,
+.txt-h3,
+.usa-body-content h3,
+.usa-prose h3 {
   font-weight: normal;
   line-height: 1.15;
   margin-bottom: 0;
   margin-top: 0; }
 
-.txt-h2, .usa-body-content h2, .usa-prose h2 {
+
+.txt-h2,
+.usa-body-content h2,
+.usa-prose h2 {
   font-size: 1.375rem;
   font-weight: bold;
   margin-top: 1rem;
   padding-top: 1rem; }
   @media screen and (min-width: 55em) {
-    .txt-h2, .usa-body-content h2, .usa-prose h2 {
+    
+    .txt-h2,
+    .usa-body-content h2,
+    .usa-prose h2 {
       font-size: 1.75rem;
       margin-top: 1.5rem; } }
 
-.txt-h3, .usa-body-content h3, .usa-prose h3 {
+
+.txt-h3,
+.usa-body-content h3,
+.usa-prose h3 {
   font-size: 1.0625rem;
   font-weight: bold;
   margin-top: 1rem;
   padding-top: 0.5rem; }
   @media screen and (min-width: 55em) {
-    .txt-h3, .usa-body-content h3, .usa-prose h3 {
+    
+    .txt-h3,
+    .usa-body-content h3,
+    .usa-prose h3 {
       margin-top: 1rem;
       padding-top: 1rem;
       font-size: 1.25rem; } }
@@ -31478,10 +31501,10 @@ html {
     margin-top: 0.5rem; }
 
 .txt-p, .usa-body-content p, .usa-prose p {
-  line-height: 1.5;
+  max-width: 72ch;
+  line-height: leading("body", 4);
   margin-bottom: 0;
-  margin-top: 1em;
-  max-width: 72ch; }
+  margin-top: 1em; }
   @media screen and (min-width: 55em) {
     .txt-p, .usa-body-content p, .usa-prose p {
       font-size: 1.25rem;
@@ -31489,24 +31512,24 @@ html {
 
 .txt-li, .usa-body-content li, .usa-prose li {
   border-top: 1px solid;
-  border-color: #c9c9c9;
   padding-bottom: 0.5rem;
-  padding-top: 0.5rem; }
+  padding-top: 0.5rem;
+  border-color: #c9c9c9; }
   @media screen and (min-width: 55em) {
     .txt-li, .usa-body-content li, .usa-prose li {
       padding-bottom: 0.5rem;
       padding-top: 0.5rem; } }
 
 .txt-code, .usa-body-content code, .usa-prose code {
-  font-size: 0.9375rem;
-  font-family: "Roboto Mono Web", "Bitstream Vera Sans Mono", "Consolas", "Courier", monospace;
-  font-weight: 400;
   padding-left: 0.25rem;
   padding-right: 0.25rem;
   padding-bottom: 2px;
   padding-top: 2px;
   background-color: #f5f5f0;
-  border-radius: 2px; }
+  border-radius: 2px;
+  font-family: "Roboto Mono Web", "Bitstream Vera Sans Mono", "Consolas", "Courier", monospace;
+  font-size: 0.91723rem;
+  font-weight: 400; }
 
 .txt-a, .usa-body-content p a, .usa-prose p a {
   color: #171717;
@@ -31517,6 +31540,16 @@ html {
 .txt-ul, .usa-body-content ul, .usa-prose ul {
   list-style-type: none;
   padding-left: 0; }
+
+.usa-body-content h1,
+.usa-body-content h2,
+.usa-body-content h3, .usa-prose h1,
+.usa-prose h2,
+.usa-prose h3 {
+  font-weight: normal;
+  line-height: 1.15;
+  margin-bottom: 0;
+  margin-top: 0; }
 
 .usa-body-content h3 + p, .usa-prose h3 + p {
   margin-top: 0.5rem; }
@@ -31530,7 +31563,7 @@ html {
 .usa-body-content aside code, .usa-prose aside code {
   background-color: #e0e0da; }
 
-/* ---------- G - R - I - D ---------- */
+/* * * * * * ========================= */
 .docs-text {
   font-size: 1.0625rem;
   font-family: "United Sans Web", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
@@ -31542,19 +31575,19 @@ strong {
   font-weight: bold; }
 
 .docs-inline-code {
-  font-size: 0.9375rem;
+  background-color: #f5f5f0;
+  font-size: 0.91723rem;
   font-family: "Roboto Mono Web", "Bitstream Vera Sans Mono", "Consolas", "Courier", monospace;
   padding-bottom: 2px;
   padding-top: 2px;
   padding-left: 0.25rem;
   padding-right: 0.25rem;
-  background-color: #f5f5f0;
   border-radius: 2px; }
 
 .token {
   background-color: #f7f7f3;
   border-radius: 2px;
-  font-size: 0.75rem;
+  font-size: 0.73378rem;
   font-family: "Roboto Mono Web", "Bitstream Vera Sans Mono", "Consolas", "Courier", monospace;
   padding-left: 0.25rem;
   padding-right: 0.25rem;

@@ -7,7 +7,7 @@ permalink: /uswds-layout-grid/
 <div class="font-mono-4 weight-300 padding-top-2 padding-bottom-4 tablet:padding-top-4 tablet:padding-bottom-6">
 
   <div class="container-desktop padding-x-4 margin-top-1">
-    <h1 class="font-sans-14 fw-300 margin-top-0">USWDS draft layout grid</h1>
+    <h1 class="font-sans-14 font-300 margin-top-0">USWDS draft layout grid</h1>
     <p class="docs-text"><strong>Note:</strong> <code class="docs-inline-code">.g-container</code>, <code class="docs-inline-code">.g-gap</code>, and <code class="docs-inline-code">.g-col</code> all have mobile-first responsive variants. Only the first example shows them.</p>
     <p class="docs-text"><code class="docs-inline-code">.g-col</code> and <code class="docs-inline-code">.g-col-fill</code> items flex to fit</p>
 

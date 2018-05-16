@@ -502,17 +502,6 @@ Get a value from the system type scale
 ----------------------------------------
 */
 /*
-----------------------------------------
-simple-color()
-----------------------------------------
-Derive a color from its $family and
-value
-----------------------------------------
-ex:
-background-color: simple-color($red-warm, 50v);
-----------------------------------------
-*/
-/*
 ========================================
 Utility functions
 ----------------------------------------
@@ -582,9 +571,19 @@ Gets a valid USWDS flex value
 ----------------------------------------
 font()
 ----------------------------------------
-Get a normalized font-size in rem from
-a family and a type size in either
-system scale or project scale
+Gets
+- 'family'
+- 'size'
+- 'weight'
+based on on props passed
+----------------------------------------
+*/
+/*
+----------------------------------------
+fw()
+----------------------------------------
+Get a font-weight value from the
+system font-weight
 ----------------------------------------
 */
 /*
@@ -639,6 +638,14 @@ spacing()
 ----------------------------------------
 Converts a spacing unit multiple into
 the desired final units (currently rem)
+----------------------------------------
+*/
+/*
+----------------------------------------
+radius()
+----------------------------------------
+Get a border-radius value from the
+system letter-spacing
 ----------------------------------------
 */
 /*

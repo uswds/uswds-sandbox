@@ -4,13 +4,13 @@ title: USWDS project theme palette
 permalink: /uswds-color-docs-theme/
 ---
 
-<div class="fw-300 padding-top-2 padding-bottom-4 tablet:padding-top-4 tablet:padding-bottom-6">
+<div class="font-300 padding-top-2 padding-bottom-4 tablet:padding-top-4 tablet:padding-bottom-6">
 
   <div class="container-desktop margin-bottom-0 padding-x-4 padding-top-2 margin-top-0">
     <div class="row">
       <div class="col-8">
-        <p class="font-sans-4 color-black-50 margin-top-0 margin-bottom-2 fw-400"><span class="color-black fw-800 padding-2px border-2px lh-sans-1 padding-bottom-0 margin-right-1">USWDS</span> Docs <span class="color-black">/</span> Style <span class="color-black">/</span> Colors</p>
-          <h1 class="font-sans-14 fw-300 margin-top-0 lh-sans-2 margin-bottom-0">Project theme palette</h1>
+        <p class="font-sans-4 color-black-50 margin-top-0 margin-bottom-2 font-400"><span class="color-black font-800 padding-2px border-2px lh-sans-1 padding-bottom-0 margin-right-1">USWDS</span> Docs <span class="color-black">/</span> Style <span class="color-black">/</span> Colors</p>
+          <h1 class="font-sans-14 font-300 margin-top-0 lh-sans-2 margin-bottom-0">Project theme palette</h1>
       </div>
       <div class="col-4">
         <figure class="margin-0 display-block">
@@ -21,11 +21,11 @@ permalink: /uswds-color-docs-theme/
 
     <div class="row padding-top-3 border-top-1px">
       <div class="col-3 sidenav">
-        <ul class="list-reset font-sans-6 fw-700">
+        <ul class="list-reset font-sans-6 font-700">
           <li class="padding-bottom-1"><a class="color-black-90 no-underline hover:underline" href="{{ '/uswds-color-docs-introduction' | relative_url }}">Introduction</a>
           </li>
           <li class="padding-bottom-1"><a class="color-black-90 no-underline hover:underline" href="{{ '/uswds-color-docs-theme' | relative_url }}">Project theme palette</a>
-            <ul class="list-reset fw-300 margin-top-1 margin-bottom-2">
+            <ul class="list-reset font-300 margin-top-1 margin-bottom-2">
               <li>Using role-based palettes</li>
               <li>Project theme palette gallery</li>
               <li>Pairing colors</li>
@@ -39,7 +39,7 @@ permalink: /uswds-color-docs-theme/
 
         <!-- ###################################################### -->
 
-        <p class="font-sans-11 fw-300 lh-sans-4 margin-top-0">Your project theme palette defines the specific color families and grades used in your project, based on the role these colors play on your site.</p>
+        <p class="font-sans-11 font-300 lh-sans-4 margin-top-0">Your project theme palette defines the specific color families and grades used in your project, based on the role these colors play on your site.</p>
 
         <div class="row gap margin-y-4 center">
           <div class="col-fill">
@@ -47,7 +47,7 @@ permalink: /uswds-color-docs-theme/
               <figure class="margin-0 display-block width-4 margin-x-auto">
                 <img class="maxw-full display-block margin-x-auto" src="{{ '/assets/img//project-theme-palette-icon.svg' | relative_url }}" alt="Project theme palette icon">
               </figure>
-              <p class="flex-auto width-full margin-bottom-0 font-sans-6 fw-700 lh-sans-3 margin-top-1">Theme palette gallery</p>
+              <p class="flex-auto width-full margin-bottom-0 font-sans-6 font-700 lh-sans-3 margin-top-1">Theme palette gallery</p>
               <p class="alex-auto width-full margin-0 margin-top-1 font-sans-6 lh-sans-3 padding-bottom-1">View and download project theme palettes</p>
             </a>
           </div>
@@ -56,7 +56,7 @@ permalink: /uswds-color-docs-theme/
               <figure class="margin-0 display-block width-4 margin-x-auto">
                 <img class="maxw-full display-block margin-x-auto" src="{{ '/assets/img//Sketch_logo_frame.svg' | relative_url }}" alt="Sketch application icon">
               </figure>
-              <p class="flex-auto width-full margin-bottom-0 font-sans-6 fw-700 lh-sans-3 margin-top-1">Get the design assets</p>
+              <p class="flex-auto width-full margin-bottom-0 font-sans-6 font-700 lh-sans-3 margin-top-1">Get the design assets</p>
               <p class="flex-auto width-full margin-0 margin-top-1 font-sans-6 lh-sans-3 padding-bottom-1">Use project theme palettes in your Sketch files</p>
             </a>
           </div>
@@ -98,19 +98,19 @@ permalink: /uswds-color-docs-theme/
           <div class="row gap margin-top-2">
             <div class="col-auto row flex-align-center">
               <div class="col-auto circle-2 bg-blue-70v margin-right-1"></div>
-              <div class="lh-sans-1 font-sans-4 fw-700 padding-top-2px ">Primary</div>
+              <div class="lh-sans-1 font-sans-4 font-700 padding-top-2px ">Primary</div>
             </div>
             <div class="col-auto row flex-align-center">
               <div class="col-auto circle-2 bg-mint-50 margin-right-1"></div>
-              <div class="lh-sans-1 font-sans-4 fw-700 padding-top-2px ">Secondary</div>
+              <div class="lh-sans-1 font-sans-4 font-700 padding-top-2px ">Secondary</div>
             </div>
             <div class="col-auto row flex-align-center">
               <div class="col-auto circle-2 bg-orange-30v margin-right-1"></div>
-              <div class="lh-sans-1 font-sans-4 fw-700 padding-top-2px ">Accent warm</div>
+              <div class="lh-sans-1 font-sans-4 font-700 padding-top-2px ">Accent warm</div>
             </div>
             <div class="col-auto row flex-align-center">
               <div class="col-auto circle-2 bg-cyan-20v margin-right-1"></div>
-              <div class="lh-sans-1 font-sans-4 fw-700 padding-top-2px ">Accent cool</div>
+              <div class="lh-sans-1 font-sans-4 font-700 padding-top-2px ">Accent cool</div>
             </div>
           </div>
         </div>
@@ -131,10 +131,10 @@ permalink: /uswds-color-docs-theme/
               </figure>
             </div>
             <div class="col-fill">
-              <p class="margin-top-0 font-sans-6 fw-400">The <strong>primary</strong> color family of <code class="bg-blue-70v color-white">Blue</code> occupies the majority of the non-neutral color on the page.</p>
-              <p class="border-top margin-top-1 padding-top-1 font-sans-6 fw-400">The <strong>secondary</strong> color family of <code class="bg-mint-50 color-white">Mint</code> functions as a background color for an occasional content type.</p>
-              <p class="border-top margin-top-1 padding-top-1 font-sans-6 fw-400">The <strong>warm and cool accent color families</strong> of <code class="bg-orange-40v color-black-90">Orange</code> and <code class="bg-cyan-20v color-black-90">Cyan</code> serve as special call-to-action buttons and headings for special content.</p>
-              <p class="border-top margin-top-1 padding-top-1 font-sans-6 fw-400"><strong>Neutral</strong> <code class="bg-black-90 color-white">Black</code> is the color family of most text.</p>
+              <p class="margin-top-0 font-sans-6 font-400">The <strong>primary</strong> color family of <code class="bg-blue-70v color-white">Blue</code> occupies the majority of the non-neutral color on the page.</p>
+              <p class="border-top margin-top-1 padding-top-1 font-sans-6 font-400">The <strong>secondary</strong> color family of <code class="bg-mint-50 color-white">Mint</code> functions as a background color for an occasional content type.</p>
+              <p class="border-top margin-top-1 padding-top-1 font-sans-6 font-400">The <strong>warm and cool accent color families</strong> of <code class="bg-orange-40v color-black-90">Orange</code> and <code class="bg-cyan-20v color-black-90">Cyan</code> serve as special call-to-action buttons and headings for special content.</p>
+              <p class="border-top margin-top-1 padding-top-1 font-sans-6 font-400"><strong>Neutral</strong> <code class="bg-black-90 color-white">Black</code> is the color family of most text.</p>
             </div>
           </div>
         </aside>
@@ -147,7 +147,7 @@ permalink: /uswds-color-docs-theme/
               <h4 class="margin-0 font-sans-8">Primary</h4>
               <div>
                 <div class="row font-sans-1 border-top border-black-10 margin-top-2 padding-top-105">
-                  <div class="col-fit fw-700">Lightest</div>
+                  <div class="col-fit font-700">Lightest</div>
                   <div class="col-fit margin-left-auto">Grade 1–5</div>
                 </div>
                 <div class="height-4 display-flex flex-align-center  margin-top-05">
@@ -160,7 +160,7 @@ permalink: /uswds-color-docs-theme/
               </div><!-- color -->
               <div>
                 <div class="row font-sans-1 border-top border-black-10 margin-top-2 padding-top-105">
-                  <div class="col-fit fw-700">Lighter</div>
+                  <div class="col-fit font-700">Lighter</div>
                   <div class="col-fit margin-left-auto">Grade 10–20</div>
                 </div>
                 <div class="height-4 display-flex flex-align-center bg-blue-10 margin-top-05">
@@ -173,7 +173,7 @@ permalink: /uswds-color-docs-theme/
               </div><!-- color -->
               <div>
                 <div class="row font-sans-1 border-top border-black-10 margin-top-2 padding-top-105">
-                  <div class="col-fit fw-700">Light</div>
+                  <div class="col-fit font-700">Light</div>
                   <div class="col-fit margin-left-auto">Grade 30–40</div>
                 </div>
                 <div class="height-4 display-flex flex-align-center bg-blue-30 margin-top-05">
@@ -186,7 +186,7 @@ permalink: /uswds-color-docs-theme/
               </div><!-- color -->
               <div>
                 <div class="row font-sans-1 border-top border-black-10 margin-top-2 padding-top-105">
-                  <div class="col-fit fw-700">Base</div>
+                  <div class="col-fit font-700">Base</div>
                   <div class="col-fit margin-left-auto">Grade 40–60</div>
                 </div>
                 <div class="height-4 display-flex flex-align-center bg-blue-50 margin-top-05">
@@ -199,7 +199,7 @@ permalink: /uswds-color-docs-theme/
               </div><!-- color -->
               <div>
                 <div class="row font-sans-1 border-top border-black-10 margin-top-2 padding-top-105">
-                  <div class="col-fit fw-700">Vivid</div>
+                  <div class="col-fit font-700">Vivid</div>
                   <div class="col-fit margin-left-auto">Grade 20v-60v</div>
                 </div>
                 <div class="height-4 display-flex flex-align-center bg-blue-50v margin-top-05">
@@ -212,7 +212,7 @@ permalink: /uswds-color-docs-theme/
               </div><!-- color -->
               <div>
                 <div class="row font-sans-1 border-top border-black-10 margin-top-2 padding-top-105">
-                  <div class="col-fit fw-700">Dark</div>
+                  <div class="col-fit font-700">Dark</div>
                   <div class="col-fit margin-left-auto">Grade 60-70</div>
                 </div>
                 <div class="height-4 display-flex flex-align-center bg-blue-70 margin-top-05">
@@ -225,7 +225,7 @@ permalink: /uswds-color-docs-theme/
               </div><!-- color -->
               <div>
                 <div class="row font-sans-1 border-top border-black-10 margin-top-2 padding-top-105">
-                  <div class="col-fit fw-700">Darker</div>
+                  <div class="col-fit font-700">Darker</div>
                   <div class="col-fit margin-left-auto">Grade 80–100</div>
                 </div>
                 <div class="height-4 display-flex flex-align-center bg-blue-90 margin-top-05">
@@ -243,7 +243,7 @@ permalink: /uswds-color-docs-theme/
               <h4 class="margin-0 font-sans-8">Secondary</h4>
               <div>
                 <div class="row font-sans-1 border-top border-black-10 margin-top-2 padding-top-105">
-                  <div class="col-fit fw-700">Lightest</div>
+                  <div class="col-fit font-700">Lightest</div>
                   <div class="col-fit margin-left-auto">Grade 1–5</div>
                 </div>
                 <div class="height-4 display-flex flex-align-center  margin-top-05">
@@ -256,7 +256,7 @@ permalink: /uswds-color-docs-theme/
               </div><!-- color -->
               <div>
                 <div class="row font-sans-1 border-top border-black-10 margin-top-2 padding-top-105">
-                  <div class="col-fit fw-700">Lighter</div>
+                  <div class="col-fit font-700">Lighter</div>
                   <div class="col-fit margin-left-auto">Grade 10–20</div>
                 </div>
                 <div class="height-4 display-flex flex-align-center margin-top-05">
@@ -269,7 +269,7 @@ permalink: /uswds-color-docs-theme/
               </div><!-- color -->
               <div>
                 <div class="row font-sans-1 border-top border-black-10 margin-top-2 padding-top-105">
-                  <div class="col-fit fw-700">Light</div>
+                  <div class="col-fit font-700">Light</div>
                   <div class="col-fit margin-left-auto">Grade 30–40</div>
                 </div>
                 <div class="height-4 display-flex flex-align-center bg-mint-30 margin-top-05">
@@ -282,7 +282,7 @@ permalink: /uswds-color-docs-theme/
               </div><!-- color -->
               <div>
                 <div class="row font-sans-1 border-top border-black-10 margin-top-2 padding-top-105">
-                  <div class="col-fit fw-700">Base</div>
+                  <div class="col-fit font-700">Base</div>
                   <div class="col-fit margin-left-auto">Grade 40–60</div>
                 </div>
                 <div class="height-4 display-flex flex-align-center bg-mint-50 margin-top-05">
@@ -295,7 +295,7 @@ permalink: /uswds-color-docs-theme/
               </div><!-- color -->
               <div>
                 <div class="row font-sans-1 border-top border-black-10 margin-top-2 padding-top-105">
-                  <div class="col-fit fw-700">Vivid</div>
+                  <div class="col-fit font-700">Vivid</div>
                   <div class="col-fit margin-left-auto">Grade 20v-60v</div>
                 </div>
                 <div class="height-4 display-flex flex-align-center bg-mint-cool-40v margin-top-05">
@@ -308,7 +308,7 @@ permalink: /uswds-color-docs-theme/
               </div><!-- color -->
               <div>
                 <div class="row font-sans-1 border-top border-black-10 margin-top-2 padding-top-105">
-                  <div class="col-fit fw-700">Dark</div>
+                  <div class="col-fit font-700">Dark</div>
                   <div class="col-fit margin-left-auto">Grade 60-70</div>
                 </div>
                 <div class="height-4 display-flex flex-align-center bg-mint-70 margin-top-05">
@@ -321,7 +321,7 @@ permalink: /uswds-color-docs-theme/
               </div><!-- color -->
               <div>
                 <div class="row font-sans-1 border-top border-black-10 margin-top-2 padding-top-105">
-                  <div class="col-fit fw-700">Darker</div>
+                  <div class="col-fit font-700">Darker</div>
                   <div class="col-fit margin-left-auto">Grade 80–100</div>
                 </div>
                 <div class="height-4 display-flex flex-align-center margin-top-05">
@@ -340,7 +340,7 @@ permalink: /uswds-color-docs-theme/
               <h4 class="margin-0 font-sans-8">Accent warm</h4>
               <div>
                 <div class="row font-sans-1 border-top border-black-10 margin-top-2 padding-top-105">
-                  <div class="col-fit fw-700">Base</div>
+                  <div class="col-fit font-700">Base</div>
                   <div class="col-fit margin-left-auto">Grade 20v–50v</div>
                 </div>
                 <div class="height-4 display-flex flex-align-center bg-orange-40v margin-top-05">
@@ -353,7 +353,7 @@ permalink: /uswds-color-docs-theme/
               </div><!-- color -->
               <div>
                 <div class="row font-sans-1 border-top border-black-10 margin-top-2 padding-top-105">
-                  <div class="col-fit fw-700">Dark</div>
+                  <div class="col-fit font-700">Dark</div>
                   <div class="col-fit margin-left-auto">Grade 40–60</div>
                 </div>
                 <div class="height-4 display-flex flex-align-center bg-orange-50v margin-top-05">
@@ -371,7 +371,7 @@ permalink: /uswds-color-docs-theme/
               <h4 class="margin-0 font-sans-8">Accent cool</h4>
               <div>
                 <div class="row font-sans-1 border-top border-black-10 margin-top-2 padding-top-105">
-                  <div class="col-fit fw-700">Base</div>
+                  <div class="col-fit font-700">Base</div>
                   <div class="col-fit margin-left-auto">Grade 20v–50v</div>
                 </div>
                 <div class="height-4 display-flex flex-align-center bg-cyan-20v margin-top-05">
@@ -384,7 +384,7 @@ permalink: /uswds-color-docs-theme/
               </div><!-- color -->
               <div>
                 <div class="row font-sans-1 border-top border-black-10 margin-top-2 padding-top-105">
-                  <div class="col-fit fw-700">Dark</div>
+                  <div class="col-fit font-700">Dark</div>
                   <div class="col-fit margin-left-auto">Grade 40–60</div>
                 </div>
                 <div class="height-4 display-flex flex-align-center bg-cyan-40v margin-top-05">
@@ -402,7 +402,7 @@ permalink: /uswds-color-docs-theme/
               <h4 class="margin-0 font-sans-8">Neutral</h4>
               <div>
                 <div class="row font-sans-1 border-top border-black-10 margin-top-2 padding-top-105">
-                  <div class="col-fit fw-700">Lightest</div>
+                  <div class="col-fit font-700">Lightest</div>
                   <div class="col-fit margin-left-auto">Grade 0–5</div>
                 </div>
                 <div class="height-4 display-flex flex-align-center margin-top-05 bg-white-1">
@@ -415,7 +415,7 @@ permalink: /uswds-color-docs-theme/
               </div><!-- color -->
               <div>
                 <div class="row font-sans-1 border-top border-black-10 margin-top-2 padding-top-105">
-                  <div class="col-fit fw-700">Lighter</div>
+                  <div class="col-fit font-700">Lighter</div>
                   <div class="col-fit margin-left-auto">Grade 10–20</div>
                 </div>
                 <div class="height-4 display-flex flex-align-center margin-top-05 bg-black-10">
@@ -427,7 +427,7 @@ permalink: /uswds-color-docs-theme/
               </div><!-- color -->
               <div>
                 <div class="row font-sans-1 border-top border-black-10 margin-top-2 padding-top-105">
-                  <div class="col-fit fw-700">Light</div>
+                  <div class="col-fit font-700">Light</div>
                   <div class="col-fit margin-left-auto">Grade 20–30</div>
                 </div>
                 <div class="height-4 display-flex flex-align-center margin-top-05 bg-black-30">
@@ -439,7 +439,7 @@ permalink: /uswds-color-docs-theme/
               </div><!-- color -->
               <div>
                 <div class="row font-sans-1 border-top border-black-10 margin-top-2 padding-top-105">
-                  <div class="col-fit fw-700">Base</div>
+                  <div class="col-fit font-700">Base</div>
                   <div class="col-fit margin-left-auto">Grade 40–60</div>
                 </div>
                 <div class="height-4 display-flex flex-align-center margin-top-05 bg-black-50">
@@ -451,7 +451,7 @@ permalink: /uswds-color-docs-theme/
               </div><!-- color -->
               <div>
                 <div class="row font-sans-1 border-top border-black-10 margin-top-2 padding-top-105">
-                  <div class="col-fit fw-700">Dark</div>
+                  <div class="col-fit font-700">Dark</div>
                   <div class="col-fit margin-left-auto">Grade 60–70</div>
                 </div>
                 <div class="height-4 display-flex flex-align-center margin-top-05 bg-black-70">
@@ -463,7 +463,7 @@ permalink: /uswds-color-docs-theme/
               </div><!-- color -->
               <div>
                 <div class="row font-sans-1 border-top border-black-10 margin-top-2 padding-top-105">
-                  <div class="col-fit fw-700">Darker</div>
+                  <div class="col-fit font-700">Darker</div>
                   <div class="col-fit margin-left-auto">Grade 80–100</div>
                 </div>
                 <div class="height-4 display-flex flex-align-center margin-top-05 bg-black-90">
@@ -567,13 +567,13 @@ permalink: /uswds-color-docs-theme/
                 </div><!-- family-column -->
               </div> <!-- this-palette -->
               <h4 class="font-sans-5 margin-bottom-1 lh-sans-2">Onondaga</h4>
-              <ul class="list-reset row gap font-sans-1 fw-400 margin-bottom-0 margin-x-0 minh-6 flex-align-flex-start margin-top-05">
+              <ul class="list-reset row gap font-sans-1 font-400 margin-bottom-0 margin-x-0 minh-6 flex-align-flex-start margin-top-05">
                 <li class="col-auto border-0 bg-black-warm-4 radius-sm padding-y-05 padding-x-1 lh-sans-1 margin-right-05">professional</li>
                 <li class="col-auto border-0 bg-black-warm-4 radius-sm padding-y-05 padding-x-1 lh-sans-1 margin-right-05">young</li>
                 <li class="col-auto border-0 bg-black-warm-4 radius-sm padding-y-05 padding-x-1 lh-sans-1 margin-right-05">natural</li>
               </ul><!-- tags -->
               <div class="row margin-top-2 flex-align-center">
-                <a href="#0" class="col-auto lh-sans-1 font-sans-1 fw-400 padding-y-1 padding-x-2 bg-black-90 color-white radius-sm no-underline">
+                <a href="#0" class="col-auto lh-sans-1 font-sans-1 font-400 padding-y-1 padding-x-2 bg-black-90 color-white radius-sm no-underline">
                   Download palette ⇣
                 </a><!-- palette-button -->
                 <a href="#0" class="col-auto margin-left-auto color-black-90 font-sans-1 underline lh-sans-1">See more examples</a>
@@ -666,14 +666,14 @@ permalink: /uswds-color-docs-theme/
                   <div class="bg-blacksolid-90 height-1 margin-top-2px"></div>
                 </div><!-- family-column -->
               </div> <!-- this-palette -->
-              <h4 class="font-sans-5 margin-bottom-1 lh-sans-2">Federal <span class="fw-300">(Original USWDS)</span></h4>
-              <ul class="list-reset row gap font-sans-1 fw-400 margin-bottom-0 margin-x-0 minh-6 flex-align-flex-start margin-top-05">
+              <h4 class="font-sans-5 margin-bottom-1 lh-sans-2">Federal <span class="font-300">(Original USWDS)</span></h4>
+              <ul class="list-reset row gap font-sans-1 font-400 margin-bottom-0 margin-x-0 minh-6 flex-align-flex-start margin-top-05">
                 <li class="col-auto border-0 bg-black-warm-4 radius-sm padding-y-05 padding-x-1 lh-sans-1 margin-right-05">traditional</li>
                 <li class="col-auto border-0 bg-black-warm-4 radius-sm padding-y-05 padding-x-1 lh-sans-1 margin-right-05">straightforward</li>
                 <li class="col-auto border-0 bg-black-warm-4 radius-sm padding-y-05 padding-x-1 lh-sans-1 margin-right-05">trustworthy</li>
               </ul><!-- tags -->
               <div class="row margin-top-2 flex-align-center">
-                <a href="#0" class="col-auto lh-sans-1 font-sans-1 fw-400 padding-y-1 padding-x-2 bg-black-90 color-white radius-sm no-underline">
+                <a href="#0" class="col-auto lh-sans-1 font-sans-1 font-400 padding-y-1 padding-x-2 bg-black-90 color-white radius-sm no-underline">
                   Download palette ⇣
                 </a><!-- palette-button -->
                 <a href="#0" class="col-auto margin-left-auto color-black-90 font-sans-1 underline lh-sans-1">See more examples</a>
@@ -767,7 +767,7 @@ permalink: /uswds-color-docs-theme/
                 </div><!-- family-column -->
               </div> <!-- this-palette -->
               <h4 class="font-sans-5 margin-bottom-1 lh-sans-2 margin-bottom-0">Pennant</h4>
-              <ul class="list-reset row gap font-sans-1 fw-400 margin-bottom-0 margin-x-0 minh-6 flex-align-flex-start margin-top-05">
+              <ul class="list-reset row gap font-sans-1 font-400 margin-bottom-0 margin-x-0 minh-6 flex-align-flex-start margin-top-05">
                 <li class="col-auto border-0 bg-black-warm-4 radius-sm padding-y-05 padding-x-1 lh-sans-1 margin-right-05 margin-top-05">solid</li>
                 <li class="col-auto border-0 bg-black-warm-4 radius-sm padding-y-05 padding-x-1 lh-sans-1 margin-right-05 margin-top-05">friendly</li>
                 <li class="col-auto border-0 bg-black-warm-4 radius-sm padding-y-05 padding-x-1 lh-sans-1 margin-right-05 margin-top-05">energetic</li>
@@ -775,7 +775,7 @@ permalink: /uswds-color-docs-theme/
                 <li class="col-auto border-0 bg-black-warm-4 radius-sm padding-y-05 padding-x-1 lh-sans-1 margin-right-05 margin-top-05">all-American</li>
               </ul><!-- tags -->
               <div class="row margin-top-2 flex-align-center">
-                <a href="#0" class="col-auto lh-sans-1 font-sans-1 fw-400 padding-y-1 padding-x-2 bg-black-90 color-white radius-sm no-underline">
+                <a href="#0" class="col-auto lh-sans-1 font-sans-1 font-400 padding-y-1 padding-x-2 bg-black-90 color-white radius-sm no-underline">
                   Download palette ⇣
                 </a><!-- palette-button -->
                 <a href="#0" class="col-auto margin-left-auto color-black-90 font-sans-1 underline lh-sans-1">See more examples</a>
@@ -869,13 +869,13 @@ permalink: /uswds-color-docs-theme/
                 </div><!-- family-column -->
               </div> <!-- this-palette -->
               <h4 class="font-sans-5 margin-bottom-1 lh-sans-2">Marine</h4>
-              <ul class="list-reset row gap font-sans-1 fw-400 margin-bottom-0 margin-x-0 minh-6 flex-align-flex-start margin-top-05">
+              <ul class="list-reset row gap font-sans-1 font-400 margin-bottom-0 margin-x-0 minh-6 flex-align-flex-start margin-top-05">
                 <li class="col-auto border-0 bg-black-warm-4 radius-sm padding-y-05 padding-x-1 lh-sans-1 margin-right-05">no nonsense</li>
                 <li class="col-auto border-0 bg-black-warm-4 radius-sm padding-y-05 padding-x-1 lh-sans-1 margin-right-05">professional</li>
                 <li class="col-auto border-0 bg-black-warm-4 radius-sm padding-y-05 padding-x-1 lh-sans-1 margin-right-05">conservative</li>
               </ul><!-- tags -->
               <div class="row margin-top-2 flex-align-center">
-                <a href="#0" class="col-auto lh-sans-1 font-sans-1 fw-400 padding-y-1 padding-x-2 bg-black-90 color-white radius-sm no-underline">
+                <a href="#0" class="col-auto lh-sans-1 font-sans-1 font-400 padding-y-1 padding-x-2 bg-black-90 color-white radius-sm no-underline">
                   Download palette ⇣
                 </a><!-- palette-button -->
                 <a href="#0" class="col-auto margin-left-auto color-black-90 font-sans-1 underline lh-sans-1">See more examples</a>
@@ -969,14 +969,14 @@ permalink: /uswds-color-docs-theme/
                   <div class="bg-black-cool-90 height-1 margin-top-2px"></div>
                 </div><!-- family-column -->
               </div> <!-- this-palette -->
-              <ul class="order-3 list-reset row gap font-sans-1 fw-400 margin-bottom-0 margin-x-0 minh-6 flex-align-flex-start margin-top-05">
+              <ul class="order-3 list-reset row gap font-sans-1 font-400 margin-bottom-0 margin-x-0 minh-6 flex-align-flex-start margin-top-05">
                 <li class="col-auto border-0 bg-black-warm-4 radius-sm padding-y-05 padding-x-1 lh-sans-1 margin-right-05 margin-top-05">fresh</li>
                 <li class="col-auto border-0 bg-black-warm-4 radius-sm padding-y-05 padding-x-1 lh-sans-1 margin-right-05 margin-top-05">compassionate</li>
                 <li class="col-auto border-0 bg-black-warm-4 radius-sm padding-y-05 padding-x-1 lh-sans-1 margin-right-05 margin-top-05">energetic</li>
                 <li class="col-auto border-0 bg-black-warm-4 radius-sm padding-y-05 padding-x-1 lh-sans-1 margin-right-05 margin-top-05">healthy</li>
               </ul><!-- tags -->
               <div class="order-4 row margin-top-2 flex-align-center">
-                <a href="#0" class="col-auto lh-sans-1 font-sans-1 fw-400 padding-y-1 padding-x-2 bg-black-90 color-white radius-sm no-underline">
+                <a href="#0" class="col-auto lh-sans-1 font-sans-1 font-400 padding-y-1 padding-x-2 bg-black-90 color-white radius-sm no-underline">
                   Download palette ⇣
                 </a><!-- palette-button -->
                 <a href="#0" class="col-auto margin-left-auto color-black-90 font-sans-1 underline lh-sans-1">See more examples</a>
@@ -1070,14 +1070,14 @@ permalink: /uswds-color-docs-theme/
                   <div class="bg-black-cool-90 height-1 margin-top-2px"></div>
                 </div><!-- family-column -->
               </div> <!-- this-palette -->
-              <ul class="order-3 list-reset row gap font-sans-1 fw-400 margin-bottom-0 margin-x-0 minh-6 flex-align-flex-start margin-top-05">
+              <ul class="order-3 list-reset row gap font-sans-1 font-400 margin-bottom-0 margin-x-0 minh-6 flex-align-flex-start margin-top-05">
                 <li class="col-auto border-0 bg-black-warm-4 radius-sm padding-y-05 padding-x-1 lh-sans-1 margin-right-05">clean</li>
                 <li class="col-auto border-0 bg-black-warm-4 radius-sm padding-y-05 padding-x-1 lh-sans-1 margin-right-05">fresh</li>
                 <li class="col-auto border-0 bg-black-warm-4 radius-sm padding-y-05 padding-x-1 lh-sans-1 margin-right-05">earthy</li>
                 <li class="col-auto border-0 bg-black-warm-4 radius-sm padding-y-05 padding-x-1 lh-sans-1 margin-right-05 margin-top-05">earnest</li>
               </ul><!-- tags -->
               <div class="order-4 row margin-top-2 flex-align-center">
-                <a href="#0" class="col-auto lh-sans-1 font-sans-1 fw-400 padding-y-1 padding-x-2 bg-black-90 color-white radius-sm no-underline">
+                <a href="#0" class="col-auto lh-sans-1 font-sans-1 font-400 padding-y-1 padding-x-2 bg-black-90 color-white radius-sm no-underline">
                   Download palette ⇣
                 </a><!-- palette-button -->
                 <a href="#0" class="col-auto margin-left-auto color-black-90 font-sans-1 underline lh-sans-1">See more examples</a>

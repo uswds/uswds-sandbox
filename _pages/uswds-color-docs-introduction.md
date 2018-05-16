@@ -4,13 +4,13 @@ title: USWDS color
 permalink: /uswds-color-docs-introduction/
 ---
 
-<div class="font-mono-4 fw-300 padding-top-2 padding-bottom-4 tablet:padding-top-4 tablet:padding-bottom-6 bg-white-1">
+<div class="font-mono-4 font-300 padding-top-2 padding-bottom-4 tablet:padding-top-4 tablet:padding-bottom-6 bg-white-1">
 
   <div class="container-desktop margin-bottom-0 padding-x-4 padding-top-2 margin-top-0">
     <div class="row">
       <div class="col-8">
-        <p class="font-sans-4 color-black-50 margin-top-0 margin-bottom-2 fw-400"><span class="color-black fw-800 padding-2px border-2px lh-sans-1 padding-bottom-0 margin-right-1">USWDS</span> Docs <span class="color-black">/</span> Style <span class="color-black">/</span> Colors</p>
-          <h1 class="font-sans-14 fw-300 margin-top-0 lh-sans-2 margin-bottom-0">An introduction to color</h1>
+        <p class="font-sans-4 color-black-50 margin-top-0 margin-bottom-2 font-400"><span class="color-black font-800 padding-2px border-2px lh-sans-1 padding-bottom-0 margin-right-1">USWDS</span> Docs <span class="color-black">/</span> Style <span class="color-black">/</span> Colors</p>
+          <h1 class="font-sans-14 font-300 margin-top-0 lh-sans-2 margin-bottom-0">An introduction to color</h1>
       </div>
       <div class="col-4">
         <figure class="margin-0 display-block">
@@ -21,9 +21,9 @@ permalink: /uswds-color-docs-introduction/
 
     <div class="row margin-top-0 border-top-1px padding-top-3">
       <div class="usa-sidenav col-3">
-        <ul class="list-reset font-sans-6 fw-700">
+        <ul class="list-reset font-sans-6 font-700">
           <li class="padding-bottom-1"><a class="color-black-90 no-underline hover:underline" href="{{  '/uswds-color-docs-introduction' | relative_url }}">Introduction</a>
-            <ul class="list-reset fw-300 margin-top-1 margin-bottom-2">
+            <ul class="list-reset font-300 margin-top-1 margin-bottom-2">
               <li>Overview</li>
               <li>Color and accessibility</li>
               <li>Accessible color pairings</li>
@@ -42,7 +42,7 @@ permalink: /uswds-color-docs-introduction/
 
         <!-- ###################################################### -->
 
-        <p class="font-sans-11 fw-300 lh-sans-4 margin-top-0">Color is a practical and emotional tool. It conveys personality, sets a tone, attracts attention, and indicates importance.</p>
+        <p class="font-sans-11 font-300 lh-sans-4 margin-top-0">Color is a practical and emotional tool. It conveys personality, sets a tone, attracts attention, and indicates importance.</p>
 
         <h2 class="font-sans-10 margin-top-4 margin-bottom-4 border-top-1px padding-top-2">Overview</h2>
 
@@ -74,7 +74,7 @@ permalink: /uswds-color-docs-introduction/
               <div class="col-fill border-1px border-black-1 border-left-0 border-top-0 height-3 bg-red-80v"></div>
               <div class="col-fill border-1px border-black-1 border-left-0 border-top-0 height-3 bg-red-90v"></div>
             </div>
-            <p class="font-sans-2 margin-top-05 fw-700">Red</p>
+            <p class="font-sans-2 margin-top-05 font-700">Red</p>
           </div><!-- swatch -->
 
           <div class="col-3">
@@ -102,7 +102,7 @@ permalink: /uswds-color-docs-introduction/
               <div class="col-fill border-1px border-black-1 border-left-0 border-top-0 height-3 bg-red-warm-80v"></div>
               <div class="col-fill border-1px border-black-1 border-left-0 border-top-0 height-3 bg-red-warm-90v"></div>
             </div>
-            <p class="font-sans-2 margin-top-05 fw-700">Red warm</p>
+            <p class="font-sans-2 margin-top-05 font-700">Red warm</p>
           </div><!-- swatch -->
 
           <div class="col-3">
@@ -130,7 +130,7 @@ permalink: /uswds-color-docs-introduction/
               <div class="col-fill border-1px border-black-1 border-left-0 border-top-0 height-3 bg-orange-warm-80v"></div>
               <div class="col-fill border-1px border-black-1 border-left-0 border-top-0 height-3 bg-orange-warm-90v"></div>
             </div>
-            <p class="font-sans-2 margin-top-05 fw-700">Orange warm</p>
+            <p class="font-sans-2 margin-top-05 font-700">Orange warm</p>
           </div><!-- swatch -->
 
 
@@ -159,7 +159,7 @@ permalink: /uswds-color-docs-introduction/
               <div class="col-fill border-1px border-black-1 border-left-0 border-top-0 height-3 bg-orange-80v"></div>
               <div class="col-fill border-1px border-black-1 border-left-0 border-top-0 height-3 bg-orange-90v"></div>
             </div>
-            <p class="font-sans-2 margin-top-05 fw-700">Orange</p>
+            <p class="font-sans-2 margin-top-05 font-700">Orange</p>
           </div><!-- swatch -->
           <div class="col-3">
             <div class="row">
@@ -186,7 +186,7 @@ permalink: /uswds-color-docs-introduction/
               <div class="col-fill border-1px border-black-1 border-left-0 border-top-0 height-3 bg-gold-80v"></div>
               <div class="col-fill border-1px border-black-1 border-left-0 border-top-0 height-3 bg-gold-90v"></div>
             </div>
-            <p class="font-sans-2 margin-top-05 fw-700">Gold</p>
+            <p class="font-sans-2 margin-top-05 font-700">Gold</p>
           </div><!-- swatch -->
 
           <div class="col-3">
@@ -214,7 +214,7 @@ permalink: /uswds-color-docs-introduction/
               <div class="col-fill border-1px border-black-1 border-left-0 border-top-0 height-3 bg-yellow-80v"></div>
               <div class="col-fill border-1px border-black-1 border-left-0 border-top-0 height-3 bg-yellow-90v"></div>
             </div>
-            <p class="font-sans-2 margin-top-05 fw-700">Yellow</p>
+            <p class="font-sans-2 margin-top-05 font-700">Yellow</p>
           </div><!-- swatch -->
 
           <div class="col-3 margin-bottom-4">
@@ -242,7 +242,7 @@ permalink: /uswds-color-docs-introduction/
               <div class="col-fill border-1px border-black-1 border-left-0 border-top-0 height-3 bg-green-warm-80v"></div>
               <div class="col-fill border-1px border-black-1 border-left-0 border-top-0 height-3 bg-green-warm-90v"></div>
             </div>
-            <p class="font-sans-2 margin-top-05 fw-700">Green warm</p>
+            <p class="font-sans-2 margin-top-05 font-700">Green warm</p>
           </div><!-- swatch -->
 
           <div class="col-3 margin-bottom-4">
@@ -270,7 +270,7 @@ permalink: /uswds-color-docs-introduction/
               <div class="col-fill border-1px border-black-1 border-left-0 border-top-0 height-3 bg-green-80v"></div>
               <div class="col-fill border-1px border-black-1 border-left-0 border-top-0 height-3 bg-green-90v"></div>
             </div>
-            <p class="font-sans-2 margin-top-05 fw-700">Green</p>
+            <p class="font-sans-2 margin-top-05 font-700">Green</p>
           </div><!-- swatch -->
 
           <div class="col-3 margin-bottom-4">
@@ -298,7 +298,7 @@ permalink: /uswds-color-docs-introduction/
               <div class="col-fill border-1px border-black-1 border-left-0 border-top-0 height-3 bg-green-cool-80v"></div>
               <div class="col-fill border-1px border-black-1 border-left-0 border-top-0 height-3 bg-green-cool-90v"></div>
             </div>
-            <p class="font-sans-2 margin-top-05 fw-700">Green cool</p>
+            <p class="font-sans-2 margin-top-05 font-700">Green cool</p>
           </div><!-- swatch -->
 
           <div class="col-3 margin-bottom-4">
@@ -326,7 +326,7 @@ permalink: /uswds-color-docs-introduction/
               <div class="col-fill border-1px border-black-1 border-left-0 border-top-0 height-3 bg-mint-80v"></div>
               <div class="col-fill border-1px border-black-1 border-left-0 border-top-0 height-3 bg-mint-90v"></div>
             </div>
-            <p class="font-sans-2 margin-top-05 fw-700">Mint</p>
+            <p class="font-sans-2 margin-top-05 font-700">Mint</p>
           </div><!-- swatch -->
 
           <div class="col-3 margin-bottom-4">
@@ -354,7 +354,7 @@ permalink: /uswds-color-docs-introduction/
               <div class="col-fill border-1px border-black-1 border-left-0 border-top-0 height-3 bg-mint-cool-80v"></div>
               <div class="col-fill border-1px border-black-1 border-left-0 border-top-0 height-3 bg-mint-cool-90v"></div>
             </div>
-            <p class="font-sans-2 margin-top-05 fw-700">Mint cool</p>
+            <p class="font-sans-2 margin-top-05 font-700">Mint cool</p>
           </div><!-- swatch -->
 
           <div class="col-3 margin-bottom-4">
@@ -382,7 +382,7 @@ permalink: /uswds-color-docs-introduction/
               <div class="col-fill border-1px border-black-1 border-left-0 border-top-0 height-3 bg-cyan-80v"></div>
               <div class="col-fill border-1px border-black-1 border-left-0 border-top-0 height-3 bg-cyan-90v"></div>
             </div>
-            <p class="font-sans-2 margin-top-05 fw-700">Cyan</p>
+            <p class="font-sans-2 margin-top-05 font-700">Cyan</p>
           </div><!-- swatch -->
 
           <div class="col-3 margin-bottom-4">
@@ -410,7 +410,7 @@ permalink: /uswds-color-docs-introduction/
               <div class="col-fill border-1px border-black-1 border-left-0 border-top-0 height-3 bg-blue-80v"></div>
               <div class="col-fill border-1px border-black-1 border-left-0 border-top-0 height-3 bg-blue-90v"></div>
             </div>
-            <p class="font-sans-2 margin-top-05 fw-700">Blue</p>
+            <p class="font-sans-2 margin-top-05 font-700">Blue</p>
           </div><!-- swatch -->
 
           <div class="col-3 margin-bottom-4">
@@ -438,7 +438,7 @@ permalink: /uswds-color-docs-introduction/
               <div class="col-fill border-1px border-black-1 border-left-0 border-top-0 height-3 bg-blue-warm-80v"></div>
               <div class="col-fill border-1px border-black-1 border-left-0 border-top-0 height-3 bg-blue-warm-90v"></div>
             </div>
-            <p class="font-sans-2 margin-top-05 fw-700">Blue warm</p>
+            <p class="font-sans-2 margin-top-05 font-700">Blue warm</p>
           </div><!-- swatch -->
 
           <div class="col-3 margin-bottom-4">
@@ -466,7 +466,7 @@ permalink: /uswds-color-docs-introduction/
               <div class="col-fill border-1px border-black-1 border-left-0 border-top-0 height-3 bg-indigo-cool-80v"></div>
               <div class="col-fill border-1px border-black-1 border-left-0 border-top-0 height-3 bg-indigo-cool-90v"></div>
             </div>
-            <p class="font-sans-2 margin-top-05 fw-700">Indigo cool</p>
+            <p class="font-sans-2 margin-top-05 font-700">Indigo cool</p>
           </div><!-- swatch -->
 
           <div class="col-3 margin-bottom-4">
@@ -494,7 +494,7 @@ permalink: /uswds-color-docs-introduction/
               <div class="col-fill border-1px border-black-1 border-left-0 border-top-0 height-3 bg-indigo-80v"></div>
               <div class="col-fill border-1px border-black-1 border-left-0 border-top-0 height-3 bg-indigo-90v"></div>
             </div>
-            <p class="font-sans-2 margin-top-05 fw-700">Indigo</p>
+            <p class="font-sans-2 margin-top-05 font-700">Indigo</p>
           </div><!-- swatch -->
 
           <div class="col-3 margin-bottom-4">
@@ -522,7 +522,7 @@ permalink: /uswds-color-docs-introduction/
               <div class="col-fill border-1px border-black-1 border-left-0 border-top-0 height-3 bg-indigo-warm-80v"></div>
               <div class="col-fill border-1px border-black-1 border-left-0 border-top-0 height-3 bg-indigo-warm-90v"></div>
             </div>
-            <p class="font-sans-2 margin-top-05 fw-700">Indigo warm</p>
+            <p class="font-sans-2 margin-top-05 font-700">Indigo warm</p>
           </div><!-- swatch -->
 
           <div class="col-3 margin-bottom-4">
@@ -550,7 +550,7 @@ permalink: /uswds-color-docs-introduction/
               <div class="col-fill border-1px border-black-1 border-left-0 border-top-0 height-3 bg-violet-80v"></div>
               <div class="col-fill border-1px border-black-1 border-left-0 border-top-0 height-3 bg-violet-90v"></div>
             </div>
-            <p class="font-sans-2 margin-top-05 fw-700">Violet</p>
+            <p class="font-sans-2 margin-top-05 font-700">Violet</p>
           </div><!-- swatch -->
 
           <div class="col-3 margin-bottom-4">
@@ -578,7 +578,7 @@ permalink: /uswds-color-docs-introduction/
               <div class="col-fill border-1px border-black-1 border-left-0 border-top-0 height-3 bg-violet-warm-80v"></div>
               <div class="col-fill border-1px border-black-1 border-left-0 border-top-0 height-3 bg-violet-warm-90v"></div>
             </div>
-            <p class="font-sans-2 margin-top-05 fw-700">Violet warm</p>
+            <p class="font-sans-2 margin-top-05 font-700">Violet warm</p>
           </div><!-- swatch -->
 
           <div class="col-3 margin-bottom-4">
@@ -606,7 +606,7 @@ permalink: /uswds-color-docs-introduction/
               <div class="col-fill border-1px border-black-1 border-left-0 border-top-0 height-3 bg-magenta-80v"></div>
               <div class="col-fill border-1px border-black-1 border-left-0 border-top-0 height-3 bg-magenta-90v"></div>
             </div>
-            <p class="font-sans-2 margin-top-05 fw-700">Magenta</p>
+            <p class="font-sans-2 margin-top-05 font-700">Magenta</p>
           </div><!-- swatch -->
 
           <div class="col-3 margin-bottom-4">
@@ -626,7 +626,7 @@ permalink: /uswds-color-docs-introduction/
               <div class="col-fill border-1px border-black-1 border-left-0 height-3 bg-black-warm-80"></div>
               <div class="col-fill border-1px border-black-1 border-left-0 height-3 bg-black-warm-90"></div>
             </div>
-            <p class="font-sans-2 margin-top-05 fw-700">Black warm</p>
+            <p class="font-sans-2 margin-top-05 font-700">Black warm</p>
           </div><!-- swatch -->
 
           <div class="col-3 margin-bottom-4">
@@ -647,7 +647,7 @@ permalink: /uswds-color-docs-introduction/
               <div class="col-fill border-1px border-black-1 border-left-0 height-3 bg-black-90"></div>
               <div class="col-fill border-1px border-black-1 border-left-0 height-3 bg-black"></div>
             </div>
-            <p class="font-sans-2 margin-top-05 fw-700">Black</p>
+            <p class="font-sans-2 margin-top-05 font-700">Black</p>
           </div><!-- swatch -->
 
           <div class="col-3 margin-bottom-4">
@@ -667,23 +667,23 @@ permalink: /uswds-color-docs-introduction/
               <div class="col-fill border-1px border-black-1 border-left-0 height-3 bg-black-cool-80"></div>
               <div class="col-fill border-1px border-black-1 border-left-0 height-3 bg-black-cool-90"></div>
             </div>
-            <p class="font-sans-2 margin-top-05 fw-700">Black cool</p>
+            <p class="font-sans-2 margin-top-05 font-700">Black cool</p>
           </div><!-- swatch -->
         </div>
 
-        <p class="font-sans-5 fw-400 maxw-measure-small lh-sans-4 margin-y-2 padding-bottom-2"><strong>Above:</strong> The 23 color families of the USWDS system palette, including all grades and variants. Together, they form a broad, expressive, and practical palette designed to encourage a diversity of tone as well as overall consistency and coherence.</p>
+        <p class="font-sans-5 font-400 maxw-measure-small lh-sans-4 margin-y-2 padding-bottom-2"><strong>Above:</strong> The 23 color families of the USWDS system palette, including all grades and variants. Together, they form a broad, expressive, and practical palette designed to encourage a diversity of tone as well as overall consistency and coherence.</p>
         <div class="row">
           <div class="col-2 border-top-1px margin-bottom-4"></div>
         </div>
 
         <p>Use USWDS colors and avoid custom colors whenever possible. In the long run, it’s a better user experience across government when there’s coherence across sites and services. Of course, your mission, project needs, and user needs always come first, but if you plan to <a href="#0">contribute your work back into the system</a> — which helps the system learn, adapt, and improve — that work will need to conform to system standards and use system colors.</p>
 
-        <aside class="bg-black-warm-3 padding-3 margin-y-4 radius-sm fw-400 font-sans-6">
+        <aside class="bg-black-warm-3 padding-3 margin-y-4 radius-sm font-400 font-sans-6">
           <h4 class="margin-top-0 uppercase font-sans-4 letter-spacing-1 margin-bottom-0">Color, color family, and grade</h4>
-          <p class="fw-400 font-sans-6 margin-top-1">Throughout our documentation and guidance, we’ll use use the terms <em>color</em>, <em>color family</em>, and <em>grade</em>, but what do we mean when we use them?</p>
-          <p class="fw-400 font-sans-6"><strong>Color</strong> is any specific swatch in our palettes, like <code>red 50</code>, <code>primary base</code>, or <code>indigo warm 60v</code>.</p>
-          <p class="fw-400 font-sans-6"><strong>Color family</strong> is a group of colors that all have the same hue on a color wheel (See <a href="#0">USWDS color wheels</a>, below.) They contain a number of individual colors, distinguished by the brightness or saturation of each individual color. A color family is typically a conventional color name like <code>red</code> or <code>blue warm</code>, or could be a use-based name in the project theme palette, like <code>primary</code>. </p>
-          <p class="fw-400 font-sans-6"><strong>Grade</strong> is a way to express how light or dark a color is. USWDS uses <a href="#0">a 100-point scale</a> to communicate the grade, where 0 is pure white and 100 is pure black. We’ve regularized these grades across color families: a color of grade <code>50</code> in one color family should be the same level of lightness as a color of grade <code>50</code> in another color family. This has important color contrast and accessibility implications that we’ll discuss <a href="#0">later</a>.</p>
+          <p class="font-400 font-sans-6 margin-top-1">Throughout our documentation and guidance, we’ll use use the terms <em>color</em>, <em>color family</em>, and <em>grade</em>, but what do we mean when we use them?</p>
+          <p class="font-400 font-sans-6"><strong>Color</strong> is any specific swatch in our palettes, like <code>red 50</code>, <code>primary base</code>, or <code>indigo warm 60v</code>.</p>
+          <p class="font-400 font-sans-6"><strong>Color family</strong> is a group of colors that all have the same hue on a color wheel (See <a href="#0">USWDS color wheels</a>, below.) They contain a number of individual colors, distinguished by the brightness or saturation of each individual color. A color family is typically a conventional color name like <code>red</code> or <code>blue warm</code>, or could be a use-based name in the project theme palette, like <code>primary</code>. </p>
+          <p class="font-400 font-sans-6"><strong>Grade</strong> is a way to express how light or dark a color is. USWDS uses <a href="#0">a 100-point scale</a> to communicate the grade, where 0 is pure white and 100 is pure black. We’ve regularized these grades across color families: a color of grade <code>50</code> in one color family should be the same level of lightness as a color of grade <code>50</code> in another color family. This has important color contrast and accessibility implications that we’ll discuss <a href="#0">later</a>.</p>
         </aside>
 
         <h2 class="font-sans-10 margin-top-6 margin-bottom-4 border-top-1px padding-top-2">Color and accessibility</h2>
@@ -697,8 +697,8 @@ permalink: /uswds-color-docs-introduction/
         <p>USWDS helps teams choose accessible colors with a color grade system. Let’s look at the <code>black</code> color family, in grades 5-100 (grade 0 is <code>white</code>):</p>
 
         <div class="border-1px padding-2 radius-sm margin-top-4">
-          <p class="font-sans-5 fw-700 margin-top-0 margin-bottom-1">Black</p>
-          <div class="row font-mono-2 fw-400">
+          <p class="font-sans-5 font-700 margin-top-0 margin-bottom-1">Black</p>
+          <div class="row font-mono-2 font-400">
             <div class="col-fill">
               <div class="bg-white height-4"></div>
               <div class="center margin-top-2px">0</div>
@@ -749,7 +749,7 @@ permalink: /uswds-color-docs-introduction/
             </div><!-- swwatch -->
           </div>
         </div>
-        <p class="font-sans-5 fw-400 maxw-measure-small lh-sans-4 margin-y-2 padding-bottom-2"><strong>Above:</strong> Each color family has ten grades, from 5-90. Pure <strong>white</strong> is the equivalent of grade 0, and pure <strong>black</strong> is the equivalent of grade 100. Across families, grades have the same gray value — that is, when seen in grayscale any color of the same grade will look the same.</p>
+        <p class="font-sans-5 font-400 maxw-measure-small lh-sans-4 margin-y-2 padding-bottom-2"><strong>Above:</strong> Each color family has ten grades, from 5-90. Pure <strong>white</strong> is the equivalent of grade 0, and pure <strong>black</strong> is the equivalent of grade 100. Across families, grades have the same gray value — that is, when seen in grayscale any color of the same grade will look the same.</p>
 
         <p>The difference in grades between two colors is meaningful. Use this difference to quickly calculate contrast. Across all colors and color familes:</p>
         <ul>
@@ -757,12 +757,12 @@ permalink: /uswds-color-docs-introduction/
           <li><strong>Grade differences (deltas) of 40</strong> between any two colors assure that the contrast between the two colors conforms to <span class="color-red-60v">WCAG 2.0 AA Large</span>. (Like between <code>black 90</code> and <code>indigo warm 50v</code>.) </li>
         </ul>
 
-        <div class="row gap font-mono-2 fw-400">
+        <div class="row gap font-mono-2 font-400">
           <div class="col-fill">
             <div class="bg-black-90 padding-2  padding-bottom-4 radius-sm is-inverse">
-              <div class="color-black-40 font-mono-1 margin-bottom-4 fw-400"><span class="font-sans-2">background color:</span><span class="color-white-1"> Black 90</span></div>
-              <div class="color-black-50 font-sans-16 lh-sans-1 margin-y-0 fw-700">Black 50</div>
-              <div class="font-mono-1 lh-mono-1 fw-400 color-black-30 border-top-1px border-black-70 padding-top-1 margin-top-05 row">
+              <div class="color-black-40 font-mono-1 margin-bottom-4 font-400"><span class="font-sans-2">background color:</span><span class="color-white-1"> Black 90</span></div>
+              <div class="color-black-50 font-sans-16 lh-sans-1 margin-y-0 font-700">Black 50</div>
+              <div class="font-mono-1 lh-mono-1 font-400 color-black-30 border-top-1px border-black-70 padding-top-1 margin-top-05 row">
                 <div class="col-fill"><span class="font-sans-2">text color:</span><span class="color-white-1"> Black 50</span></div>
                 <div class="col-2"><span class="font-sans-2">delta:</span><span class="color-white-1"> 40</span></div>
                 <div class="col-2"><span class="font-sans-2">size:</span><span class="color-white-1"> 80px</span></div>
@@ -770,7 +770,7 @@ permalink: /uswds-color-docs-introduction/
               </div>
               <div class="color-black-40 font-sans-6 lh-sans-1 padding-0 margin-top-4">Black 40</div>
               <div class="color-black-40 font-sans-6 lh-sans-1 padding-0 margin-top-1">A grade difference of 50+ conforms to Section 508 AA.</div>
-              <div class="font-mono-1 lh-mono-1 fw-400 color-black-30 border-top-1px border-black-70 padding-top-1 margin-top-105 row">
+              <div class="font-mono-1 lh-mono-1 font-400 color-black-30 border-top-1px border-black-70 padding-top-1 margin-top-105 row">
                 <div class="col-fill"><span class="font-sans-2">text color:</span><span class="color-white-1"> Black 40</span></div>
                 <div class="col-2"><span class="font-sans-2">delta:</span><span class="color-white-1"> 50</span></div>
                 <div class="col-2"><span class="font-sans-2">size:</span><span class="color-white-1"> 17px</span></div>
@@ -780,14 +780,14 @@ permalink: /uswds-color-docs-introduction/
           </div>
         </div>
 
-        <p class="font-sans-5 fw-400 maxw-measure-small lh-sans-4 margin-y-2 padding-bottom-2"><strong>Above:</strong> Since <code>90 – 50 = 40</code>, on a background of <code>black 90</code> use grades of <code>40</code> and below to assure Section 508 AA contrast. Grades of <code>50</code> and below are acceptable for large text.</p>
+        <p class="font-sans-5 font-400 maxw-measure-small lh-sans-4 margin-y-2 padding-bottom-2"><strong>Above:</strong> Since <code>90 – 50 = 40</code>, on a background of <code>black 90</code> use grades of <code>40</code> and below to assure Section 508 AA contrast. Grades of <code>50</code> and below are acceptable for large text.</p>
 
-        <div class="row gap font-mono-2 fw-400 margin-y-4">
+        <div class="row gap font-mono-2 font-400 margin-y-4">
           <div class="col-fill">
             <div class="bg-black-90 padding-2  padding-bottom-4 radius-sm is-inverse">
-              <div class="color-black-40 font-mono-1 margin-bottom-4 fw-400">background color: <span class="color-white-1">Black 90</span></div>
-              <div class="color-indigo-warm-50v font-sans-16 lh-sans-1 margin-y-0 fw-700">Indigo warm 50v</div>
-              <div class="font-mono-1 lh-mono-1 fw-400 color-black-30 border-top-1px border-black-70 padding-top-1 margin-top-05 row">
+              <div class="color-black-40 font-mono-1 margin-bottom-4 font-400">background color: <span class="color-white-1">Black 90</span></div>
+              <div class="color-indigo-warm-50v font-sans-16 lh-sans-1 margin-y-0 font-700">Indigo warm 50v</div>
+              <div class="font-mono-1 lh-mono-1 font-400 color-black-30 border-top-1px border-black-70 padding-top-1 margin-top-05 row">
                 <div class="col-fill"><span class="font-sans-2">text color:</span><span class="color-white-1"> Indigo warm 50v</span></div>
                 <div class="col-2"><span class="font-sans-2">delta:</span><span class="color-white-1"> 40</span></div>
                 <div class="col-2"><span class="font-sans-2">size:</span><span class="color-white-1"> 80px</span></div>
@@ -795,7 +795,7 @@ permalink: /uswds-color-docs-introduction/
               </div>
               <div class="color-red-warm-40v font-sans-6 lh-sans-1 padding-0 margin-top-4">Red warm 40v</div>
               <div class="color-red-warm-40v font-sans-6 lh-sans-1 padding-0 margin-top-1">A grade difference of 40+ conforms to Section 508 AA Large.</div>
-              <div class="font-mono-1 lh-mono-1 fw-400 color-black-30 border-top-1px border-black-70 padding-top-1 margin-top-105 row">
+              <div class="font-mono-1 lh-mono-1 font-400 color-black-30 border-top-1px border-black-70 padding-top-1 margin-top-105 row">
                 <div class="col-fill"><span class="font-sans-2">text color:</span><span class="color-white-1"> Red warm 40v</span></div>
                 <div class="col-2"><span class="font-sans-2">delta:</span><span class="color-white-1"> 50</span></div>
                 <div class="col-2"><span class="font-sans-2">size:</span><span class="color-white-1"> 17px</span></div>
@@ -804,13 +804,13 @@ permalink: /uswds-color-docs-introduction/
             </div>
           </div>
         </div>
-        <p class="font-sans-5 fw-400 maxw-measure-small lh-sans-4 margin-y-2 padding-bottom-2"><strong>Above:</strong> The color grade system works across color families.</p>
+        <p class="font-sans-5 font-400 maxw-measure-small lh-sans-4 margin-y-2 padding-bottom-2"><strong>Above:</strong> The color grade system works across color families.</p>
 
         <figure class="margin-top-4 margin-x-0 display-block">
           <div class="border-1px radius-sm padding-4">
             <img class="maxw-full display-block margin-x-auto" src="{{ '/assets/img//color-grades-chart.webp' | relative_url }}" alt="A chart showing how grade differences of 50 conform to WCAG AA and differences of 40 conform to WCAG AA Large">
           </div>
-          <figcaption class="font-sans-5 fw-400 maxw-measure-small lh-sans-4 margin-top-3 margin-bottom-2 padding-bottom-2"><strong>Above:</strong> This data visualization shows the ten standard grades of a USWDS color family, as well as grade 0 (white) and grade 100 (black). Lightness is the lightness level of gray in the HSL color model. The delta column shows the difference in gray level between grades. The bars on the right show minimum conformant color pairs. Grade 50 will be WCAG 2.0 AA conformant against both pure black and pure white.</figcaption>
+          <figcaption class="font-sans-5 font-400 maxw-measure-small lh-sans-4 margin-top-3 margin-bottom-2 padding-bottom-2"><strong>Above:</strong> This data visualization shows the ten standard grades of a USWDS color family, as well as grade 0 (white) and grade 100 (black). Lightness is the lightness level of gray in the HSL color model. The delta column shows the difference in gray level between grades. The bars on the right show minimum conformant color pairs. Grade 50 will be WCAG 2.0 AA conformant against both pure black and pure white.</figcaption>
         </figure>
         <div class="row">
           <div class="col-2 border-top-1px margin-bottom-4"></div>
@@ -825,11 +825,11 @@ permalink: /uswds-color-docs-introduction/
         <p>The vivid palette is incomplete. We’ve added vivid variants as we’ve found a project need. This number will continue to grow and we <a href="#0">welcome new suggetions</a> in our Github repo for vivid variants where none currently exist.</p>
 
         <figure class="margin-top-4 margin-x-0 margin-bottom-0 display-block padding-4 bg-white border-top-radius-large">
-            <div class="center font-sans-8 fw-300 margin-bottom-4">USWDS base color wheel</div>
+            <div class="center font-sans-8 font-300 margin-bottom-4">USWDS base color wheel</div>
             <img class="maxw-full display-block margin-x-auto" src="{{ '/assets/img//uswds-standard-color-wheel.webp' | relative_url }}" alt="A color wheel showing the standard USWDS color families arranged around the 360° of the HSL color model">
         </figure>
         <figure class="margin-top-4 margin-x-0 margin-top-0 display-block padding-4 padding-top-2 bg-white border-bottom-radius-large">
-          <div class="center font-sans-8 fw-300 margin-bottom-4 border-top-1px padding-top-6">USWDS vivid color wheel</div>
+          <div class="center font-sans-8 font-300 margin-bottom-4 border-top-1px padding-top-6">USWDS vivid color wheel</div>
           <img class="maxw-full display-block margin-x-auto" src="{{ '/assets/img//uswds-vivid-color-wheel.webp' | relative_url }}" alt="A color wheel showing the standard USWDS color families arranged around the 360° of the HSL color model">
         </figure>
 

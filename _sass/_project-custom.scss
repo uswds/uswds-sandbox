@@ -15,81 +15,81 @@ html {
 
 *:focus {
   @include u-outline('05');
-  @include u-outline-color(highlight);
+  outline-color: color('highlight');
 }
 
 .is-inverse {
-  @include o-font-smoothing;
+  @include font-smoothing;
 }
 
 .page-content {
   h3 {
-    @include u-font(sans, 10);
-    @include u-font-weight(thin);
-    @include u-line-height(heading, 3);
-    @include at-media(tablet-lg) {
-      @include u-font(sans, 15);
+    font-size: font('size', 'sans', 10);
+    font-size: font('weight', 'thin');
+    line-height: lh('heading', 3);
+    @include at-media('tablet-lg') {
+      font-size: font('size', 'sans', 15);
     }
   }
 }
 
 *:active:focus {
   @include u-outline('05');
-  @include u-outline-color(indigo-warm, 50, vivid);
+  outline-color: color('indigo-warm', 50, vivid);
 }
 
 .usa-accordion-content{
   &[aria-hidden=true] {
-    @include u-display(none);
+    @include u-display('hidden');
   }
 }
 
 .usa-banner-button-text--open {
-  @include u-display(none);
+  @include u-display('hidden');
 }
 
 [aria-expanded=true] {
   > .usa-banner-button-text {
-    @include u-display(none);
+    @include u-display('hidden');
   }
   > .usa-banner-button-text--open {
-    @include u-display(inline);
+    @include u-display('inline');
   }
 }
 
-.o-normalize-headings {
-  @include u-font-weight(normal);
-  @include u-line-height(heading, 2);
+@mixin txt-normalize-headings {
+  @include u-font-weight('normal');
+  @include u-lh('heading', 2);
   @include u-margin-y(0);
 }
 
 .txt-h1,
 .txt-h2,
 .txt-h3 {
-  @extend .o-normalize-headings;
+  @include txt-normalize-headings;
 }
 
 .txt-h2 {
-  @include u-font(sans, 9);
-  @include u-font-weight(bold);
+  @include u-font('sans', 9);
+  @include u-font-weight('bold');
   @include u-margin-top(2);
   @include u-padding-top(2);
 
   @include at-media('tablet-lg'){
-    @include u-font(sans, 11);
+    @include u-font('sans', 11);
     @include u-margin-top(3);
   }
 }
 
 .txt-h3 {
-  @include u-font(sans, 6);
-  @include u-font-weight(bold);
+  @include u-font('sans', 6);
+  @include u-font-weight('bold');
   @include u-margin-top(2);
   @include u-padding-top(1);
   @include at-media('tablet-lg'){
     @include u-margin-top(2);
     @include u-padding-top(2);
-    @include u-font(sans, 8);
+    @include u-font('sans', 8);
   }
   & + .txt-p {
     @include u-margin-top(1);
@@ -97,49 +97,53 @@ html {
 }
 
 .txt-p {
-  @include u-line-height(body, 4);
-  @include u-margin-bottom(0);
-  @include u-margin-top(1em);
   @include u-measure(4);
+  line-height: leading('body', 4);
+  margin-bottom: spacing(0);
+  margin-top: spacing(1em);
   @include at-media('tablet-lg'){
-    @include u-font(body, 8);
-    @include u-line-height(body, 5);
+    font-size: font('size', 'body', 8);
+    line-height: lh('body', 5);
   }
 }
 
 .txt-li {
   @include u-border-top();
-  @include u-border-color(black, 20);
   @include u-padding-y(1);
+  border-color: color('gray', 20);
   @include at-media('tablet-lg'){
     @include u-padding-y(1);
   }
 }
 
 .txt-code {
-  @include u-font(mono, 4);
-  @include u-font(mono);
-  @include u-font-weight(400);
   @include u-padding-x('05');
   @include u-padding-y(2px);
-  @include u-background-color(black-warm, 4);
-  @include u-border-radius(sm);
+  background-color: color('gray-warm', 4);
+  border-radius: radius('sm');
+  font-family: font('family', 'mono');
+  font-size: font('size', 'mono', 4);
+  font-weight: font('weight', 400);
 }
 
 .txt-a {
-  @include u-color(black, 90);
-  @include u-text-decoration-color(black, 30);
+  color: color('gray', 90);
+  @include u-underline-color('gray', 30);
   &:hover{
-    @include u-text-decoration-color(black, 90);
+    @include u-underline-color('gray', 90);
   }
 }
 
 .txt-ul {
-  @include o-list-reset;
+  @include list-reset;
 }
 
 .usa-body-content, .usa-prose {
-  h1, h2, h3 { @extend .o-normalize-headings; }
+  h1,
+  h2,
+  h3 {
+    @include txt-normalize-headings;
+  }
   h2 { @extend .txt-h2; }
   h3 {
     @extend .txt-h3;
@@ -153,49 +157,49 @@ html {
   p a {
     @extend .txt-a;
     &.usa-lede-link {
-      @include u-color(black, 90);
-      @include u-text-decoration-color(black, 20);
+      color: color('gray', 90);
+      text-decoration-color: color('gray', 20);
       &:hover{
-        @include u-text-decoration-color(black, 80);
+        text-decoration-color: color('gray', 80);
       }
     }
   }
   code { @extend .txt-code; }
   aside {
     code {
-      @include u-background-color(black-warm, 10);
+      background-color: color('gray-warm', 10);
     }
   }
 }
 
-/* ---------- G - R - I - D ---------- */
+/* * * * * * ========================= */
 
 .docs-text {
-  @include u-font(sans, 6);
-  @include u-font(sans);
-  @include u-font-weight(400);
+  @include u-font('sans', 6);
+  @include u-font('sans');
+  @include u-fw(400);
   @include u-margin-top(4);
   @include u-margin-bottom(1);
 }
 
 strong {
-  @include u-font-weight(bold);
+  @include u-fw(bold);
 }
 
 .docs-inline-code {
-  @include u-font(mono, 4);
-  @include u-font(mono);
+  @include u-bg('gray-warm', 4);
+  @include u-font('mono', 4);
+  @include u-font('mono');
   @include u-padding-y(2px);
   @include u-padding-x('05');
-  @include u-background-color(black-warm, 4);
-  @include u-border-radius(sm);
+  @include u-radius('sm');
 }
 
 .token {
-  @include u-background-color(black-warm, 3);
-  @include u-border-radius(sm);
-  @include u-font(mono, 1);
-  @include u-font(mono);
+  @include u-bg('gray-warm', 3);
+  @include u-radius('sm');
+  @include u-font('mono', 1);
+  @include u-font('mono');
   @include u-padding-x('05');
   @include u-padding-y(2px);
 }
