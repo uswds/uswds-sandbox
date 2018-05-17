@@ -17833,6 +17833,9 @@ example:
 .text-normal {
   font-weight: 400 !important; }
 
+.text-semibold {
+  font-weight: 600 !important; }
+
 .text-bold {
   font-weight: 700 !important; }
 
@@ -32724,7 +32727,7 @@ html {
   font-family: "United Sans Web", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
   margin-bottom: 0.5rem;
   margin-top: 2rem;
-  font-weight: 400; }
+  font-style: normal; }
 
 strong {
   font-weight: bold; }
@@ -32740,7 +32743,8 @@ strong {
   font-size: 0.89309rem; }
 
 .token {
-  background-color: #f7f7f3;
+  border: 1px solid;
+  color: #d93f04;
   font-family: "Roboto Mono Web", "Bitstream Vera Sans Mono", "Consolas", "Courier", monospace;
   line-height: 1.04972;
   padding-left: 0.25rem;
@@ -32749,10 +32753,19 @@ strong {
   padding-top: 2px;
   border-radius: 2px;
   font-size: 0.71447rem;
-  text-align: left;
+  font-style: normal;
   white-space: nowrap;
   text-decoration: none;
   text-transform: uppercase;
   font-style: normal;
-  font-weight: bold;
   letter-spacing: 0.1em; }
+
+.prose-graf-intro {
+  font-family: "United Sans Web", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  font-size: 0.8125rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.1em; }
+  @media screen and (min-width: 75em) {
+    .prose-graf-intro {
+      font-size: 0.875rem; } }

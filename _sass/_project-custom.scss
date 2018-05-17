@@ -179,11 +179,11 @@ html {
   @include family('sans');
   @include margin-bottom(1);
   @include margin-top(4);
-  @include weight(400);
+  @include text('normal');
 }
 
 strong {
-  @include weight(bold);
+  @include text('bold');
 }
 
 .docs-inline-code {
@@ -196,12 +196,24 @@ strong {
 }
 
 .token {
-  @include bg('gray-warm', 3);
-  @include family('mono');
-  @include line-height('mono', 1);
+  $font: 'mono';
+  @include border();
+  @include color('red-warm', 50, vivid)
+  @include family($font);
+  @include line-height($font, 1);
   @include padding-x('05');
   @include padding-y(2px);
   @include radius('sm');
-  @include size('mono', 1);
-  @include text('left', 'no-wrap', 'no-underline', 'uppercase', 'no-italic', 'bold', 'ls-2');
+  @include size($font, 1);
+  @include text('normal', 'no-wrap', 'no-underline', 'uppercase', 'no-italic', 'ls-2');
+}
+
+.prose-graf-intro {
+  $font: 'sans';
+  @include family($font);
+  @include size($font, 2);
+  @include text('semibold', 'uppercase', 'ls-2');
+  @include at-media('desktop-lg'){
+    @include size($font, 3);
+  }
 }
