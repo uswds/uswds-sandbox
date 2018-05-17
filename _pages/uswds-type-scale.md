@@ -32,7 +32,7 @@ permalink: /uswds-type-scale/
       <div class="size-mono-1 line-height-mono-1 color-gray-90">Tuscaloosa</div>
       <div class="size-mono-1 padding-top-2"><code class="txt-code size-mono-2">size-mono-1</code></div>
       <div class="size-mono-1 padding-top-2"><code class="txt-code size-mono-2 bg-white border color-gray-90">size-mono-3xs</code></div>
-      <div class="padding-top-105 size-mono-1 text-300">12px</div>
+      <div class="padding-top-105 size-mono-1 text-300">11.43px</div>
     </div>
   </div>
 
@@ -50,7 +50,7 @@ permalink: /uswds-type-scale/
     <div class="col-4 display-flex flex-column flex-justify-end">
       <div class="size-mono-2 line-height-mono-1">Tuscaloosa</div>
       <div class="size-mono-1 padding-top-2"><code class="txt-code size-mono-2">size-mono-2</code></div>
-      <div class="padding-top-105 size-mono-1 text-300">13px</div>
+      <div class="padding-top-105 size-mono-1 text-300">12.38px</div>
     </div>
   </div>
 
@@ -71,7 +71,7 @@ permalink: /uswds-type-scale/
       <div class="size-mono-3 line-height-mono-1 color-gray-90">Tuscaloosa</div>
       <div class="size-mono-1 padding-top-2"><code class="txt-code size-mono-2">size-mono-3</code></div>
       <div class="size-mono-1 padding-top-2"><code class="txt-code size-mono-2 bg-white border">size-mono-2xs</code></div>
-      <div class="padding-top-105 size-mono-1 text-300">14px</div>
+      <div class="padding-top-105 size-mono-1 text-300">13.33px</div>
     </div>
   </div>
 
@@ -89,7 +89,7 @@ permalink: /uswds-type-scale/
     <div class="col-4 display-flex flex-column flex-justify-end">
       <div class="size-mono-4 line-height-mono-1">Tuscaloosa</div>
       <div class="size-mono-1 padding-top-2"><code class="txt-code size-mono-2">size-mono-4</code></div>
-      <div class="padding-top-105 size-mono-1 text-300">15px</div>
+      <div class="padding-top-105 size-mono-1 text-300">14.28px</div>
     </div>
   </div>
 
@@ -110,7 +110,7 @@ permalink: /uswds-type-scale/
       <div class="size-mono-5 line-height-mono-1 color-gray-90">Tuscaloosa</div>
       <div class="size-mono-1 padding-top-2"><code class="txt-code size-mono-2">size-mono-5</code></div>
       <div class="size-mono-1 padding-top-2"><code class="txt-code size-mono-2 bg-white border">size-mono-xs</code></div>
-      <div class="padding-top-105 size-mono-1 text-300">16px</div>
+      <div class="padding-top-105 size-mono-1 text-300">15.25px</div>
     </div>
   </div>
 
@@ -131,7 +131,7 @@ permalink: /uswds-type-scale/
       <div class="size-mono-6 line-height-mono-1 color-gray-90">Tuscaloosa</div>
       <div class="size-mono-1 padding-top-2"><code class="txt-code size-mono-2">size-mono-6</code></div>
       <div class="size-mono-1 padding-top-2"><code class="txt-code size-mono-2 bg-white border">size-mono-sm</code></div>
-      <div class="padding-top-105 size-mono-1 text-300">17px</div>
+      <div class="padding-top-105 size-mono-1 text-300">16.20px</div>
     </div>
   </div>
 
@@ -152,7 +152,7 @@ permalink: /uswds-type-scale/
       <div class="size-mono-7 line-height-mono-1 color-gray-90">Tuscaloosa</div>
       <div class="size-mono-1 padding-top-2"><code class="txt-code size-mono-2">size-mono-7</code></div>
       <div class="size-mono-1 padding-top-2"><code class="txt-code size-mono-2 bg-white border">size-mono-md</code></div>
-      <div class="padding-top-105 size-mono-1 text-300">18px</div>
+      <div class="padding-top-105 size-mono-1 text-300">17.15px</div>
     </div>
   </div>
 
@@ -170,7 +170,7 @@ permalink: /uswds-type-scale/
     <div class="col-4 display-flex flex-column flex-justify-end">
       <div class="size-mono-8 line-height-mono-1">Tuscaloosa</div>
       <div class="size-mono-1 padding-top-2"><code class="txt-code size-mono-2">size-mono-8</code></div>
-      <div class="padding-top-105 size-mono-1 text-300">20px</div>
+      <div class="padding-top-105 size-mono-1 text-300">19.05px</div>
     </div>
   </div>
 
@@ -188,7 +188,7 @@ permalink: /uswds-type-scale/
     <div class="col-4 display-flex flex-column flex-justify-end">
       <div class="size-mono-9 line-height-mono-1">Tuscaloosa</div>
       <div class="size-mono-1 padding-top-2"><code class="txt-code size-mono-2">size-mono-9</code></div>
-      <div class="padding-top-105 size-mono-1 text-300">22px</div>
+      <div class="padding-top-105 size-mono-1 text-300">20.95px</div>
     </div>
   </div>
 
@@ -209,7 +209,7 @@ permalink: /uswds-type-scale/
       <div class="size-mono-10 line-height-mono-1 color-gray-90">Tuscaloosa</div>
       <div class="size-mono-1 padding-top-2"><code class="txt-code size-mono-2">size-mono-10</code></div>
       <div class="size-mono-1 padding-top-2"><code class="txt-code size-mono-2 bg-white border">size-mono-lg</code></div>
-      <div class="padding-top-105 size-mono-1 text-300">24px</div>
+      <div class="padding-top-105 size-mono-1 text-300">22.87px</div>
     </div>
   </div>
 
@@ -227,7 +227,7 @@ permalink: /uswds-type-scale/
     <div class="col-4 display-flex flex-column flex-justify-end">
       <div class="size-mono-11 line-height-mono-1">Tuscaloosa</div>
       <div class="size-mono-1 padding-top-2"><code class="txt-code size-mono-2">size-mono-11</code></div>
-      <div class="padding-top-105 size-mono-1 text-300">28px</div>
+      <div class="padding-top-105 size-mono-1 text-300">26.67px</div>
     </div>
   </div>
 
@@ -248,7 +248,7 @@ permalink: /uswds-type-scale/
       <div class="size-mono-12 line-height-mono-1 color-gray-90">Tuscaloosa</div>
       <div class="size-mono-1 padding-top-2"><code class="txt-code size-mono-2">size-mono-12</code></div>
       <div class="size-mono-1 padding-top-2"><code class="txt-code size-mono-2 bg-white border">size-mono-xl</code></div>
-      <div class="padding-top-105 size-mono-1 text-300">32px</div>
+      <div class="padding-top-105 size-mono-1 text-300">30.48px</div>
     </div>
   </div>
 
@@ -266,7 +266,7 @@ permalink: /uswds-type-scale/
     <div class="col-4 display-flex flex-column flex-justify-end">
       <div class="size-mono-13 line-height-mono-1">Tuscaloosa</div>
       <div class="size-mono-1 padding-top-2"><code class="txt-code size-mono-2">size-mono-13</code></div>
-      <div class="padding-top-105 size-mono-1 text-300">36px</div>
+      <div class="padding-top-105 size-mono-1 text-300">34.3px</div>
     </div>
   </div>
 
@@ -287,7 +287,7 @@ permalink: /uswds-type-scale/
       <div class="size-mono-14 line-height-mono-1 color-gray-90">Tuscaloosa</div>
       <div class="size-mono-1 padding-top-2"><code class="txt-code size-mono-2">size-mono-14</code></div>
       <div class="size-mono-1 padding-top-2"><code class="txt-code size-mono-2 bg-white border">size-mono-2xl</code></div>
-      <div class="padding-top-105 size-mono-1 text-300">40px</div>
+      <div class="padding-top-105 size-mono-1 text-300">38.10px</div>
     </div>
   </div>
 
@@ -305,7 +305,7 @@ permalink: /uswds-type-scale/
     <div class="col-4 display-flex flex-column flex-justify-end">
       <div class="size-mono-15 line-height-mono-1">Tuscaloosa</div>
       <div class="size-mono-1 padding-top-2"><code class="txt-code size-mono-2">size-mono-15</code></div>
-      <div class="padding-top-105 size-mono-1 text-300">48px</div>
+      <div class="padding-top-105 size-mono-1 text-300">45.73px</div>
     </div>
   </div>
 
@@ -326,7 +326,7 @@ permalink: /uswds-type-scale/
       <div class="size-mono-16 line-height-mono-1">Utica</div>
       <div class="size-mono-1 padding-top-2"><code class="txt-code size-mono-2">size-mono-16</code></div>
       <div class="size-mono-1 padding-top-2"><code class="txt-code size-mono-2 bg-white border">size-mono-3xl</code></div>
-    <div class="padding-top-105 size-mono-1 text-300">56px</div>
+    <div class="padding-top-105 size-mono-1 text-300">53.35px</div>
     </div>
   </div>
 
@@ -344,7 +344,7 @@ permalink: /uswds-type-scale/
     <div class="col-4 display-flex flex-column flex-justify-end">
       <div class="size-mono-17 line-height-mono-1">Utica</div>
       <div class="size-mono-1 padding-top-2"><code class="txt-code size-mono-2">size-mono-17</code></div>
-      <div class="padding-top-105 size-mono-1 text-300">64px</div>
+      <div class="padding-top-105 size-mono-1 text-300">60.97px</div>
     </div>
   </div>
 
@@ -362,7 +362,7 @@ permalink: /uswds-type-scale/
     <div class="col-4 display-flex flex-column flex-justify-end">
       <div class="size-mono-18 line-height-mono-1">Utica</div>
       <div class="size-mono-1 padding-top-2"><code class="txt-code size-mono-2">size-mono-18</code></div>
-      <div class="padding-top-105 size-mono-1 text-300">80px</div>
+      <div class="padding-top-105 size-mono-1 text-300">76.22px</div>
     </div>
   </div>
 
@@ -380,7 +380,7 @@ permalink: /uswds-type-scale/
     <div class="col-4 display-flex flex-column flex-justify-end">
       <div class="size-mono-19 line-height-mono-1">LA</div>
       <div class="size-mono-1 padding-top-2"><code class="txt-code size-mono-2">size-mono-19</code></div>
-      <div class="padding-top-105 size-mono-1 text-300">120px</div>
+      <div class="padding-top-105 size-mono-1 text-300">114.32px</div>
     </div>
   </div>
 
@@ -398,7 +398,7 @@ permalink: /uswds-type-scale/
     <div class="col-4 display-flex flex-column flex-justify-end">
       <div class="size-mono-20 line-height-mono-1">LA</div>
       <div class="size-mono-1 padding-top-2"><code class="txt-code size-mono-2">size-mono-20</code></div>
-      <div class="padding-top-105 size-mono-1 text-300">140px</div>
+      <div class="padding-top-105 size-mono-1 text-300">133.37px</div>
     </div>
   </div>
 
