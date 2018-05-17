@@ -17824,6 +17824,21 @@ example:
 .text-italic {
   font-style: italic !important; }
 
+.text-thin {
+  font-weight: 100 !important; }
+
+.text-light {
+  font-weight: 300 !important; }
+
+.text-normal {
+  font-weight: 400 !important; }
+
+.text-bold {
+  font-weight: 700 !important; }
+
+.text-black {
+  font-weight: 900 !important; }
+
 .text-100 {
   font-weight: 100 !important; }
 
