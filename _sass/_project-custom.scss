@@ -5,7 +5,7 @@ CUSTOM PROJECT SASS
 Custom project SASS goes here.
 
 i.e.
-@include u-padding-right(2px);
+@include padding-right(2px);
 ----------------------------------------
 */
 
@@ -14,7 +14,7 @@ html {
 }
 
 *:focus {
-  @include u-outline('05');
+  @include outline('05');
   outline-color: color('highlight');
 }
 
@@ -24,43 +24,43 @@ html {
 
 .page-content {
   h3 {
-    font-size: font('size', 'sans', 10);
-    font-size: font('weight', 'thin');
-    line-height: lh('heading', 3);
+    @include size('sans', 10);
+    @include text('thin');
+    @include line-height('heading', 3);
     @include at-media('tablet-lg') {
-      font-size: font('size', 'sans', 15);
+      @include size('sans', 15);
     }
   }
 }
 
 *:active:focus {
-  @include u-outline('05');
+  @include outline('05');
   outline-color: color('indigo-warm', 50, vivid);
 }
 
 .usa-accordion-content{
   &[aria-hidden=true] {
-    @include u-display('hidden');
+    @include display('none');
   }
 }
 
 .usa-banner-button-text--open {
-  @include u-display('hidden');
+  @include display('none');
 }
 
 [aria-expanded=true] {
   > .usa-banner-button-text {
-    @include u-display('hidden');
+    @include display('none');
   }
   > .usa-banner-button-text--open {
-    @include u-display('inline');
+    @include display('inline');
   }
 }
 
 @mixin txt-normalize-headings {
-  @include u-font-weight('normal');
-  @include u-lh('heading', 2);
-  @include u-margin-y(0);
+  @include weight('normal');
+  @include line-height('heading', 2);
+  @include margin-y(0);
 }
 
 .txt-h1,
@@ -70,34 +70,34 @@ html {
 }
 
 .txt-h2 {
-  @include u-font('sans', 9);
-  @include u-font-weight('bold');
-  @include u-margin-top(2);
-  @include u-padding-top(2);
+  @include size('sans', 9);
+  @include weight('bold');
+  @include margin-top(2);
+  @include padding-top(2);
 
   @include at-media('tablet-lg'){
-    @include u-font('sans', 11);
-    @include u-margin-top(3);
+    @include size('sans', 11);
+    @include margin-top(3);
   }
 }
 
 .txt-h3 {
-  @include u-font('sans', 6);
-  @include u-font-weight('bold');
-  @include u-margin-top(2);
-  @include u-padding-top(1);
+  @include size('sans', 6);
+  @include weight('bold');
+  @include margin-top(2);
+  @include padding-top(1);
   @include at-media('tablet-lg'){
-    @include u-margin-top(2);
-    @include u-padding-top(2);
-    @include u-font('sans', 8);
+    @include margin-top(2);
+    @include padding-top(2);
+    @include size('sans', 8);
   }
   & + .txt-p {
-    @include u-margin-top(1);
+    @include margin-top(1);
   }
 }
 
 .txt-p {
-  @include u-measure(4);
+  @include measure(4);
   line-height: leading('body', 4);
   margin-bottom: spacing(0);
   margin-top: spacing(1em);
@@ -108,29 +108,29 @@ html {
 }
 
 .txt-li {
-  @include u-border-top();
-  @include u-padding-y(1);
+  @include border-top();
+  @include padding-y(1);
   border-color: color('gray', 20);
   @include at-media('tablet-lg'){
-    @include u-padding-y(1);
+    @include padding-y(1);
   }
 }
 
 .txt-code {
-  @include u-padding-x('05');
-  @include u-padding-y(2px);
+  @include family('mono');
+  @include padding-x('05');
+  @include padding-y(2px);
+  @include size('mono', 4);
+  @include text(400);
   background-color: color('gray-warm', 4);
   border-radius: radius('sm');
-  font-family: font('family', 'mono');
-  font-size: font('size', 'mono', 4);
-  font-weight: font('weight', 400);
 }
 
 .txt-a {
   color: color('gray', 90);
-  @include u-underline-color('gray', 30);
+  @include underline-color('gray', 30);
   &:hover{
-    @include u-underline-color('gray', 90);
+    @include underline-color('gray', 90);
   }
 }
 
@@ -148,7 +148,7 @@ html {
   h3 {
     @extend .txt-h3;
     & + p {
-      @include u-margin-top(1);
+      @include margin-top(1);
     }
   }
   p { @extend .txt-p; }
@@ -175,31 +175,33 @@ html {
 /* * * * * * ========================= */
 
 .docs-text {
-  @include u-font('sans', 6);
-  @include u-font('sans');
-  @include u-fw(400);
-  @include u-margin-top(4);
-  @include u-margin-bottom(1);
+  @include size('sans', 6);
+  @include family('sans');
+  @include margin-bottom(1);
+  @include margin-top(4);
+  @include weight(400);
 }
 
 strong {
-  @include u-fw(bold);
+  @include weight(bold);
 }
 
 .docs-inline-code {
-  @include u-bg('gray-warm', 4);
-  @include u-font('mono', 4);
-  @include u-font('mono');
-  @include u-padding-y(2px);
-  @include u-padding-x('05');
-  @include u-radius('sm');
+  @include bg('gray-warm', 4);
+  @include family('mono');
+  @include padding-x('05');
+  @include padding-y(2px);
+  @include radius('sm');
+  @include size('mono', 4);
 }
 
 .token {
-  @include u-bg('gray-warm', 3);
-  @include u-radius('sm');
-  @include u-font('mono', 1);
-  @include u-font('mono');
-  @include u-padding-x('05');
-  @include u-padding-y(2px);
+  @include bg('gray-warm', 3);
+  @include family('mono');
+  @include line-height('mono', 1);
+  @include padding-x('05');
+  @include padding-y(2px);
+  @include radius('sm');
+  @include size('mono', 1);
+  @include text('left', 'no-wrap', 'no-underline', 'uppercase', 'no-italic', 'bold', 'ls-2');
 }

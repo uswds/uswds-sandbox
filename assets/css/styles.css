@@ -1084,6 +1084,11 @@ project/_uswds-project-settings
 */
 /*
 ----------------------------------------
+Namespace
+----------------------------------------
+*/
+/*
+----------------------------------------
 Spacing
 ----------------------------------------
 All spacing values that can be called
@@ -1236,7 +1241,14 @@ USWDS Properties
 
 /*
 ----------------------------------------
-font()
+family()
+----------------------------------------
+Get a font-family stack
+----------------------------------------
+*/
+/*
+----------------------------------------
+size()
 ----------------------------------------
 Get a normalized font-size in rem from
 a family and a type size in either
@@ -1503,13 +1515,13 @@ example:
 display
 ----------------------------------------
 usage:
-  .[key]
+  .display-[key]
 ----------------------------------------
 output:
   display: [value]
 ----------------------------------------
 example:
-  .hidden {
+  .display-none {
     display: none; }
 ----------------------------------------
 */
@@ -1586,14 +1598,14 @@ font
 sets font-size and font-family
 ----------------------------------------
 usage:
-  .[key]-[key]
+  .size-[key]-[key]
 ----------------------------------------
 output:
   font-family: [value];
   font-size: [value];
 ----------------------------------------
 example:
-  .sans-s3 {
+  .size-sans-s3 {
     font-face: '18Franklin-webfont',
                 system,
                 -apple-system,
@@ -1611,13 +1623,13 @@ example:
 font-family
 ----------------------------------------
 usage:
-  .[key]
+  .family-[key]
 ----------------------------------------
 output:
   font-family: [value]
 ----------------------------------------
 example:
-  .sans {
+  .family-sans {
     font-family: 'United Sans webfont',
                 system,
                 -apple-system,
@@ -1634,15 +1646,15 @@ example:
 font-feature-settings
 ----------------------------------------
 usage:
-  .font-feature-[key]
+  .text-[key]
 ----------------------------------------
 output:
   font-feature-settings: [value];
 ----------------------------------------
 example:
-  .font-feature-alt {
+  .text-tabular {
     font-feature-settings:
-      'ss01' 1, 'kern' 1; }
+      'tnum' 1, 'kern' 1; }
 ----------------------------------------
 */
 /*
@@ -1650,15 +1662,15 @@ example:
 font-style
 ----------------------------------------
 usage:
-  .italic
+  .text-italic
 ----------------------------------------
 output:
   font-style: italic;
 ----------------------------------------
 example:
-  .italic {
+  .text-italic {
     font-style: italic; }
-  .no-italic {
+  .text-no-italic {
     font-style: normal; }
 ----------------------------------------
 */
@@ -1667,13 +1679,13 @@ example:
 font-weight
 ----------------------------------------
 usage:
-  .font-[key]
+  .text-[key]
 ----------------------------------------
 output:
   font-weight: [value];
 ----------------------------------------
 example:
-  .font-300 {
+  .text-300 {
     font-weight: 300; }
 ----------------------------------------
 */
@@ -1731,13 +1743,13 @@ example:
 letter-spacing
 ----------------------------------------
 usage:
-  .letter-spacing-[key]
+  .text-ls-[key]
 ----------------------------------------
 output:
   letter-spacing: [value];
 ----------------------------------------
 example:
-  .ls-track-2 {
+  .text-ls-2 {
     letter-spacing: .1em; }
 ----------------------------------------
 */
@@ -1746,13 +1758,13 @@ example:
 line-height
 ----------------------------------------
 usage:
-  .lh-[value]
+  .line-height-[value]
 ----------------------------------------
 output:
   line-height: [value];
 ----------------------------------------
 example:
-  .lh-sans-2 {
+  .line-height-sans-2 {
     line-height: 1.15; }
 ----------------------------------------
 */
@@ -1797,14 +1809,14 @@ example:
 max-height
 ----------------------------------------
 usage:
-  .max-height-[key]
+  .maxh[key]
 ----------------------------------------
 output:
   max-height: [value];
 ----------------------------------------
 example:
-  .max-height-g40 {
-    max-height: 320px; }
+  .maxh-viewport {
+    max-height: 100vh; }
 ----------------------------------------
 */
 /*
@@ -1812,14 +1824,14 @@ example:
 max-width
 ----------------------------------------
 usage:
-  .max-width-[key]
+  .maxw-[key]
 ----------------------------------------
 output:
   max-width: [value];
 ----------------------------------------
 example:
-  .max-width-lg {
-    max-width: 1040px; }
+  .maxw-desktop {
+    max-width: 960px; }
 ----------------------------------------
 */
 /*
@@ -1844,14 +1856,14 @@ example:
 min-height
 ----------------------------------------
 usage:
-  .min-height-[key]
+  .minh-[key]
 ----------------------------------------
 output:
   min-height: [value];
 ----------------------------------------
 example:
-  .min-height-g40 {
-    min-height: 320px; }
+  .minh-card {
+    min-height: 200px; }
 ----------------------------------------
 */
 /*
@@ -1859,14 +1871,14 @@ example:
 min-width
 ----------------------------------------
 usage:
-  .min-width-[key]
+  .minw-[key]
 ----------------------------------------
 output:
   min-width: [value];
 ----------------------------------------
 example:
-  .min-width-g40 {
-    min-width: 320px; }
+  .minw-desktop {
+    min-width: 960px; }
 ----------------------------------------
 */
 /*
@@ -2021,13 +2033,13 @@ example:
 text-align
 ----------------------------------------
 usage:
-  .[key]
+  .text-[key]
 ----------------------------------------
 output:
   align: [value];
 ----------------------------------------
 example:
-  .left {
+  .text-left {
     align: left; }
 ----------------------------------------
 */
@@ -2036,13 +2048,13 @@ example:
 text-decoration
 ----------------------------------------
 usage:
-  .[key]
+  .text-[key]
 ----------------------------------------
 output:
   text-decoration: [value]
 ----------------------------------------
 example:
-  .no-underline {
+  .text-no-underline {
     text-decoration: none; }
 ----------------------------------------
 */
@@ -2081,13 +2093,13 @@ example:
 text-transform
 ----------------------------------------
 usage:
-  .[value]
+  .text-[value]
 ----------------------------------------
 output:
   text-transform: value;
 ----------------------------------------
 example:
-  .uppercase {
+  .text-uppercase {
     text-transform: uppercase; }
 ----------------------------------------
 */
@@ -2128,13 +2140,13 @@ example:
 white-space
 ----------------------------------------
 usage:
-  white-space-[key]
+  text-[key]
 ----------------------------------------
 output:
   white-space: [value];
 ----------------------------------------
 example:
-  .white-space-pre-wrap {
+  .text-pre-wrap {
     white-space: pre-wrap; }
 ----------------------------------------
 */
@@ -2170,51 +2182,51 @@ example:
     z-index: 9999; }
 ----------------------------------------
 */
-.flex-align-flex-start {
-  align-items: flex-start !important; }
+.flex-align-start {
+  align-items: start !important; }
 
 @media (min-width: 20em) {
-  .mobile\:flex-align-flex-start {
-    align-items: flex-start !important; } }
+  .mobile\:flex-align-start {
+    align-items: start !important; } }
 
 @media (min-width: 30em) {
-  .mobile-lg\:flex-align-flex-start {
-    align-items: flex-start !important; } }
+  .mobile-lg\:flex-align-start {
+    align-items: start !important; } }
 
 @media (min-width: 40em) {
-  .tablet\:flex-align-flex-start {
-    align-items: flex-start !important; } }
+  .tablet\:flex-align-start {
+    align-items: start !important; } }
 
 @media (min-width: 55em) {
-  .tablet-lg\:flex-align-flex-start {
-    align-items: flex-start !important; } }
+  .tablet-lg\:flex-align-start {
+    align-items: start !important; } }
 
 @media (min-width: 64em) {
-  .desktop\:flex-align-flex-start {
-    align-items: flex-start !important; } }
+  .desktop\:flex-align-start {
+    align-items: start !important; } }
 
-.flex-align-flex-end {
-  align-items: flex-end !important; }
+.flex-align-end {
+  align-items: end !important; }
 
 @media (min-width: 20em) {
-  .mobile\:flex-align-flex-end {
-    align-items: flex-end !important; } }
+  .mobile\:flex-align-end {
+    align-items: end !important; } }
 
 @media (min-width: 30em) {
-  .mobile-lg\:flex-align-flex-end {
-    align-items: flex-end !important; } }
+  .mobile-lg\:flex-align-end {
+    align-items: end !important; } }
 
 @media (min-width: 40em) {
-  .tablet\:flex-align-flex-end {
-    align-items: flex-end !important; } }
+  .tablet\:flex-align-end {
+    align-items: end !important; } }
 
 @media (min-width: 55em) {
-  .tablet-lg\:flex-align-flex-end {
-    align-items: flex-end !important; } }
+  .tablet-lg\:flex-align-end {
+    align-items: end !important; } }
 
 @media (min-width: 64em) {
-  .desktop\:flex-align-flex-end {
-    align-items: flex-end !important; } }
+  .desktop\:flex-align-end {
+    align-items: end !important; } }
 
 .flex-align-center {
   align-items: center !important; }
@@ -16156,165 +16168,165 @@ example:
 .cursor-not-allowed {
   cursor: not-allowed !important; }
 
-.block {
+.display-block {
   display: block !important; }
 
 @media (min-width: 20em) {
-  .mobile\:block {
+  .mobile\:display-block {
     display: block !important; } }
 
 @media (min-width: 30em) {
-  .mobile-lg\:block {
+  .mobile-lg\:display-block {
     display: block !important; } }
 
 @media (min-width: 40em) {
-  .tablet\:block {
+  .tablet\:display-block {
     display: block !important; } }
 
 @media (min-width: 55em) {
-  .tablet-lg\:block {
+  .tablet-lg\:display-block {
     display: block !important; } }
 
 @media (min-width: 64em) {
-  .desktop\:block {
+  .desktop\:display-block {
     display: block !important; } }
 
-.flex {
+.display-flex {
   display: flex !important; }
 
 @media (min-width: 20em) {
-  .mobile\:flex {
+  .mobile\:display-flex {
     display: flex !important; } }
 
 @media (min-width: 30em) {
-  .mobile-lg\:flex {
+  .mobile-lg\:display-flex {
     display: flex !important; } }
 
 @media (min-width: 40em) {
-  .tablet\:flex {
+  .tablet\:display-flex {
     display: flex !important; } }
 
 @media (min-width: 55em) {
-  .tablet-lg\:flex {
+  .tablet-lg\:display-flex {
     display: flex !important; } }
 
 @media (min-width: 64em) {
-  .desktop\:flex {
+  .desktop\:display-flex {
     display: flex !important; } }
 
-.none {
+.display-none {
   display: none !important; }
 
 @media (min-width: 20em) {
-  .mobile\:none {
+  .mobile\:display-none {
     display: none !important; } }
 
 @media (min-width: 30em) {
-  .mobile-lg\:none {
+  .mobile-lg\:display-none {
     display: none !important; } }
 
 @media (min-width: 40em) {
-  .tablet\:none {
+  .tablet\:display-none {
     display: none !important; } }
 
 @media (min-width: 55em) {
-  .tablet-lg\:none {
+  .tablet-lg\:display-none {
     display: none !important; } }
 
 @media (min-width: 64em) {
-  .desktop\:none {
+  .desktop\:display-none {
     display: none !important; } }
 
-.inline {
+.display-inline {
   display: inline !important; }
 
 @media (min-width: 20em) {
-  .mobile\:inline {
+  .mobile\:display-inline {
     display: inline !important; } }
 
 @media (min-width: 30em) {
-  .mobile-lg\:inline {
+  .mobile-lg\:display-inline {
     display: inline !important; } }
 
 @media (min-width: 40em) {
-  .tablet\:inline {
+  .tablet\:display-inline {
     display: inline !important; } }
 
 @media (min-width: 55em) {
-  .tablet-lg\:inline {
+  .tablet-lg\:display-inline {
     display: inline !important; } }
 
 @media (min-width: 64em) {
-  .desktop\:inline {
+  .desktop\:display-inline {
     display: inline !important; } }
 
-.inline-block {
+.display-inline-block {
   display: inline-block !important; }
 
 @media (min-width: 20em) {
-  .mobile\:inline-block {
+  .mobile\:display-inline-block {
     display: inline-block !important; } }
 
 @media (min-width: 30em) {
-  .mobile-lg\:inline-block {
+  .mobile-lg\:display-inline-block {
     display: inline-block !important; } }
 
 @media (min-width: 40em) {
-  .tablet\:inline-block {
+  .tablet\:display-inline-block {
     display: inline-block !important; } }
 
 @media (min-width: 55em) {
-  .tablet-lg\:inline-block {
+  .tablet-lg\:display-inline-block {
     display: inline-block !important; } }
 
 @media (min-width: 64em) {
-  .desktop\:inline-block {
+  .desktop\:display-inline-block {
     display: inline-block !important; } }
 
-.table {
+.display-table {
   display: table !important; }
 
 @media (min-width: 20em) {
-  .mobile\:table {
+  .mobile\:display-table {
     display: table !important; } }
 
 @media (min-width: 30em) {
-  .mobile-lg\:table {
+  .mobile-lg\:display-table {
     display: table !important; } }
 
 @media (min-width: 40em) {
-  .tablet\:table {
+  .tablet\:display-table {
     display: table !important; } }
 
 @media (min-width: 55em) {
-  .tablet-lg\:table {
+  .tablet-lg\:display-table {
     display: table !important; } }
 
 @media (min-width: 64em) {
-  .desktop\:table {
+  .desktop\:display-table {
     display: table !important; } }
 
-.table-cell {
+.display-table-cell {
   display: table-cell !important; }
 
 @media (min-width: 20em) {
-  .mobile\:table-cell {
+  .mobile\:display-table-cell {
     display: table-cell !important; } }
 
 @media (min-width: 30em) {
-  .mobile-lg\:table-cell {
+  .mobile-lg\:display-table-cell {
     display: table-cell !important; } }
 
 @media (min-width: 40em) {
-  .tablet\:table-cell {
+  .tablet\:display-table-cell {
     display: table-cell !important; } }
 
 @media (min-width: 55em) {
-  .tablet-lg\:table-cell {
+  .tablet-lg\:display-table-cell {
     display: table-cell !important; } }
 
 @media (min-width: 64em) {
-  .desktop\:table-cell {
+  .desktop\:display-table-cell {
     display: table-cell !important; } }
 
 .flex-1 {
@@ -16414,1429 +16426,1429 @@ example:
 .float-right {
   float: right !important; }
 
-.font-sans-1 {
+.size-sans-1 {
   font-size: 0.75rem !important; }
 
 @media (min-width: 20em) {
-  .mobile\:font-sans-1 {
+  .mobile\:size-sans-1 {
     font-size: 0.75rem !important; } }
 
 @media (min-width: 30em) {
-  .mobile-lg\:font-sans-1 {
+  .mobile-lg\:size-sans-1 {
     font-size: 0.75rem !important; } }
 
 @media (min-width: 40em) {
-  .tablet\:font-sans-1 {
+  .tablet\:size-sans-1 {
     font-size: 0.75rem !important; } }
 
 @media (min-width: 55em) {
-  .tablet-lg\:font-sans-1 {
+  .tablet-lg\:size-sans-1 {
     font-size: 0.75rem !important; } }
 
 @media (min-width: 64em) {
-  .desktop\:font-sans-1 {
+  .desktop\:size-sans-1 {
     font-size: 0.75rem !important; } }
 
-.font-sans-2 {
+.size-sans-2 {
   font-size: 0.8125rem !important; }
 
 @media (min-width: 20em) {
-  .mobile\:font-sans-2 {
+  .mobile\:size-sans-2 {
     font-size: 0.8125rem !important; } }
 
 @media (min-width: 30em) {
-  .mobile-lg\:font-sans-2 {
+  .mobile-lg\:size-sans-2 {
     font-size: 0.8125rem !important; } }
 
 @media (min-width: 40em) {
-  .tablet\:font-sans-2 {
+  .tablet\:size-sans-2 {
     font-size: 0.8125rem !important; } }
 
 @media (min-width: 55em) {
-  .tablet-lg\:font-sans-2 {
+  .tablet-lg\:size-sans-2 {
     font-size: 0.8125rem !important; } }
 
 @media (min-width: 64em) {
-  .desktop\:font-sans-2 {
+  .desktop\:size-sans-2 {
     font-size: 0.8125rem !important; } }
 
-.font-sans-3 {
+.size-sans-3 {
   font-size: 0.875rem !important; }
 
 @media (min-width: 20em) {
-  .mobile\:font-sans-3 {
+  .mobile\:size-sans-3 {
     font-size: 0.875rem !important; } }
 
 @media (min-width: 30em) {
-  .mobile-lg\:font-sans-3 {
+  .mobile-lg\:size-sans-3 {
     font-size: 0.875rem !important; } }
 
 @media (min-width: 40em) {
-  .tablet\:font-sans-3 {
+  .tablet\:size-sans-3 {
     font-size: 0.875rem !important; } }
 
 @media (min-width: 55em) {
-  .tablet-lg\:font-sans-3 {
+  .tablet-lg\:size-sans-3 {
     font-size: 0.875rem !important; } }
 
 @media (min-width: 64em) {
-  .desktop\:font-sans-3 {
+  .desktop\:size-sans-3 {
     font-size: 0.875rem !important; } }
 
-.font-sans-4 {
+.size-sans-4 {
   font-size: 0.9375rem !important; }
 
 @media (min-width: 20em) {
-  .mobile\:font-sans-4 {
+  .mobile\:size-sans-4 {
     font-size: 0.9375rem !important; } }
 
 @media (min-width: 30em) {
-  .mobile-lg\:font-sans-4 {
+  .mobile-lg\:size-sans-4 {
     font-size: 0.9375rem !important; } }
 
 @media (min-width: 40em) {
-  .tablet\:font-sans-4 {
+  .tablet\:size-sans-4 {
     font-size: 0.9375rem !important; } }
 
 @media (min-width: 55em) {
-  .tablet-lg\:font-sans-4 {
+  .tablet-lg\:size-sans-4 {
     font-size: 0.9375rem !important; } }
 
 @media (min-width: 64em) {
-  .desktop\:font-sans-4 {
+  .desktop\:size-sans-4 {
     font-size: 0.9375rem !important; } }
 
-.font-sans-5 {
+.size-sans-5 {
   font-size: 1rem !important; }
 
 @media (min-width: 20em) {
-  .mobile\:font-sans-5 {
+  .mobile\:size-sans-5 {
     font-size: 1rem !important; } }
 
 @media (min-width: 30em) {
-  .mobile-lg\:font-sans-5 {
+  .mobile-lg\:size-sans-5 {
     font-size: 1rem !important; } }
 
 @media (min-width: 40em) {
-  .tablet\:font-sans-5 {
+  .tablet\:size-sans-5 {
     font-size: 1rem !important; } }
 
 @media (min-width: 55em) {
-  .tablet-lg\:font-sans-5 {
+  .tablet-lg\:size-sans-5 {
     font-size: 1rem !important; } }
 
 @media (min-width: 64em) {
-  .desktop\:font-sans-5 {
+  .desktop\:size-sans-5 {
     font-size: 1rem !important; } }
 
-.font-sans-6 {
+.size-sans-6 {
   font-size: 1.0625rem !important; }
 
 @media (min-width: 20em) {
-  .mobile\:font-sans-6 {
+  .mobile\:size-sans-6 {
     font-size: 1.0625rem !important; } }
 
 @media (min-width: 30em) {
-  .mobile-lg\:font-sans-6 {
+  .mobile-lg\:size-sans-6 {
     font-size: 1.0625rem !important; } }
 
 @media (min-width: 40em) {
-  .tablet\:font-sans-6 {
+  .tablet\:size-sans-6 {
     font-size: 1.0625rem !important; } }
 
 @media (min-width: 55em) {
-  .tablet-lg\:font-sans-6 {
+  .tablet-lg\:size-sans-6 {
     font-size: 1.0625rem !important; } }
 
 @media (min-width: 64em) {
-  .desktop\:font-sans-6 {
+  .desktop\:size-sans-6 {
     font-size: 1.0625rem !important; } }
 
-.font-sans-7 {
+.size-sans-7 {
   font-size: 1.125rem !important; }
 
 @media (min-width: 20em) {
-  .mobile\:font-sans-7 {
+  .mobile\:size-sans-7 {
     font-size: 1.125rem !important; } }
 
 @media (min-width: 30em) {
-  .mobile-lg\:font-sans-7 {
+  .mobile-lg\:size-sans-7 {
     font-size: 1.125rem !important; } }
 
 @media (min-width: 40em) {
-  .tablet\:font-sans-7 {
+  .tablet\:size-sans-7 {
     font-size: 1.125rem !important; } }
 
 @media (min-width: 55em) {
-  .tablet-lg\:font-sans-7 {
+  .tablet-lg\:size-sans-7 {
     font-size: 1.125rem !important; } }
 
 @media (min-width: 64em) {
-  .desktop\:font-sans-7 {
+  .desktop\:size-sans-7 {
     font-size: 1.125rem !important; } }
 
-.font-sans-8 {
+.size-sans-8 {
   font-size: 1.25rem !important; }
 
 @media (min-width: 20em) {
-  .mobile\:font-sans-8 {
+  .mobile\:size-sans-8 {
     font-size: 1.25rem !important; } }
 
 @media (min-width: 30em) {
-  .mobile-lg\:font-sans-8 {
+  .mobile-lg\:size-sans-8 {
     font-size: 1.25rem !important; } }
 
 @media (min-width: 40em) {
-  .tablet\:font-sans-8 {
+  .tablet\:size-sans-8 {
     font-size: 1.25rem !important; } }
 
 @media (min-width: 55em) {
-  .tablet-lg\:font-sans-8 {
+  .tablet-lg\:size-sans-8 {
     font-size: 1.25rem !important; } }
 
 @media (min-width: 64em) {
-  .desktop\:font-sans-8 {
+  .desktop\:size-sans-8 {
     font-size: 1.25rem !important; } }
 
-.font-sans-9 {
+.size-sans-9 {
   font-size: 1.375rem !important; }
 
 @media (min-width: 20em) {
-  .mobile\:font-sans-9 {
+  .mobile\:size-sans-9 {
     font-size: 1.375rem !important; } }
 
 @media (min-width: 30em) {
-  .mobile-lg\:font-sans-9 {
+  .mobile-lg\:size-sans-9 {
     font-size: 1.375rem !important; } }
 
 @media (min-width: 40em) {
-  .tablet\:font-sans-9 {
+  .tablet\:size-sans-9 {
     font-size: 1.375rem !important; } }
 
 @media (min-width: 55em) {
-  .tablet-lg\:font-sans-9 {
+  .tablet-lg\:size-sans-9 {
     font-size: 1.375rem !important; } }
 
 @media (min-width: 64em) {
-  .desktop\:font-sans-9 {
+  .desktop\:size-sans-9 {
     font-size: 1.375rem !important; } }
 
-.font-sans-10 {
+.size-sans-10 {
   font-size: 1.5rem !important; }
 
 @media (min-width: 20em) {
-  .mobile\:font-sans-10 {
+  .mobile\:size-sans-10 {
     font-size: 1.5rem !important; } }
 
 @media (min-width: 30em) {
-  .mobile-lg\:font-sans-10 {
+  .mobile-lg\:size-sans-10 {
     font-size: 1.5rem !important; } }
 
 @media (min-width: 40em) {
-  .tablet\:font-sans-10 {
+  .tablet\:size-sans-10 {
     font-size: 1.5rem !important; } }
 
 @media (min-width: 55em) {
-  .tablet-lg\:font-sans-10 {
+  .tablet-lg\:size-sans-10 {
     font-size: 1.5rem !important; } }
 
 @media (min-width: 64em) {
-  .desktop\:font-sans-10 {
+  .desktop\:size-sans-10 {
     font-size: 1.5rem !important; } }
 
-.font-sans-11 {
+.size-sans-11 {
   font-size: 1.75rem !important; }
 
 @media (min-width: 20em) {
-  .mobile\:font-sans-11 {
+  .mobile\:size-sans-11 {
     font-size: 1.75rem !important; } }
 
 @media (min-width: 30em) {
-  .mobile-lg\:font-sans-11 {
+  .mobile-lg\:size-sans-11 {
     font-size: 1.75rem !important; } }
 
 @media (min-width: 40em) {
-  .tablet\:font-sans-11 {
+  .tablet\:size-sans-11 {
     font-size: 1.75rem !important; } }
 
 @media (min-width: 55em) {
-  .tablet-lg\:font-sans-11 {
+  .tablet-lg\:size-sans-11 {
     font-size: 1.75rem !important; } }
 
 @media (min-width: 64em) {
-  .desktop\:font-sans-11 {
+  .desktop\:size-sans-11 {
     font-size: 1.75rem !important; } }
 
-.font-sans-12 {
+.size-sans-12 {
   font-size: 2rem !important; }
 
 @media (min-width: 20em) {
-  .mobile\:font-sans-12 {
+  .mobile\:size-sans-12 {
     font-size: 2rem !important; } }
 
 @media (min-width: 30em) {
-  .mobile-lg\:font-sans-12 {
+  .mobile-lg\:size-sans-12 {
     font-size: 2rem !important; } }
 
 @media (min-width: 40em) {
-  .tablet\:font-sans-12 {
+  .tablet\:size-sans-12 {
     font-size: 2rem !important; } }
 
 @media (min-width: 55em) {
-  .tablet-lg\:font-sans-12 {
+  .tablet-lg\:size-sans-12 {
     font-size: 2rem !important; } }
 
 @media (min-width: 64em) {
-  .desktop\:font-sans-12 {
+  .desktop\:size-sans-12 {
     font-size: 2rem !important; } }
 
-.font-sans-13 {
+.size-sans-13 {
   font-size: 2.25rem !important; }
 
 @media (min-width: 20em) {
-  .mobile\:font-sans-13 {
+  .mobile\:size-sans-13 {
     font-size: 2.25rem !important; } }
 
 @media (min-width: 30em) {
-  .mobile-lg\:font-sans-13 {
+  .mobile-lg\:size-sans-13 {
     font-size: 2.25rem !important; } }
 
 @media (min-width: 40em) {
-  .tablet\:font-sans-13 {
+  .tablet\:size-sans-13 {
     font-size: 2.25rem !important; } }
 
 @media (min-width: 55em) {
-  .tablet-lg\:font-sans-13 {
+  .tablet-lg\:size-sans-13 {
     font-size: 2.25rem !important; } }
 
 @media (min-width: 64em) {
-  .desktop\:font-sans-13 {
+  .desktop\:size-sans-13 {
     font-size: 2.25rem !important; } }
 
-.font-sans-14 {
+.size-sans-14 {
   font-size: 2.5rem !important; }
 
 @media (min-width: 20em) {
-  .mobile\:font-sans-14 {
+  .mobile\:size-sans-14 {
     font-size: 2.5rem !important; } }
 
 @media (min-width: 30em) {
-  .mobile-lg\:font-sans-14 {
+  .mobile-lg\:size-sans-14 {
     font-size: 2.5rem !important; } }
 
 @media (min-width: 40em) {
-  .tablet\:font-sans-14 {
+  .tablet\:size-sans-14 {
     font-size: 2.5rem !important; } }
 
 @media (min-width: 55em) {
-  .tablet-lg\:font-sans-14 {
+  .tablet-lg\:size-sans-14 {
     font-size: 2.5rem !important; } }
 
 @media (min-width: 64em) {
-  .desktop\:font-sans-14 {
+  .desktop\:size-sans-14 {
     font-size: 2.5rem !important; } }
 
-.font-sans-15 {
+.size-sans-15 {
   font-size: 3rem !important; }
 
 @media (min-width: 20em) {
-  .mobile\:font-sans-15 {
+  .mobile\:size-sans-15 {
     font-size: 3rem !important; } }
 
 @media (min-width: 30em) {
-  .mobile-lg\:font-sans-15 {
+  .mobile-lg\:size-sans-15 {
     font-size: 3rem !important; } }
 
 @media (min-width: 40em) {
-  .tablet\:font-sans-15 {
+  .tablet\:size-sans-15 {
     font-size: 3rem !important; } }
 
 @media (min-width: 55em) {
-  .tablet-lg\:font-sans-15 {
+  .tablet-lg\:size-sans-15 {
     font-size: 3rem !important; } }
 
 @media (min-width: 64em) {
-  .desktop\:font-sans-15 {
+  .desktop\:size-sans-15 {
     font-size: 3rem !important; } }
 
-.font-sans-16 {
+.size-sans-16 {
   font-size: 3.5rem !important; }
 
 @media (min-width: 20em) {
-  .mobile\:font-sans-16 {
+  .mobile\:size-sans-16 {
     font-size: 3.5rem !important; } }
 
 @media (min-width: 30em) {
-  .mobile-lg\:font-sans-16 {
+  .mobile-lg\:size-sans-16 {
     font-size: 3.5rem !important; } }
 
 @media (min-width: 40em) {
-  .tablet\:font-sans-16 {
+  .tablet\:size-sans-16 {
     font-size: 3.5rem !important; } }
 
 @media (min-width: 55em) {
-  .tablet-lg\:font-sans-16 {
+  .tablet-lg\:size-sans-16 {
     font-size: 3.5rem !important; } }
 
 @media (min-width: 64em) {
-  .desktop\:font-sans-16 {
+  .desktop\:size-sans-16 {
     font-size: 3.5rem !important; } }
 
-.font-sans-17 {
+.size-sans-17 {
   font-size: 4rem !important; }
 
 @media (min-width: 20em) {
-  .mobile\:font-sans-17 {
+  .mobile\:size-sans-17 {
     font-size: 4rem !important; } }
 
 @media (min-width: 30em) {
-  .mobile-lg\:font-sans-17 {
+  .mobile-lg\:size-sans-17 {
     font-size: 4rem !important; } }
 
 @media (min-width: 40em) {
-  .tablet\:font-sans-17 {
+  .tablet\:size-sans-17 {
     font-size: 4rem !important; } }
 
 @media (min-width: 55em) {
-  .tablet-lg\:font-sans-17 {
+  .tablet-lg\:size-sans-17 {
     font-size: 4rem !important; } }
 
 @media (min-width: 64em) {
-  .desktop\:font-sans-17 {
+  .desktop\:size-sans-17 {
     font-size: 4rem !important; } }
 
-.font-sans-18 {
+.size-sans-18 {
   font-size: 5rem !important; }
 
 @media (min-width: 20em) {
-  .mobile\:font-sans-18 {
+  .mobile\:size-sans-18 {
     font-size: 5rem !important; } }
 
 @media (min-width: 30em) {
-  .mobile-lg\:font-sans-18 {
+  .mobile-lg\:size-sans-18 {
     font-size: 5rem !important; } }
 
 @media (min-width: 40em) {
-  .tablet\:font-sans-18 {
+  .tablet\:size-sans-18 {
     font-size: 5rem !important; } }
 
 @media (min-width: 55em) {
-  .tablet-lg\:font-sans-18 {
+  .tablet-lg\:size-sans-18 {
     font-size: 5rem !important; } }
 
 @media (min-width: 64em) {
-  .desktop\:font-sans-18 {
+  .desktop\:size-sans-18 {
     font-size: 5rem !important; } }
 
-.font-sans-19 {
+.size-sans-19 {
   font-size: 7.5rem !important; }
 
 @media (min-width: 20em) {
-  .mobile\:font-sans-19 {
+  .mobile\:size-sans-19 {
     font-size: 7.5rem !important; } }
 
 @media (min-width: 30em) {
-  .mobile-lg\:font-sans-19 {
+  .mobile-lg\:size-sans-19 {
     font-size: 7.5rem !important; } }
 
 @media (min-width: 40em) {
-  .tablet\:font-sans-19 {
+  .tablet\:size-sans-19 {
     font-size: 7.5rem !important; } }
 
 @media (min-width: 55em) {
-  .tablet-lg\:font-sans-19 {
+  .tablet-lg\:size-sans-19 {
     font-size: 7.5rem !important; } }
 
 @media (min-width: 64em) {
-  .desktop\:font-sans-19 {
+  .desktop\:size-sans-19 {
     font-size: 7.5rem !important; } }
 
-.font-sans-20 {
+.size-sans-20 {
   font-size: 8.75rem !important; }
 
 @media (min-width: 20em) {
-  .mobile\:font-sans-20 {
+  .mobile\:size-sans-20 {
     font-size: 8.75rem !important; } }
 
 @media (min-width: 30em) {
-  .mobile-lg\:font-sans-20 {
+  .mobile-lg\:size-sans-20 {
     font-size: 8.75rem !important; } }
 
 @media (min-width: 40em) {
-  .tablet\:font-sans-20 {
+  .tablet\:size-sans-20 {
     font-size: 8.75rem !important; } }
 
 @media (min-width: 55em) {
-  .tablet-lg\:font-sans-20 {
+  .tablet-lg\:size-sans-20 {
     font-size: 8.75rem !important; } }
 
 @media (min-width: 64em) {
-  .desktop\:font-sans-20 {
+  .desktop\:size-sans-20 {
     font-size: 8.75rem !important; } }
 
-.font-serif-1 {
+.size-serif-1 {
   font-size: 0.78468rem !important; }
 
 @media (min-width: 20em) {
-  .mobile\:font-serif-1 {
+  .mobile\:size-serif-1 {
     font-size: 0.78468rem !important; } }
 
 @media (min-width: 30em) {
-  .mobile-lg\:font-serif-1 {
+  .mobile-lg\:size-serif-1 {
     font-size: 0.78468rem !important; } }
 
 @media (min-width: 40em) {
-  .tablet\:font-serif-1 {
+  .tablet\:size-serif-1 {
     font-size: 0.78468rem !important; } }
 
 @media (min-width: 55em) {
-  .tablet-lg\:font-serif-1 {
+  .tablet-lg\:size-serif-1 {
     font-size: 0.78468rem !important; } }
 
 @media (min-width: 64em) {
-  .desktop\:font-serif-1 {
+  .desktop\:size-serif-1 {
     font-size: 0.78468rem !important; } }
 
-.font-serif-2 {
+.size-serif-2 {
   font-size: 0.85007rem !important; }
 
 @media (min-width: 20em) {
-  .mobile\:font-serif-2 {
+  .mobile\:size-serif-2 {
     font-size: 0.85007rem !important; } }
 
 @media (min-width: 30em) {
-  .mobile-lg\:font-serif-2 {
+  .mobile-lg\:size-serif-2 {
     font-size: 0.85007rem !important; } }
 
 @media (min-width: 40em) {
-  .tablet\:font-serif-2 {
+  .tablet\:size-serif-2 {
     font-size: 0.85007rem !important; } }
 
 @media (min-width: 55em) {
-  .tablet-lg\:font-serif-2 {
+  .tablet-lg\:size-serif-2 {
     font-size: 0.85007rem !important; } }
 
 @media (min-width: 64em) {
-  .desktop\:font-serif-2 {
+  .desktop\:size-serif-2 {
     font-size: 0.85007rem !important; } }
 
-.font-serif-3 {
+.size-serif-3 {
   font-size: 0.91546rem !important; }
 
 @media (min-width: 20em) {
-  .mobile\:font-serif-3 {
+  .mobile\:size-serif-3 {
     font-size: 0.91546rem !important; } }
 
 @media (min-width: 30em) {
-  .mobile-lg\:font-serif-3 {
+  .mobile-lg\:size-serif-3 {
     font-size: 0.91546rem !important; } }
 
 @media (min-width: 40em) {
-  .tablet\:font-serif-3 {
+  .tablet\:size-serif-3 {
     font-size: 0.91546rem !important; } }
 
 @media (min-width: 55em) {
-  .tablet-lg\:font-serif-3 {
+  .tablet-lg\:size-serif-3 {
     font-size: 0.91546rem !important; } }
 
 @media (min-width: 64em) {
-  .desktop\:font-serif-3 {
+  .desktop\:size-serif-3 {
     font-size: 0.91546rem !important; } }
 
-.font-serif-4 {
+.size-serif-4 {
   font-size: 0.98085rem !important; }
 
 @media (min-width: 20em) {
-  .mobile\:font-serif-4 {
+  .mobile\:size-serif-4 {
     font-size: 0.98085rem !important; } }
 
 @media (min-width: 30em) {
-  .mobile-lg\:font-serif-4 {
+  .mobile-lg\:size-serif-4 {
     font-size: 0.98085rem !important; } }
 
 @media (min-width: 40em) {
-  .tablet\:font-serif-4 {
+  .tablet\:size-serif-4 {
     font-size: 0.98085rem !important; } }
 
 @media (min-width: 55em) {
-  .tablet-lg\:font-serif-4 {
+  .tablet-lg\:size-serif-4 {
     font-size: 0.98085rem !important; } }
 
 @media (min-width: 64em) {
-  .desktop\:font-serif-4 {
+  .desktop\:size-serif-4 {
     font-size: 0.98085rem !important; } }
 
-.font-serif-5 {
+.size-serif-5 {
   font-size: 1.04624rem !important; }
 
 @media (min-width: 20em) {
-  .mobile\:font-serif-5 {
+  .mobile\:size-serif-5 {
     font-size: 1.04624rem !important; } }
 
 @media (min-width: 30em) {
-  .mobile-lg\:font-serif-5 {
+  .mobile-lg\:size-serif-5 {
     font-size: 1.04624rem !important; } }
 
 @media (min-width: 40em) {
-  .tablet\:font-serif-5 {
+  .tablet\:size-serif-5 {
     font-size: 1.04624rem !important; } }
 
 @media (min-width: 55em) {
-  .tablet-lg\:font-serif-5 {
+  .tablet-lg\:size-serif-5 {
     font-size: 1.04624rem !important; } }
 
 @media (min-width: 64em) {
-  .desktop\:font-serif-5 {
+  .desktop\:size-serif-5 {
     font-size: 1.04624rem !important; } }
 
-.font-serif-6 {
+.size-serif-6 {
   font-size: 1.11163rem !important; }
 
 @media (min-width: 20em) {
-  .mobile\:font-serif-6 {
+  .mobile\:size-serif-6 {
     font-size: 1.11163rem !important; } }
 
 @media (min-width: 30em) {
-  .mobile-lg\:font-serif-6 {
+  .mobile-lg\:size-serif-6 {
     font-size: 1.11163rem !important; } }
 
 @media (min-width: 40em) {
-  .tablet\:font-serif-6 {
+  .tablet\:size-serif-6 {
     font-size: 1.11163rem !important; } }
 
 @media (min-width: 55em) {
-  .tablet-lg\:font-serif-6 {
+  .tablet-lg\:size-serif-6 {
     font-size: 1.11163rem !important; } }
 
 @media (min-width: 64em) {
-  .desktop\:font-serif-6 {
+  .desktop\:size-serif-6 {
     font-size: 1.11163rem !important; } }
 
-.font-serif-7 {
+.size-serif-7 {
   font-size: 1.17702rem !important; }
 
 @media (min-width: 20em) {
-  .mobile\:font-serif-7 {
+  .mobile\:size-serif-7 {
     font-size: 1.17702rem !important; } }
 
 @media (min-width: 30em) {
-  .mobile-lg\:font-serif-7 {
+  .mobile-lg\:size-serif-7 {
     font-size: 1.17702rem !important; } }
 
 @media (min-width: 40em) {
-  .tablet\:font-serif-7 {
+  .tablet\:size-serif-7 {
     font-size: 1.17702rem !important; } }
 
 @media (min-width: 55em) {
-  .tablet-lg\:font-serif-7 {
+  .tablet-lg\:size-serif-7 {
     font-size: 1.17702rem !important; } }
 
 @media (min-width: 64em) {
-  .desktop\:font-serif-7 {
+  .desktop\:size-serif-7 {
     font-size: 1.17702rem !important; } }
 
-.font-serif-8 {
+.size-serif-8 {
   font-size: 1.3078rem !important; }
 
 @media (min-width: 20em) {
-  .mobile\:font-serif-8 {
+  .mobile\:size-serif-8 {
     font-size: 1.3078rem !important; } }
 
 @media (min-width: 30em) {
-  .mobile-lg\:font-serif-8 {
+  .mobile-lg\:size-serif-8 {
     font-size: 1.3078rem !important; } }
 
 @media (min-width: 40em) {
-  .tablet\:font-serif-8 {
+  .tablet\:size-serif-8 {
     font-size: 1.3078rem !important; } }
 
 @media (min-width: 55em) {
-  .tablet-lg\:font-serif-8 {
+  .tablet-lg\:size-serif-8 {
     font-size: 1.3078rem !important; } }
 
 @media (min-width: 64em) {
-  .desktop\:font-serif-8 {
+  .desktop\:size-serif-8 {
     font-size: 1.3078rem !important; } }
 
-.font-serif-9 {
+.size-serif-9 {
   font-size: 1.43858rem !important; }
 
 @media (min-width: 20em) {
-  .mobile\:font-serif-9 {
+  .mobile\:size-serif-9 {
     font-size: 1.43858rem !important; } }
 
 @media (min-width: 30em) {
-  .mobile-lg\:font-serif-9 {
+  .mobile-lg\:size-serif-9 {
     font-size: 1.43858rem !important; } }
 
 @media (min-width: 40em) {
-  .tablet\:font-serif-9 {
+  .tablet\:size-serif-9 {
     font-size: 1.43858rem !important; } }
 
 @media (min-width: 55em) {
-  .tablet-lg\:font-serif-9 {
+  .tablet-lg\:size-serif-9 {
     font-size: 1.43858rem !important; } }
 
 @media (min-width: 64em) {
-  .desktop\:font-serif-9 {
+  .desktop\:size-serif-9 {
     font-size: 1.43858rem !important; } }
 
-.font-serif-10 {
+.size-serif-10 {
   font-size: 1.56936rem !important; }
 
 @media (min-width: 20em) {
-  .mobile\:font-serif-10 {
+  .mobile\:size-serif-10 {
     font-size: 1.56936rem !important; } }
 
 @media (min-width: 30em) {
-  .mobile-lg\:font-serif-10 {
+  .mobile-lg\:size-serif-10 {
     font-size: 1.56936rem !important; } }
 
 @media (min-width: 40em) {
-  .tablet\:font-serif-10 {
+  .tablet\:size-serif-10 {
     font-size: 1.56936rem !important; } }
 
 @media (min-width: 55em) {
-  .tablet-lg\:font-serif-10 {
+  .tablet-lg\:size-serif-10 {
     font-size: 1.56936rem !important; } }
 
 @media (min-width: 64em) {
-  .desktop\:font-serif-10 {
+  .desktop\:size-serif-10 {
     font-size: 1.56936rem !important; } }
 
-.font-serif-11 {
+.size-serif-11 {
   font-size: 1.83092rem !important; }
 
 @media (min-width: 20em) {
-  .mobile\:font-serif-11 {
+  .mobile\:size-serif-11 {
     font-size: 1.83092rem !important; } }
 
 @media (min-width: 30em) {
-  .mobile-lg\:font-serif-11 {
+  .mobile-lg\:size-serif-11 {
     font-size: 1.83092rem !important; } }
 
 @media (min-width: 40em) {
-  .tablet\:font-serif-11 {
+  .tablet\:size-serif-11 {
     font-size: 1.83092rem !important; } }
 
 @media (min-width: 55em) {
-  .tablet-lg\:font-serif-11 {
+  .tablet-lg\:size-serif-11 {
     font-size: 1.83092rem !important; } }
 
 @media (min-width: 64em) {
-  .desktop\:font-serif-11 {
+  .desktop\:size-serif-11 {
     font-size: 1.83092rem !important; } }
 
-.font-serif-12 {
+.size-serif-12 {
   font-size: 2.09249rem !important; }
 
 @media (min-width: 20em) {
-  .mobile\:font-serif-12 {
+  .mobile\:size-serif-12 {
     font-size: 2.09249rem !important; } }
 
 @media (min-width: 30em) {
-  .mobile-lg\:font-serif-12 {
+  .mobile-lg\:size-serif-12 {
     font-size: 2.09249rem !important; } }
 
 @media (min-width: 40em) {
-  .tablet\:font-serif-12 {
+  .tablet\:size-serif-12 {
     font-size: 2.09249rem !important; } }
 
 @media (min-width: 55em) {
-  .tablet-lg\:font-serif-12 {
+  .tablet-lg\:size-serif-12 {
     font-size: 2.09249rem !important; } }
 
 @media (min-width: 64em) {
-  .desktop\:font-serif-12 {
+  .desktop\:size-serif-12 {
     font-size: 2.09249rem !important; } }
 
-.font-serif-13 {
+.size-serif-13 {
   font-size: 2.35405rem !important; }
 
 @media (min-width: 20em) {
-  .mobile\:font-serif-13 {
+  .mobile\:size-serif-13 {
     font-size: 2.35405rem !important; } }
 
 @media (min-width: 30em) {
-  .mobile-lg\:font-serif-13 {
+  .mobile-lg\:size-serif-13 {
     font-size: 2.35405rem !important; } }
 
 @media (min-width: 40em) {
-  .tablet\:font-serif-13 {
+  .tablet\:size-serif-13 {
     font-size: 2.35405rem !important; } }
 
 @media (min-width: 55em) {
-  .tablet-lg\:font-serif-13 {
+  .tablet-lg\:size-serif-13 {
     font-size: 2.35405rem !important; } }
 
 @media (min-width: 64em) {
-  .desktop\:font-serif-13 {
+  .desktop\:size-serif-13 {
     font-size: 2.35405rem !important; } }
 
-.font-serif-14 {
+.size-serif-14 {
   font-size: 2.61561rem !important; }
 
 @media (min-width: 20em) {
-  .mobile\:font-serif-14 {
+  .mobile\:size-serif-14 {
     font-size: 2.61561rem !important; } }
 
 @media (min-width: 30em) {
-  .mobile-lg\:font-serif-14 {
+  .mobile-lg\:size-serif-14 {
     font-size: 2.61561rem !important; } }
 
 @media (min-width: 40em) {
-  .tablet\:font-serif-14 {
+  .tablet\:size-serif-14 {
     font-size: 2.61561rem !important; } }
 
 @media (min-width: 55em) {
-  .tablet-lg\:font-serif-14 {
+  .tablet-lg\:size-serif-14 {
     font-size: 2.61561rem !important; } }
 
 @media (min-width: 64em) {
-  .desktop\:font-serif-14 {
+  .desktop\:size-serif-14 {
     font-size: 2.61561rem !important; } }
 
-.font-serif-15 {
+.size-serif-15 {
   font-size: 3.13873rem !important; }
 
 @media (min-width: 20em) {
-  .mobile\:font-serif-15 {
+  .mobile\:size-serif-15 {
     font-size: 3.13873rem !important; } }
 
 @media (min-width: 30em) {
-  .mobile-lg\:font-serif-15 {
+  .mobile-lg\:size-serif-15 {
     font-size: 3.13873rem !important; } }
 
 @media (min-width: 40em) {
-  .tablet\:font-serif-15 {
+  .tablet\:size-serif-15 {
     font-size: 3.13873rem !important; } }
 
 @media (min-width: 55em) {
-  .tablet-lg\:font-serif-15 {
+  .tablet-lg\:size-serif-15 {
     font-size: 3.13873rem !important; } }
 
 @media (min-width: 64em) {
-  .desktop\:font-serif-15 {
+  .desktop\:size-serif-15 {
     font-size: 3.13873rem !important; } }
 
-.font-serif-16 {
+.size-serif-16 {
   font-size: 3.66185rem !important; }
 
 @media (min-width: 20em) {
-  .mobile\:font-serif-16 {
+  .mobile\:size-serif-16 {
     font-size: 3.66185rem !important; } }
 
 @media (min-width: 30em) {
-  .mobile-lg\:font-serif-16 {
+  .mobile-lg\:size-serif-16 {
     font-size: 3.66185rem !important; } }
 
 @media (min-width: 40em) {
-  .tablet\:font-serif-16 {
+  .tablet\:size-serif-16 {
     font-size: 3.66185rem !important; } }
 
 @media (min-width: 55em) {
-  .tablet-lg\:font-serif-16 {
+  .tablet-lg\:size-serif-16 {
     font-size: 3.66185rem !important; } }
 
 @media (min-width: 64em) {
-  .desktop\:font-serif-16 {
+  .desktop\:size-serif-16 {
     font-size: 3.66185rem !important; } }
 
-.font-serif-17 {
+.size-serif-17 {
   font-size: 4.18497rem !important; }
 
 @media (min-width: 20em) {
-  .mobile\:font-serif-17 {
+  .mobile\:size-serif-17 {
     font-size: 4.18497rem !important; } }
 
 @media (min-width: 30em) {
-  .mobile-lg\:font-serif-17 {
+  .mobile-lg\:size-serif-17 {
     font-size: 4.18497rem !important; } }
 
 @media (min-width: 40em) {
-  .tablet\:font-serif-17 {
+  .tablet\:size-serif-17 {
     font-size: 4.18497rem !important; } }
 
 @media (min-width: 55em) {
-  .tablet-lg\:font-serif-17 {
+  .tablet-lg\:size-serif-17 {
     font-size: 4.18497rem !important; } }
 
 @media (min-width: 64em) {
-  .desktop\:font-serif-17 {
+  .desktop\:size-serif-17 {
     font-size: 4.18497rem !important; } }
 
-.font-serif-18 {
+.size-serif-18 {
   font-size: 5.23121rem !important; }
 
 @media (min-width: 20em) {
-  .mobile\:font-serif-18 {
+  .mobile\:size-serif-18 {
     font-size: 5.23121rem !important; } }
 
 @media (min-width: 30em) {
-  .mobile-lg\:font-serif-18 {
+  .mobile-lg\:size-serif-18 {
     font-size: 5.23121rem !important; } }
 
 @media (min-width: 40em) {
-  .tablet\:font-serif-18 {
+  .tablet\:size-serif-18 {
     font-size: 5.23121rem !important; } }
 
 @media (min-width: 55em) {
-  .tablet-lg\:font-serif-18 {
+  .tablet-lg\:size-serif-18 {
     font-size: 5.23121rem !important; } }
 
 @media (min-width: 64em) {
-  .desktop\:font-serif-18 {
+  .desktop\:size-serif-18 {
     font-size: 5.23121rem !important; } }
 
-.font-serif-19 {
+.size-serif-19 {
   font-size: 7.84682rem !important; }
 
 @media (min-width: 20em) {
-  .mobile\:font-serif-19 {
+  .mobile\:size-serif-19 {
     font-size: 7.84682rem !important; } }
 
 @media (min-width: 30em) {
-  .mobile-lg\:font-serif-19 {
+  .mobile-lg\:size-serif-19 {
     font-size: 7.84682rem !important; } }
 
 @media (min-width: 40em) {
-  .tablet\:font-serif-19 {
+  .tablet\:size-serif-19 {
     font-size: 7.84682rem !important; } }
 
 @media (min-width: 55em) {
-  .tablet-lg\:font-serif-19 {
+  .tablet-lg\:size-serif-19 {
     font-size: 7.84682rem !important; } }
 
 @media (min-width: 64em) {
-  .desktop\:font-serif-19 {
+  .desktop\:size-serif-19 {
     font-size: 7.84682rem !important; } }
 
-.font-serif-20 {
+.size-serif-20 {
   font-size: 9.15462rem !important; }
 
 @media (min-width: 20em) {
-  .mobile\:font-serif-20 {
+  .mobile\:size-serif-20 {
     font-size: 9.15462rem !important; } }
 
 @media (min-width: 30em) {
-  .mobile-lg\:font-serif-20 {
+  .mobile-lg\:size-serif-20 {
     font-size: 9.15462rem !important; } }
 
 @media (min-width: 40em) {
-  .tablet\:font-serif-20 {
+  .tablet\:size-serif-20 {
     font-size: 9.15462rem !important; } }
 
 @media (min-width: 55em) {
-  .tablet-lg\:font-serif-20 {
+  .tablet-lg\:size-serif-20 {
     font-size: 9.15462rem !important; } }
 
 @media (min-width: 64em) {
-  .desktop\:font-serif-20 {
+  .desktop\:size-serif-20 {
     font-size: 9.15462rem !important; } }
 
-.font-mono-1 {
+.size-mono-1 {
   font-size: 0.71447rem !important; }
 
 @media (min-width: 20em) {
-  .mobile\:font-mono-1 {
+  .mobile\:size-mono-1 {
     font-size: 0.71447rem !important; } }
 
 @media (min-width: 30em) {
-  .mobile-lg\:font-mono-1 {
+  .mobile-lg\:size-mono-1 {
     font-size: 0.71447rem !important; } }
 
 @media (min-width: 40em) {
-  .tablet\:font-mono-1 {
+  .tablet\:size-mono-1 {
     font-size: 0.71447rem !important; } }
 
 @media (min-width: 55em) {
-  .tablet-lg\:font-mono-1 {
+  .tablet-lg\:size-mono-1 {
     font-size: 0.71447rem !important; } }
 
 @media (min-width: 64em) {
-  .desktop\:font-mono-1 {
+  .desktop\:size-mono-1 {
     font-size: 0.71447rem !important; } }
 
-.font-mono-2 {
+.size-mono-2 {
   font-size: 0.77401rem !important; }
 
 @media (min-width: 20em) {
-  .mobile\:font-mono-2 {
+  .mobile\:size-mono-2 {
     font-size: 0.77401rem !important; } }
 
 @media (min-width: 30em) {
-  .mobile-lg\:font-mono-2 {
+  .mobile-lg\:size-mono-2 {
     font-size: 0.77401rem !important; } }
 
 @media (min-width: 40em) {
-  .tablet\:font-mono-2 {
+  .tablet\:size-mono-2 {
     font-size: 0.77401rem !important; } }
 
 @media (min-width: 55em) {
-  .tablet-lg\:font-mono-2 {
+  .tablet-lg\:size-mono-2 {
     font-size: 0.77401rem !important; } }
 
 @media (min-width: 64em) {
-  .desktop\:font-mono-2 {
+  .desktop\:size-mono-2 {
     font-size: 0.77401rem !important; } }
 
-.font-mono-3 {
+.size-mono-3 {
   font-size: 0.83355rem !important; }
 
 @media (min-width: 20em) {
-  .mobile\:font-mono-3 {
+  .mobile\:size-mono-3 {
     font-size: 0.83355rem !important; } }
 
 @media (min-width: 30em) {
-  .mobile-lg\:font-mono-3 {
+  .mobile-lg\:size-mono-3 {
     font-size: 0.83355rem !important; } }
 
 @media (min-width: 40em) {
-  .tablet\:font-mono-3 {
+  .tablet\:size-mono-3 {
     font-size: 0.83355rem !important; } }
 
 @media (min-width: 55em) {
-  .tablet-lg\:font-mono-3 {
+  .tablet-lg\:size-mono-3 {
     font-size: 0.83355rem !important; } }
 
 @media (min-width: 64em) {
-  .desktop\:font-mono-3 {
+  .desktop\:size-mono-3 {
     font-size: 0.83355rem !important; } }
 
-.font-mono-4 {
+.size-mono-4 {
   font-size: 0.89309rem !important; }
 
 @media (min-width: 20em) {
-  .mobile\:font-mono-4 {
+  .mobile\:size-mono-4 {
     font-size: 0.89309rem !important; } }
 
 @media (min-width: 30em) {
-  .mobile-lg\:font-mono-4 {
+  .mobile-lg\:size-mono-4 {
     font-size: 0.89309rem !important; } }
 
 @media (min-width: 40em) {
-  .tablet\:font-mono-4 {
+  .tablet\:size-mono-4 {
     font-size: 0.89309rem !important; } }
 
 @media (min-width: 55em) {
-  .tablet-lg\:font-mono-4 {
+  .tablet-lg\:size-mono-4 {
     font-size: 0.89309rem !important; } }
 
 @media (min-width: 64em) {
-  .desktop\:font-mono-4 {
+  .desktop\:size-mono-4 {
     font-size: 0.89309rem !important; } }
 
-.font-mono-5 {
+.size-mono-5 {
   font-size: 0.95263rem !important; }
 
 @media (min-width: 20em) {
-  .mobile\:font-mono-5 {
+  .mobile\:size-mono-5 {
     font-size: 0.95263rem !important; } }
 
 @media (min-width: 30em) {
-  .mobile-lg\:font-mono-5 {
+  .mobile-lg\:size-mono-5 {
     font-size: 0.95263rem !important; } }
 
 @media (min-width: 40em) {
-  .tablet\:font-mono-5 {
+  .tablet\:size-mono-5 {
     font-size: 0.95263rem !important; } }
 
 @media (min-width: 55em) {
-  .tablet-lg\:font-mono-5 {
+  .tablet-lg\:size-mono-5 {
     font-size: 0.95263rem !important; } }
 
 @media (min-width: 64em) {
-  .desktop\:font-mono-5 {
+  .desktop\:size-mono-5 {
     font-size: 0.95263rem !important; } }
 
-.font-mono-6 {
+.size-mono-6 {
   font-size: 1.01217rem !important; }
 
 @media (min-width: 20em) {
-  .mobile\:font-mono-6 {
+  .mobile\:size-mono-6 {
     font-size: 1.01217rem !important; } }
 
 @media (min-width: 30em) {
-  .mobile-lg\:font-mono-6 {
+  .mobile-lg\:size-mono-6 {
     font-size: 1.01217rem !important; } }
 
 @media (min-width: 40em) {
-  .tablet\:font-mono-6 {
+  .tablet\:size-mono-6 {
     font-size: 1.01217rem !important; } }
 
 @media (min-width: 55em) {
-  .tablet-lg\:font-mono-6 {
+  .tablet-lg\:size-mono-6 {
     font-size: 1.01217rem !important; } }
 
 @media (min-width: 64em) {
-  .desktop\:font-mono-6 {
+  .desktop\:size-mono-6 {
     font-size: 1.01217rem !important; } }
 
-.font-mono-7 {
+.size-mono-7 {
   font-size: 1.07171rem !important; }
 
 @media (min-width: 20em) {
-  .mobile\:font-mono-7 {
+  .mobile\:size-mono-7 {
     font-size: 1.07171rem !important; } }
 
 @media (min-width: 30em) {
-  .mobile-lg\:font-mono-7 {
+  .mobile-lg\:size-mono-7 {
     font-size: 1.07171rem !important; } }
 
 @media (min-width: 40em) {
-  .tablet\:font-mono-7 {
+  .tablet\:size-mono-7 {
     font-size: 1.07171rem !important; } }
 
 @media (min-width: 55em) {
-  .tablet-lg\:font-mono-7 {
+  .tablet-lg\:size-mono-7 {
     font-size: 1.07171rem !important; } }
 
 @media (min-width: 64em) {
-  .desktop\:font-mono-7 {
+  .desktop\:size-mono-7 {
     font-size: 1.07171rem !important; } }
 
-.font-mono-8 {
+.size-mono-8 {
   font-size: 1.19079rem !important; }
 
 @media (min-width: 20em) {
-  .mobile\:font-mono-8 {
+  .mobile\:size-mono-8 {
     font-size: 1.19079rem !important; } }
 
 @media (min-width: 30em) {
-  .mobile-lg\:font-mono-8 {
+  .mobile-lg\:size-mono-8 {
     font-size: 1.19079rem !important; } }
 
 @media (min-width: 40em) {
-  .tablet\:font-mono-8 {
+  .tablet\:size-mono-8 {
     font-size: 1.19079rem !important; } }
 
 @media (min-width: 55em) {
-  .tablet-lg\:font-mono-8 {
+  .tablet-lg\:size-mono-8 {
     font-size: 1.19079rem !important; } }
 
 @media (min-width: 64em) {
-  .desktop\:font-mono-8 {
+  .desktop\:size-mono-8 {
     font-size: 1.19079rem !important; } }
 
-.font-mono-9 {
+.size-mono-9 {
   font-size: 1.30987rem !important; }
 
 @media (min-width: 20em) {
-  .mobile\:font-mono-9 {
+  .mobile\:size-mono-9 {
     font-size: 1.30987rem !important; } }
 
 @media (min-width: 30em) {
-  .mobile-lg\:font-mono-9 {
+  .mobile-lg\:size-mono-9 {
     font-size: 1.30987rem !important; } }
 
 @media (min-width: 40em) {
-  .tablet\:font-mono-9 {
+  .tablet\:size-mono-9 {
     font-size: 1.30987rem !important; } }
 
 @media (min-width: 55em) {
-  .tablet-lg\:font-mono-9 {
+  .tablet-lg\:size-mono-9 {
     font-size: 1.30987rem !important; } }
 
 @media (min-width: 64em) {
-  .desktop\:font-mono-9 {
+  .desktop\:size-mono-9 {
     font-size: 1.30987rem !important; } }
 
-.font-mono-10 {
+.size-mono-10 {
   font-size: 1.42895rem !important; }
 
 @media (min-width: 20em) {
-  .mobile\:font-mono-10 {
+  .mobile\:size-mono-10 {
     font-size: 1.42895rem !important; } }
 
 @media (min-width: 30em) {
-  .mobile-lg\:font-mono-10 {
+  .mobile-lg\:size-mono-10 {
     font-size: 1.42895rem !important; } }
 
 @media (min-width: 40em) {
-  .tablet\:font-mono-10 {
+  .tablet\:size-mono-10 {
     font-size: 1.42895rem !important; } }
 
 @media (min-width: 55em) {
-  .tablet-lg\:font-mono-10 {
+  .tablet-lg\:size-mono-10 {
     font-size: 1.42895rem !important; } }
 
 @media (min-width: 64em) {
-  .desktop\:font-mono-10 {
+  .desktop\:size-mono-10 {
     font-size: 1.42895rem !important; } }
 
-.font-mono-11 {
+.size-mono-11 {
   font-size: 1.66711rem !important; }
 
 @media (min-width: 20em) {
-  .mobile\:font-mono-11 {
+  .mobile\:size-mono-11 {
     font-size: 1.66711rem !important; } }
 
 @media (min-width: 30em) {
-  .mobile-lg\:font-mono-11 {
+  .mobile-lg\:size-mono-11 {
     font-size: 1.66711rem !important; } }
 
 @media (min-width: 40em) {
-  .tablet\:font-mono-11 {
+  .tablet\:size-mono-11 {
     font-size: 1.66711rem !important; } }
 
 @media (min-width: 55em) {
-  .tablet-lg\:font-mono-11 {
+  .tablet-lg\:size-mono-11 {
     font-size: 1.66711rem !important; } }
 
 @media (min-width: 64em) {
-  .desktop\:font-mono-11 {
+  .desktop\:size-mono-11 {
     font-size: 1.66711rem !important; } }
 
-.font-mono-12 {
+.size-mono-12 {
   font-size: 1.90526rem !important; }
 
 @media (min-width: 20em) {
-  .mobile\:font-mono-12 {
+  .mobile\:size-mono-12 {
     font-size: 1.90526rem !important; } }
 
 @media (min-width: 30em) {
-  .mobile-lg\:font-mono-12 {
+  .mobile-lg\:size-mono-12 {
     font-size: 1.90526rem !important; } }
 
 @media (min-width: 40em) {
-  .tablet\:font-mono-12 {
+  .tablet\:size-mono-12 {
     font-size: 1.90526rem !important; } }
 
 @media (min-width: 55em) {
-  .tablet-lg\:font-mono-12 {
+  .tablet-lg\:size-mono-12 {
     font-size: 1.90526rem !important; } }
 
 @media (min-width: 64em) {
-  .desktop\:font-mono-12 {
+  .desktop\:size-mono-12 {
     font-size: 1.90526rem !important; } }
 
-.font-mono-13 {
+.size-mono-13 {
   font-size: 2.14342rem !important; }
 
 @media (min-width: 20em) {
-  .mobile\:font-mono-13 {
+  .mobile\:size-mono-13 {
     font-size: 2.14342rem !important; } }
 
 @media (min-width: 30em) {
-  .mobile-lg\:font-mono-13 {
+  .mobile-lg\:size-mono-13 {
     font-size: 2.14342rem !important; } }
 
 @media (min-width: 40em) {
-  .tablet\:font-mono-13 {
+  .tablet\:size-mono-13 {
     font-size: 2.14342rem !important; } }
 
 @media (min-width: 55em) {
-  .tablet-lg\:font-mono-13 {
+  .tablet-lg\:size-mono-13 {
     font-size: 2.14342rem !important; } }
 
 @media (min-width: 64em) {
-  .desktop\:font-mono-13 {
+  .desktop\:size-mono-13 {
     font-size: 2.14342rem !important; } }
 
-.font-mono-14 {
+.size-mono-14 {
   font-size: 2.38158rem !important; }
 
 @media (min-width: 20em) {
-  .mobile\:font-mono-14 {
+  .mobile\:size-mono-14 {
     font-size: 2.38158rem !important; } }
 
 @media (min-width: 30em) {
-  .mobile-lg\:font-mono-14 {
+  .mobile-lg\:size-mono-14 {
     font-size: 2.38158rem !important; } }
 
 @media (min-width: 40em) {
-  .tablet\:font-mono-14 {
+  .tablet\:size-mono-14 {
     font-size: 2.38158rem !important; } }
 
 @media (min-width: 55em) {
-  .tablet-lg\:font-mono-14 {
+  .tablet-lg\:size-mono-14 {
     font-size: 2.38158rem !important; } }
 
 @media (min-width: 64em) {
-  .desktop\:font-mono-14 {
+  .desktop\:size-mono-14 {
     font-size: 2.38158rem !important; } }
 
-.font-mono-15 {
+.size-mono-15 {
   font-size: 2.85789rem !important; }
 
 @media (min-width: 20em) {
-  .mobile\:font-mono-15 {
+  .mobile\:size-mono-15 {
     font-size: 2.85789rem !important; } }
 
 @media (min-width: 30em) {
-  .mobile-lg\:font-mono-15 {
+  .mobile-lg\:size-mono-15 {
     font-size: 2.85789rem !important; } }
 
 @media (min-width: 40em) {
-  .tablet\:font-mono-15 {
+  .tablet\:size-mono-15 {
     font-size: 2.85789rem !important; } }
 
 @media (min-width: 55em) {
-  .tablet-lg\:font-mono-15 {
+  .tablet-lg\:size-mono-15 {
     font-size: 2.85789rem !important; } }
 
 @media (min-width: 64em) {
-  .desktop\:font-mono-15 {
+  .desktop\:size-mono-15 {
     font-size: 2.85789rem !important; } }
 
-.font-mono-16 {
+.size-mono-16 {
   font-size: 3.33421rem !important; }
 
 @media (min-width: 20em) {
-  .mobile\:font-mono-16 {
+  .mobile\:size-mono-16 {
     font-size: 3.33421rem !important; } }
 
 @media (min-width: 30em) {
-  .mobile-lg\:font-mono-16 {
+  .mobile-lg\:size-mono-16 {
     font-size: 3.33421rem !important; } }
 
 @media (min-width: 40em) {
-  .tablet\:font-mono-16 {
+  .tablet\:size-mono-16 {
     font-size: 3.33421rem !important; } }
 
 @media (min-width: 55em) {
-  .tablet-lg\:font-mono-16 {
+  .tablet-lg\:size-mono-16 {
     font-size: 3.33421rem !important; } }
 
 @media (min-width: 64em) {
-  .desktop\:font-mono-16 {
+  .desktop\:size-mono-16 {
     font-size: 3.33421rem !important; } }
 
-.font-mono-17 {
+.size-mono-17 {
   font-size: 3.81053rem !important; }
 
 @media (min-width: 20em) {
-  .mobile\:font-mono-17 {
+  .mobile\:size-mono-17 {
     font-size: 3.81053rem !important; } }
 
 @media (min-width: 30em) {
-  .mobile-lg\:font-mono-17 {
+  .mobile-lg\:size-mono-17 {
     font-size: 3.81053rem !important; } }
 
 @media (min-width: 40em) {
-  .tablet\:font-mono-17 {
+  .tablet\:size-mono-17 {
     font-size: 3.81053rem !important; } }
 
 @media (min-width: 55em) {
-  .tablet-lg\:font-mono-17 {
+  .tablet-lg\:size-mono-17 {
     font-size: 3.81053rem !important; } }
 
 @media (min-width: 64em) {
-  .desktop\:font-mono-17 {
+  .desktop\:size-mono-17 {
     font-size: 3.81053rem !important; } }
 
-.font-mono-18 {
+.size-mono-18 {
   font-size: 4.76316rem !important; }
 
 @media (min-width: 20em) {
-  .mobile\:font-mono-18 {
+  .mobile\:size-mono-18 {
     font-size: 4.76316rem !important; } }
 
 @media (min-width: 30em) {
-  .mobile-lg\:font-mono-18 {
+  .mobile-lg\:size-mono-18 {
     font-size: 4.76316rem !important; } }
 
 @media (min-width: 40em) {
-  .tablet\:font-mono-18 {
+  .tablet\:size-mono-18 {
     font-size: 4.76316rem !important; } }
 
 @media (min-width: 55em) {
-  .tablet-lg\:font-mono-18 {
+  .tablet-lg\:size-mono-18 {
     font-size: 4.76316rem !important; } }
 
 @media (min-width: 64em) {
-  .desktop\:font-mono-18 {
+  .desktop\:size-mono-18 {
     font-size: 4.76316rem !important; } }
 
-.font-mono-19 {
+.size-mono-19 {
   font-size: 7.14474rem !important; }
 
 @media (min-width: 20em) {
-  .mobile\:font-mono-19 {
+  .mobile\:size-mono-19 {
     font-size: 7.14474rem !important; } }
 
 @media (min-width: 30em) {
-  .mobile-lg\:font-mono-19 {
+  .mobile-lg\:size-mono-19 {
     font-size: 7.14474rem !important; } }
 
 @media (min-width: 40em) {
-  .tablet\:font-mono-19 {
+  .tablet\:size-mono-19 {
     font-size: 7.14474rem !important; } }
 
 @media (min-width: 55em) {
-  .tablet-lg\:font-mono-19 {
+  .tablet-lg\:size-mono-19 {
     font-size: 7.14474rem !important; } }
 
 @media (min-width: 64em) {
-  .desktop\:font-mono-19 {
+  .desktop\:size-mono-19 {
     font-size: 7.14474rem !important; } }
 
-.font-mono-20 {
+.size-mono-20 {
   font-size: 8.33553rem !important; }
 
 @media (min-width: 20em) {
-  .mobile\:font-mono-20 {
+  .mobile\:size-mono-20 {
     font-size: 8.33553rem !important; } }
 
 @media (min-width: 30em) {
-  .mobile-lg\:font-mono-20 {
+  .mobile-lg\:size-mono-20 {
     font-size: 8.33553rem !important; } }
 
 @media (min-width: 40em) {
-  .tablet\:font-mono-20 {
+  .tablet\:size-mono-20 {
     font-size: 8.33553rem !important; } }
 
 @media (min-width: 55em) {
-  .tablet-lg\:font-mono-20 {
+  .tablet-lg\:size-mono-20 {
     font-size: 8.33553rem !important; } }
 
 @media (min-width: 64em) {
-  .desktop\:font-mono-20 {
+  .desktop\:size-mono-20 {
     font-size: 8.33553rem !important; } }
 
-.cond {
+.family-cond {
   font-family: false !important; }
 
-.mono {
+.family-mono {
   font-family: Roboto Mono Web, Bitstream Vera Sans Mono, Consolas, Courier, monospace !important; }
 
-.sans {
+.family-sans {
   font-family: United Sans Web, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol !important; }
 
-.serif {
+.family-serif {
   font-family: Georgia, Georgia, Cambria, Times New Roman, Times, serif !important; }
 
-.normal {
+.text-normal {
   font-style: normal !important; }
 
-.italic {
+.text-italic {
   font-style: italic !important; }
 
-.fw-100 {
+.text-100 {
   font-weight: 100 !important; }
 
-.fw-200 {
+.text-200 {
   font-weight: 200 !important; }
 
-.fw-300 {
+.text-300 {
   font-weight: 300 !important; }
 
-.fw-400 {
+.text-400 {
   font-weight: 400 !important; }
 
-.fw-500 {
+.text-500 {
   font-weight: 500 !important; }
 
-.fw-600 {
+.text-600 {
   font-weight: 600 !important; }
 
-.fw-700 {
+.text-700 {
   font-weight: 700 !important; }
 
-.fw-800 {
+.text-800 {
   font-weight: 800 !important; }
 
-.fw-900 {
+.text-900 {
   font-weight: 900 !important; }
 
 .height-10ct {
@@ -18034,6 +18046,9 @@ example:
 .flex-justify-end {
   justify-content: flex-end !important; }
 
+.flex-justify {
+  justify-content: between !important; }
+
 .left-1px {
   left: 1px !important; }
 
@@ -18094,439 +18109,439 @@ example:
 .left-auto {
   left: auto !important; }
 
-.letter-spacing-auto {
+.text-ls-auto {
   letter-spacing: auto !important; }
 
-.letter-spacing-neg-3 {
+.text-ls-neg-3 {
   letter-spacing: -0.03em !important; }
 
-.letter-spacing-neg-2 {
+.text-ls-neg-2 {
   letter-spacing: -0.02em !important; }
 
-.letter-spacing-neg-1 {
+.text-ls-neg-1 {
   letter-spacing: -0.01em !important; }
 
-.letter-spacing-1 {
+.text-ls-1 {
   letter-spacing: 0.05em !important; }
 
-.letter-spacing-2 {
+.text-ls-2 {
   letter-spacing: 0.1em !important; }
 
-.letter-spacing-3 {
+.text-ls-3 {
   letter-spacing: 0.15em !important; }
 
-.lh-sans-1 {
+.line-height-sans-1 {
   line-height: 1 !important; }
 
 @media (min-width: 20em) {
-  .mobile\:lh-sans-1 {
+  .mobile\:line-height-sans-1 {
     line-height: 1 !important; } }
 
 @media (min-width: 30em) {
-  .mobile-lg\:lh-sans-1 {
+  .mobile-lg\:line-height-sans-1 {
     line-height: 1 !important; } }
 
 @media (min-width: 40em) {
-  .tablet\:lh-sans-1 {
+  .tablet\:line-height-sans-1 {
     line-height: 1 !important; } }
 
 @media (min-width: 55em) {
-  .tablet-lg\:lh-sans-1 {
+  .tablet-lg\:line-height-sans-1 {
     line-height: 1 !important; } }
 
 @media (min-width: 64em) {
-  .desktop\:lh-sans-1 {
+  .desktop\:line-height-sans-1 {
     line-height: 1 !important; } }
 
-.lh-sans-2 {
+.line-height-sans-2 {
   line-height: 1.15 !important; }
 
 @media (min-width: 20em) {
-  .mobile\:lh-sans-2 {
+  .mobile\:line-height-sans-2 {
     line-height: 1.15 !important; } }
 
 @media (min-width: 30em) {
-  .mobile-lg\:lh-sans-2 {
+  .mobile-lg\:line-height-sans-2 {
     line-height: 1.15 !important; } }
 
 @media (min-width: 40em) {
-  .tablet\:lh-sans-2 {
+  .tablet\:line-height-sans-2 {
     line-height: 1.15 !important; } }
 
 @media (min-width: 55em) {
-  .tablet-lg\:lh-sans-2 {
+  .tablet-lg\:line-height-sans-2 {
     line-height: 1.15 !important; } }
 
 @media (min-width: 64em) {
-  .desktop\:lh-sans-2 {
+  .desktop\:line-height-sans-2 {
     line-height: 1.15 !important; } }
 
-.lh-sans-3 {
+.line-height-sans-3 {
   line-height: 1.35 !important; }
 
 @media (min-width: 20em) {
-  .mobile\:lh-sans-3 {
+  .mobile\:line-height-sans-3 {
     line-height: 1.35 !important; } }
 
 @media (min-width: 30em) {
-  .mobile-lg\:lh-sans-3 {
+  .mobile-lg\:line-height-sans-3 {
     line-height: 1.35 !important; } }
 
 @media (min-width: 40em) {
-  .tablet\:lh-sans-3 {
+  .tablet\:line-height-sans-3 {
     line-height: 1.35 !important; } }
 
 @media (min-width: 55em) {
-  .tablet-lg\:lh-sans-3 {
+  .tablet-lg\:line-height-sans-3 {
     line-height: 1.35 !important; } }
 
 @media (min-width: 64em) {
-  .desktop\:lh-sans-3 {
+  .desktop\:line-height-sans-3 {
     line-height: 1.35 !important; } }
 
-.lh-sans-4 {
+.line-height-sans-4 {
   line-height: 1.5 !important; }
 
 @media (min-width: 20em) {
-  .mobile\:lh-sans-4 {
+  .mobile\:line-height-sans-4 {
     line-height: 1.5 !important; } }
 
 @media (min-width: 30em) {
-  .mobile-lg\:lh-sans-4 {
+  .mobile-lg\:line-height-sans-4 {
     line-height: 1.5 !important; } }
 
 @media (min-width: 40em) {
-  .tablet\:lh-sans-4 {
+  .tablet\:line-height-sans-4 {
     line-height: 1.5 !important; } }
 
 @media (min-width: 55em) {
-  .tablet-lg\:lh-sans-4 {
+  .tablet-lg\:line-height-sans-4 {
     line-height: 1.5 !important; } }
 
 @media (min-width: 64em) {
-  .desktop\:lh-sans-4 {
+  .desktop\:line-height-sans-4 {
     line-height: 1.5 !important; } }
 
-.lh-sans-5 {
+.line-height-sans-5 {
   line-height: 1.62 !important; }
 
 @media (min-width: 20em) {
-  .mobile\:lh-sans-5 {
+  .mobile\:line-height-sans-5 {
     line-height: 1.62 !important; } }
 
 @media (min-width: 30em) {
-  .mobile-lg\:lh-sans-5 {
+  .mobile-lg\:line-height-sans-5 {
     line-height: 1.62 !important; } }
 
 @media (min-width: 40em) {
-  .tablet\:lh-sans-5 {
+  .tablet\:line-height-sans-5 {
     line-height: 1.62 !important; } }
 
 @media (min-width: 55em) {
-  .tablet-lg\:lh-sans-5 {
+  .tablet-lg\:line-height-sans-5 {
     line-height: 1.62 !important; } }
 
 @media (min-width: 64em) {
-  .desktop\:lh-sans-5 {
+  .desktop\:line-height-sans-5 {
     line-height: 1.62 !important; } }
 
-.lh-sans-6 {
+.line-height-sans-6 {
   line-height: 1.75 !important; }
 
 @media (min-width: 20em) {
-  .mobile\:lh-sans-6 {
+  .mobile\:line-height-sans-6 {
     line-height: 1.75 !important; } }
 
 @media (min-width: 30em) {
-  .mobile-lg\:lh-sans-6 {
+  .mobile-lg\:line-height-sans-6 {
     line-height: 1.75 !important; } }
 
 @media (min-width: 40em) {
-  .tablet\:lh-sans-6 {
+  .tablet\:line-height-sans-6 {
     line-height: 1.75 !important; } }
 
 @media (min-width: 55em) {
-  .tablet-lg\:lh-sans-6 {
+  .tablet-lg\:line-height-sans-6 {
     line-height: 1.75 !important; } }
 
 @media (min-width: 64em) {
-  .desktop\:lh-sans-6 {
+  .desktop\:line-height-sans-6 {
     line-height: 1.75 !important; } }
 
-.lh-serif-1 {
+.line-height-serif-1 {
   line-height: 0.9558 !important; }
 
 @media (min-width: 20em) {
-  .mobile\:lh-serif-1 {
+  .mobile\:line-height-serif-1 {
     line-height: 0.9558 !important; } }
 
 @media (min-width: 30em) {
-  .mobile-lg\:lh-serif-1 {
+  .mobile-lg\:line-height-serif-1 {
     line-height: 0.9558 !important; } }
 
 @media (min-width: 40em) {
-  .tablet\:lh-serif-1 {
+  .tablet\:line-height-serif-1 {
     line-height: 0.9558 !important; } }
 
 @media (min-width: 55em) {
-  .tablet-lg\:lh-serif-1 {
+  .tablet-lg\:line-height-serif-1 {
     line-height: 0.9558 !important; } }
 
 @media (min-width: 64em) {
-  .desktop\:lh-serif-1 {
+  .desktop\:line-height-serif-1 {
     line-height: 0.9558 !important; } }
 
-.lh-serif-2 {
+.line-height-serif-2 {
   line-height: 1.09917 !important; }
 
 @media (min-width: 20em) {
-  .mobile\:lh-serif-2 {
+  .mobile\:line-height-serif-2 {
     line-height: 1.09917 !important; } }
 
 @media (min-width: 30em) {
-  .mobile-lg\:lh-serif-2 {
+  .mobile-lg\:line-height-serif-2 {
     line-height: 1.09917 !important; } }
 
 @media (min-width: 40em) {
-  .tablet\:lh-serif-2 {
+  .tablet\:line-height-serif-2 {
     line-height: 1.09917 !important; } }
 
 @media (min-width: 55em) {
-  .tablet-lg\:lh-serif-2 {
+  .tablet-lg\:line-height-serif-2 {
     line-height: 1.09917 !important; } }
 
 @media (min-width: 64em) {
-  .desktop\:lh-serif-2 {
+  .desktop\:line-height-serif-2 {
     line-height: 1.09917 !important; } }
 
-.lh-serif-3 {
+.line-height-serif-3 {
   line-height: 1.29033 !important; }
 
 @media (min-width: 20em) {
-  .mobile\:lh-serif-3 {
+  .mobile\:line-height-serif-3 {
     line-height: 1.29033 !important; } }
 
 @media (min-width: 30em) {
-  .mobile-lg\:lh-serif-3 {
+  .mobile-lg\:line-height-serif-3 {
     line-height: 1.29033 !important; } }
 
 @media (min-width: 40em) {
-  .tablet\:lh-serif-3 {
+  .tablet\:line-height-serif-3 {
     line-height: 1.29033 !important; } }
 
 @media (min-width: 55em) {
-  .tablet-lg\:lh-serif-3 {
+  .tablet-lg\:line-height-serif-3 {
     line-height: 1.29033 !important; } }
 
 @media (min-width: 64em) {
-  .desktop\:lh-serif-3 {
+  .desktop\:line-height-serif-3 {
     line-height: 1.29033 !important; } }
 
-.lh-serif-4 {
+.line-height-serif-4 {
   line-height: 1.4337 !important; }
 
 @media (min-width: 20em) {
-  .mobile\:lh-serif-4 {
+  .mobile\:line-height-serif-4 {
     line-height: 1.4337 !important; } }
 
 @media (min-width: 30em) {
-  .mobile-lg\:lh-serif-4 {
+  .mobile-lg\:line-height-serif-4 {
     line-height: 1.4337 !important; } }
 
 @media (min-width: 40em) {
-  .tablet\:lh-serif-4 {
+  .tablet\:line-height-serif-4 {
     line-height: 1.4337 !important; } }
 
 @media (min-width: 55em) {
-  .tablet-lg\:lh-serif-4 {
+  .tablet-lg\:line-height-serif-4 {
     line-height: 1.4337 !important; } }
 
 @media (min-width: 64em) {
-  .desktop\:lh-serif-4 {
+  .desktop\:line-height-serif-4 {
     line-height: 1.4337 !important; } }
 
-.lh-serif-5 {
+.line-height-serif-5 {
   line-height: 1.5484 !important; }
 
 @media (min-width: 20em) {
-  .mobile\:lh-serif-5 {
+  .mobile\:line-height-serif-5 {
     line-height: 1.5484 !important; } }
 
 @media (min-width: 30em) {
-  .mobile-lg\:lh-serif-5 {
+  .mobile-lg\:line-height-serif-5 {
     line-height: 1.5484 !important; } }
 
 @media (min-width: 40em) {
-  .tablet\:lh-serif-5 {
+  .tablet\:line-height-serif-5 {
     line-height: 1.5484 !important; } }
 
 @media (min-width: 55em) {
-  .tablet-lg\:lh-serif-5 {
+  .tablet-lg\:line-height-serif-5 {
     line-height: 1.5484 !important; } }
 
 @media (min-width: 64em) {
-  .desktop\:lh-serif-5 {
+  .desktop\:line-height-serif-5 {
     line-height: 1.5484 !important; } }
 
-.lh-serif-6 {
+.line-height-serif-6 {
   line-height: 1.67265 !important; }
 
 @media (min-width: 20em) {
-  .mobile\:lh-serif-6 {
+  .mobile\:line-height-serif-6 {
     line-height: 1.67265 !important; } }
 
 @media (min-width: 30em) {
-  .mobile-lg\:lh-serif-6 {
+  .mobile-lg\:line-height-serif-6 {
     line-height: 1.67265 !important; } }
 
 @media (min-width: 40em) {
-  .tablet\:lh-serif-6 {
+  .tablet\:line-height-serif-6 {
     line-height: 1.67265 !important; } }
 
 @media (min-width: 55em) {
-  .tablet-lg\:lh-serif-6 {
+  .tablet-lg\:line-height-serif-6 {
     line-height: 1.67265 !important; } }
 
 @media (min-width: 64em) {
-  .desktop\:lh-serif-6 {
+  .desktop\:line-height-serif-6 {
     line-height: 1.67265 !important; } }
 
-.lh-mono-1 {
+.line-height-mono-1 {
   line-height: 1.04972 !important; }
 
 @media (min-width: 20em) {
-  .mobile\:lh-mono-1 {
+  .mobile\:line-height-mono-1 {
     line-height: 1.04972 !important; } }
 
 @media (min-width: 30em) {
-  .mobile-lg\:lh-mono-1 {
+  .mobile-lg\:line-height-mono-1 {
     line-height: 1.04972 !important; } }
 
 @media (min-width: 40em) {
-  .tablet\:lh-mono-1 {
+  .tablet\:line-height-mono-1 {
     line-height: 1.04972 !important; } }
 
 @media (min-width: 55em) {
-  .tablet-lg\:lh-mono-1 {
+  .tablet-lg\:line-height-mono-1 {
     line-height: 1.04972 !important; } }
 
 @media (min-width: 64em) {
-  .desktop\:lh-mono-1 {
+  .desktop\:line-height-mono-1 {
     line-height: 1.04972 !important; } }
 
-.lh-mono-2 {
+.line-height-mono-2 {
   line-height: 1.20718 !important; }
 
 @media (min-width: 20em) {
-  .mobile\:lh-mono-2 {
+  .mobile\:line-height-mono-2 {
     line-height: 1.20718 !important; } }
 
 @media (min-width: 30em) {
-  .mobile-lg\:lh-mono-2 {
+  .mobile-lg\:line-height-mono-2 {
     line-height: 1.20718 !important; } }
 
 @media (min-width: 40em) {
-  .tablet\:lh-mono-2 {
+  .tablet\:line-height-mono-2 {
     line-height: 1.20718 !important; } }
 
 @media (min-width: 55em) {
-  .tablet-lg\:lh-mono-2 {
+  .tablet-lg\:line-height-mono-2 {
     line-height: 1.20718 !important; } }
 
 @media (min-width: 64em) {
-  .desktop\:lh-mono-2 {
+  .desktop\:line-height-mono-2 {
     line-height: 1.20718 !important; } }
 
-.lh-mono-3 {
+.line-height-mono-3 {
   line-height: 1.41713 !important; }
 
 @media (min-width: 20em) {
-  .mobile\:lh-mono-3 {
+  .mobile\:line-height-mono-3 {
     line-height: 1.41713 !important; } }
 
 @media (min-width: 30em) {
-  .mobile-lg\:lh-mono-3 {
+  .mobile-lg\:line-height-mono-3 {
     line-height: 1.41713 !important; } }
 
 @media (min-width: 40em) {
-  .tablet\:lh-mono-3 {
+  .tablet\:line-height-mono-3 {
     line-height: 1.41713 !important; } }
 
 @media (min-width: 55em) {
-  .tablet-lg\:lh-mono-3 {
+  .tablet-lg\:line-height-mono-3 {
     line-height: 1.41713 !important; } }
 
 @media (min-width: 64em) {
-  .desktop\:lh-mono-3 {
+  .desktop\:line-height-mono-3 {
     line-height: 1.41713 !important; } }
 
-.lh-mono-4 {
+.line-height-mono-4 {
   line-height: 1.57459 !important; }
 
 @media (min-width: 20em) {
-  .mobile\:lh-mono-4 {
+  .mobile\:line-height-mono-4 {
     line-height: 1.57459 !important; } }
 
 @media (min-width: 30em) {
-  .mobile-lg\:lh-mono-4 {
+  .mobile-lg\:line-height-mono-4 {
     line-height: 1.57459 !important; } }
 
 @media (min-width: 40em) {
-  .tablet\:lh-mono-4 {
+  .tablet\:line-height-mono-4 {
     line-height: 1.57459 !important; } }
 
 @media (min-width: 55em) {
-  .tablet-lg\:lh-mono-4 {
+  .tablet-lg\:line-height-mono-4 {
     line-height: 1.57459 !important; } }
 
 @media (min-width: 64em) {
-  .desktop\:lh-mono-4 {
+  .desktop\:line-height-mono-4 {
     line-height: 1.57459 !important; } }
 
-.lh-mono-5 {
+.line-height-mono-5 {
   line-height: 1.70055 !important; }
 
 @media (min-width: 20em) {
-  .mobile\:lh-mono-5 {
+  .mobile\:line-height-mono-5 {
     line-height: 1.70055 !important; } }
 
 @media (min-width: 30em) {
-  .mobile-lg\:lh-mono-5 {
+  .mobile-lg\:line-height-mono-5 {
     line-height: 1.70055 !important; } }
 
 @media (min-width: 40em) {
-  .tablet\:lh-mono-5 {
+  .tablet\:line-height-mono-5 {
     line-height: 1.70055 !important; } }
 
 @media (min-width: 55em) {
-  .tablet-lg\:lh-mono-5 {
+  .tablet-lg\:line-height-mono-5 {
     line-height: 1.70055 !important; } }
 
 @media (min-width: 64em) {
-  .desktop\:lh-mono-5 {
+  .desktop\:line-height-mono-5 {
     line-height: 1.70055 !important; } }
 
-.lh-mono-6 {
+.line-height-mono-6 {
   line-height: 1.83702 !important; }
 
 @media (min-width: 20em) {
-  .mobile\:lh-mono-6 {
+  .mobile\:line-height-mono-6 {
     line-height: 1.83702 !important; } }
 
 @media (min-width: 30em) {
-  .mobile-lg\:lh-mono-6 {
+  .mobile-lg\:line-height-mono-6 {
     line-height: 1.83702 !important; } }
 
 @media (min-width: 40em) {
-  .tablet\:lh-mono-6 {
+  .tablet\:line-height-mono-6 {
     line-height: 1.83702 !important; } }
 
 @media (min-width: 55em) {
-  .tablet-lg\:lh-mono-6 {
+  .tablet-lg\:line-height-mono-6 {
     line-height: 1.83702 !important; } }
 
 @media (min-width: 64em) {
-  .desktop\:lh-mono-6 {
+  .desktop\:line-height-mono-6 {
     line-height: 1.83702 !important; } }
 
 .list-reset {
@@ -27046,97 +27061,97 @@ example:
   height: 4.5rem !important;
   width: 4.5rem !important; }
 
-.center {
+.text-center {
   text-align: center !important; }
 
 @media (min-width: 20em) {
-  .mobile\:center {
+  .mobile\:text-center {
     text-align: center !important; } }
 
 @media (min-width: 30em) {
-  .mobile-lg\:center {
+  .mobile-lg\:text-center {
     text-align: center !important; } }
 
 @media (min-width: 40em) {
-  .tablet\:center {
+  .tablet\:text-center {
     text-align: center !important; } }
 
 @media (min-width: 55em) {
-  .tablet-lg\:center {
+  .tablet-lg\:text-center {
     text-align: center !important; } }
 
 @media (min-width: 64em) {
-  .desktop\:center {
+  .desktop\:text-center {
     text-align: center !important; } }
 
-.left {
+.text-left {
   text-align: left !important; }
 
 @media (min-width: 20em) {
-  .mobile\:left {
+  .mobile\:text-left {
     text-align: left !important; } }
 
 @media (min-width: 30em) {
-  .mobile-lg\:left {
+  .mobile-lg\:text-left {
     text-align: left !important; } }
 
 @media (min-width: 40em) {
-  .tablet\:left {
+  .tablet\:text-left {
     text-align: left !important; } }
 
 @media (min-width: 55em) {
-  .tablet-lg\:left {
+  .tablet-lg\:text-left {
     text-align: left !important; } }
 
 @media (min-width: 64em) {
-  .desktop\:left {
+  .desktop\:text-left {
     text-align: left !important; } }
 
-.right {
+.text-right {
   text-align: right !important; }
 
 @media (min-width: 20em) {
-  .mobile\:right {
+  .mobile\:text-right {
     text-align: right !important; } }
 
 @media (min-width: 30em) {
-  .mobile-lg\:right {
+  .mobile-lg\:text-right {
     text-align: right !important; } }
 
 @media (min-width: 40em) {
-  .tablet\:right {
+  .tablet\:text-right {
     text-align: right !important; } }
 
 @media (min-width: 55em) {
-  .tablet-lg\:right {
+  .tablet-lg\:text-right {
     text-align: right !important; } }
 
 @media (min-width: 64em) {
-  .desktop\:right {
+  .desktop\:text-right {
     text-align: right !important; } }
 
-.strike {
+.text-strike {
   text-decoration: strike !important; }
 
-.hover\:strike:hover {
+.hover\:text-strike:hover {
   text-decoration: strike !important; }
 
-.underline {
+.text-underline {
   text-decoration: underline !important; }
 
-.hover\:underline:hover {
+.hover\:text-underline:hover {
   text-decoration: underline !important; }
 
-.no-underline {
+.text-no-underline {
   text-decoration: none !important; }
 
-.hover\:no-underline:hover {
+.hover\:text-no-underline:hover {
   text-decoration: none !important; }
 
-.no-strike {
+.text-no-strike {
   text-decoration: none !important; }
 
-.hover\:no-strike:hover {
+.hover\:text-no-strike:hover {
   text-decoration: none !important; }
 
 .underline-color-red-warm-40v {
@@ -29990,10 +30005,10 @@ example:
   .desktop\:text-indent-neg-9 {
     text-indent: -4.5rem !important; } }
 
-.uppercase {
+.text-uppercase {
   text-transform: uppercase !important; }
 
-.none {
+.text-none {
   text-transform: none !important; }
 
 .top-1px {
@@ -30080,13 +30095,13 @@ example:
 .vertical-align-baseline {
   vertical-align: baseline !important; }
 
-.whitespace-pre-wrap {
+.text-pre-wrap {
   white-space: pre-wrap !important; }
 
-.whitespace-normal {
+.text-normal {
   white-space: normal !important; }
 
-.whitespace-nowrap {
+.text-nowrap {
   white-space: nowrap !important; }
 
 .width-1px {
@@ -31453,6 +31468,11 @@ project/_uswds-project-settings
 */
 /*
 ----------------------------------------
+Namespace
+----------------------------------------
+*/
+/*
+----------------------------------------
 Spacing
 ----------------------------------------
 All spacing values that can be called
@@ -31605,7 +31625,14 @@ USWDS Properties
 
 /*
 ----------------------------------------
-font()
+family()
+----------------------------------------
+Get a font-family stack
+----------------------------------------
+*/
+/*
+----------------------------------------
+size()
 ----------------------------------------
 Get a normalized font-size in rem from
 a family and a type size in either
@@ -32528,7 +32555,7 @@ CUSTOM PROJECT SASS
 Custom project SASS goes here.
 
 i.e.
-@include u-padding-right(2px);
+@include padding-right(2px);
 ----------------------------------------
 */
 html {
@@ -32544,7 +32571,7 @@ html {
 
 .page-content h3 {
   font-size: 1.5rem;
-  font-size: 100;
+  font-weight: 100;
   line-height: 1.35; }
   @media screen and (min-width: 55em) {
     .page-content h3 {
@@ -32634,15 +32661,15 @@ html {
       padding-top: 0.5rem; } }
 
 .txt-code, .usa-body-content code, .usa-prose code {
+  font-family: "Roboto Mono Web", "Bitstream Vera Sans Mono", "Consolas", "Courier", monospace;
   padding-left: 0.25rem;
   padding-right: 0.25rem;
   padding-bottom: 2px;
   padding-top: 2px;
-  background-color: #f5f5f0;
-  border-radius: 2px;
-  font-family: "Roboto Mono Web", "Bitstream Vera Sans Mono", "Consolas", "Courier", monospace;
   font-size: 0.89309rem;
-  font-weight: 400; }
+  font-weight: 400;
+  background-color: #f5f5f0;
+  border-radius: 2px; }
 
 .txt-a, .usa-body-content p a, .usa-prose p a {
   color: #171717;
@@ -32680,29 +32707,37 @@ html {
 .docs-text {
   font-size: 1.0625rem;
   font-family: "United Sans Web", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
-  font-weight: 400;
+  margin-bottom: 0.5rem;
   margin-top: 2rem;
-  margin-bottom: 0.5rem; }
+  font-weight: 400; }
 
 strong {
   font-weight: bold; }
 
 .docs-inline-code {
   background-color: #f5f5f0;
-  font-size: 0.89309rem;
   font-family: "Roboto Mono Web", "Bitstream Vera Sans Mono", "Consolas", "Courier", monospace;
-  padding-bottom: 2px;
-  padding-top: 2px;
   padding-left: 0.25rem;
   padding-right: 0.25rem;
-  border-radius: 2px; }
+  padding-bottom: 2px;
+  padding-top: 2px;
+  border-radius: 2px;
+  font-size: 0.89309rem; }
 
 .token {
   background-color: #f7f7f3;
-  border-radius: 2px;
-  font-size: 0.71447rem;
   font-family: "Roboto Mono Web", "Bitstream Vera Sans Mono", "Consolas", "Courier", monospace;
+  line-height: 1.04972;
   padding-left: 0.25rem;
   padding-right: 0.25rem;
   padding-bottom: 2px;
-  padding-top: 2px; }
+  padding-top: 2px;
+  border-radius: 2px;
+  font-size: 0.71447rem;
+  text-align: left;
+  white-space: nowrap;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-style: normal;
+  font-weight: bold;
+  letter-spacing: 0.1em; }
