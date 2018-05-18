@@ -7,7 +7,7 @@
     "dev": "webpack --progress --hide-modules",
     "watch": "webpack --watch --progress --hide-modules",
     "prod": "webpack --no-progress --hide-modules",
-    "prepare": "npm run federalist",
+    "prepare": "npm run snyk-protect; npm run federalist",
     "federalist": "./build.sh && npm run uswds-copy-assets && npm run prod && npm run uswds-build-sass",
     "serve": "bundle exec jekyll serve --livereload",
     "startup": "npm install && npm update uswds && npm run uswds-install && npm run uswds-build && gem install bundler && bundle install && npm run uswds-mkdir && npm run uswds-copy-assets && npm run uswds-copy-project && npm run uswds-build-sass",
@@ -21,7 +21,8 @@
     "uswds-mkdir": "mkdir -p assets/fonts/uswds && mkdir -p assets/img/uswds && mkdir -p _sass",
     "uswds-build-sass": "gulp build-sass",
     "uswds-build-app": "gulp build-app",
-    "uswds-watch": "gulp watch"
+    "uswds-watch": "gulp watch",
+    "snyk-protect": "snyk protect"
   },
   "dependencies": {
     "autoprefixer": "^8.3.0",
@@ -34,7 +35,7 @@
     "del": "^3.0.0",
     "extract-text-webpack-plugin": "^3.0.2",
     "file-loader": "^1.1.11",
-    "gulp": "^3.9.1",
+    "gulp": "^4.0.0",
     "gulp-gzip": "^1.4.2",
     "gulp-postcss": "^7.0.1",
     "gulp-rename": "^1.2.2",
@@ -50,6 +51,8 @@
     "uncss": "^0.16.2",
     "url-loader": "^1.0.1",
     "uswds": "uswds/uswds#dw-utilities-sandbox",
-    "webpack": "^3.8.1"
-  }
+    "webpack": "^3.8.1",
+    "snyk": "^1.80.1"
+  },
+  "snyk": true
 }
