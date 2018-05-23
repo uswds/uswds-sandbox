@@ -10,7 +10,7 @@ permalink: /uswds-type-scale/
   <p class="line-height-sans-4 text-300 margin-bottom-2">The 9-step relative scale (<code class="txt-code bg-white border-1px margin-x-05">size-sans-3xs</code>) is project-specific — set in your project’s project settings — chosen from steps in the common scale.</p>
   <p class="line-height-sans-4 text-300 margin-bottom-2">This type scale is designed to accommodate any project typeface, regardless of its optical size, with minimal impact to component layout. To achieve this, the scale is regularized — each typeface has a different value at each step in the scale. The final pixel/rem sizes are different between faces so each step in the scale appears the same size to the end user, regardless of typeface.</p>
   <p class="line-height-sans-4 text-300 margin-bottom-6">Since each typeface has different type scale values, use <code class="txt-code">size-[type]-[value]</code> instead of <code class="txt-code">size-[value]</code>.</p>
-  <div class="row gap flex-align-center margin-bottom-2 padding-bottom-1 border-bottom-1px-2px">
+  <div class="row gap flex-align-center margin-bottom-2 padding-bottom-1 border-bottom-2px">
     <div class="col-4 text-700 size-sans-1">family-sans (United Sans)</div>
     <div class="col-4 text-700 size-sans-1">family-serif (Georgia)</div>
     <div class="col-4 text-700 size-sans-1">family-mono (Roboto Mono)</div>
