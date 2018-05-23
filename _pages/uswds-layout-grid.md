@@ -16,19 +16,19 @@ permalink: /uswds-layout-grid/
         <div class="display-none tablet-lg:display-block text-center padding-2">.tablet-lg:col</div>
         <div class="tablet-lg:display-none text-center padding-2">.col-6</div>
       </div>
-      <div class="col-6 tablet-lg:col-fill border-1px border-left-width-0 border-black-cool-10">
+      <div class="col-6 tablet-lg:col-fill border-1px border-left-0 border-black-cool-10">
         <div class="display-none tablet-lg:display-block text-center padding-2">.tablet-lg:col</div>
         <div class="tablet-lg:display-none text-center padding-2">.col-6</div>
       </div>
-      <div class="col-4 tablet-lg:col-fill border-1px border-top-width-0 tablet-lg:border-top-width-1px tablet-lg:border-left-width-0 border-black-cool-10">
+      <div class="col-4 tablet-lg:col-fill border-1px border-top-0 tablet-lg:border-top-1px tablet-lg:border-left-0 border-black-cool-10">
         <div class="display-none tablet-lg:display-block text-center padding-2">.tablet-lg:col</div>
         <div class="tablet-lg:display-none text-center padding-2">.col-4</div>
       </div>
-      <div class="col-4 tablet-lg:col-fill border-1px border-top-width-0 tablet-lg:border-top-width-1px border-left-width-0 border-black-cool-10">
+      <div class="col-4 tablet-lg:col-fill border-1px border-top-0 tablet-lg:border-top-1px border-left-0 border-black-cool-10">
         <div class="display-none tablet-lg:display-block text-center padding-2">.tablet-lg:col</div>
         <div class="tablet-lg:display-none text-center padding-2">.col-4</div>
       </div>
-      <div class="col-4 tablet-lg:col-fill border-1px border-top-width-0 tablet-lg:border-top-width-1px border-left-width-0 border-black-cool-10">
+      <div class="col-4 tablet-lg:col-fill border-1px border-top-0 tablet-lg:border-top-1px border-left-0 border-black-cool-10">
         <div class="display-none tablet-lg:display-block text-center padding-2">.tablet-lg:col</div>
         <div class="tablet-lg:display-none text-center padding-2">.col-4</div>
       </div>
@@ -39,11 +39,11 @@ permalink: /uswds-layout-grid/
         <div class="display-none tablet:display-block text-center padding-2">.tablet:col</div>
         <div class="tablet:display-none text-center padding-2">.col</div>
       </div>
-      <div class="col tablet:col-fill border-1px border-left-width-0 tablet:border-top-width-1px tablet:border-left-0 border-black-cool-10">
+      <div class="col tablet:col-fill border-1px border-left-0 tablet:border-top-1px tablet:border-left-0 border-black-cool-10">
         <div class="display-none tablet:display-block text-center padding-2">.tablet:col</div>
         <div class="tablet:display-none text-center padding-2">.col</div>
       </div>
-      <div class="col tablet:col-fill border-1px border-left-width-0 tablet:border-top-width-1px tablet:border-left-width-0 border-black-cool-10">
+      <div class="col tablet:col-fill border-1px border-left-0 tablet:border-top-1px tablet:border-left-0 border-black-cool-10">
         <div class="display-none tablet:display-block text-center padding-2">.tablet:col</div>
         <div class="tablet:display-none text-center padding-2">.col</div>
       </div>
