@@ -7,7 +7,7 @@ permalink: /uswds-type-scale/
 <div class="clearfix container-tablet-lg padding-x-2 padding-top-6 line-height-sans-1 margin-bottom-9">
   <h1 class="text-300 margin-bottom-4 margin-top-0">USWDS type scale</h1>
   <p class="line-height-sans-4 text-300 margin-bottom-2">The 21-step numeric scale (<code class="txt-code margin-x-05">size-sans-1</code>) is the scale common to any USWDS project.</p>
-  <p class="line-height-sans-4 text-300 margin-bottom-2">The 9-step relative scale (<code class="txt-code bg-white border margin-x-05">size-sans-3xs</code>) is project-specific — set in your project’s project settings — chosen from steps in the common scale.</p>
+  <p class="line-height-sans-4 text-300 margin-bottom-2">The 9-step relative scale (<code class="txt-code bg-white border-1px margin-x-05">size-sans-3xs</code>) is project-specific — set in your project’s project settings — chosen from steps in the common scale.</p>
   <p class="line-height-sans-4 text-300 margin-bottom-2">This type scale is designed to accommodate any project typeface, regardless of its optical size, with minimal impact to component layout. To achieve this, the scale is regularized — each typeface has a different value at each step in the scale. The final pixel/rem sizes are different between faces so each step in the scale appears the same size to the end user, regardless of typeface.</p>
   <p class="line-height-sans-4 text-300 margin-bottom-6">Since each typeface has different type scale values, use <code class="txt-code">size-[type]-[value]</code> instead of <code class="txt-code">size-[value]</code>.</p>
   <div class="row gap flex-align-center margin-bottom-2 padding-bottom-1 border-bottom-1px-2px">
@@ -44,13 +44,13 @@ permalink: /uswds-type-scale/
     <div class="col-4 display-flex flex-column flex-justify-end">
       <div class="size-serif-1 line-height-serif-1 text-gray-90">Tuscaloosa</div>
       <div class="size-mono-1 padding-top-2"><code class="txt-code size-mono-2">size-serif-1</code></div>
-      <div class="size-mono-1 padding-top-2"><code class="txt-code size-mono-2 bg-white border text-gray-90">size-serif-3xs</code></div>
+      <div class="size-mono-1 padding-top-2"><code class="txt-code size-mono-2 bg-white border-1px text-gray-90">size-serif-3xs</code></div>
       <div class="padding-top-105 size-mono-1 text-300">12.56px</div>
     </div>
     <div class="col-4 display-flex flex-column flex-justify-end">
       <div class="size-mono-1 line-height-mono-1 text-gray-90">Tuscaloosa</div>
       <div class="size-mono-1 padding-top-2"><code class="txt-code size-mono-2">size-mono-1</code></div>
-      <div class="size-mono-1 padding-top-2"><code class="txt-code size-mono-2 bg-white border text-gray-90">size-mono-3xs</code></div>
+      <div class="size-mono-1 padding-top-2"><code class="txt-code size-mono-2 bg-white border-1px text-gray-90">size-mono-3xs</code></div>
       <div class="padding-top-105 size-mono-1 text-300">11.43px</div>
     </div>
   </div>
