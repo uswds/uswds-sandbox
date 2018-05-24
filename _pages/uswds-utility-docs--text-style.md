@@ -214,11 +214,11 @@ body_color: gray-2
               </ul>
             </div>
           </section>
-          <p class="example"><span class="display-inline-block width-card padding-1 border-1px"> <span class="text-pre">.text-pre formatted line   with     multiple       spaces</span></span></p>
-          <p class="example"><span class="display-inline-block width-card padding-1 border-1px"> <span class="text-pre-line">.text-pre-line formatted line   with     multiple       spaces</span></span></p>
-          <p class="example"><span class="display-inline-block width-card padding-1 border-1px"> <span class="text-pre-wrap">.text-pre-wrap formatted line   with     multiple       spaces</span></span></p>
-          <p class="example"><span class="display-inline-block width-card padding-1 border-1px"> <span class="text-wrap">.text-wrap formatted line   with     multiple       spaces</span></span></p>
-          <p class="example"><span class="display-inline-block width-card padding-1 border-1px"> <span class="text-no-wrap">.text-no-wrap formatted line   with     multiple       spaces</span></span></p>
+          <p class="example"><span class="display-inline-block width-card padding-1 border-1px"> <span class="text-pre"><span class="text-red">.text-pre</span> formatted line   with     multiple       spaces</span></span></p>
+          <p class="example"><span class="display-inline-block width-card padding-1 border-1px"> <span class="text-red">.text-pre-line</span> formatted line   with     multiple       spaces</span></span></p>
+          <p class="example"><span class="display-inline-block width-card padding-1 border-1px"> <span class="text-pre-wrap"><span class="text-red">.text-pre-wrap</span> formatted line   with     multiple       spaces</span></span></p>
+          <p class="example"><span class="display-inline-block width-card padding-1 border-1px"> <span class="text-wrap"><span class="text-red">.text-wrap</span> formatted line   with     multiple       spaces</span></span></p>
+          <p class="example"><span class="display-inline-block width-card padding-1 border-1px"> <span class="text-no-wrap"><span class="text-red">.text-no-wrap</span> formatted line   with     multiple       spaces</span></span></p>
         </section>
       </section>
     </section>
