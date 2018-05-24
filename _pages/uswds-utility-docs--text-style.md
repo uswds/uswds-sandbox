@@ -327,12 +327,48 @@ body_color: gray-2
         <dd class="output-css">text-decoration: none;</dd>
         <dd class="output-variable">—</dd>
 
+        <dt class="output-utility">.underline-lightest</dt>
+        <dd class="output-css">text-decoration-color: <span class="output-token">$base-lightest</span></dd>
+        <dd class="output-variable">
+          <span class="display-inline-block bg-base-lightest circle-105 text-middle margin-right-05"></span>
+          #FCFCFC
+        </dd>
+
+        <dt class="output-utility">.underline-base-lighter</dt>
+        <dd class="output-css">text-decoration-color: <span class="output-token">$base-lighter</span></dd>
+        <dd class="output-variable">
+          <span class="display-inline-block bg-base-lighter circle-105 text-middle margin-right-05"></span>
+          #F0F0F0
+        </dd>
+
+        <dt class="output-utility">.underline-base-light</dt>
+        <dd class="output-css">text-decoration-color: <span class="output-token">$base-light</span></dd>
+        <dd class="output-variable">
+          <span class="display-inline-block bg-base-light circle-105 text-middle margin-right-05"></span>
+          #E6E6E6
+        </dd>
+
+        <dt class="output-utility">.underline-base</dt>
+        <dd class="output-css">text-decoration-color: <span class="output-token">$base</span></dd>
+        <dd class="output-variable">
+          <span class="display-inline-block bg-base circle-105 text-middle margin-right-05"></span>
+          #ADADAD
+        </dd>
+
+        <dt class="output-utility">.underline-base-dark</dt>
+        <dd class="output-css">text-decoration-color: <span class="output-token">$base-dark</span></dd>
+        <dd class="output-variable">
+          <span class="display-inline-block bg-base-dark circle-105 text-middle margin-right-05"></span>
+          #757575
+        </dd>
+
         <dt class="output-utility">.underline-base-darker</dt>
-          <dd class="output-css">text-decoration-color: <span class="output-token">$base-darker</span></dd>
-          <dd class="output-variable">
-            <span class="display-inline-block bg-base-darker circle-105 text-middle margin-right-05"></span>
-            #454545
-          </dd>
+        <dd class="output-css">text-decoration-color: <span class="output-token">$base-darker</span></dd>
+        <dd class="output-variable">
+          <span class="display-inline-block bg-base-darker circle-105 text-middle margin-right-05"></span>
+          #454545
+        </dd>
+
         <dt class="output-utility">.underline-base-darkest</dt>
           <dd class="output-css">text-decoration-color: <span class="output-token">$base-darkest</span></dd>
           <dd class="output-variable">
