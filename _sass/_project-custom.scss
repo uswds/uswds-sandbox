@@ -120,7 +120,7 @@ html {
   @include padding-y(2px);
   @include size('mono', 4);
   @include text(400);
-  border-radius: radius('sm');
+  @include radius('sm');
 }
 
 .txt-a {
@@ -172,10 +172,10 @@ html {
 /* * * * * * ========================= */
 
 .docs-text {
-  @include size('sans', 6);
   @include family('sans');
   @include margin-bottom(1);
   @include margin-top(4);
+  @include size('sans', 6);
   @include text('normal');
 }
 
@@ -213,4 +213,10 @@ strong {
   @include at-media('desktop-lg'){
     @include size($font, 3);
   }
+}
+
+.text-color .example {
+  @include border-bottom(1px, $base-lighter);
+  @include margin-y(.5);
+  @include padding-y(.5);
 }

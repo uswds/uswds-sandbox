@@ -5627,6 +5627,303 @@ example:
 .focus\:bg-highlight:focus {
   background-color: #e6a100 !important; }
 
+.bg-base-lightest {
+  background-color: #fcfcfc !important; }
+
+.hover\:bg-base-lightest:hover {
+  background-color: #fcfcfc !important; }
+
+.focus\:bg-base-lightest:focus {
+  background-color: #fcfcfc !important; }
+
+.bg-base-lighter {
+  background-color: #f0f0f0 !important; }
+
+.hover\:bg-base-lighter:hover {
+  background-color: #f0f0f0 !important; }
+
+.focus\:bg-base-lighter:focus {
+  background-color: #f0f0f0 !important; }
+
+.bg-base-light {
+  background-color: #e6e6e6 !important; }
+
+.hover\:bg-base-light:hover {
+  background-color: #e6e6e6 !important; }
+
+.focus\:bg-base-light:focus {
+  background-color: #e6e6e6 !important; }
+
+.bg-base {
+  background-color: #adadad !important; }
+
+.hover\:bg-base:hover {
+  background-color: #adadad !important; }
+
+.focus\:bg-base:focus {
+  background-color: #adadad !important; }
+
+.bg-base-dark {
+  background-color: #757575 !important; }
+
+.hover\:bg-base-dark:hover {
+  background-color: #757575 !important; }
+
+.focus\:bg-base-dark:focus {
+  background-color: #757575 !important; }
+
+.bg-base-darker {
+  background-color: #454545 !important; }
+
+.hover\:bg-base-darker:hover {
+  background-color: #454545 !important; }
+
+.focus\:bg-base-darker:focus {
+  background-color: #454545 !important; }
+
+.bg-base-darkest {
+  background-color: #171717 !important; }
+
+.hover\:bg-base-darkest:hover {
+  background-color: #171717 !important; }
+
+.focus\:bg-base-darkest:focus {
+  background-color: #171717 !important; }
+
+.bg-text {
+  background-color: #171717 !important; }
+
+.hover\:bg-text:hover {
+  background-color: #171717 !important; }
+
+.focus\:bg-text:focus {
+  background-color: #171717 !important; }
+
+.bg-primary-lighter {
+  background-color: #dae9f7 !important; }
+
+.hover\:bg-primary-lighter:hover {
+  background-color: #dae9f7 !important; }
+
+.focus\:bg-primary-lighter:focus {
+  background-color: #dae9f7 !important; }
+
+.bg-primary-light {
+  background-color: #79bcf2 !important; }
+
+.hover\:bg-primary-light:hover {
+  background-color: #79bcf2 !important; }
+
+.focus\:bg-primary-light:focus {
+  background-color: #79bcf2 !important; }
+
+.bg-primary {
+  background-color: #0069b4 !important; }
+
+.hover\:bg-primary:hover {
+  background-color: #0069b4 !important; }
+
+.focus\:bg-primary:focus {
+  background-color: #0069b4 !important; }
+
+.bg-primary-vivid {
+  background-color: #0052de !important; }
+
+.hover\:bg-primary-vivid:hover {
+  background-color: #0052de !important; }
+
+.focus\:bg-primary-vivid:focus {
+  background-color: #0052de !important; }
+
+.bg-primary-dark {
+  background-color: #1e4f94 !important; }
+
+.hover\:bg-primary-dark:hover {
+  background-color: #1e4f94 !important; }
+
+.focus\:bg-primary-dark:focus {
+  background-color: #1e4f94 !important; }
+
+.bg-primary-darker {
+  background-color: #112a4d !important; }
+
+.hover\:bg-primary-darker:hover {
+  background-color: #112a4d !important; }
+
+.focus\:bg-primary-darker:focus {
+  background-color: #112a4d !important; }
+
+.bg-secondary-light {
+  background-color: #ed6b61 !important; }
+
+.hover\:bg-secondary-light:hover {
+  background-color: #ed6b61 !important; }
+
+.focus\:bg-secondary-light:focus {
+  background-color: #ed6b61 !important; }
+
+.bg-secondary {
+  background-color: #ab3a3a !important; }
+
+.hover\:bg-secondary:hover {
+  background-color: #ab3a3a !important; }
+
+.focus\:bg-secondary:focus {
+  background-color: #ab3a3a !important; }
+
+.bg-secondary-vivid {
+  background-color: #e92106 !important; }
+
+.hover\:bg-secondary-vivid:hover {
+  background-color: #e92106 !important; }
+
+.focus\:bg-secondary-vivid:focus {
+  background-color: #e92106 !important; }
+
+.bg-secondary-dark {
+  background-color: #3b2523 !important; }
+
+.hover\:bg-secondary-dark:hover {
+  background-color: #3b2523 !important; }
+
+.focus\:bg-secondary-dark:focus {
+  background-color: #3b2523 !important; }
+
+.bg-accent-warm-dark {
+  background-color: #ff7b0f !important; }
+
+.hover\:bg-accent-warm-dark:hover {
+  background-color: #ff7b0f !important; }
+
+.focus\:bg-accent-warm-dark:focus {
+  background-color: #ff7b0f !important; }
+
+.bg-accent-warm {
+  background-color: #ff9742 !important; }
+
+.hover\:bg-accent-warm:hover {
+  background-color: #ff9742 !important; }
+
+.focus\:bg-accent-warm:focus {
+  background-color: #ff9742 !important; }
+
+.bg-accent-cool-dark {
+  background-color: #00abd1 !important; }
+
+.hover\:bg-accent-cool-dark:hover {
+  background-color: #00abd1 !important; }
+
+.focus\:bg-accent-cool-dark:focus {
+  background-color: #00abd1 !important; }
+
+.bg-accent-cool {
+  background-color: #02c2e8 !important; }
+
+.hover\:bg-accent-cool:hover {
+  background-color: #02c2e8 !important; }
+
+.focus\:bg-accent-cool:focus {
+  background-color: #02c2e8 !important; }
+
+.bg-red {
+  background-color: #e92106 !important; }
+
+.hover\:bg-red:hover {
+  background-color: #e92106 !important; }
+
+.focus\:bg-red:focus {
+  background-color: #e92106 !important; }
+
+.bg-orange {
+  background-color: #ff7b0f !important; }
+
+.hover\:bg-orange:hover {
+  background-color: #ff7b0f !important; }
+
+.focus\:bg-orange:focus {
+  background-color: #ff7b0f !important; }
+
+.bg-gold {
+  background-color: #faaf00 !important; }
+
+.hover\:bg-gold:hover {
+  background-color: #faaf00 !important; }
+
+.focus\:bg-gold:focus {
+  background-color: #faaf00 !important; }
+
+.bg-yellow {
+  background-color: #fdd430 !important; }
+
+.hover\:bg-yellow:hover {
+  background-color: #fdd430 !important; }
+
+.focus\:bg-yellow:focus {
+  background-color: #fdd430 !important; }
+
+.bg-green {
+  background-color: #538200 !important; }
+
+.hover\:bg-green:hover {
+  background-color: #538200 !important; }
+
+.focus\:bg-green:focus {
+  background-color: #538200 !important; }
+
+.bg-mint {
+  background-color: #04c786 !important; }
+
+.hover\:bg-mint:hover {
+  background-color: #04c786 !important; }
+
+.focus\:bg-mint:focus {
+  background-color: #04c786 !important; }
+
+.bg-cyan {
+  background-color: #00abd1 !important; }
+
+.hover\:bg-cyan:hover {
+  background-color: #00abd1 !important; }
+
+.focus\:bg-cyan:focus {
+  background-color: #00abd1 !important; }
+
+.bg-blue {
+  background-color: #007ade !important; }
+
+.hover\:bg-blue:hover {
+  background-color: #007ade !important; }
+
+.focus\:bg-blue:focus {
+  background-color: #007ade !important; }
+
+.bg-indigo {
+  background-color: #686dca !important; }
+
+.hover\:bg-indigo:hover {
+  background-color: #686dca !important; }
+
+.focus\:bg-indigo:focus {
+  background-color: #686dca !important; }
+
+.bg-violet {
+  background-color: #8369b5 !important; }
+
+.hover\:bg-violet:hover {
+  background-color: #8369b5 !important; }
+
+.focus\:bg-violet:focus {
+  background-color: #8369b5 !important; }
+
+.bg-magenta {
+  background-color: #e1277a !important; }
+
+.hover\:bg-magenta:hover {
+  background-color: #e1277a !important; }
+
+.focus\:bg-magenta:focus {
+  background-color: #e1277a !important; }
+
 .border-05 {
   border: 0.25rem solid !important; }
 
@@ -9391,6 +9688,204 @@ example:
 
 .hover\:border-yellow-20v:hover {
   border-color: #edc730 !important; }
+
+.border-base-lightest {
+  border-color: #fcfcfc !important; }
+
+.hover\:border-base-lightest:hover {
+  border-color: #fcfcfc !important; }
+
+.border-base-lighter {
+  border-color: #f0f0f0 !important; }
+
+.hover\:border-base-lighter:hover {
+  border-color: #f0f0f0 !important; }
+
+.border-base-light {
+  border-color: #e6e6e6 !important; }
+
+.hover\:border-base-light:hover {
+  border-color: #e6e6e6 !important; }
+
+.border-base {
+  border-color: #adadad !important; }
+
+.hover\:border-base:hover {
+  border-color: #adadad !important; }
+
+.border-base-dark {
+  border-color: #757575 !important; }
+
+.hover\:border-base-dark:hover {
+  border-color: #757575 !important; }
+
+.border-base-darker {
+  border-color: #454545 !important; }
+
+.hover\:border-base-darker:hover {
+  border-color: #454545 !important; }
+
+.border-base-darkest {
+  border-color: #171717 !important; }
+
+.hover\:border-base-darkest:hover {
+  border-color: #171717 !important; }
+
+.border-text {
+  border-color: #171717 !important; }
+
+.hover\:border-text:hover {
+  border-color: #171717 !important; }
+
+.border-primary-lighter {
+  border-color: #dae9f7 !important; }
+
+.hover\:border-primary-lighter:hover {
+  border-color: #dae9f7 !important; }
+
+.border-primary-light {
+  border-color: #79bcf2 !important; }
+
+.hover\:border-primary-light:hover {
+  border-color: #79bcf2 !important; }
+
+.border-primary {
+  border-color: #0069b4 !important; }
+
+.hover\:border-primary:hover {
+  border-color: #0069b4 !important; }
+
+.border-primary-vivid {
+  border-color: #0052de !important; }
+
+.hover\:border-primary-vivid:hover {
+  border-color: #0052de !important; }
+
+.border-primary-dark {
+  border-color: #1e4f94 !important; }
+
+.hover\:border-primary-dark:hover {
+  border-color: #1e4f94 !important; }
+
+.border-primary-darker {
+  border-color: #112a4d !important; }
+
+.hover\:border-primary-darker:hover {
+  border-color: #112a4d !important; }
+
+.border-secondary-light {
+  border-color: #ed6b61 !important; }
+
+.hover\:border-secondary-light:hover {
+  border-color: #ed6b61 !important; }
+
+.border-secondary {
+  border-color: #ab3a3a !important; }
+
+.hover\:border-secondary:hover {
+  border-color: #ab3a3a !important; }
+
+.border-secondary-vivid {
+  border-color: #e92106 !important; }
+
+.hover\:border-secondary-vivid:hover {
+  border-color: #e92106 !important; }
+
+.border-secondary-dark {
+  border-color: #3b2523 !important; }
+
+.hover\:border-secondary-dark:hover {
+  border-color: #3b2523 !important; }
+
+.border-accent-warm-dark {
+  border-color: #ff7b0f !important; }
+
+.hover\:border-accent-warm-dark:hover {
+  border-color: #ff7b0f !important; }
+
+.border-accent-warm {
+  border-color: #ff9742 !important; }
+
+.hover\:border-accent-warm:hover {
+  border-color: #ff9742 !important; }
+
+.border-accent-cool-dark {
+  border-color: #00abd1 !important; }
+
+.hover\:border-accent-cool-dark:hover {
+  border-color: #00abd1 !important; }
+
+.border-accent-cool {
+  border-color: #02c2e8 !important; }
+
+.hover\:border-accent-cool:hover {
+  border-color: #02c2e8 !important; }
+
+.border-red {
+  border-color: #e92106 !important; }
+
+.hover\:border-red:hover {
+  border-color: #e92106 !important; }
+
+.border-orange {
+  border-color: #ff7b0f !important; }
+
+.hover\:border-orange:hover {
+  border-color: #ff7b0f !important; }
+
+.border-gold {
+  border-color: #faaf00 !important; }
+
+.hover\:border-gold:hover {
+  border-color: #faaf00 !important; }
+
+.border-yellow {
+  border-color: #fdd430 !important; }
+
+.hover\:border-yellow:hover {
+  border-color: #fdd430 !important; }
+
+.border-green {
+  border-color: #538200 !important; }
+
+.hover\:border-green:hover {
+  border-color: #538200 !important; }
+
+.border-mint {
+  border-color: #04c786 !important; }
+
+.hover\:border-mint:hover {
+  border-color: #04c786 !important; }
+
+.border-cyan {
+  border-color: #00abd1 !important; }
+
+.hover\:border-cyan:hover {
+  border-color: #00abd1 !important; }
+
+.border-blue {
+  border-color: #007ade !important; }
+
+.hover\:border-blue:hover {
+  border-color: #007ade !important; }
+
+.border-indigo {
+  border-color: #686dca !important; }
+
+.hover\:border-indigo:hover {
+  border-color: #686dca !important; }
+
+.border-violet {
+  border-color: #8369b5 !important; }
+
+.hover\:border-violet:hover {
+  border-color: #8369b5 !important; }
+
+.border-magenta {
+  border-color: #e1277a !important; }
+
+.hover\:border-magenta:hover {
+  border-color: #e1277a !important; }
 
 .radius-0 {
   border-radius: 0 !important; }
@@ -13534,6 +14029,303 @@ example:
 .focus\:text-yellow-20v:focus {
   color: #edc730 !important; }
 
+.text-base-lightest {
+  color: #fcfcfc !important; }
+
+.hover\:text-base-lightest:hover {
+  color: #fcfcfc !important; }
+
+.focus\:text-base-lightest:focus {
+  color: #fcfcfc !important; }
+
+.text-base-lighter {
+  color: #f0f0f0 !important; }
+
+.hover\:text-base-lighter:hover {
+  color: #f0f0f0 !important; }
+
+.focus\:text-base-lighter:focus {
+  color: #f0f0f0 !important; }
+
+.text-base-light {
+  color: #e6e6e6 !important; }
+
+.hover\:text-base-light:hover {
+  color: #e6e6e6 !important; }
+
+.focus\:text-base-light:focus {
+  color: #e6e6e6 !important; }
+
+.text-base {
+  color: #adadad !important; }
+
+.hover\:text-base:hover {
+  color: #adadad !important; }
+
+.focus\:text-base:focus {
+  color: #adadad !important; }
+
+.text-base-dark {
+  color: #757575 !important; }
+
+.hover\:text-base-dark:hover {
+  color: #757575 !important; }
+
+.focus\:text-base-dark:focus {
+  color: #757575 !important; }
+
+.text-base-darker {
+  color: #454545 !important; }
+
+.hover\:text-base-darker:hover {
+  color: #454545 !important; }
+
+.focus\:text-base-darker:focus {
+  color: #454545 !important; }
+
+.text-base-darkest {
+  color: #171717 !important; }
+
+.hover\:text-base-darkest:hover {
+  color: #171717 !important; }
+
+.focus\:text-base-darkest:focus {
+  color: #171717 !important; }
+
+.text-text {
+  color: #171717 !important; }
+
+.hover\:text-text:hover {
+  color: #171717 !important; }
+
+.focus\:text-text:focus {
+  color: #171717 !important; }
+
+.text-primary-lighter {
+  color: #dae9f7 !important; }
+
+.hover\:text-primary-lighter:hover {
+  color: #dae9f7 !important; }
+
+.focus\:text-primary-lighter:focus {
+  color: #dae9f7 !important; }
+
+.text-primary-light {
+  color: #79bcf2 !important; }
+
+.hover\:text-primary-light:hover {
+  color: #79bcf2 !important; }
+
+.focus\:text-primary-light:focus {
+  color: #79bcf2 !important; }
+
+.text-primary {
+  color: #0069b4 !important; }
+
+.hover\:text-primary:hover {
+  color: #0069b4 !important; }
+
+.focus\:text-primary:focus {
+  color: #0069b4 !important; }
+
+.text-primary-vivid {
+  color: #0052de !important; }
+
+.hover\:text-primary-vivid:hover {
+  color: #0052de !important; }
+
+.focus\:text-primary-vivid:focus {
+  color: #0052de !important; }
+
+.text-primary-dark {
+  color: #1e4f94 !important; }
+
+.hover\:text-primary-dark:hover {
+  color: #1e4f94 !important; }
+
+.focus\:text-primary-dark:focus {
+  color: #1e4f94 !important; }
+
+.text-primary-darker {
+  color: #112a4d !important; }
+
+.hover\:text-primary-darker:hover {
+  color: #112a4d !important; }
+
+.focus\:text-primary-darker:focus {
+  color: #112a4d !important; }
+
+.text-secondary-light {
+  color: #ed6b61 !important; }
+
+.hover\:text-secondary-light:hover {
+  color: #ed6b61 !important; }
+
+.focus\:text-secondary-light:focus {
+  color: #ed6b61 !important; }
+
+.text-secondary {
+  color: #ab3a3a !important; }
+
+.hover\:text-secondary:hover {
+  color: #ab3a3a !important; }
+
+.focus\:text-secondary:focus {
+  color: #ab3a3a !important; }
+
+.text-secondary-vivid {
+  color: #e92106 !important; }
+
+.hover\:text-secondary-vivid:hover {
+  color: #e92106 !important; }
+
+.focus\:text-secondary-vivid:focus {
+  color: #e92106 !important; }
+
+.text-secondary-dark {
+  color: #3b2523 !important; }
+
+.hover\:text-secondary-dark:hover {
+  color: #3b2523 !important; }
+
+.focus\:text-secondary-dark:focus {
+  color: #3b2523 !important; }
+
+.text-accent-warm-dark {
+  color: #ff7b0f !important; }
+
+.hover\:text-accent-warm-dark:hover {
+  color: #ff7b0f !important; }
+
+.focus\:text-accent-warm-dark:focus {
+  color: #ff7b0f !important; }
+
+.text-accent-warm {
+  color: #ff9742 !important; }
+
+.hover\:text-accent-warm:hover {
+  color: #ff9742 !important; }
+
+.focus\:text-accent-warm:focus {
+  color: #ff9742 !important; }
+
+.text-accent-cool-dark {
+  color: #00abd1 !important; }
+
+.hover\:text-accent-cool-dark:hover {
+  color: #00abd1 !important; }
+
+.focus\:text-accent-cool-dark:focus {
+  color: #00abd1 !important; }
+
+.text-accent-cool {
+  color: #02c2e8 !important; }
+
+.hover\:text-accent-cool:hover {
+  color: #02c2e8 !important; }
+
+.focus\:text-accent-cool:focus {
+  color: #02c2e8 !important; }
+
+.text-red {
+  color: #e92106 !important; }
+
+.hover\:text-red:hover {
+  color: #e92106 !important; }
+
+.focus\:text-red:focus {
+  color: #e92106 !important; }
+
+.text-orange {
+  color: #ff7b0f !important; }
+
+.hover\:text-orange:hover {
+  color: #ff7b0f !important; }
+
+.focus\:text-orange:focus {
+  color: #ff7b0f !important; }
+
+.text-gold {
+  color: #faaf00 !important; }
+
+.hover\:text-gold:hover {
+  color: #faaf00 !important; }
+
+.focus\:text-gold:focus {
+  color: #faaf00 !important; }
+
+.text-yellow {
+  color: #fdd430 !important; }
+
+.hover\:text-yellow:hover {
+  color: #fdd430 !important; }
+
+.focus\:text-yellow:focus {
+  color: #fdd430 !important; }
+
+.text-green {
+  color: #538200 !important; }
+
+.hover\:text-green:hover {
+  color: #538200 !important; }
+
+.focus\:text-green:focus {
+  color: #538200 !important; }
+
+.text-mint {
+  color: #04c786 !important; }
+
+.hover\:text-mint:hover {
+  color: #04c786 !important; }
+
+.focus\:text-mint:focus {
+  color: #04c786 !important; }
+
+.text-cyan {
+  color: #00abd1 !important; }
+
+.hover\:text-cyan:hover {
+  color: #00abd1 !important; }
+
+.focus\:text-cyan:focus {
+  color: #00abd1 !important; }
+
+.text-blue {
+  color: #007ade !important; }
+
+.hover\:text-blue:hover {
+  color: #007ade !important; }
+
+.focus\:text-blue:focus {
+  color: #007ade !important; }
+
+.text-indigo {
+  color: #686dca !important; }
+
+.hover\:text-indigo:hover {
+  color: #686dca !important; }
+
+.focus\:text-indigo:focus {
+  color: #686dca !important; }
+
+.text-violet {
+  color: #8369b5 !important; }
+
+.hover\:text-violet:hover {
+  color: #8369b5 !important; }
+
+.focus\:text-violet:focus {
+  color: #8369b5 !important; }
+
+.text-magenta {
+  color: #e1277a !important; }
+
+.hover\:text-magenta:hover {
+  color: #e1277a !important; }
+
+.focus\:text-magenta:focus {
+  color: #e1277a !important; }
+
 .cursor-auto {
   cursor: auto !important; }
 
@@ -15291,9 +16083,6 @@ example:
 
 .text-bold {
   font-weight: 700 !important; }
-
-.text-black {
-  font-weight: 900 !important; }
 
 .text-100 {
   font-weight: 100 !important; }
@@ -27386,6 +28175,204 @@ example:
 .hover\:underline-yellow-20v:hover {
   text-decoration-color: #edc730 !important; }
 
+.underline-base-lightest {
+  text-decoration-color: #fcfcfc !important; }
+
+.hover\:underline-base-lightest:hover {
+  text-decoration-color: #fcfcfc !important; }
+
+.underline-base-lighter {
+  text-decoration-color: #f0f0f0 !important; }
+
+.hover\:underline-base-lighter:hover {
+  text-decoration-color: #f0f0f0 !important; }
+
+.underline-base-light {
+  text-decoration-color: #e6e6e6 !important; }
+
+.hover\:underline-base-light:hover {
+  text-decoration-color: #e6e6e6 !important; }
+
+.underline-base {
+  text-decoration-color: #adadad !important; }
+
+.hover\:underline-base:hover {
+  text-decoration-color: #adadad !important; }
+
+.underline-base-dark {
+  text-decoration-color: #757575 !important; }
+
+.hover\:underline-base-dark:hover {
+  text-decoration-color: #757575 !important; }
+
+.underline-base-darker {
+  text-decoration-color: #454545 !important; }
+
+.hover\:underline-base-darker:hover {
+  text-decoration-color: #454545 !important; }
+
+.underline-base-darkest {
+  text-decoration-color: #171717 !important; }
+
+.hover\:underline-base-darkest:hover {
+  text-decoration-color: #171717 !important; }
+
+.underline-text {
+  text-decoration-color: #171717 !important; }
+
+.hover\:underline-text:hover {
+  text-decoration-color: #171717 !important; }
+
+.underline-primary-lighter {
+  text-decoration-color: #dae9f7 !important; }
+
+.hover\:underline-primary-lighter:hover {
+  text-decoration-color: #dae9f7 !important; }
+
+.underline-primary-light {
+  text-decoration-color: #79bcf2 !important; }
+
+.hover\:underline-primary-light:hover {
+  text-decoration-color: #79bcf2 !important; }
+
+.underline-primary {
+  text-decoration-color: #0069b4 !important; }
+
+.hover\:underline-primary:hover {
+  text-decoration-color: #0069b4 !important; }
+
+.underline-primary-vivid {
+  text-decoration-color: #0052de !important; }
+
+.hover\:underline-primary-vivid:hover {
+  text-decoration-color: #0052de !important; }
+
+.underline-primary-dark {
+  text-decoration-color: #1e4f94 !important; }
+
+.hover\:underline-primary-dark:hover {
+  text-decoration-color: #1e4f94 !important; }
+
+.underline-primary-darker {
+  text-decoration-color: #112a4d !important; }
+
+.hover\:underline-primary-darker:hover {
+  text-decoration-color: #112a4d !important; }
+
+.underline-secondary-light {
+  text-decoration-color: #ed6b61 !important; }
+
+.hover\:underline-secondary-light:hover {
+  text-decoration-color: #ed6b61 !important; }
+
+.underline-secondary {
+  text-decoration-color: #ab3a3a !important; }
+
+.hover\:underline-secondary:hover {
+  text-decoration-color: #ab3a3a !important; }
+
+.underline-secondary-vivid {
+  text-decoration-color: #e92106 !important; }
+
+.hover\:underline-secondary-vivid:hover {
+  text-decoration-color: #e92106 !important; }
+
+.underline-secondary-dark {
+  text-decoration-color: #3b2523 !important; }
+
+.hover\:underline-secondary-dark:hover {
+  text-decoration-color: #3b2523 !important; }
+
+.underline-accent-warm-dark {
+  text-decoration-color: #ff7b0f !important; }
+
+.hover\:underline-accent-warm-dark:hover {
+  text-decoration-color: #ff7b0f !important; }
+
+.underline-accent-warm {
+  text-decoration-color: #ff9742 !important; }
+
+.hover\:underline-accent-warm:hover {
+  text-decoration-color: #ff9742 !important; }
+
+.underline-accent-cool-dark {
+  text-decoration-color: #00abd1 !important; }
+
+.hover\:underline-accent-cool-dark:hover {
+  text-decoration-color: #00abd1 !important; }
+
+.underline-accent-cool {
+  text-decoration-color: #02c2e8 !important; }
+
+.hover\:underline-accent-cool:hover {
+  text-decoration-color: #02c2e8 !important; }
+
+.underline-red {
+  text-decoration-color: #e92106 !important; }
+
+.hover\:underline-red:hover {
+  text-decoration-color: #e92106 !important; }
+
+.underline-orange {
+  text-decoration-color: #ff7b0f !important; }
+
+.hover\:underline-orange:hover {
+  text-decoration-color: #ff7b0f !important; }
+
+.underline-gold {
+  text-decoration-color: #faaf00 !important; }
+
+.hover\:underline-gold:hover {
+  text-decoration-color: #faaf00 !important; }
+
+.underline-yellow {
+  text-decoration-color: #fdd430 !important; }
+
+.hover\:underline-yellow:hover {
+  text-decoration-color: #fdd430 !important; }
+
+.underline-green {
+  text-decoration-color: #538200 !important; }
+
+.hover\:underline-green:hover {
+  text-decoration-color: #538200 !important; }
+
+.underline-mint {
+  text-decoration-color: #04c786 !important; }
+
+.hover\:underline-mint:hover {
+  text-decoration-color: #04c786 !important; }
+
+.underline-cyan {
+  text-decoration-color: #00abd1 !important; }
+
+.hover\:underline-cyan:hover {
+  text-decoration-color: #00abd1 !important; }
+
+.underline-blue {
+  text-decoration-color: #007ade !important; }
+
+.hover\:underline-blue:hover {
+  text-decoration-color: #007ade !important; }
+
+.underline-indigo {
+  text-decoration-color: #686dca !important; }
+
+.hover\:underline-indigo:hover {
+  text-decoration-color: #686dca !important; }
+
+.underline-violet {
+  text-decoration-color: #8369b5 !important; }
+
+.hover\:underline-violet:hover {
+  text-decoration-color: #8369b5 !important; }
+
+.underline-magenta {
+  text-decoration-color: #e1277a !important; }
+
+.hover\:underline-magenta:hover {
+  text-decoration-color: #e1277a !important; }
+
 .text-indent-0 {
   text-indent: 0 !important; }
 
@@ -30873,10 +31860,10 @@ html {
 
 /* * * * * * ========================= */
 .docs-text {
-  font-size: 1.0625rem;
   font-family: "United Sans Web", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
   margin-bottom: 0.5rem;
   margin-top: 2rem;
+  font-size: 1.0625rem;
   font-style: normal; }
 
 strong {
@@ -30920,3 +31907,13 @@ strong {
   @media screen and (min-width: 1200px) {
     .prose-graf-intro {
       font-size: 0.875rem; } }
+
+.text-color .example {
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-bottom-color: #f0f0f0;
+  border-bottom-style: solid;
+  margin-bottom: 0.25rem;
+  margin-top: 0.25rem;
+  padding-bottom: 0.25rem;
+  padding-top: 0.25rem; }

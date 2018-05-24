@@ -10,7 +10,9 @@ $utilities-use-important:     true;
 $output-all-utilities:  false;
 
 $global-color-plugins: (
-  'plugin-color-all'
+  'plugin-color-all',
+  'plugin-color-palette-theme',
+  'plugin-color-palette-basic'
 );
 
 /*
