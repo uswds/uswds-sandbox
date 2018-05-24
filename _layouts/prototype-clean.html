@@ -3,7 +3,7 @@
 
   {% include head.html %}
 
-  <body class="margin-0 size-sans-6 desktop:size-sans-8 line-height-sans-4 min-height-viewport">
+  <body class="margin-0 size-sans-6 desktop:size-sans-8 line-height-sans-4 min-height-viewport{% if page.body_color %} bg-{{ page.body_color }}{% endif %}">
 
     <main aria-label="Content">
       {{ content }}
