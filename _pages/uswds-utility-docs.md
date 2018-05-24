@@ -91,7 +91,7 @@ permalink: /uswds-utility-docs/
       <h2 class="margin-0 text-light size-sans-8">States</h2>
     </section>
     <section class="border-top-1px padding-top-1 margin-top-4">
-      <h2 class="margin-0 text-light size-sans-8">Advanced options</h2>
+      <h2 class="margin-0 text-light size-sans-8">Advanced settings</h2>
     </section>
 
   </div><!-- l.container -->
