@@ -26,7 +26,7 @@ body_color: gray-cool-2
     <section class="border-top-1px padding-top-1 margin-top-4">
       <h2 class="margin-0 text-light size-sans-8">Utility examples and usage</h2>
       <section class="text-color">
-        <section class="bg-white padding-2 radius-md margin-y-2">
+        <section class="bg-white padding-2 radius-md margin-y-2 shadow-2">
           <h3 class="size-sans-6 margin-top-0">Project theme colors <a class="text-normal text-text size-sans-2 margin-left-1" href="#0">Read more about project theme colors</a></h3>
           <p class="example text-base-lightest"><span class="bg-gray-90 radius-md padding-05 is-inverse">.text-base-lightest</span></p>
           <p class="example text-base-lighter"><span class="bg-gray-90 radius-md padding-05 is-inverse">.text-base-lighter</span></p>
@@ -50,7 +50,7 @@ body_color: gray-cool-2
           <p class="example text-accent-cool">.text-accent-cool</p>
           <p class="example text-accent-cool-dark">.text-accent-cool-dark</p>
         </section>
-        <section class="bg-white padding-2 radius-md margin-y-2">
+        <section class="bg-white padding-2 radius-md margin-y-2 shadow-2">
           <h3 class="size-sans-6 margin-top-0">Grayscale palette</h3>
           <p class="example text-white"><span class="bg-gray-90 radius-md padding-05 is-inverse">.text-white</span></p>
           <p class="example text-gray-5"><span class="bg-gray-90 radius-md padding-05 is-inverse">.text-gray-5</span></p>
@@ -61,7 +61,7 @@ body_color: gray-cool-2
           <p class="example text-gray-90">.text-gray-90</p>
           <p class="example text-black">.text-black</p>
         </section>
-        <section class="bg-white padding-2 radius-md margin-y-2">
+        <section class="bg-white padding-2 radius-md margin-y-2 shadow-2">
           <h3 class="size-sans-6 margin-top-0">Basic palette</h3>
           <p class="example text-red">.text-red</p>
           <p class="example text-orange">.text-orange</p>
