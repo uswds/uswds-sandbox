@@ -590,7 +590,7 @@ $font-family-manual-values: (
 */
 
 $font-feature-settings: (
-  output:       false,
+  output:       true,
   responsive:   false,
   active:       false,
   focus:        false,
@@ -1418,20 +1418,6 @@ $text-transform-settings: (
   visited:      false
 );
 
-$text-transform-plugins: (
-  /*
-  */
-);
-
-$text-transform-manual-values: (
-  /*
-  capitalize:     'capitalize',
-  lowercase:      'lowercase',
-  */
-  uppercase:      'uppercase',
-  none:           'none'
-);
-
 /*
 ========================================
 .top
@@ -1489,23 +1475,6 @@ $vertical-align-settings: (
   visited:      false
 );
 
-$vertical-align-plugins: (
-  /*
-  */
-);
-
-$vertical-align-manual-values: (
-  /*
-  bottom:       'bottom',
-  sub:          'sub',
-  super:        'super',
-  text-bottom:  'text-bottom',
-  text-top:     'text-top',
-  top:          'top',
-  */
-  middle:       'middle',
-  baseline:     'baseline',
-);
 
 /*
 ========================================
@@ -1520,21 +1489,6 @@ $whitespace-settings: (
   focus:        false,
   hover:        false,
   visited:      false
-);
-
-$whitespace-plugins: (
-  /*
-  */
-);
-
-$whitespace-manual-values: (
-  /*
-  pre:          'pre',
-  pre-line:     'pre-line',
-  */
-  pre-wrap:     'pre-wrap',
-  normal:       'normal',
-  nowrap:       'nowrap'
 );
 
 /*
