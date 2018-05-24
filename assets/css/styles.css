@@ -31917,3 +31917,31 @@ strong {
   margin-top: 0.25rem;
   padding-bottom: 0.25rem;
   padding-top: 0.25rem; }
+
+.output-list {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 0;
+  width: 100%; }
+  .output-list .output-utility, .output-list .output-css, .output-list .output-variable {
+    margin: 0;
+    padding-bottom: 0.25rem;
+    padding-top: 0.25rem;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: #c9c9c9;
+    border-bottom-style: solid; }
+  .output-list .output-utility {
+    width: 33.33333%;
+    flex: 0 0 auto; }
+  .output-list .output-css {
+    font-family: "Roboto Mono Web", "Bitstream Vera Sans Mono", "Consolas", "Courier", monospace;
+    width: 50%;
+    flex: 0 0 auto;
+    font-size: 0.89309rem; }
+  .output-list .output-variable {
+    font-family: "Roboto Mono Web", "Bitstream Vera Sans Mono", "Consolas", "Courier", monospace;
+    width: 16.66667%;
+    flex: 0 0 auto;
+    font-size: 0.89309rem;
+    font-weight: 300; }

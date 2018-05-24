@@ -220,3 +220,30 @@ strong {
   @include margin-y(.5);
   @include padding-y(.5);
 }
+
+
+.output-list {
+  @include grid-row;
+  @include margin-top(0);
+  @include width(full);
+  .output-utility, .output-css, .output-variable {
+    @include margin(0);
+    @include padding-y(.5);
+    @include border-bottom(1px);
+    @include border-bottom($gray-20);
+  }
+  .output-utility {
+    @include grid-col(4);
+  }
+  .output-css {
+    @include family(mono);
+    @include grid-col(6);
+    @include size(mono, 4);
+  }
+  .output-variable {
+    @include family(mono);
+    @include grid-col(2);
+    @include size(mono, 4);
+    @include text(light);
+  }
+}
