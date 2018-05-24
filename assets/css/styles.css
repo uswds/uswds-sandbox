@@ -16322,7 +16322,7 @@ example:
   justify-content: flex-end !important; }
 
 .flex-justify {
-  justify-content: between !important; }
+  justify-content: space-between !important; }
 
 .left-1px {
   left: 1px !important; }
