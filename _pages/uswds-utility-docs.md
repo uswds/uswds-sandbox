@@ -78,13 +78,13 @@ body_color: gray-cool-2
       </section>
     </section>
     <section class="border-top-1px padding-top-1 margin-top-4">
-      <h2 class="margin-0 text-light size-sans-8">Responsive</h2>
+      <h2 class="margin-0 text-light size-sans-8">Responsive variants</h2>
     </section>
     <section class="border-top-1px padding-top-1 margin-top-4">
-      <h2 class="margin-0 text-light size-sans-8">States</h2>
+      <h2 class="margin-0 text-light size-sans-8">Hover, active, focus, and visited variants</h2>
     </section>
     <section class="border-top-1px padding-top-1 margin-top-4">
-      <h2 class="margin-0 text-light size-sans-8">Output</h2>
+      <h2 class="margin-0 text-light size-sans-8">Default output</h2>
       <div class="row size-sans-1 text-bold border-bottom-1px padding-bottom-05 margin-top-2 border-gray-20">
         <div class="col-4">Utility</div>
         <div class="col-6">Output SCSS</div>
