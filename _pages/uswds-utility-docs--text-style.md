@@ -25,8 +25,8 @@ body_color: gray-2
     <section class="border-top-1px padding-top-1 margin-top-4">
 
       <div class="row flex-align-center margin-bottom-2">
-        <h2 class="col margin-0 text-light size-sans-8">Examples and usage</h2>
-        <p class="col text-right size-sans-1 text-normal margin-y-0 margin-left-2px text-gray-60">Variants may be activated and deactivated in <a href="#0" class="text-text">advanced settings</a>.</p>
+        <h2 class="col-auto margin-0 text-light size-sans-8">Examples and usage</h2>
+        <p class="col-fill text-right size-sans-1 text-normal margin-y-0 margin-left-2px text-gray-60">Utilities, values, and variants may be activated and deactivated in <a href="#0" class="text-text text-no-wrap">advanced settings</a>.</p>
       </div>
 
       <section class="text-color">
@@ -173,60 +173,64 @@ body_color: gray-2
 
           <p class="example text-underline underline-accent-cool">.underline-accent-cool<span class="text-thin text-gray-50">.text-underline</span></p>
           <p class="example text-underline underline-accent-cool-dark">.underline-accent-cool-dark<span class="text-thin text-gray-50">.text-underline</span></p>
-      </section>
-
-      <section class="bg-white padding-2 radius-md margin-y-2 border-1px border-gray-10">
-        <section class="margin-x-neg-2 margin-bottom-2 padding-x-2 padding-bottom-105 border-bottom-1px border-gray-10">
-          <div class="row">
-            <h3 class="col-auto size-sans-6 margin-top-0 margin-bottom-105">Vertical align</h3>
-
-            <ul class="col-fill text-right list-reset display-inline">
-              <li class="display-inline-block padding-y-05 padding-x-105 border-1px text-gray-20 radius-md margin-right-05 is-inverse text-strike">responsive</li>
-              <li class="display-inline-block padding-y-05 padding-x-105 border-1px text-gray-20 radius-md margin-right-05 is-inverse text-strike">active</li>
-              <li class="display-inline-block padding-y-05 padding-x-105 border-1px text-gray-20 radius-md margin-right-05 is-inverse text-strike">hover</li>
-              <li class="display-inline-block padding-y-05 padding-x-105 border-1px text-gray-20 radius-md margin-right-05 is-inverse text-strike">focus</li>
-              <li class="display-inline-block padding-y-05 padding-x-105 border-1px text-gray-20 radius-md margin-right-05 is-inverse text-strike">visited</li>
-            </ul>
-          </div>
+          <p class="example text-underline underline-auto">.underline-auto<span class="text-thin text-gray-50">.text-underline</span></p>
         </section>
-        <p class="example">A line of text and <span class="display-inline-block bg-red height-2px width-4 text-baseline"></span> <span class="text-baseline text-red">.text-baseline</span></p>
-        <p class="example">A line of text and <span class="display-inline-block bg-red height-2px width-4 text-bottom"></span> <span class="text-bottom text-red">.text-bottom</span></p>
-        <p class="example">A line of text and <span class="display-inline-block bg-red height-2px width-4 text-middle"></span> <span class="text-middle text-red">.text-middle</span></p>
-        <p class="example">A line of text and <span class="display-inline-block bg-red height-2px width-4 text-sub"></span> <span class="text-sub text-red">.text-sub</span></p>
-        <p class="example">A line of text and <span class="display-inline-block bg-red height-2px width-4 text-super"></span> <span class="text-super text-red">.text-super</span></p>
-        <p class="example">A line of text and <span class="display-inline-block bg-red height-2px width-4 text-tbottom"></span> <span class="text-tbottom text-red">.text-tbottom</span></p>
-        <p class="example">A line of text and <span class="display-inline-block bg-red height-2px width-4 text-ttop"></span> <span class="text-ttop text-red">.text-ttop</span></p>
-        <p class="example">A line of text and <span class="display-inline-block bg-red height-2px width-4 text-top"></span> <span class="text-top text-red">.text-top</span></p>
-    </section>
 
-    <section class="bg-white padding-2 radius-md margin-y-2 border-1px border-gray-10">
-      <section class="margin-x-neg-2 margin-bottom-2 padding-x-2 padding-bottom-105 border-bottom-1px border-gray-10">
-        <div class="row">
-          <h3 class="col-auto size-sans-6 margin-top-0 margin-bottom-105">Whitespace</h3>
+        <section class="bg-white padding-2 radius-md margin-y-2 border-1px border-gray-10">
+          <section class="margin-x-neg-2 margin-bottom-2 padding-x-2 padding-bottom-105 border-bottom-1px border-gray-10">
+            <div class="row">
+              <h3 class="col-auto size-sans-6 margin-top-0 margin-bottom-105">Vertical align</h3>
 
-          <ul class="col-fill text-right list-reset display-inline">
-            <li class="display-inline-block padding-y-05 padding-x-105 border-1px text-gray-20 radius-md margin-right-05 is-inverse text-strike">responsive</li>
-            <li class="display-inline-block padding-y-05 padding-x-105 border-1px text-gray-20 radius-md margin-right-05 is-inverse text-strike">active</li>
-            <li class="display-inline-block padding-y-05 padding-x-105 border-1px text-gray-20 radius-md margin-right-05 is-inverse text-strike">hover</li>
-            <li class="display-inline-block padding-y-05 padding-x-105 border-1px text-gray-20 radius-md margin-right-05 is-inverse text-strike">focus</li>
-            <li class="display-inline-block padding-y-05 padding-x-105 border-1px text-gray-20 radius-md margin-right-05 is-inverse text-strike">visited</li>
-          </ul>
-        </div>
+              <ul class="col-fill text-right list-reset display-inline">
+                <li class="display-inline-block padding-y-05 padding-x-105 border-1px text-gray-20 radius-md margin-right-05 is-inverse text-strike">responsive</li>
+                <li class="display-inline-block padding-y-05 padding-x-105 border-1px text-gray-20 radius-md margin-right-05 is-inverse text-strike">active</li>
+                <li class="display-inline-block padding-y-05 padding-x-105 border-1px text-gray-20 radius-md margin-right-05 is-inverse text-strike">hover</li>
+                <li class="display-inline-block padding-y-05 padding-x-105 border-1px text-gray-20 radius-md margin-right-05 is-inverse text-strike">focus</li>
+                <li class="display-inline-block padding-y-05 padding-x-105 border-1px text-gray-20 radius-md margin-right-05 is-inverse text-strike">visited</li>
+              </ul>
+            </div>
+          </section>
+          <p class="example">A line of text and <span class="display-inline-block bg-red height-2px width-4 text-baseline"></span> <span class="text-baseline text-red">.text-baseline</span></p>
+          <p class="example">A line of text and <span class="display-inline-block bg-red height-2px width-4 text-bottom"></span> <span class="text-bottom text-red">.text-bottom</span></p>
+          <p class="example">A line of text and <span class="display-inline-block bg-red height-2px width-4 text-middle"></span> <span class="text-middle text-red">.text-middle</span></p>
+          <p class="example">A line of text and <span class="display-inline-block bg-red height-2px width-4 text-sub"></span> <span class="text-sub text-red">.text-sub</span></p>
+          <p class="example">A line of text and <span class="display-inline-block bg-red height-2px width-4 text-super"></span> <span class="text-super text-red">.text-super</span></p>
+          <p class="example">A line of text and <span class="display-inline-block bg-red height-2px width-4 text-tbottom"></span> <span class="text-tbottom text-red">.text-tbottom</span></p>
+          <p class="example">A line of text and <span class="display-inline-block bg-red height-2px width-4 text-ttop"></span> <span class="text-ttop text-red">.text-ttop</span></p>
+          <p class="example">A line of text and <span class="display-inline-block bg-red height-2px width-4 text-top"></span> <span class="text-top text-red">.text-top</span></p>
+        </section>
+
+        <section class="bg-white padding-2 radius-md margin-y-2 border-1px border-gray-10">
+          <section class="margin-x-neg-2 margin-bottom-2 padding-x-2 padding-bottom-105 border-bottom-1px border-gray-10">
+            <div class="row">
+              <h3 class="col-auto size-sans-6 margin-top-0 margin-bottom-105">Whitespace</h3>
+
+              <ul class="col-fill text-right list-reset display-inline">
+                <li class="display-inline-block padding-y-05 padding-x-105 border-1px text-gray-20 radius-md margin-right-05 is-inverse text-strike">responsive</li>
+                <li class="display-inline-block padding-y-05 padding-x-105 border-1px text-gray-20 radius-md margin-right-05 is-inverse text-strike">active</li>
+                <li class="display-inline-block padding-y-05 padding-x-105 border-1px text-gray-20 radius-md margin-right-05 is-inverse text-strike">hover</li>
+                <li class="display-inline-block padding-y-05 padding-x-105 border-1px text-gray-20 radius-md margin-right-05 is-inverse text-strike">focus</li>
+                <li class="display-inline-block padding-y-05 padding-x-105 border-1px text-gray-20 radius-md margin-right-05 is-inverse text-strike">visited</li>
+              </ul>
+            </div>
+          </section>
+          <p class="example"><span class="display-inline-block width-card padding-1 border-1px"> <span class="text-pre">.text-pre formatted line   with     multiple       spaces</span></span></p>
+          <p class="example"><span class="display-inline-block width-card padding-1 border-1px"> <span class="text-pre-line">.text-pre-line formatted line   with     multiple       spaces</span></span></p>
+          <p class="example"><span class="display-inline-block width-card padding-1 border-1px"> <span class="text-pre-wrap">.text-pre-wrap formatted line   with     multiple       spaces</span></span></p>
+          <p class="example"><span class="display-inline-block width-card padding-1 border-1px"> <span class="text-wrap">.text-wrap formatted line   with     multiple       spaces</span></span></p>
+          <p class="example"><span class="display-inline-block width-card padding-1 border-1px"> <span class="text-no-wrap">.text-no-wrap formatted line   with     multiple       spaces</span></span></p>
+        </section>
       </section>
-      <p class="example"><span class="display-inline-block width-card padding-1 border-1px"> <span class="text-pre">.text-pre formatted line   with     multiple       spaces</span></span></p>
-      <p class="example"><span class="display-inline-block width-card padding-1 border-1px"> <span class="text-pre-line">.text-pre-line formatted line   with     multiple       spaces</span></span></p>
-      <p class="example"><span class="display-inline-block width-card padding-1 border-1px"> <span class="text-pre-wrap">.text-pre-wrap formatted line   with     multiple       spaces</span></span></p>
-      <p class="example"><span class="display-inline-block width-card padding-1 border-1px"> <span class="text-wrap">.text-wrap formatted line   with     multiple       spaces</span></span></p>
-      <p class="example"><span class="display-inline-block width-card padding-1 border-1px"> <span class="text-no-wrap">.text-no-wrap formatted line   with     multiple       spaces</span></span></p>
-  </section>
-
     </section>
+
     <section class="border-top-1px padding-top-1 margin-top-4">
       <h2 class="margin-0 text-light size-sans-8">Responsive variants</h2>
     </section>
+
     <section class="border-top-1px padding-top-1 margin-top-4">
       <h2 class="margin-0 text-light size-sans-8"><span class="size-mono-6 padding-x-05 padding-y-2px border-1px display-inline-block radius-md margin-right-2px">hover</span>, <span class="size-mono-6 padding-x-05 padding-y-2px border-1px display-inline-block radius-md margin-right-2px">active</span>, <span class="size-mono-6 padding-x-05 padding-y-2px border-1px display-inline-block radius-md margin-right-2px">focus</span>, and <span class="size-mono-6 padding-x-05 padding-y-2px border-1px display-inline-block radius-md margin-right-2px">visited</span> variants</h2>
     </section>
+
     <section class="border-top-1px padding-top-1 margin-top-4">
       <h2 class="margin-0 text-light size-sans-8">Default output</h2>
       <div class="row size-sans-1 text-bold border-bottom-1px padding-bottom-05 margin-top-2 border-gray-20">
@@ -235,251 +239,251 @@ body_color: gray-2
         <div class="col-2">Default variable value</div>
       </div>
       <dl class="output-list">
-        <dt class="output-utility">.text-base-lightest</dt>
-          <dd class="output-css">color: $base-lightest</dd>
+        <dt class="output-utility">.text-tabular</dt>
+        <dd class="output-css">font-feature-settings: "tnum" 1, "kern" 1;</dd>
+        <dd class="output-variable">—</dd>
+
+        <dt class="output-utility">.text-no-tabular</dt>
+        <dd class="output-css">font-feature-settings: "kern" 1;</dd>
+        <dd class="output-variable">—</dd>
+
+        <dt class="output-utility">.text-italic</dt>
+        <dd class="output-css">font-style: italic;</dd>
+        <dd class="output-variable">—</dd>
+
+        <dt class="output-utility">.text-no-italic</dt>
+        <dd class="output-css">font-style: normal;</dd>
+        <dd class="output-variable">—</dd>
+
+        <dt class="output-utility">.text-thin</dt>
+        <dd class="output-css">font-weight: <span class="output-token">$theme-font-weight-thin</span>;</dd>
+        <dd class="output-variable">200</dd>
+
+        <dt class="output-utility">.text-light</dt>
+        <dd class="output-css">font-weight: <span class="output-token">$theme-font-weight-light</span>;</dd>
+        <dd class="output-variable">300</dd>
+
+        <dt class="output-utility">.text-normal</dt>
+        <dd class="output-css">font-weight: normal;</dd>
+        <dd class="output-variable">—</dd>
+
+        <dt class="output-utility">.text-medium</dt>
+        <dd class="output-css">font-weight: <span class="output-token">$theme-font-weight-medium</span>;</dd>
+        <dd class="output-variable">500</dd>
+
+        <dt class="output-utility">.text-semibold</dt>
+        <dd class="output-css">font-weight: <span class="output-token">$theme-font-weight-semibold</span>;</dd>
+        <dd class="output-variable">600</dd>
+
+        <dt class="output-utility">.text-bold</dt>
+        <dd class="output-css">font-weight: bold;</dd>
+        <dd class="output-variable">—</dd>
+
+        <dt class="output-utility">.text-heavy</dt>
+        <dd class="output-css">font-weight: <span class="output-token">$theme-font-weight-heavy</span>;</dd>
+        <dd class="output-variable">900</dd>
+
+        <dt class="output-utility">.text-ls-neg-3</dt>
+        <dd class="output-css">letter-spacing: <span class="output-token">ls(-3)</span>;</dd>
+        <dd class="output-variable">-.03em</dd>
+
+        <dt class="output-utility">.text-ls-neg-2</dt>
+        <dd class="output-css">letter-spacing: <span class="output-token">ls(-2)</span>;</dd>
+        <dd class="output-variable">-.02em</dd>
+
+        <dt class="output-utility">.text-ls-neg-1</dt>
+        <dd class="output-css">letter-spacing: <span class="output-token">ls(-1)</span>;</dd>
+        <dd class="output-variable">-.01em</dd>
+
+        <dt class="output-utility">.text-ls-auto</dt>
+        <dd class="output-css">letter-spacing: initial;</dd>
+        <dd class="output-variable">—</dd>
+
+        <dt class="output-utility">.text-ls-1</dt>
+        <dd class="output-css">letter-spacing: <span class="output-token">ls(1)</span>;</dd>
+        <dd class="output-variable">.05em</dd>
+
+        <dt class="output-utility">.text-ls-2</dt>
+        <dd class="output-css">letter-spacing: <span class="output-token">ls(2)</span>;</dd>
+        <dd class="output-variable">.1em</dd>
+
+        <dt class="output-utility">.text-ls-3</dt>
+        <dd class="output-css">letter-spacing: <span class="output-token">ls(3)</span>;</dd>
+        <dd class="output-variable">.15em</dd>
+
+        <dt class="output-utility">.text-underline</dt>
+        <dd class="output-css">text-decoration: underline;</dd>
+        <dd class="output-variable">—</dd>
+
+        <dt class="output-utility">.text-strike</dt>
+        <dd class="output-css">text-decoration: line-through;</dd>
+        <dd class="output-variable">—</dd>
+
+        <dt class="output-utility">.text-no-underline</dt>
+        <dd class="output-css">text-decoration: none;</dd>
+        <dd class="output-variable">—</dd>
+
+        <dt class="output-utility">.text-no-strike</dt>
+        <dd class="output-css">text-decoration: none;</dd>
+        <dd class="output-variable">—</dd>
+
+        <dt class="output-utility">.underline-base-darker</dt>
+          <dd class="output-css">text-decoration-color: <span class="output-token">$base-darker</span></dd>
           <dd class="output-variable">
-            <span class="display-inline-block bg-base-lightest circle-105 text-baseline margin-right-05"></span>
-            #FCFCFC
-          </dd>
-        <dt class="output-utility">.text-base-lighter</dt>
-          <dd class="output-css">color: $base-lighter</dd>
-          <dd class="output-variable">
-            <span class="display-inline-block bg-base-lighter circle-105 text-top margin-right-05"></span>
-            #F0F0F0
-          </dd>
-        <dt class="output-utility">.text-base-light</dt>
-          <dd class="output-css">color: $base-light</dd>
-          <dd class="output-variable">
-            <span class="display-inline-block bg-base-light circle-105 text-top margin-right-05"></span>
-            #E6E6E6
-          </dd>
-        <dt class="output-utility">.text-base</dt>
-          <dd class="output-css">color: $base</dd>
-          <dd class="output-variable">
-            <span class="display-inline-block bg-base circle-105 text-tbottom margin-right-05"></span>
-            #ADADAD
-          </dd>
-        <dt class="output-utility">.text-base-dark</dt>
-          <dd class="output-css">color: $base-dark</dd>
-          <dd class="output-variable">
-            <span class="display-inline-block bg-base-dark circle-105 text-tbottom margin-right-05"></span>
-            #757575
-          </dd>
-        <dt class="output-utility">.text-base-darker</dt>
-          <dd class="output-css">color: $base-darker</dd>
-          <dd class="output-variable">
-            <span class="display-inline-block bg-base-darker circle-105 text-tbottom margin-right-05"></span>
+            <span class="display-inline-block bg-base-darker circle-105 text-middle margin-right-05"></span>
             #454545
           </dd>
-        <dt class="output-utility">.text-base-darkest</dt>
-          <dd class="output-css">color: $base-darkest</dd>
+        <dt class="output-utility">.underline-base-darkest</dt>
+          <dd class="output-css">text-decoration-color: <span class="output-token">$base-darkest</span></dd>
           <dd class="output-variable">
-            <span class="display-inline-block bg-base-darkest circle-105 text-tbottom margin-right-05"></span>
+            <span class="display-inline-block bg-base-darkest circle-105 text-middle margin-right-05"></span>
             #171717
           </dd>
 
-        <dt class="output-utility">.text-primary-lighter</dt>
-          <dd class="output-css">color: $primary-lighter</dd>
+        <dt class="output-utility">.underline-primary-lighter</dt>
+          <dd class="output-css">text-decoration-color: <span class="output-token">$primary-lighter</span></dd>
           <dd class="output-variable">
-            <span class="display-inline-block bg-primary-lighter circle-105 text-tbottom margin-right-05"></span>
+            <span class="display-inline-block bg-primary-lighter circle-105 text-middle margin-right-05"></span>
             #DAE9F6
           </dd>
-        <dt class="output-utility">.text-primary-light</dt>
-          <dd class="output-css">color: $primary-light</dd>
+        <dt class="output-utility">.underline-primary-light</dt>
+          <dd class="output-css">text-decoration-color: <span class="output-token">$primary-light</span></dd>
           <dd class="output-variable">
-            <span class="display-inline-block bg-primary-light circle-105 text-tbottom margin-right-05"></span>
+            <span class="display-inline-block bg-primary-light circle-105 text-middle margin-right-05"></span>
             #7CBDF0
           </dd>
-        <dt class="output-utility">.text-primary</dt>
-          <dd class="output-css">color: $primary</dd>
+        <dt class="output-utility">.underline-primary</dt>
+          <dd class="output-css">text-decoration-color: <span class="output-token">$primary</span></dd>
           <dd class="output-variable">
-            <span class="display-inline-block bg-primary circle-105 text-tbottom margin-right-05"></span>
+            <span class="display-inline-block bg-primary circle-105 text-middle margin-right-05"></span>
             #0F6BB2
           </dd>
-        <dt class="output-utility">.text-primary-vivid</dt>
-          <dd class="output-css">color: $primary-vivid</dd>
+        <dt class="output-utility">.underline-primary-vivid</dt>
+          <dd class="output-css">text-decoration-color: <span class="output-token">$primary-vivid</span></dd>
           <dd class="output-variable">
-            <span class="display-inline-block bg-primary-vivid circle-105 text-tbottom margin-right-05"></span>
+            <span class="display-inline-block bg-primary-vivid circle-105 text-middle margin-right-05"></span>
             #0E57DA
           </dd>
-        <dt class="output-utility">.text-primary-dark</dt>
-          <dd class="output-css">color: $primary-dark</dd>
+        <dt class="output-utility">.underline-primary-dark</dt>
+          <dd class="output-css">text-decoration-color: <span class="output-token">$primary-dark</span></dd>
           <dd class="output-variable">
-            <span class="display-inline-block bg-primary-dark circle-105 text-tbottom margin-right-05"></span>
+            <span class="display-inline-block bg-primary-dark circle-105 text-middle margin-right-05"></span>
             #215192
           </dd>
-        <dt class="output-utility">.text-primary-darker</dt>
-          <dd class="output-css">color: $primary-darker</dd>
+        <dt class="output-utility">.underline-primary-darker</dt>
+          <dd class="output-css">text-decoration-color: <span class="output-token">$primary-darker</span></dd>
           <dd class="output-variable">
-            <span class="display-inline-block bg-primary-darker circle-105 text-tbottom margin-right-05"></span>
+            <span class="display-inline-block bg-primary-darker circle-105 text-middle margin-right-05"></span>
             #122B4C
           </dd>
 
-        <dt class="output-utility">.text-secondary-light</dt>
-          <dd class="output-css">color: $secondary-light</dd>
+        <dt class="output-utility">.underline-secondary-light</dt>
+          <dd class="output-css">text-decoration-color: <span class="output-token">$secondary-light</span></dd>
           <dd class="output-variable">
-            <span class="display-inline-block bg-secondary-light circle-105 text-tbottom margin-right-05"></span>
+            <span class="display-inline-block bg-secondary-light circle-105 text-middle margin-right-05"></span>
             #122B4C
           </dd>
-        <dt class="output-utility">.text-secondary</dt>
-          <dd class="output-css">color: $secondary</dd>
+        <dt class="output-utility">.underline-secondary</dt>
+          <dd class="output-css">text-decoration-color: <span class="output-token">$secondary</span></dd>
           <dd class="output-variable">
-            <span class="display-inline-block bg-secondary circle-105 text-tbottom margin-right-05"></span>
+            <span class="display-inline-block bg-secondary circle-105 text-middle margin-right-05"></span>
             #122B4C
           </dd>
-        <dt class="output-utility">.text-secondary-vivid</dt>
-          <dd class="output-css">color: $secondary-vivid</dd>
+        <dt class="output-utility">.underline-secondary-vivid</dt>
+          <dd class="output-css">text-decoration-color: <span class="output-token">$secondary-vivid</span></dd>
           <dd class="output-variable">
-            <span class="display-inline-block bg-secondary-vivid circle-105 text-tbottom margin-right-05"></span>
+            <span class="display-inline-block bg-secondary-vivid circle-105 text-middle margin-right-05"></span>
             #E6251B
           </dd>
-        <dt class="output-utility">.text-secondary-dark</dt>
-          <dd class="output-css">color: $secondary-dark</dd>
+        <dt class="output-utility">.underline-secondary-dark</dt>
+          <dd class="output-css">text-decoration-color: <span class="output-token">$secondary-dark</span></dd>
           <dd class="output-variable">
-            <span class="display-inline-block bg-secondary-dark circle-105 text-tbottom margin-right-05"></span>
+            <span class="display-inline-block bg-secondary-dark circle-105 text-middle margin-right-05"></span>
             #3B2523
           </dd>
 
-        <dt class="output-utility">.text-accent-warm</dt>
-          <dd class="output-css">color: $accent-warm</dd>
+        <dt class="output-utility">.underline-accent-warm</dt>
+          <dd class="output-css">text-decoration-color: <span class="output-token">$accent-warm</span></dd>
           <dd class="output-variable">
-            <span class="display-inline-block bg-accent-warm circle-105 text-tbottom margin-right-05"></span>
+            <span class="display-inline-block bg-accent-warm circle-105 text-middle margin-right-05"></span>
             #FD974C
           </dd>
-        <dt class="output-utility">.text-accent-warm-dark</dt>
-          <dd class="output-css">color: $accent-warm-dark</dd>
+        <dt class="output-utility">.underline-accent-warm-dark</dt>
+          <dd class="output-css">text-decoration-color: <span class="output-token">$accent-warm-dark</span></dd>
           <dd class="output-variable">
-            <span class="display-inline-block bg-accent-warm-dark circle-105 text-tbottom margin-right-05"></span>
+            <span class="display-inline-block bg-accent-warm-dark circle-105 text-middle margin-right-05"></span>
             #FD7B28
           </dd>
 
-        <dt class="output-utility">.text-accent-cool</dt>
-          <dd class="output-css">color: $accent-cool</dd>
+        <dt class="output-utility">.underline-accent-cool</dt>
+          <dd class="output-css">text-decoration-color: <span class="output-token">$accent-cool</span></dd>
           <dd class="output-variable">
-            <span class="display-inline-block bg-accent-cool circle-105 text-tbottom margin-right-05"></span>
+            <span class="display-inline-block bg-accent-cool circle-105 text-middle margin-right-05"></span>
             #21C2E6
           </dd>
-        <dt class="output-utility">.text-accent-cool-dark</dt>
-          <dd class="output-css">color: $accent-cool-dark</dd>
-          <dd class="output-variable">
-            <span class="display-inline-block bg-accent-cool-dark circle-105 text-tbottom margin-right-05"></span>
-            #1BABCF
-          </dd>
+        <dt class="output-utility">.underline-accent-cool-dark</dt>
+        <dd class="output-css">text-decoration-color: <span class="output-token">$accent-cool-dark</span></dd>
+        <dd class="output-variable">
+          <span class="display-inline-block bg-accent-cool-dark circle-105 text-middle margin-right-05"></span>
+          #1BABCF
+        </dd>
 
-        <dt class="output-utility">.text-white</dt>
-          <dd class="output-css">color: white</dd>
-          <dd class="output-variable">
-            <span class="display-inline-block bg-white circle-105 text-tbottom margin-right-05"></span>
-            white
-          </dd>
-        <dt class="output-utility">.text-gray-5</dt>
-          <dd class="output-css">color: $gray-5</dd>
-          <dd class="output-variable">
-            <span class="display-inline-block bg-gray-5 circle-105 text-tbottom margin-right-05"></span>
-            #F0F0F0
-          </dd>
-        <dt class="output-utility">.text-gray-10</dt>
-          <dd class="output-css">color: $gray-10</dd>
-          <dd class="output-variable">
-            <span class="display-inline-block bg-gray-10 circle-105 text-tbottom margin-right-05"></span>
-            #E6E6E6
-          </dd>
-        <dt class="output-utility">.text-gray-30</dt>
-          <dd class="output-css">color: $gray-30</dd>
-          <dd class="output-variable">
-            <span class="display-inline-block bg-gray-30 circle-105 text-tbottom margin-right-05"></span>
-            #ADADAD
-          </dd>
-        <dt class="output-utility">.text-gray-50</dt>
-          <dd class="output-css">color: $gray-50</dd>
-          <dd class="output-variable">
-            <span class="display-inline-block bg-gray-50 circle-105 text-tbottom margin-right-05"></span>
-            #757575
-          </dd>
-        <dt class="output-utility">.text-gray-70</dt>
-          <dd class="output-css">color: $gray-70</dd>
-          <dd class="output-variable">
-            <span class="display-inline-block bg-gray-70 circle-105 text-tbottom margin-right-05"></span>
-            #454545
-          </dd>
-        <dt class="output-utility">.text-gray-90</dt>
-          <dd class="output-css">color: $gray-90</dd>
-          <dd class="output-variable">
-            <span class="display-inline-block bg-gray-90 circle-105 text-tbottom margin-right-05"></span>
-            #171717
-          </dd>
-        <dt class="output-utility">.text-black</dt>
-          <dd class="output-css">color: $black</dd>
-          <dd class="output-variable">
-            <span class="display-inline-block bg-black circle-105 text-tbottom margin-right-05"></span>
-            black
-          </dd>
-        <dt class="output-utility">.text-red</dt>
-          <dd class="output-css">color: $red-50v</dd>
-          <dd class="output-variable">
-            <span class="display-inline-block bg-red circle-105 text-tbottom margin-right-05"></span>
-            #E6251B
-          </dd>
-        <dt class="output-utility">.text-orange</dt>
-          <dd class="output-css">color: $orange-40v</dd>
-          <dd class="output-variable">
-            <span class="display-inline-block bg-orange circle-105 text-tbottom margin-right-05"></span>
-            #FD7B28
-          </dd>
-        <dt class="output-utility">.text-gold</dt>
-          <dd class="output-css">color: $gold-30v</dd>
-          <dd class="output-variable">
-            <span class="display-inline-block bg-gold circle-105 text-tbottom margin-right-05"></span>
-            #F8AE29
-          </dd>
-        <dt class="output-utility">.text-yellow</dt>
-          <dd class="output-css">color: $yellow-20v</dd>
-          <dd class="output-variable">
-            <span class="display-inline-block bg-yellow circle-105 text-tbottom margin-right-05"></span>
-            #FCD344
-          </dd>
-        <dt class="output-utility">.text-green</dt>
-          <dd class="output-css">color: $green-40v</dd>
-          <dd class="output-variable">
-            <span class="display-inline-block bg-green circle-105 text-tbottom margin-right-05"></span>
-            #548114
-          </dd>
-        <dt class="output-utility">.text-mint</dt>
-          <dd class="output-css">color: $mint-40v</dd>
-          <dd class="output-variable">
-            <span class="display-inline-block bg-mint circle-105 text-tbottom margin-right-05"></span>
-            #20C688
-          </dd>
-        <dt class="output-utility">.text-cyan</dt>
-          <dd class="output-css">color: $cyan-30v</dd>
-          <dd class="output-variable">
-            <span class="display-inline-block bg-cyan circle-105 text-tbottom margin-right-05"></span>
-            #1BABCF
-          </dd>
-        <dt class="output-utility">.text-blue</dt>
-          <dd class="output-css">color: $blue-50</dd>
-          <dd class="output-variable">
-            <span class="display-inline-block bg-blue circle-105 text-tbottom margin-right-05"></span>
-            #137CDB
-          </dd>
-        <dt class="output-utility">.text-indigo</dt>
-          <dd class="output-css">color: $indigo-40</dd>
-          <dd class="output-variable">
-            <span class="display-inline-block bg-indigo circle-105 text-tbottom margin-right-05"></span>
-            #6970C7
-          </dd>
-        <dt class="output-utility">.text-violet</dt>
-          <dd class="output-css">color: $violet-40v</dd>
-          <dd class="output-variable">
-            <span class="display-inline-block bg-violet circle-105 text-tbottom margin-right-05"></span>
-            #836BB3
-          </dd>
-        <dt class="output-utility">.text-magenta</dt>
-          <dd class="output-css">color: $magenta-50</dd>
-          <dd class="output-variable">
-            <span class="display-inline-block bg-magenta circle-105 text-tbottom margin-right-05"></span>
-            #DF2D7A
-          </dd>
+        <dt class="output-utility">.underline-auto</dt>
+        <dd class="output-css">text-decoration-color: <span class="output-token">auto</span></dd>
+        <dd class="output-variable">—</dd>
+
+        <dt class="output-utility">.text-baseline</dt>
+        <dd class="output-css">vertical-align: baseline;</dd>
+        <dd class="output-variable">—</dd>
+
+        <dt class="output-utility">.text-bottom</dt>
+        <dd class="output-css">vertical-align: bottom;</dd>
+        <dd class="output-variable">—</dd>
+
+        <dt class="output-utility">.text-middle</dt>
+        <dd class="output-css">vertical-align: middle;</dd>
+        <dd class="output-variable">—</dd>
+
+        <dt class="output-utility">.text-sub</dt>
+        <dd class="output-css">vertical-align: sub;</dd>
+        <dd class="output-variable">—</dd>
+
+        <dt class="output-utility">.text-super</dt>
+        <dd class="output-css">vertical-align: super;</dd>
+        <dd class="output-variable">—</dd>
+
+        <dt class="output-utility">.text-tbottom</dt>
+        <dd class="output-css">vertical-align: text-bottom;</dd>
+        <dd class="output-variable">—</dd>
+
+        <dt class="output-utility">.text-ttop</dt>
+        <dd class="output-css">vertical-align: text-top;</dd>
+        <dd class="output-variable">—</dd>
+
+        <dt class="output-utility">.text-top</dt>
+        <dd class="output-css">vertical-align: top;</dd>
+        <dd class="output-variable">—</dd>
+
+        <dt class="output-utility">.text-pre</dt>
+        <dd class="output-css">white-space: pre;</dd>
+        <dd class="output-variable">—</dd>
+
+        <dt class="output-utility">.text-pre-line</dt>
+        <dd class="output-css">white-space: pre-line;</dd>
+        <dd class="output-variable">—</dd>
+
+        <dt class="output-utility">.text-pre-wrap</dt>
+        <dd class="output-css">white-space: pre-wrap;</dd>
+        <dd class="output-variable">—</dd>
+
+        <dt class="output-utility">.text-wrap</dt>
+        <dd class="output-css">white-space: wrap;</dd>
+        <dd class="output-variable">—</dd>
+
+        <dt class="output-utility">.text-no-wrap</dt>
+        <dd class="output-css">white-space: nowrap;</dd>
+        <dd class="output-variable">—</dd>
+
       </dl>
     </section>
     <section class="border-top-1px padding-top-1 margin-top-4">

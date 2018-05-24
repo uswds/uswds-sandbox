@@ -114,7 +114,7 @@ html {
 }
 
 .txt-code {
-  @include bg($gray-warm-4);
+  @include bg($gray-warm-5);
   @include family('mono');
   @include padding-x('05');
   @include padding-y(2px);
@@ -246,4 +246,15 @@ strong {
     @include size(mono, 4);
     @include text(light);
   }
+}
+
+.output-token {
+  @include bg(white);
+  @include border(1px, $gray-10);
+  @include family('mono');
+  @include padding-x(1);
+  @include padding-y(2px);
+  @include size('mono', 4);
+  @include text(400);
+  @include radius('sm');
 }

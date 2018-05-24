@@ -31855,7 +31855,7 @@ html {
       padding-top: 0.5rem; } }
 
 .txt-code, .usa-body-content code, .usa-prose code {
-  background-color: #f5f5f0;
+  background-color: #f5f5f1;
   font-family: "Roboto Mono Web", "Bitstream Vera Sans Mono", "Consolas", "Courier", monospace;
   padding-left: 0.25rem;
   padding-right: 0.25rem;
@@ -31984,3 +31984,18 @@ strong {
     flex: 0 0 auto;
     font-size: 0.89309rem;
     font-weight: 300; }
+
+.output-token {
+  background-color: white;
+  border-width: 1px;
+  border-style: solid;
+  border-color: #e6e6e6;
+  border-style: solid;
+  font-family: "Roboto Mono Web", "Bitstream Vera Sans Mono", "Consolas", "Courier", monospace;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+  padding-bottom: 2px;
+  padding-top: 2px;
+  font-size: 0.89309rem;
+  font-weight: 400;
+  border-radius: 2px; }
