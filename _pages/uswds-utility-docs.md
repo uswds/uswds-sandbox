@@ -13,14 +13,14 @@ permalink: /uswds-utility-docs/
     <section class="padding-bottom-1">
       <h3 class="size-sans-micro text-normal text-uppercase text-ls-1 margin-top-0 margin-left-2px">Default variants</h3>
       <ul class="list-reset display-inline">
-        <li class="display-inline-block padding-y-05 padding-x-105 bg-blue-50v text-white radius-pill margin-right-1 is-inverse">Includes <strong>responsive variants</strong></li>
-        <li class="display-inline-block padding-y-05 padding-x-105 bg-blue-50v text-white radius-pill margin-right-1 is-inverse">Includes <strong>hover variants</strong></li>
+        <li class="display-inline"><a href="#0" class="display-inline-block padding-y-05 padding-x-105 bg-blue-50v text-no-underline hover:bg-gray-80 text-white radius-pill margin-right-1 is-inverse">Includes <strong>responsive variants</strong></a></li>
+        <li class="display-inline"><a href="#0" class="display-inline-block padding-y-05 padding-x-105 bg-blue-50v text-no-underline hover:bg-gray-80 text-white radius-pill margin-right-1 is-inverse">Includes <strong>hover variants</strong></a></li>
         <li class="display-inline-block padding-y-05 padding-x-105 border-1px text-gray-60 radius-pill margin-right-1 is-inverse">No active variants</li>
         <li class="display-inline-block padding-y-05 padding-x-105 border-1px text-gray-60 radius-pill margin-right-1 is-inverse">No focus variants</li>
       </ul>
     </section>
     <section class="border-top-1px padding-top-1 margin-top-4">
-      <h2 class="margin-0 text-light size-sans-8">Default usage</h2>
+      <h2 class="margin-0 text-light size-sans-8">Utility usage</h2>
       <section class="text-color">
         <section class="bg-white padding-2 radius-md margin-y-2">
           <h3 class="size-sans-6 margin-top-0">Project theme colors <a class="text-normal text-text size-sans-2 margin-left-1" href="#0">Read more about project theme colors</a></h3>
