@@ -18,7 +18,7 @@ body_color: gray-2
 
     <section class="border-top-1px padding-top-1 margin-top-4">
 
-      <div class="row flex-align-start margin-bottom-2">
+      <div class="row flex-align-center margin-bottom-2">
         <h2 class="col-auto margin-0 text-light size-sans-8">Examples and usage</h2>
         <p class="col-fill text-right size-sans-1 text-normal margin-y-0 margin-left-2px text-gray-60">Utilities, values, and variants may be activated and deactivated in <a href="#0" class="text-text text-no-wrap">advanced settings</a>.</p>
       </div>
@@ -125,7 +125,7 @@ body_color: gray-2
               </div>
               <p class="text-center margin-top-05 margin-bottom-05">.margin-8</p>
             </div>
-            <div class="col-3 text-center display-flex flex-column flex-justify flex-align-start margin-bottom-2 border-bottom-1px border-gray-5 padding-bottom-1">
+            <div class="col-6 text-center display-flex flex-column flex-justify flex-align-start margin-bottom-2 border-bottom-1px border-gray-5 padding-bottom-1">
               <div class="bg-secondary-light display-inline-block">
                 <div class="square-4 border-1px bg-white margin-9"></div>
               </div>
@@ -219,9 +219,9 @@ body_color: gray-2
               </div>
               <p class="text-center margin-top-05 margin-bottom-05">.margin-bottom-105</p>
             </div>
-            <div class="col-3 text-center display-flex flex-column flex-justify flex-align-start margin-bottom-2 border-bottom-1px border-gray-5 padding-bottom-2">
+            <div class="col-3 text-center display-flex flex-column flex-justify flex-align-start margin-bottom-2 border-bottom-1px border-gray-5 padding-bottom-1">
               <div class="bg-secondary-light display-inline-block">
-                <div class="square-4 border-1px bg-white margin-bottom-105"></div>
+                <div class="square-4 border-1px bg-white margin-bottom-2"></div>
               </div>
               <p class="text-center margin-top-05 margin-bottom-05">.margin-bottom-2</p>
             </div>
@@ -267,7 +267,7 @@ body_color: gray-2
               </div>
               <p class="text-center margin-top-05 margin-bottom-05">.margin-bottom-8</p>
             </div>
-            <div class="col-3 text-center display-flex flex-column flex-justify flex-align-start margin-bottom-2 border-bottom-1px border-gray-5 padding-bottom-1">
+            <div class="col-6 text-center display-flex flex-column flex-justify flex-align-start margin-bottom-2 border-bottom-1px border-gray-5 padding-bottom-1">
               <div class="bg-secondary-light display-inline-block">
                 <div class="square-4 border-1px bg-white margin-bottom-9"></div>
               </div>
