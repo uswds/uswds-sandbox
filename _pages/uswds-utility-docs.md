@@ -13,7 +13,7 @@ permalink: /uswds-utility-docs/
     <section class="padding-bottom-1">
       <div class="row flex-align-center margin-bottom-2">
         <h3 class="col size-sans-micro text-normal text-medium text-uppercase text-ls-1 margin-y-0 margin-left-2px">Default variants</h3>
-        <p class="col text-right size-sans-1 text-normal margin-y-0 margin-left-2px text-gray-60">Variants may be activated and deactivated in advanced settings.</p>
+        <p class="col text-right size-sans-1 text-normal margin-y-0 margin-left-2px text-gray-60">Variants may be activated and deactivated in <a href="#0" class="text-text">advanced settings</a>.</p>
       </div>
       <ul class="list-reset display-inline">
         <li class="display-inline"><a href="#0" class="display-inline-block padding-y-05 padding-x-105 bg-blue-50v text-no-underline hover:bg-gray-80 text-white radius-pill margin-right-1 is-inverse">Includes <strong>responsive variants</strong></a></li>
