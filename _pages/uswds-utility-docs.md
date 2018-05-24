@@ -6,9 +6,9 @@ permalink: /uswds-utility-docs/
 
 <div class="size-sans-4 weight-300 padding-top-2 padding-bottom-4 tablet:padding-top-4 tablet:padding-bottom-9 bg-gray-cool-2">
 
-  <div class="container-tablet-lg padding-x-2 margin-top-1">
+  <div class="container-tablet-lg padding-x-2 margin-top-105">
     <h1 class="size-sans-14 text-300 margin-y-0 line-height-sans-2">Text color <span class="token display-inline-block text-middle">color</span></h1>
-    <p class="size-sans-10 border-bottom-1px border-text margin-top-1 text-light padding-bottom-3 margin-bottom-2 text-red-warm-50 line-height-sans-2">Change the color of text.</p>
+    <p class="size-sans-10 border-bottom-1px border-text margin-top-105 text-light padding-bottom-3 margin-bottom-2 text-text line-height-sans-2">Change the color of text.</p>
 
     <section class="padding-bottom-1">
       <h3 class="size-sans-micro text-normal text-uppercase text-ls-1 margin-top-0 margin-left-2px">Default variants</h3>
@@ -16,6 +16,7 @@ permalink: /uswds-utility-docs/
         <li class="display-inline-block padding-y-05 padding-x-105 bg-blue-50v text-white radius-pill margin-right-1 is-inverse">Includes <strong>responsive variants</strong></li>
         <li class="display-inline-block padding-y-05 padding-x-105 bg-blue-50v text-white radius-pill margin-right-1 is-inverse">Includes <strong>hover variants</strong></li>
         <li class="display-inline-block padding-y-05 padding-x-105 border-1px text-gray-60 radius-pill margin-right-1 is-inverse">No active variants</li>
+        <li class="display-inline-block padding-y-05 padding-x-105 border-1px text-gray-60 radius-pill margin-right-1 is-inverse">No focus variants</li>
       </ul>
     </section>
     <section class="border-top-1px padding-top-1 margin-top-4">
