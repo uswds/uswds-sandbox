@@ -81,7 +81,7 @@ body_color: gray-cool-2
       <h2 class="margin-0 text-light size-sans-8">Responsive variants</h2>
     </section>
     <section class="border-top-1px padding-top-1 margin-top-4">
-      <h2 class="margin-0 text-light size-sans-8">Hover, active, focus, and visited variants</h2>
+      <h2 class="margin-0 text-light size-sans-8"><span class="size-mono-6 padding-x-05 padding-y-2px border-1px display-inline-block radius-md margin-right-2px">hover</span>, <span class="size-mono-6 padding-x-05 padding-y-2px border-1px display-inline-block radius-md margin-right-2px">active</span>, <span class="size-mono-6 padding-x-05 padding-y-2px border-1px display-inline-block radius-md margin-right-2px">focus</span>, and <span class="size-mono-6 padding-x-05 padding-y-2px border-1px display-inline-block radius-md margin-right-2px">visited</span> variants</h2>
     </section>
     <section class="border-top-1px padding-top-1 margin-top-4">
       <h2 class="margin-0 text-light size-sans-8">Default output</h2>
