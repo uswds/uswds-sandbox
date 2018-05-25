@@ -137,7 +137,7 @@ permalink: /uswds-layout-grid/
       </div>
     </div><!-- l.grid-row -->
 
-    <p class="docs-text"><code class="docs-inline-code">.offset-[1-12]</code> offsets the grid-column by [n] grid-columns</p>
+    <p class="docs-text"><code class="docs-inline-code">.grid-offset-[1-12]</code> offsets the grid-column by [n] grid-columns</p>
 
     <div class="grid-row margin-top-1 size-sans-2">
       <div class="grid-col-1 border-x-2px border-black-cool-90">
@@ -179,8 +179,8 @@ permalink: /uswds-layout-grid/
     </div><!-- l.grid-row -->
 
     <div class="grid-row margin-top-1">
-      <div class="grid-col-8 offset-4 border-1px border-black-cool-10">
-        <div class="text-center padding-2">.grid-col-8.offset-4</div>
+      <div class="grid-col-8 grid-offset-4 border-1px border-black-cool-10">
+        <div class="text-center padding-2">.grid-col-8.grid-offset-4</div>
       </div>
     </div><!-- l.grid-row -->
 
