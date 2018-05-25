@@ -25726,6 +25726,179 @@ example:
   .desktop\:padding-left-0 {
     padding-left: 0 !important; } }
 
+.padding-full {
+  padding: 100% !important; }
+
+@media (min-width: 20em) {
+  .mobile\:padding-full {
+    padding: 100% !important; } }
+
+@media (min-width: 30em) {
+  .mobile-lg\:padding-full {
+    padding: 100% !important; } }
+
+@media (min-width: 40em) {
+  .tablet\:padding-full {
+    padding: 100% !important; } }
+
+@media (min-width: 55em) {
+  .tablet-lg\:padding-full {
+    padding: 100% !important; } }
+
+@media (min-width: 64em) {
+  .desktop\:padding-full {
+    padding: 100% !important; } }
+
+.padding-y-full {
+  padding-top: 100% !important;
+  padding-bottom: 100% !important; }
+
+@media (min-width: 20em) {
+  .mobile\:padding-y-full {
+    padding-top: 100% !important;
+    padding-bottom: 100% !important; } }
+
+@media (min-width: 30em) {
+  .mobile-lg\:padding-y-full {
+    padding-top: 100% !important;
+    padding-bottom: 100% !important; } }
+
+@media (min-width: 40em) {
+  .tablet\:padding-y-full {
+    padding-top: 100% !important;
+    padding-bottom: 100% !important; } }
+
+@media (min-width: 55em) {
+  .tablet-lg\:padding-y-full {
+    padding-top: 100% !important;
+    padding-bottom: 100% !important; } }
+
+@media (min-width: 64em) {
+  .desktop\:padding-y-full {
+    padding-top: 100% !important;
+    padding-bottom: 100% !important; } }
+
+.padding-x-full {
+  padding-left: 100% !important;
+  padding-right: 100% !important; }
+
+@media (min-width: 20em) {
+  .mobile\:padding-x-full {
+    padding-left: 100% !important;
+    padding-right: 100% !important; } }
+
+@media (min-width: 30em) {
+  .mobile-lg\:padding-x-full {
+    padding-left: 100% !important;
+    padding-right: 100% !important; } }
+
+@media (min-width: 40em) {
+  .tablet\:padding-x-full {
+    padding-left: 100% !important;
+    padding-right: 100% !important; } }
+
+@media (min-width: 55em) {
+  .tablet-lg\:padding-x-full {
+    padding-left: 100% !important;
+    padding-right: 100% !important; } }
+
+@media (min-width: 64em) {
+  .desktop\:padding-x-full {
+    padding-left: 100% !important;
+    padding-right: 100% !important; } }
+
+.padding-top-full {
+  padding-top: 100% !important; }
+
+@media (min-width: 20em) {
+  .mobile\:padding-top-full {
+    padding-top: 100% !important; } }
+
+@media (min-width: 30em) {
+  .mobile-lg\:padding-top-full {
+    padding-top: 100% !important; } }
+
+@media (min-width: 40em) {
+  .tablet\:padding-top-full {
+    padding-top: 100% !important; } }
+
+@media (min-width: 55em) {
+  .tablet-lg\:padding-top-full {
+    padding-top: 100% !important; } }
+
+@media (min-width: 64em) {
+  .desktop\:padding-top-full {
+    padding-top: 100% !important; } }
+
+.padding-right-full {
+  padding-right: 100% !important; }
+
+@media (min-width: 20em) {
+  .mobile\:padding-right-full {
+    padding-right: 100% !important; } }
+
+@media (min-width: 30em) {
+  .mobile-lg\:padding-right-full {
+    padding-right: 100% !important; } }
+
+@media (min-width: 40em) {
+  .tablet\:padding-right-full {
+    padding-right: 100% !important; } }
+
+@media (min-width: 55em) {
+  .tablet-lg\:padding-right-full {
+    padding-right: 100% !important; } }
+
+@media (min-width: 64em) {
+  .desktop\:padding-right-full {
+    padding-right: 100% !important; } }
+
+.padding-bottom-full {
+  padding-bottom: 100% !important; }
+
+@media (min-width: 20em) {
+  .mobile\:padding-bottom-full {
+    padding-bottom: 100% !important; } }
+
+@media (min-width: 30em) {
+  .mobile-lg\:padding-bottom-full {
+    padding-bottom: 100% !important; } }
+
+@media (min-width: 40em) {
+  .tablet\:padding-bottom-full {
+    padding-bottom: 100% !important; } }
+
+@media (min-width: 55em) {
+  .tablet-lg\:padding-bottom-full {
+    padding-bottom: 100% !important; } }
+
+@media (min-width: 64em) {
+  .desktop\:padding-bottom-full {
+    padding-bottom: 100% !important; } }
+
+.padding-left-full {
+  padding-left: 100% !important; }
+
+@media (min-width: 20em) {
+  .mobile\:padding-left-full {
+    padding-left: 100% !important; } }
+
+@media (min-width: 30em) {
+  .mobile-lg\:padding-left-full {
+    padding-left: 100% !important; } }
+
+@media (min-width: 40em) {
+  .tablet\:padding-left-full {
+    padding-left: 100% !important; } }
+
+@media (min-width: 55em) {
+  .tablet-lg\:padding-left-full {
+    padding-left: 100% !important; } }
+
+@media (min-width: 64em) {
+  .desktop\:padding-left-full {
+    padding-left: 100% !important; } }
+
 .position-absolute {
   position: absolute !important; }
 

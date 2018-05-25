@@ -363,7 +363,7 @@ body_color: gray-2
             </div>
             <div class="col-3 text-center display-flex flex-column flex-justify flex-align-start margin-bottom-2 border-bottom-1px border-gray-5 padding-bottom-2">
               <div class="bg-secondary-light display-inline-block">
-                <div class="square-4 border-1px bg-white margin-top-105"></div>
+                <div class="square-4 border-1px bg-white margin-top-2"></div>
               </div>
               <p class="text-center margin-top-05 margin-bottom-05">.margin-top-2</p>
             </div>
@@ -409,7 +409,7 @@ body_color: gray-2
               </div>
               <p class="text-center margin-top-05 margin-bottom-05">.margin-top-8</p>
             </div>
-            <div class="col-3 text-center display-flex flex-column flex-justify flex-align-start margin-bottom-2 border-bottom-1px border-gray-5 padding-bottom-1">
+            <div class="col-6 text-center display-flex flex-column flex-justify flex-align-start margin-bottom-2 border-bottom-1px border-gray-5 padding-bottom-1">
               <div class="bg-secondary-light display-inline-block">
                 <div class="square-4 border-1px bg-white margin-top-9"></div>
               </div>
@@ -417,6 +417,1306 @@ body_color: gray-2
             </div>
           </div>
 
+          <h4 class="border-bottom-1px border-gray-5 padding-bottom-1 margin-bottom-2">Margin left</h4>
+          <div class="row">
+            <div class="col-3 text-center display-flex flex-column flex-justify flex-align-start margin-bottom-2 border-bottom-1px border-gray-5 padding-bottom-1">
+              <div class="position-relative square-4 border-1px bg-white">
+                <div class="bg-secondary-light pin-left width-3"></div>
+              </div>
+              <p class="text-center margin-top-05 margin-bottom-05">.margin-left-neg-3</p>
+            </div>
+            <div class="col-3 text-center display-flex flex-column flex-justify flex-align-start margin-bottom-2 border-bottom-1px border-gray-5 padding-bottom-1">
+              <div class="position-relative square-4 border-1px bg-white">
+                <div class="bg-secondary-light pin-left width-205"></div>
+              </div>
+              <p class="text-center margin-top-05 margin-bottom-05">.margin-left-neg-205</p>
+            </div>
+            <div class="col-3 text-center display-flex flex-column flex-justify flex-align-start margin-bottom-2 border-bottom-1px border-gray-5 padding-bottom-1">
+              <div class="position-relative square-4 border-1px bg-white">
+                <div class="bg-secondary-light pin-left width-2"></div>
+              </div>
+              <p class="text-center margin-top-05 margin-bottom-05">.margin-left-neg-2</p>
+            </div>
+            <div class="col-3 text-center display-flex flex-column flex-justify flex-align-start margin-bottom-2 border-bottom-1px border-gray-5 padding-bottom-1">
+              <div class="position-relative square-4 border-1px bg-white">
+                <div class="bg-secondary-light pin-left width-105"></div>
+              </div>
+              <p class="text-center margin-top-05 margin-bottom-05">.margin-left-neg-105</p>
+            </div>
+            <div class="col-3 text-center display-flex flex-column flex-justify flex-align-start margin-bottom-2 border-bottom-1px border-gray-5 padding-bottom-1">
+              <div class="position-relative square-4 border-1px bg-white">
+                <div class="bg-secondary-light pin-left width-1"></div>
+              </div>
+              <p class="text-center margin-top-05 margin-bottom-05">.margin-left-neg-1</p>
+            </div>
+            <div class="col-3 text-center display-flex flex-column flex-justify flex-align-start margin-bottom-2 border-bottom-1px border-gray-5 padding-bottom-1">
+              <div class="position-relative square-4 border-1px bg-white">
+                <div class="bg-secondary-light pin-left width-05"></div>
+              </div>
+              <p class="text-center margin-top-05 margin-bottom-05">.margin-left-neg-05</p>
+            </div>
+            <div class="col-3 text-center display-flex flex-column flex-justify flex-align-start margin-bottom-2 border-bottom-1px border-gray-5 padding-bottom-1">
+              <div class="position-relative square-4 border-1px bg-white">
+                <div class="bg-secondary-light pin-left width-2px"></div>
+              </div>
+              <p class="text-center margin-top-05 margin-bottom-05">.margin-left-neg-2px</p>
+            </div>
+            <div class="col-3 text-center display-flex flex-column flex-justify flex-align-start margin-bottom-2 border-bottom-1px border-gray-5 padding-bottom-1">
+              <div class="position-relative square-4 border-1px bg-white">
+                <div class="bg-secondary-light pin-left width-1px"></div>
+              </div>
+              <p class="text-center margin-top-05 margin-bottom-05">.margin-left-neg-1px</p>
+            </div>
+            <div class="col-3 text-center display-flex flex-column flex-justify flex-align-start margin-bottom-2 border-bottom-1px border-gray-5 padding-bottom-1">
+              <div class="bg-secondary-light display-inline-block">
+                <div class="square-4 border-1px bg-white margin-left-0"></div>
+              </div>
+              <p class="text-center margin-top-05 margin-bottom-05">.margin-left-0</p>
+            </div>
+            <div class="col-3 text-center display-flex flex-column flex-justify flex-align-start margin-bottom-2 border-bottom-1px border-gray-5 padding-bottom-1">
+              <div class="bg-secondary-light display-inline-block">
+                <div class="square-4 border-1px bg-white margin-left-1px"></div>
+              </div>
+              <p class="text-center margin-top-05 margin-bottom-05">.margin-left-1px</p>
+            </div>
+            <div class="col-3 text-center display-flex flex-column flex-justify flex-align-start margin-bottom-2 border-bottom-1px border-gray-5 padding-bottom-1">
+              <div class="bg-secondary-light display-inline-block">
+                <div class="square-4 border-1px bg-white margin-left-2px"></div>
+              </div>
+              <p class="text-center margin-top-05 margin-bottom-05">.margin-left-2px</p>
+            </div>
+            <div class="col-3 text-center display-flex flex-column flex-justify flex-align-start margin-bottom-2 border-bottom-1px border-gray-5 padding-bottom-1">
+              <div class="bg-secondary-light display-inline-block">
+                <div class="square-4 border-1px bg-white margin-left-05"></div>
+              </div>
+              <p class="text-center margin-top-05 margin-bottom-05">.margin-left-05</p>
+            </div>
+            <div class="col-3 text-center display-flex flex-column flex-justify flex-align-start margin-bottom-2 border-bottom-1px border-gray-5 padding-bottom-1">
+              <div class="bg-secondary-light display-inline-block">
+                <div class="square-4 border-1px bg-white margin-left-1"></div>
+              </div>
+              <p class="text-center margin-top-05 margin-bottom-05">.margin-left-1</p>
+            </div>
+            <div class="col-3 text-center display-flex flex-column flex-justify flex-align-start margin-bottom-2 border-bottom-1px border-gray-5 padding-bottom-1">
+              <div class="bg-secondary-light display-inline-block">
+                <div class="square-4 border-1px bg-white margin-left-105"></div>
+              </div>
+              <p class="text-center margin-top-05 margin-bottom-05">.margin-left-105</p>
+            </div>
+            <div class="col-3 text-center display-flex flex-column flex-justify flex-align-start margin-bottom-2 border-bottom-1px border-gray-5 padding-bottom-2">
+              <div class="bg-secondary-light display-inline-block">
+                <div class="square-4 border-1px bg-white margin-left-2"></div>
+              </div>
+              <p class="text-center margin-top-05 margin-bottom-05">.margin-left-2</p>
+            </div>
+            <div class="col-3 text-center display-flex flex-column flex-justify flex-align-start margin-bottom-2 border-bottom-1px border-gray-5 padding-bottom-1">
+              <div class="bg-secondary-light display-inline-block">
+                <div class="square-4 border-1px bg-white margin-left-205"></div>
+              </div>
+              <p class="text-center margin-top-05 margin-bottom-05">.margin-left-205</p>
+            </div>
+            <div class="col-3 text-center display-flex flex-column flex-justify flex-align-start margin-bottom-2 border-bottom-1px border-gray-5 padding-bottom-1">
+              <div class="bg-secondary-light display-inline-block">
+                <div class="square-4 border-1px bg-white margin-left-3"></div>
+              </div>
+              <p class="text-center margin-top-05 margin-bottom-05">.margin-left-3</p>
+            </div>
+            <div class="col-3 text-center display-flex flex-column flex-justify flex-align-start margin-bottom-2 border-bottom-1px border-gray-5 padding-bottom-1">
+              <div class="bg-secondary-light display-inline-block">
+                <div class="square-4 border-1px bg-white margin-left-4"></div>
+              </div>
+              <p class="text-center margin-top-05 margin-bottom-05">.margin-left-4</p>
+            </div>
+            <div class="col-3 text-center display-flex flex-column flex-justify flex-align-start margin-bottom-2 border-bottom-1px border-gray-5 padding-bottom-1">
+              <div class="bg-secondary-light display-inline-block">
+                <div class="square-4 border-1px bg-white margin-left-5"></div>
+              </div>
+              <p class="text-center margin-top-05 margin-bottom-05">.margin-left-5</p>
+            </div>
+            <div class="col-3 text-center display-flex flex-column flex-justify flex-align-start margin-bottom-2 border-bottom-1px border-gray-5 padding-bottom-1">
+              <div class="bg-secondary-light display-inline-block">
+                <div class="square-4 border-1px bg-white margin-left-6"></div>
+              </div>
+              <p class="text-center margin-top-05 margin-bottom-05">.margin-left-6</p>
+            </div>
+            <div class="col-3 text-center display-flex flex-column flex-justify flex-align-start margin-bottom-2 border-bottom-1px border-gray-5 padding-bottom-1">
+              <div class="bg-secondary-light display-inline-block">
+                <div class="square-4 border-1px bg-white margin-left-7"></div>
+              </div>
+              <p class="text-center margin-top-05 margin-bottom-05">.margin-left-7</p>
+            </div>
+            <div class="col-3 text-center display-flex flex-column flex-justify flex-align-start margin-bottom-2 border-bottom-1px border-gray-5 padding-bottom-1">
+              <div class="bg-secondary-light display-inline-block">
+                <div class="square-4 border-1px bg-white margin-left-8"></div>
+              </div>
+              <p class="text-center margin-top-05 margin-bottom-05">.margin-left-8</p>
+            </div>
+            <div class="col-6 text-center display-flex flex-column flex-justify flex-align-start margin-bottom-2 border-bottom-1px border-gray-5 padding-bottom-1">
+              <div class="bg-secondary-light display-inline-block">
+                <div class="square-4 border-1px bg-white margin-left-9"></div>
+              </div>
+              <p class="text-center margin-top-05 margin-bottom-05">.margin-left-9</p>
+            </div>
+            <div class="col-12 text-center display-flex flex-column flex-justify flex-align-start margin-bottom-2 border-bottom-1px border-gray-5 padding-bottom-1">
+              <div class="bg-secondary-light display-inline-block width-full">
+                <div class="square-4 border-1px bg-white margin-left-auto"></div>
+              </div>
+              <p class="text-center margin-top-05 margin-bottom-05">.margin-left-auto</p>
+            </div>
+          </div>
+
+          <h4 class="border-bottom-1px border-gray-5 padding-bottom-1 margin-bottom-2">Margin right</h4>
+          <div class="row">
+            <div class="col-3 text-center display-flex flex-column flex-justify flex-align-start margin-bottom-2 border-bottom-1px border-gray-5 padding-bottom-1">
+              <div class="position-relative square-4 border-1px bg-white">
+                <div class="bg-secondary-light pin-right width-3"></div>
+              </div>
+              <p class="text-center margin-top-05 margin-bottom-05">.margin-right-neg-3</p>
+            </div>
+            <div class="col-3 text-center display-flex flex-column flex-justify flex-align-start margin-bottom-2 border-bottom-1px border-gray-5 padding-bottom-1">
+              <div class="position-relative square-4 border-1px bg-white">
+                <div class="bg-secondary-light pin-right width-205"></div>
+              </div>
+              <p class="text-center margin-top-05 margin-bottom-05">.margin-right-neg-205</p>
+            </div>
+            <div class="col-3 text-center display-flex flex-column flex-justify flex-align-start margin-bottom-2 border-bottom-1px border-gray-5 padding-bottom-1">
+              <div class="position-relative square-4 border-1px bg-white">
+                <div class="bg-secondary-light pin-right width-2"></div>
+              </div>
+              <p class="text-center margin-top-05 margin-bottom-05">.margin-right-neg-2</p>
+            </div>
+            <div class="col-3 text-center display-flex flex-column flex-justify flex-align-start margin-bottom-2 border-bottom-1px border-gray-5 padding-bottom-1">
+              <div class="position-relative square-4 border-1px bg-white">
+                <div class="bg-secondary-light pin-right width-105"></div>
+              </div>
+              <p class="text-center margin-top-05 margin-bottom-05">.margin-right-neg-105</p>
+            </div>
+            <div class="col-3 text-center display-flex flex-column flex-justify flex-align-start margin-bottom-2 border-bottom-1px border-gray-5 padding-bottom-1">
+              <div class="position-relative square-4 border-1px bg-white">
+                <div class="bg-secondary-light pin-right width-1"></div>
+              </div>
+              <p class="text-center margin-top-05 margin-bottom-05">.margin-right-neg-1</p>
+            </div>
+            <div class="col-3 text-center display-flex flex-column flex-justify flex-align-start margin-bottom-2 border-bottom-1px border-gray-5 padding-bottom-1">
+              <div class="position-relative square-4 border-1px bg-white">
+                <div class="bg-secondary-light pin-right width-05"></div>
+              </div>
+              <p class="text-center margin-top-05 margin-bottom-05">.margin-right-neg-05</p>
+            </div>
+            <div class="col-3 text-center display-flex flex-column flex-justify flex-align-start margin-bottom-2 border-bottom-1px border-gray-5 padding-bottom-1">
+              <div class="position-relative square-4 border-1px bg-white">
+                <div class="bg-secondary-light pin-right width-2px"></div>
+              </div>
+              <p class="text-center margin-top-05 margin-bottom-05">.margin-right-neg-2px</p>
+            </div>
+            <div class="col-3 text-center display-flex flex-column flex-justify flex-align-start margin-bottom-2 border-bottom-1px border-gray-5 padding-bottom-1">
+              <div class="position-relative square-4 border-1px bg-white">
+                <div class="bg-secondary-light pin-right width-1px"></div>
+              </div>
+              <p class="text-center margin-top-05 margin-bottom-05">.margin-right-neg-1px</p>
+            </div>
+            <div class="col-3 text-center display-flex flex-column flex-justify flex-align-start margin-bottom-2 border-bottom-1px border-gray-5 padding-bottom-1">
+              <div class="bg-secondary-light display-inline-block">
+                <div class="square-4 border-1px bg-white margin-right-0"></div>
+              </div>
+              <p class="text-center margin-top-05 margin-bottom-05">.margin-right-0</p>
+            </div>
+            <div class="col-3 text-center display-flex flex-column flex-justify flex-align-start margin-bottom-2 border-bottom-1px border-gray-5 padding-bottom-1">
+              <div class="bg-secondary-light display-inline-block">
+                <div class="square-4 border-1px bg-white margin-right-1px"></div>
+              </div>
+              <p class="text-center margin-top-05 margin-bottom-05">.margin-right-1px</p>
+            </div>
+            <div class="col-3 text-center display-flex flex-column flex-justify flex-align-start margin-bottom-2 border-bottom-1px border-gray-5 padding-bottom-1">
+              <div class="bg-secondary-light display-inline-block">
+                <div class="square-4 border-1px bg-white margin-right-2px"></div>
+              </div>
+              <p class="text-center margin-top-05 margin-bottom-05">.margin-right-2px</p>
+            </div>
+            <div class="col-3 text-center display-flex flex-column flex-justify flex-align-start margin-bottom-2 border-bottom-1px border-gray-5 padding-bottom-1">
+              <div class="bg-secondary-light display-inline-block">
+                <div class="square-4 border-1px bg-white margin-right-05"></div>
+              </div>
+              <p class="text-center margin-top-05 margin-bottom-05">.margin-right-05</p>
+            </div>
+            <div class="col-3 text-center display-flex flex-column flex-justify flex-align-start margin-bottom-2 border-bottom-1px border-gray-5 padding-bottom-1">
+              <div class="bg-secondary-light display-inline-block">
+                <div class="square-4 border-1px bg-white margin-right-1"></div>
+              </div>
+              <p class="text-center margin-top-05 margin-bottom-05">.margin-right-1</p>
+            </div>
+            <div class="col-3 text-center display-flex flex-column flex-justify flex-align-start margin-bottom-2 border-bottom-1px border-gray-5 padding-bottom-1">
+              <div class="bg-secondary-light display-inline-block">
+                <div class="square-4 border-1px bg-white margin-right-105"></div>
+              </div>
+              <p class="text-center margin-top-05 margin-bottom-05">.margin-right-105</p>
+            </div>
+            <div class="col-3 text-center display-flex flex-column flex-justify flex-align-start margin-bottom-2 border-bottom-1px border-gray-5 padding-bottom-2">
+              <div class="bg-secondary-light display-inline-block">
+                <div class="square-4 border-1px bg-white margin-right-2"></div>
+              </div>
+              <p class="text-center margin-top-05 margin-bottom-05">.margin-right-2</p>
+            </div>
+            <div class="col-3 text-center display-flex flex-column flex-justify flex-align-start margin-bottom-2 border-bottom-1px border-gray-5 padding-bottom-1">
+              <div class="bg-secondary-light display-inline-block">
+                <div class="square-4 border-1px bg-white margin-right-205"></div>
+              </div>
+              <p class="text-center margin-top-05 margin-bottom-05">.margin-right-205</p>
+            </div>
+            <div class="col-3 text-center display-flex flex-column flex-justify flex-align-start margin-bottom-2 border-bottom-1px border-gray-5 padding-bottom-1">
+              <div class="bg-secondary-light display-inline-block">
+                <div class="square-4 border-1px bg-white margin-right-3"></div>
+              </div>
+              <p class="text-center margin-top-05 margin-bottom-05">.margin-right-3</p>
+            </div>
+            <div class="col-3 text-center display-flex flex-column flex-justify flex-align-start margin-bottom-2 border-bottom-1px border-gray-5 padding-bottom-1">
+              <div class="bg-secondary-light display-inline-block">
+                <div class="square-4 border-1px bg-white margin-right-4"></div>
+              </div>
+              <p class="text-center margin-top-05 margin-bottom-05">.margin-right-4</p>
+            </div>
+            <div class="col-3 text-center display-flex flex-column flex-justify flex-align-start margin-bottom-2 border-bottom-1px border-gray-5 padding-bottom-1">
+              <div class="bg-secondary-light display-inline-block">
+                <div class="square-4 border-1px bg-white margin-right-5"></div>
+              </div>
+              <p class="text-center margin-top-05 margin-bottom-05">.margin-right-5</p>
+            </div>
+            <div class="col-3 text-center display-flex flex-column flex-justify flex-align-start margin-bottom-2 border-bottom-1px border-gray-5 padding-bottom-1">
+              <div class="bg-secondary-light display-inline-block">
+                <div class="square-4 border-1px bg-white margin-right-6"></div>
+              </div>
+              <p class="text-center margin-top-05 margin-bottom-05">.margin-right-6</p>
+            </div>
+            <div class="col-3 text-center display-flex flex-column flex-justify flex-align-start margin-bottom-2 border-bottom-1px border-gray-5 padding-bottom-1">
+              <div class="bg-secondary-light display-inline-block">
+                <div class="square-4 border-1px bg-white margin-right-7"></div>
+              </div>
+              <p class="text-center margin-top-05 margin-bottom-05">.margin-right-7</p>
+            </div>
+            <div class="col-3 text-center display-flex flex-column flex-justify flex-align-start margin-bottom-2 border-bottom-1px border-gray-5 padding-bottom-1">
+              <div class="bg-secondary-light display-inline-block">
+                <div class="square-4 border-1px bg-white margin-right-8"></div>
+              </div>
+              <p class="text-center margin-top-05 margin-bottom-05">.margin-right-8</p>
+            </div>
+            <div class="col-6 text-center display-flex flex-column flex-justify flex-align-start margin-bottom-2 border-bottom-1px border-gray-5 padding-bottom-1">
+              <div class="bg-secondary-light display-inline-block">
+                <div class="square-4 border-1px bg-white margin-right-9"></div>
+              </div>
+              <p class="text-center margin-top-05 margin-bottom-05">.margin-right-9</p>
+            </div>
+            <div class="col-12 text-center display-flex flex-column flex-justify flex-align-start margin-bottom-2 border-bottom-1px border-gray-5 padding-bottom-1">
+              <div class="bg-secondary-light display-inline-block width-full">
+                <div class="square-4 border-1px bg-white margin-right-auto"></div>
+              </div>
+              <p class="text-center margin-top-05 margin-bottom-05">.margin-right-auto</p>
+            </div>
+          </div>
+
+          <h4 class="border-bottom-1px border-gray-5 padding-bottom-1 margin-bottom-2">Margin left and right</h4>
+          <div class="row">
+            <div class="col-3 text-center display-flex flex-column flex-justify flex-align-start margin-bottom-2 border-bottom-1px border-gray-5 padding-bottom-1">
+              <div class="position-relative height-4 width-8 border-1px bg-white">
+                <div class="bg-secondary-light pin-right width-3"></div>
+                <div class="bg-secondary-light pin-left width-3"></div>
+              </div>
+              <p class="text-center margin-top-05 margin-bottom-05">.margin-x-neg-3</p>
+            </div>
+            <div class="col-3 text-center display-flex flex-column flex-justify flex-align-start margin-bottom-2 border-bottom-1px border-gray-5 padding-bottom-1">
+              <div class="position-relative height-4 width-8 border-1px bg-white">
+                <div class="bg-secondary-light pin-right width-205"></div>
+                <div class="bg-secondary-light pin-left width-205"></div>
+              </div>
+              <p class="text-center margin-top-05 margin-bottom-05">.margin-x-neg-205</p>
+            </div>
+            <div class="col-3 text-center display-flex flex-column flex-justify flex-align-start margin-bottom-2 border-bottom-1px border-gray-5 padding-bottom-1">
+              <div class="position-relative height-4 width-8 border-1px bg-white">
+                <div class="bg-secondary-light pin-right width-2"></div>
+                <div class="bg-secondary-light pin-left width-2"></div>
+              </div>
+              <p class="text-center margin-top-05 margin-bottom-05">.margin-x-neg-2</p>
+            </div>
+            <div class="col-3 text-center display-flex flex-column flex-justify flex-align-start margin-bottom-2 border-bottom-1px border-gray-5 padding-bottom-1">
+              <div class="position-relative height-4 width-8 border-1px bg-white">
+                <div class="bg-secondary-light pin-right width-105"></div>
+                <div class="bg-secondary-light pin-left width-105"></div>
+              </div>
+              <p class="text-center margin-top-05 margin-bottom-05">.margin-x-neg-105</p>
+            </div>
+            <div class="col-3 text-center display-flex flex-column flex-justify flex-align-start margin-bottom-2 border-bottom-1px border-gray-5 padding-bottom-1">
+              <div class="position-relative height-4 width-8 border-1px bg-white">
+                <div class="bg-secondary-light pin-right width-1"></div>
+                <div class="bg-secondary-light pin-left width-1"></div>
+              </div>
+              <p class="text-center margin-top-05 margin-bottom-05">.margin-x-neg-1</p>
+            </div>
+            <div class="col-3 text-center display-flex flex-column flex-justify flex-align-start margin-bottom-2 border-bottom-1px border-gray-5 padding-bottom-1">
+              <div class="position-relative height-4 width-8 border-1px bg-white">
+                <div class="bg-secondary-light pin-right width-05"></div>
+                <div class="bg-secondary-light pin-left width-05"></div>
+              </div>
+              <p class="text-center margin-top-05 margin-bottom-05">.margin-x-neg-05</p>
+            </div>
+            <div class="col-3 text-center display-flex flex-column flex-justify flex-align-start margin-bottom-2 border-bottom-1px border-gray-5 padding-bottom-1">
+              <div class="position-relative height-4 width-8 border-1px bg-white">
+                <div class="bg-secondary-light pin-right width-2px"></div>
+                <div class="bg-secondary-light pin-left width-2px"></div>
+              </div>
+              <p class="text-center margin-top-05 margin-bottom-05">.margin-x-neg-2px</p>
+            </div>
+            <div class="col-3 text-center display-flex flex-column flex-justify flex-align-start margin-bottom-2 border-bottom-1px border-gray-5 padding-bottom-1">
+              <div class="position-relative height-4 width-8 border-1px bg-white">
+                <div class="bg-secondary-light pin-right width-1px"></div>
+                <div class="bg-secondary-light pin-left width-1px"></div>
+              </div>
+              <p class="text-center margin-top-05 margin-bottom-05">.margin-x-neg-1px</p>
+            </div>
+            <div class="col-3 text-center display-flex flex-column flex-justify flex-align-start margin-bottom-2 border-bottom-1px border-gray-5 padding-bottom-1">
+              <div class="bg-secondary-light display-inline-block">
+                <div class="height-4 width-8 border-1px bg-white margin-x-0"></div>
+              </div>
+              <p class="text-center margin-top-05 margin-bottom-05">.margin-x-0</p>
+            </div>
+            <div class="col-3 text-center display-flex flex-column flex-justify flex-align-start margin-bottom-2 border-bottom-1px border-gray-5 padding-bottom-1">
+              <div class="bg-secondary-light display-inline-block">
+                <div class="height-4 width-8 border-1px bg-white margin-x-1px"></div>
+              </div>
+              <p class="text-center margin-top-05 margin-bottom-05">.margin-x-1px</p>
+            </div>
+            <div class="col-3 text-center display-flex flex-column flex-justify flex-align-start margin-bottom-2 border-bottom-1px border-gray-5 padding-bottom-1">
+              <div class="bg-secondary-light display-inline-block">
+                <div class="height-4 width-8 border-1px bg-white margin-x-2px"></div>
+              </div>
+              <p class="text-center margin-top-05 margin-bottom-05">.margin-x-2px</p>
+            </div>
+            <div class="col-3 text-center display-flex flex-column flex-justify flex-align-start margin-bottom-2 border-bottom-1px border-gray-5 padding-bottom-1">
+              <div class="bg-secondary-light display-inline-block">
+                <div class="height-4 width-8 border-1px bg-white margin-x-05"></div>
+              </div>
+              <p class="text-center margin-top-05 margin-bottom-05">.margin-x-05</p>
+            </div>
+            <div class="col-3 text-center display-flex flex-column flex-justify flex-align-start margin-bottom-2 border-bottom-1px border-gray-5 padding-bottom-1">
+              <div class="bg-secondary-light display-inline-block">
+                <div class="height-4 width-8 border-1px bg-white margin-x-1"></div>
+              </div>
+              <p class="text-center margin-top-05 margin-bottom-05">.margin-x-1</p>
+            </div>
+            <div class="col-3 text-center display-flex flex-column flex-justify flex-align-start margin-bottom-2 border-bottom-1px border-gray-5 padding-bottom-1">
+              <div class="bg-secondary-light display-inline-block">
+                <div class="height-4 width-8 border-1px bg-white margin-x-105"></div>
+              </div>
+              <p class="text-center margin-top-05 margin-bottom-05">.margin-x-105</p>
+            </div>
+            <div class="col-3 text-center display-flex flex-column flex-justify flex-align-start margin-bottom-2 border-bottom-1px border-gray-5 padding-bottom-2">
+              <div class="bg-secondary-light display-inline-block">
+                <div class="height-4 width-8 border-1px bg-white margin-x-2"></div>
+              </div>
+              <p class="text-center margin-top-05 margin-bottom-05">.margin-x-2</p>
+            </div>
+            <div class="col-3 text-center display-flex flex-column flex-justify flex-align-start margin-bottom-2 border-bottom-1px border-gray-5 padding-bottom-1">
+              <div class="bg-secondary-light display-inline-block">
+                <div class="height-4 width-8 border-1px bg-white margin-x-205"></div>
+              </div>
+              <p class="text-center margin-top-05 margin-bottom-05">.margin-x-205</p>
+            </div>
+            <div class="col-3 text-center display-flex flex-column flex-justify flex-align-start margin-bottom-2 border-bottom-1px border-gray-5 padding-bottom-1">
+              <div class="bg-secondary-light display-inline-block">
+                <div class="height-4 width-8 border-1px bg-white margin-x-3"></div>
+              </div>
+              <p class="text-center margin-top-05 margin-bottom-05">.margin-x-3</p>
+            </div>
+            <div class="col-3 text-center display-flex flex-column flex-justify flex-align-start margin-bottom-2 border-bottom-1px border-gray-5 padding-bottom-1">
+              <div class="bg-secondary-light display-inline-block">
+                <div class="height-4 width-8 border-1px bg-white margin-x-4"></div>
+              </div>
+              <p class="text-center margin-top-05 margin-bottom-05">.margin-x-4</p>
+            </div>
+            <div class="col-3 text-center display-flex flex-column flex-justify flex-align-start margin-bottom-2 border-bottom-1px border-gray-5 padding-bottom-1">
+              <div class="bg-secondary-light display-inline-block">
+                <div class="height-4 width-8 border-1px bg-white margin-x-5"></div>
+              </div>
+              <p class="text-center margin-top-05 margin-bottom-05">.margin-x-5</p>
+            </div>
+            <div class="col-3 text-center display-flex flex-column flex-justify flex-align-start margin-bottom-2 border-bottom-1px border-gray-5 padding-bottom-1">
+              <div class="bg-secondary-light display-inline-block">
+                <div class="height-4 width-8 border-1px bg-white margin-x-6"></div>
+              </div>
+              <p class="text-center margin-top-05 margin-bottom-05">.margin-x-6</p>
+            </div>
+            <div class="col-3 text-center display-flex flex-column flex-justify flex-align-start margin-bottom-2 border-bottom-1px border-gray-5 padding-bottom-1">
+              <div class="bg-secondary-light display-inline-block">
+                <div class="height-4 width-8 border-1px bg-white margin-x-7"></div>
+              </div>
+              <p class="text-center margin-top-05 margin-bottom-05">.margin-x-7</p>
+            </div>
+            <div class="col-3 text-center display-flex flex-column flex-justify flex-align-start margin-bottom-2 border-bottom-1px border-gray-5 padding-bottom-1">
+              <div class="bg-secondary-light display-inline-block">
+                <div class="height-4 width-8 border-1px bg-white margin-x-8"></div>
+              </div>
+              <p class="text-center margin-top-05 margin-bottom-05">.margin-x-8</p>
+            </div>
+            <div class="col-6 text-center display-flex flex-column flex-justify flex-align-start margin-bottom-2 border-bottom-1px border-gray-5 padding-bottom-1">
+              <div class="bg-secondary-light display-inline-block">
+                <div class="height-4 width-8 border-1px bg-white margin-x-9"></div>
+              </div>
+              <p class="text-center margin-top-05 margin-bottom-05">.margin-x-9</p>
+            </div>
+            <div class="col-12 text-center display-flex flex-column flex-justify flex-align-start margin-bottom-2 border-bottom-1px border-gray-5 padding-bottom-1">
+              <div class="bg-secondary-light display-inline-block width-full">
+                <div class="height-4 width-8 border-1px bg-white margin-x-auto"></div>
+              </div>
+              <p class="text-center margin-top-05 margin-bottom-05">.margin-x-auto</p>
+            </div>
+          </div>
+
+          <h4 class="border-bottom-1px border-gray-5 padding-bottom-1 margin-bottom-2">Margin bottom and top</h4>
+          <div class="row">
+            <div class="col-3 text-center display-flex flex-column flex-justify flex-align-start margin-bottom-2 border-bottom-1px border-gray-5 padding-bottom-1">
+              <div class="position-relative height-8 width-4 border-1px bg-white">
+                <div class="bg-secondary-light pin-bottom height-3"></div>
+                <div class="bg-secondary-light pin-top height-3"></div>
+              </div>
+              <p class="text-center margin-top-05 margin-bottom-05">.margin-y-neg-3</p>
+            </div>
+            <div class="col-3 text-center display-flex flex-column flex-justify flex-align-start margin-bottom-2 border-bottom-1px border-gray-5 padding-bottom-1">
+              <div class="position-relative height-8 width-4 border-1px bg-white">
+                <div class="bg-secondary-light pin-bottom height-205"></div>
+                <div class="bg-secondary-light pin-top height-205"></div>
+              </div>
+              <p class="text-center margin-top-05 margin-bottom-05">.margin-y-neg-205</p>
+            </div>
+            <div class="col-3 text-center display-flex flex-column flex-justify flex-align-start margin-bottom-2 border-bottom-1px border-gray-5 padding-bottom-1">
+              <div class="position-relative height-8 width-4 border-1px bg-white">
+                <div class="bg-secondary-light pin-bottom height-2"></div>
+                <div class="bg-secondary-light pin-top height-2"></div>
+              </div>
+              <p class="text-center margin-top-05 margin-bottom-05">.margin-y-neg-2</p>
+            </div>
+            <div class="col-3 text-center display-flex flex-column flex-justify flex-align-start margin-bottom-2 border-bottom-1px border-gray-5 padding-bottom-1">
+              <div class="position-relative height-8 width-4 border-1px bg-white">
+                <div class="bg-secondary-light pin-bottom height-105"></div>
+                <div class="bg-secondary-light pin-top height-105"></div>
+              </div>
+              <p class="text-center margin-top-05 margin-bottom-05">.margin-y-neg-105</p>
+            </div>
+            <div class="col-3 text-center display-flex flex-column flex-justify flex-align-start margin-bottom-2 border-bottom-1px border-gray-5 padding-bottom-1">
+              <div class="position-relative height-8 width-4 border-1px bg-white">
+                <div class="bg-secondary-light pin-bottom height-1"></div>
+                <div class="bg-secondary-light pin-top height-1"></div>
+              </div>
+              <p class="text-center margin-top-05 margin-bottom-05">.margin-y-neg-1</p>
+            </div>
+            <div class="col-3 text-center display-flex flex-column flex-justify flex-align-start margin-bottom-2 border-bottom-1px border-gray-5 padding-bottom-1">
+              <div class="position-relative height-8 width-4 border-1px bg-white">
+                <div class="bg-secondary-light pin-bottom height-05"></div>
+                <div class="bg-secondary-light pin-top height-05"></div>
+              </div>
+              <p class="text-center margin-top-05 margin-bottom-05">.margin-y-neg-05</p>
+            </div>
+            <div class="col-3 text-center display-flex flex-column flex-justify flex-align-start margin-bottom-2 border-bottom-1px border-gray-5 padding-bottom-1">
+              <div class="position-relative height-8 width-4 border-1px bg-white">
+                <div class="bg-secondary-light pin-bottom height-2px"></div>
+                <div class="bg-secondary-light pin-top height-2px"></div>
+              </div>
+              <p class="text-center margin-top-05 margin-bottom-05">.margin-y-neg-2px</p>
+            </div>
+            <div class="col-3 text-center display-flex flex-column flex-justify flex-align-start margin-bottom-2 border-bottom-1px border-gray-5 padding-bottom-1">
+              <div class="position-relative height-8 width-4 border-1px bg-white">
+                <div class="bg-secondary-light pin-bottom height-1px"></div>
+                <div class="bg-secondary-light pin-top height-1px"></div>
+              </div>
+              <p class="text-center margin-top-05 margin-bottom-05">.margin-y-neg-1px</p>
+            </div>
+            <div class="col-3 text-center display-flex flex-column flex-justify flex-align-start margin-bottom-2 border-bottom-1px border-gray-5 padding-bottom-1">
+              <div class="bg-secondary-light display-inline-block">
+                <div class="height-8 width-4 border-1px bg-white margin-y-0"></div>
+              </div>
+              <p class="text-center margin-top-05 margin-bottom-05">.margin-y-0</p>
+            </div>
+            <div class="col-3 text-center display-flex flex-column flex-justify flex-align-start margin-bottom-2 border-bottom-1px border-gray-5 padding-bottom-1">
+              <div class="bg-secondary-light display-inline-block">
+                <div class="height-8 width-4 border-1px bg-white margin-y-1px"></div>
+              </div>
+              <p class="text-center margin-top-05 margin-bottom-05">.margin-y-1px</p>
+            </div>
+            <div class="col-3 text-center display-flex flex-column flex-justify flex-align-start margin-bottom-2 border-bottom-1px border-gray-5 padding-bottom-1">
+              <div class="bg-secondary-light display-inline-block">
+                <div class="height-8 width-4 border-1px bg-white margin-y-2px"></div>
+              </div>
+              <p class="text-center margin-top-05 margin-bottom-05">.margin-y-2px</p>
+            </div>
+            <div class="col-3 text-center display-flex flex-column flex-justify flex-align-start margin-bottom-2 border-bottom-1px border-gray-5 padding-bottom-1">
+              <div class="bg-secondary-light display-inline-block">
+                <div class="height-8 width-4 border-1px bg-white margin-y-05"></div>
+              </div>
+              <p class="text-center margin-top-05 margin-bottom-05">.margin-y-05</p>
+            </div>
+            <div class="col-3 text-center display-flex flex-column flex-justify flex-align-start margin-bottom-2 border-bottom-1px border-gray-5 padding-bottom-1">
+              <div class="bg-secondary-light display-inline-block">
+                <div class="height-8 width-4 border-1px bg-white margin-y-1"></div>
+              </div>
+              <p class="text-center margin-top-05 margin-bottom-05">.margin-y-1</p>
+            </div>
+            <div class="col-3 text-center display-flex flex-column flex-justify flex-align-start margin-bottom-2 border-bottom-1px border-gray-5 padding-bottom-1">
+              <div class="bg-secondary-light display-inline-block">
+                <div class="height-8 width-4 border-1px bg-white margin-y-105"></div>
+              </div>
+              <p class="text-center margin-top-05 margin-bottom-05">.margin-y-105</p>
+            </div>
+            <div class="col-3 text-center display-flex flex-column flex-justify flex-align-start margin-bottom-2 border-bottom-1px border-gray-5 padding-bottom-2">
+              <div class="bg-secondary-light display-inline-block">
+                <div class="height-8 width-4 border-1px bg-white margin-y-2"></div>
+              </div>
+              <p class="text-center margin-top-05 margin-bottom-05">.margin-y-2</p>
+            </div>
+            <div class="col-3 text-center display-flex flex-column flex-justify flex-align-start margin-bottom-2 border-bottom-1px border-gray-5 padding-bottom-1">
+              <div class="bg-secondary-light display-inline-block">
+                <div class="height-8 width-4 border-1px bg-white margin-y-205"></div>
+              </div>
+              <p class="text-center margin-top-05 margin-bottom-05">.margin-y-205</p>
+            </div>
+            <div class="col-3 text-center display-flex flex-column flex-justify flex-align-start margin-bottom-2 border-bottom-1px border-gray-5 padding-bottom-1">
+              <div class="bg-secondary-light display-inline-block">
+                <div class="height-8 width-4 border-1px bg-white margin-y-3"></div>
+              </div>
+              <p class="text-center margin-top-05 margin-bottom-05">.margin-y-3</p>
+            </div>
+            <div class="col-3 text-center display-flex flex-column flex-justify flex-align-start margin-bottom-2 border-bottom-1px border-gray-5 padding-bottom-1">
+              <div class="bg-secondary-light display-inline-block">
+                <div class="height-8 width-4 border-1px bg-white margin-y-4"></div>
+              </div>
+              <p class="text-center margin-top-05 margin-bottom-05">.margin-y-4</p>
+            </div>
+            <div class="col-3 text-center display-flex flex-column flex-justify flex-align-start margin-bottom-2 border-bottom-1px border-gray-5 padding-bottom-1">
+              <div class="bg-secondary-light display-inline-block">
+                <div class="height-8 width-4 border-1px bg-white margin-y-5"></div>
+              </div>
+              <p class="text-center margin-top-05 margin-bottom-05">.margin-y-5</p>
+            </div>
+            <div class="col-3 text-center display-flex flex-column flex-justify flex-align-start margin-bottom-2 border-bottom-1px border-gray-5 padding-bottom-1">
+              <div class="bg-secondary-light display-inline-block">
+                <div class="height-8 width-4 border-1px bg-white margin-y-6"></div>
+              </div>
+              <p class="text-center margin-top-05 margin-bottom-05">.margin-y-6</p>
+            </div>
+            <div class="col-3 text-center display-flex flex-column flex-justify flex-align-start margin-bottom-2 border-bottom-1px border-gray-5 padding-bottom-1">
+              <div class="bg-secondary-light display-inline-block">
+                <div class="height-8 width-4 border-1px bg-white margin-y-7"></div>
+              </div>
+              <p class="text-center margin-top-05 margin-bottom-05">.margin-y-7</p>
+            </div>
+            <div class="col-3 text-center display-flex flex-column flex-justify flex-align-start margin-bottom-2 border-bottom-1px border-gray-5 padding-bottom-1">
+              <div class="bg-secondary-light display-inline-block">
+                <div class="height-8 width-4 border-1px bg-white margin-y-8"></div>
+              </div>
+              <p class="text-center margin-top-05 margin-bottom-05">.margin-y-8</p>
+            </div>
+            <div class="col-6 text-center display-flex flex-column flex-justify flex-align-start margin-bottom-2 border-bottom-1px border-gray-5 padding-bottom-1">
+              <div class="bg-secondary-light display-inline-block">
+                <div class="height-8 width-4 border-1px bg-white margin-y-9"></div>
+              </div>
+              <p class="text-center margin-top-05 margin-bottom-05">.margin-y-9</p>
+            </div>
+          </div>
+        </section>
+
+        <section class="text-color">
+          <section class="bg-white padding-2 radius-md margin-y-2 border-1px border-gray-10">
+            <section class="margin-x-neg-2 margin-bottom-2 padding-x-2 padding-bottom-105 border-bottom-1px border-gray-10">
+              <div class="row">
+                <h3 class="col-auto size-sans-6 margin-top-0 margin-bottom-105">Padding</h3>
+
+                <ul class="col-fill text-right list-reset display-inline">
+                  <li class="display-inline"><a href="#0" class="display-inline-block padding-y-05 padding-x-105 bg-blue-50v text-no-underline hover:bg-gray-80 text-white radius-md margin-right-05 is-inverse">responsive</a></li>
+                  <li class="display-inline-block padding-y-05 padding-x-105 border-1px text-gray-20 radius-md margin-right-05 is-inverse text-strike">active</li>
+                  <li class="display-inline-block padding-y-05 padding-x-105 border-1px text-gray-20 radius-md margin-right-05 is-inverse text-strike">hover</li>
+                  <li class="display-inline-block padding-y-05 padding-x-105 border-1px text-gray-20 radius-md margin-right-05 is-inverse text-strike">focus</li>
+                  <li class="display-inline-block padding-y-05 padding-x-105 border-1px text-gray-20 radius-md margin-right-05 is-inverse text-strike">visited</li>
+                </ul>
+              </div>
+            </section>
+
+            <h4 class="border-bottom-1px border-gray-5 padding-bottom-1 margin-bottom-2">Padding on all sides</h4>
+            <div class="row">
+              <div class="col-3 text-center display-flex flex-column flex-justify flex-align-start margin-bottom-2 border-bottom-1px border-gray-5 padding-bottom-1">
+                <div class="minw-card minh-card border-1px bg-primary-lighter margin-0 display-inline-block padding-0">
+                  <div class="bg-white width-full padding-bottom-full"></div>
+                </div>
+                <p class="text-center margin-top-05 margin-bottom-05">.padding-0</p>
+              </div>
+              <div class="col-3 text-center display-flex flex-column flex-justify flex-align-start margin-bottom-2 border-bottom-1px border-gray-5 padding-bottom-1">
+                <div class="minw-card minh-card border-1px bg-primary-lighter margin-0 display-inline-block padding-1px">
+                  <div class="bg-white width-full padding-bottom-full"></div>
+                </div>
+                <p class="text-center margin-top-05 margin-bottom-05">.padding-1px</p>
+              </div>
+              <div class="col-3 text-center display-flex flex-column flex-justify flex-align-start margin-bottom-2 border-bottom-1px border-gray-5 padding-bottom-1">
+                <div class="minw-card minh-card border-1px bg-primary-lighter margin-0 display-inline-block padding-2px">
+                  <div class="bg-white width-full padding-bottom-full"></div>
+                </div>
+                <p class="text-center margin-top-05 margin-bottom-05">.padding-2px</p>
+              </div>
+              <div class="col-3 text-center display-flex flex-column flex-justify flex-align-start margin-bottom-2 border-bottom-1px border-gray-5 padding-bottom-1">
+                <div class="minw-card minh-card border-1px bg-primary-lighter margin-0 display-inline-block padding-05">
+                  <div class="bg-white width-full padding-bottom-full"></div>
+                </div>
+                <p class="text-center margin-top-05 margin-bottom-05">.padding-05</p>
+              </div>
+              <div class="col-3 text-center display-flex flex-column flex-justify flex-align-start margin-bottom-2 border-bottom-1px border-gray-5 padding-bottom-1">
+                <div class="minw-card minh-card border-1px bg-primary-lighter margin-0 display-inline-block padding-1">
+                  <div class="bg-white width-full padding-bottom-full"></div>
+                </div>
+                <p class="text-center margin-top-05 margin-bottom-05">.padding-1</p>
+              </div>
+              <div class="col-3 text-center display-flex flex-column flex-justify flex-align-start margin-bottom-2 border-bottom-1px border-gray-5 padding-bottom-1">
+                <div class="minw-card minh-card border-1px bg-primary-lighter margin-0 display-inline-block padding-105">
+                  <div class="bg-white width-full padding-bottom-full"></div>
+                </div>
+                <p class="text-center margin-top-05 margin-bottom-05">.padding-105</p>
+              </div>
+              <div class="col-3 text-center display-flex flex-column flex-justify flex-align-start margin-bottom-2 border-bottom-1px border-gray-5 padding-bottom-1">
+                <div class="minw-card minh-card border-1px bg-primary-lighter margin-0 display-inline-block padding-2">
+                  <div class="bg-white width-full padding-bottom-full"></div>
+                </div>
+                <p class="text-center margin-top-05 margin-bottom-05">.padding-2</p>
+              </div>
+              <div class="col-3 text-center display-flex flex-column flex-justify flex-align-start margin-bottom-2 border-bottom-1px border-gray-5 padding-bottom-1">
+                <div class="minw-card minh-card border-1px bg-primary-lighter margin-0 display-inline-block padding-205">
+                  <div class="bg-white width-full padding-bottom-full"></div>
+                </div>
+                <p class="text-center margin-top-05 margin-bottom-05">.padding-205</p>
+              </div>
+              <div class="col-3 text-center display-flex flex-column flex-justify flex-align-start margin-bottom-2 border-bottom-1px border-gray-5 padding-bottom-1">
+                <div class="minw-card minh-card border-1px bg-primary-lighter margin-0 display-inline-block padding-3">
+                  <div class="bg-white width-full padding-bottom-full"></div>
+                </div>
+                <p class="text-center margin-top-05 margin-bottom-05">.padding-3</p>
+              </div>
+              <div class="col-3 text-center display-flex flex-column flex-justify flex-align-start margin-bottom-2 border-bottom-1px border-gray-5 padding-bottom-1">
+                <div class="minw-card minh-card border-1px bg-primary-lighter margin-0 display-inline-block padding-4">
+                  <div class="bg-white width-full padding-bottom-full"></div>
+                </div>
+                <p class="text-center margin-top-05 margin-bottom-05">.padding-4</p>
+              </div>
+              <div class="col-3 text-center display-flex flex-column flex-justify flex-align-start margin-bottom-2 border-bottom-1px border-gray-5 padding-bottom-1">
+                <div class="minw-card minh-card border-1px bg-primary-lighter margin-0 display-inline-block padding-5">
+                  <div class="bg-white width-full padding-bottom-full"></div>
+                </div>
+                <p class="text-center margin-top-05 margin-bottom-05">.padding-5</p>
+              </div>
+              <div class="col-3 text-center display-flex flex-column flex-justify flex-align-start margin-bottom-2 border-bottom-1px border-gray-5 padding-bottom-1">
+                <div class="minw-card minh-card border-1px bg-primary-lighter margin-0 display-inline-block padding-6">
+                  <div class="bg-white width-full padding-bottom-full"></div>
+                </div>
+                <p class="text-center margin-top-05 margin-bottom-05">.padding-6</p>
+              </div>
+              <div class="col-3 text-center display-flex flex-column flex-justify flex-align-start margin-bottom-2 border-bottom-1px border-gray-5 padding-bottom-1">
+                <div class="minw-card minh-card border-1px bg-primary-lighter margin-0 display-inline-block padding-7">
+                  <div class="bg-white width-full padding-bottom-full"></div>
+                </div>
+                <p class="text-center margin-top-05 margin-bottom-05">.padding-7</p>
+              </div>
+              <div class="col-3 text-center display-flex flex-column flex-justify flex-align-start margin-bottom-2 border-bottom-1px border-gray-5 padding-bottom-1">
+                <div class="minw-card minh-card border-1px bg-primary-lighter margin-0 display-inline-block padding-8">
+                  <div class="bg-white width-full padding-bottom-full"></div>
+                </div>
+                <p class="text-center margin-top-05 margin-bottom-05">.padding-8</p>
+              </div>
+              <div class="col-3 text-center display-flex flex-column flex-justify flex-align-start margin-bottom-2 border-bottom-1px border-gray-5 padding-bottom-1">
+                <div class="minw-card minh-card border-1px bg-primary-lighter margin-0 display-inline-block padding-9">
+                  <div class="bg-white width-full padding-bottom-full"></div>
+                </div>
+                <p class="text-center margin-top-05 margin-bottom-05">.padding-9</p>
+              </div>
+            </div>
+
+            <h4 class="border-bottom-1px border-gray-5 padding-bottom-1 margin-bottom-2">Padding bottom</h4>
+            <div class="row">
+              <div class="col-3 text-center display-flex flex-column flex-justify flex-align-start margin-bottom-2 border-bottom-1px border-gray-5 padding-bottom-1">
+                <div class="square-9 border-1px bg-primary-lighter margin-0 display-inline-block padding-top-0">
+                  <div class="bg-white width-full padding-bottom-full"></div>
+                </div>
+                <p class="text-center margin-top-05 margin-bottom-05">.padding-bottom-0</p>
+              </div>
+              <div class="col-3 text-center display-flex flex-column flex-justify flex-align-start margin-bottom-2 border-bottom-1px border-gray-5 padding-bottom-1">
+                <div class="position-relative square-9 border-1px margin-0 bg-white">
+                  <div class="bg-primary-lighter pin-bottom height-1px"></div>
+                </div>
+                <p class="text-center margin-top-05 margin-bottom-05">.padding-bottom-1px</p>
+              </div>
+              <div class="col-3 text-center display-flex flex-column flex-justify flex-align-start margin-bottom-2 border-bottom-1px border-gray-5 padding-bottom-1">
+                <div class="position-relative square-9 border-1px margin-0 bg-white">
+                  <div class="bg-primary-lighter pin-bottom height-2px"></div>
+                </div>
+                <p class="text-center margin-top-05 margin-bottom-05">.padding-bottom-2px</p>
+              </div>
+              <div class="col-3 text-center display-flex flex-column flex-justify flex-align-start margin-bottom-2 border-bottom-1px border-gray-5 padding-bottom-1">
+                <div class="position-relative square-9 border-1px margin-0 bg-white">
+                  <div class="bg-primary-lighter pin-bottom height-05"></div>
+                </div>
+                <p class="text-center margin-top-05 margin-bottom-05">.padding-bottom-05</p>
+              </div>
+              <div class="col-3 text-center display-flex flex-column flex-justify flex-align-start margin-bottom-2 border-bottom-1px border-gray-5 padding-bottom-1">
+                <div class="position-relative square-9 border-1px margin-0 bg-white">
+                  <div class="bg-primary-lighter pin-bottom height-1"></div>
+                </div>
+                <p class="text-center margin-top-05 margin-bottom-05">.padding-bottom-1</p>
+              </div>
+              <div class="col-3 text-center display-flex flex-column flex-justify flex-align-start margin-bottom-2 border-bottom-1px border-gray-5 padding-bottom-1">
+                <div class="position-relative square-9 border-1px margin-0 bg-white">
+                  <div class="bg-primary-lighter pin-bottom height-105"></div>
+                </div>
+                <p class="text-center margin-top-05 margin-bottom-05">.padding-bottom-105</p>
+              </div>
+              <div class="col-3 text-center display-flex flex-column flex-justify flex-align-start margin-bottom-2 border-bottom-1px border-gray-5 padding-bottom-1">
+                <div class="position-relative square-9 border-1px margin-0 bg-white">
+                  <div class="bg-primary-lighter pin-bottom height-2"></div>
+                </div>
+                <p class="text-center margin-top-05 margin-bottom-05">.padding-bottom-2</p>
+              </div>
+              <div class="col-3 text-center display-flex flex-column flex-justify flex-align-start margin-bottom-2 border-bottom-1px border-gray-5 padding-bottom-1">
+                <div class="position-relative square-9 border-1px margin-0 bg-white">
+                  <div class="bg-primary-lighter pin-bottom height-205"></div>
+                </div>
+                <p class="text-center margin-top-05 margin-bottom-05">.padding-bottom-205</p>
+              </div>
+              <div class="col-3 text-center display-flex flex-column flex-justify flex-align-start margin-bottom-2 border-bottom-1px border-gray-5 padding-bottom-1">
+                <div class="position-relative square-9 border-1px margin-0 bg-white">
+                  <div class="bg-primary-lighter pin-bottom height-3"></div>
+                </div>
+                <p class="text-center margin-top-05 margin-bottom-05">.padding-bottom-3</p>
+              </div>
+              <div class="col-3 text-center display-flex flex-column flex-justify flex-align-start margin-bottom-2 border-bottom-1px border-gray-5 padding-bottom-1">
+                <div class="position-relative square-9 border-1px margin-0 bg-white">
+                  <div class="bg-primary-lighter pin-bottom height-4"></div>
+                </div>
+                <p class="text-center margin-top-05 margin-bottom-05">.padding-bottom-4</p>
+              </div>
+              <div class="col-3 text-center display-flex flex-column flex-justify flex-align-start margin-bottom-2 border-bottom-1px border-gray-5 padding-bottom-1">
+                <div class="position-relative square-9 border-1px margin-0 bg-white">
+                  <div class="bg-primary-lighter pin-bottom height-5"></div>
+                </div>
+                <p class="text-center margin-top-05 margin-bottom-05">.padding-bottom-5</p>
+              </div>
+              <div class="col-3 text-center display-flex flex-column flex-justify flex-align-start margin-bottom-2 border-bottom-1px border-gray-5 padding-bottom-1">
+                <div class="position-relative square-9 border-1px margin-0 bg-white">
+                  <div class="bg-primary-lighter pin-bottom height-6"></div>
+                </div>
+                <p class="text-center margin-top-05 margin-bottom-05">.padding-bottom-6</p>
+              </div>
+              <div class="col-3 text-center display-flex flex-column flex-justify flex-align-start margin-bottom-2 border-bottom-1px border-gray-5 padding-bottom-1">
+                <div class="position-relative square-9 border-1px margin-0 bg-white">
+                  <div class="bg-primary-lighter pin-bottom height-7"></div>
+                </div>
+                <p class="text-center margin-top-05 margin-bottom-05">.padding-bottom-7</p>
+              </div>
+              <div class="col-3 text-center display-flex flex-column flex-justify flex-align-start margin-bottom-2 border-bottom-1px border-gray-5 padding-bottom-1">
+                <div class="position-relative square-9 border-1px margin-0 bg-white">
+                  <div class="bg-primary-lighter pin-bottom height-8"></div>
+                </div>
+                <p class="text-center margin-top-05 margin-bottom-05">.padding-bottom-8</p>
+              </div>
+              <div class="col-3 text-center display-flex flex-column flex-justify flex-align-start margin-bottom-2 border-bottom-1px border-gray-5 padding-bottom-1">
+                <div class="position-relative square-9 border-1px margin-0 bg-primary-lighter">
+                </div>
+                <p class="text-center margin-top-05 margin-bottom-05">.padding-bottom-9</p>
+              </div>
+            </div>
+
+            <h4 class="border-bottom-1px border-gray-5 padding-bottom-1 margin-bottom-2">Padding top</h4>
+            <div class="row">
+              <div class="col-3 text-center display-flex flex-column flex-justify flex-align-start margin-bottom-2 border-bottom-1px border-gray-5 padding-bottom-1">
+                <div class="square-9 border-1px bg-primary-lighter margin-0 display-inline-block padding-top-0">
+                  <div class="bg-white width-full padding-bottom-full"></div>
+                </div>
+                <p class="text-center margin-top-05 margin-bottom-05">.padding-top-0</p>
+              </div>
+              <div class="col-3 text-center display-flex flex-column flex-justify flex-align-start margin-bottom-2 border-bottom-1px border-gray-5 padding-bottom-1">
+                <div class="position-relative square-9 border-1px margin-0 bg-white">
+                  <div class="bg-primary-lighter pin-top height-1px"></div>
+                </div>
+                <p class="text-center margin-top-05 margin-bottom-05">.padding-top-1px</p>
+              </div>
+              <div class="col-3 text-center display-flex flex-column flex-justify flex-align-start margin-bottom-2 border-bottom-1px border-gray-5 padding-bottom-1">
+                <div class="position-relative square-9 border-1px margin-0 bg-white">
+                  <div class="bg-primary-lighter pin-top height-2px"></div>
+                </div>
+                <p class="text-center margin-top-05 margin-bottom-05">.padding-top-2px</p>
+              </div>
+              <div class="col-3 text-center display-flex flex-column flex-justify flex-align-start margin-bottom-2 border-bottom-1px border-gray-5 padding-bottom-1">
+                <div class="position-relative square-9 border-1px margin-0 bg-white">
+                  <div class="bg-primary-lighter pin-top height-05"></div>
+                </div>
+                <p class="text-center margin-top-05 margin-bottom-05">.padding-top-05</p>
+              </div>
+              <div class="col-3 text-center display-flex flex-column flex-justify flex-align-start margin-bottom-2 border-bottom-1px border-gray-5 padding-bottom-1">
+                <div class="position-relative square-9 border-1px margin-0 bg-white">
+                  <div class="bg-primary-lighter pin-top height-1"></div>
+                </div>
+                <p class="text-center margin-top-05 margin-bottom-05">.padding-top-1</p>
+              </div>
+              <div class="col-3 text-center display-flex flex-column flex-justify flex-align-start margin-bottom-2 border-bottom-1px border-gray-5 padding-bottom-1">
+                <div class="position-relative square-9 border-1px margin-0 bg-white">
+                  <div class="bg-primary-lighter pin-top height-105"></div>
+                </div>
+                <p class="text-center margin-top-05 margin-bottom-05">.padding-top-105</p>
+              </div>
+              <div class="col-3 text-center display-flex flex-column flex-justify flex-align-start margin-bottom-2 border-bottom-1px border-gray-5 padding-bottom-1">
+                <div class="position-relative square-9 border-1px margin-0 bg-white">
+                  <div class="bg-primary-lighter pin-top height-2"></div>
+                </div>
+                <p class="text-center margin-top-05 margin-bottom-05">.padding-top-2</p>
+              </div>
+              <div class="col-3 text-center display-flex flex-column flex-justify flex-align-start margin-bottom-2 border-bottom-1px border-gray-5 padding-bottom-1">
+                <div class="position-relative square-9 border-1px margin-0 bg-white">
+                  <div class="bg-primary-lighter pin-top height-205"></div>
+                </div>
+                <p class="text-center margin-top-05 margin-bottom-05">.padding-top-205</p>
+              </div>
+              <div class="col-3 text-center display-flex flex-column flex-justify flex-align-start margin-bottom-2 border-bottom-1px border-gray-5 padding-bottom-1">
+                <div class="position-relative square-9 border-1px margin-0 bg-white">
+                  <div class="bg-primary-lighter pin-top height-3"></div>
+                </div>
+                <p class="text-center margin-top-05 margin-bottom-05">.padding-top-3</p>
+              </div>
+              <div class="col-3 text-center display-flex flex-column flex-justify flex-align-start margin-bottom-2 border-bottom-1px border-gray-5 padding-bottom-1">
+                <div class="position-relative square-9 border-1px margin-0 bg-white">
+                  <div class="bg-primary-lighter pin-top height-4"></div>
+                </div>
+                <p class="text-center margin-top-05 margin-bottom-05">.padding-top-4</p>
+              </div>
+              <div class="col-3 text-center display-flex flex-column flex-justify flex-align-start margin-bottom-2 border-bottom-1px border-gray-5 padding-bottom-1">
+                <div class="position-relative square-9 border-1px margin-0 bg-white">
+                  <div class="bg-primary-lighter pin-top height-5"></div>
+                </div>
+                <p class="text-center margin-top-05 margin-bottom-05">.padding-top-5</p>
+              </div>
+              <div class="col-3 text-center display-flex flex-column flex-justify flex-align-start margin-bottom-2 border-bottom-1px border-gray-5 padding-bottom-1">
+                <div class="position-relative square-9 border-1px margin-0 bg-white">
+                  <div class="bg-primary-lighter pin-top height-6"></div>
+                </div>
+                <p class="text-center margin-top-05 margin-bottom-05">.padding-top-6</p>
+              </div>
+              <div class="col-3 text-center display-flex flex-column flex-justify flex-align-start margin-bottom-2 border-bottom-1px border-gray-5 padding-bottom-1">
+                <div class="position-relative square-9 border-1px margin-0 bg-white">
+                  <div class="bg-primary-lighter pin-top height-7"></div>
+                </div>
+                <p class="text-center margin-top-05 margin-bottom-05">.padding-top-7</p>
+              </div>
+              <div class="col-3 text-center display-flex flex-column flex-justify flex-align-start margin-bottom-2 border-bottom-1px border-gray-5 padding-bottom-1">
+                <div class="position-relative square-9 border-1px margin-0 bg-white">
+                  <div class="bg-primary-lighter pin-top height-8"></div>
+                </div>
+                <p class="text-center margin-top-05 margin-bottom-05">.padding-top-8</p>
+              </div>
+              <div class="col-3 text-center display-flex flex-column flex-justify flex-align-start margin-bottom-2 border-bottom-1px border-gray-5 padding-bottom-1">
+                <div class="position-relative square-9 border-1px margin-0 bg-primary-lighter">
+                </div>
+                <p class="text-center margin-top-05 margin-bottom-05">.padding-top-9</p>
+              </div>
+            </div>
+
+            <h4 class="border-bottom-1px border-gray-5 padding-bottom-1 margin-bottom-2">Padding left</h4>
+            <div class="row">
+              <div class="col-3 text-center display-flex flex-column flex-justify flex-align-start margin-bottom-2 border-bottom-1px border-gray-5 padding-bottom-1">
+                <div class="square-9 border-1px bg-primary-lighter margin-0 display-inline-block padding-top-0">
+                  <div class="bg-white width-full padding-bottom-full"></div>
+                </div>
+                <p class="text-center margin-top-05 margin-bottom-05">.padding-left-0</p>
+              </div>
+              <div class="col-3 text-center display-flex flex-column flex-justify flex-align-start margin-bottom-2 border-bottom-1px border-gray-5 padding-bottom-1">
+                <div class="position-relative square-9 border-1px margin-0 bg-white">
+                  <div class="bg-primary-lighter pin-left width-1px"></div>
+                </div>
+                <p class="text-center margin-top-05 margin-bottom-05">.padding-left-1px</p>
+              </div>
+              <div class="col-3 text-center display-flex flex-column flex-justify flex-align-start margin-bottom-2 border-bottom-1px border-gray-5 padding-bottom-1">
+                <div class="position-relative square-9 border-1px margin-0 bg-white">
+                  <div class="bg-primary-lighter pin-left width-2px"></div>
+                </div>
+                <p class="text-center margin-top-05 margin-bottom-05">.padding-left-2px</p>
+              </div>
+              <div class="col-3 text-center display-flex flex-column flex-justify flex-align-start margin-bottom-2 border-bottom-1px border-gray-5 padding-bottom-1">
+                <div class="position-relative square-9 border-1px margin-0 bg-white">
+                  <div class="bg-primary-lighter pin-left width-05"></div>
+                </div>
+                <p class="text-center margin-top-05 margin-bottom-05">.padding-left-05</p>
+              </div>
+              <div class="col-3 text-center display-flex flex-column flex-justify flex-align-start margin-bottom-2 border-bottom-1px border-gray-5 padding-bottom-1">
+                <div class="position-relative square-9 border-1px margin-0 bg-white">
+                  <div class="bg-primary-lighter pin-left width-1"></div>
+                </div>
+                <p class="text-center margin-top-05 margin-bottom-05">.padding-left-1</p>
+              </div>
+              <div class="col-3 text-center display-flex flex-column flex-justify flex-align-start margin-bottom-2 border-bottom-1px border-gray-5 padding-bottom-1">
+                <div class="position-relative square-9 border-1px margin-0 bg-white">
+                  <div class="bg-primary-lighter pin-left width-105"></div>
+                </div>
+                <p class="text-center margin-top-05 margin-bottom-05">.padding-left-105</p>
+              </div>
+              <div class="col-3 text-center display-flex flex-column flex-justify flex-align-start margin-bottom-2 border-bottom-1px border-gray-5 padding-bottom-1">
+                <div class="position-relative square-9 border-1px margin-0 bg-white">
+                  <div class="bg-primary-lighter pin-left width-2"></div>
+                </div>
+                <p class="text-center margin-top-05 margin-bottom-05">.padding-left-2</p>
+              </div>
+              <div class="col-3 text-center display-flex flex-column flex-justify flex-align-start margin-bottom-2 border-bottom-1px border-gray-5 padding-bottom-1">
+                <div class="position-relative square-9 border-1px margin-0 bg-white">
+                  <div class="bg-primary-lighter pin-left width-205"></div>
+                </div>
+                <p class="text-center margin-top-05 margin-bottom-05">.padding-left-205</p>
+              </div>
+              <div class="col-3 text-center display-flex flex-column flex-justify flex-align-start margin-bottom-2 border-bottom-1px border-gray-5 padding-bottom-1">
+                <div class="position-relative square-9 border-1px margin-0 bg-white">
+                  <div class="bg-primary-lighter pin-left width-3"></div>
+                </div>
+                <p class="text-center margin-top-05 margin-bottom-05">.padding-left-3</p>
+              </div>
+              <div class="col-3 text-center display-flex flex-column flex-justify flex-align-start margin-bottom-2 border-bottom-1px border-gray-5 padding-bottom-1">
+                <div class="position-relative square-9 border-1px margin-0 bg-white">
+                  <div class="bg-primary-lighter pin-left width-4"></div>
+                </div>
+                <p class="text-center margin-top-05 margin-bottom-05">.padding-left-4</p>
+              </div>
+              <div class="col-3 text-center display-flex flex-column flex-justify flex-align-start margin-bottom-2 border-bottom-1px border-gray-5 padding-bottom-1">
+                <div class="position-relative square-9 border-1px margin-0 bg-white">
+                  <div class="bg-primary-lighter pin-left width-5"></div>
+                </div>
+                <p class="text-center margin-top-05 margin-bottom-05">.padding-left-5</p>
+              </div>
+              <div class="col-3 text-center display-flex flex-column flex-justify flex-align-start margin-bottom-2 border-bottom-1px border-gray-5 padding-bottom-1">
+                <div class="position-relative square-9 border-1px margin-0 bg-white">
+                  <div class="bg-primary-lighter pin-left width-6"></div>
+                </div>
+                <p class="text-center margin-top-05 margin-bottom-05">.padding-left-6</p>
+              </div>
+              <div class="col-3 text-center display-flex flex-column flex-justify flex-align-start margin-bottom-2 border-bottom-1px border-gray-5 padding-bottom-1">
+                <div class="position-relative square-9 border-1px margin-0 bg-white">
+                  <div class="bg-primary-lighter pin-left width-7"></div>
+                </div>
+                <p class="text-center margin-top-05 margin-bottom-05">.padding-left-7</p>
+              </div>
+              <div class="col-3 text-center display-flex flex-column flex-justify flex-align-start margin-bottom-2 border-bottom-1px border-gray-5 padding-bottom-1">
+                <div class="position-relative square-9 border-1px margin-0 bg-white">
+                  <div class="bg-primary-lighter pin-left width-8"></div>
+                </div>
+                <p class="text-center margin-top-05 margin-bottom-05">.padding-left-8</p>
+              </div>
+              <div class="col-3 text-center display-flex flex-column flex-justify flex-align-start margin-bottom-2 border-bottom-1px border-gray-5 padding-bottom-1">
+                <div class="position-relative square-9 border-1px margin-0 bg-primary-lighter">
+                </div>
+                <p class="text-center margin-top-05 margin-bottom-05">.padding-left-9</p>
+              </div>
+            </div>
+
+            <h4 class="border-bottom-1px border-gray-5 padding-bottom-1 margin-bottom-2">Padding right</h4>
+            <div class="row">
+              <div class="col-3 text-center display-flex flex-column flex-justify flex-align-start margin-bottom-2 border-bottom-1px border-gray-5 padding-bottom-1">
+                <div class="square-9 border-1px bg-primary-lighter margin-0 display-inline-block padding-top-0">
+                  <div class="bg-white width-full padding-bottom-full"></div>
+                </div>
+                <p class="text-center margin-top-05 margin-bottom-05">.padding-right-0</p>
+              </div>
+              <div class="col-3 text-center display-flex flex-column flex-justify flex-align-start margin-bottom-2 border-bottom-1px border-gray-5 padding-bottom-1">
+                <div class="position-relative square-9 border-1px margin-0 bg-white">
+                  <div class="bg-primary-lighter pin-right width-1px"></div>
+                </div>
+                <p class="text-center margin-top-05 margin-bottom-05">.padding-right-1px</p>
+              </div>
+              <div class="col-3 text-center display-flex flex-column flex-justify flex-align-start margin-bottom-2 border-bottom-1px border-gray-5 padding-bottom-1">
+                <div class="position-relative square-9 border-1px margin-0 bg-white">
+                  <div class="bg-primary-lighter pin-right width-2px"></div>
+                </div>
+                <p class="text-center margin-top-05 margin-bottom-05">.padding-right-2px</p>
+              </div>
+              <div class="col-3 text-center display-flex flex-column flex-justify flex-align-start margin-bottom-2 border-bottom-1px border-gray-5 padding-bottom-1">
+                <div class="position-relative square-9 border-1px margin-0 bg-white">
+                  <div class="bg-primary-lighter pin-right width-05"></div>
+                </div>
+                <p class="text-center margin-top-05 margin-bottom-05">.padding-right-05</p>
+              </div>
+              <div class="col-3 text-center display-flex flex-column flex-justify flex-align-start margin-bottom-2 border-bottom-1px border-gray-5 padding-bottom-1">
+                <div class="position-relative square-9 border-1px margin-0 bg-white">
+                  <div class="bg-primary-lighter pin-right width-1"></div>
+                </div>
+                <p class="text-center margin-top-05 margin-bottom-05">.padding-right-1</p>
+              </div>
+              <div class="col-3 text-center display-flex flex-column flex-justify flex-align-start margin-bottom-2 border-bottom-1px border-gray-5 padding-bottom-1">
+                <div class="position-relative square-9 border-1px margin-0 bg-white">
+                  <div class="bg-primary-lighter pin-right width-105"></div>
+                </div>
+                <p class="text-center margin-top-05 margin-bottom-05">.padding-right-105</p>
+              </div>
+              <div class="col-3 text-center display-flex flex-column flex-justify flex-align-start margin-bottom-2 border-bottom-1px border-gray-5 padding-bottom-1">
+                <div class="position-relative square-9 border-1px margin-0 bg-white">
+                  <div class="bg-primary-lighter pin-right width-2"></div>
+                </div>
+                <p class="text-center margin-top-05 margin-bottom-05">.padding-right-2</p>
+              </div>
+              <div class="col-3 text-center display-flex flex-column flex-justify flex-align-start margin-bottom-2 border-bottom-1px border-gray-5 padding-bottom-1">
+                <div class="position-relative square-9 border-1px margin-0 bg-white">
+                  <div class="bg-primary-lighter pin-right width-205"></div>
+                </div>
+                <p class="text-center margin-top-05 margin-bottom-05">.padding-right-205</p>
+              </div>
+              <div class="col-3 text-center display-flex flex-column flex-justify flex-align-start margin-bottom-2 border-bottom-1px border-gray-5 padding-bottom-1">
+                <div class="position-relative square-9 border-1px margin-0 bg-white">
+                  <div class="bg-primary-lighter pin-right width-3"></div>
+                </div>
+                <p class="text-center margin-top-05 margin-bottom-05">.padding-right-3</p>
+              </div>
+              <div class="col-3 text-center display-flex flex-column flex-justify flex-align-start margin-bottom-2 border-bottom-1px border-gray-5 padding-bottom-1">
+                <div class="position-relative square-9 border-1px margin-0 bg-white">
+                  <div class="bg-primary-lighter pin-right width-4"></div>
+                </div>
+                <p class="text-center margin-top-05 margin-bottom-05">.padding-right-4</p>
+              </div>
+              <div class="col-3 text-center display-flex flex-column flex-justify flex-align-start margin-bottom-2 border-bottom-1px border-gray-5 padding-bottom-1">
+                <div class="position-relative square-9 border-1px margin-0 bg-white">
+                  <div class="bg-primary-lighter pin-right width-5"></div>
+                </div>
+                <p class="text-center margin-top-05 margin-bottom-05">.padding-right-5</p>
+              </div>
+              <div class="col-3 text-center display-flex flex-column flex-justify flex-align-start margin-bottom-2 border-bottom-1px border-gray-5 padding-bottom-1">
+                <div class="position-relative square-9 border-1px margin-0 bg-white">
+                  <div class="bg-primary-lighter pin-right width-6"></div>
+                </div>
+                <p class="text-center margin-top-05 margin-bottom-05">.padding-right-6</p>
+              </div>
+              <div class="col-3 text-center display-flex flex-column flex-justify flex-align-start margin-bottom-2 border-bottom-1px border-gray-5 padding-bottom-1">
+                <div class="position-relative square-9 border-1px margin-0 bg-white">
+                  <div class="bg-primary-lighter pin-right width-7"></div>
+                </div>
+                <p class="text-center margin-top-05 margin-bottom-05">.padding-right-7</p>
+              </div>
+              <div class="col-3 text-center display-flex flex-column flex-justify flex-align-start margin-bottom-2 border-bottom-1px border-gray-5 padding-bottom-1">
+                <div class="position-relative square-9 border-1px margin-0 bg-white">
+                  <div class="bg-primary-lighter pin-right width-8"></div>
+                </div>
+                <p class="text-center margin-top-05 margin-bottom-05">.padding-right-8</p>
+              </div>
+              <div class="col-3 text-center display-flex flex-column flex-justify flex-align-start margin-bottom-2 border-bottom-1px border-gray-5 padding-bottom-1">
+                <div class="position-relative square-9 border-1px margin-0 bg-primary-lighter">
+                </div>
+                <p class="text-center margin-top-05 margin-bottom-05">.padding-right-9</p>
+              </div>
+            </div>
+
+            <h4 class="border-bottom-1px border-gray-5 padding-bottom-1 margin-bottom-2">Padding left and right</h4>
+            <div class="row">
+              <div class="col-3 text-center display-flex flex-column flex-justify flex-align-start margin-bottom-2 border-bottom-1px border-gray-5 padding-bottom-1">
+                <div class="position-relative height-9 width-card border-1px bg-white margin-0 display-inline-block padding-top-0">
+                </div>
+                <p class="text-center margin-top-05 margin-bottom-05">.padding-x-0</p>
+              </div>
+              <div class="col-3 text-center display-flex flex-column flex-justify flex-align-start margin-bottom-2 border-bottom-1px border-gray-5 padding-bottom-1">
+                <div class="position-relative height-9 width-card border-1px margin-0 bg-white">
+                  <div class="bg-primary-lighter pin-right width-1px"></div>
+                  <div class="bg-primary-lighter pin-left width-1px"></div>
+                </div>
+                <p class="text-center margin-top-05 margin-bottom-05">.padding-x-1px</p>
+              </div>
+              <div class="col-3 text-center display-flex flex-column flex-justify flex-align-start margin-bottom-2 border-bottom-1px border-gray-5 padding-bottom-1">
+                <div class="position-relative height-9 width-card border-1px margin-0 bg-white">
+                  <div class="bg-primary-lighter pin-right width-2px"></div>
+                  <div class="bg-primary-lighter pin-left width-2px"></div>
+                </div>
+                <p class="text-center margin-top-05 margin-bottom-05">.padding-x-2px</p>
+              </div>
+              <div class="col-3 text-center display-flex flex-column flex-justify flex-align-start margin-bottom-2 border-bottom-1px border-gray-5 padding-bottom-1">
+                <div class="position-relative height-9 width-card border-1px margin-0 bg-white">
+                  <div class="bg-primary-lighter pin-right width-05"></div>
+                  <div class="bg-primary-lighter pin-left width-05"></div>
+                </div>
+                <p class="text-center margin-top-05 margin-bottom-05">.padding-x-05</p>
+              </div>
+              <div class="col-3 text-center display-flex flex-column flex-justify flex-align-start margin-bottom-2 border-bottom-1px border-gray-5 padding-bottom-1">
+                <div class="position-relative height-9 width-card border-1px margin-0 bg-white">
+                  <div class="bg-primary-lighter pin-right width-1"></div>
+                  <div class="bg-primary-lighter pin-left width-1"></div>
+                </div>
+                <p class="text-center margin-top-05 margin-bottom-05">.padding-x-1</p>
+              </div>
+              <div class="col-3 text-center display-flex flex-column flex-justify flex-align-start margin-bottom-2 border-bottom-1px border-gray-5 padding-bottom-1">
+                <div class="position-relative height-9 width-card border-1px margin-0 bg-white">
+                  <div class="bg-primary-lighter pin-right width-105"></div>
+                  <div class="bg-primary-lighter pin-left width-105"></div>
+                </div>
+                <p class="text-center margin-top-05 margin-bottom-05">.padding-x-105</p>
+              </div>
+              <div class="col-3 text-center display-flex flex-column flex-justify flex-align-start margin-bottom-2 border-bottom-1px border-gray-5 padding-bottom-1">
+                <div class="position-relative height-9 width-card border-1px margin-0 bg-white">
+                  <div class="bg-primary-lighter pin-right width-2"></div>
+                  <div class="bg-primary-lighter pin-left width-2"></div>
+                </div>
+                <p class="text-center margin-top-05 margin-bottom-05">.padding-x-2</p>
+              </div>
+              <div class="col-3 text-center display-flex flex-column flex-justify flex-align-start margin-bottom-2 border-bottom-1px border-gray-5 padding-bottom-1">
+                <div class="position-relative height-9 width-card border-1px margin-0 bg-white">
+                  <div class="bg-primary-lighter pin-right width-205"></div>
+                  <div class="bg-primary-lighter pin-left width-205"></div>
+                </div>
+                <p class="text-center margin-top-05 margin-bottom-05">.padding-x-205</p>
+              </div>
+              <div class="col-3 text-center display-flex flex-column flex-justify flex-align-start margin-bottom-2 border-bottom-1px border-gray-5 padding-bottom-1">
+                <div class="position-relative height-9 width-card border-1px margin-0 bg-white">
+                  <div class="bg-primary-lighter pin-right width-3"></div>
+                  <div class="bg-primary-lighter pin-left width-3"></div>
+                </div>
+                <p class="text-center margin-top-05 margin-bottom-05">.padding-x-3</p>
+              </div>
+              <div class="col-3 text-center display-flex flex-column flex-justify flex-align-start margin-bottom-2 border-bottom-1px border-gray-5 padding-bottom-1">
+                <div class="position-relative height-9 width-card border-1px margin-0 bg-white">
+                  <div class="bg-primary-lighter pin-right width-4"></div>
+                  <div class="bg-primary-lighter pin-left width-4"></div>
+                </div>
+                <p class="text-center margin-top-05 margin-bottom-05">.padding-x-4</p>
+              </div>
+              <div class="col-3 text-center display-flex flex-column flex-justify flex-align-start margin-bottom-2 border-bottom-1px border-gray-5 padding-bottom-1">
+                <div class="position-relative height-9 width-card border-1px margin-0 bg-white">
+                  <div class="bg-primary-lighter pin-right width-5"></div>
+                  <div class="bg-primary-lighter pin-left width-5"></div>
+                </div>
+                <p class="text-center margin-top-05 margin-bottom-05">.padding-x-5</p>
+              </div>
+              <div class="col-3 text-center display-flex flex-column flex-justify flex-align-start margin-bottom-2 border-bottom-1px border-gray-5 padding-bottom-1">
+                <div class="position-relative height-9 width-card border-1px margin-0 bg-white">
+                  <div class="bg-primary-lighter pin-right width-6"></div>
+                  <div class="bg-primary-lighter pin-left width-6"></div>
+                </div>
+                <p class="text-center margin-top-05 margin-bottom-05">.padding-x-6</p>
+              </div>
+              <div class="col-3 text-center display-flex flex-column flex-justify flex-align-start margin-bottom-2 border-bottom-1px border-gray-5 padding-bottom-1">
+                <div class="position-relative height-9 width-card border-1px margin-0 bg-white">
+                  <div class="bg-primary-lighter pin-right width-7"></div>
+                  <div class="bg-primary-lighter pin-left width-7"></div>
+                </div>
+                <p class="text-center margin-top-05 margin-bottom-05">.padding-x-7</p>
+              </div>
+              <div class="col-3 text-center display-flex flex-column flex-justify flex-align-start margin-bottom-2 border-bottom-1px border-gray-5 padding-bottom-1">
+                <div class="position-relative height-9 width-card border-1px margin-0 bg-white">
+                  <div class="bg-primary-lighter pin-right width-8"></div>
+                  <div class="bg-primary-lighter pin-left width-8"></div>
+                </div>
+                <p class="text-center margin-top-05 margin-bottom-05">.padding-x-8</p>
+              </div>
+              <div class="col-3 text-center display-flex flex-column flex-justify flex-align-start margin-bottom-2 border-bottom-1px border-gray-5 padding-bottom-1">
+                <div class="position-relative height-9 width-card border-1px margin-0 bg-white">
+                  <div class="bg-primary-lighter pin-right width-9"></div>
+                  <div class="bg-primary-lighter pin-left width-9"></div>
+                </div>
+                <p class="text-center margin-top-05 margin-bottom-05">.padding-x-9</p>
+              </div>
+            </div>
+
+            <h4 class="border-bottom-1px border-gray-5 padding-bottom-1 margin-bottom-2">Padding bottom and top</h4>
+            <div class="row">
+              <div class="col-3 text-center display-flex flex-column flex-justify flex-align-start margin-bottom-2 border-bottom-1px border-gray-5 padding-bottom-1">
+                <div class="position-relative minh-card width-9 border-1px bg-white margin-0 display-inline-block padding-top-0">
+                </div>
+                <p class="text-center margin-top-05 margin-bottom-05">.padding-y-0</p>
+              </div>
+              <div class="col-3 text-center display-flex flex-column flex-justify flex-align-start margin-bottom-2 border-bottom-1px border-gray-5 padding-bottom-1">
+                <div class="position-relative minh-card width-9 border-1px margin-0 bg-white">
+                  <div class="bg-primary-lighter pin-bottom height-1px"></div>
+                  <div class="bg-primary-lighter pin-top height-1px"></div>
+                </div>
+                <p class="text-center margin-top-05 margin-bottom-05">.padding-y-1px</p>
+              </div>
+              <div class="col-3 text-center display-flex flex-column flex-justify flex-align-start margin-bottom-2 border-bottom-1px border-gray-5 padding-bottom-1">
+                <div class="position-relative minh-card width-9 border-1px margin-0 bg-white">
+                  <div class="bg-primary-lighter pin-bottom height-2px"></div>
+                  <div class="bg-primary-lighter pin-top height-2px"></div>
+                </div>
+                <p class="text-center margin-top-05 margin-bottom-05">.padding-y-2px</p>
+              </div>
+              <div class="col-3 text-center display-flex flex-column flex-justify flex-align-start margin-bottom-2 border-bottom-1px border-gray-5 padding-bottom-1">
+                <div class="position-relative minh-card width-9 border-1px margin-0 bg-white">
+                  <div class="bg-primary-lighter pin-bottom height-05"></div>
+                  <div class="bg-primary-lighter pin-top height-05"></div>
+                </div>
+                <p class="text-center margin-top-05 margin-bottom-05">.padding-y-05</p>
+              </div>
+              <div class="col-3 text-center display-flex flex-column flex-justify flex-align-start margin-bottom-2 border-bottom-1px border-gray-5 padding-bottom-1">
+                <div class="position-relative minh-card width-9 border-1px margin-0 bg-white">
+                  <div class="bg-primary-lighter pin-bottom height-1"></div>
+                  <div class="bg-primary-lighter pin-top height-1"></div>
+                </div>
+                <p class="text-center margin-top-05 margin-bottom-05">.padding-y-1</p>
+              </div>
+              <div class="col-3 text-center display-flex flex-column flex-justify flex-align-start margin-bottom-2 border-bottom-1px border-gray-5 padding-bottom-1">
+                <div class="position-relative minh-card width-9 border-1px margin-0 bg-white">
+                  <div class="bg-primary-lighter pin-bottom height-105"></div>
+                  <div class="bg-primary-lighter pin-top height-105"></div>
+                </div>
+                <p class="text-center margin-top-05 margin-bottom-05">.padding-y-105</p>
+              </div>
+              <div class="col-3 text-center display-flex flex-column flex-justify flex-align-start margin-bottom-2 border-bottom-1px border-gray-5 padding-bottom-1">
+                <div class="position-relative minh-card width-9 border-1px margin-0 bg-white">
+                  <div class="bg-primary-lighter pin-bottom height-2"></div>
+                  <div class="bg-primary-lighter pin-top height-2"></div>
+                </div>
+                <p class="text-center margin-top-05 margin-bottom-05">.padding-y-2</p>
+              </div>
+              <div class="col-3 text-center display-flex flex-column flex-justify flex-align-start margin-bottom-2 border-bottom-1px border-gray-5 padding-bottom-1">
+                <div class="position-relative minh-card width-9 border-1px margin-0 bg-white">
+                  <div class="bg-primary-lighter pin-bottom height-205"></div>
+                  <div class="bg-primary-lighter pin-top height-205"></div>
+                </div>
+                <p class="text-center margin-top-05 margin-bottom-05">.padding-y-205</p>
+              </div>
+              <div class="col-3 text-center display-flex flex-column flex-justify flex-align-start margin-bottom-2 border-bottom-1px border-gray-5 padding-bottom-1">
+                <div class="position-relative minh-card width-9 border-1px margin-0 bg-white">
+                  <div class="bg-primary-lighter pin-bottom height-3"></div>
+                  <div class="bg-primary-lighter pin-top height-3"></div>
+                </div>
+                <p class="text-center margin-top-05 margin-bottom-05">.padding-y-3</p>
+              </div>
+              <div class="col-3 text-center display-flex flex-column flex-justify flex-align-start margin-bottom-2 border-bottom-1px border-gray-5 padding-bottom-1">
+                <div class="position-relative minh-card width-9 border-1px margin-0 bg-white">
+                  <div class="bg-primary-lighter pin-bottom height-4"></div>
+                  <div class="bg-primary-lighter pin-top height-4"></div>
+                </div>
+                <p class="text-center margin-top-05 margin-bottom-05">.padding-y-4</p>
+              </div>
+              <div class="col-3 text-center display-flex flex-column flex-justify flex-align-start margin-bottom-2 border-bottom-1px border-gray-5 padding-bottom-1">
+                <div class="position-relative minh-card width-9 border-1px margin-0 bg-white">
+                  <div class="bg-primary-lighter pin-bottom height-5"></div>
+                  <div class="bg-primary-lighter pin-top height-5"></div>
+                </div>
+                <p class="text-center margin-top-05 margin-bottom-05">.padding-y-5</p>
+              </div>
+              <div class="col-3 text-center display-flex flex-column flex-justify flex-align-start margin-bottom-2 border-bottom-1px border-gray-5 padding-bottom-1">
+                <div class="position-relative minh-card width-9 border-1px margin-0 bg-white">
+                  <div class="bg-primary-lighter pin-bottom height-6"></div>
+                  <div class="bg-primary-lighter pin-top height-6"></div>
+                </div>
+                <p class="text-center margin-top-05 margin-bottom-05">.padding-y-6</p>
+              </div>
+              <div class="col-3 text-center display-flex flex-column flex-justify flex-align-start margin-bottom-2 border-bottom-1px border-gray-5 padding-bottom-1">
+                <div class="position-relative minh-card width-9 border-1px margin-0 bg-white">
+                  <div class="bg-primary-lighter pin-bottom height-7"></div>
+                  <div class="bg-primary-lighter pin-top height-7"></div>
+                </div>
+                <p class="text-center margin-top-05 margin-bottom-05">.padding-y-7</p>
+              </div>
+              <div class="col-3 text-center display-flex flex-column flex-justify flex-align-start margin-bottom-2 border-bottom-1px border-gray-5 padding-bottom-1">
+                <div class="position-relative minh-card width-9 border-1px margin-0 bg-white">
+                  <div class="bg-primary-lighter pin-bottom height-8"></div>
+                  <div class="bg-primary-lighter pin-top height-8"></div>
+                </div>
+                <p class="text-center margin-top-05 margin-bottom-05">.padding-y-8</p>
+              </div>
+              <div class="col-3 text-center display-flex flex-column flex-justify flex-align-start margin-bottom-2 border-bottom-1px border-gray-5 padding-bottom-1">
+                <div class="position-relative minh-card width-9 border-1px margin-0 bg-white">
+                  <div class="bg-primary-lighter pin-bottom height-9"></div>
+                  <div class="bg-primary-lighter pin-top height-9"></div>
+                </div>
+                <p class="text-center margin-top-05 margin-bottom-05">.padding-y-9</p>
+              </div>
+            </div>
+
+          </section>
         </section>
       </section>
     </section>
