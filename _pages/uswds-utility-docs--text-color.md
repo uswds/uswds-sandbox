@@ -7,16 +7,16 @@ body_color: gray-2
 
 <div class="size-sans-4 weight-300 padding-top-2 padding-bottom-4 tablet:padding-top-4 tablet:padding-bottom-9">
 
-  <div class="container-tablet-lg padding-x-2 margin-top-105">
+  <div class="grid-container-tablet-lg padding-x-2 margin-top-105">
     <h1 class="size-sans-14 text-300 margin-y-0 line-height-sans-2">Text color <span class="token display-inline-block text-middle">color</span></h1>
     <p class="size-sans-10 border-bottom-1px border-text margin-top-105 text-light padding-bottom-3 margin-bottom-2 text-text line-height-sans-2">Change the color of text.</p>
 
     <section class="padding-bottom-1">
-      <div class="row flex-align-center margin-bottom-2">
-        <h3 class="col size-sans-micro text-normal text-medium text-uppercase text-ls-1 margin-y-0 margin-left-2px">Default variants</h3>
-        <p class="col text-right size-sans-1 text-normal margin-y-0 margin-left-2px text-gray-60">Variants may be activated and deactivated in <a href="#0" class="text-text">advanced settings</a>.</p>
+      <div class="grid-row flex-align-center margin-bottom-2">
+        <h3 class="grid-col size-sans-micro text-normal text-medium text-uppercase text-ls-1 margin-y-0 margin-left-2px">Default variants</h3>
+        <p class="grid-col text-right size-sans-1 text-normal margin-y-0 margin-left-2px text-gray-60">Variants may be activated and deactivated in <a href="#0" class="text-text">advanced settings</a>.</p>
       </div>
-      <ul class="list-reset display-inline">
+      <ul class="add-list-reset display-inline">
         <li class="display-inline"><a href="#0" class="display-inline-block padding-y-05 padding-x-105 bg-blue-50v text-no-underline hover:bg-gray-80 text-white radius-pill margin-right-1 is-inverse">Includes <strong>responsive variants</strong></a></li>
         <li class="display-inline"><a href="#0" class="display-inline-block padding-y-05 padding-x-105 bg-blue-50v text-no-underline hover:bg-gray-80 text-white radius-pill margin-right-1 is-inverse">Includes <strong>hover variants</strong></a></li>
         <li class="display-inline-block padding-y-05 padding-x-105 border-1px text-gray-60 radius-pill margin-right-1 is-inverse">No active variants</li>
@@ -85,10 +85,10 @@ body_color: gray-2
     </section>
     <section class="border-top-1px padding-top-1 margin-top-4">
       <h2 class="margin-0 text-light size-sans-8">Default output</h2>
-      <div class="row size-sans-1 text-bold border-bottom-1px padding-bottom-05 margin-top-2 border-gray-20">
-        <div class="col-4">Utility</div>
-        <div class="col-6">Output SCSS</div>
-        <div class="col-2">Default variable value</div>
+      <div class="grid-row size-sans-1 text-bold border-bottom-1px padding-bottom-05 margin-top-2 border-gray-20">
+        <div class="grid-col-4">Utility</div>
+        <div class="grid-col-6">Output SCSS</div>
+        <div class="grid-col-2">Default variable value</div>
       </div>
       <dl class="output-list">
         <dt class="output-utility">.text-base-lightest</dt>
