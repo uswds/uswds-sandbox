@@ -32051,3 +32051,8 @@ strong {
   font-size: 0.89309rem;
   font-weight: 400;
   border-radius: 2px; }
+
+.output-rule {
+  display: block; }
+  .output-rule + .output-rule {
+    margin-top: 0.25rem; }

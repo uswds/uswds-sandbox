@@ -258,3 +258,10 @@ strong {
   @include text(400);
   @include radius('sm');
 }
+
+.output-rule {
+  @include display(block);
+  & + .output-rule {
+    @include margin-top(.5);
+  }
+}
