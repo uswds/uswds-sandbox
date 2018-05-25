@@ -361,7 +361,7 @@ body_color: gray-2
               </div>
               <p class="text-center margin-top-05 margin-bottom-05">.margin-top-105</p>
             </div>
-            <div class="col-3 text-center display-flex flex-column flex-justify flex-align-start margin-bottom-2 border-bottom-1px border-gray-5 padding-bottom-2">
+            <div class="col-3 text-center display-flex flex-column flex-justify flex-align-start margin-bottom-2 border-bottom-1px border-gray-5 padding-bottom-1">
               <div class="bg-secondary-light display-inline-block">
                 <div class="square-4 border-1px bg-white margin-top-2"></div>
               </div>
@@ -503,7 +503,7 @@ body_color: gray-2
               </div>
               <p class="text-center margin-top-05 margin-bottom-05">.margin-left-105</p>
             </div>
-            <div class="col-3 text-center display-flex flex-column flex-justify flex-align-start margin-bottom-2 border-bottom-1px border-gray-5 padding-bottom-2">
+            <div class="col-3 text-center display-flex flex-column flex-justify flex-align-start margin-bottom-2 border-bottom-1px border-gray-5 padding-bottom-1">
               <div class="bg-secondary-light display-inline-block">
                 <div class="square-4 border-1px bg-white margin-left-2"></div>
               </div>
@@ -651,7 +651,7 @@ body_color: gray-2
               </div>
               <p class="text-center margin-top-05 margin-bottom-05">.margin-right-105</p>
             </div>
-            <div class="col-3 text-center display-flex flex-column flex-justify flex-align-start margin-bottom-2 border-bottom-1px border-gray-5 padding-bottom-2">
+            <div class="col-3 text-center display-flex flex-column flex-justify flex-align-start margin-bottom-2 border-bottom-1px border-gray-5 padding-bottom-1">
               <div class="bg-secondary-light display-inline-block">
                 <div class="square-4 border-1px bg-white margin-right-2"></div>
               </div>
@@ -807,7 +807,7 @@ body_color: gray-2
               </div>
               <p class="text-center margin-top-05 margin-bottom-05">.margin-x-105</p>
             </div>
-            <div class="col-3 text-center display-flex flex-column flex-justify flex-align-start margin-bottom-2 border-bottom-1px border-gray-5 padding-bottom-2">
+            <div class="col-3 text-center display-flex flex-column flex-justify flex-align-start margin-bottom-2 border-bottom-1px border-gray-5 padding-bottom-1">
               <div class="bg-secondary-light display-inline-block">
                 <div class="height-4 width-8 border-1px bg-white margin-x-2"></div>
               </div>
@@ -963,7 +963,7 @@ body_color: gray-2
               </div>
               <p class="text-center margin-top-05 margin-bottom-05">.margin-y-105</p>
             </div>
-            <div class="col-3 text-center display-flex flex-column flex-justify flex-align-start margin-bottom-2 border-bottom-1px border-gray-5 padding-bottom-2">
+            <div class="col-3 text-center display-flex flex-column flex-justify flex-align-start margin-bottom-2 border-bottom-1px border-gray-5 padding-bottom-1">
               <div class="bg-secondary-light display-inline-block">
                 <div class="height-8 width-4 border-1px bg-white margin-y-2"></div>
               </div>
