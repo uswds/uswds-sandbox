@@ -1343,6 +1343,23 @@ with each call
 */
 /*
 ========================================
+ASPECT
+----------------------------------------
+usage:
+  .aspect-[value]
+----------------------------------------
+output:
+  padding-left: 0;
+  padding-right: 0;
+  padding-top: 0;
+  padding-bottom: 100%;
+----------------------------------------
+example:
+  .aspect-16x9
+----------------------------------------
+*/
+/*
+========================================
 align-items
 ----------------------------------------
 usage:
@@ -2223,6 +2240,41 @@ example:
     z-index: 9999; }
 ----------------------------------------
 */
+.add-aspect-9x16 {
+  padding-top: 0 !important;
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+  padding-bottom: 177.77778% !important;
+  width: 100% !important; }
+
+.add-aspect-1x1 {
+  padding-top: 0 !important;
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+  padding-bottom: 100% !important;
+  width: 100% !important; }
+
+.add-aspect-4x3 {
+  padding-top: 0 !important;
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+  padding-bottom: 75% !important;
+  width: 100% !important; }
+
+.add-aspect-16x9 {
+  padding-top: 0 !important;
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+  padding-bottom: 56.25% !important;
+  width: 100% !important; }
+
+.add-aspect-2x1 {
+  padding-top: 0 !important;
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+  padding-bottom: 50% !important;
+  width: 100% !important; }
+
 .flex-align-start {
   align-items: start !important; }
 
@@ -25726,179 +25778,6 @@ example:
   .desktop\:padding-left-0 {
     padding-left: 0 !important; } }
 
-.padding-full {
-  padding: 100% !important; }
-
-@media (min-width: 20em) {
-  .mobile\:padding-full {
-    padding: 100% !important; } }
-
-@media (min-width: 30em) {
-  .mobile-lg\:padding-full {
-    padding: 100% !important; } }
-
-@media (min-width: 40em) {
-  .tablet\:padding-full {
-    padding: 100% !important; } }
-
-@media (min-width: 55em) {
-  .tablet-lg\:padding-full {
-    padding: 100% !important; } }
-
-@media (min-width: 64em) {
-  .desktop\:padding-full {
-    padding: 100% !important; } }
-
-.padding-y-full {
-  padding-top: 100% !important;
-  padding-bottom: 100% !important; }
-
-@media (min-width: 20em) {
-  .mobile\:padding-y-full {
-    padding-top: 100% !important;
-    padding-bottom: 100% !important; } }
-
-@media (min-width: 30em) {
-  .mobile-lg\:padding-y-full {
-    padding-top: 100% !important;
-    padding-bottom: 100% !important; } }
-
-@media (min-width: 40em) {
-  .tablet\:padding-y-full {
-    padding-top: 100% !important;
-    padding-bottom: 100% !important; } }
-
-@media (min-width: 55em) {
-  .tablet-lg\:padding-y-full {
-    padding-top: 100% !important;
-    padding-bottom: 100% !important; } }
-
-@media (min-width: 64em) {
-  .desktop\:padding-y-full {
-    padding-top: 100% !important;
-    padding-bottom: 100% !important; } }
-
-.padding-x-full {
-  padding-left: 100% !important;
-  padding-right: 100% !important; }
-
-@media (min-width: 20em) {
-  .mobile\:padding-x-full {
-    padding-left: 100% !important;
-    padding-right: 100% !important; } }
-
-@media (min-width: 30em) {
-  .mobile-lg\:padding-x-full {
-    padding-left: 100% !important;
-    padding-right: 100% !important; } }
-
-@media (min-width: 40em) {
-  .tablet\:padding-x-full {
-    padding-left: 100% !important;
-    padding-right: 100% !important; } }
-
-@media (min-width: 55em) {
-  .tablet-lg\:padding-x-full {
-    padding-left: 100% !important;
-    padding-right: 100% !important; } }
-
-@media (min-width: 64em) {
-  .desktop\:padding-x-full {
-    padding-left: 100% !important;
-    padding-right: 100% !important; } }
-
-.padding-top-full {
-  padding-top: 100% !important; }
-
-@media (min-width: 20em) {
-  .mobile\:padding-top-full {
-    padding-top: 100% !important; } }
-
-@media (min-width: 30em) {
-  .mobile-lg\:padding-top-full {
-    padding-top: 100% !important; } }
-
-@media (min-width: 40em) {
-  .tablet\:padding-top-full {
-    padding-top: 100% !important; } }
-
-@media (min-width: 55em) {
-  .tablet-lg\:padding-top-full {
-    padding-top: 100% !important; } }
-
-@media (min-width: 64em) {
-  .desktop\:padding-top-full {
-    padding-top: 100% !important; } }
-
-.padding-right-full {
-  padding-right: 100% !important; }
-
-@media (min-width: 20em) {
-  .mobile\:padding-right-full {
-    padding-right: 100% !important; } }
-
-@media (min-width: 30em) {
-  .mobile-lg\:padding-right-full {
-    padding-right: 100% !important; } }
-
-@media (min-width: 40em) {
-  .tablet\:padding-right-full {
-    padding-right: 100% !important; } }
-
-@media (min-width: 55em) {
-  .tablet-lg\:padding-right-full {
-    padding-right: 100% !important; } }
-
-@media (min-width: 64em) {
-  .desktop\:padding-right-full {
-    padding-right: 100% !important; } }
-
-.padding-bottom-full {
-  padding-bottom: 100% !important; }
-
-@media (min-width: 20em) {
-  .mobile\:padding-bottom-full {
-    padding-bottom: 100% !important; } }
-
-@media (min-width: 30em) {
-  .mobile-lg\:padding-bottom-full {
-    padding-bottom: 100% !important; } }
-
-@media (min-width: 40em) {
-  .tablet\:padding-bottom-full {
-    padding-bottom: 100% !important; } }
-
-@media (min-width: 55em) {
-  .tablet-lg\:padding-bottom-full {
-    padding-bottom: 100% !important; } }
-
-@media (min-width: 64em) {
-  .desktop\:padding-bottom-full {
-    padding-bottom: 100% !important; } }
-
-.padding-left-full {
-  padding-left: 100% !important; }
-
-@media (min-width: 20em) {
-  .mobile\:padding-left-full {
-    padding-left: 100% !important; } }
-
-@media (min-width: 30em) {
-  .mobile-lg\:padding-left-full {
-    padding-left: 100% !important; } }
-
-@media (min-width: 40em) {
-  .tablet\:padding-left-full {
-    padding-left: 100% !important; } }
-
-@media (min-width: 55em) {
-  .tablet-lg\:padding-left-full {
-    padding-left: 100% !important; } }
-
-@media (min-width: 64em) {
-  .desktop\:padding-left-full {
-    padding-left: 100% !important; } }
-
 .position-absolute {
   position: absolute !important; }
 
@@ -32076,7 +31955,7 @@ html {
   margin-bottom: 0.5rem;
   margin-top: 2rem;
   font-size: 1.0625rem;
-  font-style: normal; }
+  font-weight: normal; }
 
 strong {
   font-weight: bold; }
@@ -32103,7 +31982,7 @@ strong {
   padding-top: 2px;
   border-radius: 2px;
   font-size: 0.71447rem;
-  font-style: normal;
+  font-weight: normal;
   white-space: nowrap;
   text-decoration: none;
   text-transform: uppercase;
