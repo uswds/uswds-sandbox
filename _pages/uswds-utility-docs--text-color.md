@@ -112,228 +112,228 @@ body_color: gray-2
         <dt class="output-utility">.text-base</dt>
           <dd class="output-css">color: $base</dd>
           <dd class="output-variable">
-            <span class="display-inline-block bg-base circle-105 text-tbottom margin-right-05"></span>
+            <span class="display-inline-block bg-base circle-105 text-middle margin-right-05"></span>
             #ADADAD
           </dd>
         <dt class="output-utility">.text-base-dark</dt>
           <dd class="output-css">color: $base-dark</dd>
           <dd class="output-variable">
-            <span class="display-inline-block bg-base-dark circle-105 text-tbottom margin-right-05"></span>
+            <span class="display-inline-block bg-base-dark circle-105 text-middle margin-right-05"></span>
             #757575
           </dd>
         <dt class="output-utility">.text-base-darker</dt>
           <dd class="output-css">color: $base-darker</dd>
           <dd class="output-variable">
-            <span class="display-inline-block bg-base-darker circle-105 text-tbottom margin-right-05"></span>
+            <span class="display-inline-block bg-base-darker circle-105 text-middle margin-right-05"></span>
             #454545
           </dd>
         <dt class="output-utility">.text-base-darkest</dt>
           <dd class="output-css">color: $base-darkest</dd>
           <dd class="output-variable">
-            <span class="display-inline-block bg-base-darkest circle-105 text-tbottom margin-right-05"></span>
+            <span class="display-inline-block bg-base-darkest circle-105 text-middle margin-right-05"></span>
             #171717
           </dd>
 
         <dt class="output-utility">.text-primary-lighter</dt>
           <dd class="output-css">color: $primary-lighter</dd>
           <dd class="output-variable">
-            <span class="display-inline-block bg-primary-lighter circle-105 text-tbottom margin-right-05"></span>
+            <span class="display-inline-block bg-primary-lighter circle-105 text-middle margin-right-05"></span>
             #DAE9F6
           </dd>
         <dt class="output-utility">.text-primary-light</dt>
           <dd class="output-css">color: $primary-light</dd>
           <dd class="output-variable">
-            <span class="display-inline-block bg-primary-light circle-105 text-tbottom margin-right-05"></span>
+            <span class="display-inline-block bg-primary-light circle-105 text-middle margin-right-05"></span>
             #7CBDF0
           </dd>
         <dt class="output-utility">.text-primary</dt>
           <dd class="output-css">color: $primary</dd>
           <dd class="output-variable">
-            <span class="display-inline-block bg-primary circle-105 text-tbottom margin-right-05"></span>
+            <span class="display-inline-block bg-primary circle-105 text-middle margin-right-05"></span>
             #0F6BB2
           </dd>
         <dt class="output-utility">.text-primary-vivid</dt>
           <dd class="output-css">color: $primary-vivid</dd>
           <dd class="output-variable">
-            <span class="display-inline-block bg-primary-vivid circle-105 text-tbottom margin-right-05"></span>
+            <span class="display-inline-block bg-primary-vivid circle-105 text-middle margin-right-05"></span>
             #0E57DA
           </dd>
         <dt class="output-utility">.text-primary-dark</dt>
           <dd class="output-css">color: $primary-dark</dd>
           <dd class="output-variable">
-            <span class="display-inline-block bg-primary-dark circle-105 text-tbottom margin-right-05"></span>
+            <span class="display-inline-block bg-primary-dark circle-105 text-middle margin-right-05"></span>
             #215192
           </dd>
         <dt class="output-utility">.text-primary-darker</dt>
           <dd class="output-css">color: $primary-darker</dd>
           <dd class="output-variable">
-            <span class="display-inline-block bg-primary-darker circle-105 text-tbottom margin-right-05"></span>
+            <span class="display-inline-block bg-primary-darker circle-105 text-middle margin-right-05"></span>
             #122B4C
           </dd>
 
         <dt class="output-utility">.text-secondary-light</dt>
           <dd class="output-css">color: $secondary-light</dd>
           <dd class="output-variable">
-            <span class="display-inline-block bg-secondary-light circle-105 text-tbottom margin-right-05"></span>
+            <span class="display-inline-block bg-secondary-light circle-105 text-middle margin-right-05"></span>
             #122B4C
           </dd>
         <dt class="output-utility">.text-secondary</dt>
           <dd class="output-css">color: $secondary</dd>
           <dd class="output-variable">
-            <span class="display-inline-block bg-secondary circle-105 text-tbottom margin-right-05"></span>
+            <span class="display-inline-block bg-secondary circle-105 text-middle margin-right-05"></span>
             #122B4C
           </dd>
         <dt class="output-utility">.text-secondary-vivid</dt>
           <dd class="output-css">color: $secondary-vivid</dd>
           <dd class="output-variable">
-            <span class="display-inline-block bg-secondary-vivid circle-105 text-tbottom margin-right-05"></span>
+            <span class="display-inline-block bg-secondary-vivid circle-105 text-middle margin-right-05"></span>
             #E6251B
           </dd>
         <dt class="output-utility">.text-secondary-dark</dt>
           <dd class="output-css">color: $secondary-dark</dd>
           <dd class="output-variable">
-            <span class="display-inline-block bg-secondary-dark circle-105 text-tbottom margin-right-05"></span>
+            <span class="display-inline-block bg-secondary-dark circle-105 text-middle margin-right-05"></span>
             #3B2523
           </dd>
 
         <dt class="output-utility">.text-accent-warm</dt>
           <dd class="output-css">color: $accent-warm</dd>
           <dd class="output-variable">
-            <span class="display-inline-block bg-accent-warm circle-105 text-tbottom margin-right-05"></span>
+            <span class="display-inline-block bg-accent-warm circle-105 text-middle margin-right-05"></span>
             #FD974C
           </dd>
         <dt class="output-utility">.text-accent-warm-dark</dt>
           <dd class="output-css">color: $accent-warm-dark</dd>
           <dd class="output-variable">
-            <span class="display-inline-block bg-accent-warm-dark circle-105 text-tbottom margin-right-05"></span>
+            <span class="display-inline-block bg-accent-warm-dark circle-105 text-middle margin-right-05"></span>
             #FD7B28
           </dd>
 
         <dt class="output-utility">.text-accent-cool</dt>
           <dd class="output-css">color: $accent-cool</dd>
           <dd class="output-variable">
-            <span class="display-inline-block bg-accent-cool circle-105 text-tbottom margin-right-05"></span>
+            <span class="display-inline-block bg-accent-cool circle-105 text-middle margin-right-05"></span>
             #21C2E6
           </dd>
         <dt class="output-utility">.text-accent-cool-dark</dt>
           <dd class="output-css">color: $accent-cool-dark</dd>
           <dd class="output-variable">
-            <span class="display-inline-block bg-accent-cool-dark circle-105 text-tbottom margin-right-05"></span>
+            <span class="display-inline-block bg-accent-cool-dark circle-105 text-middle margin-right-05"></span>
             #1BABCF
           </dd>
 
         <dt class="output-utility">.text-white</dt>
           <dd class="output-css">color: white</dd>
           <dd class="output-variable">
-            <span class="display-inline-block bg-white circle-105 text-tbottom margin-right-05"></span>
+            <span class="display-inline-block bg-white circle-105 text-middle margin-right-05"></span>
             white
           </dd>
         <dt class="output-utility">.text-gray-5</dt>
           <dd class="output-css">color: $gray-5</dd>
           <dd class="output-variable">
-            <span class="display-inline-block bg-gray-5 circle-105 text-tbottom margin-right-05"></span>
+            <span class="display-inline-block bg-gray-5 circle-105 text-middle margin-right-05"></span>
             #F0F0F0
           </dd>
         <dt class="output-utility">.text-gray-10</dt>
           <dd class="output-css">color: $gray-10</dd>
           <dd class="output-variable">
-            <span class="display-inline-block bg-gray-10 circle-105 text-tbottom margin-right-05"></span>
+            <span class="display-inline-block bg-gray-10 circle-105 text-middle margin-right-05"></span>
             #E6E6E6
           </dd>
         <dt class="output-utility">.text-gray-30</dt>
           <dd class="output-css">color: $gray-30</dd>
           <dd class="output-variable">
-            <span class="display-inline-block bg-gray-30 circle-105 text-tbottom margin-right-05"></span>
+            <span class="display-inline-block bg-gray-30 circle-105 text-middle margin-right-05"></span>
             #ADADAD
           </dd>
         <dt class="output-utility">.text-gray-50</dt>
           <dd class="output-css">color: $gray-50</dd>
           <dd class="output-variable">
-            <span class="display-inline-block bg-gray-50 circle-105 text-tbottom margin-right-05"></span>
+            <span class="display-inline-block bg-gray-50 circle-105 text-middle margin-right-05"></span>
             #757575
           </dd>
         <dt class="output-utility">.text-gray-70</dt>
           <dd class="output-css">color: $gray-70</dd>
           <dd class="output-variable">
-            <span class="display-inline-block bg-gray-70 circle-105 text-tbottom margin-right-05"></span>
+            <span class="display-inline-block bg-gray-70 circle-105 text-middle margin-right-05"></span>
             #454545
           </dd>
         <dt class="output-utility">.text-gray-90</dt>
           <dd class="output-css">color: $gray-90</dd>
           <dd class="output-variable">
-            <span class="display-inline-block bg-gray-90 circle-105 text-tbottom margin-right-05"></span>
+            <span class="display-inline-block bg-gray-90 circle-105 text-middle margin-right-05"></span>
             #171717
           </dd>
         <dt class="output-utility">.text-black</dt>
           <dd class="output-css">color: $black</dd>
           <dd class="output-variable">
-            <span class="display-inline-block bg-black circle-105 text-tbottom margin-right-05"></span>
+            <span class="display-inline-block bg-black circle-105 text-middle margin-right-05"></span>
             black
           </dd>
         <dt class="output-utility">.text-red</dt>
           <dd class="output-css">color: $red-50v</dd>
           <dd class="output-variable">
-            <span class="display-inline-block bg-red circle-105 text-tbottom margin-right-05"></span>
+            <span class="display-inline-block bg-red circle-105 text-middle margin-right-05"></span>
             #E6251B
           </dd>
         <dt class="output-utility">.text-orange</dt>
           <dd class="output-css">color: $orange-40v</dd>
           <dd class="output-variable">
-            <span class="display-inline-block bg-orange circle-105 text-tbottom margin-right-05"></span>
+            <span class="display-inline-block bg-orange circle-105 text-middle margin-right-05"></span>
             #FD7B28
           </dd>
         <dt class="output-utility">.text-gold</dt>
           <dd class="output-css">color: $gold-30v</dd>
           <dd class="output-variable">
-            <span class="display-inline-block bg-gold circle-105 text-tbottom margin-right-05"></span>
+            <span class="display-inline-block bg-gold circle-105 text-middle margin-right-05"></span>
             #F8AE29
           </dd>
         <dt class="output-utility">.text-yellow</dt>
           <dd class="output-css">color: $yellow-20v</dd>
           <dd class="output-variable">
-            <span class="display-inline-block bg-yellow circle-105 text-tbottom margin-right-05"></span>
+            <span class="display-inline-block bg-yellow circle-105 text-middle margin-right-05"></span>
             #FCD344
           </dd>
         <dt class="output-utility">.text-green</dt>
           <dd class="output-css">color: $green-40v</dd>
           <dd class="output-variable">
-            <span class="display-inline-block bg-green circle-105 text-tbottom margin-right-05"></span>
+            <span class="display-inline-block bg-green circle-105 text-middle margin-right-05"></span>
             #548114
           </dd>
         <dt class="output-utility">.text-mint</dt>
           <dd class="output-css">color: $mint-40v</dd>
           <dd class="output-variable">
-            <span class="display-inline-block bg-mint circle-105 text-tbottom margin-right-05"></span>
+            <span class="display-inline-block bg-mint circle-105 text-middle margin-right-05"></span>
             #20C688
           </dd>
         <dt class="output-utility">.text-cyan</dt>
           <dd class="output-css">color: $cyan-30v</dd>
           <dd class="output-variable">
-            <span class="display-inline-block bg-cyan circle-105 text-tbottom margin-right-05"></span>
+            <span class="display-inline-block bg-cyan circle-105 text-middle margin-right-05"></span>
             #1BABCF
           </dd>
         <dt class="output-utility">.text-blue</dt>
           <dd class="output-css">color: $blue-50</dd>
           <dd class="output-variable">
-            <span class="display-inline-block bg-blue circle-105 text-tbottom margin-right-05"></span>
+            <span class="display-inline-block bg-blue circle-105 text-middle margin-right-05"></span>
             #137CDB
           </dd>
         <dt class="output-utility">.text-indigo</dt>
           <dd class="output-css">color: $indigo-40</dd>
           <dd class="output-variable">
-            <span class="display-inline-block bg-indigo circle-105 text-tbottom margin-right-05"></span>
+            <span class="display-inline-block bg-indigo circle-105 text-middle margin-right-05"></span>
             #6970C7
           </dd>
         <dt class="output-utility">.text-violet</dt>
           <dd class="output-css">color: $violet-40v</dd>
           <dd class="output-variable">
-            <span class="display-inline-block bg-violet circle-105 text-tbottom margin-right-05"></span>
+            <span class="display-inline-block bg-violet circle-105 text-middle margin-right-05"></span>
             #836BB3
           </dd>
         <dt class="output-utility">.text-magenta</dt>
           <dd class="output-css">color: $magenta-50</dd>
           <dd class="output-variable">
-            <span class="display-inline-block bg-magenta circle-105 text-tbottom margin-right-05"></span>
+            <span class="display-inline-block bg-magenta circle-105 text-middle margin-right-05"></span>
             #DF2D7A
           </dd>
       </dl>

@@ -38,168 +38,168 @@ body_color: gray-2
             </div>
           </section>
           <h4 class="border-bottom-1px border-gray-5 padding-bottom-1 margin-bottom-0">Project theme palette</h4>
-          <p class="example text-tabular">
-            <span class="height-4 width-4 radius-sm display-inline-block text-middle margin-right-1 bg-base-lightest"></span>
+          <p class="example">
+            <span class="square-4 radius-sm display-inline-block text-middle margin-right-1 bg-base-lightest"></span>
             .bg-base-lightest
           </p>
-          <p class="example text-tabular">
-            <span class="height-4 width-4 radius-sm display-inline-block text-middle margin-right-1 bg-base-lighter"></span>
+          <p class="example">
+            <span class="square-4 radius-sm display-inline-block text-middle margin-right-1 bg-base-lighter"></span>
             .bg-base-lighter
           </p>
-          <p class="example text-tabular">
-            <span class="height-4 width-4 radius-sm display-inline-block text-middle margin-right-1 bg-base-light"></span>
+          <p class="example">
+            <span class="square-4 radius-sm display-inline-block text-middle margin-right-1 bg-base-light"></span>
             .bg-base-light
           </p>
-          <p class="example text-tabular">
-            <span class="height-4 width-4 radius-sm display-inline-block text-middle margin-right-1 bg-base"></span>
+          <p class="example">
+            <span class="square-4 radius-sm display-inline-block text-middle margin-right-1 bg-base"></span>
             .bg-base
           </p>
-          <p class="example text-tabular">
-            <span class="height-4 width-4 radius-sm display-inline-block text-middle margin-right-1 bg-base-dark"></span>
+          <p class="example">
+            <span class="square-4 radius-sm display-inline-block text-middle margin-right-1 bg-base-dark"></span>
             .bg-base-dark
           </p>
-          <p class="example text-tabular">
-            <span class="height-4 width-4 radius-sm display-inline-block text-middle margin-right-1 bg-base-darker"></span>
+          <p class="example">
+            <span class="square-4 radius-sm display-inline-block text-middle margin-right-1 bg-base-darker"></span>
             .bg-base-darker
           </p>
-          <p class="example text-tabular">
-            <span class="height-4 width-4 radius-sm display-inline-block text-middle margin-right-1 bg-base-darkest"></span>
+          <p class="example">
+            <span class="square-4 radius-sm display-inline-block text-middle margin-right-1 bg-base-darkest"></span>
             .bg-base-darkest
           </p>
-          <p class="example text-tabular">
-            <span class="height-4 width-4 radius-sm display-inline-block text-middle margin-right-1 bg-primary-lighter"></span>
+          <p class="example">
+            <span class="square-4 radius-sm display-inline-block text-middle margin-right-1 bg-primary-lighter"></span>
             .bg-primary-lighter
           </p>
-          <p class="example text-tabular">
-            <span class="height-4 width-4 radius-sm display-inline-block text-middle margin-right-1 bg-primary-light"></span>
+          <p class="example">
+            <span class="square-4 radius-sm display-inline-block text-middle margin-right-1 bg-primary-light"></span>
             .bg-primary-light
           </p>
-          <p class="example text-tabular">
-            <span class="height-4 width-4 radius-sm display-inline-block text-middle margin-right-1 bg-primary"></span>
+          <p class="example">
+            <span class="square-4 radius-sm display-inline-block text-middle margin-right-1 bg-primary"></span>
             .bg-primary
           </p>
-          <p class="example text-tabular">
-            <span class="height-4 width-4 radius-sm display-inline-block text-middle margin-right-1 bg-primary-vivid"></span>
+          <p class="example">
+            <span class="square-4 radius-sm display-inline-block text-middle margin-right-1 bg-primary-vivid"></span>
             .bg-primary-vivid
           </p>
-          <p class="example text-tabular">
-            <span class="height-4 width-4 radius-sm display-inline-block text-middle margin-right-1 bg-primary-dark"></span>
+          <p class="example">
+            <span class="square-4 radius-sm display-inline-block text-middle margin-right-1 bg-primary-dark"></span>
             .bg-primary-dark
           </p>
-          <p class="example text-tabular">
-            <span class="height-4 width-4 radius-sm display-inline-block text-middle margin-right-1 bg-primary-darker"></span>
+          <p class="example">
+            <span class="square-4 radius-sm display-inline-block text-middle margin-right-1 bg-primary-darker"></span>
             .bg-primary-darker
           </p>
-          <p class="example text-tabular">
-            <span class="height-4 width-4 radius-sm display-inline-block text-middle margin-right-1 bg-secondary-light"></span>
+          <p class="example">
+            <span class="square-4 radius-sm display-inline-block text-middle margin-right-1 bg-secondary-light"></span>
             .bg-secondary-light
           </p>
-          <p class="example text-tabular">
-            <span class="height-4 width-4 radius-sm display-inline-block text-middle margin-right-1 bg-secondary"></span>
+          <p class="example">
+            <span class="square-4 radius-sm display-inline-block text-middle margin-right-1 bg-secondary"></span>
             .bg-secondary
           </p>
-          <p class="example text-tabular">
-            <span class="height-4 width-4 radius-sm display-inline-block text-middle margin-right-1 bg-secondary-vivid"></span>
+          <p class="example">
+            <span class="square-4 radius-sm display-inline-block text-middle margin-right-1 bg-secondary-vivid"></span>
             .bg-secondary-vivid
           </p>
-          <p class="example text-tabular">
-            <span class="height-4 width-4 radius-sm display-inline-block text-middle margin-right-1 bg-secondary-dark"></span>
+          <p class="example">
+            <span class="square-4 radius-sm display-inline-block text-middle margin-right-1 bg-secondary-dark"></span>
             .bg-secondary-dark
           </p>
-          <p class="example text-tabular">
-            <span class="height-4 width-4 radius-sm display-inline-block text-middle margin-right-1 bg-accent-warm"></span>
+          <p class="example">
+            <span class="square-4 radius-sm display-inline-block text-middle margin-right-1 bg-accent-warm"></span>
             .bg-accent-warm
           </p>
-          <p class="example text-tabular">
-            <span class="height-4 width-4 radius-sm display-inline-block text-middle margin-right-1 bg-accent-warm-dark"></span>
+          <p class="example">
+            <span class="square-4 radius-sm display-inline-block text-middle margin-right-1 bg-accent-warm-dark"></span>
             .bg-accent-warm-dark
           </p>
-          <p class="example text-tabular">
-            <span class="height-4 width-4 radius-sm display-inline-block text-middle margin-right-1 bg-accent-cool"></span>
+          <p class="example">
+            <span class="square-4 radius-sm display-inline-block text-middle margin-right-1 bg-accent-cool"></span>
             .bg-accent-cool
           </p>
-          <p class="example text-tabular">
-            <span class="height-4 width-4 radius-sm display-inline-block text-middle margin-right-1 bg-accent-cool-dark"></span>
+          <p class="example">
+            <span class="square-4 radius-sm display-inline-block text-middle margin-right-1 bg-accent-cool-dark"></span>
             .bg-accent-cool-dark
           </p>
 
           <h4 class="border-bottom-1px border-gray-5 padding-bottom-1 margin-bottom-0 margin-top-4">Grayscale palette</h4>
-          <p class="example text-tabular">
-            <span class="height-4 width-4 radius-sm display-inline-block text-middle margin-right-1 bg-white"></span>
+          <p class="example">
+            <span class="square-4 radius-sm display-inline-block text-middle margin-right-1 bg-white"></span>
             .bg-white
           </p>
-          <p class="example text-tabular">
-            <span class="height-4 width-4 radius-sm display-inline-block text-middle margin-right-1 bg-gray-5"></span>
+          <p class="example">
+            <span class="square-4 radius-sm display-inline-block text-middle margin-right-1 bg-gray-5"></span>
             .bg-gray-5
           </p>
-          <p class="example text-tabular">
-            <span class="height-4 width-4 radius-sm display-inline-block text-middle margin-right-1 bg-gray-10"></span>
+          <p class="example">
+            <span class="square-4 radius-sm display-inline-block text-middle margin-right-1 bg-gray-10"></span>
             .bg-gray-10
           </p>
-          <p class="example text-tabular">
-            <span class="height-4 width-4 radius-sm display-inline-block text-middle margin-right-1 bg-gray-30"></span>
+          <p class="example">
+            <span class="square-4 radius-sm display-inline-block text-middle margin-right-1 bg-gray-30"></span>
             .bg-gray-30
           </p>
-          <p class="example text-tabular">
-            <span class="height-4 width-4 radius-sm display-inline-block text-middle margin-right-1 bg-gray-50"></span>
+          <p class="example">
+            <span class="square-4 radius-sm display-inline-block text-middle margin-right-1 bg-gray-50"></span>
             .bg-gray-50
           </p>
-          <p class="example text-tabular">
-            <span class="height-4 width-4 radius-sm display-inline-block text-middle margin-right-1 bg-gray-70"></span>
+          <p class="example">
+            <span class="square-4 radius-sm display-inline-block text-middle margin-right-1 bg-gray-70"></span>
             .bg-gray-70
           </p>
-          <p class="example text-tabular">
-            <span class="height-4 width-4 radius-sm display-inline-block text-middle margin-right-1 bg-gray-90"></span>
+          <p class="example">
+            <span class="square-4 radius-sm display-inline-block text-middle margin-right-1 bg-gray-90"></span>
             .bg-gray-90
           </p>
-          <p class="example text-tabular">
-            <span class="height-4 width-4 radius-sm display-inline-block text-middle margin-right-1 bg-black"></span>
+          <p class="example">
+            <span class="square-4 radius-sm display-inline-block text-middle margin-right-1 bg-black"></span>
             .bg-black
           </p>
 
           <h4 class="border-bottom-1px border-gray-5 padding-bottom-1 margin-bottom-0 margin-top-4">Basic palette</h4>
-          <p class="example text-tabular">
-            <span class="height-4 width-4 radius-sm display-inline-block text-middle margin-right-1 bg-red"></span>
+          <p class="example">
+            <span class="square-4 radius-sm display-inline-block text-middle margin-right-1 bg-red"></span>
             .bg-red
           </p>
-          <p class="example text-tabular">
-            <span class="height-4 width-4 radius-sm display-inline-block text-middle margin-right-1 bg-orange"></span>
+          <p class="example">
+            <span class="square-4 radius-sm display-inline-block text-middle margin-right-1 bg-orange"></span>
             .bg-orange
           </p>
-          <p class="example text-tabular">
-            <span class="height-4 width-4 radius-sm display-inline-block text-middle margin-right-1 bg-gold"></span>
+          <p class="example">
+            <span class="square-4 radius-sm display-inline-block text-middle margin-right-1 bg-gold"></span>
             .bg-gold
           </p>
-          <p class="example text-tabular">
-            <span class="height-4 width-4 radius-sm display-inline-block text-middle margin-right-1 bg-yellow"></span>
+          <p class="example">
+            <span class="square-4 radius-sm display-inline-block text-middle margin-right-1 bg-yellow"></span>
             .bg-yellow
           </p>
-          <p class="example text-tabular">
-            <span class="height-4 width-4 radius-sm display-inline-block text-middle margin-right-1 bg-green"></span>
+          <p class="example">
+            <span class="square-4 radius-sm display-inline-block text-middle margin-right-1 bg-green"></span>
             .bg-green
           </p>
-          <p class="example text-tabular">
-            <span class="height-4 width-4 radius-sm display-inline-block text-middle margin-right-1 bg-mint"></span>
+          <p class="example">
+            <span class="square-4 radius-sm display-inline-block text-middle margin-right-1 bg-mint"></span>
             .bg-mint
           </p>
-          <p class="example text-tabular">
-            <span class="height-4 width-4 radius-sm display-inline-block text-middle margin-right-1 bg-cyan"></span>
+          <p class="example">
+            <span class="square-4 radius-sm display-inline-block text-middle margin-right-1 bg-cyan"></span>
             .bg-cyan
           </p>
-          <p class="example text-tabular">
-            <span class="height-4 width-4 radius-sm display-inline-block text-middle margin-right-1 bg-blue"></span>
+          <p class="example">
+            <span class="square-4 radius-sm display-inline-block text-middle margin-right-1 bg-blue"></span>
             .bg-blue
           </p>
-          <p class="example text-tabular">
-            <span class="height-4 width-4 radius-sm display-inline-block text-middle margin-right-1 bg-indigo"></span>
+          <p class="example">
+            <span class="square-4 radius-sm display-inline-block text-middle margin-right-1 bg-indigo"></span>
             .bg-indigo
           </p>
-          <p class="example text-tabular">
-            <span class="height-4 width-4 radius-sm display-inline-block text-middle margin-right-1 bg-violet"></span>
+          <p class="example">
+            <span class="square-4 radius-sm display-inline-block text-middle margin-right-1 bg-violet"></span>
             .bg-violet
           </p>
-          <p class="example text-tabular">
-            <span class="height-4 width-4 radius-sm display-inline-block text-middle margin-right-1 bg-magenta"></span>
+          <p class="example">
+            <span class="square-4 radius-sm display-inline-block text-middle margin-right-1 bg-magenta"></span>
             .bg-magenta
           </p>
         </section>
