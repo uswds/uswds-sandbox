@@ -2240,7 +2240,7 @@ example:
     z-index: 9999; }
 ----------------------------------------
 */
-.add-add-aspect-9x16 {
+.add-aspect-9x16 {
   box-sizing: border-box !important;
   height: 0 !important;
   max-width: 100% !important;
@@ -2248,7 +2248,7 @@ example:
   padding: 0 0 177.77778% !important;
   position: relative !important; }
 
-.add-add-aspect-1x1 {
+.add-aspect-1x1 {
   box-sizing: border-box !important;
   height: 0 !important;
   max-width: 100% !important;
@@ -2256,7 +2256,7 @@ example:
   padding: 0 0 100% !important;
   position: relative !important; }
 
-.add-add-aspect-4x3 {
+.add-aspect-4x3 {
   box-sizing: border-box !important;
   height: 0 !important;
   max-width: 100% !important;
@@ -2264,7 +2264,7 @@ example:
   padding: 0 0 75% !important;
   position: relative !important; }
 
-.add-add-aspect-16x9 {
+.add-aspect-16x9 {
   box-sizing: border-box !important;
   height: 0 !important;
   max-width: 100% !important;
@@ -2272,7 +2272,7 @@ example:
   padding: 0 0 56.25% !important;
   position: relative !important; }
 
-.add-add-aspect-2x1 {
+.add-aspect-2x1 {
   box-sizing: border-box !important;
   height: 0 !important;
   max-width: 100% !important;
