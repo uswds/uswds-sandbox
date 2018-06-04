@@ -53,28 +53,6 @@ $background-color-settings: (
 );
 
 $background-color-plugins: (
-  /*
-  'plugin-color-[color]'
-  'plugin-color-[color]-light'
-  'plugin-color-[color]-medium'
-  'plugin-color-[color]-dark'
-  'plugin-color-[color]-light-vivid'
-  'plugin-color-[color]-medium-vivid'
-  'plugin-color-[color]-dark-vivid'
-  'plugin-color-[color]-standard'
-  'plugin-color-[color]-vivid'
-  'plugin-color-palette-status'
-
-  'plugin-color-red-warm-medium-vivid',
-  'plugin-color-gold-light-vivid',
-  'plugin-color-gold-light',
-  'plugin-color-white-warm-all',
-  'plugin-color-black-cool-dark',
-  'plugin-color-black-transparent-all',
-  'plugin-color-indigo-warm-medium-vivid',
-  'plugin-color-palette-required',
-  'plugin-color-palette-grayscale',
-  */
   'plugin-color-all'
 );
 
@@ -122,7 +100,7 @@ $border-manual-values: (
 
 $border-color-settings: (
   output:       true,
-  responsive:   false,
+  responsive:   true,
   active:       false,
   focus:        false,
   hover:        true,

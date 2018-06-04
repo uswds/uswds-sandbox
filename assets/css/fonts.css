@@ -387,7 +387,7 @@ source: https://gist.github.com/bigglesrocks/d75091700f8f2be5abfe
 smart-quote()
 ----------------------------------------
 Quotes strings
-Inspects numbers
+Inspects `px`, `xs`, and `xl` numbers
 Leaves bools as is
 ----------------------------------------
 */
@@ -883,22 +883,22 @@ TODO: Do these need to integrate the
 namespace var set in utilities-settings?
 ----------------------------------------
 */
-[class*='size-mono'], .family-mono {
+[class*='font-mono'], .family-mono {
   font-family: "Roboto Mono Web", "Bitstream Vera Sans Mono", "Consolas", "Courier", monospace; }
 
-[class*='size-sans'], .family-sans {
+[class*='font-sans'], .family-sans {
   font-family: "United Sans Web", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol"; }
 
-[class*='size-serif'], .family-serif {
+[class*='font-serif'], .family-serif {
   font-family: "Georgia", "Georgia", "Cambria", "Times New Roman", "Times", serif; }
 
-[class*='size-heading'], .family-heading {
+[class*='font-heading'], .family-heading {
   font-family: "United Sans Web", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol"; }
 
-[class*='size-body'], .family-body {
+[class*='font-body'], .family-body {
   font-family: "United Sans Web", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol"; }
 
-[class*='size-code'], .family-code {
+[class*='font-code'], .family-code {
   font-family: "Roboto Mono Web", "Bitstream Vera Sans Mono", "Consolas", "Courier", monospace; }
 
 /*
@@ -1024,6 +1024,17 @@ Get a font-family stack
 ----------------------------------------
 size()
 ----------------------------------------
+Get a normalized font-size in rem from
+a family and a type size in either
+system scale or project scale
+----------------------------------------
+*/
+/*
+----------------------------------------
+font()
+----------------------------------------
+Get a font-family stack
+AND
 Get a normalized font-size in rem from
 a family and a type size in either
 system scale or project scale
