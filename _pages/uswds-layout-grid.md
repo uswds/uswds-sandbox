@@ -16,7 +16,7 @@ permalink: /uswds-layout-grid/
         <div class="display-none tablet:display-block text-center padding-2">.tablet:grid-col</div>
         <div class="tablet:display-none text-center padding-2">.grid-col-12</div>
       </div>
-      <div class="grid-col-12 tablet:grid-col border-1px border-top-0 border-left-1px tablet:border-left-0 tablet:border-top-1px border-gray-cool-10 tablet:border-gray-cool-10">
+      <div class="grid-col-12 tablet:grid-col border-1px border-top-0 border-left-1px tablet:border-left-width-0 tablet:border-top-width-1px border-gray-cool-10">
         <div class="display-none tablet:display-block text-center padding-2">.tablet:grid-col</div>
         <div class="tablet:display-none text-center padding-2">.grid-col-12</div>
       </div>
@@ -31,15 +31,15 @@ permalink: /uswds-layout-grid/
         <div class="display-none tablet-lg:display-block text-center padding-2">.tablet-lg:grid-col</div>
         <div class="tablet-lg:display-none text-center padding-2">.grid-col-6</div>
       </div>
-      <div class="grid-col-4 tablet-lg:grid-col-fill border-1px border-top-0 tablet-lg:border-top-1px tablet-lg:border-left-0 border-gray-cool-10 tablet-lg:border-gray-cool-10">
+      <div class="grid-col-4 tablet-lg:grid-col-fill border-1px border-top-width-0 tablet-lg:border-top-width-1px tabelet-lg:border-left-0 border-gray-cool-10">
         <div class="display-none tablet-lg:display-block text-center padding-2">.tablet-lg:grid-col</div>
         <div class="tablet-lg:display-none text-center padding-2">.grid-col-4</div>
       </div>
-      <div class="grid-col-4 tablet-lg:grid-col-fill border-1px border-top-0 tablet-lg:border-top-1px border-left-0 border-gray-cool-10 tablet-lg:border-gray-cool-10">
+      <div class="grid-col-4 tablet-lg:grid-col-fill border-1px border-top-width-0 tablet-lg:border-top-width-1px border-left-0 border-gray-cool-10">
         <div class="display-none tablet-lg:display-block text-center padding-2">.tablet-lg:grid-col</div>
         <div class="tablet-lg:display-none text-center padding-2">.grid-col-4</div>
       </div>
-      <div class="grid-col-4 tablet-lg:grid-col-fill border-1px border-top-0 tablet-lg:border-top-1px border-left-0 border-gray-cool-10 tablet-lg:border-gray-cool-10">
+      <div class="grid-col-4 tablet-lg:grid-col-fill border-1px border-top-width-0 tablet-lg:border-top-width-1px border-left-0 border-gray-cool-10">
         <div class="display-none tablet-lg:display-block text-center padding-2">.tablet-lg:grid-col</div>
         <div class="tablet-lg:display-none text-center padding-2">.grid-col-4</div>
       </div>
@@ -50,11 +50,11 @@ permalink: /uswds-layout-grid/
         <div class="display-none tablet:display-block text-center padding-2">.tablet:grid-col</div>
         <div class="tablet:display-none text-center padding-2">.grid-col</div>
       </div>
-      <div class="grid-col tablet:grid-col-fill border-1px border-left-0 tablet:border-top-1px tablet:border-left-0 border-gray-cool-10 tablet:border-gray-cool-10">
+      <div class="grid-col tablet:grid-col-fill border-1px border-left-0 tablet:border-top-width-1px tablet:border-left-0 border-gray-cool-10">
         <div class="display-none tablet:display-block text-center padding-2">.tablet:grid-col</div>
         <div class="tablet:display-none text-center padding-2">.grid-col</div>
       </div>
-      <div class="grid-col tablet:grid-col-fill border-1px border-left-0 tablet:border-top-1px tablet:border-left-0 border-gray-cool-10 tablet:border-gray-cool-10">
+      <div class="grid-col tablet:grid-col-fill border-1px border-left-0 tablet:border-top-width-1px tablet:border-left-0 border-gray-cool-10">
         <div class="display-none tablet:display-block text-center padding-2">.tablet:grid-col</div>
         <div class="tablet:display-none text-center padding-2">.grid-col</div>
       </div>
@@ -291,13 +291,13 @@ permalink: /uswds-layout-grid/
 
     <div class="grid-row grid-gap margin-top-1">
       <div class="grid-col-4">
-        <div class="text-center border-1px border-gray-cool-10 padding-2">.grid-col-8</div>
+        <div class="text-center border-1px border-gray-cool-10 padding-2">.grid-col-4</div>
       </div>
       <div class="grid-col-4">
-        <div class="text-center border-1px border-gray-cool-10 padding-2">.grid-col-3</div>
+        <div class="text-center border-1px border-gray-cool-10 padding-2">.grid-col-4</div>
       </div>
       <div class="grid-col-4">
-        <div class="text-center border-1px border-gray-cool-10 padding-2">.grid-col-5</div>
+        <div class="text-center border-1px border-gray-cool-10 padding-2">.grid-col-4</div>
       </div>
     </div><!-- l.grid-row -->
 
@@ -344,13 +344,13 @@ permalink: /uswds-layout-grid/
 
     <div class="grid-row grid-gap-lg margin-top-1">
       <div class="grid-col-4">
-        <div class="text-center border-1px border-gray-cool-10 padding-2">.grid-col-8</div>
+        <div class="text-center border-1px border-gray-cool-10 padding-2">.grid-col-4</div>
       </div>
       <div class="grid-col-4">
-        <div class="text-center border-1px border-gray-cool-10 padding-2">.grid-col-3</div>
+        <div class="text-center border-1px border-gray-cool-10 padding-2">.grid-col-4</div>
       </div>
       <div class="grid-col-4">
-        <div class="text-center border-1px border-gray-cool-10 padding-2">.grid-col-5</div>
+        <div class="text-center border-1px border-gray-cool-10 padding-2">.grid-col-4</div>
       </div>
     </div><!-- l.grid-row -->
 

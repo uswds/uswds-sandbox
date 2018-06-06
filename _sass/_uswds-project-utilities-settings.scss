@@ -100,7 +100,7 @@ $border-manual-values: (
 
 $border-color-settings: (
   output:       true,
-  responsive:   true,
+  responsive:   false,
   active:       false,
   focus:        false,
   hover:        true,
@@ -201,21 +201,6 @@ $border-width-settings: (
   focus:        false,
   hover:        true,
   visited:      false
-);
-
-$border-width-plugins: (
-  /*
-  'plugin-spacing-uswds-small'
-  'plugin-spacing-uswds-medium'
-  */
-  'plugin-spacing-uswds-small',
-  'plugin-spacing-uswds-smaller'
-);
-
-$border-width-manual-values: (
-  /*
-  */
-  0:       0,
 );
 
 /*
