@@ -11,6 +11,7 @@ var rename        = require('gulp-rename');
 var replace       = require('gulp-replace');
 var sass          = require('gulp-sass');
 var size          = require('gulp-size');
+var sourcemaps    = require('gulp-sourcemaps');
 var uncss         = require('postcss-uncss');
 var watch         = require('gulp-watch');
 
@@ -59,6 +60,7 @@ gulp.task('build-sass', ['clean-css'], function (done) {
   return gulp.src([
       `${PROJECT_SASS_SRC}/*.scss`
     ])
+    .pipe(sourcemaps.init())
     .pipe(sass({
         includePaths: [
           `${PROJECT_SASS_SRC}`,
@@ -66,18 +68,14 @@ gulp.task('build-sass', ['clean-css'], function (done) {
           `${USWDS_SRC}/scss/packages`,
         ]
       }))
-    .pipe(gulp.dest(`${CSS_DEST}`))
     .pipe(postcss(plugins))
+    .pipe(sourcemaps.write('.'))
     .pipe(replace(
       /\buswds @version\b/g,
       'uswds v' + pkg.version
     ))
-    .pipe(rename({ suffix: '.min' }))
     .pipe(gulp.dest(`${CSS_DEST}`))
     .pipe(size())
-    .pipe(gzip({ extension: 'gz' }))
-    .pipe(gulp.dest(`${CSS_DEST}`))
-    .pipe(size());
 });
 
 gulp.task('build-app', ['build-sass'], function() {

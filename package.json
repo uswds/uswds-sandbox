@@ -51,5 +51,9 @@
     "url-loader": "^1.0.1",
     "uswds": "github:uswds/uswds#release-2.0",
     "webpack": "^3.8.1"
+  },
+  "devDependencies": {
+    "ajv": "^6.5.2",
+    "gulp-sourcemaps": "^2.6.4"
   }
 }
