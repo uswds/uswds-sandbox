@@ -91,6 +91,15 @@ permalink: /articles/
               <p class="margin-top-1 font-sans-3 line-height-sans-5 margin-bottom-0">Use agile methodologies to help federal employees improve the quality of their work.</p>
             </div>
           </div><!-- /article -->
+          <div class="font-sans-2 line-height-sans-1 margin-top-4">
+            <span class=""><a href="#0" class="display-inline-block border-1px border-gray-50 hover:border-red-warm-50 padding-x-1 padding-y-05 radius-sm hover:bg-red-warm-50 text-gray-90 hover:text-white text-no-underline">1</a></span>
+            <span class=""><a href="#0" class="display-inline-block border-1px border-gray-50 hover:border-red-warm-50 padding-x-1 padding-y-05 radius-sm hover:bg-red-warm-50 text-gray-90 hover:text-white text-no-underline">2</a></span>
+            <span class=""><a href="#0" class="display-inline-block border-1px border-gray-50 hover:border-red-warm-50 padding-x-1 padding-y-05 radius-sm hover:bg-red-warm-50 text-gray-90 hover:text-white text-no-underline">3</a></span>
+            <span class=""><a href="#0" class="display-inline-block border-1px border-gray-50 hover:border-red-warm-50 padding-x-1 padding-y-05 radius-sm hover:bg-red-warm-50 text-gray-90 hover:text-white text-no-underline">4</a></span>
+            <span class=""><a href="#0" class="display-inline-block border-1px border-gray-50 hover:border-red-warm-50 padding-x-1 padding-y-05 radius-sm hover:bg-red-warm-50 text-gray-90 hover:text-white text-no-underline">5</a></span>
+            <span class=""><a href="#0" class="display-inline-block border-1px border-gray-50 hover:border-red-warm-50 padding-x-1 padding-y-05 radius-sm hover:bg-red-warm-50 text-gray-90 hover:text-white text-no-underline">Next</a></span>
+            <span class=""><a href="#0" class="display-inline-block border-1px border-gray-50 hover:border-red-warm-50 padding-x-1 padding-y-05 radius-sm hover:bg-red-warm-50 text-gray-90 hover:text-white text-no-underline">Last</a></span>
+          </div>
         </section>
       </div>
       <div class="grid-col-auto width-mobile">
