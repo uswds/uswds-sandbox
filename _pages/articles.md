@@ -19,7 +19,7 @@ permalink: /articles/
       </div>
       <div class="grid-col-5 grid-row flex-justify-end flex-align-stretch">
         <input class="font-sans-5 padding-105 border-1px grid-col radius-sm">
-        <button type="submit" class="font-sans-3 padding-1 bg-blue-warm-50v border-0 padding-105 text-white text-bold margin-left-1 radius-sm hover:bg-blue-warm-80 cursor-pointer">Search</button>
+        <button type="submit" class="font-sans-3 padding-1 bg-blue-warm-50v border-0 padding-105 text-white text-bold margin-left-1 radius-sm hover:bg-blue-warm-80 cursor-pointer is-inverse">Search</button>
       </div>
     </div>
     <div class="grid-row flex-justify flex-align-center padding-y-5">
