@@ -34,7 +34,7 @@ permalink: /articles/
                 <img class="padding-top-05 width-full display-block" src="/assets/img/dg/agile-ux-title_w200.jpg" alt="Experiments in Tweaking Agile for UX" title="Experiments in Tweaking Agile for UX">
               </a>
             </div>
-            <div class="grid-col-9 padding-right-2">
+            <div class="grid-col-9 padding-right-3">
               <h3 class="font-sans-6 margin-0 padding-0 line-height-sans-2"><a href="#0" class="text-no-underline text-gray-90 hover:text-underline">Tweaking agile for design teams</a></h3>
               <div class="margin-top-1 font-sans-3 line-height-sans-2">
                 <p class="display-inline-block margin-y-0 border-right-1px border-gray-30 text-gray-50 padding-right-1 margin-right-05">July 17, 2018</p>
@@ -50,7 +50,7 @@ permalink: /articles/
                 <img class="padding-top-05 width-full display-block" src="/assets/img/dg/accessibility-for-teams-2_w200.jpg" alt="Experiments in Tweaking Agile for UX" title="Experiments in Tweaking Agile for UX">
               </a>
             </div>
-            <div class="grid-col-9 padding-right-2">
+            <div class="grid-col-9 padding-right-3">
               <h3 class="font-sans-6 margin-0 padding-0 line-height-sans-2"><a href="#0" class="text-no-underline text-gray-90 hover:text-underline">Introducing the Accessibility for Teams guide</a></h3>
               <div class="margin-top-1 font-sans-3 line-height-sans-2">
                 <p class="display-inline-block margin-y-0 border-right-1px border-gray-30 text-gray-50 padding-right-1 margin-right-05">July 10, 2018</p>
@@ -66,7 +66,7 @@ permalink: /articles/
                 <img class="padding-top-05 width-full display-block" src="/assets/img/dg/agile-flow-600_w200.jpg" alt="Experiments in Tweaking Agile for UX" title="Experiments in Tweaking Agile for UX">
               </a>
             </div>
-            <div class="grid-col-9 padding-right-2">
+            <div class="grid-col-9 padding-right-3">
               <h3 class="font-sans-6 margin-0 padding-0 line-height-sans-2"><a href="#0" class="text-no-underline text-gray-90 hover:text-underline">How USGS is making the transition to agile</a></h3>
               <div class="margin-top-1 font-sans-3 line-height-sans-2">
                 <p class="display-inline-block margin-y-0 border-right-1px border-gray-30 text-gray-50 padding-right-1 margin-right-05">June 26, 2018</p>
@@ -82,7 +82,7 @@ permalink: /articles/
                 <img class="padding-top-05 width-full display-block" src="/assets/img/dg/agile-project-planning_w200.jpg" alt="Experiments in Tweaking Agile for UX" title="Experiments in Tweaking Agile for UX">
               </a>
             </div>
-            <div class="grid-col-9 padding-right-2">
+            <div class="grid-col-9 padding-right-3">
               <h3 class="font-sans-6 margin-0 padding-0 line-height-sans-2"><a href="#0" class="text-no-underline text-gray-90 hover:text-underline">Five ways agile methods benefit federal employees</a></h3>
               <div class="margin-top-1 font-sans-3 line-height-sans-2">
                 <p class="display-inline-block margin-y-0 border-right-1px border-gray-30 text-gray-50 padding-right-1 margin-right-05">April 3, 2018</p>
@@ -92,7 +92,7 @@ permalink: /articles/
             </div>
           </div><!-- /article -->
           <div class="font-sans-2 line-height-sans-1 margin-top-4">
-            <span class=""><a href="#0" class="display-inline-block border-1px border-gray-50 hover:border-red-warm-50 padding-x-1 padding-y-05 radius-sm hover:bg-red-warm-50 text-gray-90 hover:text-white text-no-underline">1</a></span>
+            <span class="display-inline-block border-1px border-gray-90 bg-gray-90 padding-x-1 padding-y-05 radius-sm text-no-underline text-white">1</span>
             <span class=""><a href="#0" class="display-inline-block border-1px border-gray-50 hover:border-red-warm-50 padding-x-1 padding-y-05 radius-sm hover:bg-red-warm-50 text-gray-90 hover:text-white text-no-underline">2</a></span>
             <span class=""><a href="#0" class="display-inline-block border-1px border-gray-50 hover:border-red-warm-50 padding-x-1 padding-y-05 radius-sm hover:bg-red-warm-50 text-gray-90 hover:text-white text-no-underline">3</a></span>
             <span class=""><a href="#0" class="display-inline-block border-1px border-gray-50 hover:border-red-warm-50 padding-x-1 padding-y-05 radius-sm hover:bg-red-warm-50 text-gray-90 hover:text-white text-no-underline">4</a></span>
