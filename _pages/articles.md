@@ -31,7 +31,7 @@ permalink: /articles/
           <div class="article grid-row padding-top-4">
             <div class="grid-col-3 order-last">
               <a href="#0" class="display-block">
-                <img class="padding-top-05 width-full display-block" src="/assets/img/dg/agile-ux-title_w200.jpg" alt="Experiments in Tweaking Agile for UX" title="Experiments in Tweaking Agile for UX">
+                <img class="padding-top-05 width-full display-block" src="{{ '/assets/img/dg/agile-ux-title_w200.jpg' | relative_url }}" alt="Experiments in Tweaking Agile for UX" title="Experiments in Tweaking Agile for UX">
               </a>
             </div>
             <div class="grid-col-9 padding-right-3">
@@ -47,7 +47,7 @@ permalink: /articles/
           <div class="article grid-row border-top-1px border-gray-10 padding-top-205 margin-top-205">
             <div class="grid-col-3 order-last padding-top-05">
               <a href="#0" class="display-block">
-                <img class="padding-top-05 width-full display-block" src="/assets/img/dg/accessibility-for-teams-2_w200.jpg" alt="Experiments in Tweaking Agile for UX" title="Experiments in Tweaking Agile for UX">
+                <img class="padding-top-05 width-full display-block" src="{{ '/assets/img/dg/accessibility-for-teams-2_w200.jpg' | relative_url }}" alt="Experiments in Tweaking Agile for UX" title="Experiments in Tweaking Agile for UX">
               </a>
             </div>
             <div class="grid-col-9 padding-right-3">
@@ -63,7 +63,7 @@ permalink: /articles/
           <div class="article grid-row border-top-1px border-gray-10 padding-top-205 margin-top-205">
             <div class="grid-col-3 order-last padding-top-05">
               <a href="#0">
-                <img class="padding-top-05 width-full display-block" src="/assets/img/dg/agile-flow-600_w200.jpg" alt="Experiments in Tweaking Agile for UX" title="Experiments in Tweaking Agile for UX">
+                <img class="padding-top-05 width-full display-block" src="{{ '/assets/img/dg/agile-flow-600_w200.jpg' | relative_url }}" alt="Experiments in Tweaking Agile for UX" title="Experiments in Tweaking Agile for UX">
               </a>
             </div>
             <div class="grid-col-9 padding-right-3">
@@ -79,7 +79,7 @@ permalink: /articles/
           <div class="article grid-row border-top-1px border-gray-10 padding-top-205 margin-top-205">
             <div class="grid-col-3 order-last padding-top-05">
               <a href="#0">
-                <img class="padding-top-05 width-full display-block" src="/assets/img/dg/agile-project-planning_w200.jpg" alt="Experiments in Tweaking Agile for UX" title="Experiments in Tweaking Agile for UX">
+                <img class="padding-top-05 width-full display-block" src="{{ '/assets/img/dg/agile-project-planning_w200.jpg' | relative_url }}" alt="Experiments in Tweaking Agile for UX" title="Experiments in Tweaking Agile for UX">
               </a>
             </div>
             <div class="grid-col-9 padding-right-3">
@@ -102,8 +102,8 @@ permalink: /articles/
           </div>
         </section>
       </div>
-      <div class="grid-col-auto width-mobile">
-        <section class="border-top-1px padding-top-4">
+      <div class="grid-col-auto">
+        <section class="border-top-1px padding-top-4 width-mobile">
           <h2 class="font-sans-6 margin-top-0 margin-bottom-2 padding-0 line-height-sans-2">Browse articles by topic</h2>
           <ul class="add-list-reset font-sans-3">
             <li class="padding-top-05 margin-top-05 border-top-1px border-gray-10"><a href="#0" class="text-red-warm-50 hover:text-gray-90">Accessibility</a></li>

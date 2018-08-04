@@ -58,7 +58,7 @@ html {
 @mixin txt-normalize-headings {
   @include u-line-height('heading', 2);
   @include u-margin-y(0);
-  @include u-weight('normal');
+  @include u-text('normal');
 }
 
 .txt-h1,
@@ -71,7 +71,7 @@ html {
   @include u-font-size('sans', 9);
   @include u-margin-top(2);
   @include u-padding-top(2);
-  @include u-weight('bold');
+  @include u-text('bold');
 
   @include at-media('tablet-lg'){
     @include u-font-size('sans', 11);
@@ -83,7 +83,7 @@ html {
   @include u-font-size('sans', 6);
   @include u-margin-top(2);
   @include u-padding-top(1);
-  @include u-weight('bold');
+  @include u-text('bold');
   @include at-media('tablet-lg'){
     @include u-font-size('sans', 8);
     @include u-margin-top(2);
@@ -256,4 +256,18 @@ strong {
   & + .output-rule {
     @include u-margin-top(.5);
   }
+}
+
+a:focus,
+input:focus,
+button:focus {
+  box-shadow: 0 0 0 1px rgba(0, 0, 0 ,.9), 0 0 0 5px rgba(250,175,0,.975);
+  outline: none;
+}
+
+a:focus:active,
+input:focus:active,
+button:focus:active {
+  box-shadow: 0 0 0 1px rgba(0, 0, 0 ,.9), 0 0 0 5px $blue-warm-40v;
+  outline: none;
 }

@@ -157,6 +157,8 @@ Root font size
 ----------------------------------------
 Sets the font size of the html root
 for rem calculations
+
+Accepts [n]px or 100%
 ----------------------------------------
 */
 /*
@@ -296,6 +298,19 @@ Column gap
 ----------------------------------------
 */
 /*
+----------------------------------------
+Grid container max-width
+----------------------------------------
+mobile
+mobile-lg
+tablet
+tablet-lg
+desktop
+desktop-lg
+widescreen
+----------------------------------------
+*/
+/*
 * * * * * ==============================
 * * * * * ==============================
 * * * * * ==============================
@@ -311,7 +326,7 @@ USWDS UTILITIES SETTINGS
 ----------------------------------------
 Global colors
 ----------------------------------------
-The following plugins will be added to
+The following palettes will be added to
 - background-color
 - border-color
 - color
@@ -437,17 +452,63 @@ namespace is set to output
 */
 /*
 ----------------------------------------
-grid-units()
+de-list()
 ----------------------------------------
-Converts a spacing unit multiple into
-the desired final units (currently rem)
+Transform a one-element list or arglist
+into that single element.
+----------------------------------------
+(1) => 1
+((1)) => (1)
 ----------------------------------------
 */
 /*
 ----------------------------------------
-px()
+unpack()
 ----------------------------------------
-Converts a value in px to a value in rem
+Create lists of single items from lists
+of lists.
+----------------------------------------
+(1, (2.1, 2.2), 3) -->
+(1, 2.1, 2.2, 3)
+----------------------------------------
+*/
+/*
+----------------------------------------
+get-last()
+----------------------------------------
+Return the last item of a list,
+Return null if the value is null
+----------------------------------------
+*/
+/*
+----------------------------------------
+has-important()
+----------------------------------------
+Check to see if `!important` is
+being passed in a mixin's props
+----------------------------------------
+*/
+/*
+----------------------------------------
+append-important()
+----------------------------------------
+Append `!important` to a list
+----------------------------------------
+*/
+/*
+----------------------------------------
+root-to-px()
+----------------------------------------
+Outputs the size as the original px
+or 16px if the root is set to 100%
+----------------------------------------
+*/
+/*
+----------------------------------------
+grid-units()
+----------------------------------------
+Converts a spacing unit multiple into
+the desired final units (currently rem)
 ----------------------------------------
 */
 /*
@@ -473,7 +534,14 @@ Get the cap height of a defined font
 */
 /*
 ----------------------------------------
-type-scale()
+px-to-rem()
+----------------------------------------
+Converts a value in px to a value in rem
+----------------------------------------
+*/
+/*
+----------------------------------------
+normalize-type-scale()
 ----------------------------------------
 Normalizes a specific face's optical size
 to a set target
@@ -514,13 +582,6 @@ variable that is, itself, a list
 system-type-scale()
 ----------------------------------------
 Get a value from the system type scale
-----------------------------------------
-*/
-/*
-========================================
-Utility functions
-----------------------------------------
-TODO: convert/translate these to mixins?
 ----------------------------------------
 */
 /*
@@ -565,6 +626,38 @@ functions and mixins.
 */
 /*
 ----------------------------------------
+color()
+----------------------------------------
+Derive a color from the map of all
+colors: project, system, and required
+----------------------------------------
+*/
+/*
+----------------------------------------
+scale()
+----------------------------------------
+Get a normalized typescale from a family
+and scale
+----------------------------------------
+*/
+/*
+----------------------------------------
+units()
+----------------------------------------
+Converts a spacing unit into
+the desired final units (currently rem)
+----------------------------------------
+*/
+/*
+----------------------------------------
+get-palettes()
+----------------------------------------
+Build a single map of plugin values
+from a list of plugin keys.
+----------------------------------------
+*/
+/*
+----------------------------------------
 border-radius()
 ----------------------------------------
 Get a border-radius from the system
@@ -573,18 +666,10 @@ border-radii
 */
 /*
 ----------------------------------------
-check-color()
+fw()
 ----------------------------------------
-Check to see if the value of a variable
-is false. Warn if it is.
-----------------------------------------
-*/
-/*
-----------------------------------------
-color()
-----------------------------------------
-Derive a color from the map of all
-colors: project and system
+Get a font-weight value from the
+system font-weight
 ----------------------------------------
 */
 /*
@@ -599,32 +684,6 @@ Gets a valid USWDS font feature setting
 flex()
 ----------------------------------------
 Gets a valid USWDS flex value
-----------------------------------------
-*/
-/*
-----------------------------------------
-font()
-----------------------------------------
-Gets
-- 'family'
-- 'size'
-- 'weight'
-based on on props passed
-----------------------------------------
-*/
-/*
-----------------------------------------
-fw()
-----------------------------------------
-Get a font-weight value from the
-system font-weight
-----------------------------------------
-*/
-/*
-----------------------------------------
-font-weight()
-----------------------------------------
-Gets a valid USWDS font-weight
 ----------------------------------------
 */
 /*
@@ -668,14 +727,6 @@ system orders
 */
 /*
 ----------------------------------------
-spacing()
-----------------------------------------
-Converts a spacing unit multiple into
-the desired final units (currently rem)
-----------------------------------------
-*/
-/*
-----------------------------------------
 radius()
 ----------------------------------------
 Get a border-radius value from the
@@ -692,34 +743,11 @@ system z-index
 */
 /*
 ----------------------------------------
-get-plugins()
-----------------------------------------
-Build a single map of plugin values
-from a list of plugin keys.
-----------------------------------------
-TODO: Somewhat crude now. Could be more
-elegant
-----------------------------------------
-*/
-/*
-----------------------------------------
 @render-pseudoclass
 ----------------------------------------
 Build a pseucoclass utiliy from values
 calculated in the @render-utilities-in
 loop
-----------------------------------------
-*/
-/*
-----------------------------------------
-@render-placeholder
-----------------------------------------
-Build a placeholder utility from values
-calculated in the @render-utilities-in
-loop
-
-Could be deprecated if we never choose
-to style placeholder text
 ----------------------------------------
 */
 /*
@@ -861,7 +889,7 @@ Namespace
 Spacing
 ----------------------------------------
 All spacing values that can be called
-by spacing()
+by units()
 ----------------------------------------
 */
 /*
@@ -883,22 +911,22 @@ TODO: Do these need to integrate the
 namespace var set in utilities-settings?
 ----------------------------------------
 */
-[class*='font-mono'], .family-mono {
+[class*='font-mono-'] {
   font-family: "Roboto Mono Web", "Bitstream Vera Sans Mono", "Consolas", "Courier", monospace; }
 
-[class*='font-sans'], .family-sans {
+[class*='font-sans-'] {
   font-family: "United Sans Web", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol"; }
 
-[class*='font-serif'], .family-serif {
+[class*='font-serif-'] {
   font-family: "Georgia", "Georgia", "Cambria", "Times New Roman", "Times", serif; }
 
-[class*='font-heading'], .family-heading {
+[class*='font-heading-'] {
   font-family: "United Sans Web", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol"; }
 
-[class*='font-body'], .family-body {
+[class*='font-body-'] {
   font-family: "United Sans Web", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol"; }
 
-[class*='font-code'], .family-code {
+[class*='font-code-'] {
   font-family: "Roboto Mono Web", "Bitstream Vera Sans Mono", "Consolas", "Courier", monospace; }
 
 /*
