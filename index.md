@@ -2,69 +2,17 @@
 layout: default
 ---
 
-<main id="main-content">
-  <section class="usa-hero">
-    <div class="usa-grid">
-      <div class="usa-hero-callout usa-section-dark">
-        <h2>
-          <span class="usa-hero-callout-alt">Hero callout:</span> Call attention to a current priority
-        </h2>
-        <p>Support the callout with some short explanatory text. You don't need more than a couple of sentences.</p>
-        <a class="usa-button" href="javascript:void(0)">Learn about what we do</a>
-      </div>
-    </div>
-  </section>
-
-  <section class="usa-grid usa-section">
-    <div class="usa-width-one-third">
-      <h2>A tagline highlights your approach</h2>
-    </div>
-    <div class="usa-width-two-thirds">
-      <p>The tagline should inspire confidence and interest, focusing on the value that your overall approach offers to your audience. Use a heading typeface and keep your tagline to just a few words, and don’t confuse or mystify.</p>
-      <p>Use the right side of the grid to explain the tagline a bit more. What are your goals? How do you do your work? Write in the present tense, and stay brief here. People who are interested can find details on internal pages.</p>
-    </div>
-  </section>
-
-  <section class="usa-section usa-section-dark usa-graphic_list">
-    <div class="usa-grid usa-graphic_list-row">
-      <div class="usa-width-one-half usa-media_block">
-        <img class="usa-media_block-img" src="assets/img/uswds/circle-124.png" alt="Alt text">
-        <div class="usa-media_block-body">
-          <h3>Graphic headings can vary.</h3>
-          <p>Graphic headings can be used a few different ways, depending on what your landing page is for. Highlight your values, specific program areas, or results.</p>
-        </div>
-      </div>
-      <div class="usa-width-one-half usa-media_block">
-        <img class="usa-media_block-img" src="assets/img/uswds/circle-124.png" alt="Alt text">
-        <div class="usa-media_block-body">
-          <h3>Stick to 6 or fewer words.</h3>
-          <p>Keep body text to about 30. They can be shorter, but try to be somewhat balanced across all four. It creates a clean appearance with good spacing.</p>
-        </div>
-      </div>
-    </div>
-    <div class="usa-grid usa-graphic_list-row">
-      <div class="usa-width-one-half usa-media_block">
-        <img class="usa-media_block-img" src="assets/img/uswds/circle-124.png" alt="Alt text">
-        <div class="usa-media_block-body">
-          <h3>Never highlight anything without a goal.</h3>
-          <p>For anything you want to highlight here, understand what your users know now, and what activity or impression you want from them after they see it.</p>
-        </div>
-      </div>
-      <div class="usa-width-one-half usa-media_block">
-        <img class="usa-media_block-img" src="assets/img/uswds/circle-124.png" alt="Alt text">
-        <div class="usa-media_block-body">
-          <h3>Could also have 2 or 6.</h3>
-          <p>In addition to your goal, find out your users’ goals. What do they want to know or do that supports your mission? Use these headings to show those.</p>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <section class="usa-section">
-    <div class="usa-grid">
-      <h2>Section heading</h2>
-      <p class="usa-font-lead">Everything up to this point should help people understand your agency or project: who you are, your goal or mission, and how you approach it. Use this section to encourage them to act. Describe why they should get in touch here, and use an active verb on the button below. “Get in touch,” “Learn more,” and so on.</p>
-      <a class="usa-button usa-button-big" href="#">Call to action</a>
-    </div>
-  </section>
+<section class="bg-primary-darker padding-y-4 text-white add-smoothing">
+  <div class="grid-container padding-x-2 tablet:padding-x-4">
+    <h1 class="font-heading-3xl margin-y-0 line-height-sans-1">The thing dies in the process</h1>
+    <p class="font-heading-lg line-height-sans-3 margin-top-3 margin-bottom-0">Evaluating older American comedy writing through a modern critical lens</p>
+  </div>
+</section>
+<section class="padding-2 bg-base-lighter">
+  <p class="font-alt-md text-light margin-y-0">“Humor can be dissected, as a frog can, but the thing dies in the process and the innards are discouraging to any but the pure scientific mind.”</p>
+  <p class="font-alt-3xs text-bold margin-top-1 margin-bottom-0">E.B. White</p>
+</section>
+<main class="padding-2 line-height-body-5">
+  <h2 class="line-height-heading-2">A celebrated jumping frog</h2>
+  <p>In compliance with the request of a friend of mine, who wrote me from the East, I called on good-natured, garrulous old Simon Wheeler, and inquired after my friend's friend, Leonidas W. Smiley, as requested to do, and I hereunto append the result. I have a lurking suspicion that Leonidas W. Smiley is a myth; that my friend never knew such a personage; and that he only conjectured that, if I asked old Wheeler about him, it would remind him of his infamous Jim Smiley, and he would go to work and bore me nearly to death with some infernal reminiscence of him as long and tedious as it should be useless to me. If that was the design, it certainly succeeded.</p>
 </main>

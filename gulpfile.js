@@ -51,7 +51,7 @@ gulp.task('clean-css', function () {
   ]);
 });
 
-gulp.task('build-sass', ['clean-css'], function (done) {
+gulp.task('build-sass', function (done) {
   var plugins = [
       autoprefixer({ browsers: ['> 3%', 'Last 2 versions'], cascade: false, }),
       movecss({ sort: true }),
@@ -75,6 +75,7 @@ gulp.task('build-sass', ['clean-css'], function (done) {
       'uswds v' + pkg.version
     ))
     .pipe(gulp.dest(`${CSS_DEST}`))
+    .pipe(gulp.dest(`${BUILD_DEST}/${CSS_DEST}`))
     .pipe(size())
 });
 
