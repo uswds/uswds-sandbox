@@ -19,7 +19,7 @@ layout: default
       </div>
     </div>
   </div>
-  <section class="padding-top-2 desktop:padding-top-0">
+  <section class="padding-top-2 desktop:padding-top-4">
     <div class="grid-container">
       <h1 class="font-heading-2xl tablet:font-heading-3xl margin-y-0 line-height-heading-1 text-heavy text-ink text-ls-neg-3 padding-top-2 tablet:padding-top-4">Topic<span class="text-primary">:</span></h1>
       <p class="font-heading-lg tablet:font-heading-xl line-height-heading-3 margin-top-3 tablet:margin-top-3 margin-bottom-0 text-light text-ls-neg-1 padding-bottom-2 position-relative"><strong class="inline-block font-heading-3xs tablet:font-heading-2xs bg-primary-vivid text-white padding-05 tablet:padding-1 bottom-05 tablet:bottom-1 position-relative">September 2018</strong> Evaluating older American humor writing through contemporary critical lenses</p>
