@@ -19,3 +19,24 @@ i.e.
 @include u-padding-right('05');
 ----------------------------------------
 */
+
+[class*=grid-col] {
+  min-height: auto;
+}
+
+.blend-multiply {
+  mix-blend-mode: multiply;
+}
+
+.bg-gradient {
+  background: linear-gradient(90deg, color('primary') 0%, color('secondary') 100%);
+}
+
+.usa-banner-button {
+  border-bottom: none !important;
+}
+
+.usa-banner-button-text {
+  @include u-text('blue-60', !important);
+  text-decoration: underline !important;
+}
