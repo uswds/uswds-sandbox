@@ -22,7 +22,7 @@ layout: default
   <section class="padding-top-2 desktop:padding-top-4">
     <div class="grid-container">
       <h1 class="font-heading-2xl tablet:font-heading-3xl margin-y-0 line-height-heading-1 text-heavy text-ink text-ls-neg-3 padding-top-2 tablet:padding-top-4">Topic<span class="text-primary">:</span></h1>
-      <p class="font-heading-lg tablet:font-heading-xl line-height-heading-3 margin-top-3 tablet:margin-top-3 margin-bottom-0 text-light text-ls-neg-1 padding-bottom-2 position-relative"><strong class="inline-block font-heading-3xs tablet:font-heading-2xs bg-primary-vivid text-white padding-05 tablet:padding-1 bottom-05 tablet:bottom-1 position-relative">September 2018</strong> Evaluating older American humor writing through contemporary critical lenses</p>
+      <p class="font-heading-lg tablet:font-heading-xl line-height-heading-3 margin-top-3 tablet:margin-top-3 margin-bottom-0 text-light text-ls-neg-1 padding-bottom-2 position-relative"><strong class="inline-block font-heading-3xs tablet:font-heading-2xs bg-primary-vivid text-white padding-05 tablet:padding-1 bottom-05 tablet:bottom-1 position-relative">September 2018</strong> <i class="text-primary text-normal">The thing dies in the process:</i> Evaluating older American humor writing through contemporary critical lenses</p>
     </div>
   </section>
 </header>
@@ -30,7 +30,7 @@ layout: default
   <div class="grid-container padding-x-2 tablet:padding-x-4">
     <figure class="padding-0 margin-top-0 margin-x-0 margin-bottom-8 bg-gradient">
       <img src="{{ "/assets/img/frog-roesel-von-rosenhof.jpg" | relative_url }}" class="blend-multiply display-block width-full" alt="Two frogs">
-      <figcaption class="font-sans-3xs padding-top-2 bg-white">Illustration based on a frog illustration by Roesel von Rosenhof (1758) via <a href="https://commons.wikimedia.org/wiki/File:Frog_from_Roesel_von_Rosenhof;_1758_Wellcome_L0001704.jpg" class="text-secondary">Wikimedia commons</a>. License: CC BY 4.0</figcaption>
+      <figcaption class="font-sans-3xs padding-top-2 bg-white">Collage illustration based on an original frog illustration by Roesel von Rosenhof (1758) via <a href="https://commons.wikimedia.org/wiki/File:Frog_from_Roesel_von_Rosenhof;_1758_Wellcome_L0001704.jpg" class="text-secondary">Wikimedia commons</a>. License: CC BY 4.0</figcaption>
     </figure>
 
     <h2 class="font-heading-lg margin-y-0 line-height-heading-2 margin-top-0">The Celebrated Jumping Frog of Calaveras County <span class="display-block text-light margin-top-05 text-primary">by Mark Twain (1867)</span></h2>
