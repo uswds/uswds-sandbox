@@ -230,8 +230,8 @@ system:
 */
 
 $theme-font-mono:   'roboto-mono';
-$theme-font-sans:   'source-sans-pro';
-$theme-font-serif:  'merriweather';
+$theme-font-sans:   'public-sans';
+$theme-font-serif:  'georgia';
 $theme-font-cond:   false;
 
 /*
@@ -248,10 +248,10 @@ $theme-font-cond
 ----------------------------------------
 */
 
-$theme-font-heading:  $theme-font-serif;
-$theme-font-body:     $theme-font-sans;
+$theme-font-heading:  $theme-font-sans;
+$theme-font-body:     $theme-font-serif;
 $theme-font-code:     $theme-font-mono;
-$theme-font-alt:      $theme-font-serif;
+$theme-font-alt:      $theme-font-sans;
 
 /*
 ----------------------------------------
@@ -272,7 +272,7 @@ $theme-type-scale-md:   7;
 $theme-type-scale-lg:   10;
 $theme-type-scale-xl:   14;
 $theme-type-scale-2xl:  17;
-$theme-type-scale-3xl:  18;
+$theme-type-scale-3xl:  20;
 
 /*
 ----------------------------------------
@@ -309,7 +309,7 @@ $theme-color-base-darker:          $theme-color-base-family, 70;
 $theme-color-base-darkest:         $theme-color-base-family, 90;
 $theme-color-ink:                  $theme-color-base-darkest;
 
-$theme-color-primary-family:       'red';
+$theme-color-primary-family:       'green';
 $theme-color-primary-lightest:     false;
 $theme-color-primary-lighter:      $theme-color-primary-family, 10;
 $theme-color-primary-light:        $theme-color-primary-family, 30;
@@ -319,7 +319,7 @@ $theme-color-primary-dark:         $theme-color-primary-family, 70;
 $theme-color-primary-darker:       $theme-color-primary-family, 80;
 $theme-color-primary-darkest:      false;
 
-$theme-color-secondary-family:     'blue';
+$theme-color-secondary-family:     'gold';
 $theme-color-secondary-lightest:   false;
 $theme-color-secondary-lighter:    $theme-color-secondary-family, 10;
 $theme-color-secondary-light:      $theme-color-secondary-family, 30;
@@ -329,7 +329,7 @@ $theme-color-secondary-dark:       $theme-color-secondary-family, 60;
 $theme-color-secondary-darker:     $theme-color-secondary-family, 80;
 $theme-color-secondary-darkest:    false;
 
-$theme-color-accent-warm-family:   'orange-warm';
+$theme-color-accent-warm-family:   'yellow';
 $theme-color-accent-warm-lightest: false;
 $theme-color-accent-warm-lighter:  $theme-color-accent-warm-family, 10, vivid;
 $theme-color-accent-warm-light:    $theme-color-accent-warm-family, 20, vivid;
