@@ -19,3 +19,7 @@ i.e.
 @include u-padding-right('05');
 ----------------------------------------
 */
+
+[class*=grid-col] {
+  min-height: auto;
+}

@@ -58,7 +58,7 @@ $add-list-reset-settings: (
 
 $align-items-settings: (
   output:       true,
-  responsive:   false,
+  responsive:   true,
   active:       false,
   focus:        false,
   hover:        false,
@@ -193,7 +193,7 @@ $flex-settings: (
 
 $flex-direction-settings: (
   output:       true,
-  responsive:   false,
+  responsive:   true,
   active:       false,
   focus:        false,
   hover:        false,
