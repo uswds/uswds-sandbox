@@ -44,7 +44,7 @@ layout: default
         <div class="desktop:grid-col-fill">
           <aside class="font-alt-2xs line-height-alt-4 text-primary margin-top-05 margin-bottom-2">
             <p class="measure-2 margin-top-0"><strong class="text-ink">Commentary: </strong>In presenting the statements or the thought of some one else, as in summarizing an essay or reporting a speech, the writer should avoid intercalating such expressions as “he said,” “he stated,” “the speaker added,” “the speaker then went on to say,” “the author also thinks,” or the like. He should indicate clearly at the outset, once for all, that what follows is summary, and then waste no words in repeating the notification.</p>
-            <button class="usa-button font-sans-2xs padding-x-2 radius-sm bg-secondary margin-top-2">Edit commentary</button>
+            <button class="usa-button font-sans-2xs padding-2 radius-sm bg-secondary margin-top-2">Edit commentary</button>
           </aside>
           <aside class="bg-accent-cool-lighter radius-lg padding-2 margin-y-4">
             <p class="font-alt-2xs margin-0 line-height-alt-4"><strong>Quotable:</strong> As I said before, I asked him to tell me what he knew of Rev. Leonidas W. Smiley, and he replied as follows.</p>
