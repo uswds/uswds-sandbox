@@ -4,24 +4,24 @@ layout: default
 <header class="grid-container margin-top-2 padding-x-2 tablet:padding-x-4">
   <div class="grid-row flex-column tablet:flex-row tablet:flex-align-center">
     <div class="grid-col">
-      <nav class="add-list-reset display-flex margin-x-neg-105 font-sans-xs  desktop:font-sans-sm bg-white text-ink margin-bottom-2 tablet:margin-bottom-0 tablet:padding-right-4">
-        <li class="flex-auto padding-x-105"><a href="#0" class="display-inline-block text-ink text-no-underline padding-bottom-1 border-bottom-05 border-ink padding-top-1">Home</a></li>
-        <li class="flex-auto padding-x-105"><a href="#0" class="display-inline-block text-primary text-no-underline padding-bottom-1 border-bottom-05 border-transparent hover:border-primary padding-top-1">Authors</a></li>
-        <li class="flex-auto padding-x-105"><a href="#0" class="display-inline-block text-primary text-no-underline padding-bottom-1 border-bottom-05 border-transparent hover:border-primary padding-top-1">Texts</a></li>
-        <li class="flex-auto padding-x-105"><a href="#0" class="display-inline-block text-primary text-no-underline padding-bottom-1 border-bottom-05 border-transparent hover:border-primary padding-top-1">Resources</a></li>
-        <li class="flex-auto padding-x-105"><a href="#0" class="display-inline-block text-primary text-no-underline padding-bottom-1 border-bottom-05 border-transparent hover:border-primary padding-top-1">About</a></li>
+      <nav class="add-list-reset display-flex margin-x-neg-1 desktop:margin-x-neg-105 font-sans-xs desktop:font-sans-sm bg-white text-ink margin-bottom-2 tablet:margin-bottom-0 tablet:padding-right-4">
+        <li class="flex-auto padding-x-1 desktop:padding-x-105"><a href="#0" class="display-inline-block text-ink text-no-underline padding-bottom-1 border-bottom-05 border-ink padding-top-1">Home</a></li>
+        <li class="flex-auto padding-x-1 desktop:padding-x-105"><a href="#0" class="display-inline-block text-primary text-no-underline padding-bottom-1 border-bottom-05 border-transparent hover:border-primary padding-top-1">Authors</a></li>
+        <li class="flex-auto padding-x-1 desktop:padding-x-105"><a href="#0" class="display-inline-block text-primary text-no-underline padding-bottom-1 border-bottom-05 border-transparent hover:border-primary padding-top-1">Texts</a></li>
+        <li class="flex-auto padding-x-1 desktop:padding-x-105"><a href="#0" class="display-inline-block text-primary text-no-underline padding-bottom-1 border-bottom-05 border-transparent hover:border-primary padding-top-1">Resources</a></li>
+        <li class="flex-auto padding-x-1 desktop:padding-x-105"><a href="#0" class="display-inline-block text-primary text-no-underline padding-bottom-1 border-bottom-05 border-transparent hover:border-primary padding-top-1">About</a></li>
       </nav>
     </div>
     <div class="grid-col">
-      <div class="search grid-row">
-        <input class="usa-input padding-1 margin-0 border-1px border-base-light height-auto grid-col-fill radius-sm font-sans-md">
-        <button class="usa-button grid-col margin-0 font-sans-2xs padding-x-2 radius-sm bg-secondary grid-col-auto margin-left-1">Search</button>
+      <div class="search grid-row flex-justify-end">
+        <input class="usa-input padding-05 margin-0 border-1px border-base-light height-auto grid-col-fill tablet:grid-col-7 radius-sm font-sans-md">
+        <button class="usa-button grid-col margin-0 font-sans-2xs padding-y-05 padding-x-1 desktop:padding-x-2 desktop:padding-y-2 radius-sm bg-secondary grid-col-auto margin-left-1">Search</button>
       </div>
     </div>
   </div>
-  <section class="padding-top-2 tablet:padding-top-0 desktop:padding-top-4">
+  <section class="padding-top-2 desktop:padding-top-4">
     <div class="grid-container">
-      <h1 class="font-heading-2xl tablet:font-heading-3xl margin-y-0 line-height-sans-1 text-bold text-ink text-ls-neg-2 padding-top-2 desktop:padding-top-4">The thing dies in the process</h1>
+      <h1 class="font-heading-2xl tablet:font-heading-3xl margin-y-0 line-height-sans-1 text-bold text-ink text-ls-neg-2 padding-top-2 tablet:padding-top-4">The thing dies in the process</h1>
       <p class="font-heading-lg tablet:font-heading-xl line-height-sans-3 margin-top-3 tablet:margin-top-1 margin-bottom-0 text-light text-ls-neg-1 padding-bottom-2">Evaluating older American humor writing through contemporary critical lenses</p>
     </div>
   </section>
