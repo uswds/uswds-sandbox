@@ -26,7 +26,7 @@ Accepts true or false
 ----------------------------------------
 */
 
-$theme-global-styles-basic: false;
+$theme-global-styles-basic: true;
 
 /*
 ----------------------------------------
@@ -87,7 +87,7 @@ Accepts true or false
 ----------------------------------------
 */
 
-$theme-respect-user-font-size: true;
+$theme-respect-user-font-size: false;
 
 // $theme-root-font-size only applies when
 // $theme-respect-user-font-size is set to
@@ -99,7 +99,7 @@ $theme-respect-user-font-size: true;
 
 // Accepts values in px
 
-$theme-root-font-size: 10px;
+$theme-root-font-size: 16px;
 
 /*
 ----------------------------------------
@@ -229,7 +229,7 @@ system:
 ----------------------------------------
 */
 
-$theme-font-mono:   false;
+$theme-font-mono:   'roboto-mono';
 $theme-font-sans:   'source-sans-pro';
 $theme-font-serif:  'merriweather';
 $theme-font-cond:   false;
@@ -248,7 +248,7 @@ $theme-font-cond
 ----------------------------------------
 */
 
-$theme-font-heading:  $theme-font-sans;
+$theme-font-heading:  $theme-font-serif;
 $theme-font-body:     $theme-font-sans;
 $theme-font-code:     $theme-font-mono;
 $theme-font-alt:      $theme-font-serif;
