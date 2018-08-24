@@ -21,13 +21,18 @@ layout: default
   </div>
   <section class="padding-top-2 tablet:padding-top-0 desktop:padding-top-4">
     <div class="grid-container">
-      <h1 class="font-heading-2xl tablet:font-heading-3xl margin-y-0 line-height-sans-1 text-bold text-ink text-ls-neg-2 padding-top-2">The thing dies in the process</h1>
-      <p class="font-heading-lg tablet:font-heading-xl line-height-sans-3 margin-top-3 tablet:margin-top-1 margin-bottom-0 text-light text-ls-neg-1 border-bottom-1px border-ink padding-bottom-4">Evaluating older American humor writing through contemporary critical lenses</p>
+      <h1 class="font-heading-2xl tablet:font-heading-3xl margin-y-0 line-height-sans-1 text-bold text-ink text-ls-neg-2 padding-top-2 desktop:padding-top-4">The thing dies in the process</h1>
+      <p class="font-heading-lg tablet:font-heading-xl line-height-sans-3 margin-top-3 tablet:margin-top-1 margin-bottom-0 text-light text-ls-neg-1 padding-bottom-2">Evaluating older American humor writing through contemporary critical lenses</p>
     </div>
   </section>
 </header>
 <main class="padding-top-4 line-height-body-5">
   <div class="grid-container padding-x-2 tablet:padding-x-4">
+    <figure class="padding-0 margin-top-0 margin-x-0 margin-bottom-8 bg-gradient">
+      <img src="{{ "/assets/img/frog-roesel-von-rosenhof.jpg" | relative_url }}" class="blend-multiply display-block width-full" alt="Two frogs">
+      <figcaption class="font-sans-3xs padding-top-2 bg-white">Illustration based on a Frog illustration by Roesel von Rosenhof (1758) via <a href="https://commons.wikimedia.org/wiki/File:Frog_from_Roesel_von_Rosenhof;_1758_Wellcome_L0001704.jpg" class="text-secondary">Wikimedia commons</a>. License: CC BY 4.0</figcaption>
+    </figure>
+
     <h2 class="font-heading-lg margin-y-0 line-height-heading-2 margin-top-0">The Celebrated Jumping Frog of Calaveras County <span class="display-block text-light margin-top-05 text-primary">by Mark Twain (1867)</span></h2>
     <section class="margin-top-4 border-top border-ink padding-top-3">
       <div class="grid-row grid-gap-4">
@@ -82,7 +87,7 @@ layout: default
     </section>
   </div>
   <section class="grid-container margin-top-2">
-    <div class="border-1px border-primary radius-lg margin-x-2 tablet:margin-x-4 padding-2 tablet:padding-4">
+    <div class="bg-base-lighter radius-lg margin-x-2 tablet:margin-x-4 padding-2 tablet:padding-4">
       <h3 class="font-alt-xs tablet:font-alt-md text-bold margin-top-0 margin-bottom-1 tablet:margin-bottom-2">A note from Herbert Spencer</h3>
       <p class="margin-0 font-alt-sm tablet:font-alt-lg text-light">“This superiority of specific expressions is clearly due to the effort required to translate words into thoughts. As we do not think in generals, but in particulars—as whenever any class of things is referred to, we represent it to ourselves by calling to mind individual members of it, it follows that when an abstract word is used, the hearer or reader has to choose, from his stock of images, one or more by which he may figure to himself the genus mentioned. In doing this, some delay must arise, some force be expended; and if by employing a specific term an appropriate image can be at once suggested, an economy is achieved, and a more vivid impression produced.”</p>
       <div class="margin-top-2">

@@ -23,3 +23,11 @@ i.e.
 [class*=grid-col] {
   min-height: auto;
 }
+
+.blend-multiply {
+  mix-blend-mode: multiply;
+}
+
+.bg-gradient {
+  background: linear-gradient(90deg, color('primary') 0%, color('secondary') 100%);
+}
