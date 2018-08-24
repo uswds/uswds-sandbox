@@ -44,7 +44,7 @@ layout: default
         <div class="desktop:grid-col-fill">
           <aside class="font-alt-2xs line-height-alt-4 text-primary margin-top-05 margin-bottom-2">
             <p class="measure-2 margin-top-0"><strong class="text-ink">Commentary: </strong>In presenting the statements or the thought of some one else, as in summarizing an essay or reporting a speech, the writer should avoid intercalating such expressions as “he said,” “he stated,” “the speaker added,” “the speaker then went on to say,” “the author also thinks,” or the like. He should indicate clearly at the outset, once for all, that what follows is summary, and then waste no words in repeating the notification.</p>
-            <button class="usa-button font-sans-2xs padding-x-2 radius-sm bg-secondary">Edit commentary</button>
+            <button class="usa-button font-sans-2xs padding-x-2 radius-sm bg-secondary margin-top-2">Edit commentary</button>
           </aside>
           <aside class="bg-accent-cool-lighter radius-lg padding-2 margin-y-4">
             <p class="font-alt-2xs margin-0 line-height-alt-4"><strong>Quotable:</strong> As I said before, I asked him to tell me what he knew of Rev. Leonidas W. Smiley, and he replied as follows.</p>
@@ -52,7 +52,7 @@ layout: default
         </div>
       </div>
     </section>
-    <section class="margin-top-0 border-top-2px border-base-lighter padding-top-2">
+    <section class="margin-top-2 border-top-2px border-base-lighter padding-top-2">
       <div class="grid-row grid-gap">
         <div class="desktop:grid-col-8 measure-4 font-body-xs tablet:font-body-md line-height-body-5 tablet:line-height-body-6">
           <h3 class="font-heading-3xs text-uppercase text-ls-2 text-light margin-top-0 text-base-dark">Section 2: Paragraph 3</h3>
@@ -61,12 +61,12 @@ layout: default
         <div class="desktop:grid-col-fill">
           <aside class="font-alt-2xs line-height-alt-4 text-primary margin-top-05 margin-bottom-2">
             <p class="measure-2 margin-top-0"><strong class="text-ink">Commentary: </strong>If the writer finds that he has written a series of sentences of the type described, he should recast enough of them to remove the monotony, replacing them by simple sentences, by sentences of two clauses joined by a semicolon, by periodic sentences of two clauses, by sentences, loose or periodic, of three clauses—whichever best represent the real relations of the thought.</p>
-            <button class="usa-button font-sans-2xs padding-2 radius-sm bg-secondary">Edit commentary</button>
+            <button class="usa-button font-sans-2xs padding-2 radius-sm bg-secondary margin-top-2">Edit commentary</button>
           </aside>
         </div>
       </div>
     </section>
-    <section class="margin-top-0 border-top-2px border-base-lighter padding-top-2">
+    <section class="margin-top-2 border-top-2px border-base-lighter padding-top-2">
       <div class="grid-row grid-gap">
         <div class="desktop:grid-col-8 measure-4 font-body-xs tablet:font-body-md line-height-body-5 tablet:line-height-body-6">
           <h3 class="font-heading-3xs text-uppercase text-ls-2 text-light margin-top-0 text-base-dark">Section 3: Paragraph 4</h3>
@@ -77,7 +77,7 @@ layout: default
           <aside class="font-alt-2xs line-height-alt-4 text-primary margin-top-05 margin-bottom-2">
             <p class="measure-2 margin-top-0"><strong class="text-ink">Commentary: </strong>In exposition and in argument, the writer must likewise never lose his hold upon the concrete, and even when he is dealing with general principles, he must give particular instances of their application.</p>
             <p class="measure-2 margin-top-1">In notebooks, in newspapers, in handbooks of literature, summaries of one kind or another may be indispensable, and for children in primary schools it is a useful exercise to retell a story in their own words. But in the criticism or interpretation of literature the writer should be careful to avoid dropping into summary. He may find it necessary to devote one or two sentences to indicating the subject, or the opening situation, of the work he is discussing; he may cite numerous details to illustrate its qualities. But he should aim to write an orderly discussion supported by evidence, not a summary with occasional comment. Similarly, if the scope of his discussion includes a number of works, he will as a rule do better not to take them up singly in chronological order, but to aim from the beginning at establishing general conclusions.</p>
-            <button class="usa-button font-sans-2xs padding-2 radius-sm bg-secondary">Edit commentary</button>
+            <button class="usa-button font-sans-2xs padding-2 radius-sm bg-secondary margin-top-2">Edit commentary</button>
           </aside>
           <aside class="bg-accent-warm-light radius-lg padding-2 margin-y-4">
             <p class="font-alt-2xs margin-0 line-height-alt-4"><strong>Note:</strong> The use of gendered pronouns and a possible sexist tone in this example site is an unfortunate side-effect of using old public domain texts available via Project Gutenberg.</p>
