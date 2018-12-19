@@ -47,7 +47,7 @@ const IMG_DEST = './assets/img/uswds';
 const FONTS_DEST = './assets/fonts/uswds';
 
 // Javascript destination
-const JS_DEST = './assets/js';
+const JS_DEST = './assets/js/uswds';
 
 // Compiled CSS destination
 const CSS_DEST = './assets/css';
