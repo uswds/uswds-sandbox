@@ -9,17 +9,21 @@
 */
 
 // -------------------------------------
-// import project settings
+// Import individual theme settings
 
-@import 'uswds-project-settings';
-@import 'uswds-project-utilities-settings';
+@import 'uswds-theme-general';
+@import 'uswds-theme-typography';
+@import 'uswds-theme-spacing';
+@import 'uswds-theme-color';
+@import 'uswds-theme-utilities';
 
 // -------------------------------------
-// import specific USWDS modules...
+// Import individual USWDS modules...
 
 // @import 'uswds-fonts';
-// @import 'uswds-utilities';
 // @import 'uswds-layout-grid';
+// @import 'uswds-components';
+// @import 'uswds-utilities';
 
 // -------------------------------------
 // ...or import all USWDS modules
@@ -27,6 +31,6 @@
 @import 'uswds';
 
 // -------------------------------------
-// import project custom styles
+// Import theme custom styles
 
-@import 'project-custom';
+@import 'uswds-theme-custom-styles';
