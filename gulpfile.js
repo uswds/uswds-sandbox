@@ -41,16 +41,16 @@ PATHS
 const PROJECT_SASS_SRC = './_sass';
 
 // Images destination
-const IMG_DEST = './assets/img/uswds';
+const IMG_DEST = './assets/uswds/img';
 
 // Fonts destination
-const FONTS_DEST = './assets/fonts/uswds';
+const FONTS_DEST = './assets/uswds/fonts';
 
 // Javascript destination
-const JS_DEST = './assets/js/uswds';
+const JS_DEST = './assets/uswds/js';
 
 // Compiled CSS destination
-const CSS_DEST = './assets/css';
+const CSS_DEST = './assets/uswds/css';
 
 /*
 ----------------------------------------
