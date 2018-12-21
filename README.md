@@ -2,9 +2,9 @@
 Jekyll site for testing new functionality currently under development
 
 ## Running code locally
-After cloning the repo, navigate to the correct folder and install Jekyll and any necessary dependencies using:
+After cloning the repo, navigate to the correct folder and install USWDS, Jekyll, and any necessary dependencies using:
 ```
-npm install
+npm startup
 ```
 To run the site locally:
 ```
