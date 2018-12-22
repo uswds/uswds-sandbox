@@ -2,12 +2,6 @@ title: USWDS Sandbox
 baseurl: ""
 url: ""
 
-sass:
-  sass_dir: _sass/
-  load_paths:
-    - node_modules/
-  style: compressed
-
 exclude:
   - assets/js/src
   - Gemfile*
