@@ -16,7 +16,6 @@ var autoprefixerOptions = require('./node_modules/uswds-gulp/config/browsers');
 var cssnano       = require('cssnano');
 var gulp          = require('gulp');
 var mqpacker      = require('css-mqpacker');
-var notify        = require('gulp-notify');
 var path          = require('path');
 var pkg           = require('./node_modules/uswds/package.json');
 var postcss       = require('gulp-postcss');
@@ -60,54 +59,51 @@ TASKS
 
 gulp.task('copy-uswds-setup', () => {
   return gulp.src(`${uswds}/scss/theme/**/**`)
-  .pipe(gulp.dest(`${PROJECT_SASS_SRC}`));
+    .pipe(gulp.dest(`${PROJECT_SASS_SRC}`));
 });
 
 gulp.task('copy-uswds-fonts', () => {
   return gulp.src(`${uswds}/fonts/**/**`)
-  .pipe(gulp.dest(`${FONTS_DEST}`));
+    .pipe(gulp.dest(`${FONTS_DEST}`));
 });
 
 gulp.task('copy-uswds-images', () => {
   return gulp.src(`${uswds}/img/**/**`)
-  .pipe(gulp.dest(`${IMG_DEST}`));
+    .pipe(gulp.dest(`${IMG_DEST}`));
 });
 
 gulp.task('copy-uswds-js', () => {
   return gulp.src(`${uswds}/js/**/**`)
-  .pipe(gulp.dest(`${JS_DEST}`));
+    .pipe(gulp.dest(`${JS_DEST}`));
 });
 
-gulp.task('build-sass', function(done) {
+gulp.task('build-sass', function (done) {
   var plugins = [
     // Autoprefix
     autoprefixer(autoprefixerOptions),
     // Pack media queries
     mqpacker({ sort: true }),
     // Minify
-    cssnano(({ autoprefixer: { browsers: autoprefixerOptions }}))
+    cssnano(({ autoprefixer: { browsers: autoprefixerOptions } }))
   ];
   return gulp.src([
-      `${PROJECT_SASS_SRC}/*.scss`
-    ])
-    .pipe(replace(
-      /\buswds @version\b/g,
-      'uswds v' + pkg.version
-    ))
+    `${PROJECT_SASS_SRC}/*.scss`
+  ])
     .pipe(sourcemaps.init({ largeFile: true }))
     .pipe(sass({
-        includePaths: [
-          `${PROJECT_SASS_SRC}`,
-          `${uswds}/scss`,
-          `${uswds}/scss/packages`,
-        ]
-      }))
+      includePaths: [
+        `${PROJECT_SASS_SRC}`,
+        `${uswds}/scss`,
+        `${uswds}/scss/packages`,
+      ]
+    }))
+    .pipe(replace(
+      /\buswds @version\b/g,
+      'based on uswds v' + pkg.version
+    ))
     .pipe(postcss(plugins))
-    .pipe(gulp.dest(`${CSS_DEST}`))
     .pipe(sourcemaps.write('.'))
-    .pipe(notify({
-      "sound": "Pop" // case sensitive
-    }));
+    .pipe(gulp.dest(`${CSS_DEST}`));
 });
 
 gulp.task('init', gulp.series(
