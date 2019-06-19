@@ -16,10 +16,8 @@ var autoprefixerOptions = require('./node_modules/uswds-gulp/config/browsers');
 var cssnano       = require('cssnano');
 var gulp          = require('gulp');
 var mqpacker      = require('css-mqpacker');
-var path          = require('path');
 var pkg           = require('./node_modules/uswds/package.json');
 var postcss       = require('gulp-postcss');
-var rename        = require('gulp-rename');
 var replace       = require('gulp-replace');
 var sass          = require('gulp-sass');
 var sourcemaps    = require('gulp-sourcemaps');
@@ -50,6 +48,9 @@ const JS_DEST = './assets/uswds/js';
 
 // Compiled CSS destination
 const CSS_DEST = './assets/uswds/css';
+
+// Jekyll build CSS destination
+const CSS_DEST_JEKYLL = './_site/assets/uswds/css';
 
 /*
 ----------------------------------------
@@ -103,7 +104,8 @@ gulp.task('build-sass', function (done) {
     ))
     .pipe(postcss(plugins))
     .pipe(sourcemaps.write('.'))
-    .pipe(gulp.dest(`${CSS_DEST}`));
+    .pipe(gulp.dest(`${CSS_DEST}`))
+    .pipe(gulp.dest(`${CSS_DEST_JEKYLL}`))
 });
 
 gulp.task('init', gulp.series(

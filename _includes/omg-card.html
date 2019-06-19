@@ -1,0 +1,14 @@
+<div class="omg-card {{ include.cardStyle }}">
+  <h2 class="omg-card__title font-sans-9 text-bold line-height-sans-2 margin-0 {{ include.titleStyle }}">
+    {{ include.title }}
+  </h2>
+  <div class="omg-card__figure margin-top-3 margin-x-neg-3">
+    <div class="omg-card__aspect add-aspect-4x3 {{ include.imageAspect }}">
+      <img class="omg-card__image pin-all" src="{{ include.imageUrl }}" alt="{{ include.imageAlt }}">
+    </div>
+  </div>
+  <p class="omg-card__description minh-8 margin-top-3 font-sans-5 line-height-sans-3 margin-bottom-0 {{ include.descriptionStyle }}">
+    {{ include.description }}
+  </p>
+  <a class="usa-button omg-card__cta margin-top-3 width-full {{ include.ctaStyle }}" href="{{ include.ctaUrl }}">{{ include.ctaText }}</a>
+</div>
