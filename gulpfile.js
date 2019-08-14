@@ -51,6 +51,9 @@ const JS_DEST = './assets/uswds/js';
 // Compiled CSS destination
 const CSS_DEST = './assets/uswds/css';
 
+// Jekyll _site CSS destination
+const SITE_CSS_DEST = './_site/assets/uswds/css';
+
 /*
 ----------------------------------------
 TASKS
@@ -103,6 +106,7 @@ gulp.task('build-sass', function (done) {
     ))
     .pipe(postcss(plugins))
     .pipe(sourcemaps.write('.'))
+    .pipe(gulp.dest(`${SITE_CSS_DEST}`))
     .pipe(gulp.dest(`${CSS_DEST}`));
 });
 
