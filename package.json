@@ -19,26 +19,19 @@
     "watch": "gulp watch"
   },
   "dependencies": {
-    "acorn": "^6.0.4",
-    "autoprefixer": "^9.1.5",
-    "braces": "^2.3.2",
+    "autoprefixer": "^9.6.1",
     "css-mqpacker": "^7.0.0",
     "cssnano": "^4.1.4",
-    "del": "^3.0.0",
     "gulp": "^4.0.0",
-    "gulp-gzip": "^1.4.2",
     "gulp-postcss": "^8.0.0",
     "gulp-rename": "^1.4.0",
     "gulp-replace": "^1.0.0",
     "gulp-sass": "^4.0.1",
-    "gulp-size": "^3.0.0",
     "gulp-sourcemaps": "^2.6.4",
     "gulp-watch": "^5.0.0",
     "path": "^0.12.7",
-    "postcss": "^7.0.17",
-    "postcss-uncss": "^0.16.1",
-    "uncss": "^0.16.2",
-    "uswds": "^2.0.2",
+    "postcss": "^7.0.18",
+    "uswds": "^2.1.0",
     "uswds-gulp": "github:uswds/uswds-gulp"
   }
 }
