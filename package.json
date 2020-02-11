@@ -34,6 +34,6 @@
     "postcss-sort-media-queries": "^1.0.15",
     "sass": "^1.25.0",
     "uswds": "github:uswds/uswds#develop",
-    "uswds-gulp": "github:uswds/uswds-gulp#dw-use-dart-sass"
+    "uswds-gulp": "github:uswds/uswds-gulp"
   }
 }
