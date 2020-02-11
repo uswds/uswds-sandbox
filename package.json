@@ -1,7 +1,7 @@
 {
   "name": "uswds-sandbox",
   "private": true,
-  "author": "18F",
+  "author": "USWDS",
   "license": "CC0-1.0",
   "scripts": {
     "federalist": "./build.sh && npm run uswds-copy-assets && npm run uswds-build-sass",
@@ -20,8 +20,8 @@
   },
   "dependencies": {
     "autoprefixer": "^9.7.4",
-    "css-mqpacker": "^7.0.0",
     "cssnano": "^4.1.4",
+    "fibers": "^4.0.2",
     "gulp": "^4.0.0",
     "gulp-postcss": "^8.0.0",
     "gulp-rename": "^1.4.0",
@@ -31,7 +31,9 @@
     "gulp-watch": "^5.0.0",
     "path": "^0.12.7",
     "postcss": "^7.0.26",
+    "postcss-sort-media-queries": "^1.0.15",
+    "sass": "^1.25.0",
     "uswds": "github:uswds/uswds#develop",
-    "uswds-gulp": "github:uswds/uswds-gulp"
+    "uswds-gulp": "github:uswds/uswds-gulp#dw-use-dart-sass"
   }
 }
