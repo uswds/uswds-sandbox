@@ -19,7 +19,7 @@
     "watch": "gulp watch"
   },
   "dependencies": {
-    "autoprefixer": "^9.7.3",
+    "autoprefixer": "^9.7.4",
     "css-mqpacker": "^7.0.0",
     "cssnano": "^4.1.4",
     "gulp": "^4.0.0",
@@ -30,8 +30,8 @@
     "gulp-sourcemaps": "^2.6.4",
     "gulp-watch": "^5.0.0",
     "path": "^0.12.7",
-    "postcss": "^7.0.25",
-    "uswds": "^2.4.0",
+    "postcss": "^7.0.26",
+    "uswds": "github:uswds/uswds#develop",
     "uswds-gulp": "github:uswds/uswds-gulp"
   }
 }
