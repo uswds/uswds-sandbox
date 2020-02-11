@@ -11,17 +11,22 @@ USWDS SASS GULPFILE
 ----------------------------------------
 */
 
-var autoprefixer  = require('autoprefixer');
-var autoprefixerOptions = require('./node_modules/uswds-gulp/config/browsers');
-var cssnano       = require('cssnano');
-var gulp          = require('gulp');
-var mqpacker      = require('css-mqpacker');
-var pkg           = require('./node_modules/uswds/package.json');
-var postcss       = require('gulp-postcss');
-var replace       = require('gulp-replace');
-var sass          = require('gulp-sass');
-var sourcemaps    = require('gulp-sourcemaps');
-var uswds         = require('./node_modules/uswds-gulp/config/uswds');
+const autoprefixer = require("autoprefixer");
+const autoprefixerOptions = require("./node_modules/uswds-gulp/config/browsers");
+const cssnano = require("cssnano");
+const Fiber = require("fibers");
+const gulp = require("gulp");
+const path = require("path");
+const pkg = require("./node_modules/uswds/package.json");
+const postcss = require("gulp-postcss");
+const rename = require("gulp-rename");
+const replace = require("gulp-replace");
+const sass = require("gulp-sass");
+const sortMQ = require("postcss-sort-media-queries");
+const sourcemaps = require("gulp-sourcemaps");
+const uswds = require("./node_modules/uswds-gulp/config/uswds");
+
+sass.compiler = require("sass");
 
 /*
 ----------------------------------------
@@ -35,22 +40,22 @@ PATHS
 */
 
 // Project Sass source directory
-const PROJECT_SASS_SRC = './_sass';
+const PROJECT_SASS_SRC = "./_sass";
 
 // Images destination
-const IMG_DEST = './assets/uswds/img';
+const IMG_DEST = "./assets/uswds/img";
 
 // Fonts destination
-const FONTS_DEST = './assets/uswds/fonts';
+const FONTS_DEST = "./assets/uswds/fonts";
 
 // Javascript destination
-const JS_DEST = './assets/uswds/js';
+const JS_DEST = "./assets/uswds/js";
 
 // Compiled CSS destination
-const CSS_DEST = './assets/uswds/css';
+const CSS_DEST = "./assets/uswds/css";
 
 // Jekyll _site CSS destination
-const SITE_CSS_DEST = './_site/assets/uswds/css';
+const SITE_CSS_DEST = "./_site/assets/uswds/css";
 
 /*
 ----------------------------------------
@@ -58,68 +63,71 @@ TASKS
 ----------------------------------------
 */
 
-gulp.task('copy-uswds-setup', () => {
-  return gulp.src(`${uswds}/scss/theme/**/**`)
+gulp.task("copy-uswds-setup", () => {
+  return gulp
+    .src(`${uswds}/scss/theme/**/**`)
     .pipe(gulp.dest(`${PROJECT_SASS_SRC}`));
 });
 
-gulp.task('copy-uswds-fonts', () => {
-  return gulp.src(`${uswds}/fonts/**/**`)
-    .pipe(gulp.dest(`${FONTS_DEST}`));
+gulp.task("copy-uswds-fonts", () => {
+  return gulp.src(`${uswds}/fonts/**/**`).pipe(gulp.dest(`${FONTS_DEST}`));
 });
 
-gulp.task('copy-uswds-images', () => {
-  return gulp.src(`${uswds}/img/**/**`)
-    .pipe(gulp.dest(`${IMG_DEST}`));
+gulp.task("copy-uswds-images", () => {
+  return gulp.src(`${uswds}/img/**/**`).pipe(gulp.dest(`${IMG_DEST}`));
 });
 
-gulp.task('copy-uswds-js', () => {
-  return gulp.src(`${uswds}/js/**/**`)
-    .pipe(gulp.dest(`${JS_DEST}`));
+gulp.task("copy-uswds-js", () => {
+  return gulp.src(`${uswds}/js/**/**`).pipe(gulp.dest(`${JS_DEST}`));
 });
 
-gulp.task('build-sass', function (done) {
+gulp.task("build-sass", function(done) {
   var plugins = [
     // Autoprefix
     autoprefixer(autoprefixerOptions),
     // Pack media queries
-    mqpacker({ sort: true }),
+    sortMQ({ sort: "mobile-first" })
     // Minify
-    cssnano(({ autoprefixer: { browsers: autoprefixerOptions } }))
+    cssnano({ autoprefixer: { browsers: autoprefixerOptions } })
   ];
-  return gulp.src([
-    `${PROJECT_SASS_SRC}/*.scss`
-  ])
-    .pipe(sourcemaps.init({ largeFile: true }))
-    .pipe(sass({
-      includePaths: [
-        `${PROJECT_SASS_SRC}`,
-        `${uswds}/scss`,
-        `${uswds}/scss/packages`,
-      ]
-    }))
-    .pipe(replace(
-      /\buswds @version\b/g,
-      'based on uswds v' + pkg.version
-    ))
-    .pipe(postcss(plugins))
-    .pipe(sourcemaps.write('.'))
-    .pipe(gulp.dest(`${SITE_CSS_DEST}`))
-    .pipe(gulp.dest(`${CSS_DEST}`));
+  return (
+    gulp
+      .src([`${PROJECT_SASS_SRC}/*.scss`])
+      .pipe(sourcemaps.init({ largeFile: true }))
+      .pipe(
+        sass({
+          fiber: Fiber,
+          includePaths: [
+            `${PROJECT_SASS_SRC}`,
+            `${uswds}/scss`,
+            `${uswds}/scss/packages`
+          ]
+        })
+      )
+      .pipe(replace(/\buswds @version\b/g, "based on uswds v" + pkg.version))
+      .pipe(postcss(plugins))
+      .pipe(sourcemaps.write("."))
+      // uncomment the next line if necessary for Jekyll to build properly
+      .pipe(gulp.dest(`${SITE_CSS_DEST}`))
+      .pipe(gulp.dest(`${CSS_DEST}`))
+  );
 });
 
-gulp.task('init', gulp.series(
-  'copy-uswds-setup',
-  'copy-uswds-fonts',
-  'copy-uswds-images',
-  'copy-uswds-js',
-  'build-sass',
-));
+gulp.task(
+  "init",
+  gulp.series(
+    "copy-uswds-setup",
+    "copy-uswds-fonts",
+    "copy-uswds-images",
+    "copy-uswds-js",
+    "build-sass"
+  )
+);
 
-gulp.task('watch-sass', function () {
-  gulp.watch(`${PROJECT_SASS_SRC}/**/*.scss`, gulp.series('build-sass'));
+gulp.task("watch-sass", function() {
+  gulp.watch(`${PROJECT_SASS_SRC}/**/*.scss`, gulp.series("build-sass"));
 });
 
-gulp.task('watch', gulp.series('build-sass', 'watch-sass'));
+gulp.task("watch", gulp.series("build-sass", "watch-sass"));
 
-gulp.task('default', gulp.series('watch'));
+gulp.task("default", gulp.series("watch"));
