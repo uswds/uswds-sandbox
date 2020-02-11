@@ -86,7 +86,7 @@ gulp.task("build-sass", function(done) {
     // Autoprefix
     autoprefixer(autoprefixerOptions),
     // Pack media queries
-    sortMQ({ sort: "mobile-first" })
+    sortMQ({ sort: "mobile-first" }),
     // Minify
     cssnano({ autoprefixer: { browsers: autoprefixerOptions } })
   ];
