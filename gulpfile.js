@@ -13,16 +13,12 @@ USWDS SASS GULPFILE
 
 const autoprefixer = require("autoprefixer");
 const autoprefixerOptions = require("./node_modules/uswds-gulp/config/browsers");
-const cssnano = require("cssnano");
-const Fiber = require("fibers");
+const csso = require("postcss-csso");
 const gulp = require("gulp");
-const path = require("path");
 const pkg = require("./node_modules/uswds/package.json");
 const postcss = require("gulp-postcss");
-const rename = require("gulp-rename");
 const replace = require("gulp-replace");
 const sass = require("gulp-sass");
-const sortMQ = require("postcss-sort-media-queries");
 const sourcemaps = require("gulp-sourcemaps");
 const uswds = require("./node_modules/uswds-gulp/config/uswds");
 
@@ -54,7 +50,9 @@ const JS_DEST = "./assets/uswds/js";
 // Compiled CSS destination
 const CSS_DEST = "./assets/uswds/css";
 
-// Jekyll _site CSS destination
+// Site CSS destination
+// Like the _site/assets/css directory in Jekyll, if necessary.
+// If using, uncomment line 112
 const SITE_CSS_DEST = "./_site/assets/uswds/css";
 
 /*
@@ -85,18 +83,15 @@ gulp.task("build-sass", function(done) {
   var plugins = [
     // Autoprefix
     autoprefixer(autoprefixerOptions),
-    // Pack media queries
-    sortMQ({ sort: "mobile-first" }),
     // Minify
-    cssnano({ autoprefixer: { browsers: autoprefixerOptions } })
+    csso({ forceMediaMerge: true })
   ];
   return (
     gulp
       .src([`${PROJECT_SASS_SRC}/*.scss`])
       .pipe(sourcemaps.init({ largeFile: true }))
       .pipe(
-        sass({
-          fiber: Fiber,
+        sass.sync({
           includePaths: [
             `${PROJECT_SASS_SRC}`,
             `${uswds}/scss`,
