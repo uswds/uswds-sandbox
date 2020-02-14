@@ -52,7 +52,7 @@ const CSS_DEST = "./assets/uswds/css";
 
 // Site CSS destination
 // Like the _site/assets/css directory in Jekyll, if necessary.
-// If using, uncomment line 112
+// If using, uncomment line 106
 const SITE_CSS_DEST = "./_site/assets/uswds/css";
 
 /*
