@@ -4,10 +4,10 @@
   "author": "USWDS",
   "license": "CC0-1.0",
   "scripts": {
-    "federalist": "./build.sh && npm run uswds-copy-assets && npm run uswds-build-sass",
+    "federalist": "npm install && npm run uswds-copy-assets && npm run uswds-build-sass",
     "jekyll-install": "gem install bundler && bundle install",
     "serve": "bundle exec jekyll serve --livereload",
-    "start": "npm install && npm update uswds && ./build.sh && npm run jekyll-install && npm run uswds-copy-assets && npm run uswds-copy-theme && npm run uswds-build-sass",
+    "start": "npm install && npm update uswds && npm run jekyll-install && npm run uswds-copy-assets && npm run uswds-copy-theme && npm run uswds-build-sass",
     "uswds-build-sass": "gulp build-sass",
     "uswds-build-app": "gulp build-app",
     "uswds-copy-assets": "npm run uswds-copy-js && npm run uswds-copy-fonts && npm run uswds-copy-img",
@@ -15,7 +15,7 @@
     "uswds-copy-img": "gulp copy-uswds-images",
     "uswds-copy-js": "gulp copy-uswds-js",
     "uswds-copy-theme": "gulp copy-uswds-setup",
-    "uswds-update": "npm update uswds && ./build.sh",
+    "uswds-update": "npm update uswds",
     "watch": "gulp watch"
   },
   "dependencies": {
