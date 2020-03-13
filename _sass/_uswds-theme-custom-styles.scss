@@ -25,9 +25,14 @@ body {
 }
 
 .usa-alert-banner {
-  @include add-responsive-site-margins;
+  padding-left: units($theme-site-margins-mobile-width) - units(0.5);
+  padding-right: units($theme-site-margins-mobile-width) - units(0.5);
+  @include at-media($theme-site-margins-breakpoint) {
+    padding-left: units($theme-site-margins-width) - units(0.5);
+    padding-right: units($theme-site-margins-width) - units(0.5);
+  }
   @include typeset("ui", "2xs", 2);
-  @include u-bg("primary");
+  @include u-bg("accent-cool-lighter");
   @include u-margin-top(0);
   @include u-padding-y(2);
   @include u-display("flex");
@@ -55,6 +60,7 @@ body {
       @include u-text("ink", "no-wrap", "no-underline");
       @include u-border-bottom(1px);
       @include u-padding-bottom(1px);
+      @include u-padding-top(2px);
 
       &:hover {
         @include u-padding-bottom(0);
