@@ -19,3 +19,40 @@ i.e.
 @include u-padding-right('05');
 ----------------------------------------
 */
+
+body {
+  margin: 0;
+}
+
+.usa-alert-banner {
+  @include u-bg("primary");
+  @include u-margin-top(0);
+  @include u-padding(2);
+  @include u-display("flex");
+  @include u-flex("align-center");
+
+  .usa-alert-banner__image {
+    @include u-margin(0);
+    @include u-margin-right(1.5);
+    @include u-square(4);
+  }
+
+  p {
+    @include u-font("sans", "md");
+    @include u-line-height("sans", 2);
+    @include u-margin(0);
+    @include u-padding(0);
+
+    a {
+      @include u-display("inline-block");
+      @include u-text("ink", "no-wrap", "no-underline");
+      @include u-border-bottom(1px);
+      @include u-padding-bottom(1px);
+
+      &:hover {
+        @include u-padding-bottom(0);
+        @include u-border-bottom(2px);
+      }
+    }
+  }
+}

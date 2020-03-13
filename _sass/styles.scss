@@ -25,7 +25,7 @@
 // See https://designsystem.digital.gov/components/
 
 // First import required and global packages...
-// @import 'packages/required';
+@import "packages/required";
 // @import 'packages/global';
 
 // Then import individual component packages...
@@ -60,7 +60,7 @@
 // -------------------------------------
 // ...or import the complete USWDS kit
 
-@import "uswds";
+// @import "uswds";
 
 // -------------------------------------
 // Import theme custom styles
