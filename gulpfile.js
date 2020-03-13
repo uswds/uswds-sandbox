@@ -20,7 +20,7 @@ const postcss = require("gulp-postcss");
 const replace = require("gulp-replace");
 const sass = require("gulp-sass");
 const sourcemaps = require("gulp-sourcemaps");
-const uswds = "./node_modules/uswds/src";
+const uswds = "./node_modules/uswds/dist";
 
 sass.compiler = require("sass");
 
@@ -94,8 +94,8 @@ gulp.task("build-sass", function(done) {
         sass.sync({
           includePaths: [
             `${PROJECT_SASS_SRC}`,
-            `${uswds}/stylesheets`,
-            `${uswds}/stylesheets/packages`
+            `${uswds}/scss`,
+            `${uswds}/scss/packages`
           ]
         })
       )
