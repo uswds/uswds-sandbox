@@ -4,10 +4,11 @@
   "author": "USWDS",
   "license": "CC0-1.0",
   "scripts": {
-    "federalist": "npm install && npm explore uswds -- npm install && npm run uswds-copy-assets && npm run uswds-build-sass",
+    "federalist": "npm install && npm run uswds-build-package && npm run uswds-copy-assets && npm run uswds-build-sass",
     "jekyll-install": "gem install bundler && bundle install",
     "serve": "bundle exec jekyll serve --livereload",
     "start": "npm install && npm update uswds && npm run jekyll-install && npm run uswds-copy-assets && npm run uswds-copy-theme && npm run uswds-build-sass",
+    "uswds-build-package": "npm explore uswds -- npm install && npm explore uswds -- npm run build",
     "uswds-build-sass": "gulp build-sass",
     "uswds-build-app": "gulp build-app",
     "uswds-copy-assets": "npm run uswds-copy-js && npm run uswds-copy-fonts && npm run uswds-copy-img",
