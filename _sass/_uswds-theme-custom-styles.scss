@@ -25,11 +25,16 @@ body {
 }
 
 .usa-alert-banner {
+  @include add-responsive-site-margins;
+  @include typeset("ui", "2xs", 2);
   @include u-bg("primary");
   @include u-margin-top(0);
-  @include u-padding(2);
+  @include u-padding-y(2);
   @include u-display("flex");
   @include u-flex("align-center");
+  @include at-media("tablet") {
+    @include u-font("ui", "md");
+  }
 
   .usa-alert-banner__image {
     @include u-margin(0);
@@ -38,10 +43,12 @@ body {
   }
 
   p {
-    @include u-font("sans", "md");
-    @include u-line-height("sans", 2);
+    @include typeset("ui", "2xs", 2);
     @include u-margin(0);
     @include u-padding(0);
+    @include at-media("tablet") {
+      @include u-font("ui", "md");
+    }
 
     a {
       @include u-display("inline-block");
