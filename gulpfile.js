@@ -12,7 +12,6 @@ USWDS SASS GULPFILE
 */
 
 const autoprefixer = require("autoprefixer");
-const autoprefixerOptions = require("./node_modules/uswds-gulp/config/browsers");
 const csso = require("postcss-csso");
 const gulp = require("gulp");
 const pkg = require("./node_modules/uswds/package.json");
@@ -79,12 +78,15 @@ gulp.task("copy-uswds-js", () => {
   return gulp.src(`${uswds}/js/**/**`).pipe(gulp.dest(`${JS_DEST}`));
 });
 
-gulp.task("build-sass", function(done) {
+gulp.task("build-sass", function (done) {
   var plugins = [
     // Autoprefix
-    autoprefixer(autoprefixerOptions),
+    autoprefixer({
+      cascade: false,
+      grid: true,
+    }),
     // Minify
-    csso({ forceMediaMerge: false })
+    csso({ forceMediaMerge: false }),
   ];
   return (
     gulp
@@ -95,8 +97,8 @@ gulp.task("build-sass", function(done) {
           includePaths: [
             `${PROJECT_SASS_SRC}`,
             `${uswds}/scss`,
-            `${uswds}/scss/packages`
-          ]
+            `${uswds}/scss/packages`,
+          ],
         })
       )
       .pipe(replace(/\buswds @version\b/g, "based on uswds v" + pkg.version))
@@ -119,7 +121,7 @@ gulp.task(
   )
 );
 
-gulp.task("watch-sass", function() {
+gulp.task("watch-sass", function () {
   gulp.watch(`${PROJECT_SASS_SRC}/**/*.scss`, gulp.series("build-sass"));
 });
 
