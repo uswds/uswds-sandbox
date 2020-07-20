@@ -20,19 +20,19 @@
   },
   "dependencies": {
     "gulp-watch": "^5.0.0",
-    "postcss": "^7.0.26"
+    "postcss": "^7.0.32"
   },
   "devDependencies": {
-    "autoprefixer": "^9.7.4",
+    "autoprefixer": "^9.8.5",
     "gulp": "^4.0.2",
     "gulp-notify": "^3.2.0",
     "gulp-postcss": "^8.0.0",
     "gulp-replace": "^1.0.0",
-    "gulp-sass": "^4.0.2",
+    "gulp-sass": "^4.1.0",
     "gulp-sourcemaps": "^2.6.5",
     "postcss-csso": "^4.0.0",
-    "sass": "^1.25.0",
-    "uswds": "^2.5.0",
+    "sass": "^1.26.10",
+    "uswds": "^2.8.0",
     "uswds-gulp": "github:uswds/uswds-gulp"
   }
 }
