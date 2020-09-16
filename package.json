@@ -4,7 +4,7 @@
   "author": "USWDS",
   "license": "CC0-1.0",
   "scripts": {
-    "federalist": "npm install && npm run uswds-copy-assets && npm run uswds-build-sass",
+    "federalist": "npm install && ./build.sh && npm run uswds-copy-assets && npm run uswds-build-sass",
     "jekyll-install": "gem install bundler && bundle install",
     "serve": "bundle exec jekyll serve --livereload",
     "start": "npm install && npm update uswds && npm run jekyll-install && npm run uswds-copy-assets && npm run uswds-copy-theme && npm run uswds-build-sass",
