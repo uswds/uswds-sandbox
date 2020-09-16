@@ -3,58 +3,143 @@ layout: default
 body: bg-ink
 ---
 
-<section class="grid-container padding-bottom-6">
-  <h1 class="text-white margin-bottom-0">Department of Design</h1>
-  <h2 class="text-white text-light font-sans-xl margin-top-0 text-secondary-light">Suggest a new design standard</h2>
+<section class="usa-banner" aria-label="Official government website">
+  <div class="usa-accordion">
+    <header class="usa-banner__header">
+      <div class="usa-banner__inner">
+        <div class="grid-col-auto">
+          <img class="usa-banner__header-flag" src="{{ site.baseurl }}/assets/uswds/img/us_flag_small.png" alt="U.S. flag">
+        </div>
+        <div class="grid-col-fill tablet:grid-col-auto">
+          <p class="usa-banner__header-text">An official website of the United States government</p>
+          <p class="usa-banner__header-action" aria-hidden="true">Here’s how you know</p>
+        </div>
+        <button class="usa-accordion__button usa-banner__button"
+          aria-expanded="false" aria-controls="gov-banner">
+          <span class="usa-banner__button-text">Here’s how you know</span>
+        </button>
+      </div>
+    </header>
+    <div class="usa-banner__content usa-accordion__content" id="gov-banner">
+      <div class="grid-row grid-gap-lg">
+        <div class="usa-banner__guidance tablet:grid-col-6">
+          <img class="usa-banner__icon usa-media-block__img" src="{{ site.baseurl }}/assets/uswds/img/icon-dot-gov.svg" role="img" alt="Dot gov">
+          <div class="usa-media-block__body">
+            <p>
+              <strong>Official websites use .gov</strong>
+              <br/>
+              A <strong>.gov</strong> website belongs to an official government organization in the United States.
+            </p>
+          </div>
+        </div>
+        <div class="usa-banner__guidance tablet:grid-col-6">
+          <img class="usa-banner__icon usa-media-block__img" src="{{ site.baseurl }}/assets/uswds/img/icon-https.svg" role="img" alt="Https">
+          <div class="usa-media-block__body">
+            <p>
+              <strong>Secure .gov websites use HTTPS</strong>
+              <br/>
+              A <strong>lock</strong> (
+<span class="icon-lock"><svg xmlns="http://www.w3.org/2000/svg" width="52" height="64" viewBox="0 0 52 64" class="usa-banner__lock-image" role="img" aria-labelledby="banner-lock-title banner-lock-description"><title id="banner-lock-title">Lock</title><desc id="banner-lock-description">A locked padlock</desc><path fill="#000000" fill-rule="evenodd" d="M26 0c10.493 0 19 8.507 19 19v9h3a4 4 0 0 1 4 4v28a4 4 0 0 1-4 4H4a4 4 0 0 1-4-4V32a4 4 0 0 1 4-4h3v-9C7 8.507 15.507 0 26 0zm0 8c-5.979 0-10.843 4.77-10.996 10.712L15 19v9h22v-9c0-6.075-4.925-11-11-11z"/></svg></span>
+) or <strong>https://</strong> means you’ve safely connected to the .gov website. Share sensitive information only on official, secure websites.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
 
-  <div class="usa-step-indicator usa-step-indicator--no-labels" aria-label="progress">
+<section class="grid-container padding-bottom-6">
+  <div class="headers">
+    <h1 class="text-white margin-bottom-0">Department of Design and Development</h1>
+    <h2 class="text-white text-light font-sans-xl margin-top-0 text-secondary-light">Suggest a new design token</h2>
+  </div>
+
+  <div class="usa-step-indicator usa-step-indicator--counters" aria-label="progress">
     <ol class="usa-step-indicator__segments">
       <li class="usa-step-indicator__segment usa-step-indicator__segment--complete">
         <span class="usa-step-indicator__segment-label">Personal information <span class="usa-sr-only">completed</span></span>
       </li>
       <li class="usa-step-indicator__segment usa-step-indicator__segment--complete">
-        <span class="usa-step-indicator__segment-label">Household status <span class="usa-sr-only">completed</span></span>
+        <span class="usa-step-indicator__segment-label">Token description <span class="usa-sr-only">completed</span></span>
       </li>
       <li class="usa-step-indicator__segment usa-step-indicator__segment--current" aria-current="true">
-        <span class="usa-step-indicator__segment-label">Supporting documents </span>
+        <span class="usa-step-indicator__segment-label">Supporting documentation</span>
       </li>
       <li class="usa-step-indicator__segment">
         <span class="usa-step-indicator__segment-label">Signature <span class="usa-sr-only">not completed</span></span>
       </li>
       <li class="usa-step-indicator__segment">
+        <span class="usa-step-indicator__segment-label">Finalize <span class="usa-sr-only">not completed</span></span>
+      </li>
+      <!--
+      <li class="usa-step-indicator__segment">
         <span class="usa-step-indicator__segment-label">Review and submit <span class="usa-sr-only">not completed</span></span>
       </li>
+      <li class="usa-step-indicator__segment">
+        <span class="usa-step-indicator__segment-label">Feedback <span class="usa-sr-only">not completed</span></span>
+      </li>
+      -->
     </ol>
     <div class="usa-step-indicator__header">
       <h2 class="usa-step-indicator__heading">
-        <span class="usa-sr-only">Step</span>
-        <span class="usa-step-indicator__current-step">3</span>
-        <span class="usa-step-indicator__total-steps">of 5</span>Supporting documents
+        <span class="usa-step-indicator__heading-counter">
+          <span class="usa-sr-only">Step</span>
+          <span class="usa-step-indicator__current-step">3</span>
+          <span class="usa-step-indicator__total-steps">of 5</span>
+        </span>
+        <span class="usa-step-indicator__heading-text">Supporting documentation</span>
       </h2>
     </div>
   </div>
 
-<div class="padding-2 bg-secondary-lightest radius-lg width-tablet">
-  <h3 class="margin-top-0">Add supporting documents</h3>
-  <div class="usa-form-group">
-    <label class="usa-label" for="file-input-rr">Add research reports in markdown format</label>
-    <input id="file-input-rr"
-      class="usa-file-input"
-      type="file"
-      name="file-input-rr"
-      />
-  </div>
-  <div class="usa-form-group">
-    <label class="usa-label" for="file-input-visual">Add visual design assets in any format available</label>
-    <input id="file-input-visual"
-      class="usa-file-input"
-      type="file"
-      name="file-input-visual"
-      multiple
-      />
+  <div class="padding-x-3 padding-y-5 bg-secondary-lightest radius-lg maxw-tablet">
+    <div class="usa-form-group maxw-mobile">
+      <label class="usa-label margin-top-0" id="appointment-date-label" for="appointment-date">Date of last research session</label>
+      <div class="usa-hint" id="appointment-date-hint">Use mm/dd/yyyy format</div>
+      <div class="usa-date-picker">
+        <input
+          class="usa-input"
+          id="appointment-date"
+          name="appointment-date"
+          type="text"
+          aria-describedby="appointment-date-label appointment-date-hint">
+      </div>
+    </div>
+    <div class="usa-form-group">
+      <label class="usa-label" id="appointment-time-label" for="appointment-time">Approximate time of last research session</label>
+      <div class="usa-hint" id="appointment-time-hint">Use hh:mm format</div>
+      <div class="usa-time-picker">
+        <input class="usa-input" id="appointment-time" name="appointment-time" type="text" aria-describedby="appointment-time-label appointment-time-hint">
+      </div>
+    </div>
+    <div class="usa-form-group">
+      <label class="usa-label" for="file-input-rr">Add research reports in markdown format</label>
+      <input id="file-input-rr"
+        class="usa-file-input"
+        type="file"
+        name="file-input-rr"
+        />
+    </div>
+    <div class="usa-form-group">
+      <label class="usa-label" for="file-input-visual">Add any visual design assets</label>
+      <input id="file-input-visual"
+        class="usa-file-input"
+        type="file"
+        name="file-input-visual"
+        multiple
+        />
+    </div>
   </div>
 
-</div>
+  <ul class="usa-button-group margin-top-3">
+    <li class="usa-button-group__item">
+      <a href="#" class="usa-button usa-button--inverse usa-button--outline">Back</a>
+    </li>
+    <li class="usa-button-group__item">
+      <button class="usa-button">Continue</button>
+    </li>
+  </ul>
 
 </section>
 
@@ -70,8 +155,8 @@ body: bg-ink
             alt="&lt;Parent agency&gt; logo"
             role="img">
         </a></div><div class="usa-identifier__identity" aria-label="Agency description">
-        <p class="usa-identifier__identity-domain">example.gov</p>
-        <p class="usa-identifier__identity-disclaimer">An official website of the <a href="javascript:void(0);">Example Agency</a></p>
+        <p class="usa-identifier__identity-domain">design.usddd.gov</p>
+        <p class="usa-identifier__identity-disclaimer">An official website of the <a href="javascript:void(0);">Department of Design and Development</a></p>
       </div>
     </div>
   </section>
@@ -79,7 +164,7 @@ body: bg-ink
     <div class="usa-identifier__container">
       <ul class="usa-identifier__required-links-list">
         <li class="usa-identifier__required-links-item">
-          <a href="javascript:void(0);" class="usa-identifier__required-link">About USEA</a>
+          <a href="javascript:void(0);" class="usa-identifier__required-link">About USDDD</a>
         </li>
         <li class="usa-identifier__required-links-item">
           <a href="javascript:void(0);"
