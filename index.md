@@ -1,6 +1,62 @@
 ---
 layout: default
+body: bg-ink
 ---
+
+<section class="grid-container padding-bottom-6">
+  <h1 class="text-white margin-bottom-0">Department of Design</h1>
+  <h2 class="text-white text-light font-sans-xl margin-top-0 text-secondary-light">Suggest a new design standard</h2>
+
+  <div class="usa-step-indicator usa-step-indicator--no-labels" aria-label="progress">
+    <ol class="usa-step-indicator__segments">
+      <li class="usa-step-indicator__segment usa-step-indicator__segment--complete">
+        <span class="usa-step-indicator__segment-label">Personal information <span class="usa-sr-only">completed</span></span>
+      </li>
+      <li class="usa-step-indicator__segment usa-step-indicator__segment--complete">
+        <span class="usa-step-indicator__segment-label">Household status <span class="usa-sr-only">completed</span></span>
+      </li>
+      <li class="usa-step-indicator__segment usa-step-indicator__segment--current" aria-current="true">
+        <span class="usa-step-indicator__segment-label">Supporting documents </span>
+      </li>
+      <li class="usa-step-indicator__segment">
+        <span class="usa-step-indicator__segment-label">Signature <span class="usa-sr-only">not completed</span></span>
+      </li>
+      <li class="usa-step-indicator__segment">
+        <span class="usa-step-indicator__segment-label">Review and submit <span class="usa-sr-only">not completed</span></span>
+      </li>
+    </ol>
+    <div class="usa-step-indicator__header">
+      <h2 class="usa-step-indicator__heading">
+        <span class="usa-sr-only">Step</span>
+        <span class="usa-step-indicator__current-step">3</span>
+        <span class="usa-step-indicator__total-steps">of 5</span>Supporting documents
+      </h2>
+    </div>
+  </div>
+
+<div class="padding-2 bg-secondary-lightest radius-lg width-tablet">
+  <h3 class="margin-top-0">Add supporting documents</h3>
+  <div class="usa-form-group">
+    <label class="usa-label" for="file-input-rr">Add research reports in markdown format</label>
+    <input id="file-input-rr"
+      class="usa-file-input"
+      type="file"
+      name="file-input-rr"
+      />
+  </div>
+  <div class="usa-form-group">
+    <label class="usa-label" for="file-input-visual">Add visual design assets in any format available</label>
+    <input id="file-input-visual"
+      class="usa-file-input"
+      type="file"
+      name="file-input-visual"
+      multiple
+      />
+  </div>
+
+</div>
+
+</section>
 
 <div class="usa-identifier">
   <section

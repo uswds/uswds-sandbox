@@ -15,7 +15,7 @@
     "uswds-copy-img": "gulp copy-uswds-images",
     "uswds-copy-js": "gulp copy-uswds-js",
     "uswds-copy-theme": "gulp copy-uswds-setup",
-    "uswds-update": "npm update uswds",
+    "uswds-update": "npm update uswds && ./build.sh",
     "watch": "gulp watch"
   },
   "dependencies": {
