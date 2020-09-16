@@ -49,7 +49,7 @@ body: bg-ink
   <div class="padding-x-3 padding-y-5 bg-secondary-lightest radius-lg maxw-tablet">
     <form class="usa-form maxw-none">
       <div class="usa-form-group maxw-mobile">
-        <label class="usa-label margin-top-0" id="appointment-date-label" for="appointment-date">Date of last research session</label>
+        <label class="usa-label margin-top-0" id="appointment-date-label" for="appointment-date">Token research session date</label>
         <div class="usa-hint" id="appointment-date-hint">Use mm/dd/yyyy format</div>
         <div class="usa-date-picker">
           <input
@@ -61,7 +61,7 @@ body: bg-ink
         </div>
       </div>
       <div class="usa-form-group">
-        <label class="usa-label" id="appointment-time-label" for="appointment-time">Approximate time of last research session</label>
+        <label class="usa-label" id="appointment-time-label" for="appointment-time">Approximate token research session time</label>
         <div class="usa-hint" id="appointment-time-hint">Use hh:mm format</div>
         <div class="usa-time-picker" data-step="60" disabled>
           <input class="usa-input" id="appointment-time" name="appointment-time" type="text" aria-describedby="appointment-time-label appointment-time-hint">
