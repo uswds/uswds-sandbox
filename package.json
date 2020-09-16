@@ -23,7 +23,7 @@
     "postcss": "^7.0.32"
   },
   "devDependencies": {
-    "autoprefixer": "^9.8.5",
+    "autoprefixer": "^9.8.6",
     "gulp": "^4.0.2",
     "gulp-notify": "^3.2.0",
     "gulp-postcss": "^8.0.0",
@@ -32,7 +32,7 @@
     "gulp-sourcemaps": "^2.6.5",
     "postcss-csso": "^4.0.0",
     "sass": "^1.26.10",
-    "uswds": "^2.8.0",
+    "uswds": "github:uswds/uswds#develop",
     "uswds-gulp": "github:uswds/uswds-gulp"
   }
 }
