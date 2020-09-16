@@ -63,7 +63,7 @@ body: bg-ink
       <div class="usa-form-group">
         <label class="usa-label" id="appointment-time-label" for="appointment-time">Approximate token research session time</label>
         <div class="usa-hint" id="appointment-time-hint">Use hh:mm format</div>
-        <div class="usa-time-picker" data-step="60" disabled>
+        <div class="usa-time-picker" data-step="60">
           <input class="usa-input" id="appointment-time" name="appointment-time" type="text" aria-describedby="appointment-time-label appointment-time-hint">
         </div>
       </div>
