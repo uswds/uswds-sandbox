@@ -1,0 +1,21 @@
+// ==========================================================================
+// Overrides
+// ==========================================================================
+// Performs the same function as the `_uswds-theme-*.scss` files.
+// Separated so you can override and update  USWDS easily in the future without
+// having your settings lost. Use the theme files as a reference.
+
+// ==========================================================================
+// Color
+// ==========================================================================
+
+// Primary colors
+$theme-color-primary-family: "blue";
+$theme-color-primary-lightest: #d6e3ec;
+$theme-color-primary-lighter: #b8cfde;
+$theme-color-primary-light: #7aa5c1;
+$theme-color-primary: #3d7ca5;
+$theme-color-primary-vivid: "blue-warm-60v";
+$theme-color-primary-dark: #005288;
+$theme-color-primary-darker: #003e67;
+$theme-color-primary-darkest: #001726;
