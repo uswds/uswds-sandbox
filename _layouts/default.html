@@ -6,7 +6,12 @@
 {% include head.html %}
 
 <body>
-  {{ content }}
+  {% include site-header.html %}
+  <div class="grid-container">
+    {{ content }}
+  </div>
+  {% include site-footer.html %}
+  {% include site-identifier.html %}
   <script src="{{ "/assets/uswds/js/uswds.min.js" | relative_url }}"></script>
 </body>
 </html>
