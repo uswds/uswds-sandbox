@@ -137,14 +137,11 @@ $theme-color-accent-cool-darkest: $c-dhs-light-blue-80;
 // State Palette Colors
 // ==========================================================================
 // Error colors
-$theme-color-error-family: "red-cool-60v";
+
 // Error alert background color.
-$theme-color-error-lighter: $c-dhs-red-10;
-$theme-color-error-light: $c-dhs-red-30;
+$theme-color-error-lighter: $c-dhs-red-05;
 // Error alert border color.
 $theme-color-error: $c-dhs-red;
-$theme-color-error-dark: $c-dhs-red-60;
-$theme-color-error-darker: $c-dhs-red-70;
 
 // Warning colors
 $theme-color-warning-family: "yellow";
@@ -157,9 +154,9 @@ $theme-color-warning-darker: "yellow-50v";
 // Info colors
 
 // Info alert background color.
-$theme-color-info-lighter: $c-dhs-light-blue-10;
+$theme-color-info-lighter: $c-dhs-light-blue-05;
 $theme-color-info-light: $c-dhs-light-blue-20;
-// Error info border color.
+// Info alert border color.
 $theme-color-info: $c-dhs-light-blue;
 $theme-color-info-dark: $c-dhs-light-blue-60;
 $theme-color-info-darker: $c-dhs-light-blue-70;
