@@ -127,7 +127,38 @@ $theme-color-error: $c-dhs-red;
 $theme-color-error-dark: $c-dhs-red-dark;
 $theme-color-error-darker: $c-dhs-red-darker;
 
+// Warning colors
+$theme-color-warning-family: "yellow";
+$theme-color-warning-lighter: "yellow-5";
+$theme-color-warning-light: "yellow-10v";
+$theme-color-warning: "yellow-20v";
+$theme-color-warning-dark: "yellow-30v";
+$theme-color-warning-darker: "yellow-50v";
 
+// Info colors
+$theme-color-info-lighter: $c-dhs-light-blue-lighter;
+$theme-color-info-light: $c-dhs-light-blue-light;
+$theme-color-info: $c-dhs-light-blue;
+$theme-color-info-dark: $c-dhs-light-blue-dark;
+$theme-color-info-darker: $c-dhs-light-blue-darker;
+
+//
+// General Colors
+// ==========================================================================
+// Links
+$theme-link-color: "blue-60v";
+$theme-link-visited-color: "violet-70v";
+$theme-link-hover-color: "blue-70v";
+$theme-link-active-color: "blue-80v";
+$theme-link-reverse-color: "gray-10";
+$theme-link-reverse-hover-color: "gray-5";
+$theme-link-reverse-active-color: "white";
+
+
+// ==========================================================================
+// Typography
+// ==========================================================================
+$theme-global-link-styles: true;
 
 // ==========================================================================
 // Component Overrides
