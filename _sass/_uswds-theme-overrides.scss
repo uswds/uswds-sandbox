@@ -95,6 +95,28 @@ $theme-color-base-darker: $c-dhs-gray-darker;
 $theme-color-base-darkest: $c-dhs-gray-darkest;
 $theme-color-base-ink: "black";
 
+// Secondary colors
+$theme-color-secondary-family: "red-cool-60v";
+$theme-color-secondary-lightest: $c-dhs-red-lightest;
+$theme-color-secondary-lighter: $c-dhs-red-lighter;
+$theme-color-secondary-light: $c-dhs-red-light;
+$theme-color-secondary: $c-dhs-red;
+$theme-color-secondary-vivid: "red-50v";
+$theme-color-secondary-dark: $c-dhs-red-dark;
+$theme-color-secondary-darker: $c-dhs-red-darker;
+$theme-color-secondary-darkest: $c-dhs-red-darkest;
+
+// Accent cool colors
+$theme-color-accent-cool-family: "cyan-50v";
+$theme-color-accent-cool-lightest: $c-dhs-light-blue-lightest;
+$theme-color-accent-cool-lighter: $c-dhs-light-blue-lighter;
+$theme-color-accent-cool-light: $c-dhs-light-blue-light;
+$theme-color-accent-cool: $c-dhs-light-blue;
+$theme-color-accent-cool-dark: $c-dhs-light-blue-dark;
+$theme-color-accent-cool-darker: $c-dhs-light-blue-darker;
+$theme-color-accent-cool-darkest: $c-dhs-light-blue-darkest;
+
+
 
 // ==========================================================================
 // Component Overrides
