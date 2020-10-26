@@ -6,16 +6,81 @@
 // having your settings lost. Use the theme files as a reference.
 
 // ==========================================================================
-// Color
+// Variables
+// ==========================================================================
+
+//
+// Brand colors - Will be used in USWDS theme overrides.
+// ==========================================================================
+
+// Primary
+$c-dhs-blue: #3d7ca5;
+$c-dhs-blue-light: #7aa5c1;
+$c-dhs-blue-lighter: #b8cfde;
+$c-dhs-blue-lightest: #d6e3ec;
+$c-dhs-blue-dark: #005288;
+$c-dhs-blue-darker: #003e67;
+$c-dhs-blue-darkest: #001726;
+
+// Gray
+$c-dhs-gray: #c0c2c4;
+$c-dhs-gray-light: #cfd1d2;
+$c-dhs-gray-lighter: #dedfe0;
+$c-dhs-gray-lightest: #edeeee;
+$c-dhs-gray-dark: #929395;
+$c-dhs-gray-darker: #646566;
+$c-dhs-gray-darkest: #363637;
+
+// Dark gray
+$c-dhs-dark-gray: #e5e5e5;
+$c-dhs-dark-gray-light: #d1d1d2;
+$c-dhs-dark-gray-lighter: #a9aaab;
+$c-dhs-dark-gray-lightest: #828284;
+$c-dhs-dark-gray-dark: #444547;
+$c-dhs-dark-gray-darker: #2f2f30;
+$c-dhs-dark-gray-darkest: #19191a;
+
+// Red
+$c-dhs-red: #c41230;
+$c-dhs-red-light: #d24b62;
+$c-dhs-red-lighter: #e08493;
+$c-dhs-red-lightest: #eebdc5;
+$c-dhs-red-dark: #950e24;
+$c-dhs-red-darker: #660919;
+$c-dhs-red-darkest: #37050d;
+
+// Light blue
+$c-dhs-light-blue: #0078ae;
+$c-dhs-light-blue-light: #3d98c1;
+$c-dhs-light-blue-lighter: #7ab9d5;
+$c-dhs-light-blue-lightest: #b8d9e8;
+$c-dhs-light-blue-dark: #0078ae;
+$c-dhs-light-blue-darker: #005b84;
+$c-dhs-light-blue-darkest: #002231;
+
+// Green
+$c-dhs-green: #5e9732;
+$c-dhs-green-light: #85b063;
+$c-dhs-green-lighter: #abc994;
+$c-dhs-green-lightest: #d2e2c6;
+$c-dhs-green-dark: #477326;
+$c-dhs-green-darker: #314f1a;
+$c-dhs-green-darkest: #1a2a0e;
+
+
+// ==========================================================================
+// Color - Overridden using variables from above.
 // ==========================================================================
 
 // Primary colors
 $theme-color-primary-family: "blue";
-$theme-color-primary-lightest: #d6e3ec;
-$theme-color-primary-lighter: #b8cfde;
-$theme-color-primary-light: #7aa5c1;
-$theme-color-primary: #3d7ca5;
+$theme-color-primary-lightest: $c-dhs-blue-lightest;
+$theme-color-primary-lighter: $c-dhs-blue-lighter;
+$theme-color-primary-light: $c-dhs-blue-light;
+$theme-color-primary: $c-dhs-blue;
 $theme-color-primary-vivid: "blue-warm-60v";
-$theme-color-primary-dark: #005288;
-$theme-color-primary-darker: #003e67;
-$theme-color-primary-darkest: #001726;
+$theme-color-primary-dark: $c-dhs-blue-dark;
+$theme-color-primary-darker: $c-dhs-blue-darker;
+$theme-color-primary-darkest: $c-dhs-blue-darkest;
+
+
