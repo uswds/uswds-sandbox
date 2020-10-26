@@ -14,59 +14,76 @@
 // ==========================================================================
 
 // Primary
+$c-dhs-blue-05: #f5f8fa;
+$c-dhs-blue-10: #d6e3ec;
+$c-dhs-blue-20: #b8cfde;
+$c-dhs-blue-30: #7aa5c1;
+$c-dhs-blue-40: #3d7ca5;
 $c-dhs-blue: #005288;
-$c-dhs-blue-light: #3d7ca5;
-$c-dhs-blue-lighter: #7aa5c1;
-$c-dhs-blue-lightest: #b8cfde;
-$c-dhs-blue-dark: #003e67;
-$c-dhs-blue-darker: #002b47;
-$c-dhs-blue-darkest: #001726;
+$c-dhs-blue-60: #003e67;
+$c-dhs-blue-70: #002b47;
+$c-dhs-blue-80: #001726;
+$c-dhs-blue-90: #000305;
 
 // Gray
+$c-dhs-gray-05: #fcfdfd;
+$c-dhs-gray-10: #f5f5f6;
+$c-dhs-gray-20: #edeeee;
+$c-dhs-gray-30: #dedfe0;
+$c-dhs-gray-40: #cfd1d2;
 $c-dhs-gray: #c0c2c4;
-$c-dhs-gray-light: #cfd1d2;
-$c-dhs-gray-lighter: #dedfe0;
-$c-dhs-gray-lightest: #edeeee;
-$c-dhs-gray-dark: #929395;
-$c-dhs-gray-darker: #646566;
-$c-dhs-gray-darkest: #363637;
+$c-dhs-gray-60: #929395;
+$c-dhs-gray-70: #646566;
+$c-dhs-gray-80: #363637;
+$c-dhs-gray-90: #080808;
 
 // Dark gray
-$c-dhs-dark-gray: #e5e5e5;
-$c-dhs-dark-gray-light: #d1d1d2;
-$c-dhs-dark-gray-lighter: #a9aaab;
-$c-dhs-dark-gray-lightest: #828284;
-$c-dhs-dark-gray-dark: #444547;
-$c-dhs-dark-gray-darker: #2f2f30;
-$c-dhs-dark-gray-darkest: #19191a;
+$c-dhs-dark-gray-05: #f8f8f9;
+$c-dhs-dark-gray-10: #e5e5e5;
+$c-dhs-dark-gray-20: #d1d1d2;
+$c-dhs-dark-gray-30: #a9aaab;
+$c-dhs-dark-gray-40: #828284;
+$c-dhs-dark-gray: #5a5b5d;
+$c-dhs-dark-gray-60: #444547;
+$c-dhs-dark-gray-70: #2f2f30;
+$c-dhs-dark-gray-80: #19191a;
+$c-dhs-dark-gray-90: #040404;
 
 // Red
+$c-dhs-red-05: #fdf6f7;
+$c-dhs-red-10: #f6d9de;
+$c-dhs-red-20: #eebdc5;
+$c-dhs-red-30: #e08493;
+$c-dhs-red-40: #d24b62;
 $c-dhs-red: #c41230;
-$c-dhs-red-light: #d24b62;
-$c-dhs-red-lighter: #e08493;
-$c-dhs-red-lightest: #eebdc5;
-$c-dhs-red-dark: #950e24;
-$c-dhs-red-darker: #660919;
-$c-dhs-red-darkest: #37050d;
+$c-dhs-red-60: #950e24;
+$c-dhs-red-70: #660919;
+$c-dhs-red-80: #37050d;
+$c-dhs-red-90: #080102;
 
 // Light blue
+$c-dhs-light-blue-05: #f5fafc;
+$c-dhs-light-blue-10: #d6e9f2;
+$c-dhs-light-blue-20: #b8d9e8;
+$c-dhs-light-blue-30: #7ab9d5;
+$c-dhs-light-blue-40: #3d98c1;
 $c-dhs-light-blue: #0078ae;
-$c-dhs-light-blue-light: #3d98c1;
-$c-dhs-light-blue-lighter: #7ab9d5;
-$c-dhs-light-blue-lightest: #b8d9e8;
-$c-dhs-light-blue-dark: #0078ae;
-$c-dhs-light-blue-darker: #005b84;
-$c-dhs-light-blue-darkest: #002231;
+$c-dhs-light-blue-60: #005b84;
+$c-dhs-light-blue-70: #003e5a;
+$c-dhs-light-blue-80: #002231;
+$c-dhs-light-blue-90: #000507;
 
 // Green
+$c-dhs-green-05: #f9fbf7;
+$c-dhs-green-10: #e5eede;
+$c-dhs-green-20: #d2e2c6;
+$c-dhs-green-30: #abc994;
+$c-dhs-green-40: #85b063;
 $c-dhs-green: #5e9732;
-$c-dhs-green-light: #85b063;
-$c-dhs-green-lighter: #abc994;
-$c-dhs-green-lightest: #d2e2c6;
-$c-dhs-green-dark: #477326;
-$c-dhs-green-darker: #314f1a;
-$c-dhs-green-darkest: #1a2a0e;
-
+$c-dhs-green-60: #477326;
+$c-dhs-green-70: #314f1a;
+$c-dhs-green-80: #1a2a0e;
+$c-dhs-green-90: #040602;
 
 // ==========================================================================
 // Color
@@ -75,57 +92,59 @@ $c-dhs-green-darkest: #1a2a0e;
 
 // Primary colors
 $theme-color-primary-family: "blue-cool";
-$theme-color-primary-lightest: $c-dhs-blue-lightest;
-$theme-color-primary-lighter: $c-dhs-blue-lighter;
-$theme-color-primary-light: $c-dhs-blue-light;
+$theme-color-primary-lightest: $c-dhs-blue-10;
+$theme-color-primary-lighter: $c-dhs-blue-20;
+$theme-color-primary-light: $c-dhs-blue-40;
 $theme-color-primary: $c-dhs-blue;
 $theme-color-primary-vivid: "blue-60v";
-$theme-color-primary-dark: $c-dhs-blue-dark;
-$theme-color-primary-darker: $c-dhs-blue-darker;
-$theme-color-primary-darkest: $c-dhs-blue-darkest;
+$theme-color-primary-dark: $c-dhs-blue-60;
+$theme-color-primary-darker: $c-dhs-blue-70;
+$theme-color-primary-darkest: $c-dhs-blue-80;
 
 // Base colors aka grays
 $theme-color-base-family: "gray";
-$theme-color-base-lightest: $c-dhs-gray-lightest;
-$theme-color-base-lighter: $c-dhs-gray-lighter;
-$theme-color-base-light: $c-dhs-gray-light;
+$theme-color-base-lightest: $c-dhs-gray-10;
+$theme-color-base-lighter: $c-dhs-gray-20;
+$theme-color-base-light: $c-dhs-gray-30;
 $theme-color-base: $c-dhs-gray;
-$theme-color-base-dark: $c-dhs-gray-dark;
-$theme-color-base-darker: $c-dhs-gray-darker;
-$theme-color-base-darkest: $c-dhs-gray-darkest;
+$theme-color-base-dark: $c-dhs-gray-60;
+$theme-color-base-darker: $c-dhs-gray-70;
+$theme-color-base-darkest: $c-dhs-gray-80;
 $theme-color-base-ink: "black";
 
 // Secondary colors
 $theme-color-secondary-family: "red-cool-60v";
-$theme-color-secondary-lightest: $c-dhs-red-lightest;
-$theme-color-secondary-lighter: $c-dhs-red-lighter;
-$theme-color-secondary-light: $c-dhs-red-light;
+$theme-color-secondary-lightest: $c-dhs-red-10;
+$theme-color-secondary-lighter: $c-dhs-red-20;
+$theme-color-secondary-light: $c-dhs-red-30;
 $theme-color-secondary: $c-dhs-red;
 $theme-color-secondary-vivid: "red-50v";
-$theme-color-secondary-dark: $c-dhs-red-dark;
-$theme-color-secondary-darker: $c-dhs-red-darker;
-$theme-color-secondary-darkest: $c-dhs-red-darkest;
+$theme-color-secondary-dark: $c-dhs-red-60;
+$theme-color-secondary-darker: $c-dhs-red-70;
+$theme-color-secondary-darkest: $c-dhs-red-80;
 
 // Accent cool colors
 $theme-color-accent-cool-family: "cyan-50v";
-$theme-color-accent-cool-lightest: $c-dhs-light-blue-lightest;
-$theme-color-accent-cool-lighter: $c-dhs-light-blue-lighter;
-$theme-color-accent-cool-light: $c-dhs-light-blue-light;
+$theme-color-accent-cool-lightest: $c-dhs-light-blue-10;
+$theme-color-accent-cool-lighter: $c-dhs-light-blue-20;
+$theme-color-accent-cool-light: $c-dhs-light-blue-30;
 $theme-color-accent-cool: $c-dhs-light-blue;
-$theme-color-accent-cool-dark: $c-dhs-light-blue-dark;
-$theme-color-accent-cool-darker: $c-dhs-light-blue-darker;
-$theme-color-accent-cool-darkest: $c-dhs-light-blue-darkest;
+$theme-color-accent-cool-dark: $c-dhs-light-blue-60;
+$theme-color-accent-cool-darker: $c-dhs-light-blue-70;
+$theme-color-accent-cool-darkest: $c-dhs-light-blue-80;
 
 //
 // State Palette Colors
 // ==========================================================================
 // Error colors
 $theme-color-error-family: "red-cool-60v";
-$theme-color-error-lighter: $c-dhs-red-lighter;
-$theme-color-error-light: $c-dhs-red-light;
+// Error alert background color.
+$theme-color-error-lighter: $c-dhs-red-10;
+$theme-color-error-light: $c-dhs-red-30;
+// Error alert border color.
 $theme-color-error: $c-dhs-red;
-$theme-color-error-dark: $c-dhs-red-dark;
-$theme-color-error-darker: $c-dhs-red-darker;
+$theme-color-error-dark: $c-dhs-red-60;
+$theme-color-error-darker: $c-dhs-red-70;
 
 // Warning colors
 $theme-color-warning-family: "yellow";
@@ -136,11 +155,14 @@ $theme-color-warning-dark: "yellow-30v";
 $theme-color-warning-darker: "yellow-50v";
 
 // Info colors
-$theme-color-info-lighter: $c-dhs-light-blue-lighter;
-$theme-color-info-light: $c-dhs-light-blue-light;
+
+// Info alert background color.
+$theme-color-info-lighter: $c-dhs-light-blue-10;
+$theme-color-info-light: $c-dhs-light-blue-20;
+// Error info border color.
 $theme-color-info: $c-dhs-light-blue;
-$theme-color-info-dark: $c-dhs-light-blue-dark;
-$theme-color-info-darker: $c-dhs-light-blue-darker;
+$theme-color-info-dark: $c-dhs-light-blue-60;
+$theme-color-info-darker: $c-dhs-light-blue-70;
 
 //
 // General Colors
@@ -156,17 +178,18 @@ $theme-link-reverse-active-color: "white";
 
 
 // ==========================================================================
+// General Settings - from `_uswds-theme-general.scss`.
+// ==========================================================================
+// Set to `false` when developing.
+$theme-show-notifications: false;
+
+
+// ==========================================================================
 // Typography
 // ==========================================================================
 $theme-global-link-styles: true;
 
-// ==========================================================================
-// Component Overrides
-// ==========================================================================
 
-// Identifier
-// $theme-identifier-font-family: "ui";
-// $theme-identifier-background-color: "base-darkest";
-// $theme-identifier-identity-domain-color: "base-light";
-// $theme-identifier-max-width: "desktop";
-// $theme-identifier-secondary-link-color: "base-light";
+// ==========================================================================
+// Component Overrides - from `_uswds-theme-components.scss`.
+// ==========================================================================
