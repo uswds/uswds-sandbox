@@ -14,12 +14,12 @@
 // ==========================================================================
 
 // Primary
-$c-dhs-blue: #3d7ca5;
-$c-dhs-blue-light: #7aa5c1;
-$c-dhs-blue-lighter: #b8cfde;
-$c-dhs-blue-lightest: #d6e3ec;
-$c-dhs-blue-dark: #005288;
-$c-dhs-blue-darker: #003e67;
+$c-dhs-blue: #005288;
+$c-dhs-blue-light: #3d7ca5;
+$c-dhs-blue-lighter: #7aa5c1;
+$c-dhs-blue-lightest: #b8cfde;
+$c-dhs-blue-dark: #003e67;
+$c-dhs-blue-darker: #002b47;
 $c-dhs-blue-darkest: #001726;
 
 // Gray
@@ -69,18 +69,40 @@ $c-dhs-green-darkest: #1a2a0e;
 
 
 // ==========================================================================
-// Color - Overridden using variables from above.
+// Color
+// Overridden using variables from above. Use `_uswds-theme-color.scss` as a reference.
 // ==========================================================================
 
 // Primary colors
-$theme-color-primary-family: "blue";
+$theme-color-primary-family: "blue-cool";
 $theme-color-primary-lightest: $c-dhs-blue-lightest;
 $theme-color-primary-lighter: $c-dhs-blue-lighter;
 $theme-color-primary-light: $c-dhs-blue-light;
 $theme-color-primary: $c-dhs-blue;
-$theme-color-primary-vivid: "blue-warm-60v";
+$theme-color-primary-vivid: "blue-60v";
 $theme-color-primary-dark: $c-dhs-blue-dark;
 $theme-color-primary-darker: $c-dhs-blue-darker;
 $theme-color-primary-darkest: $c-dhs-blue-darkest;
 
+// Base colors aka grays
+$theme-color-base-family: "gray";
+$theme-color-base-lightest: $c-dhs-gray-lightest;
+$theme-color-base-lighter: $c-dhs-gray-lighter;
+$theme-color-base-light: $c-dhs-gray-light;
+$theme-color-base: $c-dhs-gray;
+$theme-color-base-dark: $c-dhs-gray-dark;
+$theme-color-base-darker: $c-dhs-gray-darker;
+$theme-color-base-darkest: $c-dhs-gray-darkest;
+$theme-color-base-ink: "black";
 
+
+// ==========================================================================
+// Component Overrides
+// ==========================================================================
+
+// Identifier
+// $theme-identifier-font-family: "ui";
+// $theme-identifier-background-color: "base-darkest";
+// $theme-identifier-identity-domain-color: "base-light";
+// $theme-identifier-max-width: "desktop";
+// $theme-identifier-secondary-link-color: "base-light";
