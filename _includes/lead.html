@@ -1,0 +1,3 @@
+{% if include.text != null %}
+  {{ include.text | markdownify | replace: '<p>', '<p class="site-text-intro font-sans-lg">' }}
+{% endif %}
