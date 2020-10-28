@@ -1,0 +1,17 @@
+{% if include.breadcrumb != null %}
+  <ol class="usa-breadcrumb__list margin-bottom-6">
+    {% for item in include.breadcrumb %}
+      {% if item.current != true %}
+        <li class="usa-breadcrumb__list-item">
+          <a href="#" class="usa-breadcrumb__link">
+            <span>{{ item.label }}</span>
+          </a>
+        </li>
+      {% else %}
+        <li class="usa-breadcrumb__list-item usa-current" aria-current="page">
+          <span>{{ item.label }}</span>
+        </li>
+      {% endif %}
+    {% endfor %}
+  </ol>
+{% endif %}

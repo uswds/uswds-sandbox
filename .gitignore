@@ -1,6 +1,5 @@
 _site
-_sass
-assets
+_sass/vendor
 .sass-cache
 .jekyll-metadata
 assets/uswds

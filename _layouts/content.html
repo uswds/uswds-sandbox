@@ -1,0 +1,17 @@
+---
+layout: default
+---
+<div class="usa-section">
+  <div class="grid-container">
+    {% if page.breadcrumb %}
+      {% include breadcrumb.html breadcrumb=page.breadcrumb %}
+    {% endif %}
+    <main class="content__main usa-prose">
+      <h1 id="{{ page.title | slugify }}" class="site-page-title">{{ page.title }}</h1>
+      {% if page.lead %}
+        {% include lead.html text=page.lead %}
+      {% endif %}
+      {{ content }}
+    </main>
+  </div>
+</div>
