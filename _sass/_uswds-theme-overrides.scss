@@ -92,14 +92,14 @@ $c-dhs-green-90: #040602;
 
 // Primary colors
 $theme-color-primary-family: "blue-cool";
-$theme-color-primary-lightest: $c-dhs-blue-10;
-$theme-color-primary-lighter: $c-dhs-blue-20;
-$theme-color-primary-light: $c-dhs-blue-40;
-$theme-color-primary: $c-dhs-blue;
-$theme-color-primary-vivid: "blue-60v";
-$theme-color-primary-dark: $c-dhs-blue-60;
-$theme-color-primary-darker: $c-dhs-blue-70;
-$theme-color-primary-darkest: $c-dhs-blue-80;
+$theme-color-primary-lightest: $c-dhs-light-blue-10;
+$theme-color-primary-lighter: $c-dhs-light-blue-20;
+$theme-color-primary-light: $c-dhs-light-blue-40;
+$theme-color-primary: $c-dhs-light-blue;
+$theme-color-primary-vivid: "cyan-50v";
+$theme-color-primary-dark: $c-dhs-light-blue-60;
+$theme-color-primary-darker: $c-dhs-light-blue-70;
+$theme-color-primary-darkest: $c-dhs-light-blue-80;
 
 // Base colors aka grays
 $theme-color-base-family: "gray";
@@ -124,14 +124,14 @@ $theme-color-secondary-darker: $c-dhs-red-70;
 $theme-color-secondary-darkest: $c-dhs-red-80;
 
 // Accent cool colors
-$theme-color-accent-cool-family: "cyan-50v";
-$theme-color-accent-cool-lightest: $c-dhs-light-blue-10;
-$theme-color-accent-cool-lighter: $c-dhs-light-blue-20;
-$theme-color-accent-cool-light: $c-dhs-light-blue-30;
-$theme-color-accent-cool: $c-dhs-light-blue;
-$theme-color-accent-cool-dark: $c-dhs-light-blue-60;
-$theme-color-accent-cool-darker: $c-dhs-light-blue-70;
-$theme-color-accent-cool-darkest: $c-dhs-light-blue-80;
+$theme-color-accent-cool-family: "blue";
+$theme-color-accent-cool-lightest: $c-dhs-blue-10;
+$theme-color-accent-cool-lighter: $c-dhs-blue-20;
+$theme-color-accent-cool-light: $c-dhs-blue-30;
+$theme-color-accent-cool: $c-dhs-blue;
+$theme-color-accent-cool-dark: $c-dhs-blue-60;
+$theme-color-accent-cool-darker: $c-dhs-blue-70;
+$theme-color-accent-cool-darkest: $c-dhs-blue-80;
 
 //
 // State Palette Colors
@@ -190,4 +190,30 @@ $theme-global-link-styles: true;
 // ==========================================================================
 // Component Overrides - from `_uswds-theme-components.scss`.
 // ==========================================================================
+//
+// The components come with some settings that allow you to easily customize.
+// You can view all of the component settings at https://designsystem.digital.gov/documentation/settings/
+// Click on `type` to get a reference of available options.
+//
+
+//
+// Buttons
+// ==========================================================================
+// https://designsystem.digital.gov/design-tokens/spacing-units/
+$theme-button-border-radius: "sm";
+
+//
+// Identifier
+// ==========================================================================
+
+//
+// Learn more about colors:
+// https://designsystem.digital.gov/design-tokens/color/system-tokens/
+//
+// Uses https://civicactions.github.io/uswds-color-tool/ to find the closest color to `$c-dhs-blue`
 $theme-identifier-background-color: "blue-cool-60v";
+
+//
+// Cards
+// ==========================================================================
+$theme-card-border-radius: "md";
