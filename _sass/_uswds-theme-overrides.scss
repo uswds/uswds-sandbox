@@ -181,7 +181,8 @@ $theme-global-link-styles: true;
 // Component Overrides - from `_uswds-theme-components.scss`.
 // ==========================================================================
 //
-// The components come with some settings that allow you to easily customize.
+// Components come with settings that allow you to easily customize globally.
+// If you need more refined styles per section of your site use custom styles.
 // You can view all of the component settings at https://designsystem.digital.gov/documentation/settings/
 // Click on `type` to get a reference of available options.
 //
@@ -207,3 +208,6 @@ $theme-identifier-background-color: "blue-cool-60v";
 // Cards
 // ==========================================================================
 $theme-card-border-radius: "md";
+// Closest USWDS Color to $c-dhs-dark-gray
+$theme-card-border-color: "gray-60";
+$theme-card-border-width: 1px;
