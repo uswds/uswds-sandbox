@@ -1,0 +1,37 @@
+// ==========================================================================
+// Custom style overrides
+// This file should be imported after your USWDS theme settings overrides.
+// Meant for manually overriding component styles found in:
+// https://github.com/uswds/uswds/tree/develop/src/stylesheets/components
+// ==========================================================================
+
+// ==========================================================================
+// Nav
+// ==========================================================================
+.usa-nav {
+  background-color: $c-dhs-blue;
+  color: color("white");
+
+  &__primary {
+    // Menu links on mobile and desktop
+    > a,
+    button {
+      color: color("white");
+    }
+
+    button[aria-expanded="false"] {
+      @include at-media($theme-header-min-width) {
+        @include add-background-svg("angle-arrow-down-white");
+      }
+    }
+  }
+}
+
+// ==========================================================================
+// Hero
+// ==========================================================================
+.usa-hero {
+  &__callout {
+    background-color: $c-dhs-blue;
+  }
+}
