@@ -13,17 +13,54 @@
   color: color("white");
 
   &__primary {
-    // Menu links on mobile and desktop
-    > a,
-    button {
-      color: color("white");
+
+    // The list containing menu items.
+    &-item {
+      border-top-color: $c-dhs-blue-40;
     }
 
+    // Menu links on mobile and desktop
+    a,
+    button {
+      color: color("white");
+
+      &:hover {
+        color: color("white");
+        background-color: $c-dhs-blue-60;
+      }
+    }
+
+    .usa-current {
+      color: color("white");
+
+      // Border on current link
+      &::after {
+        background-color: currentColor;
+        border-radius: radius(0);
+      }
+    }
+
+    // Main menu buttons
     button[aria-expanded="false"] {
+      // This mixin allows us to define our own path for our custom images.
+      @include add-background-svg("plus-white", "../../img");
+
       @include at-media($theme-header-min-width) {
         @include add-background-svg("angle-arrow-down-white");
       }
     }
+
+    button[aria-expanded="true"] {
+      @include add-background-svg("minus-white", "../../img");
+
+      @include at-media($theme-header-min-width) {
+        @include add-background-svg("angle-arrow-up-white");
+      }
+    }
+  }
+
+  &__submenu-item {
+    border-top-color: $c-dhs-blue-40;
   }
 }
 
