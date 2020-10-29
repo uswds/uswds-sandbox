@@ -1,0 +1,40 @@
+// ==========================================================================
+// Custom non-USWDS Components - Break it out per component if file gets too long.
+// ==========================================================================
+
+// ==========================================================================
+// News List - Seen on homepage
+// ==========================================================================
+.news-list {
+
+  &__meta-item {
+    color: $c-dhs-dark-gray;
+    display: inline-flex;
+  }
+
+  .meta-info__category {
+    font-style: italic;
+
+    a {
+      color: inherit;
+    }
+
+    &::before {
+      content: '\007C';
+      display: inline-flex;
+      // https://designsystem.digital.gov/design-tokens/spacing-units/
+      margin-right: units("05");
+    }
+  }
+
+  &__title {
+    color: $c-dhs-light-blue;
+    margin-top: 0;
+    text-decoration: none;
+
+    a {
+      color: inherit;
+      text-decoration: inherit;
+    }
+  }
+}

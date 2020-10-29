@@ -72,41 +72,51 @@ layout: default
           <section id="news-updates">
             <h2>News &amp; Updates</h2>
             <!-- This would be replaced by the Featured Content component when it gets released. https://github.com/uswds/uswds/issues/3676 -->
-            <ul class="usa-list usa-list--unstyled">
-              <li>
-                <div class="meta">
-                  <div><a href="#">Press Release</a></div>
-                  <time datetime="2020-10-28T12:00:00+01:00">October 28 2020</time>
+            <ul class="usa-list usa-list--unstyled news-list">
+              <li class="news-list__item">
+                <div class="news-list__meta meta-info">
+                  <time class="news-list__meta-item meta-info__date" datetime="2020-10-28T12:00:00+01:00">October 28 2020</time>
+                  <div class="news-list__meta-item meta-info__category">
+                    <a href="#">Press Release</a>
+                  </div>
                 </div>
-                <h3 class="margin-top-0">Joint DHS/EOIR Statement on MPP Rescheduling</h3>
+                <h3 class="news-list__title"><a href="#">Joint DHS/EOIR Statement on MPP Rescheduling</a></h3>
               </li>
-              <li>
-                <div class="meta">
-                  <div><a href="#">Blog</a></div>
-                  <time datetime="2020-10-28T12:00:00+01:00">October 28 2020</time>
+              <li class="news-list__item">
+                <div class="news-list__meta meta-info">
+                  <time class="news-list__meta-item meta-info__date" datetime="2020-10-28T12:00:00+01:00">October 28 2020</time>
+                  <div class="news-list__meta-item meta-info__category">
+                    <a href="#">Blog</a>
+                  </div>
                 </div>
-                <h3 class="margin-top-0">Be Like Mike</h3>
+                <h3 class="news-list__title"><a href="">Be Like Mike</a></h3>
               </li>
-              <li>
-                <div class="meta">
-                  <div><a href="#">Blog</a></div>
-                  <time datetime="2020-10-28T12:00:00+01:00">October 28 2020</time>
+              <li class="news-list__item">
+                <div class="news-list__meta meta-info">
+                  <time class="news-list__meta-item meta-info__date" datetime="2020-10-28T12:00:00+01:00">October 28 2020</time>
+                  <div class="news-list__meta-item meta-info__category">
+                    <a href="#">Blog</a>
+                  </div>
                 </div>
-                <h3 class="margin-top-0">DHS Responds: Ongoing Actions to Respond to the Coronavirus Pandemic</h3>
+                <h3 class="news-list__title"><a href="">DHS Responds: Ongoing Actions to Respond to the Coronavirus Pandemic</a></h3>
               </li>
-              <li>
-                <div class="meta">
-                  <div><a href="#">Press Release</a></div>
-                  <time datetime="2020-10-28T12:00:00+01:00">October 28 2020</time>
+              <li class="news-list__item">
+                <div class="news-list__meta meta-info">
+                  <time class="news-list__meta-item meta-info__date" datetime="2020-10-28T12:00:00+01:00">October 28 2020</time>
+                  <div class="news-list__meta-item meta-info__category">
+                    <a href="#">Press Release</a>
+                  </div>
                 </div>
-                <h3 class="margin-top-0">Acting Secretary Chad Wolf Statement on the REAL ID Enforcement Deadline</h3>
+                <h3 class="news-list__title"><a href="">Acting Secretary Chad Wolf Statement on the REAL ID Enforcement Deadline</a></h3>
               </li>
-              <li>
-                <div class="meta">
-                  <div><a href="#">Press Release</a></div>
-                  <time datetime="2020-10-28T12:00:00+01:00">October 28 2020</time>
+              <li class="news-list__item">
+                <div class="news-list__meta meta-info">
+                  <time class="news-list__meta-item meta-info__date" datetime="2020-10-28T12:00:00+01:00">October 28 2020</time>
+                  <div class="news-list__meta-item meta-info__category">
+                    <a href="#">Press Release</a>
+                  </div>
                 </div>
-                <h3 class="margin-top-0">DHS Initiating Crucial Research to Mitigate COVID-19</h3>
+                <h3 class="news-list__title"><a href="">DHS Initiating Crucial Research to Mitigate COVID-19</a></h3>
               </li>
             </ul>
             <a href="#" class="usa-button">Show me more News & Updates</a>
