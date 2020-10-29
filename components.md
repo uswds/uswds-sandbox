@@ -6,7 +6,7 @@ layout: content--sidebar
 
 ## Typography
 
-## Source Sans Pro
+### Source Sans Pro
 <div class="grid-row grid-gap">
   <div class="tablet:grid-col">
     <p>
@@ -26,7 +26,7 @@ layout: content--sidebar
   </div>
 </div>
 
-## Merriweather
+### Merriweather
 <div class="grid-row grid-gap">
   <div class="tablet:grid-col">
     <p>
