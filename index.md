@@ -2,7 +2,7 @@
 layout: default
 ---
 
-<main>
+<main id="main-content">
   <!--
   Hero
   You'll need to use JS to swap the 1x/2x versions on screen size and DPI.
