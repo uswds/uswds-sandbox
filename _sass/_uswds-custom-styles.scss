@@ -24,10 +24,6 @@
       width: px-to-rem(247px);
     }
   }
-
-  & + .usa-hero {
-    border-top-color: transparent;
-  }
 }
 
 
@@ -131,6 +127,7 @@
 // Hero
 // ==========================================================================
 .usa-hero {
+
   &__callout {
     background-color: $c-dhs-blue;
   }
