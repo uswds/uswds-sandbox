@@ -115,6 +115,9 @@ layout: default
         <div class="tablet:grid-col-5">
           <section id="social-media">
             <h2>Social Media</h2>
+            <div class="usa-embed-container add-aspect-9x16">
+              <a class="twitter-timeline" href="https://twitter.com/DHSgov/lists/dhs-twitter-accounts?ref_src=twsrc%5Etfw"> Tweets from https://twitter.com/DHSgov/lists/dhs-twitter-accounts </a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+            </div>
           </section>
         </div>
       </div>
