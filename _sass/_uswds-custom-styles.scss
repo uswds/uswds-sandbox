@@ -1,9 +1,35 @@
 // ==========================================================================
 // Custom style overrides
 // This file should be imported after your USWDS theme settings overrides.
+// If you don't have a setting available to change, you'd override here.
 // Meant for manually overriding component styles found in:
 // https://github.com/uswds/uswds/tree/develop/src/stylesheets/components
 // ==========================================================================
+
+// ==========================================================================
+// Header
+// ==========================================================================
+.usa-header {
+
+  .usa-logo__text a {
+    @include add-background-svg("DHS_4R_Blue", "../../img");
+    background-size: cover;
+    display: inline-block;
+    // px-to-rem() is a built-in USWDS function.
+    height: px-to-rem(31px);
+    width: px-to-rem(106px);
+
+    @include at-media($theme-header-min-width) {
+      height: px-to-rem(72px);
+      width: px-to-rem(247px);
+    }
+  }
+
+  & + .usa-hero {
+    border-top-color: transparent;
+  }
+}
+
 
 // ==========================================================================
 // Nav
@@ -28,15 +54,29 @@
         color: color("white");
         background-color: $c-dhs-blue-60;
       }
+
+      @include at-media($theme-header-min-width) {
+        &:hover {
+          background-color: transparent;
+        }
+      }
     }
 
+    // Need to override USWDS.
     .usa-current {
       color: color("white");
 
       // Border on current link
       &::after {
-        background-color: currentColor;
+        background-color: currentColor !important;
         border-radius: radius(0);
+      }
+    }
+
+    // The border on the rest of the primary links on desktop hover.
+    .usa-nav__link:hover::after {
+      @include at-media($theme-header-min-width) {
+        background-color: currentColor !important;
       }
     }
 
@@ -46,7 +86,10 @@
       @include add-background-svg("plus-white", "../../img");
 
       @include at-media($theme-header-min-width) {
-        @include add-background-svg("angle-arrow-down-white");
+        &,
+        &:hover {
+          @include add-background-svg("angle-arrow-down-white");
+        }
       }
     }
 
@@ -54,6 +97,7 @@
       @include add-background-svg("minus-white", "../../img");
 
       @include at-media($theme-header-min-width) {
+        background-color: $c-dhs-light-blue-70;
         @include add-background-svg("angle-arrow-up-white");
       }
     }
@@ -63,6 +107,25 @@
     border-top-color: $c-dhs-blue-40;
   }
 }
+
+//
+// Secondary Nav (Search)
+// ==========================================================================
+
+// Remove these if you're adding secondary links.
+.usa-nav__secondary {
+  @include at-media($theme-header-min-width) {
+    bottom: px-to-rem(80);
+    margin-top: 0;
+  }
+
+  .usa-search {
+    @include at-media($theme-header-min-width) {
+      margin-top: 0;
+    }
+  }
+}
+
 
 // ==========================================================================
 // Hero
