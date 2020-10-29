@@ -135,3 +135,33 @@
     background-color: $c-dhs-blue;
   }
 }
+
+// ==========================================================================
+// Cards
+// ==========================================================================
+// Seen on homepage. A card consisting of header on a blue background and media.
+.usa-card-group--primary-bg {
+
+  // Generic styles
+  a {
+    color: color("white");
+    text-decoration: none;
+  }
+
+  // Component elements
+  .usa-card__container {
+    background-color: $c-dhs-blue;
+  }
+
+  // Uses spacing tokens seen here:
+  // https://designsystem.digital.gov/design-tokens/spacing-units/#using-spacing-unit-tokens
+  .usa-card__header {
+    padding-top: units(1);
+    padding-bottom: units(1);
+  }
+
+  .usa-card__heading {
+    font-size: size('body', 'md');
+    text-align: center;
+  }
+}

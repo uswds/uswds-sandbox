@@ -124,8 +124,8 @@ layout: default
   <!-- Cards -->
   <section id="card-articles" class="usa-section">
     <div class="grid-container">
-      <ul class="usa-card-group">
-        <li class="tablet:grid-col-3 usa-card">
+      <ul class="usa-card-group usa-card-group--primary-bg">
+        <li class="tablet:grid-col-6 desktop:grid-col-3 usa-card">
           <div class="usa-card__container">
             <header class="usa-card__header">
               <h2 class="usa-card__heading">
@@ -134,12 +134,15 @@ layout: default
             </header>
             <div class="usa-card__media usa-card__media--exdent">
               <div class="usa-card__img">
+                <!--
+                  You should use responsive images for each breakpoint (mobile, tablet, and desktop). You can easily set these up in Drupal and it will handle responsive images for you.
+                -->
                 <img src="https://picsum.photos/211/150" alt="A placeholder image">
               </div>
             </div>
           </div>
         </li>
-        <li class="tablet:grid-col-3 usa-card">
+        <li class="tablet:grid-col-6 desktop:grid-col-3 usa-card">
           <div class="usa-card__container">
             <header class="usa-card__header">
               <h2 class="usa-card__heading">
@@ -153,7 +156,7 @@ layout: default
             </div>
           </div>
         </li>
-        <li class="tablet:grid-col-3 usa-card">
+        <li class="tablet:grid-col-6 desktop:grid-col-3 usa-card">
           <div class="usa-card__container">
             <header class="usa-card__header">
               <h2 class="usa-card__heading">
@@ -167,7 +170,7 @@ layout: default
             </div>
           </div>
         </li>
-        <li class="tablet:grid-col-3 usa-card">
+        <li class="tablet:grid-col-6 desktop:grid-col-3 usa-card">
           <div class="usa-card__container">
             <header class="usa-card__header">
               <h2 class="usa-card__heading">
