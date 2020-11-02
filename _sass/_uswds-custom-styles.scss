@@ -9,7 +9,7 @@
 // ==========================================================================
 // Header
 // ==========================================================================
-.usa-header {
+.site-header.usa-header {
 
   .usa-logo__text a {
     @include add-background-svg("DHS_4R_Blue", "../../img");
@@ -30,7 +30,7 @@
 // ==========================================================================
 // Nav
 // ==========================================================================
-.usa-nav {
+.site-header .usa-nav {
   background-color: $c-dhs-blue;
   color: color("white");
 
@@ -121,6 +121,51 @@
     }
   }
 }
+
+//
+// Microsite Nav
+// ==========================================================================
+.microsite-header {
+  .usa-navbar {
+    background-image: url('../../img/microsite-banner/18_0314_ST_microsite-banner.png');
+    background-size: 100% 120px;
+    background-repeat: no-repeat;
+    background-position: top center;
+    max-width: none;
+    padding-bottom: px-to-rem(120);
+    padding-left: 0;
+    padding-right: 0;
+
+    @media
+    (-webkit-min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi) {
+      background-image: url('../../img/microsite-banner/18_0314_ST_microsite-banner@2x.png');
+    }
+  }
+
+  .usa-logo {
+    margin: 0;
+  }
+
+  .usa-nav {
+    background-color: color("white");
+  }
+
+  .usa-nav .usa-current {
+
+    // Border on current link
+    &::after {
+      border-radius: radius(0);
+    }
+  }
+
+  .usa-nav__secondary {
+    @include at-media($theme-header-min-width) {
+      bottom: px-to-rem(198);
+    }
+  }
+}
+
 
 
 // ==========================================================================

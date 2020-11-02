@@ -1,7 +1,11 @@
 <nav aria-label="Primary navigation" class="usa-nav">
   <div class="usa-nav__inner">
     <button class="usa-nav__close">
-      <img src="assets/uswds/img/close-white-alt.svg" role="img" alt="close">
+      {% if include.microsite != true %}
+        <img src="assets/uswds/img/close-white-alt.svg" role="img" alt="close">
+      {% else %}
+        <img src="assets/uswds/img/close.svg" role="img" alt="close">
+      {% endif %}
     </button>
     <ul class="usa-nav__primary usa-accordion">
       <li class="usa-nav__primary-item">
