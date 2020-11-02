@@ -3,24 +3,7 @@ layout: default
 ---
 
 <main id="main-content">
-  <!--
-  Hero
-  You'll need to use JS to swap the 1x/2x versions on screen size and DPI.
-  You could also use inline responsive images with some styling applied to make it cover the entire area.
-  -->
-  <section class="usa-hero" aria-label="Introduction" style="background-image: url('assets/img/hero/covid19-1600x900.png');">
-    <div class="grid-container">
-      <div class="usa-hero__callout">
-          <h1 class="usa-hero__heading">
-              <span class="usa-hero__heading--alt">DHS 2020 Homeland Threat Assessment</span>
-          </h1>
-          <p>Report Synthesizes Threat Assessments Across DHS Including Intelligence and Operational Components</p>
-          <a class="usa-button usa-button--outline usa-button--inverse" href="#">
-            Call to action
-          </a>
-      </div>
-    </div>
-  </section>
+  {% include hero.html %}
 
   <!-- Latest news cards -->
   <section id="news" aria-label="Latest news" class="usa-section">
