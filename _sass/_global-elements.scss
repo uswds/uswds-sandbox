@@ -1,0 +1,20 @@
+// ==========================================================================
+// Styling for global page elements - Ex: Figure
+// ==========================================================================
+figure {
+
+  img {
+    display: block;
+  }
+
+  figcaption {
+    // USWDS utility to set family and font-size
+    // https://designsystem.digital.gov/design-tokens/typesetting/font-size/
+    @include u-font-size("ui", "xs");
+    // USWDS utility that adds 16px padding on sides
+    @include u-padding-x(2);
+    background-color: color("base-lightest");
+    padding-top: units(1);
+    padding-bottom: units(1.5);
+  }
+}
