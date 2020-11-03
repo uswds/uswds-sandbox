@@ -6,13 +6,15 @@
 // https://github.com/uswds/uswds/tree/develop/src/stylesheets/components
 // ==========================================================================
 
+$custom-image-dir: "../../img";
+
 // ==========================================================================
 // Header
 // ==========================================================================
 .site-header.usa-header {
 
   .usa-logo__text a {
-    @include add-background-svg("DHS_4R_Blue", "../../img");
+    @include add-background-svg("DHS_4R_Blue", $custom-image-dir);
     background-size: cover;
     display: inline-block;
     // px-to-rem() is a built-in USWDS function.
@@ -79,7 +81,7 @@
     // Main menu buttons
     button[aria-expanded="false"] {
       // This mixin allows us to define our own path for our custom images.
-      @include add-background-svg("plus-white", "../../img");
+      @include add-background-svg("plus-white", $custom-image-dir);
 
       @include at-media($theme-header-min-width) {
         &,
@@ -90,7 +92,7 @@
     }
 
     button[aria-expanded="true"] {
-      @include add-background-svg("minus-white", "../../img");
+      @include add-background-svg("minus-white", $custom-image-dir);
 
       @include at-media($theme-header-min-width) {
         background-color: $c-dhs-light-blue-70;
@@ -206,4 +208,25 @@
     font-size: size('body', 'md');
     text-align: center;
   }
+}
+
+// ==========================================================================
+// Footer
+// ==========================================================================
+
+// Additional social networks
+.usa-social-link--flickr {
+  @include add-background-svg("social-icons/flickr", $custom-image-dir);
+}
+
+.usa-social-link--instagram {
+  @include add-background-svg("social-icons/instagram", $custom-image-dir);
+}
+
+.usa-social-link--linkedin {
+  @include add-background-svg("social-icons/linkedin", $custom-image-dir);
+}
+
+.usa-social-link--email {
+  @include add-background-svg("social-icons/email", $custom-image-dir);
 }
