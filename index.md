@@ -53,56 +53,7 @@ layout: default
       <div class="grid-row grid-gap">
         <div class="tablet:grid-col-7">
           <section id="news-updates">
-            <h2>News &amp; Updates</h2>
-            <!-- This would be replaced by the Featured Content component when it gets released. https://github.com/uswds/uswds/issues/3676 -->
-            <ul class="usa-list usa-list--unstyled news-list">
-              <li class="news-list__item">
-                <div class="news-list__meta meta-info">
-                  <time class="news-list__meta-item meta-info__date" datetime="2020-10-28T12:00:00+01:00">October 28 2020</time>
-                  <div class="news-list__meta-item meta-info__category">
-                    <a href="#">Press Release</a>
-                  </div>
-                </div>
-                <h3 class="news-list__title"><a href="#">Joint DHS/EOIR Statement on MPP Rescheduling</a></h3>
-              </li>
-              <li class="news-list__item">
-                <div class="news-list__meta meta-info">
-                  <time class="news-list__meta-item meta-info__date" datetime="2020-10-28T12:00:00+01:00">October 28 2020</time>
-                  <div class="news-list__meta-item meta-info__category">
-                    <a href="#">Blog</a>
-                  </div>
-                </div>
-                <h3 class="news-list__title"><a href="">Be Like Mike</a></h3>
-              </li>
-              <li class="news-list__item">
-                <div class="news-list__meta meta-info">
-                  <time class="news-list__meta-item meta-info__date" datetime="2020-10-28T12:00:00+01:00">October 28 2020</time>
-                  <div class="news-list__meta-item meta-info__category">
-                    <a href="#">Blog</a>
-                  </div>
-                </div>
-                <h3 class="news-list__title"><a href="">DHS Responds: Ongoing Actions to Respond to the Coronavirus Pandemic</a></h3>
-              </li>
-              <li class="news-list__item">
-                <div class="news-list__meta meta-info">
-                  <time class="news-list__meta-item meta-info__date" datetime="2020-10-28T12:00:00+01:00">October 28 2020</time>
-                  <div class="news-list__meta-item meta-info__category">
-                    <a href="#">Press Release</a>
-                  </div>
-                </div>
-                <h3 class="news-list__title"><a href="">Acting Secretary Chad Wolf Statement on the REAL ID Enforcement Deadline</a></h3>
-              </li>
-              <li class="news-list__item">
-                <div class="news-list__meta meta-info">
-                  <time class="news-list__meta-item meta-info__date" datetime="2020-10-28T12:00:00+01:00">October 28 2020</time>
-                  <div class="news-list__meta-item meta-info__category">
-                    <a href="#">Press Release</a>
-                  </div>
-                </div>
-                <h3 class="news-list__title"><a href="">DHS Initiating Crucial Research to Mitigate COVID-19</a></h3>
-              </li>
-            </ul>
-            <a href="#" class="usa-button">Show me more News & Updates</a>
+            {% include news-and-updates.html %}
           </section>
         </div>
         <div class="tablet:grid-col-5">
@@ -117,70 +68,5 @@ layout: default
     </div>
   </div>
 
-  <!-- Cards -->
-  <section id="card-articles" class="usa-section">
-    <div class="grid-container">
-      <ul class="usa-card-group usa-card-group--primary-bg">
-        <li class="tablet:grid-col-6 desktop:grid-col-3 usa-card">
-          <div class="usa-card__container">
-            <header class="usa-card__header">
-              <h2 class="usa-card__heading">
-                <a href="#">Active Shooter Preparedness</a>
-              </h2>
-            </header>
-            <div class="usa-card__media usa-card__media--exdent">
-              <div class="usa-card__img">
-                <!--
-                  You should use responsive images for each breakpoint (mobile, tablet, and desktop). You can easily set these up in Drupal and it will handle responsive images for you.
-                -->
-                <img src="https://picsum.photos/211/150" alt="A placeholder image">
-              </div>
-            </div>
-          </div>
-        </li>
-        <li class="tablet:grid-col-6 desktop:grid-col-3 usa-card">
-          <div class="usa-card__container">
-            <header class="usa-card__header">
-              <h2 class="usa-card__heading">
-                <a href="#">Coronavirus.gov</a>
-              </h2>
-            </header>
-            <div class="usa-card__media usa-card__media--exdent">
-              <div class="usa-card__img">
-                <img src="https://picsum.photos/211/150" alt="A placeholder image">
-              </div>
-            </div>
-          </div>
-        </li>
-        <li class="tablet:grid-col-6 desktop:grid-col-3 usa-card">
-          <div class="usa-card__container">
-            <header class="usa-card__header">
-              <h2 class="usa-card__heading">
-                <a href="#">Coronavirus.gov</a>
-              </h2>
-            </header>
-            <div class="usa-card__media usa-card__media--exdent">
-              <div class="usa-card__img">
-                <img src="https://picsum.photos/211/150" alt="A placeholder image">
-              </div>
-            </div>
-          </div>
-        </li>
-        <li class="tablet:grid-col-6 desktop:grid-col-3 usa-card">
-          <div class="usa-card__container">
-            <header class="usa-card__header">
-              <h2 class="usa-card__heading">
-                <a href="#">Coronavirus.gov</a>
-              </h2>
-            </header>
-            <div class="usa-card__media usa-card__media--exdent">
-              <div class="usa-card__img">
-                <img src="https://picsum.photos/211/150" alt="A placeholder image">
-              </div>
-            </div>
-          </div>
-        </li>
-      </ul>
-    </div>
-  </section>
+  {% include card-bg-primary.html %}
 </main>
