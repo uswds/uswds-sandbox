@@ -5,7 +5,8 @@ layout: microsite
 <main id="main-content">
   {% include hero.html %}
 
-  <div class="usa-section">
+  {% include card-bg-primary.html %}
+
     <div class="grid-container">
       <h1>test</h1>
     </div>
