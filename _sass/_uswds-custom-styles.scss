@@ -128,16 +128,12 @@ $custom-image-dir: "../../img";
 // Microsite Nav
 // ==========================================================================
 .microsite-header {
-  .usa-navbar {
-    background-image: url('../../img/microsite-banner/18_0314_ST_microsite-banner.png');
-    background-size: 100% 120px;
-    background-repeat: no-repeat;
-    background-position: top center;
-    max-width: none;
-    padding-bottom: px-to-rem(120);
-    padding-left: 0;
-    padding-right: 0;
+  background-image: url('../../img/microsite-banner/20_1104_ST_microsite-banner-text-removed.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top center;
 
+  .usa-navbar {
     @media
     (-webkit-min-device-pixel-ratio: 2),
     (min-resolution: 192dpi) {
@@ -146,7 +142,17 @@ $custom-image-dir: "../../img";
   }
 
   .usa-logo {
-    margin: 0;
+    @include at-media($theme-header-min-width) {
+      @include u-margin-y(5);
+    }
+  }
+
+  .usa-logo__text {
+    color: color("white");
+
+    a {
+      color: inherit;
+    }
   }
 
   .usa-nav {
