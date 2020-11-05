@@ -91,15 +91,15 @@ $c-dhs-green-90: #040602;
 // ==========================================================================
 
 // Primary colors
-$theme-color-primary-family: "blue-cool";
-$theme-color-primary-lightest: $c-dhs-light-blue-10;
-$theme-color-primary-lighter: $c-dhs-light-blue-20;
-$theme-color-primary-light: $c-dhs-light-blue-40;
+$theme-color-primary-family: "blue";
+$theme-color-primary-lightest: "blue-20v";
+$theme-color-primary-lighter: "blue-30v";
+$theme-color-primary-light: "blue-40v";
 $theme-color-primary: $c-dhs-light-blue;
-$theme-color-primary-vivid: "cyan-50v";
-$theme-color-primary-dark: $c-dhs-light-blue-60;
-$theme-color-primary-darker: $c-dhs-light-blue-70;
-$theme-color-primary-darkest: $c-dhs-light-blue-80;
+$theme-color-primary-vivid: "blue-cool-50v";
+$theme-color-primary-dark: "blue-70v";
+$theme-color-primary-darker: "blue-80v";
+$theme-color-primary-darkest: "blue-90";
 
 // Base colors aka grays
 $theme-color-base-family: "gray";
