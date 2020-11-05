@@ -33,14 +33,14 @@ $custom-image-dir: "../../img";
 // Nav
 // ==========================================================================
 .site-header .usa-nav {
-  background-color: $c-dhs-blue;
+  background-color: color($theme-color-primary-dark);
   color: color("white");
 
   &__primary {
 
-    // The list containing menu items.
+    // The list containing menu items. 1st level on mobile.
     &-item {
-      border-top-color: $c-dhs-blue-40;
+      border-top-color: $theme-color-primary;
     }
 
     // Menu links on mobile and desktop
@@ -50,7 +50,7 @@ $custom-image-dir: "../../img";
 
       &:hover {
         color: color("white");
-        background-color: $c-dhs-blue-60;
+        background-color: color($theme-color-primary-vivid);
       }
 
       @include at-media($theme-header-min-width) {
@@ -95,14 +95,25 @@ $custom-image-dir: "../../img";
       @include add-background-svg("minus-white", $custom-image-dir);
 
       @include at-media($theme-header-min-width) {
-        background-color: $c-dhs-light-blue-70;
+        background-color: color($theme-color-primary-vivid);
         @include add-background-svg("angle-arrow-up-white");
       }
     }
   }
 
+  &__submenu {
+    @include at-media($theme-header-min-width) {
+      background-color: color($theme-color-primary-vivid);
+
+      &::before,
+      &::after {
+        background-color: inherit;
+      }
+    }
+  }
+
   &__submenu-item {
-    border-top-color: $c-dhs-blue-40;
+    border-top-color: $theme-color-primary;
   }
 }
 
