@@ -231,6 +231,14 @@ $custom-image-dir: "../../img";
 // Footer
 // ==========================================================================
 .usa-footer {
+  &__contact-heading {
+    color: color($theme-color-primary-vivid);
+
+    a {
+      color: inherit;
+    }
+  }
+
   &__logo-img {
     max-width: px-to-rem(291);
   }
