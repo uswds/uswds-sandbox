@@ -230,6 +230,11 @@ $custom-image-dir: "../../img";
 // ==========================================================================
 // Footer
 // ==========================================================================
+.usa-footer {
+  &__logo-img {
+    max-width: px-to-rem(291);
+  }
+}
 
 // Additional social networks
 .usa-social-link--flickr {
