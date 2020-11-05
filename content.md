@@ -189,3 +189,9 @@ The resources in this section provide useful information related to School and W
       <br>Sponsored by the Rural Domestic Preparedness Consortium, this awareness-level course has been developed to educate rural emergency responders, in particular law enforcement, as well as school administrators and staff on the elements that must be in place to effectively respond to school-based emergencies. This course provides an opportunity for rural law enforcement and school personnel to develop a partnership with regard to school safety through effective collaborative planning, preparedness, communication, and coordination of resources.</p>
   </div>
 </div>
+
+<section class="meta-info meta-info--block" aria-label="Article meta information">
+  <div class="meta-info__body">
+    This page was last updated on 11/05/2020
+  </div>
+</section>

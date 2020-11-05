@@ -38,3 +38,15 @@
     }
   }
 }
+
+// ==========================================================================
+// Meta info - Seen on News & Updates and Block in Content samples
+// ==========================================================================
+.meta-info.meta-info--block {
+  @include u-font-size("ui", "xs");
+  @include u-padding-y(2.5);
+  border-top: 1px solid color("base-lighter");
+  color: color("base-darkest");
+  font-style: italic;
+  margin-top: units(7);
+}
