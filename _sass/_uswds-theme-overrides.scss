@@ -103,14 +103,14 @@ $theme-color-primary-darkest: $c-dhs-light-blue-80;
 
 // Base colors aka grays
 $theme-color-base-family: "gray";
-$theme-color-base-lightest: $c-dhs-gray-10;
-$theme-color-base-lighter: $c-dhs-gray-20;
-$theme-color-base-light: $c-dhs-gray-30;
-$theme-color-base: $c-dhs-gray;
-$theme-color-base-dark: $c-dhs-gray-60;
-$theme-color-base-darker: $c-dhs-gray-70;
-$theme-color-base-darkest: $c-dhs-gray-80;
-$theme-color-base-ink: "black";
+$theme-color-base-lightest: "gray-5";
+$theme-color-base-lighter: "gray-10";
+$theme-color-base-light: "gray-30";
+$theme-color-base: "gray-20";
+$theme-color-base-dark: "gray-60";
+$theme-color-base-darker: "gray-70";
+$theme-color-base-darkest: "gray-90";
+$theme-color-base-ink: "gray-90";
 
 // Secondary colors
 $theme-color-secondary-family: "red-cool-60v";
@@ -204,6 +204,7 @@ $theme-button-border-radius: "sm";
 //
 // Uses https://civicactions.github.io/uswds-color-tool/ to find the closest color to `$c-dhs-blue`
 $theme-identifier-background-color: "blue-cool-60v";
+$theme-identifier-identity-domain-color: "base-lightest";
 
 //
 // Cards

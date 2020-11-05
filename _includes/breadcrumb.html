@@ -1,5 +1,5 @@
 {% if include.breadcrumb != null %}
-  <ol class="usa-breadcrumb__list margin-bottom-6">
+  <ol class="usa-breadcrumb__list margin-bottom-6" aria-label="Breadcrumbs">
     {% for item in include.breadcrumb %}
       {% if item.current != true %}
         <li class="usa-breadcrumb__list-item">

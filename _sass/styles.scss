@@ -73,6 +73,11 @@
 //
 // Custom styles
 // ==========================================================================
+
+// Global element styles
+@import "global-elements";
+
+// Custom USWDS style overrides
 @import "uswds-custom-styles";
 
 // Custom non-USWDS styles

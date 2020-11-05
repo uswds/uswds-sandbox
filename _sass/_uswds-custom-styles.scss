@@ -6,13 +6,15 @@
 // https://github.com/uswds/uswds/tree/develop/src/stylesheets/components
 // ==========================================================================
 
+$custom-image-dir: "../../img";
+
 // ==========================================================================
 // Header
 // ==========================================================================
-.usa-header {
+.site-header.usa-header {
 
   .usa-logo__text a {
-    @include add-background-svg("DHS_4R_Blue", "../../img");
+    @include add-background-svg("DHS_4R_Blue", $custom-image-dir);
     background-size: cover;
     display: inline-block;
     // px-to-rem() is a built-in USWDS function.
@@ -30,7 +32,7 @@
 // ==========================================================================
 // Nav
 // ==========================================================================
-.usa-nav {
+.site-header .usa-nav {
   background-color: $c-dhs-blue;
   color: color("white");
 
@@ -79,7 +81,7 @@
     // Main menu buttons
     button[aria-expanded="false"] {
       // This mixin allows us to define our own path for our custom images.
-      @include add-background-svg("plus-white", "../../img");
+      @include add-background-svg("plus-white", $custom-image-dir);
 
       @include at-media($theme-header-min-width) {
         &,
@@ -90,7 +92,7 @@
     }
 
     button[aria-expanded="true"] {
-      @include add-background-svg("minus-white", "../../img");
+      @include add-background-svg("minus-white", $custom-image-dir);
 
       @include at-media($theme-header-min-width) {
         background-color: $c-dhs-light-blue-70;
@@ -121,6 +123,57 @@
     }
   }
 }
+
+//
+// Microsite Nav
+// ==========================================================================
+.microsite-header {
+  background-image: url('../../img/microsite-banner/20_1104_ST_microsite-banner-text-removed.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top center;
+
+  .usa-navbar {
+    @media
+    (-webkit-min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi) {
+      background-image: url('../../img/microsite-banner/18_0314_ST_microsite-banner@2x.png');
+    }
+  }
+
+  .usa-logo {
+    @include at-media($theme-header-min-width) {
+      @include u-margin-y(5);
+    }
+  }
+
+  .usa-logo__text {
+    color: color("white");
+
+    a {
+      color: inherit;
+    }
+  }
+
+  .usa-nav {
+    background-color: color("white");
+  }
+
+  .usa-nav .usa-current {
+
+    // Border on current link
+    &::after {
+      border-radius: radius(0);
+    }
+  }
+
+  .usa-nav__secondary {
+    @include at-media($theme-header-min-width) {
+      bottom: px-to-rem(198);
+    }
+  }
+}
+
 
 
 // ==========================================================================
@@ -161,4 +214,25 @@
     font-size: size('body', 'md');
     text-align: center;
   }
+}
+
+// ==========================================================================
+// Footer
+// ==========================================================================
+
+// Additional social networks
+.usa-social-link--flickr {
+  @include add-background-svg("social-icons/flickr", $custom-image-dir);
+}
+
+.usa-social-link--instagram {
+  @include add-background-svg("social-icons/instagram", $custom-image-dir);
+}
+
+.usa-social-link--linkedin {
+  @include add-background-svg("social-icons/linkedin", $custom-image-dir);
+}
+
+.usa-social-link--email {
+  @include add-background-svg("social-icons/email", $custom-image-dir);
 }
