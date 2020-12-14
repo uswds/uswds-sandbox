@@ -78,51 +78,57 @@ layout: default
           <div class="bg-white padding-y-3 padding-x-5 border border-base-lighter">
             <h1 class="margin-bottom-0">Create account</h1>
             <form class="usa-form">
-              <fieldset class="usa-fieldset">
-                <legend class="usa-legend margin-top-1">Get started with the Zombie Task Force.</legend>
+
+              <p>Get started with the Zombie Task Force.</p>
+              <!-- <fieldset class="usa-fieldset">
+                <legend class="usa-legend margin-top-1">Get started with the Zombie Task Force.</legend> -->
                 <p>
                   <abbr title="required" class="usa-hint">*</abbr> indicates required field.
                 </p>
-                <label class="usa-label" for="name">Name <abbr title="required" class="usa-hint">*</abbr></label>
-                <input class="usa-input" id="name" name="name" type="text" autocapitalize="off" autocorrect="off" required>
+                <!-- <label class="usa-label" for="name">Name <abbr title="required" class="usa-hint">*</abbr></label>
+                <input class="usa-input" id="name" name="name" type="text" autocapitalize="off" autocorrect="off" required> -->
 
-                <label class="usa-label" for="mobile-phone">Mobile phone <abbr title="required" class="usa-hint">*</abbr></label>
+                <!-- <label class="usa-label" for="mobile-phone">Mobile phone <abbr title="required" class="usa-hint">*</abbr></label>
                 <input class="usa-input" id="mobile-phone" name="mobile-phone" type="text" autocapitalize="off" autocorrect="off" required>
 
                 <label class="usa-label" for="city-state">City/State <abbr title="required" class="usa-hint">*</abbr></label>
-                <input class="usa-input" id="city-state" name="city-state" type="text" autocapitalize="off" autocorrect="off" required>
+                <input class="usa-input" id="city-state" name="city-state" type="text" autocapitalize="off" autocorrect="off" required> -->
 
                 <label class="usa-label" for="email">Email address <abbr title="required" class="usa-hint">*</abbr></label>
                 <input class="usa-input" id="email" name="email" type="email" autocapitalize="off" autocorrect="off" required>
 
-                <p>Self-identify by specialty</p>
-                <div class="usa-radio">
-                  <input class="usa-radio__input usa-radio__input--tile" id="identity-emr-emt-paramedic" type="radio" name="identity-specialty" value="emr-emt-paramedic">
-                  <label class="usa-radio__label" for="identity-emr-emt-paramedic">EMR/EMT/Paramedic</label>
-                </div>
-                <div class="usa-radio">
-                  <input class="usa-radio__input usa-radio__input--tile" id="identity-firefighter" type="radio" name="identity-specialty" value="firefighter">
-                  <label class="usa-radio__label" for="identity-firefighter">Firefighter</label>
-                </div>
-                <div class="usa-radio">
-                  <input class="usa-radio__input usa-radio__input--tile" id="identity-police-officer" type="radio" name="identity-specialty" value="police-officer">
-                  <label class="usa-radio__label" for="identity-police-officer">Police officer</label>
-                </div>
-                <div class="usa-radio">
-                  <input class="usa-radio__input usa-radio__input--tile" id="identity-concerned-citizen" type="radio" name="identity-specialty" value="concerned-citizen">
-                  <label class="usa-radio__label" for="identity-concerned-citizen">Concerned citizen</label>
-                </div>
-
-
-                <!-- <label class="usa-label" for="password-create-account">Create password <abbr title="required" class="usa-hint">*</abbr></label>
+                <label class="usa-label" for="password-create-account">Create password <abbr title="required" class="usa-hint">*</abbr></label>
                 <input class="usa-input" id="password-create-account" name="password" type="password" required>
 
                 <p class="usa-form__note">
                   <a title="Show password" href="javascript:void(0);" class="usa-show-password" aria-controls="password-create-account password-create-account-confirm">Show password</a>
                 </p>
 
-                <label class="usa-label" for="password-create-account-confirm">Re-type password <abbr title="required" class="usa-hint">*</abbr></label>
+                <!-- <label class="usa-label" for="password-create-account-confirm">Re-type password <abbr title="required" class="usa-hint">*</abbr></label>
                 <input class="usa-input" id="password-create-account-confirm" name="password-confirm" type="password" required> -->
+
+                <fieldset class="usa-fieldset margin-top-3 width-full">
+                  <legend class="usa-legend">Self-identify by specialty</legend>
+                  <div class="usa-radio">
+                    <input class="usa-radio__input usa-radio__input--tile" id="identity-emr-emt-paramedic" type="radio" name="identity-specialty" value="emr-emt-paramedic">
+                    <label class="usa-radio__label" for="identity-emr-emt-paramedic">EMR/EMT/Paramedic</label>
+                  </div>
+                  <div class="usa-radio">
+                    <input class="usa-radio__input usa-radio__input--tile" id="identity-firefighter" type="radio" name="identity-specialty" value="firefighter">
+                    <label class="usa-radio__label" for="identity-firefighter">Firefighter</label>
+                  </div>
+                  <div class="usa-radio">
+                    <input class="usa-radio__input usa-radio__input--tile" id="identity-police-officer" type="radio" name="identity-specialty" value="police-officer">
+                    <label class="usa-radio__label" for="identity-police-officer">Police officer</label>
+                  </div>
+                  <div class="usa-radio">
+                    <input class="usa-radio__input usa-radio__input--tile" id="identity-concerned-citizen" type="radio" name="identity-specialty" value="concerned-citizen">
+                    <label class="usa-radio__label" for="identity-concerned-citizen">Concerned citizen</label>
+                  </div>
+                </fieldset>
+
+
+
 
                 <div class="usa-checkbox margin-y-3">
                   <input class="usa-checkbox__input" id="terms-and-conditions" type="checkbox" name="terms-and-conditions" value="terms" required>
@@ -130,7 +136,7 @@ layout: default
                 </div>
 
                 <input class="usa-button" type="submit" value="Create account">
-              </fieldset>
+              <!-- </fieldset> -->
             </form>
           </div>
           <p class="text-center desktop:text-left">Already have an account? <a class="usa-link" href="javascript:void(0);">Sign in</a>.</p>
