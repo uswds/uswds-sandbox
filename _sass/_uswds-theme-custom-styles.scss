@@ -32,16 +32,12 @@ i.e.
 .usa-summary-box {
   margin-top: 1rem !important;
   a:visited {
-    color: color('ink');
+    color: color("ink");
   }
 }
 
 .usa-prose .usa-icon-list {
   margin-top: 1rem !important;
-}
-
-.usa-prose .usa-icon-list__content {
-  padding-top: 0.2em;
 }
 
 .usa-process-list__item::before {
@@ -56,7 +52,8 @@ i.e.
   padding-left: 0 !important;
 }
 
-.usa-label, .usa-legend {
+.usa-label,
+.usa-legend {
   margin-top: 0.5rem !important;
 }
 
