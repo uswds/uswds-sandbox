@@ -19,7 +19,7 @@ const postcss = require("gulp-postcss");
 const replace = require("gulp-replace");
 const sass = require("gulp-sass");
 const sourcemaps = require("gulp-sourcemaps");
-const uswds = require("./node_modules/uswds-gulp/config/uswds");
+const uswds = "./node_modules/uswds/dist";
 
 sass.compiler = require("sass");
 
@@ -46,7 +46,7 @@ const FONTS_DEST = "./assets/uswds/fonts";
 // Javascript destination
 const JS_DEST = "./assets/uswds/js";
 
-// Compiled CSS destination
+// Compiled CSS destinations
 const CSS_DEST = "./assets/uswds/css";
 
 // Site CSS destination
