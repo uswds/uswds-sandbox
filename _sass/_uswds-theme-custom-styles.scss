@@ -26,7 +26,7 @@ i.e.
 }
 
 .usa-hero {
-  background-image: url(/assets/uswds/img/Zombies-banner-2-1024x368.jpg);
+  background-image: url(https://www.nasa.gov/sites/default/files/styles/ubernode_alt_horiz/public/thumbnails/image/stock_empty_la_street_unspalsh.jpg);
 }
 
 .usa-summary-box {
@@ -38,6 +38,10 @@ i.e.
 
 .usa-prose .usa-icon-list {
   margin-top: 1rem !important;
+}
+
+.usa-prose .usa-icon-list__content {
+  padding-top: 0.2em;
 }
 
 .usa-process-list__item::before {
@@ -53,5 +57,9 @@ i.e.
 }
 
 .usa-label, .usa-legend {
-  //margin-top: 0.5rem !important;
+  margin-top: 0.5rem !important;
+}
+
+.usa-table-container--scrollable {
+  margin-bottom: 0 !important;
 }
