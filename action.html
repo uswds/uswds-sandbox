@@ -58,24 +58,24 @@ layout: default
 {% include site-alert.html %}
 
 <div class="usa-overlay"></div>
-<header class="usa-header usa-header--basic">
-  <div class="usa-nav-container">
-    <div class="usa-navbar">
-      <div class="usa-logo" id="basic-logo">
-        <em class="usa-logo__text"><a href="{{ site.baseurl }}/" title="Home" aria-label="Home">Zombie Apocalypse</a></em>
-      </div>
-      <button class="usa-menu-btn">Menu</button>
+<header class="usa-header usa-header--extended">
+  <div class="usa-navbar">
+    <div class="usa-logo" id="extended-logo">
+      <em class="usa-logo__text"><a href="{{ site.baseurl }}/" title="Home" aria-label="Home">Zombie Apocalypse</a></em>
     </div>
-    <nav aria-label="Primary navigation" class="usa-nav">
+    <button class="usa-menu-btn">Menu</button>
+  </div>
+  <nav aria-label="Primary navigation" class="usa-nav">
+    <div class="usa-nav__inner">
       <button class="usa-nav__close">
         <img src="{{ site.baseurl }}/assets/uswds/img/close.svg" role="img" alt="close" />
       </button>
       <ul class="usa-nav__primary usa-accordion">
         <li class="usa-nav__primary-item">
-          <button class="usa-accordion__button usa-nav__link usa-current" aria-expanded="false" aria-controls="basic-nav-section-one">
+          <button class="usa-accordion__button usa-nav__link usa-current" aria-expanded="false" aria-controls="extended-nav-section-one">
             <span>Current section</span>
           </button>
-          <ul id="basic-nav-section-one" class="usa-nav__submenu">
+          <ul id="extended-nav-section-one" class="usa-nav__submenu">
             <li class="usa-nav__submenu-item">
               <a href="#" class=""> Navigation link</a>
             </li>
@@ -88,10 +88,10 @@ layout: default
           </ul>
         </li>
         <li class="usa-nav__primary-item">
-          <button class="usa-accordion__button usa-nav__link" aria-expanded="false" aria-controls="basic-nav-section-two">
+          <button class="usa-accordion__button usa-nav__link" aria-expanded="false" aria-controls="extended-nav-section-two">
             <span>Section</span>
           </button>
-          <ul id="basic-nav-section-two" class="usa-nav__submenu">
+          <ul id="extended-nav-section-two" class="usa-nav__submenu">
             <li class="usa-nav__submenu-item">
               <a href="#" class=""> Navigation link</a>
             </li>
@@ -107,13 +107,23 @@ layout: default
           <a class="usa-nav__link" href="javascript:void(0)"><span>Simple link</span></a>
         </li>
       </ul>
-      <form class="usa-search usa-search--small" role="search">
-        <label class="usa-sr-only" for="basic-search-field-small">Search small</label>
-        <input class="usa-input" id="basic-search-field-small" type="search" name="search" />
-        <button class="usa-button" type="submit"><span class="usa-sr-only">Search</span></button>
-      </form>
-    </nav>
-  </div>
+      <div class="usa-nav__secondary">
+        <ul class="usa-nav__secondary-links">
+          <li class="usa-nav__secondary-item">
+            <a href="signin.html">Sign in</a>
+          </li>
+          <li class="usa-nav__secondary-item">
+            <a href="create-account.html">Join</a>
+          </li>
+        </ul>
+        <form class="usa-search usa-search--small" role="search">
+          <label class="usa-sr-only" for="extended-search-field-small">Search small</label>
+          <input class="usa-input" id="extended-search-field-small" type="search" name="search" />
+          <button class="usa-button" type="submit"><span class="usa-sr-only">Search</span></button>
+        </form>
+      </div>
+    </div>
+  </nav>
 </header>
 
 <div class="usa-section">
