@@ -7,7 +7,7 @@
 ========================================
 ========================================
 ----------------------------------------
-USWDS 2.9.0
+USWDS 2.10.0
 ----------------------------------------
 COMPONENT SETTINGS
 ----------------------------------------
@@ -124,12 +124,6 @@ $theme-process-list-heading-color: "ink";
 $theme-process-list-heading-font-family: "ui";
 $theme-process-list-heading-font-size: "lg";
 
-/* $theme-process-list-counter-background-color: "secondary";
-$theme-process-list-counter-border-width: 0;
-$theme-process-list-counter-text-color: "white";
-$theme-process-list-connector-color: "base-lighter";
-$theme-process-list-connector-width: 2px; */
-
 // Navigation
 $theme-navigation-font-family: "ui";
 $theme-megamenu-columns: 3;
@@ -168,15 +162,9 @@ $theme-summary-box-background-color: "info-lighter";
 $theme-summary-box-border-color: "info-light";
 $theme-summary-box-border-width: 1px;
 $theme-summary-box-border-radius: "md";
-
 $theme-summary-box-font-family: "ui";
 $theme-summary-box-link-color: default;
 $theme-summary-box-text-color: default;
-
-/* $theme-summary-box-background-color: "base-lighter";
-$theme-summary-box-border-width: 0;
-$theme-summary-box-border-radius: 0; */
-
 
 // Table
 $theme-table-border-color: "ink";
