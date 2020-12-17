@@ -20,44 +20,19 @@ i.e.
 ----------------------------------------
 */
 
-.usa-site-alert--emergency,
-.usa-site-alert--emergency .usa-alert {
-  //background-color: color("secondary");
-}
-
 .usa-hero {
-  //background-image: url(https://www.nasa.gov/sites/default/files/styles/ubernode_alt_horiz/public/thumbnails/image/stock_empty_la_street_unspalsh.jpg);
   background-image: url(../../../assets/img/zombie-banner1.jpg);
 }
 
 .usa-summary-box {
   margin-top: 1rem !important;
-  a:visited {
-    color: color("ink");
-  }
 }
 
 .usa-prose .usa-icon-list {
   margin-top: 1rem !important;
 }
 
-.usa-process-list__item::before {
-  line-height: 0.6 !important;
-}
-
-.usa-process-list__item {
-  margin-bottom: -8px !important;
-}
-
-.usa-collection {
-  padding-left: 0 !important;
-}
-
 .usa-label,
 .usa-legend {
-  margin-top: 0.5rem !important;
-}
-
-.usa-table-container--scrollable {
-  margin-bottom: 0 !important;
+  margin-top: units(2);
 }

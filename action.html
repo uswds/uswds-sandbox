@@ -129,7 +129,7 @@ layout: default
 <div class="usa-section">
   <div class="grid-container">
     <div class="grid-row grid-gap">
-      <div class="usa-layout-docs__sidenav desktop:grid-col-3">
+      <!-- <div class="usa-layout-docs__sidenav desktop:grid-col-3">
         <nav aria-label="Secondary navigation">
           <ul class="usa-sidenav">
             <li class="usa-sidenav__item">
@@ -174,9 +174,9 @@ layout: default
             </li>
           </ul>
         </nav>
-      </div>
+      </div> -->
 
-      <main class="usa-layout-docs__main desktop:grid-col-9 usa-prose usa-layout-docs" id="main-content">
+      <main class="usa-layout-docs__main desktop:grid-col-10 usa-prose usa-layout-docs" id="main-content">
         <h1>Preparedness 101: Zombie Preparedness</h1>
         <h3>A brief history of zombies</h3>
         <div class="line-height-sans-3 font-body-2xs">
@@ -189,33 +189,7 @@ layout: default
           <a class="usa-link" href="https://www.amc.com/twdu/the-walking-dead">original work</a>
         </div>
 
-        <div class="usa-summary-box" role="complementary">
-          <div class="usa-summary-box__body">
-            <h3 class="usa-summary-box__heading">Key information</h3>
-            <div class="usa-summary-box__text">
-              <ul class="usa-list">
-                <li>
-                  Know your community’s
-                  <a class="usa-summary-box__link" href="#usa-anchor-emergency-contacts">Emergency Contacts</a>
-                </li>
-                <li>
-                  If you are under a Zombie Preparedness Alert, make an
-                  <a class="usa-summary-box__link" href="#usa-anchor-emergency-plan">Emergency Plan</a>
-                  right away
-                </li>
-                <li>
-                  Gather
-                  <a class="usa-summary-box__link" href="#usa-anchor-emergency-supplies">Emergency Supplies</a>
-                  for your home and your car.
-                </li>
-                <li>
-                  Sign up for your community’s
-                  <a class="usa-summary-box__link" href="#usa-anchor-zombie-preparedness-team">Zombie Preparedness Team</a>.
-                </li>
-              </ul>
-            </div>
-          </div>
-        </div>
+        {% include summary-box.html %}
 
         <p>
           We’ve all seen at least one movie about flesh-eating zombies taking over (my personal
@@ -384,96 +358,10 @@ layout: default
           restored). Below are a few items you should include in your kit.
         </p>
 
-        <a name="usa-anchor-emergency-supplies"></a>
-        <h3>Disaster or blackout emergency supplies</h3>
+        <a name="usa-anchor-emergency-plan"></a>
+        <h3>Emergency plan</h3>
 
-        <ul class="usa-icon-list usa-icon-list--size-4 usa-icon-list--success">
-          <li class="usa-icon-list__item">
-            <div class="usa-icon-list__icon">
-              <svg class="usa-icon bottom-05" aria-hidden="true" role="img">
-                <use xlink:href="{{ site.baseurl }}/dist/img/sprite.svg#check"></use>
-              </svg>
-            </div>
-            <div class="usa-icon-list__content">
-              <strong>Water:</strong> 1 gallon per person per day
-            </div>
-          </li>
-          <li class="usa-icon-list__item">
-            <div class="usa-icon-list__icon">
-              <svg class="usa-icon bottom-05" aria-hidden="true" role="img">
-                <use xlink:href="{{ site.baseurl }}/dist/img/sprite.svg#check"></use>
-              </svg>
-            </div>
-            <div class="usa-icon-list__content">
-              <strong>Food:</strong> stock up on non-perishable items that you eat regularly
-            </div>
-          </li>
-          <li class="usa-icon-list__item">
-            <div class="usa-icon-list__icon">
-              <svg class="usa-icon bottom-05" aria-hidden="true" role="img">
-                <use xlink:href="{{ site.baseurl }}/dist/img/sprite.svg#check"></use>
-              </svg>
-            </div>
-            <div class="usa-icon-list__content">
-              <strong>Medications:</strong> this includes prescription and non-prescription meds
-            </div>
-          </li>
-          <li class="usa-icon-list__item">
-            <div class="usa-icon-list__icon">
-              <svg class="usa-icon bottom-05" aria-hidden="true" role="img">
-                <use xlink:href="{{ site.baseurl }}/dist/img/sprite.svg#check"></use>
-              </svg>
-            </div>
-            <div class="usa-icon-list__content">
-              <strong>Tools and Supplies:</strong> utility knife, duct tape, battery powered radio,
-              etc.
-            </div>
-          </li>
-          <li class="usa-icon-list__item">
-            <div class="usa-icon-list__icon">
-              <svg class="usa-icon bottom-05" aria-hidden="true" role="img">
-                <use xlink:href="{{ site.baseurl }}/dist/img/sprite.svg#check"></use>
-              </svg>
-            </div>
-            <div class="usa-icon-list__content">
-              <strong>Sanitation and Hygiene:</strong> household bleach, soap, towels, etc.
-            </div>
-          </li>
-          <li class="usa-icon-list__item">
-            <div class="usa-icon-list__icon">
-              <svg class="usa-icon bottom-05" aria-hidden="true" role="img">
-                <use xlink:href="{{ site.baseurl }}/dist/img/sprite.svg#check"></use>
-              </svg>
-            </div>
-            <div class="usa-icon-list__content">
-              <strong>Clothing and Bedding:</strong> a change of clothes for each family member and
-              blankets
-            </div>
-          </li>
-          <li class="usa-icon-list__item">
-            <div class="usa-icon-list__icon">
-              <svg class="usa-icon bottom-05" aria-hidden="true" role="img">
-                <use xlink:href="{{ site.baseurl }}/dist/img/sprite.svg#check"></use>
-              </svg>
-            </div>
-            <div class="usa-icon-list__content">
-              <strong>Important documents:</strong> copies of your driver’s license, passport, and
-              birth certificate to name a few
-            </div>
-          </li>
-          <li class="usa-icon-list__item">
-            <div class="usa-icon-list__icon">
-              <svg class="usa-icon bottom-05" aria-hidden="true" role="img">
-                <use xlink:href="{{ site.baseurl }}/dist/img/sprite.svg#check"></use>
-              </svg>
-            </div>
-            <div class="usa-icon-list__content">
-              <strong>First Aid supplies:</strong> although you’re a goner if a zombie bites you,
-              you can use these supplies to treat basic cuts and lacerations that you might get
-              during a tornado or hurricane
-            </div>
-          </li>
-        </ul>
+        {% include process-list.html %}
 
         <p>
           Once you’ve made your emergency kit, you should sit down with your family and come up with
@@ -482,42 +370,10 @@ layout: default
           flood, earthquake, or other emergency.
         </p>
 
-        <a name="usa-anchor-emergency-plan"></a>
-        <h3>Emergency plan</h3>
-        <ol class="usa-process-list">
-          <li class="usa-process-list__item">
-            <p class="margin-top-05">
-              <strong>Identify the types of emergencies that are possible in your area.</strong>
-              Besides zombies, this may include floods, tornadoes, or earthquakes. If you are unsure
-              contact your local Red Cross chapter for more information.
-            </p>
-          </li>
-          <li class="usa-process-list__item">
-            <p>
-              <strong>Pick a meeting place for your family to regroup in case zombies invade your home,
-                or your town evacuates because of a hurricane.</strong>
-              Pick one place right outside your home for sudden emergencies and one place outside of
-              your neighborhood in case you are unable to return home right away.
-            </p>
-          </li>
-          <li class="usa-process-list__item">
-            <p>
-              <strong>Identify your emergency contacts.</strong> Make a list of local contacts like
-              the police, fire department, and your local zombie response team. Also identify an
-              out-of-state contact that you can call during an emergency to let the rest of your
-              family know you are ok.
-            </p>
-          </li>
-          <li class="usa-process-list__item">
-            <p>
-              <strong>Plan your evacuation route.</strong> When zombies are hungry they won’t stop
-              until they get food (i.e., brains), which means you need to get out of town fast! Plan
-              where you would go and multiple routes you would take ahead of time so that the flesh
-              eaters don’t have a chance! This is also helpful when natural disasters strike and you
-              have to take shelter fast.
-            </p>
-          </li>
-        </ol>
+        <a name="usa-anchor-emergency-supplies"></a>
+        <h3>Disaster or blackout emergency supplies</h3>
+
+        {% include icon-list.html %}
 
         <h3>If you need to evacuate</h3>
 
@@ -596,7 +452,7 @@ layout: default
         <small>Source:
           <a class="usa-link" href="https://www.fema.gov/pdf/areyouready/areyouready_full.pdf">Are you ready?</a>
           [PDF - 1 MB] -
-          <svg class="usa-icon position-relative bottom-neg-2px" aria-hidden="true" role="img">
+          <svg class="usa-icon bottom-neg-2px" aria-hidden="true" role="img">
             <use xlink:href="{{ site.baseurl }}/dist/img/sprite.svg#public"></use>
           </svg>
           fema.gov
@@ -631,7 +487,7 @@ layout: default
               </h3>
               <ul class="usa-collection__meta" aria-label="More information">
                 <li class="usa-collection__meta-item position-relative">
-                  <svg class="usa-icon position-relative bottom-neg-2px" aria-hidden="true" role="img">
+                  <svg class="usa-icon bottom-neg-2px" aria-hidden="true" role="img">
                     <use xlink:href="{{ site.baseurl }}/dist/img/sprite.svg#public"></use>
                   </svg>
                   emergency.cdc.gov
@@ -646,7 +502,7 @@ layout: default
               </h3>
               <ul class="usa-collection__meta" aria-label="More information">
                 <li class="usa-collection__meta-item position-relative">
-                  <svg class="usa-icon position-relative bottom-neg-2px" aria-hidden="true" role="img">
+                  <svg class="usa-icon bottom-neg-2px" aria-hidden="true" role="img">
                     <use xlink:href="{{ site.baseurl }}/dist/img/sprite.svg#public"></use>
                   </svg>
                   emergency.cdc.gov
@@ -661,7 +517,7 @@ layout: default
               </h3>
               <ul class="usa-collection__meta" aria-label="More information">
                 <li class="usa-collection__meta-item position-relative">
-                  <svg class="usa-icon position-relative bottom-neg-2px" aria-hidden="true" role="img">
+                  <svg class="usa-icon bottom-neg-2px" aria-hidden="true" role="img">
                     <use xlink:href="{{ site.baseurl }}/dist/img/sprite.svg#public"></use>
                   </svg>
                   cdc.gov
