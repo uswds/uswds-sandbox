@@ -16,7 +16,8 @@
     "uswds-copy-js": "gulp copy-uswds-js",
     "uswds-copy-theme": "gulp copy-uswds-setup",
     "uswds-update": "npm update uswds && ./build.sh",
-    "watch": "gulp watch"
+    "watch": "gulp watch",
+    "test": "snyk test"
   },
   "dependencies": {
     "autoprefixer": "^10.2.0",
@@ -26,12 +27,14 @@
     "gulp-replace": "^1.0.0",
     "gulp-sass": "^4.1.0",
     "gulp-sourcemaps": "^2.6.5",
-    "gulp-watch": "^5.0.0",
+    "gulp-watch": "^5.0.1",
     "postcss": "^8.2.3",
     "postcss-csso": "^5.0.0",
     "sass": "^1.32.2",
     "uswds": "^2.10.0",
     "uswds-gulp": "github:uswds/uswds-gulp"
   },
-  "devDependencies": {}
+  "devDependencies": {
+    "snyk": "^1.437.3"
+  }
 }

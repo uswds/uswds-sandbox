@@ -6,9 +6,6 @@ ignore:
     - gulp-watch > chokidar > fsevents > node-pre-gyp > mkdirp > minimist:
         reason: None given
         expires: '2020-11-12T22:49:04.979Z'
-      mkdirp > minimist:
-        reason: None given
-        expires: '2021-02-06T19:49:18.850Z'
     - sass > chokidar > fsevents > node-pre-gyp > mkdirp > minimist:
         reason: None given
         expires: '2020-11-12T22:49:04.979Z'
@@ -33,6 +30,9 @@ ignore:
     - gulp > glob-watcher > chokidar > fsevents > node-pre-gyp > rc > minimist:
         reason: None given
         expires: '2020-11-12T22:49:04.979Z'
+    - mkdirp > minimist:
+        reason: None given
+        expires: '2021-02-06T19:49:18.850Z'
   SNYK-JS-NODESASS-535498:
     - gulp-sass > node-sass:
         reason: None given
@@ -232,4 +232,8 @@ ignore:
     - gulp-notify > node-notifier:
         reason: None given
         expires: '2021-02-06T19:49:18.856Z'
+  SNYK-JS-YARGSPARSER-560381:
+    - gulp > gulp-cli > yargs > yargs-parser:
+        reason: None given
+        expires: '2021-02-06T20:16:07.820Z'
 patch: {}
