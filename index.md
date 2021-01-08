@@ -1,5 +1,6 @@
 ---
 layout: default
+body:
 ---
 
 <div class="padding-2">

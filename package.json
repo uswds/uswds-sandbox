@@ -4,7 +4,7 @@
   "author": "USWDS",
   "license": "CC0-1.0",
   "scripts": {
-    "federalist": "npm install && npm run uswds-copy-assets && npm run uswds-build-sass",
+    "federalist": "npm install && ./build.sh && npm run uswds-copy-assets && npm run uswds-build-sass",
     "jekyll-install": "gem install bundler && bundle install",
     "serve": "bundle exec jekyll serve --livereload --host=localhost",
     "start": "npm install && npm update uswds && npm run jekyll-install && npm run uswds-copy-assets && npm run uswds-copy-theme && npm run uswds-build-sass",
@@ -15,24 +15,26 @@
     "uswds-copy-img": "gulp copy-uswds-images",
     "uswds-copy-js": "gulp copy-uswds-js",
     "uswds-copy-theme": "gulp copy-uswds-setup",
-    "uswds-update": "npm update uswds",
-    "watch": "gulp watch"
+    "uswds-update": "npm update uswds && ./build.sh",
+    "watch": "gulp watch",
+    "test": "snyk test"
   },
   "dependencies": {
-    "gulp-watch": "^5.0.0",
-    "postcss": "^7.0.32"
-  },
-  "devDependencies": {
-    "autoprefixer": "^9.8.5",
+    "autoprefixer": "^10.2.0",
     "gulp": "^4.0.2",
     "gulp-notify": "^3.2.0",
-    "gulp-postcss": "^8.0.0",
+    "gulp-postcss": "^9.0.0",
     "gulp-replace": "^1.0.0",
     "gulp-sass": "^4.1.0",
     "gulp-sourcemaps": "^2.6.5",
-    "postcss-csso": "^4.0.0",
-    "sass": "^1.26.10",
-    "uswds": "^2.8.0",
+    "gulp-watch": "^5.0.1",
+    "postcss": "^8.2.3",
+    "postcss-csso": "^5.0.0",
+    "sass": "^1.32.2",
+    "uswds": "^2.10.0",
     "uswds-gulp": "github:uswds/uswds-gulp"
+  },
+  "devDependencies": {
+    "snyk": "^1.437.3"
   }
 }
