@@ -8,51 +8,8 @@ layout: default
 {% include header.html %}
 
 <main id="main-content">
-  <section class="usa-hero" aria-label="Introduction">
-    <div class="grid-container">
-      <div class="usa-hero__callout">
-        <h1 class="usa-hero__heading">
-          <span class="usa-hero__heading--alt">Zombies:</span> A call to preparedness
-        </h1>
-        <p>Learn what do you need to do before zombies arrive in your community.</p>
-        <a class="usa-button width-full" href="action.html">Get prepared</a>
-        <a class="usa-button width-full usa-button--accent-warm margin-top-2" href="create-account.html">Join the team</a>
-      </div>
-    </div>
-  </section>
-
-  <section class="grid-container usa-section">
-    <div class="grid-row grid-gap">
-      <div class="tablet:grid-col-4">
-        <h2 class="font-heading-xl margin-top-0 tablet:margin-bottom-0">
-          A real need for the Zombie Preparedness Team
-        </h2>
-      </div>
-      <div class="tablet:grid-col-8 usa-prose">
-        <p>
-          We’ve all seen at least one movie about flesh-eating zombies taking over (my personal
-          favorite is Resident Evil), but where do zombies come from and why do they love eating
-          brains so much? The word zombie comes from Haitian and New Orleans voodoo origins.
-          Although its meaning has changed slightly over the years, it refers to a human corpse
-          mysteriously reanimated to serve the undead. Through ancient voodoo and folk-lore
-          traditions, shows like the Walking Dead were born
-        </p>
-      </div>
-    </div>
-  </section>
-
+  {% include hero.html %}
+  {% include section--home.html %}
   {% include collection.html %}
-
-  <section id="test-section-id" class="usa-section usa-section--dark">
-    <div class="grid-container">
-      <h2 class="font-heading-xl margin-y-0">Zombie Preparedness Team</h2>
-      <p class="usa-intro">
-        If zombies did start roaming the streets, the Zombie Preparedness Team would conduct an
-        investigation much like any other disease outbreak. the Zombie Preparedness Team would
-        provide technical assistance to cities, states, or international partners dealing with a
-        zombie infestation.
-      </p>
-      <a href="action.html" class="usa-button usa-button--big" href="#">Get prepared</a>
-    </div>
-  </section>
+  {% include section--home-cta.html %}
 </main>

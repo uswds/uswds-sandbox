@@ -21,20 +21,25 @@ layout: default
         <div class="grid-col-12 mobile-lg:grid-col-10 tablet:grid-col-8 desktop:grid-col-6 padding-x-205 margin-bottom-4">
           <h1 class="desktop:display-none font-sans-lg margin-bottom-4 tablet:margin-top-neg-3">Get started with the Zombie Preparedness Team.</h1>
           <div class="bg-white padding-y-3 padding-x-5 border border-base-lighter">
-            <h1 class="margin-bottom-0">Create account</h1>
+            <h2 class="margin-bottom-0 font-heading-xl margin-top-0">Create account</h2>
             <form class="usa-form">
 
               <p>Get started with the Zombie Preparedness Team.</p>
               <!-- <fieldset class="usa-fieldset">
                 <legend class="usa-legend margin-top-1">Get started with the Zombie Preparedness Team.</legend> -->
-              <p>
-                <abbr title="required" class="usa-hint">*</abbr> indicates required field.
+              <p>Required fields are marked with an asterisk (<abbr title="required" class="usa-hint usa-hint--required">*</abbr>).
               </p>
+              <label class="usa-label" for="email">Email address <abbr title="required" class="usa-hint usa-hint--required">*</abbr></label>
+              <div class="usa-input-group">
+                  <div class="usa-input-prefix" aria-hidden="true">
+                      <svg aria-hidden="true" role="img" focusable="false" class="usa-icon">
+                          <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="../../dist/img/sprite.svg#mail"></use>
+                      </svg>
+                  </div>
+                <input class="usa-input" id="email" name="email" type="email" autocapitalize="off" autocorrect="off" required>
+              </div>
 
-              <label class="usa-label" for="email">Email address <abbr title="required" class="usa-hint">*</abbr></label>
-              <input class="usa-input" id="email" name="email" type="email" autocapitalize="off" autocorrect="off" required>
-
-              <label class="usa-label" for="password-create-account">Create password <abbr title="required" class="usa-hint">*</abbr></label>
+              <label class="usa-label" for="password-create-account">Create password <abbr title="required" class="usa-hint usa-hint--required">*</abbr></label>
               <input class="usa-input" id="password-create-account" name="password" type="password" required>
 
               <p class="usa-form__note">
@@ -42,7 +47,7 @@ layout: default
               </p>
 
               <fieldset class="usa-fieldset margin-top-3 width-full">
-                <legend class="usa-legend">Self-identify by specialty <abbr title="required" class="usa-hint">*</abbr></legend>
+                <legend class="usa-legend">Self-identify by specialty <abbr title="required" class="usa-hint usa-hint--required">*</abbr></legend>
                 <div class="usa-radio">
                   <input class="usa-radio__input usa-radio__input--tile" id="identity-emr-emt-paramedic" type="radio" name="identity-specialty" value="emr-emt-paramedic">
                   <label class="usa-radio__label" for="identity-emr-emt-paramedic">EMR/EMT/Paramedic</label>
@@ -61,9 +66,30 @@ layout: default
                 </div>
               </fieldset>
 
+              <fieldset class="usa-fieldset width-full">
+                <legend class="usa-legend">Height</legend>
+                <p class="usa-hint margin-top-05">We’ll use this information to help assign you to a vehicle.</p>
+                <div class="grid-row grid-gap-2">
+                  <div class="grid-col-auto">
+                    <label class="usa-label margin-top-0" for="email">Feet</label>
+                    <div class="usa-input-group usa-input-group--sm">
+                      <input type="text" id="example-input-prefix-error" class="usa-input" pattern="[0-9]*" inputmode="numeric">
+                      <div class="usa-input-suffix" aria-hidden="true">ft.</div>
+                    </div>
+                  </div>
+                  <div class="grid-col-auto">
+                    <label class="usa-label margin-top-0" for="email">Inches</label>
+                    <div class="usa-input-group usa-input-group--sm">
+                      <input type="text" id="example-input-prefix-error" class="usa-input" pattern="[0-9]*" inputmode="numeric">
+                      <div class="usa-input-suffix" aria-hidden="true">in.</div>
+                    </div>
+                  </div>
+                </div>
+              </fieldset>
+
               <div class="usa-checkbox margin-y-3">
                 <input class="usa-checkbox__input" id="terms-and-conditions" type="checkbox" name="terms-and-conditions" value="terms" required>
-                <label class="usa-checkbox__label" for="terms-and-conditions">I agree to the <a href="javascript:void()">terms and conditions</a>. <abbr title="required" class="usa-hint">*</abbr></label>
+                <label class="usa-checkbox__label" for="terms-and-conditions">I agree to the <a href="#modal-terms" aria-controls="modal-terms" data-open-modal>terms and conditions</a>. <abbr title="required" class="usa-hint">*</abbr></label>
               </div>
 
               <input class="usa-button" type="submit" value="Create account">
@@ -108,3 +134,32 @@ layout: default
     </section>
   </div>
 </main>
+<div class="usa-modal usa-modal--lg" id="modal-terms" aria-labelledby="modal-terms-heading" aria-describedby="terms-disclaimer">
+  <div class="usa-modal__content">
+    <div class="usa-modal__main">
+      <h2 class="usa-modal__heading" id="modal-terms-heading">
+        Terms and conditions
+      </h2>
+      <div class="usa-prose">
+        <p id="terms-disclaimer"><strong>These terms and conditions are for demonstration purposes only.</strong></p>
+        <p>Each Contributor disclaims any liability in the most ordinary way, to print or display fonts. Program" shall mean the terms of this Agreement more than fifty percent (50%) of the Agreement under which it was received. In addition, after a subsequent version of this license directly with the proviso that the requirements of this Agreement shall be subject to the permissions granted by such Contributor itself or anyone acting on such Source Code version remains available even if the requirements of this License may be sold commercially, and may be distributed only under the GNU Free Documentation License.</p>
+        <p>Furthermore, please note that these licenses do allow commercial uses of your work that is not required to also Redistribute means to provide reliability and stability for the Executable version under a variety of different license.</p>
+      </div>
+      <div class="usa-modal__footer">
+        <ul class="usa-button-group">
+          <li class="usa-button-group__item">
+            <button type="button" class="usa-button" data-close-modal>I read and understand these terms</button>
+          </li>
+          <li class="usa-button-group__item">
+            <button type="button" class="usa-button usa-button--unstyled padding-105 text-center" data-close-modal>Go back</button>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <button class="usa-button usa-modal__close" aria-label="Close this window" data-close-modal>
+      <svg class="usa-icon" aria-hidden="true" focusable="false" role="img">
+        <use xlink:href="../../dist/img/sprite.svg#close"></use>
+      </svg>
+    </button>
+  </div>
+</div>
