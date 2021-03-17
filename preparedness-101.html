@@ -10,53 +10,6 @@ layout: default
 <div class="usa-section">
   <div class="grid-container">
     <div class="grid-row grid-gap">
-      <!-- <div class="usa-layout-docs__sidenav desktop:grid-col-3">
-        <nav aria-label="Secondary navigation">
-          <ul class="usa-sidenav">
-            <li class="usa-sidenav__item">
-              <a href="">Parent link</a>
-            </li>
-            <li class="usa-sidenav__item">
-              <a href="" class="usa-current">Current page</a>
-              <ul class="usa-sidenav__sublist">
-                <li class="usa-sidenav__item">
-                  <a href="">Child link</a>
-                </li>
-                <li class="usa-sidenav__item">
-                  <a href="" class="usa-current">Child link</a>
-                  <ul class="usa-sidenav__sublist">
-                    <li class="usa-sidenav__item">
-                      <a href="">Grandchild link</a>
-                    </li>
-                    <li class="usa-sidenav__item">
-                      <a href="">Grandchild link</a>
-                    </li>
-                    <li class="usa-sidenav__item">
-                      <a href="" class="usa-current">Grandchild link</a>
-                    </li>
-                    <li class="usa-sidenav__item">
-                      <a href="">Grandchild link</a>
-                    </li>
-                  </ul>
-                </li>
-                <li class="usa-sidenav__item">
-                  <a href="">Child link</a>
-                </li>
-                <li class="usa-sidenav__item">
-                  <a href="">Child link</a>
-                </li>
-                <li class="usa-sidenav__item">
-                  <a href="">Child link</a>
-                </li>
-              </ul>
-            </li>
-            <li class="usa-sidenav__item">
-              <a href="">Parent link</a>
-            </li>
-          </ul>
-        </nav>
-      </div> -->
-
       <main class="usa-layout-docs__main desktop:grid-col-10 usa-prose usa-layout-docs" id="main-content">
         <h1>Preparedness 101: Zombie Preparedness</h1>
         <h3>A brief history of zombies</h3>
@@ -67,14 +20,11 @@ layout: default
           is in the
           <a class="usa-link" href="https://wiki.creativecommons.org/Public_domain">Public Domain</a>
           / A derivative from the
-          <a class="usa-link" href="https://www.amc.com/twdu/the-walking-dead">original work</a>
+          <a class="usa-link" href="https://www.amc.com/twdu/the-walking-dead">original work [amc.com]</a>
         </div>
 
         {% include summary-box.html %}
         <a name="usa-anchor-emergency-supplies"></a>
-        <h3>Disaster or blackout emergency supplies</h3>
-        {% include icon-list--lg.html %}
-
         <h3>Introduction</h3>
         <p>We’ve all seen at least one movie about flesh-eating zombies taking over (my personal favorite is Resident Evil), but where do zombies come from and why do they love eating brains so much? The word zombie comes from Haitian and New Orleans voodoo origins. Although its meaning has changed slightly over the years, it refers to a human corpse mysteriously reanimated to serve the undead. Through ancient voodoo and folk-lore traditions, shows like the Walking Dead were born.</p>
 
@@ -201,7 +151,7 @@ layout: default
           <li class="usa-collection__item">
             <div class="usa-collection__body">
               <h3 class="usa-collection__heading">
-                <a class="usa-link" href="https://emergency.cdc.gov/hazards-specific.asp">Learn more about what the Zombie Preparedness Team recommends to prepare for and
+                <a class="usa-link" href="https://emergency.cdc.gov/hazards-specific.asp" aria-describedby="source-1">Learn more about what the Zombie Preparedness Team recommends to prepare for and
                   respond to emergencies of all kinds</a>
               </h3>
               <ul class="usa-collection__meta" aria-label="More information">
@@ -209,7 +159,7 @@ layout: default
                   <svg class="usa-icon bottom-neg-2px" aria-hidden="true" role="img">
                     <use xlink:href="{{ site.baseurl }}/dist/img/sprite.svg#public"></use>
                   </svg>
-                  emergency.cdc.gov
+                  <span id="source-1">emergency.cdc.gov</span>
                 </li>
               </ul>
             </div>
@@ -217,14 +167,14 @@ layout: default
           <li class="usa-collection__item">
             <div class="usa-collection__body">
               <h3 class="usa-collection__heading">
-                <a class="usa-link" href="http://emergency.cdc.gov/">Learn more about how you can prepare for and stay safe during an emergency</a>
+                <a class="usa-link" href="http://emergency.cdc.gov/" aria-label="foo" aria-describedby="source-2">Learn more about how you can prepare for and stay safe during an emergency</a>
               </h3>
               <ul class="usa-collection__meta" aria-label="More information">
                 <li class="usa-collection__meta-item position-relative">
                   <svg class="usa-icon bottom-neg-2px" aria-hidden="true" role="img">
                     <use xlink:href="{{ site.baseurl }}/dist/img/sprite.svg#public"></use>
                   </svg>
-                  emergency.cdc.gov
+                  <span id="source-2">emergency.cdc.gov</span>
                 </li>
               </ul>
             </div>
@@ -232,14 +182,14 @@ layout: default
           <li class="usa-collection__item">
             <div class="usa-collection__body">
               <h3 class="usa-collection__heading">
-                <a class="usa-link" href="https://www.cdc.gov/cpr/zombie/educate-kit.htm">Learn what items you should include in your Emergency Kit</a>
+                <a class="usa-link" href="https://www.cdc.gov/cpr/zombie/educate-kit.htm" aria-describedby="source-3">Learn what items you should include in your Emergency Kit</a>
               </h3>
               <ul class="usa-collection__meta" aria-label="More information">
                 <li class="usa-collection__meta-item position-relative">
                   <svg class="usa-icon bottom-neg-2px" aria-hidden="true" role="img">
                     <use xlink:href="{{ site.baseurl }}/dist/img/sprite.svg#public"></use>
                   </svg>
-                  cdc.gov
+                  <span id="source-3">cdc.gov</span>
                 </li>
               </ul>
             </div>
