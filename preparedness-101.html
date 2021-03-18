@@ -61,78 +61,7 @@ layout: default
         </p>
 
         <h3>If you need to evacuate</h3>
-
-        <div class="border-2px border-base-lighter padding-2 radius-md maxw-tablet">
-          <div class="grid-row grid-gap-lg">
-            <div class="tablet:grid-col">
-              <h3 class="margin-top-0 line-height-sans-2">Do:</h3>
-              <ul class="usa-icon-list usa-icon-list--success">
-                <li class="usa-icon-list__item">
-                  <div class="usa-icon-list__icon">
-                    <svg class="usa-icon" aria-hidden="true" role="img">
-                      <use xlink:href="{{ site.baseurl }}/dist/img/sprite.svg#check_circle"></use>
-                    </svg>
-                  </div>
-                  <div class="usa-icon-list__content">
-                    Keep a full tank of gas in your car if an evacuation seems likely. Gas stations
-                    may be closed during emergencies and unable to pump gas during power outages
-                  </div>
-                </li>
-                <li class="usa-icon-list__item">
-                  <div class="usa-icon-list__icon">
-                    <svg class="usa-icon" aria-hidden="true" role="img">
-                      <use xlink:href="{{ site.baseurl }}/dist/img/sprite.svg#check_circle"></use>
-                    </svg>
-                  </div>
-                  <div class="usa-icon-list__content">Gather your disaster supplies kit</div>
-                </li>
-                <li class="usa-icon-list__item">
-                  <div class="usa-icon-list__icon">
-                    <svg class="usa-icon" aria-hidden="true" role="img">
-                      <use xlink:href="{{ site.baseurl }}/dist/img/sprite.svg#check_circle"></use>
-                    </svg>
-                  </div>
-                  <div class="usa-icon-list__content">Follow recommended evacuation routes</div>
-                </li>
-              </ul>
-            </div>
-            <div class="tablet:grid-col margin-top-4 tablet:margin-top-0">
-              <h3 class="margin-top-0 line-height-sans-2">Do not:</h3>
-              <ul class="usa-icon-list usa-icon-list--error">
-                <li class="usa-icon-list__item">
-                  <div class="usa-icon-list__icon">
-                    <svg class="usa-icon" aria-hidden="true" role="img">
-                      <use xlink:href="{{ site.baseurl }}/dist/img/sprite.svg#cancel"></use>
-                    </svg>
-                  </div>
-                  <div class="usa-icon-list__content">
-                    Delay - gather your family and go if you are instructed to evacuate immediately
-                  </div>
-                </li>
-                <li class="usa-icon-list__item">
-                  <div class="usa-icon-list__icon">
-                    <svg class="usa-icon" aria-hidden="true" role="img">
-                      <use xlink:href="{{ site.baseurl }}/dist/img/sprite.svg#cancel"></use>
-                    </svg>
-                  </div>
-                  <div class="usa-icon-list__content">
-                    Take shortcuts instead of recommended evacuation routes; they may be blocked
-                  </div>
-                </li>
-                <li class="usa-icon-list__item">
-                  <div class="usa-icon-list__icon">
-                    <svg class="usa-icon" aria-hidden="true" role="img">
-                      <use xlink:href="{{ site.baseurl }}/dist/img/sprite.svg#cancel"></use>
-                    </svg>
-                  </div>
-                  <div class="usa-icon-list__content">
-                    Drive into flooded areas or areas with downed power lines.
-                  </div>
-                </li>
-              </ul>
-            </div>
-          </div>
-        </div>
+        {% include icon-list--do-dont.html %}
 
         <small>Source:
           <a class="usa-link" href="https://www.fema.gov/pdf/areyouready/areyouready_full.pdf">Are you ready? [fema.gov; PDF; 1 MB]</a>
