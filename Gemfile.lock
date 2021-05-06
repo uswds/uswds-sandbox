@@ -64,6 +64,7 @@ GEM
     uswds-jekyll (5.2.0)
       jekyll (>= 4.0, < 5)
       jekyll-autoprefixer
+    webrick (1.7.0)
 
 PLATFORMS
   ruby
@@ -72,6 +73,7 @@ PLATFORMS
 DEPENDENCIES
   jekyll (>= 4.0.0)
   uswds-jekyll (~> 5.2)
+  webrick (~> 1.7)
 
 BUNDLED WITH
    2.2.4
