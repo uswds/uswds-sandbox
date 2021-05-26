@@ -28,7 +28,7 @@
     "gulp-sass": "^4.1.0",
     "gulp-sourcemaps": "^2.6.5",
     "gulp-watch": "^5.0.1",
-    "postcss": "^8.2.3",
+    "postcss": "^8.2.10",
     "postcss-csso": "^5.0.0",
     "sass": "^1.32.2",
     "uswds": "^2.10.0",
