@@ -1,5 +1,5 @@
 # Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
-version: v1.14.1
+version: v1.22.1
 # ignores vulnerabilities until expiry date; change duration by modifying expiry date
 ignore:
   SNYK-JS-MINIMIST-559764:
@@ -236,4 +236,28 @@ ignore:
     - gulp > gulp-cli > yargs > yargs-parser:
         reason: None given
         expires: '2021-02-06T20:16:07.820Z'
+  SNYK-JS-COPYPROPS-1082870:
+    - gulp > gulp-cli > copy-props:
+        reason: No update available.
+        expires: '2021-10-09T20:07:47.173Z'
+  SNYK-JS-PATHPARSE-1077067:
+    - gulp > gulp-cli > liftoff > resolve > path-parse:
+        reason: No update available.
+        expires: '2021-10-09T20:07:47.173Z'
+    - gulp > gulp-cli > matchdep > resolve > path-parse:
+        reason: No update available.
+        expires: '2021-10-09T20:07:47.173Z'
+    - gulp > gulp-cli > liftoff > rechoir > resolve > path-parse:
+        reason: No update available.
+        expires: '2021-10-09T20:07:47.173Z'
+    - gulp > gulp-cli > yargs > read-pkg-up > read-pkg > normalize-package-data > resolve > path-parse:
+        reason: No update available.
+        expires: '2021-10-09T20:07:47.173Z'
+  SNYK-JS-GLOBPARENT-1016905:
+    - gulp > glob-watcher > chokidar > glob-parent:
+        reason: No update available.
+        expires: '2021-10-09T20:07:47.173Z'
+    - gulp > vinyl-fs > glob-stream > glob-parent:
+        reason: No update available.
+        expires: '2021-10-09T20:07:47.173Z'
 patch: {}
