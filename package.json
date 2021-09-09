@@ -20,21 +20,21 @@
     "test": "snyk test"
   },
   "dependencies": {
-    "autoprefixer": "^10.2.0",
+    "autoprefixer": "^10.3.4",
     "gulp": "^4.0.2",
     "gulp-notify": "^3.2.0",
-    "gulp-postcss": "^9.0.0",
-    "gulp-replace": "^1.0.0",
-    "gulp-sass": "^4.1.0",
+    "gulp-postcss": "^9.0.1",
+    "gulp-replace": "^1.1.3",
+    "gulp-sass": "^4.1.1",
     "gulp-sourcemaps": "^2.6.5",
     "gulp-watch": "^5.0.1",
-    "postcss": "^8.2.10",
-    "postcss-csso": "^5.0.0",
-    "sass": "^1.32.2",
-    "uswds": "^2.10.0",
+    "postcss": "^8.3.6",
+    "postcss-csso": "^5.0.1",
+    "sass": "^1.39.0",
+    "uswds": "^2.12.1",
     "uswds-gulp": "github:uswds/uswds-gulp"
   },
   "devDependencies": {
-    "snyk": "^1.521.0"
+    "snyk": "^1.704.0"
   }
 }
