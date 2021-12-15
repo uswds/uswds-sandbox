@@ -4,9 +4,14 @@
 <!doctype html>
 <html lang="en">
 {% include head.html %}
-
-<body class="{{ page.body }}">
-  {{ content }}
-  <script src="{{ "/assets/js/uswds.min.js" | relative_url }}"></script>
-</body>
+  <body class="{{ page.body }}">
+    <!-- {% include banner.html %} -->
+    <main id="main-content">
+      <div class="grid-container usa-prose padding-y-3">
+        {{ content }}
+      </div>
+    </main>
+    <!-- {% include identifier.html %} -->
+    <script src="{{ "/assets/js/uswds.min.js" | relative_url }}"></script>
+  </body>
 </html>

@@ -1,24 +1,5 @@
-# uswds-sandbox
-Jekyll site for testing new functionality currently under development
+# Rapid web prototyping with the U.S. Web Design System
 
-## Requirements
-- Node v16
-- Ruby v3.0.2
+The purpose of this project is share guidance and resources for rapid prototyping with USWDS in connection with the [USWDS Monthly Call for December 2021](https://digital.gov/event/2021/12/16/uswds-monthly-call-december-2021/).
 
-## Running code locally
-After cloning the repo, navigate to the correct folder and install USWDS, Jekyll, and any necessary dependencies using:
-```
-npm start
-```
-Then, to run the site locally:
-```
-npm run serve
-```
-If all goes well, visit the site at http://localhost:4000.
-
-USWDS assets are in `assets/uswds/fonts` and `assets/uswds/img`.
-
-SASS files are kept in the `/_sass` directory. To watch for changes and recompile the styles, run:
-```
-npm run watch
-```
+🔗 [**View the live site**](TK)
