@@ -8,110 +8,24 @@
         <div class="tablet:grid-col-8">
           <nav class="usa-footer__nav" aria-label="Footer navigation,,">
             <div class="grid-row grid-gap-4">
+              {% for item in site.data.nav.primary %}
               <div class="mobile-lg:grid-col-6 desktop:grid-col-3">
                 <section
                   class="usa-footer__primary-content usa-footer__primary-content--collapsible"
                 >
-                  <h4 class="usa-footer__primary-link">&lt;Primary link&gt;</h4>
+                  <h4 class="usa-footer__primary-link">{{ item.name }}</h4>
+                  {% if item.contents %}
                   <ul class="usa-list usa-list--unstyled">
+                    {% for subsection in item.contents %}
                     <li class="usa-footer__secondary-link">
-                      <a href="javascript:void(0);"> &lt;Secondary link&gt; </a>
+                      <a href="javascript:void(0);">{{ subsection }}</a>
                     </li>
-
-                    <li class="usa-footer__secondary-link">
-                      <a href="javascript:void(0);"> &lt;Secondary link&gt; </a>
-                    </li>
-
-                    <li class="usa-footer__secondary-link">
-                      <a href="javascript:void(0);">
-                        &lt;Secondary link that&#39;s a bit longer than most of
-                        the others&gt;
-                      </a>
-                    </li>
-
-                    <li class="usa-footer__secondary-link">
-                      <a href="javascript:void(0);"> &lt;Secondary link&gt; </a>
-                    </li>
+                    {% endfor %}
                   </ul>
+                  {% endif %}
                 </section>
               </div>
-
-              <div class="mobile-lg:grid-col-6 desktop:grid-col-3">
-                <section
-                  class="usa-footer__primary-content usa-footer__primary-content--collapsible"
-                >
-                  <h4 class="usa-footer__primary-link">&lt;Primary link&gt;</h4>
-                  <ul class="usa-list usa-list--unstyled">
-                    <li class="usa-footer__secondary-link">
-                      <a href="javascript:void(0);"> &lt;Secondary link&gt; </a>
-                    </li>
-
-                    <li class="usa-footer__secondary-link">
-                      <a href="javascript:void(0);">
-                        &lt;Secondary link that&#39;s pretty long&gt;
-                      </a>
-                    </li>
-
-                    <li class="usa-footer__secondary-link">
-                      <a href="javascript:void(0);"> &lt;Secondary link&gt; </a>
-                    </li>
-
-                    <li class="usa-footer__secondary-link">
-                      <a href="javascript:void(0);"> &lt;Secondary link&gt; </a>
-                    </li>
-                  </ul>
-                </section>
-              </div>
-
-              <div class="mobile-lg:grid-col-6 desktop:grid-col-3">
-                <section
-                  class="usa-footer__primary-content usa-footer__primary-content--collapsible"
-                >
-                  <h4 class="usa-footer__primary-link">&lt;Primary link&gt;</h4>
-                  <ul class="usa-list usa-list--unstyled">
-                    <li class="usa-footer__secondary-link">
-                      <a href="javascript:void(0);"> &lt;Secondary link&gt; </a>
-                    </li>
-
-                    <li class="usa-footer__secondary-link">
-                      <a href="javascript:void(0);"> &lt;Secondary link&gt; </a>
-                    </li>
-
-                    <li class="usa-footer__secondary-link">
-                      <a href="javascript:void(0);"> &lt;Secondary link&gt; </a>
-                    </li>
-
-                    <li class="usa-footer__secondary-link">
-                      <a href="javascript:void(0);"> &lt;Secondary link&gt; </a>
-                    </li>
-                  </ul>
-                </section>
-              </div>
-
-              <div class="mobile-lg:grid-col-6 desktop:grid-col-3">
-                <section
-                  class="usa-footer__primary-content usa-footer__primary-content--collapsible"
-                >
-                  <h4 class="usa-footer__primary-link">&lt;Primary link&gt;</h4>
-                  <ul class="usa-list usa-list--unstyled">
-                    <li class="usa-footer__secondary-link">
-                      <a href="javascript:void(0);"> &lt;Secondary link&gt; </a>
-                    </li>
-
-                    <li class="usa-footer__secondary-link">
-                      <a href="javascript:void(0);"> &lt;Secondary link&gt; </a>
-                    </li>
-
-                    <li class="usa-footer__secondary-link">
-                      <a href="javascript:void(0);"> &lt;Secondary link&gt; </a>
-                    </li>
-
-                    <li class="usa-footer__secondary-link">
-                      <a href="javascript:void(0);"> &lt;Secondary link&gt; </a>
-                    </li>
-                  </ul>
-                </section>
-              </div>
+              {% endfor %}
             </div>
           </nav>
         </div>
@@ -144,7 +58,7 @@
             />
           </div>
           <div class="mobile-lg:grid-col-auto">
-            <p class="usa-footer__logo-heading">&lt;Name of Agency&gt;</p>
+            <p class="usa-footer__logo-heading">{{ site.data.meta.project.agency }}</p>
           </div>
         </div>
         <div class="usa-footer__contact-links mobile-lg:grid-col-6">
