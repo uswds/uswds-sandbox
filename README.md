@@ -1,5 +1,5 @@
 # USWDS Sandbox
-A Jekyll site for rapid web prototyping and testing new work with USWDS. This site is designed to run locally and on Federalist, if you have a [Federalist account](https://federalist.18f.gov).
+A Jekyll site for rapid web prototyping and testing new work with USWDS. This site is designed to run locally and on [Federalist](https://federalist.18f.gov).
 
 ## Requirements
 - Node v16
