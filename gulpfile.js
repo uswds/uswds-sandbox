@@ -40,21 +40,21 @@ PATHS
 const PROJECT_SASS_SRC = "./_sass";
 
 // Images destination
-const IMG_DEST = "./assets/uswds/img";
+const IMG_DEST = "./assets/img";
 
 // Fonts destination
-const FONTS_DEST = "./assets/uswds/fonts";
+const FONTS_DEST = "./assets/fonts";
 
 // Javascript destination
-const JS_DEST = "./assets/uswds/js";
+const JS_DEST = "./assets/js";
 
 // Compiled CSS destination
-const CSS_DEST = "./assets/uswds/css";
+const CSS_DEST = "./assets/css";
 
 // Site CSS destination
 // Like the _site/assets/css directory in Jekyll, if necessary.
 // If using, uncomment line 106
-const SITE_CSS_DEST = "./_site/assets/uswds/css";
+const SITE_CSS_DEST = "./_site/assets/css";
 
 /*
 ----------------------------------------
