@@ -36,6 +36,7 @@
     "uswds-gulp": "github:uswds/uswds-gulp"
   },
   "devDependencies": {
+    "nth-check": "^2.0.1",
     "snyk": "^1.704.0"
   }
 }
