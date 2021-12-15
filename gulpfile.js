@@ -18,16 +18,21 @@ uswds.settings.version = 3;
 uswds.paths.dist.theme = "./src/_styles";
 
 // Images destination
-uswds.paths.dist.img = "./src/assets/img";
+const IMG_DEST = "./assets/img";
 
 // Fonts destination
-uswds.paths.dist.fonts = "./src/assets/fonts";
+const FONTS_DEST = "./assets/fonts";
 
 // Javascript destination
-uswds.paths.dist.js = "./src/assets/js";
+const JS_DEST = "./assets/js";
 
 // Compiled CSS destination
-uswds.paths.dist.css = "./_site/assets/css";
+const CSS_DEST = "./assets/css";
+
+// Site CSS destination
+// Like the _site/assets/css directory in Jekyll, if necessary.
+// If using, uncomment line 106
+const SITE_CSS_DEST = "./_site/assets/css";
 
 /*
 ----------------------------------------
