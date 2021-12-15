@@ -74,34 +74,19 @@ Examples:
 
 ### GitHub templates
 
-#### [USWDS Boilerplate](https://github.com/Bixal/uswds-boilerplate){: .usa-link--external}
+#### [USWDS Sandbox](https://github.com/uswds/uswds-sandbox){: .usa-link--external}
 
 - GitHub version of CodePen template
 - Better separation of content and layout (Jekyll)
 - Better collaboration and version control
-- Hosting with GitHub pages, but takes more time to view results unless running locally
+- Hosting with Federalist, but takes more time to view results unless running locally
 - Good for better tracking of iterations and more complex content
-
-Examples:
-- [USWDS Page Templates](https://bixal.github.io/uswds-page-templates/){: .usa-link--external}
-
-#### [Screener prototyping tool template](https://github.com/Bixal/uswds-screener-prototyping-tool)
-{: .border-top-2px .border-base-light .padding-top-2 .measure-5}
-
-- Custom questions with Markdown
-- Simple logic flow with light jQuery
-- Linked resources
-- Step indicator
-- Good for prototyping simple form content and interactions
-
-Examples:
-- [Live site](https://bixal.github.io/uswds-screener-prototyping-tool/){: .usa-link--external}
 
 ## Next steps and resources
 {: .text-secondary .border-top-1 .padding-top-2 .measure-1}
 
 - Review this handout!
 - Fork [CodePen templates](https://codepen.io/collection/waGRZM){: .usa-link--external}.
-- Check out [USWDS boilerplate template on GitHub](https://github.com/Bixal/uswds-boilerplate){: .usa-link--external}.
+- Check out [USWDS Sandbox](https://github.com/uswds/uswds-sandbox){: .usa-link--external}.
 - Get familiar with [Markdown](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax){: .usa-link--external}.
 - Reach out on [USWDS Slack](https://designsystem.digital.gov/about/community/) with questions or feedback (or use CodePen and GitHub for template-specific feedback).
