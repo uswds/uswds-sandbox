@@ -1,6 +1,10 @@
 # uswds-sandbox
 Jekyll site for testing new functionality currently under development
 
+## Requirements
+- Node v16
+- Ruby v3.0.2
+
 ## Running code locally
 After cloning the repo, navigate to the correct folder and install USWDS, Jekyll, and any necessary dependencies using:
 ```

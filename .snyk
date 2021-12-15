@@ -256,8 +256,16 @@ ignore:
   SNYK-JS-GLOBPARENT-1016905:
     - gulp > glob-watcher > chokidar > glob-parent:
         reason: No update available.
-        expires: '2021-10-09T20:07:47.173Z'
+        expires: '2022-01-14T17:59:31.645Z'
     - gulp > vinyl-fs > glob-stream > glob-parent:
         reason: No update available.
-        expires: '2021-10-09T20:07:47.173Z'
+        expires: '2022-01-14T17:59:31.645Z'
+  SNYK-JS-CSSWHAT-1298035:
+    - gulp-svg-sprite > svg-sprite > svgo > css-select > css-what:
+        reason: None given
+        expires: '2022-01-14T17:59:31.645Z'
+  SNYK-JS-NTHCHECK-1586032:
+    - gulp-svg-sprite > svg-sprite > svgo > css-select > nth-check:
+        reason: None given
+        expires: '2022-01-14T17:59:31.645Z'
 patch: {}
