@@ -17,7 +17,7 @@
     "uswds-copy-js": "gulp copyJS",
     "uswds-copy-theme": "gulp copyTheme",
     "uswds-update": "npm update uswds && ./build.sh",
-    "watch": "gulp watch",
+    "watch": "gulp watchSass",
     "test": "snyk test"
   },
   "dependencies": {
