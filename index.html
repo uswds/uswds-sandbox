@@ -1,0 +1,177 @@
+---
+layout: default
+---
+
+<a class="usa-skipnav" href="#main-content">Skip to main content</a>
+
+<section class="usa-banner" aria-label="Official government website">
+  <div class="usa-accordion">
+    <header class="usa-banner__header">
+      <div class="usa-banner__inner">
+        <div class="grid-col-auto">
+          <img class="usa-banner__header-flag" src="{{ site.baseurl }}/assets/uswds/img/us_flag_small.png" alt="U.S. flag" />
+        </div>
+        <div class="grid-col-fill tablet:grid-col-auto">
+          <p class="usa-banner__header-text">An official website of the United States government</p>
+          <p class="usa-banner__header-action" aria-hidden="true">Here’s how you know</p>
+        </div>
+        <button class="usa-accordion__button usa-banner__button" aria-expanded="false" aria-controls="gov-banner">
+          <span class="usa-banner__button-text">Here’s how you know</span>
+        </button>
+      </div>
+    </header>
+    <div class="usa-banner__content usa-accordion__content" id="gov-banner">
+      <div class="grid-row grid-gap-lg">
+        <div class="usa-banner__guidance tablet:grid-col-6">
+          <img class="usa-banner__icon usa-media-block__img" src="{{ site.baseurl }}/assets/uswds/img/icon-dot-gov.svg" role="img" alt="" />
+          <div class="usa-media-block__body">
+            <p>
+              <strong>Official websites use .gov</strong>
+              <br />
+              A <strong>.gov</strong> website belongs to an official government organization in the
+              United States.
+            </p>
+          </div>
+        </div>
+        <div class="usa-banner__guidance tablet:grid-col-6">
+          <img class="usa-banner__icon usa-media-block__img" src="{{ site.baseurl }}/assets/uswds/img/icon-https.svg" role="img" alt="" />
+          <div class="usa-media-block__body">
+            <p>
+              <strong> Secure .gov websites use HTTPS </strong>
+              <br />
+              A <strong>lock</strong> (
+              <span class="icon-lock"><svg xmlns="http://www.w3.org/2000/svg" width="52" height="64" viewBox="0 0 52 64" class="usa-banner__lock-image" role="img" aria-labelledby="banner-lock-title banner-lock-description">
+                  <title id="banner-lock-title">Lock</title>
+                  <desc id="banner-lock-description">A locked padlock</desc>
+                  <path fill="#000000" fill-rule="evenodd" d="M26 0c10.493 0 19 8.507 19 19v9h3a4 4 0 0 1 4 4v28a4 4 0 0 1-4 4H4a4 4 0 0 1-4-4V32a4 4 0 0 1 4-4h3v-9C7 8.507 15.507 0 26 0zm0 8c-5.979 0-10.843 4.77-10.996 10.712L15 19v9h22v-9c0-6.075-4.925-11-11-11z" />
+                </svg></span>
+              ) or <strong>https://</strong> means you’ve safely connected to the .gov website.
+              Share sensitive information only on official, secure websites.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+{% include site-alert.html %}
+
+<div class="usa-overlay"></div>
+<header class="usa-header usa-header--extended">
+  <div class="usa-navbar">
+    <div class="usa-logo" id="extended-logo">
+      <em class="usa-logo__text"><a href="{{ site.baseurl }}/" title="Home" aria-label="Home">Zombie Preparedness</a></em>
+    </div>
+    <button class="usa-menu-btn">Menu</button>
+  </div>
+  <nav aria-label="Primary navigation" class="usa-nav">
+    <div class="usa-nav__inner">
+      <button class="usa-nav__close">
+        <img src="{{ site.baseurl }}/assets/uswds/img/close.svg" role="img" alt="close" />
+      </button>
+      <ul class="usa-nav__primary usa-accordion">
+        <li class="usa-nav__primary-item">
+          <button class="usa-accordion__button usa-nav__link usa-current" aria-expanded="false" aria-controls="extended-nav-section-one">
+            <span>Current section</span>
+          </button>
+          <ul id="extended-nav-section-one" class="usa-nav__submenu">
+            <li class="usa-nav__submenu-item">
+              <a href="#" class=""> Navigation link</a>
+            </li>
+            <li class="usa-nav__submenu-item">
+              <a href="#" class=""> Navigation link</a>
+            </li>
+            <li class="usa-nav__submenu-item">
+              <a href="#" class=""> Navigation link</a>
+            </li>
+          </ul>
+        </li>
+        <li class="usa-nav__primary-item">
+          <button class="usa-accordion__button usa-nav__link" aria-expanded="false" aria-controls="extended-nav-section-two">
+            <span>Section</span>
+          </button>
+          <ul id="extended-nav-section-two" class="usa-nav__submenu">
+            <li class="usa-nav__submenu-item">
+              <a href="#" class=""> Navigation link</a>
+            </li>
+            <li class="usa-nav__submenu-item">
+              <a href="#" class=""> Navigation link</a>
+            </li>
+            <li class="usa-nav__submenu-item">
+              <a href="#" class=""> Navigation link</a>
+            </li>
+          </ul>
+        </li>
+        <li class="usa-nav__primary-item">
+          <a class="usa-nav__link" href="javascript:void(0)"><span>Simple link</span></a>
+        </li>
+      </ul>
+      <div class="usa-nav__secondary">
+        <ul class="usa-nav__secondary-links">
+          <li class="usa-nav__secondary-item">
+            <a href="signin.html">Sign in</a>
+          </li>
+          <li class="usa-nav__secondary-item">
+            <a href="create-account.html">Join</a>
+          </li>
+        </ul>
+        <form class="usa-search usa-search--small" role="search">
+          <label class="usa-sr-only" for="extended-search-field-small">Search small</label>
+          <input class="usa-input" id="extended-search-field-small" type="search" name="search" />
+          <button class="usa-button" type="submit"><span class="usa-sr-only">Search</span></button>
+        </form>
+      </div>
+    </div>
+  </nav>
+</header>
+
+<main id="main-content">
+  <section class="usa-hero" aria-label="Introduction">
+    <div class="grid-container">
+      <div class="usa-hero__callout">
+        <h1 class="usa-hero__heading">
+          <span class="usa-hero__heading--alt">Zombies:</span> A call to preparedness
+        </h1>
+        <p>Learn what do you need to do before zombies arrive in your community.</p>
+        <a class="usa-button width-full" href="action.html">Get prepared</a>
+        <a class="usa-button width-full usa-button--accent-warm margin-top-2" href="create-account.html">Join the team</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="grid-container usa-section">
+    <div class="grid-row grid-gap">
+      <div class="tablet:grid-col-4">
+        <h2 class="font-heading-xl margin-top-0 tablet:margin-bottom-0">
+          A real need for the Zombie Preparedness Team
+        </h2>
+      </div>
+      <div class="tablet:grid-col-8 usa-prose">
+        <p>
+          We’ve all seen at least one movie about flesh-eating zombies taking over (my personal
+          favorite is Resident Evil), but where do zombies come from and why do they love eating
+          brains so much? The word zombie comes from Haitian and New Orleans voodoo origins.
+          Although its meaning has changed slightly over the years, it refers to a human corpse
+          mysteriously reanimated to serve the undead. Through ancient voodoo and folk-lore
+          traditions, shows like the Walking Dead were born
+        </p>
+      </div>
+    </div>
+  </section>
+
+  {% include collection.html %}
+
+  <section id="test-section-id" class="usa-section usa-section--dark">
+    <div class="grid-container">
+      <h2 class="font-heading-xl margin-y-0">Zombie Preparedness Team</h2>
+      <p class="usa-intro">
+        If zombies did start roaming the streets, the Zombie Preparedness Team would conduct an
+        investigation much like any other disease outbreak. the Zombie Preparedness Team would
+        provide technical assistance to cities, states, or international partners dealing with a
+        zombie infestation.
+      </p>
+      <a href="action.html" class="usa-button usa-button--big" href="#">Get prepared</a>
+    </div>
+  </section>
+</main>

@@ -1,0 +1,165 @@
+---
+layout: default
+---
+
+<a class="usa-skipnav" href="#main-content">Skip to main content</a>
+
+<section class="usa-banner" aria-label="Official government website">
+  <div class="usa-accordion">
+    <header class="usa-banner__header">
+      <div class="usa-banner__inner">
+        <div class="grid-col-auto">
+          <img class="usa-banner__header-flag" src="{{ site.baseurl }}/assets/uswds/img/us_flag_small.png" alt="U.S. flag">
+        </div>
+        <div class="grid-col-fill tablet:grid-col-auto">
+          <p class="usa-banner__header-text">An official website of the United States government</p>
+          <p class="usa-banner__header-action" aria-hidden="true">Here’s how you know</p>
+        </div>
+        <button class="usa-accordion__button usa-banner__button" aria-expanded="false" aria-controls="gov-banner">
+          <span class="usa-banner__button-text">Here’s how you know</span>
+        </button>
+      </div>
+    </header>
+    <div class="usa-banner__content usa-accordion__content" id="gov-banner">
+      <div class="grid-row grid-gap-lg">
+        <div class="usa-banner__guidance tablet:grid-col-6">
+          <img class="usa-banner__icon usa-media-block__img" src="{{ site.baseurl }}/assets/uswds/img/icon-dot-gov.svg" role="img" alt="">
+          <div class="usa-media-block__body">
+            <p>
+              <strong>
+                Official websites use .gov
+              </strong>
+              <br />
+              A <strong>.gov</strong> website belongs to an official government organization in the United States.
+
+            </p>
+          </div>
+        </div>
+        <div class="usa-banner__guidance tablet:grid-col-6">
+          <img class="usa-banner__icon usa-media-block__img" src="{{ site.baseurl }}/assets/uswds/img/icon-https.svg" role="img" alt="">
+          <div class="usa-media-block__body">
+            <p>
+              <strong>
+                Secure .gov websites use HTTPS
+              </strong>
+              <br />
+              A <strong>lock</strong> (
+              <span class="icon-lock"><svg xmlns="http://www.w3.org/2000/svg" width="52" height="64" viewBox="0 0 52 64" class="usa-banner__lock-image" role="img" aria-labelledby="banner-lock-title banner-lock-description">
+                  <title id="banner-lock-title">Lock</title>
+                  <desc id="banner-lock-description">A locked padlock</desc>
+                  <path fill="#000000" fill-rule="evenodd" d="M26 0c10.493 0 19 8.507 19 19v9h3a4 4 0 0 1 4 4v28a4 4 0 0 1-4 4H4a4 4 0 0 1-4-4V32a4 4 0 0 1 4-4h3v-9C7 8.507 15.507 0 26 0zm0 8c-5.979 0-10.843 4.77-10.996 10.712L15 19v9h22v-9c0-6.075-4.925-11-11-11z" />
+                </svg></span>
+              ) or <strong>https://</strong> means you’ve safely connected to the .gov website. Share sensitive information only on official, secure websites.
+
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+{% include site-alert.html %}
+
+<header class="usa-header usa-header--extended">
+  <div class="usa-navbar">
+    <div class="usa-logo" id="extended-logo">
+      <em class="usa-logo__text"><a href="{{ site.baseurl }}/" title="Home" aria-label="Home">Zombie Preparedness</a></em>
+    </div>
+  </div>
+</header>
+
+<main id="main-content">
+  <div class="bg-base-lightest">
+    <section class="grid-container usa-section">
+      <div class="grid-row margin-x-neg-205 flex-justify-center">
+        <div class="grid-col-12 mobile-lg:grid-col-10 tablet:grid-col-8 desktop:grid-col-6 padding-x-205 margin-bottom-4">
+          <h1 class="desktop:display-none font-sans-lg margin-bottom-4 tablet:margin-top-neg-3">Get started with the Zombie Preparedness Team.</h1>
+          <div class="bg-white padding-y-3 padding-x-5 border border-base-lighter">
+            <h1 class="margin-bottom-0">Create account</h1>
+            <form class="usa-form">
+
+              <p>Get started with the Zombie Preparedness Team.</p>
+              <!-- <fieldset class="usa-fieldset">
+                <legend class="usa-legend margin-top-1">Get started with the Zombie Preparedness Team.</legend> -->
+              <p>
+                <abbr title="required" class="usa-hint">*</abbr> indicates required field.
+              </p>
+
+              <label class="usa-label" for="email">Email address <abbr title="required" class="usa-hint">*</abbr></label>
+              <input class="usa-input" id="email" name="email" type="email" autocapitalize="off" autocorrect="off" required>
+
+              <label class="usa-label" for="password-create-account">Create password <abbr title="required" class="usa-hint">*</abbr></label>
+              <input class="usa-input" id="password-create-account" name="password" type="password" required>
+
+              <p class="usa-form__note">
+                <a title="Show password" href="javascript:void(0);" class="usa-show-password" aria-controls="password-create-account">Show password</a>
+              </p>
+
+              <fieldset class="usa-fieldset margin-top-3 width-full">
+                <legend class="usa-legend">Self-identify by specialty <abbr title="required" class="usa-hint">*</abbr></legend>
+                <div class="usa-radio">
+                  <input class="usa-radio__input usa-radio__input--tile" id="identity-emr-emt-paramedic" type="radio" name="identity-specialty" value="emr-emt-paramedic">
+                  <label class="usa-radio__label" for="identity-emr-emt-paramedic">EMR/EMT/Paramedic</label>
+                </div>
+                <div class="usa-radio">
+                  <input class="usa-radio__input usa-radio__input--tile" id="identity-firefighter" type="radio" name="identity-specialty" value="firefighter">
+                  <label class="usa-radio__label" for="identity-firefighter">Firefighter</label>
+                </div>
+                <div class="usa-radio">
+                  <input class="usa-radio__input usa-radio__input--tile" id="identity-police-officer" type="radio" name="identity-specialty" value="police-officer">
+                  <label class="usa-radio__label" for="identity-police-officer">Police officer</label>
+                </div>
+                <div class="usa-radio">
+                  <input class="usa-radio__input usa-radio__input--tile" id="identity-concerned-citizen" type="radio" name="identity-specialty" value="concerned-citizen">
+                  <label class="usa-radio__label" for="identity-concerned-citizen">Concerned citizen</label>
+                </div>
+              </fieldset>
+
+              <div class="usa-checkbox margin-y-3">
+                <input class="usa-checkbox__input" id="terms-and-conditions" type="checkbox" name="terms-and-conditions" value="terms" required>
+                <label class="usa-checkbox__label" for="terms-and-conditions">I agree to the <a href="javascript:void()">terms and conditions</a>. <abbr title="required" class="usa-hint">*</abbr></label>
+              </div>
+
+              <input class="usa-button" type="submit" value="Create account">
+              <!-- </fieldset> -->
+            </form>
+          </div>
+          <p class="text-center desktop:text-left">Already have an account? <a class="usa-link" href="signin.html">Sign in</a>.</p>
+
+        </div>
+        <div class="grid-col-12 mobile-lg:grid-col-10 tablet:grid-col-8 desktop:grid-col-6 padding-x-205">
+          <div class="border-top border-base-lighter padding-top-4 desktop:border-0 desktop:padding-top-0">
+
+            <h2 class="display-none desktop:display-block">The Zombie Preparedness Team is your key to surviving zombies.</h2>
+            <div class="usa-prose">
+              <p>The <strong>Zombie Preparedness Team</strong> provides technical assistance to cities, states, or international partners
+                dealing with a zombie infestation. Zombie Preparedness Team members are on the frontline, helping the Zombie Preparedness Team
+                scientists work to identify the cause and cure of the zombie outbreak, and helping those in affected areas </p>
+              <section class="usa-graphic-list">
+                <div class="usa-graphic-list__row">
+                  <div class="usa-media-block margin-y-2">
+                    <div class="usa-media-block__body">
+                      <p><strong>Determine root cause:</strong> help identify the source of the infection/virus/toxin.</p>
+                    </div>
+                  </div>
+                  <div class="usa-media-block margin-y-2">
+                    <div class="usa-media-block__body">
+                      <p><strong>Break the cycle:</strong> learn how it is transmitted and how readily it is spread, and prevent further cases.</p>
+                    </div>
+                  </div>
+                </div>
+              </section>
+            </div>
+            <div class="border-top border-base-lighter margin-top-3 padding-top-1">
+              <h2>Are you a federal employee?</h2>
+              <div class="usa-prose">
+                <p>If you are a federal employee, please use <a href="https://login.gov" class="usa-link"><strong>Login.gov</strong></a></p>
+                <p><a class="usa-button usa-button--outline" href="https://login.gov">Launch Login.gov</a></p>
+              </div>
+            </div>
+          </div>
+        </div>
+    </section>
+  </div>
+</main>
