@@ -80,11 +80,11 @@ layout: default
     <section class="grid-container usa-section">
       <div class="grid-row margin-x-neg-205 flex-justify-center">
         <div
-          class="grid-col-12 mobile-lg:grid-col-10 tablet:grid-col-8 desktop:grid-col-6 padding-x-205 margin-bottom-4">
+          class="grid-col-12 mobile-lg:grid-col-10 tablet:grid-col-8 desktop:grid-col-7 padding-x-205 margin-bottom-4">
           <h1 class="desktop:display-none font-sans-lg margin-bottom-4 tablet:margin-top-neg-3">Get started with the
             Zombie Preparedness Team.</h1>
           <div class="bg-white padding-y-3 padding-x-5 border border-base-lighter">
-            <h1 class="margin-bottom-0">Create account</h1>
+            <h1 class="margin-bottom-0">Complete Your Profile</h1>
             <form class="usa-form">
 
               <p>Get started with the Zombie Preparedness Team.</p>
@@ -94,19 +94,54 @@ layout: default
                 <abbr title="required" class="usa-hint">*</abbr> indicates required field.
               </p>
 
-              <label class="usa-label" for="email">Email address <abbr title="required"
+              <label class="usa-label" for="name">Name <abbr title="required" class="usa-hint">*</abbr></label>
+              <input class="usa-input" id="name" name="name" type="text" autocapitalize="off" autocorrect="off"
+                placeholder="John Smith" required>
+
+              <label class="usa-label" for="pronouns">Pronouns <abbr title="required" class="usa-hint">*</abbr></label>
+              <input class="usa-input" placeholder="" id="pronouns" name="pronouns" type="text" autocapitalize="off"
+                autocorrect="off" required>
+
+              <label class="usa-label" for="gender">Gender <abbr title="required" class="usa-hint">*</abbr></label>
+              <input class="usa-input" placeholder="" id="gender" name="gender" type="text" autocapitalize="off"
+                autocorrect="off" required>
+
+              <label class="usa-label" for="race-and-ethnicity">Race and ethnicity <abbr title="required"
                   class="usa-hint">*</abbr></label>
-              <input class="usa-input" id="email" name="email" type="email" autocapitalize="off" autocorrect="off"
+              <input class="usa-input" id="race-and-ethnicity" name="raceAndEthnicity" type="race-and-ethnicity"
                 required>
 
-              <label class="usa-label" for="password-create-account">Create password <abbr title="required"
-                  class="usa-hint">*</abbr></label>
-              <input class="usa-input" id="password-create-account" name="password" type="password" required>
+                <fieldset class="usa-fieldset margin-top-3 width-full">
+                  <legend class="usa-legend">Role <abbr title="required" class="usa-hint">*</abbr>
+                  </legend>
+                  <div class="usa-radio">
+                    <input class="usa-radio__input usa-radio__input--tile" id="identity-emr-emt-paramedic" type="radio"
+                      name="identity-specialty" value="emr-emt-paramedic">
+                    <label class="usa-radio__label" for="identity-emr-emt-paramedic">EMR/EMT/Paramedic</label>
+                  </div>
+                  <div class="usa-radio">
+                    <input class="usa-radio__input usa-radio__input--tile" id="identity-firefighter" type="radio"
+                      name="identity-specialty" value="firefighter">
+                    <label class="usa-radio__label" for="identity-firefighter">Firefighter</label>
+                  </div>
+                  <div class="usa-radio">
+                    <input class="usa-radio__input usa-radio__input--tile" id="identity-police-officer" type="radio"
+                      name="identity-specialty" value="police-officer">
+                    <label class="usa-radio__label" for="identity-police-officer">Police officer</label>
+                  </div>
+                  <div class="usa-radio">
+                    <input class="usa-radio__input usa-radio__input--tile" id="identity-concerned-citizen" type="radio"
+                      name="identity-specialty" value="concerned-citizen">
+                    <label class="usa-radio__label" for="identity-concerned-citizen">Concerned citizen</label>
+                  </div>
+                </fieldset>
 
-              <p class="usa-form__note">
-                <a title="Show password" href="javascript:void(0);" class="usa-show-password"
-                  aria-controls="password-create-account">Show password</a>
-              </p>
+
+
+
+
+
+
 
               <fieldset class="usa-fieldset margin-top-3 width-full">
                 <legend class="usa-legend">Self-identify by specialty <abbr title="required" class="usa-hint">*</abbr>
@@ -149,7 +184,7 @@ layout: default
               in</a>.</p>
 
         </div>
-        <div class="grid-col-12 mobile-lg:grid-col-10 tablet:grid-col-8 desktop:grid-col-6 padding-x-205">
+        <div class="grid-col-12 mobile-lg:grid-col-10 tablet:grid-col-8 desktop:grid-col-5 padding-x-205">
           <div class="border-top border-base-lighter padding-top-4 desktop:border-0 desktop:padding-top-0">
 
             <h2 class="display-none desktop:display-block">The Zombie Preparedness Team is your key to surviving

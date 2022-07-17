@@ -19,3 +19,101 @@ i.e.
 @include u-padding-right('05');
 ----------------------------------------
 */
+
+.usa-in-page-navigation.usa-sidenav {
+  background-color: initial;
+  border: none;
+  border-left: units(1px) solid color("base-lighter");
+  font-size: 0.85rem;
+  padding: 0;
+
+  a {
+    color: color("base-darker");
+
+    &:where(:not(.usa-button)) {
+      //padding: 0.3rem 0.8rem;
+      padding: units(0.5) units(1);
+    }
+
+    &:hover {
+      background-color: transparent;
+      color: color("primary-vivid");
+    }
+
+    &.usa-current {
+      color: color("base-darker");
+      position: static;
+
+      &::after {
+        border-radius: 0;
+        background-color: color("secondary-dark");
+        bottom: units(-1px);
+        left: units(0);
+        top: units(0);
+        width: units(2px);
+        z-index: z(100);
+      }
+    }
+  }
+
+  .usa-in-page-navigation__item {
+    @include u-border(0);
+    line-height: lh("lang", 3);
+    position: relative;
+
+    & + .usa-sidenav__item a {
+      border-top: none;
+    }
+  }
+}
+
+.in-page-nav-container {
+  align-items: flex-start;
+  display: flex;
+
+  .usa-layout-docs__main {
+    order: initial;
+  }
+
+  #main-content {
+    max-width: 87.5rem;
+    width: 100%;
+  }
+
+  #in-page-navigation {
+    display: none;
+    max-width: units("card-lg");
+    margin-left: 2rem;
+    position: sticky;
+    top: 1rem;
+
+    @include at-media("tablet") {
+      display: block;
+      width: 100%;
+    }
+  }
+
+  .offset-anchor {
+    display: block;
+    position: relative;
+    top: -20px;
+    visibility: hidden;
+  }
+
+  .site-subheading {
+    clear: both;
+    font-family: Source Sans Pro Web, Helvetica Neue, Helvetica, Roboto, Arial,
+      sans-serif;
+    line-height: 1.1;
+    font-weight: 400;
+    text-transform: uppercase;
+    font-family: Public Sans Web, -apple-system, BlinkMacSystemFont, Segoe UI,
+      Roboto, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji,
+      Segoe UI Symbol;
+    font-size: 0.81rem;
+    color: rgba(0, 0, 0, 0.6);
+    letter-spacing: 0.025em;
+    margin-bottom: 0.5rem;
+    margin-top: 0;
+  }
+}
