@@ -79,72 +79,61 @@ layout: default
   <div class="bg-base-lightest">
     <section class="grid-container usa-section">
       <div class="grid-row margin-x-neg-205 flex-justify-center">
-        <div
-          class="grid-col-12 mobile-lg:grid-col-10 tablet:grid-col-8 desktop:grid-col-7 padding-x-205 margin-bottom-4">
+        <div class="grid-col-12 mobile-lg:grid-col-10 tablet:grid-col-8 desktop:grid-col-7 margin-bottom-4">
           <h1 class="desktop:display-none font-sans-lg margin-bottom-4 tablet:margin-top-neg-3">Get started with the
             Zombie Preparedness Team.</h1>
           <div class="bg-white padding-y-3 padding-x-5 border border-base-lighter">
             <h1 class="margin-bottom-0">Complete Your Profile</h1>
-            <form class="usa-form">
 
-              <p>Get started with the Zombie Preparedness Team.</p>
-              <!-- <fieldset class="usa-fieldset">
-                <legend class="usa-legend margin-top-1">Get started with the Zombie Preparedness Team.</legend> -->
-              <p>
-                <abbr title="required" class="usa-hint">*</abbr> indicates required field.
-              </p>
+            <form class="">
+              <fieldset class="usa-fieldset">
+                <legend class="usa-legend">
+                  <h2 class="margin-bottom-0">General Information</h2>
+                </legend>
 
-              <label class="usa-label" for="name">Name <abbr title="required" class="usa-hint">*</abbr></label>
-              <input class="usa-input" id="name" name="name" type="text" autocapitalize="off" autocorrect="off"
-                placeholder="John Smith" required>
+                <p>As a member of the Zombie Preparedness Team you will be contacted with assignment or preparedness
+                  information and updates. We want to ensure that we respect you and your personal identity when
+                  contacting you.</p>
+                <p>
+                  Required fields are marked with an asterisk (<abbr title="required"
+                    class="usa-hint usa-hint--required">*</abbr>).
+                </p>
 
-              <label class="usa-label" for="pronouns">Pronouns <abbr title="required" class="usa-hint">*</abbr></label>
-              <input class="usa-input" placeholder="" id="pronouns" name="pronouns" type="text" autocapitalize="off"
-                autocorrect="off" required>
+                <label class="usa-label" for="name">Name <abbr title="required"
+                    class="usa-hint usa-hint--required">*</abbr></label>
+                <input class="usa-input" id="name" name="name" type="text" autocapitalize="off" autocorrect="off"
+                  placeholder="John Smith" required>
 
-              <label class="usa-label" for="gender">Gender <abbr title="required" class="usa-hint">*</abbr></label>
-              <input class="usa-input" placeholder="" id="gender" name="gender" type="text" autocapitalize="off"
-                autocorrect="off" required>
+                <label class="usa-label" for="pronouns">Pronouns <abbr title="required"
+                    class="usa-hint usa-hint--required">*</abbr></label>
+                <input class="usa-input" placeholder="" id="pronouns" name="pronouns" type="text" autocapitalize="off"
+                  autocorrect="off" required>
 
-              <label class="usa-label" for="race-and-ethnicity">Race and ethnicity <abbr title="required"
-                  class="usa-hint">*</abbr></label>
-              <input class="usa-input" id="race-and-ethnicity" name="raceAndEthnicity" type="race-and-ethnicity"
-                required>
+                <label class="usa-label" for="gender">Gender</label>
+                <input class="usa-input" id="gender" name="gender" type="text" autocapitalize="off" autocorrect="off"
+                  required />
 
-                <fieldset class="usa-fieldset margin-top-3 width-full">
-                  <legend class="usa-legend">Role <abbr title="required" class="usa-hint">*</abbr>
-                  </legend>
-                  <div class="usa-radio">
-                    <input class="usa-radio__input usa-radio__input--tile" id="identity-emr-emt-paramedic" type="radio"
-                      name="identity-specialty" value="emr-emt-paramedic">
-                    <label class="usa-radio__label" for="identity-emr-emt-paramedic">EMR/EMT/Paramedic</label>
-                  </div>
-                  <div class="usa-radio">
-                    <input class="usa-radio__input usa-radio__input--tile" id="identity-firefighter" type="radio"
-                      name="identity-specialty" value="firefighter">
-                    <label class="usa-radio__label" for="identity-firefighter">Firefighter</label>
-                  </div>
-                  <div class="usa-radio">
-                    <input class="usa-radio__input usa-radio__input--tile" id="identity-police-officer" type="radio"
-                      name="identity-specialty" value="police-officer">
-                    <label class="usa-radio__label" for="identity-police-officer">Police officer</label>
-                  </div>
-                  <div class="usa-radio">
-                    <input class="usa-radio__input usa-radio__input--tile" id="identity-concerned-citizen" type="radio"
-                      name="identity-specialty" value="concerned-citizen">
-                    <label class="usa-radio__label" for="identity-concerned-citizen">Concerned citizen</label>
-                  </div>
-                </fieldset>
+                <div class="usa-checkbox">
+                  <input class="usa-checkbox__input" id="gender-prefer-not-to-say" type="checkbox"
+                    name="gender-prefer-not-to-say" value="" />
+                  <label class="usa-checkbox__label" for="gender-prefer-not-to-say">Prefer not to answer</label>
+                </div>
 
+                <label class="usa-label" for="race-and-ethnicity">Race and ethnicity <abbr title="required"
+                    class="usa-hint">*</abbr></label>
+                <input class="usa-input" id="race-and-ethnicity" name="raceAndEthnicity" type="race-and-ethnicity"
+                  required>
 
-
-
-
-
-
+                <div class="usa-checkbox">
+                  <input class="usa-checkbox__input" id="race-prefer-not-to-say" type="checkbox"
+                    name="race-prefer-not-to-say" value="" />
+                  <label class="usa-checkbox__label" for="race-prefer-not-to-say">Prefer not to answer</label>
+                </div>
+              </fieldset>
 
               <fieldset class="usa-fieldset margin-top-3 width-full">
-                <legend class="usa-legend">Self-identify by specialty <abbr title="required" class="usa-hint">*</abbr>
+                <legend class="usa-legend">
+                  <h2 class="margin-bottom-0">Role (Select all that apply) </h2>
                 </legend>
                 <div class="usa-radio">
                   <input class="usa-radio__input usa-radio__input--tile" id="identity-emr-emt-paramedic" type="radio"
@@ -168,7 +157,404 @@ layout: default
                 </div>
               </fieldset>
 
-              <div class="usa-checkbox margin-y-3">
+              <fieldset class="usa-fieldset margin-top-3">
+                <legend class="usa-legend">
+                  <h2 class="margin-bottom-0">Physical address</h2>
+                </legend>
+
+                <label class="usa-label" for="mailing-address-1">Street address
+                  <abbr title="required" class="usa-hint usa-hint--required">*</abbr></label>
+                <input class="usa-input" id="mailing-address-1" name="mailing-address-1" required />
+                <div class="grid-row grid-gap">
+                  <div class="mobile-lg:grid-col-8">
+                    <label class="usa-label" for="apt-suite-other">Unit type</label>
+                    <div class="usa-combo-box">
+                      <select class="usa-select" id="apt-suite-other" name="apt-suite-other">
+                        <option value>- Select -</option>
+                        <option value="APT">APT - Apartment</option>
+                        <option value="BSMT">BSMT - Basement</option>
+                        <option value="BLDG">BLDG - Building</option>
+                        <option value="DEPT">DEPT - Department</option>
+                        <option value="FL">FL - Floor</option>
+                        <option value="FRNT">FRNT - Front</option>
+                        <option value="HNGR">HNGR - Hanger</option>
+                        <option value="KEY">KEY - Key</option>
+                        <option value="LBBY">LBBY - Lobby</option>
+                        <option value="LOT">LOT - Lot</option>
+                        <option value="LOWR">LOWR - Lower</option>
+                        <option value="OFC">OFC - Office</option>
+                        <option value="OTHER">Other</option>
+                        <option value="PH">PH - Penthouse</option>
+                        <option value="PIER">PIER - Pier</option>
+                        <option value="REAR">REAR - Rear</option>
+                        <option value="RM">RM - Room</option>
+                        <option value="SIDE">SIDE - Side</option>
+                        <option value="SLIP">SLIP - Slip</option>
+                        <option value="SPC">SPC - Space</option>
+                        <option value="STOP">STOP - Stop</option>
+                        <option value="STE">STE - Suite</option>
+                        <option value="TRLR">TRLR - Trailer</option>
+                        <option value="UNAVAILABLE">Unable to determine</option>
+                        <option value="UNIT">UNIT - Unit</option>
+                        <option value="UPPR">UPPR - Upper</option>
+                      </select>
+                    </div>
+                  </div>
+                  <div class="mobile-lg:grid-col-4">
+                    <label class="usa-label" for="apt-floor-suite-no">Unit number</label>
+                    <input class="usa-input" id="apt-floor-suite-no" name="apt-floor-suite-no" />
+                  </div>
+                </div>
+                <label class="usa-label" for="city">City
+                  <abbr title="required" class="usa-hint usa-hint--required">*</abbr></label>
+                <input class="usa-input" id="city" name="city" required />
+                <label class="usa-label" for="state">State
+                  <abbr title="required" class="usa-hint usa-hint--required">*</abbr></label>
+                <div class="usa-combo-box">
+                  <select class="usa-select" id="state" name="state">
+                    <option value>- Select -</option>
+                    <option value="AL">AL - Alabama</option>
+                    <option value="AK">AK - Alaska</option>
+                    <option value="AS">AS - American Samoa</option>
+                    <option value="AZ">AZ - Arizona</option>
+                    <option value="AR">AR - Arkansas</option>
+                    <option value="CA">CA - California</option>
+                    <option value="CO">CO - Colorado</option>
+                    <option value="CT">CT - Connecticut</option>
+                    <option value="DE">DE - Delaware</option>
+                    <option value="DC">DC - District of Columbia</option>
+                    <option value="FL">FL - Florida</option>
+                    <option value="GA">GA - Georgia</option>
+                    <option value="GU">GU - Guam</option>
+                    <option value="HI">HI - Hawaii</option>
+                    <option value="ID">ID - Idaho</option>
+                    <option value="IL">IL - Illinois</option>
+                    <option value="IN">IN - Indiana</option>
+                    <option value="IA">IA - Iowa</option>
+                    <option value="KS">KS - Kansas</option>
+                    <option value="KY">KY - Kentucky</option>
+                    <option value="LA">LA - Louisiana</option>
+                    <option value="ME">ME - Maine</option>
+                    <option value="MD">MD - Maryland</option>
+                    <option value="MA">MA - Massachusetts</option>
+                    <option value="MI">MI - Michigan</option>
+                    <option value="MN">MN - Minnesota</option>
+                    <option value="MS">MS - Mississippi</option>
+                    <option value="MO">MO - Missouri</option>
+                    <option value="MT">MT - Montana</option>
+                    <option value="NE">NE - Nebraska</option>
+                    <option value="NV">NV - Nevada</option>
+                    <option value="NH">NH - New Hampshire</option>
+                    <option value="NJ">NJ - New Jersey</option>
+                    <option value="NM">NM - New Mexico</option>
+                    <option value="NY">NY - New York</option>
+                    <option value="NC">NC - North Carolina</option>
+                    <option value="ND">ND - North Dakota</option>
+                    <option value="MP">MP - Northern Mariana Islands</option>
+                    <option value="OH">OH - Ohio</option>
+                    <option value="OK">OK - Oklahoma</option>
+                    <option value="OR">OR - Oregon</option>
+                    <option value="PA">PA - Pennsylvania</option>
+                    <option value="PR">PR - Puerto Rico</option>
+                    <option value="RI">RI - Rhode Island</option>
+                    <option value="SC">SC - South Carolina</option>
+                    <option value="SD">SD - South Dakota</option>
+                    <option value="TN">TN - Tennessee</option>
+                    <option value="TX">TX - Texas</option>
+                    <option value="UM">UM - United States Minor Outlying Islands</option>
+                    <option value="UT">UT - Utah</option>
+                    <option value="VT">VT - Vermont</option>
+                    <option value="VI">VI - Virgin Islands</option>
+                    <option value="VA">VA - Virginia</option>
+                    <option value="WA">WA - Washington</option>
+                    <option value="WV">WV - West Virginia</option>
+                    <option value="WI">WI - Wisconsin</option>
+                    <option value="WY">WY - Wyoming</option>
+                    <option value="AA">AA - Armed Forces Americas</option>
+                    <option value="AE">AE - Armed Forces Africa</option>
+                    <option value="AE">AE - Armed Forces Canada</option>
+                    <option value="AE">AE - Armed Forces Europe</option>
+                    <option value="AE">AE - Armed Forces Middle East</option>
+                    <option value="AP">AP - Armed Forces Pacific</option>
+                  </select>
+                </div>
+                <label class="usa-label" for="zip">ZIP code
+                  <abbr title="required" class="usa-hint usa-hint--required">*</abbr></label>
+                <input class="usa-input usa-input--medium" id="zip" name="zip" pattern="[\d]{5}(-[\d]{4})?" required />
+                <label class="usa-label" for="urbanization">Urbanization (Puerto Rico only)</label>
+                <input class="usa-input" id="urbanization" name="urbanization" />
+              </fieldset>
+
+              <fieldset class="usa-fieldset margin-top-3">
+                <legend class="usa-legend">
+                  <h2 class="margin-bottom-0">Mailing address</h2>
+                </legend>
+                <div class="usa-checkbox">
+                  <input class="usa-checkbox__input" id="same-as-physical-address" type="checkbox"
+                    name="same-as-physical-address" value="" />
+                  <label class="usa-checkbox__label" for="same-as-physical-address">Same as physical address</label>
+                </div>
+                <label class="usa-label" for="mailing-address-1">Street address
+                  <abbr title="required" class="usa-hint usa-hint--required">*</abbr></label>
+                <input class="usa-input" id="mailing-address-1" name="mailing-address-1" required />
+                <div class="grid-row grid-gap">
+                  <div class="mobile-lg:grid-col-8">
+                    <label class="usa-label" for="apt-suite-other">Unit type</label>
+                    <div class="usa-combo-box">
+                      <select class="usa-select" id="apt-suite-other" name="apt-suite-other">
+                        <option value>- Select -</option>
+                        <option value="APT">APT - Apartment</option>
+                        <option value="BSMT">BSMT - Basement</option>
+                        <option value="BLDG">BLDG - Building</option>
+                        <option value="DEPT">DEPT - Department</option>
+                        <option value="FL">FL - Floor</option>
+                        <option value="FRNT">FRNT - Front</option>
+                        <option value="HNGR">HNGR - Hanger</option>
+                        <option value="KEY">KEY - Key</option>
+                        <option value="LBBY">LBBY - Lobby</option>
+                        <option value="LOT">LOT - Lot</option>
+                        <option value="LOWR">LOWR - Lower</option>
+                        <option value="OFC">OFC - Office</option>
+                        <option value="OTHER">Other</option>
+                        <option value="PH">PH - Penthouse</option>
+                        <option value="PIER">PIER - Pier</option>
+                        <option value="REAR">REAR - Rear</option>
+                        <option value="RM">RM - Room</option>
+                        <option value="SIDE">SIDE - Side</option>
+                        <option value="SLIP">SLIP - Slip</option>
+                        <option value="SPC">SPC - Space</option>
+                        <option value="STOP">STOP - Stop</option>
+                        <option value="STE">STE - Suite</option>
+                        <option value="TRLR">TRLR - Trailer</option>
+                        <option value="UNAVAILABLE">Unable to determine</option>
+                        <option value="UNIT">UNIT - Unit</option>
+                        <option value="UPPR">UPPR - Upper</option>
+                      </select>
+                    </div>
+                  </div>
+                  <div class="mobile-lg:grid-col-4">
+                    <label class="usa-label" for="apt-floor-suite-no">Unit number</label>
+                    <input class="usa-input" id="apt-floor-suite-no" name="apt-floor-suite-no" />
+                  </div>
+                </div>
+                <label class="usa-label" for="city">City
+                  <abbr title="required" class="usa-hint usa-hint--required">*</abbr></label>
+                <input class="usa-input" id="city" name="city" required />
+                <label class="usa-label" for="state">State
+                  <abbr title="required" class="usa-hint usa-hint--required">*</abbr></label>
+                <div class="usa-combo-box">
+                  <select class="usa-select" id="state" name="state">
+                    <option value>- Select -</option>
+                    <option value="AL">AL - Alabama</option>
+                    <option value="AK">AK - Alaska</option>
+                    <option value="AS">AS - American Samoa</option>
+                    <option value="AZ">AZ - Arizona</option>
+                    <option value="AR">AR - Arkansas</option>
+                    <option value="CA">CA - California</option>
+                    <option value="CO">CO - Colorado</option>
+                    <option value="CT">CT - Connecticut</option>
+                    <option value="DE">DE - Delaware</option>
+                    <option value="DC">DC - District of Columbia</option>
+                    <option value="FL">FL - Florida</option>
+                    <option value="GA">GA - Georgia</option>
+                    <option value="GU">GU - Guam</option>
+                    <option value="HI">HI - Hawaii</option>
+                    <option value="ID">ID - Idaho</option>
+                    <option value="IL">IL - Illinois</option>
+                    <option value="IN">IN - Indiana</option>
+                    <option value="IA">IA - Iowa</option>
+                    <option value="KS">KS - Kansas</option>
+                    <option value="KY">KY - Kentucky</option>
+                    <option value="LA">LA - Louisiana</option>
+                    <option value="ME">ME - Maine</option>
+                    <option value="MD">MD - Maryland</option>
+                    <option value="MA">MA - Massachusetts</option>
+                    <option value="MI">MI - Michigan</option>
+                    <option value="MN">MN - Minnesota</option>
+                    <option value="MS">MS - Mississippi</option>
+                    <option value="MO">MO - Missouri</option>
+                    <option value="MT">MT - Montana</option>
+                    <option value="NE">NE - Nebraska</option>
+                    <option value="NV">NV - Nevada</option>
+                    <option value="NH">NH - New Hampshire</option>
+                    <option value="NJ">NJ - New Jersey</option>
+                    <option value="NM">NM - New Mexico</option>
+                    <option value="NY">NY - New York</option>
+                    <option value="NC">NC - North Carolina</option>
+                    <option value="ND">ND - North Dakota</option>
+                    <option value="MP">MP - Northern Mariana Islands</option>
+                    <option value="OH">OH - Ohio</option>
+                    <option value="OK">OK - Oklahoma</option>
+                    <option value="OR">OR - Oregon</option>
+                    <option value="PA">PA - Pennsylvania</option>
+                    <option value="PR">PR - Puerto Rico</option>
+                    <option value="RI">RI - Rhode Island</option>
+                    <option value="SC">SC - South Carolina</option>
+                    <option value="SD">SD - South Dakota</option>
+                    <option value="TN">TN - Tennessee</option>
+                    <option value="TX">TX - Texas</option>
+                    <option value="UM">UM - United States Minor Outlying Islands</option>
+                    <option value="UT">UT - Utah</option>
+                    <option value="VT">VT - Vermont</option>
+                    <option value="VI">VI - Virgin Islands</option>
+                    <option value="VA">VA - Virginia</option>
+                    <option value="WA">WA - Washington</option>
+                    <option value="WV">WV - West Virginia</option>
+                    <option value="WI">WI - Wisconsin</option>
+                    <option value="WY">WY - Wyoming</option>
+                    <option value="AA">AA - Armed Forces Americas</option>
+                    <option value="AE">AE - Armed Forces Africa</option>
+                    <option value="AE">AE - Armed Forces Canada</option>
+                    <option value="AE">AE - Armed Forces Europe</option>
+                    <option value="AE">AE - Armed Forces Middle East</option>
+                    <option value="AP">AP - Armed Forces Pacific</option>
+                  </select>
+                </div>
+                <label class="usa-label" for="zip">ZIP code
+                  <abbr title="required" class="usa-hint usa-hint--required">*</abbr></label>
+                <input class="usa-input usa-input--medium" id="zip" name="zip" pattern="[\d]{5}(-[\d]{4})?" required />
+                <label class="usa-label" for="urbanization2">Urbanization (Puerto Rico only)</label>
+                <input class="usa-input" id="urbanization2" name="urbanization2" />
+              </fieldset>
+
+              <label class="usa-label" for="email">Email address</label>
+              <input class="usa-input" id="email" name="email" type="email" autocapitalize="off" autocorrect="off"
+                required />
+
+              <label class="usa-label" for="phone1">Primary contact number <abbr title="required"
+                  class="usa-hint usa-hint--required">*</abbr></label>
+              <input class="usa-input" id="phone1" name="phone1" type="phone1" autocapitalize="off" autocorrect="off"
+                pattern="(\+\d{1,2}\s)?\(?\d{3}\)?[\s.-]\d{3}[\s.-]\d{4}" required />
+
+              <div class="usa-radio">
+                <input class="usa-radio__input" id="phone1-mobile" type="radio" name="phone1-name" value="phone1-mobile"
+                  checked="checked" />
+                <label class="usa-radio__label" for="phone1-mobile">Mobile phone</label>
+              </div>
+              <div class="usa-radio">
+                <input class="usa-radio__input" id="phone1-home" type="radio" name="phone1-name" value="phone1-home" />
+                <label class="usa-radio__label" for="phone1-home">Home phone</label>
+              </div>
+
+              <label class="usa-label" for="phone2">Secondary contact number</label>
+              <input class="usa-input" id="phone2" name="phone2" type="phone2" autocapitalize="off" autocorrect="off"
+                pattern="(\+\d{1,2}\s)?\(?\d{3}\)?[\s.-]\d{3}[\s.-]\d{4}" required />
+              <div class="usa-radio">
+                <input class="usa-radio__input" id="phone2-mobile" type="radio" name="phone2-name" value="phone2-mobile"
+                  checked="checked" />
+                <label class="usa-radio__label" for="phone2-mobile">Mobile phone</label>
+              </div>
+              <div class="usa-radio">
+                <input class="usa-radio__input" id="phone2-home" type="radio" name="phone2-name" value="phone2-home" />
+                <label class="usa-radio__label" for="phone2-home">Home phone</label>
+              </div>
+
+              <fieldset class="usa-fieldset margin-top-3 width-full">
+                <legend class="usa-legend">
+                  <h2 class="margin-bottom-0">Preferred means of contact <abbr title="required"
+                      class="usa-hint usa-hint--required">*</abbr></h2>
+                </legend>
+                <div class="usa-radio">
+                  <input class="usa-radio__input usa-radio__input--tile" id="preferred-primary" type="radio"
+                    name="preferred-contact" value="preferred-primary">
+                  <label class="usa-radio__label" for="preferred-primary">Primary contact number</label>
+                </div>
+                <div class="usa-radio">
+                  <input class="usa-radio__input usa-radio__input--tile" id="preferred-secondary" type="radio"
+                    name="preferred-contact" value="preferred-secondary">
+                  <label class="usa-radio__label" for="preferred-secondary">Secondary contact number</label>
+                </div>
+                <div class="usa-radio">
+                  <input class="usa-radio__input usa-radio__input--tile" id="preferred-email" type="radio"
+                    name="preferred-contact" value="preferred-email">
+                  <label class="usa-radio__label" for="preferred-email">Email</label>
+                </div>
+                <div class="usa-radio">
+                  <input class="usa-radio__input usa-radio__input--tile" id="preferred-postal" type="radio"
+                    name="preferred-contact" value="preferred-postal">
+                  <label class="usa-radio__label" for="preferred-postal">Postal Mail</label>
+                </div>
+              </fieldset>
+
+              <fieldset class="usa-fieldset margin-top-3 width-full">
+                <legend class="usa-legend">
+                  <h2 class="margin-bottom-0">Medical Information</h2>
+                </legend>
+                <p><u>In case of emergency:</u> Due to the nature of the taskforce’s work, we may need to share
+                  information about you with medical professionals. In order to provide the most accurate information we
+                  request the following information from you. This information will only be used in cases of medical
+                  emergency.</p>
+                <div class="usa-radio">
+                  <input class="usa-radio__input usa-radio__input--tile" id="prefered-primary" type="radio"
+                    name="prefered-contact" value="prefered-primary">
+                  <label class="usa-radio__label" for="prefered-primary">Primary contact number</label>
+                </div>
+                <div class="usa-radio">
+                  <input class="usa-radio__input usa-radio__input--tile" id="prefered-secondary" type="radio"
+                    name="prefered-contact" value="prefered-secondary">
+                  <label class="usa-radio__label" for="prefered-secondary">Secondary contact number</label>
+                </div>
+                <div class="usa-radio">
+                  <input class="usa-radio__input usa-radio__input--tile" id="prefered-email" type="radio"
+                    name="prefered-contact" value="prefered-email">
+                  <label class="usa-radio__label" for="prefered-email">Email</label>
+                </div>
+                <div class="usa-radio">
+                  <input class="usa-radio__input usa-radio__input--tile" id="prefered-postal" type="radio"
+                    name="prefered-contact" value="prefered-postal">
+                  <label class="usa-radio__label" for="prefered-postal">Postal Mail</label>
+                </div>
+              </fieldset>
+
+              <label class="usa-label" for="dob">Date of birth <abbr title="required"
+                  class="usa-hint usa-hint--required">*</abbr></label>
+              <input class="usa-input" id="dob" name="dob" type="dob" autocapitalize="off" autocorrect="off"
+                pattern="^(0[1-9]|1[012])[-/.](0[1-9]|[12][0-9]|3[01])[-/.](19|20)\\d\\d$" required />
+
+              <p>Biological sex <abbr title="required" class="usa-hint usa-hint--required">*</abbr></p>
+              <div class="usa-radio">
+                <input class="usa-radio__input" id="sex-male" type="radio" name="biological-sex" value="sex-male"
+                  checked="checked" />
+                <label class="usa-radio__label" for="sex-male">Male</label>
+              </div>
+              <div class="usa-radio">
+                <input class="usa-radio__input" id="sex-female" type="radio" name="biological-sex" value="sex-female" />
+                <label class="usa-radio__label" for="sex-female">Female</label>
+              </div>
+              <div class="usa-radio">
+                <input class="usa-radio__input" id="sex-x" type="radio" name="biological-sex" value="sex-x" />
+                <label class="usa-radio__label" for="sex-x">X</label>
+              </div>
+
+              <fieldset class="usa-fieldset margin-top-3">
+                <legend class="usa-legend">
+                  <h2 class="margin-bottom-0">Emergency contact</h2>
+                </legend>
+                <label class="usa-label" for="full-name">Full name</label>
+                <input class="usa-input" id="full-name" name="full-name" />
+
+                <label class="usa-label" for="contact-details">Contact details</label>
+                <input class="usa-input" id="contact-details" name="contact-details" />
+
+                <p>Method of contact</p>
+                <div class="usa-radio">
+                  <input class="usa-radio__input" id="emergency-phone" type="radio" name="emergency-method"
+                    value="emergency-phone" checked="checked" />
+                  <label class="usa-radio__label" for="emergency-phone">Telephone</label>
+                </div>
+                <div class="usa-radio">
+                  <input class="usa-radio__input" id="emergency-text" type="radio" name="emergency-method"
+                    value="emergency-text" />
+                  <label class="usa-radio__label" for="emergency-text">Text message</label>
+                </div>
+                <div class="usa-radio">
+                  <input class="usa-radio__input" id="emergency-email" type="radio" name="emergency-method"
+                    value="emergency-email" />
+                  <label class="usa-radio__label" for="emergency-email">Email</label>
+                </div>
+              </fieldset>
+
+              <div class="usa-checkbox margin-y-5">
                 <input class="usa-checkbox__input" id="terms-and-conditions" type="checkbox" name="terms-and-conditions"
                   value="terms" required>
                 <label class="usa-checkbox__label" for="terms-and-conditions">I agree to the <a
@@ -187,8 +573,8 @@ layout: default
         <div class="grid-col-12 mobile-lg:grid-col-10 tablet:grid-col-8 desktop:grid-col-5 padding-x-205">
           <div class="border-top border-base-lighter padding-top-4 desktop:border-0 desktop:padding-top-0">
 
-            <h2 class="display-none desktop:display-block">The Zombie Preparedness Team is your key to surviving
-              zombies.</h2>
+            <h2 class="display-none desktop:display-block">Thank you for joining the Zombie Preparedness Team. To move
+              forward with your team enrollment please complete your profile.</h2>
             <div class="usa-prose">
               <p>The <strong>Zombie Preparedness Team</strong> provides technical assistance to cities, states, or
                 international partners
@@ -214,7 +600,7 @@ layout: default
               </section>
             </div>
             <div class="border-top border-base-lighter margin-top-3 padding-top-1">
-              <h2>Are you a federal employee?</h2>
+              <h2 class="margin-bottom-0">Are you a federal employee?</h2>
               <div class="usa-prose">
                 <p>If you are a federal employee, please use <a href="https://login.gov"
                     class="usa-link"><strong>Login.gov</strong></a></p>
