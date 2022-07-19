@@ -119,10 +119,8 @@ layout: default
                   <label class="usa-checkbox__label" for="gender-prefer-not-to-say">Prefer not to answer</label>
                 </div>
 
-                <label class="usa-label" for="race-and-ethnicity">Race and ethnicity <abbr title="required"
-                    class="usa-hint">*</abbr></label>
-                <input class="usa-input" id="race-and-ethnicity" name="raceAndEthnicity" type="race-and-ethnicity"
-                  required>
+                <label class="usa-label" for="race-and-ethnicity">Race and ethnicity</label>
+                <input class="usa-input" id="race-and-ethnicity" name="raceAndEthnicity" type="race-and-ethnicity">
 
                 <div class="usa-checkbox">
                   <input class="usa-checkbox__input" id="race-prefer-not-to-say" type="checkbox"
@@ -281,8 +279,6 @@ layout: default
                 <label class="usa-label" for="zip">ZIP code
                   <abbr title="required" class="usa-hint usa-hint--required">*</abbr></label>
                 <input class="usa-input usa-input--medium" id="zip" name="zip" pattern="[\d]{5}(-[\d]{4})?" required />
-                <label class="usa-label" for="urbanization">Urbanization (Puerto Rico only)</label>
-                <input class="usa-input" id="urbanization" name="urbanization" />
               </fieldset>
 
               <fieldset class="usa-fieldset margin-top-3">
@@ -417,37 +413,43 @@ layout: default
                 <input class="usa-input" id="urbanization2" name="urbanization2" />
               </fieldset>
 
-              <label class="usa-label" for="email">Email address</label>
-              <input class="usa-input" id="email" name="email" type="email" autocapitalize="off" autocorrect="off"
-                required />
+              <fieldset class="usa-fieldset margin-top-3 width-full">
+                <legend class="usa-legend">
+                  <h2 class="margin-bottom-0">Contact info</h2>
+                </legend>
+                <label class="usa-label" for="email">Email address</label>
+                <input class="usa-input" id="email" name="email" type="email" autocapitalize="off" autocorrect="off" />
 
-              <label class="usa-label" for="phone1">Primary contact number <abbr title="required"
-                  class="usa-hint usa-hint--required">*</abbr></label>
-              <input class="usa-input" id="phone1" name="phone1" type="phone1" autocapitalize="off" autocorrect="off"
-                pattern="(\+\d{1,2}\s)?\(?\d{3}\)?[\s.-]\d{3}[\s.-]\d{4}" required />
+                <label class="usa-label" for="phone1">Primary contact number <abbr title="required"
+                    class="usa-hint usa-hint--required">*</abbr></label>
+                <input class="usa-input" id="phone1" name="phone1" type="phone1" autocapitalize="off" autocorrect="off"
+                  pattern="(\+\d{1,2}\s)?\(?\d{3}\)?[\s.-]\d{3}[\s.-]\d{4}" required />
 
-              <div class="usa-radio">
-                <input class="usa-radio__input" id="phone1-mobile" type="radio" name="phone1-name" value="phone1-mobile"
-                  checked="checked" />
-                <label class="usa-radio__label" for="phone1-mobile">Mobile phone</label>
-              </div>
-              <div class="usa-radio">
-                <input class="usa-radio__input" id="phone1-home" type="radio" name="phone1-name" value="phone1-home" />
-                <label class="usa-radio__label" for="phone1-home">Home phone</label>
-              </div>
+                <div class="usa-radio">
+                  <input class="usa-radio__input" id="phone1-mobile" type="radio" name="phone1-name"
+                    value="phone1-mobile" checked="checked" />
+                  <label class="usa-radio__label" for="phone1-mobile">Mobile phone</label>
+                </div>
+                <div class="usa-radio">
+                  <input class="usa-radio__input" id="phone1-home" type="radio" name="phone1-name"
+                    value="phone1-home" />
+                  <label class="usa-radio__label" for="phone1-home">Home phone</label>
+                </div>
 
-              <label class="usa-label" for="phone2">Secondary contact number</label>
-              <input class="usa-input" id="phone2" name="phone2" type="phone2" autocapitalize="off" autocorrect="off"
-                pattern="(\+\d{1,2}\s)?\(?\d{3}\)?[\s.-]\d{3}[\s.-]\d{4}" required />
-              <div class="usa-radio">
-                <input class="usa-radio__input" id="phone2-mobile" type="radio" name="phone2-name" value="phone2-mobile"
-                  checked="checked" />
-                <label class="usa-radio__label" for="phone2-mobile">Mobile phone</label>
-              </div>
-              <div class="usa-radio">
-                <input class="usa-radio__input" id="phone2-home" type="radio" name="phone2-name" value="phone2-home" />
-                <label class="usa-radio__label" for="phone2-home">Home phone</label>
-              </div>
+                <label class="usa-label" for="phone2">Secondary contact number</label>
+                <input class="usa-input" id="phone2" name="phone2" type="phone2" autocapitalize="off" autocorrect="off"
+                  pattern="(\+\d{1,2}\s)?\(?\d{3}\)?[\s.-]\d{3}[\s.-]\d{4}" required />
+                <div class="usa-radio">
+                  <input class="usa-radio__input" id="phone2-mobile" type="radio" name="phone2-name"
+                    value="phone2-mobile" checked="checked" />
+                  <label class="usa-radio__label" for="phone2-mobile">Mobile phone</label>
+                </div>
+                <div class="usa-radio">
+                  <input class="usa-radio__input" id="phone2-home" type="radio" name="phone2-name"
+                    value="phone2-home" />
+                  <label class="usa-radio__label" for="phone2-home">Home phone</label>
+                </div>
+              </fieldset>
 
               <fieldset class="usa-fieldset margin-top-3 width-full">
                 <legend class="usa-legend">
@@ -484,47 +486,28 @@ layout: default
                   information about you with medical professionals. In order to provide the most accurate information we
                   request the following information from you. This information will only be used in cases of medical
                   emergency.</p>
+
+                <label class="usa-label" for="dob">Date of birth <abbr title="required"
+                    class="usa-hint usa-hint--required">*</abbr></label>
+                <input class="usa-input" id="dob" name="dob" type="dob" autocapitalize="off" autocorrect="off"
+                  pattern="^(0[1-9]|1[012])[-/.](0[1-9]|[12][0-9]|3[01])[-/.](19|20)\\d\\d$" required />
+
+                <p>Biological sex <abbr title="required" class="usa-hint usa-hint--required">*</abbr></p>
                 <div class="usa-radio">
-                  <input class="usa-radio__input usa-radio__input--tile" id="prefered-primary" type="radio"
-                    name="prefered-contact" value="prefered-primary">
-                  <label class="usa-radio__label" for="prefered-primary">Primary contact number</label>
+                  <input class="usa-radio__input" id="sex-male" type="radio" name="biological-sex" value="sex-male"
+                    checked="checked" />
+                  <label class="usa-radio__label" for="sex-male">Male</label>
                 </div>
                 <div class="usa-radio">
-                  <input class="usa-radio__input usa-radio__input--tile" id="prefered-secondary" type="radio"
-                    name="prefered-contact" value="prefered-secondary">
-                  <label class="usa-radio__label" for="prefered-secondary">Secondary contact number</label>
+                  <input class="usa-radio__input" id="sex-female" type="radio" name="biological-sex"
+                    value="sex-female" />
+                  <label class="usa-radio__label" for="sex-female">Female</label>
                 </div>
                 <div class="usa-radio">
-                  <input class="usa-radio__input usa-radio__input--tile" id="prefered-email" type="radio"
-                    name="prefered-contact" value="prefered-email">
-                  <label class="usa-radio__label" for="prefered-email">Email</label>
-                </div>
-                <div class="usa-radio">
-                  <input class="usa-radio__input usa-radio__input--tile" id="prefered-postal" type="radio"
-                    name="prefered-contact" value="prefered-postal">
-                  <label class="usa-radio__label" for="prefered-postal">Postal Mail</label>
+                  <input class="usa-radio__input" id="sex-x" type="radio" name="biological-sex" value="sex-x" />
+                  <label class="usa-radio__label" for="sex-x">X</label>
                 </div>
               </fieldset>
-
-              <label class="usa-label" for="dob">Date of birth <abbr title="required"
-                  class="usa-hint usa-hint--required">*</abbr></label>
-              <input class="usa-input" id="dob" name="dob" type="dob" autocapitalize="off" autocorrect="off"
-                pattern="^(0[1-9]|1[012])[-/.](0[1-9]|[12][0-9]|3[01])[-/.](19|20)\\d\\d$" required />
-
-              <p>Biological sex <abbr title="required" class="usa-hint usa-hint--required">*</abbr></p>
-              <div class="usa-radio">
-                <input class="usa-radio__input" id="sex-male" type="radio" name="biological-sex" value="sex-male"
-                  checked="checked" />
-                <label class="usa-radio__label" for="sex-male">Male</label>
-              </div>
-              <div class="usa-radio">
-                <input class="usa-radio__input" id="sex-female" type="radio" name="biological-sex" value="sex-female" />
-                <label class="usa-radio__label" for="sex-female">Female</label>
-              </div>
-              <div class="usa-radio">
-                <input class="usa-radio__input" id="sex-x" type="radio" name="biological-sex" value="sex-x" />
-                <label class="usa-radio__label" for="sex-x">X</label>
-              </div>
 
               <fieldset class="usa-fieldset margin-top-3">
                 <legend class="usa-legend">
@@ -554,16 +537,8 @@ layout: default
                 </div>
               </fieldset>
 
-              <div class="usa-checkbox margin-y-5">
-                <input class="usa-checkbox__input" id="terms-and-conditions" type="checkbox" name="terms-and-conditions"
-                  value="terms" required>
-                <label class="usa-checkbox__label" for="terms-and-conditions">I agree to the <a
-                    href="javascript:void()">terms and conditions</a>. <abbr title="required"
-                    class="usa-hint">*</abbr></label>
-              </div>
-
-              <input class="usa-button" type="submit" value="Create account">
-              <!-- </fieldset> -->
+              <input class="usa-button margin-y-4" type="submit" value="Complete profile">
+              
             </form>
           </div>
           <p class="text-center desktop:text-left">Already have an account? <a class="usa-link" href="signin.html">Sign
