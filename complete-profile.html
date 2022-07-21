@@ -99,7 +99,7 @@ layout: default
                     class="usa-hint usa-hint--required">*</abbr>).
                 </p>
 
-                <label class="usa-label" for="name">Name <abbr title="required"
+                <label class="usa-label" for="name">Full name <abbr title="required"
                     class="usa-hint usa-hint--required">*</abbr></label>
                 <input class="usa-input" id="name" name="name" type="text" autocapitalize="off" autocorrect="off"
                   placeholder="John Smith" required>
@@ -119,7 +119,7 @@ layout: default
                   <label class="usa-checkbox__label" for="gender-prefer-not-to-say">Prefer not to answer</label>
                 </div>
 
-                <label class="usa-label" for="race-and-ethnicity">Race and ethnicity</label>
+                <label class="usa-label" for="race-and-ethnicity">I identify my ethnicity as</label>
                 <input class="usa-input" id="race-and-ethnicity" name="raceAndEthnicity" type="race-and-ethnicity">
 
                 <div class="usa-checkbox">
@@ -207,7 +207,7 @@ layout: default
                 <label class="usa-label" for="city-1">City
                   <abbr title="required" class="usa-hint usa-hint--required">*</abbr></label>
                 <input class="usa-input" id="city-1" name="city-1" required />
-                <label class="usa-label" for="state-1">State
+                <label class="usa-label" for="state-1">State, territory, or military post
                   <abbr title="required" class="usa-hint usa-hint--required">*</abbr></label>
                 <div class="usa-combo-box">
                   <select class="usa-select" id="state-1" name="state-1">
@@ -281,6 +281,8 @@ layout: default
                   <abbr title="required" class="usa-hint usa-hint--required">*</abbr></label>
                 <input class="usa-input usa-input--medium" id="zip-1" name="zip-1" pattern="[\d]{5}(-[\d]{4})?"
                   required />
+                  <label class="usa-label" for="urbanization-1">Urbanization (Puerto Rico only)</label>
+                <input class="usa-input" id="urbanization-1" name="urbanization-1" />
               </fieldset>
 
               <fieldset class="usa-fieldset margin-top-3">
@@ -338,7 +340,7 @@ layout: default
                 <label class="usa-label" for="city-2">City
                   <abbr title="required" class="usa-hint usa-hint--required">*</abbr></label>
                 <input class="usa-input" id="city-2" name="city-2" required />
-                <label class="usa-label" for="state-2">State
+                <label class="usa-label" for="state-2">State, territory, or military post
                   <abbr title="required" class="usa-hint usa-hint--required">*</abbr></label>
                 <div class="usa-combo-box">
                   <select class="usa-select" id="state-2" name="state-2">
@@ -412,8 +414,8 @@ layout: default
                   <abbr title="required" class="usa-hint usa-hint--required">*</abbr></label>
                 <input class="usa-input usa-input--medium" id="zip-2" name="zip-2" pattern="[\d]{5}(-[\d]{4})?"
                   required />
-                <label class="usa-label" for="urbanization">Urbanization (Puerto Rico only)</label>
-                <input class="usa-input" id="urbanization" name="urbanization" />
+                <label class="usa-label" for="urbanization-2">Urbanization (Puerto Rico only)</label>
+                <input class="usa-input" id="urbanization-2" name="urbanization-2" />
               </fieldset>
 
               <fieldset class="usa-fieldset margin-top-3 width-full">
@@ -462,12 +464,12 @@ layout: default
                 <div class="usa-radio">
                   <input class="usa-radio__input usa-radio__input--tile" id="preferred-primary" type="radio"
                     name="preferred-contact" value="preferred-primary">
-                  <label class="usa-radio__label" for="preferred-primary">Primary contact number</label>
+                  <label class="usa-radio__label" for="preferred-primary">Telephone call</label>
                 </div>
                 <div class="usa-radio">
                   <input class="usa-radio__input usa-radio__input--tile" id="preferred-secondary" type="radio"
                     name="preferred-contact" value="preferred-secondary">
-                  <label class="usa-radio__label" for="preferred-secondary">Secondary contact number</label>
+                  <label class="usa-radio__label" for="preferred-secondary">Text message</label>
                 </div>
                 <div class="usa-radio">
                   <input class="usa-radio__input usa-radio__input--tile" id="preferred-email" type="radio"
@@ -477,7 +479,7 @@ layout: default
                 <div class="usa-radio">
                   <input class="usa-radio__input usa-radio__input--tile" id="preferred-postal" type="radio"
                     name="preferred-contact" value="preferred-postal">
-                  <label class="usa-radio__label" for="preferred-postal">Postal Mail</label>
+                  <label class="usa-radio__label" for="preferred-postal">Postal mail</label>
                 </div>
               </fieldset>
 
@@ -490,10 +492,27 @@ layout: default
                   request the following information from you. This information will only be used in cases of medical
                   emergency.</p>
 
-                <label class="usa-label" for="dob">Date of birth <abbr title="required"
-                    class="usa-hint usa-hint--required">*</abbr></label>
-                <input class="usa-input" id="dob" name="dob" type="dob" autocapitalize="off" autocorrect="off"
-                  pattern="^(0[1-9]|1[012])[-/.](0[1-9]|[12][0-9]|3[01])[-/.](19|20)\\d\\d$" required />
+                <p class="usa-label margin-bottom-0">Date of birth <abbr title="required" class="usa-hint usa-hint--required">*</abbr>
+                </p>
+
+                <div class="grid-row grid-gap margin-bottom-4">
+                  <div class="mobile-lg:grid-col-2">
+                    <label class="usa-label margin-top-1" for="dob-month">Month</label>
+                    <input class="usa-input" id="dob-month" name="dob-month" type="number" autocapitalize="off"
+                      autocorrect="off" size="2" maxlength="2" placeholder="MM" required />
+                  </div>
+                  <div class="mobile-lg:grid-col-2">
+                    <label class="usa-label margin-top-1" for="dob-day">Day</label>
+                    <input class="usa-input" id="dob-day" name="dob-day" type="number" autocapitalize="off"
+                      autocorrect="off" size="2" maxlength="2" placeholder="DD" required />
+                  </div>
+                  <div class="mobile-lg:grid-col-4">
+                    <label class="usa-label margin-top-1" for="dob-year">Year</label>
+                    <input class="usa-input" id="dob-year" name="dob-year" type="number" autocapitalize="off"
+                      maxlength="4" autocorrect="off" size="4" placeholder="YYYY" required />
+                  </div>
+                </div>
+
 
                 <p>Biological sex <abbr title="required" class="usa-hint usa-hint--required">*</abbr></p>
                 <div class="usa-radio">
@@ -519,7 +538,7 @@ layout: default
                 <label class="usa-label" for="full-name">Full name</label>
                 <input class="usa-input" id="full-name" name="full-name" />
 
-                <label class="usa-label" for="contact-details">Contact details</label>
+                <label class="usa-label" for="contact-details">Phone or email address</label>
                 <input class="usa-input" id="contact-details" name="contact-details" />
 
                 <p>Method of contact</p>
@@ -609,12 +628,14 @@ layout: default
     let city1 = document.getElementById("city-1");
     let state1 = document.getElementById("state-1");
     let zip1 = document.getElementById("zip-1");
+    let urbanization1 = document.getElementById("urbanization-1");
     let address2 = document.getElementById("address-2");
     let aptsuiteother2 = document.getElementById("apt-suite-other-2");
     let aptfloorsuiteno2 = document.getElementById("apt-floor-suite-no-2");
     let city2 = document.getElementById("city-2");
     let state2 = document.getElementById("state-2");
     let zip2 = document.getElementById("zip-2");
+    let urbanization2 = document.getElementById("urbanization-2");
 
     if (this.checked) {
       address2.value = address1.value;
@@ -629,6 +650,8 @@ layout: default
       state2.disabled = this.checked;
       zip2.value = zip1.value;
       zip2.disabled = this.checked;
+      urbanization2.value = urbanization1.value;
+      urbanization2.disabled = this.checked;
     } else {
       address2.value = '';
       address2.disabled = this.checked;
@@ -642,7 +665,8 @@ layout: default
       state2.disabled = this.checked;
       zip2.value = '';
       zip2.disabled = this.checked;
-
+      urbanization2.value = '';
+      urbanization2.disabled = this.checked;
     }
 
   };
