@@ -105,8 +105,10 @@ layout: default
                   placeholder="John Smith" required>
 
                 <label class="usa-label" for="pronouns">Pronouns </label>
-                <input class="usa-input" placeholder="he/they" id="pronouns" name="pronouns" type="text"
-                  autocapitalize="off" autocorrect="off">
+                <input class="usa-input" id="pronouns" name="pronouns" type="text" autocapitalize="off"
+                  autocorrect="off">
+                  <span class="usa-hint" id="mbHint">For example: he/they
+                  </span>
 
                 <label class="usa-label" for="my-gender">Gender</label>
                 <input class="usa-input" id="my-gender" name="my-gender" type="text" autocapitalize="off"
@@ -281,7 +283,7 @@ layout: default
                   <abbr title="required" class="usa-hint usa-hint--required">*</abbr></label>
                 <input class="usa-input usa-input--medium" id="zip-1" name="zip-1" pattern="[\d]{5}(-[\d]{4})?"
                   required />
-                  <label class="usa-label" for="urbanization-1">Urbanization (Puerto Rico only)</label>
+                <label class="usa-label" for="urbanization-1">Urbanization (Puerto Rico only)</label>
                 <input class="usa-input" id="urbanization-1" name="urbanization-1" />
               </fieldset>
 
@@ -492,24 +494,25 @@ layout: default
                   request the following information from you. This information will only be used in cases of medical
                   emergency.</p>
 
-                <p class="usa-label margin-bottom-0">Date of birth <abbr title="required" class="usa-hint usa-hint--required">*</abbr>
+                <p class="usa-label margin-bottom-0">Date of birth <abbr title="required"
+                    class="usa-hint usa-hint--required">*</abbr>
                 </p>
 
-                <div class="grid-row grid-gap margin-bottom-4">
-                  <div class="mobile-lg:grid-col-2">
-                    <label class="usa-label margin-top-1" for="dob-month">Month</label>
-                    <input class="usa-input" id="dob-month" name="dob-month" type="number" autocapitalize="off"
-                      autocorrect="off" size="2" maxlength="2" placeholder="MM" required />
+                <div class="usa-memorable-date">
+                  <div class="usa-form-group usa-form-group--month">
+                    <label class="usa-label" for="date_of_birth_1">Month</label>
+                    <input class="usa-input" aria-describedby="mdHint" id="date_of_birth_3" name="date_of_birth_3"
+                      maxlength="2" pattern="[0-9]*" inputmode="numeric" value="" />
                   </div>
-                  <div class="mobile-lg:grid-col-2">
-                    <label class="usa-label margin-top-1" for="dob-day">Day</label>
-                    <input class="usa-input" id="dob-day" name="dob-day" type="number" autocapitalize="off"
-                      autocorrect="off" size="2" maxlength="2" placeholder="DD" required />
+                  <div class="usa-form-group usa-form-group--day">
+                    <label class="usa-label" for="date_of_birth_2">Day</label>
+                    <input class="usa-input" aria-describedby="mdHint" id="date_of_birth_4" name="date_of_birth_4"
+                      maxlength="2" pattern="[0-9]*" inputmode="numeric" value="" />
                   </div>
-                  <div class="mobile-lg:grid-col-4">
-                    <label class="usa-label margin-top-1" for="dob-year">Year</label>
-                    <input class="usa-input" id="dob-year" name="dob-year" type="number" autocapitalize="off"
-                      maxlength="4" autocorrect="off" size="4" placeholder="YYYY" required />
+                  <div class="usa-form-group usa-form-group--year">
+                    <label class="usa-label" for="date_of_birth_3">Year</label>
+                    <input class="usa-input" aria-describedby="mdHint" id="date_of_birth_5" name="date_of_birth_5"
+                      minlength="4" maxlength="4" pattern="[0-9]*" inputmode="numeric" value="" />
                   </div>
                 </div>
 
