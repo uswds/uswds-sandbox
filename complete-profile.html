@@ -104,18 +104,18 @@ layout: default
                 <input class="usa-input" id="name" name="name" type="text" autocapitalize="off" autocorrect="off"
                   placeholder="John Smith" required>
 
-                <label class="usa-label" for="pronouns">Pronouns <abbr title="required"
-                    class="usa-hint usa-hint--required">*</abbr></label>
-                <input class="usa-input" placeholder="" id="pronouns" name="pronouns" type="text" autocapitalize="off"
-                  autocorrect="off" required>
+                <label class="usa-label" for="pronouns">Pronouns </label>
+                <input class="usa-input" placeholder="he/they" id="pronouns" name="pronouns" type="text"
+                  autocapitalize="off" autocorrect="off">
 
-                <label class="usa-label" for="gender">Gender</label>
-                <input class="usa-input" id="gender" name="gender" type="text" autocapitalize="off" autocorrect="off"
-                  required />
+                <label class="usa-label" for="my-gender">Gender</label>
+                <input class="usa-input" id="my-gender" name="my-gender" type="text" autocapitalize="off"
+                  autocorrect="off" />
 
                 <div class="usa-checkbox">
+
                   <input class="usa-checkbox__input" id="gender-prefer-not-to-say" type="checkbox"
-                    name="gender-prefer-not-to-say" value="" />
+                    name="gender-prefer-not-to-say" />
                   <label class="usa-checkbox__label" for="gender-prefer-not-to-say">Prefer not to answer</label>
                 </div>
 
@@ -140,8 +140,8 @@ layout: default
                   <label class="usa-checkbox__label" for="identity-emr-emt-paramedic">EMR/EMT/Paramedic</label>
                 </div>
                 <div class="usa-checkbox">
-                  <input class="usa-checkbox__input" id="identity-firefighter" type="checkbox"
-                    name="identity-specialty" value="firefighter">
+                  <input class="usa-checkbox__input" id="identity-firefighter" type="checkbox" name="identity-specialty"
+                    value="firefighter">
                   <label class="usa-checkbox__label" for="identity-firefighter">Firefighter</label>
                 </div>
                 <div class="usa-checkbox">
@@ -161,14 +161,14 @@ layout: default
                   <h2 class="margin-bottom-0">Physical address</h2>
                 </legend>
 
-                <label class="usa-label" for="mailing-address-1">Street address
+                <label class="usa-label" for="address-1">Street address
                   <abbr title="required" class="usa-hint usa-hint--required">*</abbr></label>
-                <input class="usa-input" id="mailing-address-1" name="mailing-address-1" required />
+                <input class="usa-input" id="address-1" name="address-1" required />
                 <div class="grid-row grid-gap">
                   <div class="mobile-lg:grid-col-8">
-                    <label class="usa-label" for="apt-suite-other">Unit type</label>
+                    <label class="usa-label" for="apt-suite-other-1">Unit type</label>
                     <div class="usa-combo-box">
-                      <select class="usa-select" id="apt-suite-other" name="apt-suite-other">
+                      <select class="usa-select" id="apt-suite-other-1" name="apt-suite-other-1">
                         <option value>- Select -</option>
                         <option value="APT">APT - Apartment</option>
                         <option value="BSMT">BSMT - Basement</option>
@@ -200,17 +200,17 @@ layout: default
                     </div>
                   </div>
                   <div class="mobile-lg:grid-col-4">
-                    <label class="usa-label" for="apt-floor-suite-no">Unit number</label>
-                    <input class="usa-input" id="apt-floor-suite-no" name="apt-floor-suite-no" />
+                    <label class="usa-label" for="apt-floor-suite-no-1">Unit number</label>
+                    <input class="usa-input" id="apt-floor-suite-no-1" name="apt-floor-suite-no-1" />
                   </div>
                 </div>
-                <label class="usa-label" for="city">City
+                <label class="usa-label" for="city-1">City
                   <abbr title="required" class="usa-hint usa-hint--required">*</abbr></label>
-                <input class="usa-input" id="city" name="city" required />
-                <label class="usa-label" for="state">State
+                <input class="usa-input" id="city-1" name="city-1" required />
+                <label class="usa-label" for="state-1">State
                   <abbr title="required" class="usa-hint usa-hint--required">*</abbr></label>
                 <div class="usa-combo-box">
-                  <select class="usa-select" id="state" name="state">
+                  <select class="usa-select" id="state-1" name="state-1">
                     <option value>- Select -</option>
                     <option value="AL">AL - Alabama</option>
                     <option value="AK">AK - Alaska</option>
@@ -277,9 +277,10 @@ layout: default
                     <option value="AP">AP - Armed Forces Pacific</option>
                   </select>
                 </div>
-                <label class="usa-label" for="zip">ZIP code
+                <label class="usa-label" for="zip-1">ZIP code
                   <abbr title="required" class="usa-hint usa-hint--required">*</abbr></label>
-                <input class="usa-input usa-input--medium" id="zip" name="zip" pattern="[\d]{5}(-[\d]{4})?" required />
+                <input class="usa-input usa-input--medium" id="zip-1" name="zip-1" pattern="[\d]{5}(-[\d]{4})?"
+                  required />
               </fieldset>
 
               <fieldset class="usa-fieldset margin-top-3">
@@ -291,14 +292,14 @@ layout: default
                     name="same-as-physical-address" value="" />
                   <label class="usa-checkbox__label" for="same-as-physical-address">Same as physical address</label>
                 </div>
-                <label class="usa-label" for="mailing-address-1">Street address
+                <label class="usa-label" for="address-2">Street address
                   <abbr title="required" class="usa-hint usa-hint--required">*</abbr></label>
-                <input class="usa-input" id="mailing-address-1" name="mailing-address-1" required />
+                <input class="usa-input" id="address-2" name="address-2" required />
                 <div class="grid-row grid-gap">
                   <div class="mobile-lg:grid-col-8">
-                    <label class="usa-label" for="apt-suite-other">Unit type</label>
+                    <label class="usa-label" for="apt-suite-other-2">Unit type</label>
                     <div class="usa-combo-box">
-                      <select class="usa-select" id="apt-suite-other" name="apt-suite-other">
+                      <select class="usa-select" id="apt-suite-other-2" name="apt-suite-other-2">
                         <option value>- Select -</option>
                         <option value="APT">APT - Apartment</option>
                         <option value="BSMT">BSMT - Basement</option>
@@ -330,17 +331,17 @@ layout: default
                     </div>
                   </div>
                   <div class="mobile-lg:grid-col-4">
-                    <label class="usa-label" for="apt-floor-suite-no">Unit number</label>
-                    <input class="usa-input" id="apt-floor-suite-no" name="apt-floor-suite-no" />
+                    <label class="usa-label" for="apt-floor-suite-no-2">Unit number</label>
+                    <input class="usa-input" id="apt-floor-suite-no-2" name="apt-floor-suite-no-2" />
                   </div>
                 </div>
-                <label class="usa-label" for="city">City
+                <label class="usa-label" for="city-2">City
                   <abbr title="required" class="usa-hint usa-hint--required">*</abbr></label>
-                <input class="usa-input" id="city" name="city" required />
-                <label class="usa-label" for="state">State
+                <input class="usa-input" id="city-2" name="city-2" required />
+                <label class="usa-label" for="state-2">State
                   <abbr title="required" class="usa-hint usa-hint--required">*</abbr></label>
                 <div class="usa-combo-box">
-                  <select class="usa-select" id="state" name="state">
+                  <select class="usa-select" id="state-2" name="state-2">
                     <option value>- Select -</option>
                     <option value="AL">AL - Alabama</option>
                     <option value="AK">AK - Alaska</option>
@@ -407,11 +408,12 @@ layout: default
                     <option value="AP">AP - Armed Forces Pacific</option>
                   </select>
                 </div>
-                <label class="usa-label" for="zip">ZIP code
+                <label class="usa-label" for="zip-2">ZIP code
                   <abbr title="required" class="usa-hint usa-hint--required">*</abbr></label>
-                <input class="usa-input usa-input--medium" id="zip" name="zip" pattern="[\d]{5}(-[\d]{4})?" required />
-                <label class="usa-label" for="urbanization2">Urbanization (Puerto Rico only)</label>
-                <input class="usa-input" id="urbanization2" name="urbanization2" />
+                <input class="usa-input usa-input--medium" id="zip-2" name="zip-2" pattern="[\d]{5}(-[\d]{4})?"
+                  required />
+                <label class="usa-label" for="urbanization">Urbanization (Puerto Rico only)</label>
+                <input class="usa-input" id="urbanization" name="urbanization" />
               </fieldset>
 
               <fieldset class="usa-fieldset margin-top-3 width-full">
@@ -539,7 +541,7 @@ layout: default
               </fieldset>
 
               <input class="usa-button margin-y-4" type="submit" value="Complete profile">
-              
+
             </form>
           </div>
           <p class="text-center desktop:text-left">Already have an account? <a class="usa-link" href="signin.html">Sign
@@ -588,3 +590,61 @@ layout: default
     </section>
   </div>
 </main>
+
+<script type="text/javascript">
+
+  document.getElementById("gender-prefer-not-to-say").onchange = function () {
+    document.getElementById("my-gender").disabled = this.checked;
+  };
+
+  document.getElementById("race-prefer-not-to-say").onchange = function () {
+    document.getElementById("race-and-ethnicity").disabled = this.checked;
+  };
+
+  // Copy physical address fields to mailing address fields
+  document.getElementById("same-as-physical-address").onchange = function () {
+    let address1 = document.getElementById("address-1");
+    let aptsuiteother1 = document.getElementById("apt-suite-other-1");
+    let aptfloorsuiteno1 = document.getElementById("apt-floor-suite-no-1");
+    let city1 = document.getElementById("city-1");
+    let state1 = document.getElementById("state-1");
+    let zip1 = document.getElementById("zip-1");
+    let address2 = document.getElementById("address-2");
+    let aptsuiteother2 = document.getElementById("apt-suite-other-2");
+    let aptfloorsuiteno2 = document.getElementById("apt-floor-suite-no-2");
+    let city2 = document.getElementById("city-2");
+    let state2 = document.getElementById("state-2");
+    let zip2 = document.getElementById("zip-2");
+
+    if (this.checked) {
+      address2.value = address1.value;
+      address2.disabled = this.checked;
+      aptsuiteother2.value = aptsuiteother1.value;
+      aptsuiteother2.disabled = this.checked;
+      aptfloorsuiteno2.value = aptfloorsuiteno1.value;
+      aptfloorsuiteno2.disabled = this.checked;
+      city2.value = city1.value;
+      city2.disabled = this.checked;
+      state2.value = state1.value;
+      state2.disabled = this.checked;
+      zip2.value = zip1.value;
+      zip2.disabled = this.checked;
+    } else {
+      address2.value = '';
+      address2.disabled = this.checked;
+      aptsuiteother2.value = '';
+      aptsuiteother2.disabled = this.checked;
+      aptfloorsuiteno2.value = '';
+      aptfloorsuiteno2.disabled = this.checked;
+      city2.value = '';
+      city2.disabled = this.checked;
+      state2.value = '';
+      state2.disabled = this.checked;
+      zip2.value = '';
+      zip2.disabled = this.checked;
+
+    }
+
+  };
+
+</script>
