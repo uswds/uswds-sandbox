@@ -85,15 +85,14 @@ layout: default
           <div class="bg-white padding-y-3 padding-x-5 border border-base-lighter">
             <h1 class="margin-bottom-0">Complete Your Profile</h1>
 
+            <p>As a member of the Zombie Preparedness Team you will be contacted with assignment or preparedness
+              information and updates. We want to ensure that we respect you and your personal identity when
+              contacting you.</p>
             <form class="">
               <fieldset class="usa-fieldset">
                 <legend class="usa-legend">
-                  <h2 class="margin-bottom-0">General Information</h2>
+                  <h2 class="margin-bottom-0">Your Information</h2>
                 </legend>
-
-                <p>As a member of the Zombie Preparedness Team you will be contacted with assignment or preparedness
-                  information and updates. We want to ensure that we respect you and your personal identity when
-                  contacting you.</p>
                 <p>
                   Required fields are marked with an asterisk (<abbr title="required"
                     class="usa-hint usa-hint--required">*</abbr>).
@@ -101,37 +100,43 @@ layout: default
 
                 <label class="usa-label" for="name">Full name <abbr title="required"
                     class="usa-hint usa-hint--required">*</abbr></label>
-                <input class="usa-input" id="name" name="name" type="text" autocapitalize="off" autocorrect="off"
-                  placeholder="" required>
-                <span class="usa-hint" id="mbHint">For example: Riley Smith
+                <span class="usa-hint" id="fnHint">For example: Riley Smith
                 </span>
+                <input class="usa-input" aria-describedby="fnHint" id="name" name="name" type="text"
+                  autocapitalize="off" autocorrect="off" placeholder="" required>
+
 
                 <label class="usa-label" for="pronouns">Pronouns </label>
-                <input class="usa-input" id="pronouns" name="pronouns" type="text" autocapitalize="off"
-                  autocorrect="off">
-                <span class="usa-hint" id="mbHint">For example: he, she, they
+                <span class="usa-hint" id="proHint">For example: he, she, they
                 </span>
+                <input class="usa-input" aria-describedby="proHint" id="pronouns" name="pronouns" type="text"
+                  autocapitalize="off" autocorrect="off">
+
 
                 <label class="usa-label" for="my-gender">Gender</label>
-                <input class="usa-input" id="my-gender" name="my-gender" type="text" autocapitalize="off"
-                  autocorrect="off" />
-                <span class="usa-hint" id="mbHint">For example: male, female, genderqueer
+                <span class="usa-hint" id="genHint">For example: male, female, genderqueer
                 </span>
+                <input class="usa-input" aria-describedby="genHint" id="my-gender" name="my-gender" type="text"
+                  autocapitalize="off" autocorrect="off" />
+
 
                 <div class="usa-checkbox">
-
-                  <input class="usa-checkbox__input" id="gender-prefer-not-to-say" type="checkbox"
+                  <input class="usa-checkbox__input" aria-describedby="genderHint" id="gender-prefer-not-to-say" type="checkbox"
                     name="gender-prefer-not-to-say" />
                   <label class="usa-checkbox__label" for="gender-prefer-not-to-say">Prefer not to answer</label>
+                  <span class="usa-hint usa-sr-only" id="genderHint">gender, I prefer not to answer
+                  </span>
                 </div>
 
                 <label class="usa-label" for="race-and-ethnicity">I identify my ethnicity as</label>
                 <input class="usa-input" id="race-and-ethnicity" name="raceAndEthnicity" type="race-and-ethnicity">
 
                 <div class="usa-checkbox">
-                  <input class="usa-checkbox__input" id="race-prefer-not-to-say" type="checkbox"
+                  <input class="usa-checkbox__input" aria-describedby="raceHint" id="race-prefer-not-to-say" type="checkbox"
                     name="race-prefer-not-to-say" value="" />
                   <label class="usa-checkbox__label" for="race-prefer-not-to-say">Prefer not to answer</label>
+                  <span class="usa-hint usa-sr-only" id="raceHint">race, I prefer not to answer
+                  </span>
                 </div>
               </fieldset>
 
@@ -433,8 +438,7 @@ layout: default
 
                 <label class="usa-label" for="phone1">Primary contact number <abbr title="required"
                     class="usa-hint usa-hint--required">*</abbr></label>
-                <input class="usa-input" id="phone1" name="phone1" type="phone1" autocapitalize="off" autocorrect="off"
-                  pattern="(\+\d{1,2}\s)?\(?\d{3}\)?[\s.-]\d{3}[\s.-]\d{4}" required />
+                <input class="usa-input" id="phone1" name="phone1" type="phone1" />
 
                 <div class="usa-radio">
                   <input class="usa-radio__input" id="phone1-mobile" type="radio" name="phone1-name"
@@ -448,8 +452,7 @@ layout: default
                 </div>
 
                 <label class="usa-label" for="phone2">Secondary contact number</label>
-                <input class="usa-input" id="phone2" name="phone2" type="phone2" autocapitalize="off" autocorrect="off"
-                  pattern="(\+\d{1,2}\s)?\(?\d{3}\)?[\s.-]\d{3}[\s.-]\d{4}" required />
+                <input class="usa-input" id="phone2" name="phone2" type="phone2" />
                 <div class="usa-radio">
                   <input class="usa-radio__input" id="phone2-mobile" type="radio" name="phone2-name"
                     value="phone2-mobile" checked="checked" />
@@ -505,18 +508,24 @@ layout: default
                 <div class="usa-memorable-date">
                   <div class="usa-form-group usa-form-group--month">
                     <label class="usa-label" for="date_of_birth_1">Month</label>
-                    <input class="usa-input" aria-describedby="mdHint" id="date_of_birth_3" name="date_of_birth_3"
+                    <input class="usa-input" aria-describedby="monthHint" id="date_of_birth_3" name="date_of_birth_3"
                       maxlength="2" pattern="[0-9]*" inputmode="numeric" value="" />
+                    <span class="usa-hint usa-sr-only" id="monthHint">Two digit month you were born
+                    </span>
                   </div>
                   <div class="usa-form-group usa-form-group--day">
                     <label class="usa-label" for="date_of_birth_2">Day</label>
-                    <input class="usa-input" aria-describedby="mdHint" id="date_of_birth_4" name="date_of_birth_4"
+                    <input class="usa-input" aria-describedby="dayHint" id="date_of_birth_4" name="date_of_birth_4"
                       maxlength="2" pattern="[0-9]*" inputmode="numeric" value="" />
+                    <span class="usa-hint usa-sr-only" id="dayHint">two digit day you were born
+                    </span>
                   </div>
                   <div class="usa-form-group usa-form-group--year">
                     <label class="usa-label" for="date_of_birth_3">Year</label>
-                    <input class="usa-input" aria-describedby="mdHint" id="date_of_birth_5" name="date_of_birth_5"
+                    <input class="usa-input" aria-describedby="yearHint" id="date_of_birth_5" name="date_of_birth_5"
                       minlength="4" maxlength="4" pattern="[0-9]*" inputmode="numeric" value="" />
+                    <span class="usa-hint usa-sr-only" id="yearHint">four digit year you were born
+                    </span>
                   </div>
                 </div>
 
