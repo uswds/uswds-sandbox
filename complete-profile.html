@@ -121,8 +121,8 @@ layout: default
 
 
                 <div class="usa-checkbox">
-                  <input class="usa-checkbox__input" aria-describedby="genderHint" id="gender-prefer-not-to-say" type="checkbox"
-                    name="gender-prefer-not-to-say" />
+                  <input class="usa-checkbox__input" aria-describedby="genderHint" id="gender-prefer-not-to-say"
+                    type="checkbox" name="gender-prefer-not-to-say" />
                   <label class="usa-checkbox__label" for="gender-prefer-not-to-say">Prefer not to answer</label>
                   <span class="usa-hint usa-sr-only" id="genderHint">gender, I prefer not to answer
                   </span>
@@ -132,8 +132,8 @@ layout: default
                 <input class="usa-input" id="race-and-ethnicity" name="raceAndEthnicity" type="race-and-ethnicity">
 
                 <div class="usa-checkbox">
-                  <input class="usa-checkbox__input" aria-describedby="raceHint" id="race-prefer-not-to-say" type="checkbox"
-                    name="race-prefer-not-to-say" value="" />
+                  <input class="usa-checkbox__input" aria-describedby="raceHint" id="race-prefer-not-to-say"
+                    type="checkbox" name="race-prefer-not-to-say" value="" />
                   <label class="usa-checkbox__label" for="race-prefer-not-to-say">Prefer not to answer</label>
                   <span class="usa-hint usa-sr-only" id="raceHint">race, I prefer not to answer
                   </span>
@@ -507,21 +507,21 @@ layout: default
 
                 <div class="usa-memorable-date">
                   <div class="usa-form-group usa-form-group--month">
-                    <label class="usa-label" for="date_of_birth_1">Month</label>
+                    <label class="usa-label" for="date_of_birth_3">Month</label>
                     <input class="usa-input" aria-describedby="monthHint" id="date_of_birth_3" name="date_of_birth_3"
                       maxlength="2" pattern="[0-9]*" inputmode="numeric" value="" />
                     <span class="usa-hint usa-sr-only" id="monthHint">Two digit month you were born
                     </span>
                   </div>
                   <div class="usa-form-group usa-form-group--day">
-                    <label class="usa-label" for="date_of_birth_2">Day</label>
+                    <label class="usa-label" for="date_of_birth_4">Day</label>
                     <input class="usa-input" aria-describedby="dayHint" id="date_of_birth_4" name="date_of_birth_4"
                       maxlength="2" pattern="[0-9]*" inputmode="numeric" value="" />
                     <span class="usa-hint usa-sr-only" id="dayHint">two digit day you were born
                     </span>
                   </div>
                   <div class="usa-form-group usa-form-group--year">
-                    <label class="usa-label" for="date_of_birth_3">Year</label>
+                    <label class="usa-label" for="date_of_birth_5">Year</label>
                     <input class="usa-input" aria-describedby="yearHint" id="date_of_birth_5" name="date_of_birth_5"
                       minlength="4" maxlength="4" pattern="[0-9]*" inputmode="numeric" value="" />
                     <span class="usa-hint usa-sr-only" id="yearHint">four digit year you were born
@@ -552,10 +552,9 @@ layout: default
                   <h2 class="margin-bottom-0">Emergency contact</h2>
                 </legend>
                 <label class="usa-label" for="full-name">Full name</label>
-                <input class="usa-input" id="full-name" name="full-name" />
-
-                <label class="usa-label" for="contact-details">Phone or email address</label>
-                <input class="usa-input" id="contact-details" name="contact-details" />
+                <input class="usa-input" aria-describedby="emergencyFNHint" id="full-name" name="full-name" />
+                <span class="usa-hint usa-sr-only" id="emergencyFNHint">Emergency contact full name
+                </span>
 
                 <p>Method of contact</p>
                 <div class="usa-radio">
@@ -573,6 +572,13 @@ layout: default
                     value="emergency-email" />
                   <label class="usa-radio__label" for="emergency-email">Email</label>
                 </div>
+
+                <label class="usa-label" for="contact-details">Phone or email address</label>
+                <input class="usa-input" aria-describedby="emergencyPhoneHint" id="contact-details"
+                  name="contact-details" />
+                <span class="usa-hint usa-sr-only" id="emergencyPhoneHint">Emergency contact Phone or email address
+                </span>
+
               </fieldset>
 
               <input class="usa-button margin-y-4" type="submit" value="Complete profile">
