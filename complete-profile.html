@@ -114,7 +114,7 @@ layout: default
 
 
                 <label class="usa-label" for="my-gender">Gender</label>
-                <span class="usa-hint" id="genHint">For example: male, female, genderqueer
+                <span class="usa-hint" id="genHint">For example: man, woman, non-binary
                 </span>
                 <input class="usa-input" aria-describedby="genHint" id="my-gender" name="my-gender" type="text"
                   autocapitalize="off" autocorrect="off" autocomplete="chrome-off" />
@@ -129,14 +129,14 @@ layout: default
                 </div>
 
                 <label class="usa-label" for="race-and-ethnicity">I identify my ethnicity as</label>
-                <input class="usa-input" id="race-and-ethnicity" name="raceAndEthnicity" type="race-and-ethnicity"
+                <input class="usa-input" id="race-and-ethnicity" name="race-and-ethnicity" type="race-and-ethnicity"
                   autocomplete="chrome-off" />
 
                 <div class="usa-checkbox">
-                  <input class="usa-checkbox__input" aria-describedby="raceHint" id="race-prefer-not-to-say"
+                  <input class="usa-checkbox__input" aria-describedby="race-and-ethnicity" id="race-prefer-not-to-say"
                     type="checkbox" name="race-prefer-not-to-say" value="" />
                   <label class="usa-checkbox__label" for="race-prefer-not-to-say">Prefer not to answer</label>
-                  <span class="usa-hint usa-sr-only" id="raceHint">race, I prefer not to answer
+                  <span class="usa-hint usa-sr-only" id="race-and-ethnicity">my ethnicity, I prefer not to answer
                   </span>
                 </div>
               </fieldset>
@@ -176,7 +176,7 @@ layout: default
                 <label class="usa-label" for="address-1">Street address
                   <abbr title="required" class="usa-hint usa-hint--required">*</abbr></label>
                 <input class="usa-input" id="address-1" name="address-1" autocomplete="chrome-off" required />
-                <div class="grid-row grid-gap">
+                <!-- <div class="grid-row grid-gap">
                   <div class="mobile-lg:grid-col-8">
                     <label class="usa-label" for="apt-suite-other-1">Unit type</label>
                     <div class="usa-combo-box">
@@ -215,7 +215,7 @@ layout: default
                     <label class="usa-label" for="apt-floor-suite-no-1">Unit number</label>
                     <input class="usa-input" id="apt-floor-suite-no-1" name="apt-floor-suite-no-1" autocomplete="chrome-off" />
                   </div>
-                </div>
+                </div> -->
                 <label class="usa-label" for="city-1">City
                   <abbr title="required" class="usa-hint usa-hint--required">*</abbr></label>
                 <input class="usa-input" id="city-1" name="city-1" autocomplete="chrome-off" required />
@@ -309,7 +309,7 @@ layout: default
                 <label class="usa-label" for="address-2">Street address
                   <abbr title="required" class="usa-hint usa-hint--required">*</abbr></label>
                 <input class="usa-input" id="address-2" name="address-2" autocomplete="chrome-off" required />
-                <div class="grid-row grid-gap">
+                <!-- <div class="grid-row grid-gap">
                   <div class="mobile-lg:grid-col-8">
                     <label class="usa-label" for="apt-suite-other-2">Unit type</label>
                     <div class="usa-combo-box">
@@ -348,7 +348,7 @@ layout: default
                     <label class="usa-label" for="apt-floor-suite-no-2">Unit number</label>
                     <input class="usa-input" id="apt-floor-suite-no-2" name="apt-floor-suite-no-2" autocomplete="chrome-off" />
                   </div>
-                </div>
+                </div> -->
                 <label class="usa-label" for="city-2">City
                   <abbr title="required" class="usa-hint usa-hint--required">*</abbr></label>
                 <input class="usa-input" id="city-2" name="city-2" autocomplete="chrome-off" required />
@@ -424,8 +424,8 @@ layout: default
                 </div>
                 <label class="usa-label" for="zip-2">ZIP code
                   <abbr title="required" class="usa-hint usa-hint--required">*</abbr></label>
-                <input class="usa-input usa-input--medium" id="zip-2" name="zip-2" autocomplete="chrome-off" pattern="[\d]{5}(-[\d]{4})?"
-                  required />
+                <input class="usa-input usa-input--medium" id="zip-2" name="zip-2" autocomplete="chrome-off"
+                  pattern="[\d]{5}(-[\d]{4})?" required />
                 <label class="usa-label" for="urbanization-2">Urbanization (Puerto Rico only)</label>
                 <input class="usa-input" id="urbanization-2" name="urbanization-2" />
               </fieldset>
@@ -435,7 +435,8 @@ layout: default
                   <h2 class="margin-bottom-0">Contact info</h2>
                 </legend>
                 <label class="usa-label" for="email">Email address</label>
-                <input class="usa-input" id="email" name="email" type="email" autocapitalize="off" autocorrect="off" autocomplete="chrome-off" />
+                <input class="usa-input" id="email" name="email" type="email" autocapitalize="off" autocorrect="off"
+                  autocomplete="chrome-off" />
 
                 <label class="usa-label" for="phone1">Primary contact number <abbr title="required"
                     class="usa-hint usa-hint--required">*</abbr></label>
@@ -501,18 +502,18 @@ layout: default
                 </div>
               </fieldset>
 
+
+              <h2 class="margin-bottom-0">Medical Information</h2>
+              <p><u>In case of emergency:</u> Due to the nature of the taskforce’s work, we may need to share
+                information about you with medical professionals. In order to provide the most accurate information we
+                request the following information from you. This information will only be used in cases of medical
+                emergency.</p>
+
+
               <fieldset class="usa-fieldset margin-top-3 width-full">
                 <legend class="usa-legend">
-                  <h2 class="margin-bottom-0">Medical Information</h2>
+                  <p>Date of birth <abbr title="required" class="usa-hint usa-hint--required">*</abbr></p>
                 </legend>
-                <p><u>In case of emergency:</u> Due to the nature of the taskforce’s work, we may need to share
-                  information about you with medical professionals. In order to provide the most accurate information we
-                  request the following information from you. This information will only be used in cases of medical
-                  emergency.</p>
-
-                <p class="usa-label margin-bottom-0">Date of birth <abbr title="required"
-                    class="usa-hint usa-hint--required">*</abbr>
-                </p>
 
                 <div class="usa-memorable-date">
                   <div class="usa-form-group usa-form-group--month">
@@ -532,14 +533,20 @@ layout: default
                   <div class="usa-form-group usa-form-group--year">
                     <label class="usa-label" for="date_of_birth_5">Year</label>
                     <input class="usa-input" aria-describedby="yearHint" id="date_of_birth_5" name="date_of_birth_5"
-                      minlength="4" maxlength="4" pattern="[0-9]*" inputmode="numeric" value="" autocomplete="chrome-off" />
+                      minlength="4" maxlength="4" pattern="[0-9]*" inputmode="numeric" value=""
+                      autocomplete="chrome-off" />
                     <span class="usa-hint usa-sr-only" id="yearHint">four digit year you were born
                     </span>
                   </div>
                 </div>
+              </fieldset>
+
+              <fieldset class="usa-fieldset margin-top-3 width-full">
+                <legend class="usa-legend">
+                  <p>Biological sex <abbr title="required" class="usa-hint usa-hint--required">*</abbr></p>
+                </legend>
 
 
-                <p>Biological sex <abbr title="required" class="usa-hint usa-hint--required">*</abbr></p>
                 <div class="usa-radio">
                   <input class="usa-radio__input" id="sex-male" type="radio" name="biological-sex" value="sex-male"
                     checked="checked" />
@@ -561,11 +568,18 @@ layout: default
                   <h2 class="margin-bottom-0">Emergency contact</h2>
                 </legend>
                 <label class="usa-label" for="full-name">Full name</label>
-                <input class="usa-input" aria-describedby="emergencyFNHint" id="full-name" name="full-name" autocomplete="chrome-off" />
+                <input class="usa-input" aria-describedby="emergencyFNHint" id="full-name" name="full-name"
+                  autocomplete="chrome-off" />
                 <span class="usa-hint usa-sr-only" id="emergencyFNHint">Emergency contact full name
                 </span>
 
-                <p>Method of contact</p>
+              </fieldset>
+
+              <fieldset class="usa-fieldset margin-top-3">
+                <legend class="usa-legend">
+                  <h2 class="margin-bottom-0">Method of contac</h2>
+                </legend>
+
                 <div class="usa-radio">
                   <input class="usa-radio__input" id="emergency-phone" type="radio" name="emergency-method"
                     value="emergency-phone" checked="checked" />
