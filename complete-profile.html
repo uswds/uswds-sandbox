@@ -103,7 +103,7 @@ layout: default
                 <span class="usa-hint" id="fnHint">For example: Riley Smith
                 </span>
                 <input class="usa-input" aria-describedby="fnHint" id="name" name="name" type="text"
-                  autocapitalize="off" autocorrect="off" autocomplete="chrome-off" placeholder="" required>
+                  autocapitalize="off" autocorrect="off" autocomplete="chrome-off" placeholder="" required="required">
 
 
                 <label class="usa-label" for="pronouns">Pronouns </label>
@@ -175,7 +175,7 @@ layout: default
 
                 <label class="usa-label" for="address-1">Street address
                   <abbr title="required" class="usa-hint usa-hint--required">*</abbr></label>
-                <input class="usa-input" id="address-1" name="address-1" autocomplete="chrome-off" required />
+                <input class="usa-input" id="address-1" name="address-1" autocomplete="chrome-off" required="required" />
                 <!-- <div class="grid-row grid-gap">
                   <div class="mobile-lg:grid-col-8">
                     <label class="usa-label" for="apt-suite-other-1">Unit type</label>
@@ -218,7 +218,7 @@ layout: default
                 </div> -->
                 <label class="usa-label" for="city-1">City
                   <abbr title="required" class="usa-hint usa-hint--required">*</abbr></label>
-                <input class="usa-input" id="city-1" name="city-1" autocomplete="chrome-off" required />
+                <input class="usa-input" id="city-1" name="city-1" autocomplete="chrome-off" required="required" />
                 <label class="usa-label" for="state-1">State, territory, or military post
                   <abbr title="required" class="usa-hint usa-hint--required">*</abbr></label>
                 <div class="usa-combo-box">
@@ -292,7 +292,7 @@ layout: default
                 <label class="usa-label" for="zip-1">ZIP code
                   <abbr title="required" class="usa-hint usa-hint--required">*</abbr></label>
                 <input class="usa-input usa-input--medium usa-input-mask usa-masked" id="zip-1" name="zip-1"
-                  autocomplete="chrome-off" required />
+                  autocomplete="chrome-off" required="required" />
                 <label class="usa-label" for="urbanization-1">Urbanization (Puerto Rico only)</label>
                 <input class="usa-input" id="urbanization-1" autocomplete="chrome-off" name="urbanization-1" />
               </fieldset>
@@ -308,7 +308,7 @@ layout: default
                 </div>
                 <label class="usa-label" for="address-2">Street address
                   <abbr title="required" class="usa-hint usa-hint--required">*</abbr></label>
-                <input class="usa-input" id="address-2" name="address-2" autocomplete="chrome-off" required />
+                <input class="usa-input" id="address-2" name="address-2" autocomplete="chrome-off" required="required" />
                 <!-- <div class="grid-row grid-gap">
                   <div class="mobile-lg:grid-col-8">
                     <label class="usa-label" for="apt-suite-other-2">Unit type</label>
@@ -351,7 +351,7 @@ layout: default
                 </div> -->
                 <label class="usa-label" for="city-2">City
                   <abbr title="required" class="usa-hint usa-hint--required">*</abbr></label>
-                <input class="usa-input" id="city-2" name="city-2" autocomplete="chrome-off" required />
+                <input class="usa-input" id="city-2" name="city-2" autocomplete="chrome-off" required="required" />
                 <label class="usa-label" for="state-2">State, territory, or military post
                   <abbr title="required" class="usa-hint usa-hint--required">*</abbr></label>
                 <div class="usa-combo-box">
@@ -424,7 +424,7 @@ layout: default
                 </div>
                 <label class="usa-label" for="zip-2">ZIP code
                   <abbr title="required" class="usa-hint usa-hint--required">*</abbr></label>
-                <input class="usa-input usa-input--medium" id="zip-2" name="zip-2" autocomplete="chrome-off" required />
+                <input class="usa-input usa-input--medium" id="zip-2" name="zip-2" autocomplete="chrome-off" required="required" />
                 <label class="usa-label" for="urbanization-2">Urbanization (Puerto Rico only)</label>
                 <input class="usa-input" id="urbanization-2" name="urbanization-2" />
               </fieldset>
@@ -518,14 +518,14 @@ layout: default
                   <div class="usa-form-group usa-form-group--month">
                     <label class="usa-label" for="date_of_birth_3">Month</label>
                     <input class="usa-input" aria-describedby="monthHint" id="date_of_birth_3" name="date_of_birth_3"
-                      maxlength="2" pattern="[0-9]*" inputmode="numeric" value="" autocomplete="chrome-off" required />
+                      maxlength="2" pattern="[0-9]*" inputmode="numeric" value="" autocomplete="chrome-off" required="required" />
                     <span class="usa-hint usa-sr-only" id="monthHint">two digit month you were born
                     </span>
                   </div>
                   <div class="usa-form-group usa-form-group--day">
                     <label class="usa-label" for="date_of_birth_4">Day</label>
                     <input class="usa-input" aria-describedby="dayHint" id="date_of_birth_4" name="date_of_birth_4"
-                      maxlength="2" pattern="[0-9]*" inputmode="numeric" value="" autocomplete="chrome-off" required />
+                      maxlength="2" pattern="[0-9]*" inputmode="numeric" value="" autocomplete="chrome-off" required="required" />
                     <span class="usa-hint usa-sr-only" id="dayHint">two digit day you were born
                     </span>
                   </div>
@@ -533,7 +533,7 @@ layout: default
                     <label class="usa-label" for="date_of_birth_5">Year</label>
                     <input class="usa-input" aria-describedby="yearHint" id="date_of_birth_5" name="date_of_birth_5"
                       minlength="4" maxlength="4" pattern="[0-9]*" inputmode="numeric" value=""
-                      autocomplete="chrome-off" required />
+                      autocomplete="chrome-off" required="required" />
                     <span class="usa-hint usa-sr-only" id="yearHint">four digit year you were born
                     </span>
                   </div>
@@ -552,16 +552,16 @@ layout: default
 
                 <div class="usa-radio">
                   <input class="usa-radio__input" id="sex-male" type="radio" name="biological-sex" value="sex-male"
-                    checked="checked" required />
+                    checked="checked" required="required" />
                   <label class="usa-radio__label" for="sex-male">Male</label>
                 </div>
                 <div class="usa-radio">
                   <input class="usa-radio__input" id="sex-female" type="radio" name="biological-sex"
-                    value="sex-female" required />
+                    value="sex-female" required="required" />
                   <label class="usa-radio__label" for="sex-female">Female</label>
                 </div>
                 <div class="usa-radio">
-                  <input class="usa-radio__input" id="sex-x" type="radio" name="biological-sex" value="sex-x" required />
+                  <input class="usa-radio__input" id="sex-x" type="radio" name="biological-sex" value="sex-x" required="required" />
                   <label class="usa-radio__label" for="sex-x">X</label>
                 </div>
               </fieldset>
