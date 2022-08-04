@@ -88,7 +88,7 @@ layout: default
             <p>As a member of the Zombie Preparedness Team you will be contacted with assignment or preparedness
               information and updates. We want to ensure that we respect you and your personal identity when
               contacting you.</p>
-            <form class="">
+            <form class="" autocomplete="chrome-off">
               <fieldset class="usa-fieldset">
                 <legend class="usa-legend">
                   <h2 class="margin-bottom-0">Your Information</h2>
@@ -103,21 +103,21 @@ layout: default
                 <span class="usa-hint" id="fnHint">For example: Riley Smith
                 </span>
                 <input class="usa-input" aria-describedby="fnHint" id="name" name="name" type="text"
-                  autocapitalize="off" autocorrect="off" placeholder="" required>
+                  autocapitalize="off" autocorrect="off" autocomplete="chrome-off" placeholder="" required>
 
 
                 <label class="usa-label" for="pronouns">Pronouns </label>
                 <span class="usa-hint" id="proHint">For example: he, she, they
                 </span>
                 <input class="usa-input" aria-describedby="proHint" id="pronouns" name="pronouns" type="text"
-                  autocapitalize="off" autocorrect="off">
+                  autocapitalize="off" autocorrect="off" autocomplete="chrome-off">
 
 
                 <label class="usa-label" for="my-gender">Gender</label>
                 <span class="usa-hint" id="genHint">For example: male, female, genderqueer
                 </span>
                 <input class="usa-input" aria-describedby="genHint" id="my-gender" name="my-gender" type="text"
-                  autocapitalize="off" autocorrect="off" />
+                  autocapitalize="off" autocorrect="off" autocomplete="chrome-off" />
 
 
                 <div class="usa-checkbox">
@@ -129,7 +129,8 @@ layout: default
                 </div>
 
                 <label class="usa-label" for="race-and-ethnicity">I identify my ethnicity as</label>
-                <input class="usa-input" id="race-and-ethnicity" name="raceAndEthnicity" type="race-and-ethnicity">
+                <input class="usa-input" id="race-and-ethnicity" name="raceAndEthnicity" type="race-and-ethnicity"
+                  autocomplete="chrome-off" />
 
                 <div class="usa-checkbox">
                   <input class="usa-checkbox__input" aria-describedby="raceHint" id="race-prefer-not-to-say"
@@ -174,7 +175,7 @@ layout: default
 
                 <label class="usa-label" for="address-1">Street address
                   <abbr title="required" class="usa-hint usa-hint--required">*</abbr></label>
-                <input class="usa-input" id="address-1" name="address-1" required />
+                <input class="usa-input" id="address-1" name="address-1" autocomplete="chrome-off" required />
                 <div class="grid-row grid-gap">
                   <div class="mobile-lg:grid-col-8">
                     <label class="usa-label" for="apt-suite-other-1">Unit type</label>
@@ -212,12 +213,12 @@ layout: default
                   </div>
                   <div class="mobile-lg:grid-col-4">
                     <label class="usa-label" for="apt-floor-suite-no-1">Unit number</label>
-                    <input class="usa-input" id="apt-floor-suite-no-1" name="apt-floor-suite-no-1" />
+                    <input class="usa-input" id="apt-floor-suite-no-1" name="apt-floor-suite-no-1" autocomplete="chrome-off" />
                   </div>
                 </div>
                 <label class="usa-label" for="city-1">City
                   <abbr title="required" class="usa-hint usa-hint--required">*</abbr></label>
-                <input class="usa-input" id="city-1" name="city-1" required />
+                <input class="usa-input" id="city-1" name="city-1" autocomplete="chrome-off" required />
                 <label class="usa-label" for="state-1">State, territory, or military post
                   <abbr title="required" class="usa-hint usa-hint--required">*</abbr></label>
                 <div class="usa-combo-box">
@@ -290,10 +291,10 @@ layout: default
                 </div>
                 <label class="usa-label" for="zip-1">ZIP code
                   <abbr title="required" class="usa-hint usa-hint--required">*</abbr></label>
-                <input class="usa-input usa-input--medium" id="zip-1" name="zip-1" pattern="[\d]{5}(-[\d]{4})?"
-                  required />
+                <input class="usa-input usa-input--medium usa-input-mask usa-masked" id="zip-1" name="zip-1"
+                  pattern="[\d]{5}(-[\d]{4})?" autocomplete="chrome-off" required />
                 <label class="usa-label" for="urbanization-1">Urbanization (Puerto Rico only)</label>
-                <input class="usa-input" id="urbanization-1" name="urbanization-1" />
+                <input class="usa-input" id="urbanization-1" autocomplete="chrome-off" name="urbanization-1" />
               </fieldset>
 
               <fieldset class="usa-fieldset margin-top-3">
@@ -307,7 +308,7 @@ layout: default
                 </div>
                 <label class="usa-label" for="address-2">Street address
                   <abbr title="required" class="usa-hint usa-hint--required">*</abbr></label>
-                <input class="usa-input" id="address-2" name="address-2" required />
+                <input class="usa-input" id="address-2" name="address-2" autocomplete="chrome-off" required />
                 <div class="grid-row grid-gap">
                   <div class="mobile-lg:grid-col-8">
                     <label class="usa-label" for="apt-suite-other-2">Unit type</label>
@@ -345,12 +346,12 @@ layout: default
                   </div>
                   <div class="mobile-lg:grid-col-4">
                     <label class="usa-label" for="apt-floor-suite-no-2">Unit number</label>
-                    <input class="usa-input" id="apt-floor-suite-no-2" name="apt-floor-suite-no-2" />
+                    <input class="usa-input" id="apt-floor-suite-no-2" name="apt-floor-suite-no-2" autocomplete="chrome-off" />
                   </div>
                 </div>
                 <label class="usa-label" for="city-2">City
                   <abbr title="required" class="usa-hint usa-hint--required">*</abbr></label>
-                <input class="usa-input" id="city-2" name="city-2" required />
+                <input class="usa-input" id="city-2" name="city-2" autocomplete="chrome-off" required />
                 <label class="usa-label" for="state-2">State, territory, or military post
                   <abbr title="required" class="usa-hint usa-hint--required">*</abbr></label>
                 <div class="usa-combo-box">
@@ -423,7 +424,7 @@ layout: default
                 </div>
                 <label class="usa-label" for="zip-2">ZIP code
                   <abbr title="required" class="usa-hint usa-hint--required">*</abbr></label>
-                <input class="usa-input usa-input--medium" id="zip-2" name="zip-2" pattern="[\d]{5}(-[\d]{4})?"
+                <input class="usa-input usa-input--medium" id="zip-2" name="zip-2" autocomplete="chrome-off" pattern="[\d]{5}(-[\d]{4})?"
                   required />
                 <label class="usa-label" for="urbanization-2">Urbanization (Puerto Rico only)</label>
                 <input class="usa-input" id="urbanization-2" name="urbanization-2" />
@@ -434,11 +435,16 @@ layout: default
                   <h2 class="margin-bottom-0">Contact info</h2>
                 </legend>
                 <label class="usa-label" for="email">Email address</label>
-                <input class="usa-input" id="email" name="email" type="email" autocapitalize="off" autocorrect="off" />
+                <input class="usa-input" id="email" name="email" type="email" autocapitalize="off" autocorrect="off" autocomplete="chrome-off" />
 
                 <label class="usa-label" for="phone1">Primary contact number <abbr title="required"
                     class="usa-hint usa-hint--required">*</abbr></label>
-                <input class="usa-input" id="phone1" name="phone1" type="phone1" />
+                <!-- <input class="usa-input" id="phone1" name="phone1" type="phone1" /> -->
+
+                <input type="tel" id="phone1" name="phone1" pattern="^(\+\d{1,2}\s)?\(?\d{3}\)?[\s.-]\d{3}[\s.-]\d{4}$"
+                  class="usa-input usa-input-mask usa-masked" title="10-digit USA telephone number" maxlength="14"
+                  data-placeholder="(XXX) XXX-XXXX" autocomplete="chrome-off">
+
 
                 <div class="usa-radio">
                   <input class="usa-radio__input" id="phone1-mobile" type="radio" name="phone1-name"
@@ -452,7 +458,10 @@ layout: default
                 </div>
 
                 <label class="usa-label" for="phone2">Secondary contact number</label>
-                <input class="usa-input" id="phone2" name="phone2" type="phone2" />
+                <input type="tel" id="phone2" name="phone2" pattern="^(\+\d{1,2}\s)?\(?\d{3}\)?[\s.-]\d{3}[\s.-]\d{4}$"
+                  class="usa-input usa-input-mask usa-masked" title="10-digit USA telephone number" maxlength="14"
+                  data-placeholder="(XXX) XXX-XXXX" autocomplete="chrome-off">
+
                 <div class="usa-radio">
                   <input class="usa-radio__input" id="phone2-mobile" type="radio" name="phone2-name"
                     value="phone2-mobile" checked="checked" />
@@ -509,21 +518,21 @@ layout: default
                   <div class="usa-form-group usa-form-group--month">
                     <label class="usa-label" for="date_of_birth_3">Month</label>
                     <input class="usa-input" aria-describedby="monthHint" id="date_of_birth_3" name="date_of_birth_3"
-                      maxlength="2" pattern="[0-9]*" inputmode="numeric" value="" />
+                      maxlength="2" pattern="[0-9]*" inputmode="numeric" value="" autocomplete="chrome-off" />
                     <span class="usa-hint usa-sr-only" id="monthHint">Two digit month you were born
                     </span>
                   </div>
                   <div class="usa-form-group usa-form-group--day">
                     <label class="usa-label" for="date_of_birth_4">Day</label>
                     <input class="usa-input" aria-describedby="dayHint" id="date_of_birth_4" name="date_of_birth_4"
-                      maxlength="2" pattern="[0-9]*" inputmode="numeric" value="" />
+                      maxlength="2" pattern="[0-9]*" inputmode="numeric" value="" autocomplete="chrome-off" />
                     <span class="usa-hint usa-sr-only" id="dayHint">two digit day you were born
                     </span>
                   </div>
                   <div class="usa-form-group usa-form-group--year">
                     <label class="usa-label" for="date_of_birth_5">Year</label>
                     <input class="usa-input" aria-describedby="yearHint" id="date_of_birth_5" name="date_of_birth_5"
-                      minlength="4" maxlength="4" pattern="[0-9]*" inputmode="numeric" value="" />
+                      minlength="4" maxlength="4" pattern="[0-9]*" inputmode="numeric" value="" autocomplete="chrome-off" />
                     <span class="usa-hint usa-sr-only" id="yearHint">four digit year you were born
                     </span>
                   </div>
@@ -552,7 +561,7 @@ layout: default
                   <h2 class="margin-bottom-0">Emergency contact</h2>
                 </legend>
                 <label class="usa-label" for="full-name">Full name</label>
-                <input class="usa-input" aria-describedby="emergencyFNHint" id="full-name" name="full-name" />
+                <input class="usa-input" aria-describedby="emergencyFNHint" id="full-name" name="full-name" autocomplete="chrome-off" />
                 <span class="usa-hint usa-sr-only" id="emergencyFNHint">Emergency contact full name
                 </span>
 
@@ -575,7 +584,7 @@ layout: default
 
                 <label class="usa-label" for="contact-details">Phone or email address</label>
                 <input class="usa-input" aria-describedby="emergencyPhoneHint" id="contact-details"
-                  name="contact-details" />
+                  name="contact-details" autocomplete="chrome-off" />
                 <span class="usa-hint usa-sr-only" id="emergencyPhoneHint">Emergency contact Phone or email address
                 </span>
 
@@ -692,5 +701,172 @@ layout: default
     }
 
   };
+
+
+  // Input mask
+
+  // const Sanitizer = require("../../uswds-core/src/js/utils/sanitizer"); // eslint-disable-line no-unused-vars
+
+  const MASKED = "usa-masked";
+  const MASKED_CLASS = `.${MASKED}`;
+  const MASK = "usa-input-mask";
+  const MASK_CONTENT = "usa-input-mask--content";
+  const PLACEHOLDER = "placeholder";
+
+  function ready(fn) {
+    document.addEventListener("DOMContentLoaded", fn, false);
+  }
+
+  ready(() => {
+    const masking = {
+      // User defined Values
+      maskedInputs: document.getElementsByClassName(MASKED),
+      maskedNumber: "XdDmMyY9",
+      maskedLetter: "_",
+
+      init() {
+        masking.setUpMasks(masking.maskedInputs);
+        masking.maskedInputs = document.querySelectorAll(MASKED_CLASS); // Repopulating. Needed b/c static node list was created above.
+        masking.activateMasking(masking.maskedInputs);
+      },
+
+      setUpMasks(inputs) {
+        let i;
+        const l = inputs.length;
+
+        for (i = 0; i < l; i += 1) {
+          masking.createShell(inputs[i]);
+        }
+      },
+
+      // replaces each masked input with a shell containing the input and it's mask.
+      createShell(input) {
+        const placeholder = input.getAttribute(`${PLACEHOLDER}`);
+
+        if (
+          placeholder !== null &&
+          placeholder.length > 0 &&
+          placeholder !== " "
+        ) {
+          input.setAttribute("maxlength", placeholder.length);
+          input.setAttribute("data-placeholder", placeholder);
+          input.removeAttribute(`${PLACEHOLDER}`);
+        } else {
+          return;
+        }
+
+        // This section still needs some rework
+        const text = `<span class="${MASK}"><span class="${MASK_CONTENT}" aria-hidden="true" id="${input.id}Mask"><i></i>${placeholder}</span>${input.outerHTML}</span>`;
+
+        input.outerHTML = text; // eslint-disable-line no-param-reassign, no-unsanitized/property
+      },
+
+      setValueOfMask(e) {
+        const { value } = e.target;
+        const placeholder = e.target.getAttribute("data-placeholder");
+        const placeholderVal = `${placeholder.substr(value.length)}`;
+
+        const theIEl = document.createElement("i");
+        theIEl.textContent = value;
+        return [theIEl, placeholderVal];
+      },
+
+      // add event listeners
+      activateMasking(inputs) {
+        let i;
+        let l;
+
+        for (i = 0, l = inputs.length; i < l; i += 1) {
+          masking.maskedInputs[i].addEventListener(
+            "keyup",
+            (e) => {
+              masking.handleValueChange(e);
+            },
+            false
+          );
+        }
+      },
+
+      handleValueChange(e) {
+        const id = e.target.getAttribute("id");
+
+        switch (
+        e.keyCode // allows navigating thru input
+        ) {
+          case 20: // caplocks
+          case 17: // control
+          case 18: // option
+          case 16: // shift
+          case 37: // arrow keys
+          case 38:
+          case 39:
+          case 40:
+          case 9: // tab (let blur handle tab)
+            return;
+          // no default
+        }
+
+        document.getElementById(id).value = masking.handleCurrentValue(e);
+        const maskVal = masking.setValueOfMask(e);
+        const maskEl = document.getElementById(`${id}Mask`);
+        maskEl.innerHTML = "";
+        maskEl.replaceChildren(maskVal[0], maskVal[1]);
+      },
+
+      handleCurrentValue(e) {
+        const isCharsetPresent = e.target.getAttribute("data-charset");
+        const placeholder =
+          isCharsetPresent || e.target.getAttribute("data-placeholder");
+        const { value } = e.target;
+        const l = placeholder.length;
+        let newValue = "";
+        let i;
+        let j;
+        let isInt;
+        let isLetter;
+
+        // strip special characters
+        const strippedValue = isCharsetPresent
+          ? value.replace(/\W/g, "")
+          : value.replace(/\D/g, "");
+
+        for (i = 0, j = 0; i < l; i += 1) {
+          // eslint-disable-next-line no-restricted-globals
+          isInt = !isNaN(parseInt(strippedValue[j], 10));
+          isLetter = strippedValue[j] ? strippedValue[j].match(/[A-Z]/i) : false;
+          const matchesNumber = masking.maskedNumber.indexOf(placeholder[i]) >= 0;
+          const matchesLetter = masking.maskedLetter.indexOf(placeholder[i]) >= 0;
+
+          if (
+            (matchesNumber && isInt) ||
+            (isCharsetPresent && matchesLetter && isLetter)
+          ) {
+            // eslint-disable-next-line no-plusplus
+            newValue += strippedValue[j++];
+          } else if (
+            (!isCharsetPresent && !isInt && matchesNumber) ||
+            (isCharsetPresent &&
+              ((matchesLetter && !isLetter) || (matchesNumber && !isInt)))
+          ) {
+            // masking.errorOnKeyEntry(); // write your own error handling function
+            return newValue;
+          } else {
+            newValue += placeholder[i];
+          }
+          // break if no characters left and the pattern is non-special character
+          if (strippedValue[j] === undefined) {
+            break;
+          }
+        }
+        if (e.target.getAttribute("data-valid-example")) {
+          return masking.validateProgress(e, newValue);
+        }
+        return newValue;
+      },
+    };
+
+    masking.init();
+  });
+
 
 </script>
