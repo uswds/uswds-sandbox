@@ -292,7 +292,7 @@ layout: default
                 <label class="usa-label" for="zip-1">ZIP code
                   <abbr title="required" class="usa-hint usa-hint--required">*</abbr></label>
                 <input class="usa-input usa-input--medium usa-input-mask usa-masked" id="zip-1" name="zip-1"
-                  pattern="[\d]{5}(-[\d]{4})?" autocomplete="chrome-off" required />
+                  autocomplete="chrome-off" required />
                 <label class="usa-label" for="urbanization-1">Urbanization (Puerto Rico only)</label>
                 <input class="usa-input" id="urbanization-1" autocomplete="chrome-off" name="urbanization-1" />
               </fieldset>
@@ -424,8 +424,7 @@ layout: default
                 </div>
                 <label class="usa-label" for="zip-2">ZIP code
                   <abbr title="required" class="usa-hint usa-hint--required">*</abbr></label>
-                <input class="usa-input usa-input--medium" id="zip-2" name="zip-2" autocomplete="chrome-off"
-                  pattern="[\d]{5}(-[\d]{4})?" required />
+                <input class="usa-input usa-input--medium" id="zip-2" name="zip-2" autocomplete="chrome-off" required />
                 <label class="usa-label" for="urbanization-2">Urbanization (Puerto Rico only)</label>
                 <input class="usa-input" id="urbanization-2" name="urbanization-2" />
               </fieldset>
@@ -482,7 +481,7 @@ layout: default
                 </legend>
                 <div class="usa-radio">
                   <input class="usa-radio__input usa-radio__input--tile" id="preferred-primary" type="radio"
-                    name="preferred-contact" value="preferred-primary">
+                    name="preferred-contact" value="preferred-primary" required>
                   <label class="usa-radio__label" for="preferred-primary">Telephone call</label>
                 </div>
                 <div class="usa-radio">
@@ -519,23 +518,23 @@ layout: default
                   <div class="usa-form-group usa-form-group--month">
                     <label class="usa-label" for="date_of_birth_3">Month</label>
                     <input class="usa-input" aria-describedby="monthHint" id="date_of_birth_3" name="date_of_birth_3"
-                      maxlength="2" pattern="[0-9]*" inputmode="numeric" value="" autocomplete="chrome-off" />
-                    <span class="usa-hint usa-sr-only" id="monthHint">Medical information, two digit month you were born
+                      maxlength="2" pattern="[0-9]*" inputmode="numeric" value="" autocomplete="chrome-off" required />
+                    <span class="usa-hint usa-sr-only" id="monthHint">two digit month you were born
                     </span>
                   </div>
                   <div class="usa-form-group usa-form-group--day">
                     <label class="usa-label" for="date_of_birth_4">Day</label>
                     <input class="usa-input" aria-describedby="dayHint" id="date_of_birth_4" name="date_of_birth_4"
-                      maxlength="2" pattern="[0-9]*" inputmode="numeric" value="" autocomplete="chrome-off" />
-                    <span class="usa-hint usa-sr-only" id="dayHint">Medical information, two digit day you were born
+                      maxlength="2" pattern="[0-9]*" inputmode="numeric" value="" autocomplete="chrome-off" required />
+                    <span class="usa-hint usa-sr-only" id="dayHint">two digit day you were born
                     </span>
                   </div>
                   <div class="usa-form-group usa-form-group--year">
                     <label class="usa-label" for="date_of_birth_5">Year</label>
                     <input class="usa-input" aria-describedby="yearHint" id="date_of_birth_5" name="date_of_birth_5"
                       minlength="4" maxlength="4" pattern="[0-9]*" inputmode="numeric" value=""
-                      autocomplete="chrome-off" />
-                    <span class="usa-hint usa-sr-only" id="yearHint">Medical information, four digit year you were born
+                      autocomplete="chrome-off" required />
+                    <span class="usa-hint usa-sr-only" id="yearHint">four digit year you were born
                     </span>
                   </div>
                 </div>
@@ -543,15 +542,17 @@ layout: default
 
               <fieldset class="usa-fieldset margin-top-3 width-full">
                 <legend class="usa-legend">
-                  <p aria-describedby="bioSexHint">Biological sex <abbr title="required" class="usa-hint usa-hint--required">*</abbr>
-                    <span class="usa-hint usa-sr-only" id="bioSexHint">Medical information, biological sex. Select from the options below.
+                  <p aria-describedby="bioSexHint">Biological sex <abbr title="required"
+                      class="usa-hint usa-hint--required">*</abbr>
+                    <span class="usa-hint usa-sr-only" id="bioSexHint">Medical information, biological sex. Select from
+                      the options below.
                     </span>
                   </p>
                 </legend>
 
                 <div class="usa-radio">
                   <input class="usa-radio__input" id="sex-male" type="radio" name="biological-sex" value="sex-male"
-                    checked="checked" />
+                    checked="checked" required />
                   <label class="usa-radio__label" for="sex-male">Male</label>
                 </div>
                 <div class="usa-radio">
@@ -575,7 +576,7 @@ layout: default
                 <span class="usa-hint usa-sr-only" id="emergencyFNHint">Emergency contact full name
                 </span>
               </fieldset>
-              
+
 
               <fieldset class="usa-fieldset margin-top-3">
                 <legend class="usa-legend">
@@ -608,7 +609,7 @@ layout: default
 
               </fieldset>
 
-            
+
 
               <input class="usa-button margin-y-4" type="submit" value="Complete profile">
 
