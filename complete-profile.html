@@ -674,15 +674,15 @@ layout: default
   // Copy physical address fields to mailing address fields
   document.getElementById("same-as-physical-address").onchange = function () {
     let address1 = document.getElementById("address-1");
-    let aptsuiteother1 = document.getElementById("apt-suite-other-1");
-    let aptfloorsuiteno1 = document.getElementById("apt-floor-suite-no-1");
+    //let aptsuiteother1 = document.getElementById("apt-suite-other-1");
+    //let aptfloorsuiteno1 = document.getElementById("apt-floor-suite-no-1");
     let city1 = document.getElementById("city-1");
     let state1 = document.getElementById("state-1");
     let zip1 = document.getElementById("zip-1");
     let urbanization1 = document.getElementById("urbanization-1");
     let address2 = document.getElementById("address-2");
-    let aptsuiteother2 = document.getElementById("apt-suite-other-2");
-    let aptfloorsuiteno2 = document.getElementById("apt-floor-suite-no-2");
+    //let aptsuiteother2 = document.getElementById("apt-suite-other-2");
+    //let aptfloorsuiteno2 = document.getElementById("apt-floor-suite-no-2");
     let city2 = document.getElementById("city-2");
     let state2 = document.getElementById("state-2");
     let zip2 = document.getElementById("zip-2");
@@ -691,10 +691,10 @@ layout: default
     if (this.checked) {
       address2.value = address1.value;
       address2.disabled = this.checked;
-      aptsuiteother2.value = aptsuiteother1.value;
-      aptsuiteother2.disabled = this.checked;
-      aptfloorsuiteno2.value = aptfloorsuiteno1.value;
-      aptfloorsuiteno2.disabled = this.checked;
+      //aptsuiteother2.value = aptsuiteother1.value;
+      //aptsuiteother2.disabled = this.checked;
+      //aptfloorsuiteno2.value = aptfloorsuiteno1.value;
+      //aptfloorsuiteno2.disabled = this.checked;
       city2.value = city1.value;
       city2.disabled = this.checked;
       state2.value = state1.value;
@@ -706,10 +706,10 @@ layout: default
     } else {
       address2.value = '';
       address2.disabled = this.checked;
-      aptsuiteother2.value = '';
-      aptsuiteother2.disabled = this.checked;
-      aptfloorsuiteno2.value = '';
-      aptfloorsuiteno2.disabled = this.checked;
+      //aptsuiteother2.value = '';
+      //aptsuiteother2.disabled = this.checked;
+      //aptfloorsuiteno2.value = '';
+      //aptfloorsuiteno2.disabled = this.checked;
       city2.value = '';
       city2.disabled = this.checked;
       state2.value = '';
