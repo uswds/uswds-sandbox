@@ -520,14 +520,14 @@ layout: default
                     <label class="usa-label" for="date_of_birth_3">Month</label>
                     <input class="usa-input" aria-describedby="monthHint" id="date_of_birth_3" name="date_of_birth_3"
                       maxlength="2" pattern="[0-9]*" inputmode="numeric" value="" autocomplete="chrome-off" />
-                    <span class="usa-hint usa-sr-only" id="monthHint">Two digit month you were born
+                    <span class="usa-hint usa-sr-only" id="monthHint">Medical information, two digit month you were born
                     </span>
                   </div>
                   <div class="usa-form-group usa-form-group--day">
                     <label class="usa-label" for="date_of_birth_4">Day</label>
                     <input class="usa-input" aria-describedby="dayHint" id="date_of_birth_4" name="date_of_birth_4"
                       maxlength="2" pattern="[0-9]*" inputmode="numeric" value="" autocomplete="chrome-off" />
-                    <span class="usa-hint usa-sr-only" id="dayHint">two digit day you were born
+                    <span class="usa-hint usa-sr-only" id="dayHint">Medical information, two digit day you were born
                     </span>
                   </div>
                   <div class="usa-form-group usa-form-group--year">
@@ -535,7 +535,7 @@ layout: default
                     <input class="usa-input" aria-describedby="yearHint" id="date_of_birth_5" name="date_of_birth_5"
                       minlength="4" maxlength="4" pattern="[0-9]*" inputmode="numeric" value=""
                       autocomplete="chrome-off" />
-                    <span class="usa-hint usa-sr-only" id="yearHint">four digit year you were born
+                    <span class="usa-hint usa-sr-only" id="yearHint">Medical information, four digit year you were born
                     </span>
                   </div>
                 </div>
@@ -543,9 +543,11 @@ layout: default
 
               <fieldset class="usa-fieldset margin-top-3 width-full">
                 <legend class="usa-legend">
-                  <p>Biological sex <abbr title="required" class="usa-hint usa-hint--required">*</abbr></p>
+                  <p aria-describedby="bioSexHint">Biological sex <abbr title="required" class="usa-hint usa-hint--required">*</abbr>
+                    <span class="usa-hint usa-sr-only" id="bioSexHint">Medical information, biological sex. Select from the options below.
+                    </span>
+                  </p>
                 </legend>
-
 
                 <div class="usa-radio">
                   <input class="usa-radio__input" id="sex-male" type="radio" name="biological-sex" value="sex-male"
@@ -572,12 +574,14 @@ layout: default
                   autocomplete="chrome-off" />
                 <span class="usa-hint usa-sr-only" id="emergencyFNHint">Emergency contact full name
                 </span>
-
               </fieldset>
+              
 
               <fieldset class="usa-fieldset margin-top-3">
                 <legend class="usa-legend">
-                  <p class="margin-bottom-0">Method of contact</p>
+                  <p class="margin-bottom-0" aria-describedby="emergencyMethodHint">Method of contact</p>
+                  <span class="usa-hint usa-sr-only" id="emergencyMethodHint">Emergency contact method of contact
+                  </span>
                 </legend>
 
                 <div class="usa-radio">
@@ -603,6 +607,8 @@ layout: default
                 </span>
 
               </fieldset>
+
+            
 
               <input class="usa-button margin-y-4" type="submit" value="Complete profile">
 
