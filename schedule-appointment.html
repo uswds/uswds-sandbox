@@ -90,16 +90,33 @@ title: Schedule appointment
                 <legend class="usa-legend">
                   <h2 class="margin-bottom-0">Your Information</h2>
                 </legend>
-              <label class="usa-label" for="given-name">First or given name</label>
-              <div class="usa-hint" id="gnHint">For example, Jose, Darren, or Mai</div>
-              <input class="usa-input usa-input--xl" id="given-name" name="first-name" aria-describedby="gnHint" />
-              
-              <label class="usa-label" for="family-name">Last or family name</label>
-              <div class="usa-hint" id="lnHint">
-                For example, Martinez Gonzalez, Gu, or Smith
-              </div>
-              <input class="usa-input usa-input--xl" id="family-name" name="last-name" aria-describedby="lnHint" />
-               
+                <label class="usa-label" for="given-name">First or given name</label>
+                <div class="usa-hint" id="gnHint">For example, Jose, Darren, or Mai</div>
+                <input class="usa-input usa-input--xl" id="given-name" name="first-name" aria-describedby="gnHint" />
+                
+                <label class="usa-label" for="family-name">Last or family name</label>
+                <div class="usa-hint" id="lnHint">
+                  For example, Martinez Gonzalez, Gu, or Smith
+                </div>
+                <input class="usa-input usa-input--xl" id="family-name" name="last-name" aria-describedby="lnHint" />
+              </fieldset>
+
+              <fieldset class="usa-fieldset margin-top-3 width-full">
+                <legend class="usa-legend">
+                  <h2 class="margin-bottom-0">Appointment time and date</h2>
+                </legend>
+                <label class="usa-label" id="appointment-date-label" for="appointment-date">Appointment date</label>
+                <div class="usa-hint" id="appointment-date-hint">mm/dd/yyyy</div>
+                <div class="usa-date-picker">
+                  <input class="usa-input" id="appointment-date" name="appointment-date" aria-labelledby="appointment-date-label"
+                    aria-describedby="appointment-date-hint" />
+                </div>
+                <label class="usa-label" id="appointment-time-label" for="appointment-time">Appointment time</label>
+                <div class="usa-hint" id="appointment-time-hint">hh:mm</div>
+                <div class="usa-time-picker">
+                  <input class="usa-input" id="appointment-time" name="appointment-time"
+                    aria-describedby="appointment-time-label appointment-time-hint" />
+                </div>
               </fieldset>
 
               <fieldset class="usa-fieldset margin-top-3">
@@ -186,7 +203,6 @@ title: Schedule appointment
                 <label class="usa-label" for="urbanization">Urbanization (Puerto Rico only)</label>
                 <input class="usa-input" id="urbanization" name="urbanization" />
               </fieldset>
-              
 
               <fieldset class="usa-fieldset margin-top-3 width-full">
                 <legend class="usa-legend">
@@ -198,11 +214,9 @@ title: Schedule appointment
 
                 <label class="usa-label" for="phone1">Primary contact number <abbr title="required"
                     class="usa-hint usa-hint--required">*</abbr></label>
-                <!-- <input class="usa-input" id="phone1" name="phone1" type="phone1" /> -->
-
-                <input type="tel" id="phone1" name="phone1" pattern="^(\+\d{1,2}\s)?\(?\d{3}\)?[\s.-]\d{3}[\s.-]\d{4}$"
-                  class="usa-input usa-input-mask usa-masked" title="10-digit USA telephone number" maxlength="14"
-                  data-placeholder="(XXX) XXX-XXXX" autocomplete="chrome-off" aria-required="true">
+                <div class="usa-hint" id="telPrimHint">For example, 123-456-7890</div>
+                <input id="tel" type="tel" inputmode="numeric" name="tel" placeholder="___-___-____" pattern="\d{3}-\d{3}-\d{4}"
+                  class="usa-input usa-masked" aria-describedby="telPrimHint" />
 
 
                 <div class="usa-radio">
@@ -217,9 +231,9 @@ title: Schedule appointment
                 </div>
 
                 <label class="usa-label" for="phone2">Secondary contact number</label>
-                <input type="tel" id="phone2" name="phone2" pattern="^(\+\d{1,2}\s)?\(?\d{3}\)?[\s.-]\d{3}[\s.-]\d{4}$"
-                  class="usa-input usa-input-mask usa-masked" title="10-digit USA telephone number" maxlength="14"
-                  data-placeholder="(XXX) XXX-XXXX" autocomplete="chrome-off">
+                <div class="usa-hint" id="telSecHint">For example, 123-456-7890</div>
+                <input id="tel" type="tel" inputmode="numeric" name="tel" placeholder="___-___-____" pattern="\d{3}-\d{3}-\d{4}"
+                  class="usa-input usa-masked" aria-describedby="telSecHint" />
 
                 <div class="usa-radio">
                   <input class="usa-radio__input" id="phone2-mobile" type="radio" name="phone2-name"
@@ -267,12 +281,9 @@ title: Schedule appointment
                 request the following information from you. This information will only be used in cases of medical
                 emergency.</p>
 
-
-
-                <fieldset class="usa-fieldset">
+              <fieldset class="usa-fieldset">
                   <legend class="usa-legend">Date of Birth</legend>
-                  <span class="usa-hint" id="mdHint">For example: 01 - January 19 2000
-              </span>
+                  <span class="usa-hint" id="mdHint">For example: 01 - January 19 2000</span>
                   <div class="usa-memorable-date">
                       <div class="usa-form-group usa-form-group--month usa-form-group--select" style="width:12rem">
                           <label class="usa-label" for="date_of_birth_month">Month</label>
@@ -308,28 +319,18 @@ title: Schedule appointment
               </fieldset>
 
               <fieldset class="usa-fieldset margin-top-3 width-full">
-                <legend class="usa-legend">
-                  <p aria-describedby="bioSexHint">Biological sex <abbr title="required"
-                      class="usa-hint usa-hint--required">*</abbr>
-                    <span class="usa-hint usa-sr-only" id="bioSexHint">Medical information, biological sex. Select from
-                      the options below.
-                    </span>
-                  </p>
-                </legend>
-
+                <legend class="usa-legend usa-legend">Sex listed at birth</legend>
                 <div class="usa-radio">
-                  <input class="usa-radio__input" id="sex-male" type="radio" name="biological-sex" value="sex-male"
-                    checked="checked" aria-required="true" />
-                  <label class="usa-radio__label" for="sex-male">Male</label>
+                  <input class="usa-radio__input" id="male" type="radio" name="biological-sex" value="male" />
+                  <label class="usa-radio__label" for="male">Male</label>
                 </div>
                 <div class="usa-radio">
-                  <input class="usa-radio__input" id="sex-female" type="radio" name="biological-sex"
-                    value="sex-female" aria-required="true" />
-                  <label class="usa-radio__label" for="sex-female">Female</label>
+                  <input class="usa-radio__input" id="female" type="radio" name="biological-sex" value="female" />
+                  <label class="usa-radio__label" for="female">Female</label>
                 </div>
                 <div class="usa-radio">
-                  <input class="usa-radio__input" id="sex-x" type="radio" name="biological-sex" value="sex-x" aria-required="true" />
-                  <label class="usa-radio__label" for="sex-x">X</label>
+                  <input class="usa-radio__input" id="x" type="radio" name="biological-sex" value="x" />
+                  <label class="usa-radio__label" for="x">X (intersex or unspecified)</label>
                 </div>
               </fieldset>
 
