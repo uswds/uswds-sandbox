@@ -1,0 +1,203 @@
+---
+layout: default
+title: Schedule appointment
+---
+
+<a class="usa-skipnav" href="#main-content">Skip to main content</a>
+
+<section class="usa-banner" aria-label="Official government website">
+  <div class="usa-accordion">
+    <header class="usa-banner__header">
+      <div class="usa-banner__inner">
+        <div class="grid-col-auto">
+          <img class="usa-banner__header-flag" src="{{ site.baseurl }}/assets/img/us_flag_small.png" alt="U.S. flag">
+        </div>
+        <div class="grid-col-fill tablet:grid-col-auto">
+          <p class="usa-banner__header-text">An official website of the United States government</p>
+          <p class="usa-banner__header-action" aria-hidden="true">Here’s how you know</p>
+        </div>
+        <button class="usa-accordion__button usa-banner__button" aria-expanded="false" aria-controls="gov-banner">
+          <span class="usa-banner__button-text">Here’s how you know</span>
+        </button>
+      </div>
+    </header>
+    <div class="usa-banner__content usa-accordion__content" id="gov-banner">
+      <div class="grid-row grid-gap-lg">
+        <div class="usa-banner__guidance tablet:grid-col-6">
+          <img class="usa-banner__icon usa-media-block__img" src="{{ site.baseurl }}/assets/img/icon-dot-gov.svg"
+            role="img" alt="">
+          <div class="usa-media-block__body">
+            <p>
+              <strong>
+                Official websites use .gov
+              </strong>
+              <br />
+              A <strong>.gov</strong> website belongs to an official government organization in the United States.
+
+            </p>
+          </div>
+        </div>
+        <div class="usa-banner__guidance tablet:grid-col-6">
+          <img class="usa-banner__icon usa-media-block__img" src="{{ site.baseurl }}/assets/img/icon-https.svg"
+            role="img" alt="">
+          <div class="usa-media-block__body">
+            <p>
+              <strong>
+                Secure .gov websites use HTTPS
+              </strong>
+              <br />
+              A <strong>lock</strong> (
+              <span class="icon-lock"><svg xmlns="http://www.w3.org/2000/svg" width="52" height="64" viewBox="0 0 52 64"
+                  class="usa-banner__lock-image" role="img" aria-labelledby="banner-lock-title banner-lock-description">
+                  <title id="banner-lock-title">Lock</title>
+                  <desc id="banner-lock-description">A locked padlock</desc>
+                  <path fill="#000000" fill-rule="evenodd"
+                    d="M26 0c10.493 0 19 8.507 19 19v9h3a4 4 0 0 1 4 4v28a4 4 0 0 1-4 4H4a4 4 0 0 1-4-4V32a4 4 0 0 1 4-4h3v-9C7 8.507 15.507 0 26 0zm0 8c-5.979 0-10.843 4.77-10.996 10.712L15 19v9h22v-9c0-6.075-4.925-11-11-11z" />
+                </svg></span>
+              ) or <strong>https://</strong> means you’ve safely connected to the .gov website. Share sensitive
+              information only on official, secure websites.
+
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<header class="usa-header usa-header--extended">
+  <div class="usa-navbar">
+    <div class="usa-logo" id="extended-logo">
+      <em class="usa-logo__text"><a href="" title="Home" aria-label="Home">Schedule Appointment</a></em>
+  </div>
+</header>
+
+<main id="main-content">
+  <div class="bg-base-lightest">
+    <section class="grid-container usa-section">
+      <div class="grid-row margin-x-neg-205 flex-justify-center">
+        <div class="grid-col-12 mobile-lg:grid-col-10 tablet:grid-col-8 desktop:grid-col-12 margin-bottom-4">
+          <h1 class="desktop:display-none font-sans-lg margin-bottom-4 tablet:margin-top-neg-3">Appointment scheduler</h1>
+          <div class="bg-white padding-y-3 padding-x-5 border border-base-lighter">
+            <div class="usa-step-indicator margin-top-3 margin-bottom-6" aria-label="progress">
+              <ol class="usa-step-indicator__segments">
+                <li class="usa-step-indicator__segment usa-step-indicator__segment--complete">
+                  <span class="usa-step-indicator__segment-label">Personal information<span
+                      class="usa-sr-only">completed</span></span>
+                </li>
+                <li class="usa-step-indicator__segment usa-step-indicator__segment--complete" >
+                  <span class="usa-step-indicator__segment-label">Time and Date</span>
+                </li>
+                <li class="usa-step-indicator__segment usa-step-indicator__segment--complete">
+                  <span class="usa-step-indicator__segment-label">Additional Information <span class="usa-sr-only">not completed</span></span>
+                </li>
+                  <li class="usa-step-indicator__segment usa-step-indicator__segment--current" aria-current="true">
+                    <span class="usa-step-indicator__segment-label">Review and submit</span>
+                  </li>
+              </ol>
+            </div>
+            <div class="usa-alert usa-alert--success">
+              <div class="usa-alert__body">
+                <h4 class="usa-alert__heading">Success</h4>
+                <p class="usa-alert__text">
+                  Your information was submitted correctly
+                </p>
+              </div>
+            </div>
+            <h1 class="margin-bottom-0">Schedule your appointment</h1>
+            <p>Let us know what date and times work best for you and we'll send a confirmation email.</p>
+            <form class="" action="review-and-submit.html" method="post" autocomplete="chrome-off">
+              <p>
+                Required fields are marked with an asterisk (<abbr title="required" class="usa-hint usa-hint--required">*</abbr>).
+              </p>
+
+              <fieldset class="usa-fieldset margin-top-3 width-full">
+                <legend class="usa-legend">
+                  <h2 class="margin-bottom-0">Appointment time and date</h2>
+                </legend>
+                <label class="usa-label" id="appointment-date-label" for="appointment-date">Appointment date</label>
+                <div class="usa-hint" id="appointment-date-hint">mm/dd/yyyy</div>
+                <div class="usa-date-picker">
+                  <input class="usa-input" id="appointment-date" name="appointment-date" aria-labelledby="appointment-date-label"
+                    aria-describedby="appointment-date-hint" />
+                </div>
+                <label class="usa-label" id="appointment-time-label" for="appointment-time">Appointment time</label>
+                <div class="usa-hint" id="appointment-time-hint">hh:mm</div>
+                <div class="usa-time-picker">
+                  <input class="usa-input" id="appointment-time" name="appointment-time"
+                    aria-describedby="appointment-time-label appointment-time-hint" />
+                </div>
+              </fieldset>
+
+              <h2 class="margin-bottom-0 margin-top-6">Medical Information</h2>
+              <p><u>In case of emergency:</u> Due to the nature of the taskforce’s work, we may need to share
+                information about you with medical professionals. In order to provide the most accurate information we
+                request the following information from you. This information will only be used in cases of medical
+                emergency.</p>
+
+              <fieldset class="usa-fieldset">
+                <legend class="usa-legend">Date of Birth</legend>
+                <span class="usa-hint" id="mdHint">For example: January 19 2000</span>
+                <div class="usa-memorable-date">
+                  <div class="usa-form-group usa-form-group--month usa-form-group--select">
+                    <label class="usa-label" for="date_of_birth_month">Month</label>
+                    <select class="usa-select" id="date_of_birth_month" name="date_of_birth_month" aria-describedby="mdHint">
+                      <option value>- Select -</option>
+                      <option value="1">01 - January</option>
+                      <option value="2">02 - February</option>
+                      <option value="3">03 - March</option>
+                      <option value="4">04 - April</option>
+                      <option value="5">05 - May</option>
+                      <option value="6">06 - June</option>
+                      <option value="7">07 - July</option>
+                      <option value="8">08 - August</option>
+                      <option value="9">09 - September</option>
+                      <option value="10">10 - October</option>
+                      <option value="11">11 - November</option>
+                      <option value="12">12 - December</option>
+                    </select>
+                  </div>
+                  <div class="usa-form-group usa-form-group--day">
+                    <label class="usa-label" for="date_of_birth_day">Day</label>
+                    <input class="usa-input" aria-describedby="mdHint" id="date_of_birth_day" name="date_of_birth_day" maxlength="2"
+                      pattern="[0-9]*" inputmode="numeric" value="" />
+                  </div>
+                  <div class="usa-form-group usa-form-group--year">
+                    <label class="usa-label" for="date_of_birth_year">Year</label>
+                    <input class="usa-input" aria-describedby="mdHint" id="date_of_birth_year" name="date_of_birth_year" minlength="4"
+                      maxlength="4" pattern="[0-9]*" inputmode="numeric" value="" />
+                  </div>
+                </div>
+              </fieldset>
+
+              <fieldset class="usa-fieldset margin-top-3">
+                <legend class="usa-legend">
+                  <h2 class="margin-bottom-0">Emergency contact</h2>
+                </legend>
+                <label class="usa-label" for="full-name">Full name</label>
+                <div class="usa-hint" id="fnHint">
+                  For example, Prof. Madeline Martinez Hernandez
+                </div>
+                <input class="usa-input usa-input--xl" id="full-name" name="full-name" aria-describedby="fnHint" />
+              </fieldset>
+
+            <a aria-label="Submit" href="success.html" class="usa-button margin-y-4" type="submit">Submit</a>
+
+            </form>
+          </div>
+        </div>
+    </section>
+  </div>
+</main>
+
+<script type="text/javascript">
+
+  document.getElementById("gender-prefer-not-to-say").onchange = function () {
+    document.getElementById("my-gender").disabled = this.checked;
+  };
+
+  document.getElementById("race-prefer-not-to-say").onchange = function () {
+    document.getElementById("race-and-ethnicity").disabled = this.checked;
+  };
+
+</script>
