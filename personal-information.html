@@ -1,0 +1,272 @@
+---
+layout: default
+title: Schedule appointment
+---
+
+<a class="usa-skipnav" href="#main-content">Skip to main content</a>
+
+<section class="usa-banner" aria-label="Official government website">
+  <div class="usa-accordion">
+    <header class="usa-banner__header">
+      <div class="usa-banner__inner">
+        <div class="grid-col-auto">
+          <img class="usa-banner__header-flag" src="{{ site.baseurl }}/assets/img/us_flag_small.png" alt="U.S. flag">
+        </div>
+        <div class="grid-col-fill tablet:grid-col-auto">
+          <p class="usa-banner__header-text">An official website of the United States government</p>
+          <p class="usa-banner__header-action" aria-hidden="true">Here’s how you know</p>
+        </div>
+        <button class="usa-accordion__button usa-banner__button" aria-expanded="false" aria-controls="gov-banner">
+          <span class="usa-banner__button-text">Here’s how you know</span>
+        </button>
+      </div>
+    </header>
+    <div class="usa-banner__content usa-accordion__content" id="gov-banner">
+      <div class="grid-row grid-gap-lg">
+        <div class="usa-banner__guidance tablet:grid-col-6">
+          <img class="usa-banner__icon usa-media-block__img" src="{{ site.baseurl }}/assets/img/icon-dot-gov.svg"
+            role="img" alt="">
+          <div class="usa-media-block__body">
+            <p>
+              <strong>
+                Official websites use .gov
+              </strong>
+              <br />
+              A <strong>.gov</strong> website belongs to an official government organization in the United States.
+
+            </p>
+          </div>
+        </div>
+        <div class="usa-banner__guidance tablet:grid-col-6">
+          <img class="usa-banner__icon usa-media-block__img" src="{{ site.baseurl }}/assets/img/icon-https.svg"
+            role="img" alt="">
+          <div class="usa-media-block__body">
+            <p>
+              <strong>
+                Secure .gov websites use HTTPS
+              </strong>
+              <br />
+              A <strong>lock</strong> (
+              <span class="icon-lock"><svg xmlns="http://www.w3.org/2000/svg" width="52" height="64" viewBox="0 0 52 64"
+                  class="usa-banner__lock-image" role="img" aria-labelledby="banner-lock-title banner-lock-description">
+                  <title id="banner-lock-title">Lock</title>
+                  <desc id="banner-lock-description">A locked padlock</desc>
+                  <path fill="#000000" fill-rule="evenodd"
+                    d="M26 0c10.493 0 19 8.507 19 19v9h3a4 4 0 0 1 4 4v28a4 4 0 0 1-4 4H4a4 4 0 0 1-4-4V32a4 4 0 0 1 4-4h3v-9C7 8.507 15.507 0 26 0zm0 8c-5.979 0-10.843 4.77-10.996 10.712L15 19v9h22v-9c0-6.075-4.925-11-11-11z" />
+                </svg></span>
+              ) or <strong>https://</strong> means you’ve safely connected to the .gov website. Share sensitive
+              information only on official, secure websites.
+
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<header class="usa-header usa-header--extended">
+  <div class="usa-navbar">
+    <div class="usa-logo" id="extended-logo">
+      <em class="usa-logo__text"><a href="" title="Home" aria-label="Home">Schedule an appointment</a></em>
+  </div>
+</header>
+
+<main id="main-content">
+  <div class="bg-base-lightest">
+    <section class="grid-container usa-section">
+      <div class="grid-row margin-x-neg-205 flex-justify-center">
+        <div class="grid-col-12 mobile-lg:grid-col-10 tablet:grid-col-8 desktop:grid-col-12 margin-bottom-4">
+          <h1 class="desktop:display-none font-sans-lg margin-bottom-4 tablet:margin-top-neg-3">Appointment scheduler</h1>
+          <div class="bg-white padding-y-3 padding-x-5 border border-base-lighter">
+            <div class="usa-step-indicator margin-top-3 margin-bottom-6" aria-label="progress">
+              <ol class="usa-step-indicator__segments">
+                <li class="usa-step-indicator__segment usa-step-indicator__segment--current">
+                  <span class="usa-step-indicator__segment-label">Personal information<span
+                      class="usa-sr-only">completed</span></span>
+                </li>
+                <li class="usa-step-indicator__segment usa-step-indicator__segment" >
+                  <span class="usa-step-indicator__segment-label">Time and Date</span>
+                </li>
+                <li class="usa-step-indicator__segment usa-step-indicator__segment">
+                  <span class="usa-step-indicator__segment-label">Additional Information <span class="usa-sr-only">not completed</span></span>
+                </li>
+                  <li class="usa-step-indicator__segment usa-step-indicator__segment" aria-current="true">
+                    <span class="usa-step-indicator__segment-label">Review and submit</span>
+                  </li>
+              </ol>
+            </div>
+            
+            <h1 class="margin-bottom-0">Personal Information</h1>
+            <p>
+              Required fields are marked with an asterisk (<abbr title="required" class="usa-hint usa-hint--required">*</abbr>).
+            </p>
+
+            <form>
+              <fieldset class="usa-fieldset">
+                <legend class="usa-legend">
+                  <h2 class="margin-bottom-0">Name</h2>
+                </legend>
+                <label class="usa-label" for="given-name">First or given name <abbr title="required" class="usa-hint usa-hint--required">*</abbr></label>
+                <div class="usa-hint" id="gnHint">For example, Jose, Darren, or Mai</div>
+                <input class="usa-input usa-input--xl" id="given-name" name="first-name" aria-describedby="gnHint" />
+                <label class="usa-label" for="family-name">Last or family name <abbr title="required" class="usa-hint usa-hint--required">*</abbr></label>
+                <div class="usa-hint" id="lnHint">
+                  For example, Martinez Gonzalez, Gu, or Smith
+                </div>
+                <input class="usa-input usa-input--xl" id="family-name" name="last-name" aria-describedby="lnHint" />
+            
+              </fieldset>
+            
+              <fieldset class="usa-fieldset margin-top-3">
+                <legend class="usa-legend">
+                  <h2 class="margin-bottom-0">Address</h2>
+                </legend>
+                <label class="usa-label" for="address-1">Street address</label>
+                <input class="usa-input" id="address-1" name="address-1" />
+                <label class="usa-label" for="address-2">Street address line 2</label>
+                <input class="usa-input" id="address-2" name="address-2" />
+                <label class="usa-label" for="city">City
+                  <abbr title="required" class="usa-hint usa-hint--required">*</abbr></label>
+                <input class="usa-input" id="city" name="city" required />
+                <label class="usa-label" for="state">State, territory, or military post
+                  <abbr title="required" class="usa-hint usa-hint--required">*</abbr></label>
+                <select class="usa-select" id="state" name="state">
+                  <option value>- Select -</option>
+                  <option value="AL">AL - Alabama</option>
+                  <option value="AK">AK - Alaska</option>
+                  <option value="AS">AS - American Samoa</option>
+                  <option value="AZ">AZ - Arizona</option>
+                  <option value="AR">AR - Arkansas</option>
+                  <option value="CA">CA - California</option>
+                  <option value="CO">CO - Colorado</option>
+                  <option value="CT">CT - Connecticut</option>
+                  <option value="DE">DE - Delaware</option>
+                  <option value="DC">DC - District of Columbia</option>
+                  <option value="FL">FL - Florida</option>
+                  <option value="GA">GA - Georgia</option>
+                  <option value="GU">GU - Guam</option>
+                  <option value="HI">HI - Hawaii</option>
+                  <option value="ID">ID - Idaho</option>
+                  <option value="IL">IL - Illinois</option>
+                  <option value="IN">IN - Indiana</option>
+                  <option value="IA">IA - Iowa</option>
+                  <option value="KS">KS - Kansas</option>
+                  <option value="KY">KY - Kentucky</option>
+                  <option value="LA">LA - Louisiana</option>
+                  <option value="ME">ME - Maine</option>
+                  <option value="MD">MD - Maryland</option>
+                  <option value="MA">MA - Massachusetts</option>
+                  <option value="MI">MI - Michigan</option>
+                  <option value="MN">MN - Minnesota</option>
+                  <option value="MS">MS - Mississippi</option>
+                  <option value="MO">MO - Missouri</option>
+                  <option value="MT">MT - Montana</option>
+                  <option value="NE">NE - Nebraska</option>
+                  <option value="NV">NV - Nevada</option>
+                  <option value="NH">NH - New Hampshire</option>
+                  <option value="NJ">NJ - New Jersey</option>
+                  <option value="NM">NM - New Mexico</option>
+                  <option value="NY">NY - New York</option>
+                  <option value="NC">NC - North Carolina</option>
+                  <option value="ND">ND - North Dakota</option>
+                  <option value="MP">MP - Northern Mariana Islands</option>
+                  <option value="OH">OH - Ohio</option>
+                  <option value="OK">OK - Oklahoma</option>
+                  <option value="OR">OR - Oregon</option>
+                  <option value="PA">PA - Pennsylvania</option>
+                  <option value="PR">PR - Puerto Rico</option>
+                  <option value="RI">RI - Rhode Island</option>
+                  <option value="SC">SC - South Carolina</option>
+                  <option value="SD">SD - South Dakota</option>
+                  <option value="TN">TN - Tennessee</option>
+                  <option value="TX">TX - Texas</option>
+                  <option value="UM">UM - United States Minor Outlying Islands</option>
+                  <option value="UT">UT - Utah</option>
+                  <option value="VT">VT - Vermont</option>
+                  <option value="VI">VI - Virgin Islands</option>
+                  <option value="VA">VA - Virginia</option>
+                  <option value="WA">WA - Washington</option>
+                  <option value="WV">WV - West Virginia</option>
+                  <option value="WI">WI - Wisconsin</option>
+                  <option value="WY">WY - Wyoming</option>
+                  <option value="AA">AA - Armed Forces Americas</option>
+                  <option value="AE">AE - Armed Forces Africa</option>
+                  <option value="AE">AE - Armed Forces Canada</option>
+                  <option value="AE">AE - Armed Forces Europe</option>
+                  <option value="AE">AE - Armed Forces Middle East</option>
+                  <option value="AP">AP - Armed Forces Pacific</option>
+                </select>
+                <label class="usa-label" for="zip">ZIP code</label>
+                <input class="usa-input usa-input--medium" id="zip" name="zip" pattern="[\d]{5}(-[\d]{4})?" />
+                <label class="usa-label" for="urbanization">Urbanization (Puerto Rico only)</label>
+                <input class="usa-input" id="urbanization" name="urbanization" />
+              </fieldset>
+            
+              <fieldset class="usa-fieldset margin-top-3 width-full">
+                <legend class="usa-legend">
+                  <h2 class="margin-bottom-0">Contact info</h2>
+                </legend>
+                <label class="usa-label" for="tel">US Telephone Number</label>
+                <div class="usa-hint" id="telHint">For example, 123-456-7890</div>
+                <input id="tel" type="tel" inputmode="numeric" name="tel" placeholder="___-___-____" pattern="\d{3}-\d{3}-\d{4}"
+                  class="usa-input usa-masked" aria-describedby="telHint" />
+                <label class="usa-label" for="email">Email address</label>
+                <input class="usa-input margin-bottom-1" id="email" name="email" type="email" autocapitalize="off" autocorrect="off"
+                  required />
+                <div class="usa-radio">
+                  <input class="usa-radio__input" id="yes-info" type="radio" name="sensitive-info" value="yes-info" />
+                  <label class="usa-radio__label" for="yes-info">Yes, you may send sensitive information via email</label>
+                </div>
+                <div class="usa-radio">
+                  <input class="usa-radio__input" id="no-info" type="radio" name="sensitive-info" value="no-info" />
+                  <label class="usa-radio__label" for="no-info">No, please do not send sensitive information via email</label>
+                </div>
+              </fieldset>
+            
+            <fieldset class="usa-fieldset margin-top-3 width-full">
+              <legend class="usa-legend">
+                <p aria-describedby="bioSexHint">Biological sex
+                  <span class="usa-hint usa-sr-only" id="bioSexHint">Medical information, biological sex. Select from
+                    the options below.
+                  </span>
+                </p>
+              </legend>
+          
+              <div class="usa-radio">
+                <input class="usa-radio__input" id="sex-male" type="radio" name="biological-sex" value="sex-male"
+                  checked="checked" aria-required="true" />
+                <label class="usa-radio__label" for="sex-male">Male</label>
+              </div>
+              <div class="usa-radio">
+                <input class="usa-radio__input" id="sex-female" type="radio" name="biological-sex" value="sex-female"
+                  aria-required="true" />
+                <label class="usa-radio__label" for="sex-female">Female</label>
+              </div>
+              <div class="usa-radio">
+                <input class="usa-radio__input" id="sex-x" type="radio" name="biological-sex" value="sex-x"
+                  aria-required="true" />
+                <label class="usa-radio__label" for="sex-x">X</label>
+              </div>
+            </fieldset>
+            
+            <a aria-label="Schedule appointment" href="schedule-appointment.html" class="usa-button margin-y-4" type="submit">Time and Date</a>
+            
+            </form>
+          </div>
+        </div>
+    </section>
+  </div>
+</main>
+
+<script type="text/javascript">
+
+  document.getElementById("gender-prefer-not-to-say").onchange = function () {
+    document.getElementById("my-gender").disabled = this.checked;
+  };
+
+  document.getElementById("race-prefer-not-to-say").onchange = function () {
+    document.getElementById("race-and-ethnicity").disabled = this.checked;
+  };
+
+</script>

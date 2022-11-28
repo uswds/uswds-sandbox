@@ -21,3 +21,7 @@ i.e.
 */
 
 @use "uswds-core" as *;
+
+abbr[title="required"] {
+   text-decoration: none;
+}
