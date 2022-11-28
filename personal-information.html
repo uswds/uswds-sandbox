@@ -102,8 +102,7 @@ title: Schedule appointment
               Required fields are marked with an asterisk (<abbr title="required" class="usa-hint usa-hint--required">*</abbr>).
             </p>
 
-            <form>
-              <fieldset class="usa-fieldset">
+            <fieldset class="usa-fieldset">
                 <legend class="usa-legend">
                   <h2 class="margin-bottom-0">Name</h2>
                 </legend>
@@ -207,10 +206,12 @@ title: Schedule appointment
                 <legend class="usa-legend">
                   <h2 class="margin-bottom-0">Contact info</h2>
                 </legend>
-                <label class="usa-label" for="tel">US Telephone Number</label>
-                <div class="usa-hint" id="telHint">For example, 123-456-7890</div>
-                <input id="tel" type="tel" inputmode="numeric" name="tel" placeholder="___-___-____" pattern="\d{3}-\d{3}-\d{4}"
-                  class="usa-input usa-masked" aria-describedby="telHint" />
+                <form>
+                  <label class="usa-label" for="tel">US Telephone Number</label>
+                  <div class="usa-hint" id="telHint">For example, 123-456-7890</div>
+                  <input id="tel" type="tel" inputmode="numeric" name="tel" placeholder="___-___-____" pattern="\d{3}-\d{3}-\d{4}"
+                    class="usa-input usa-masked" aria-describedby="telHint" />
+                </form>
                 <label class="usa-label" for="email">Email address</label>
                 <input class="usa-input margin-bottom-1" id="email" name="email" type="email" autocapitalize="off" autocorrect="off"
                   required />
@@ -252,21 +253,8 @@ title: Schedule appointment
             
             <a aria-label="Schedule appointment" href="schedule-appointment.html" class="usa-button margin-y-4" type="submit">Time and Date</a>
             
-            </form>
           </div>
         </div>
     </section>
   </div>
 </main>
-
-<script type="text/javascript">
-
-  document.getElementById("gender-prefer-not-to-say").onchange = function () {
-    document.getElementById("my-gender").disabled = this.checked;
-  };
-
-  document.getElementById("race-prefer-not-to-say").onchange = function () {
-    document.getElementById("race-and-ethnicity").disabled = this.checked;
-  };
-
-</script>
