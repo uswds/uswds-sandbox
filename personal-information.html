@@ -102,132 +102,128 @@ title: Schedule appointment
               Required fields are marked with an asterisk (<abbr title="required" class="usa-hint usa-hint--required">*</abbr>).
             </p>
 
-              <fieldset class="usa-fieldset">
-                <legend class="usa-legend">
-                  <h2 class="margin-bottom-0">Name</h2>
-                </legend>
-                <label class="usa-label" for="given-name">First or given name <abbr title="required" class="usa-hint usa-hint--required">*</abbr></label>
-                <div class="usa-hint" id="gnHint">For example, Jose, Darren, or Mai</div>
-                <input class="usa-input usa-input--xl" id="given-name" name="first-name" aria-describedby="gnHint" />
-                <label class="usa-label" for="family-name">Last or family name <abbr title="required" class="usa-hint usa-hint--required">*</abbr></label>
-                <div class="usa-hint" id="lnHint">
-                  For example, Martinez Gonzalez, Gu, or Smith
-                </div>
-                <input class="usa-input usa-input--xl" id="family-name" name="last-name" aria-describedby="lnHint" />
+            <fieldset class="usa-fieldset">
+              <legend class="usa-legend">
+                <h2 class="margin-bottom-0">Name</h2>
+              </legend>
+              <label class="usa-label" for="given-name">First or given name <abbr title="required" class="usa-hint usa-hint--required">*</abbr></label>
+              <div class="usa-hint" id="gnHint">For example, Jose, Darren, or Mai</div>
+              <input class="usa-input usa-input--xl" id="given-name" name="first-name" aria-describedby="gnHint" />
+              <label class="usa-label" for="family-name">Last or family name <abbr title="required" class="usa-hint usa-hint--required">*</abbr></label>
+              <div class="usa-hint" id="lnHint">
+                For example, Martinez Gonzalez, Gu, or Smith
+              </div>
+              <input class="usa-input usa-input--xl" id="family-name" name="last-name" aria-describedby="lnHint" />
+            </fieldset>
             
-              </fieldset>
+            <fieldset class="usa-fieldset margin-top-3">
+              <legend class="usa-legend">
+                <h2 class="margin-bottom-0">Address</h2>
+              </legend>
+              <label class="usa-label" for="address-1">Street address</label>
+              <input class="usa-input" id="address-1" name="address-1" />
+              <label class="usa-label" for="address-2">Street address line 2</label>
+              <input class="usa-input" id="address-2" name="address-2" />
+              <label class="usa-label" for="city">City
+                <abbr title="required" class="usa-hint usa-hint--required">*</abbr></label>
+              <input class="usa-input" id="city" name="city" required />
+              <label class="usa-label" for="state">State, territory, or military post
+                <abbr title="required" class="usa-hint usa-hint--required">*</abbr></label>
+              <select class="usa-select" id="state" name="state">
+                <option value>- Select -</option>
+                <option value="AL">AL - Alabama</option>
+                <option value="AK">AK - Alaska</option>
+                <option value="AS">AS - American Samoa</option>
+                <option value="AZ">AZ - Arizona</option>
+                <option value="AR">AR - Arkansas</option>
+                <option value="CA">CA - California</option>
+                <option value="CO">CO - Colorado</option>
+                <option value="CT">CT - Connecticut</option>
+                <option value="DE">DE - Delaware</option>
+                <option value="DC">DC - District of Columbia</option>
+                <option value="FL">FL - Florida</option>
+                <option value="GA">GA - Georgia</option>
+                <option value="GU">GU - Guam</option>
+                <option value="HI">HI - Hawaii</option>
+                <option value="ID">ID - Idaho</option>
+                <option value="IL">IL - Illinois</option>
+                <option value="IN">IN - Indiana</option>
+                <option value="IA">IA - Iowa</option>
+                <option value="KS">KS - Kansas</option>
+                <option value="KY">KY - Kentucky</option>
+                <option value="LA">LA - Louisiana</option>
+                <option value="ME">ME - Maine</option>
+                <option value="MD">MD - Maryland</option>
+                <option value="MA">MA - Massachusetts</option>
+                <option value="MI">MI - Michigan</option>
+                <option value="MN">MN - Minnesota</option>
+                <option value="MS">MS - Mississippi</option>
+                <option value="MO">MO - Missouri</option>
+                <option value="MT">MT - Montana</option>
+                <option value="NE">NE - Nebraska</option>
+                <option value="NV">NV - Nevada</option>
+                <option value="NH">NH - New Hampshire</option>
+                <option value="NJ">NJ - New Jersey</option>
+                <option value="NM">NM - New Mexico</option>
+                <option value="NY">NY - New York</option>
+                <option value="NC">NC - North Carolina</option>
+                <option value="ND">ND - North Dakota</option>
+                <option value="MP">MP - Northern Mariana Islands</option>
+                <option value="OH">OH - Ohio</option>
+                <option value="OK">OK - Oklahoma</option>
+                <option value="OR">OR - Oregon</option>
+                <option value="PA">PA - Pennsylvania</option>
+                <option value="PR">PR - Puerto Rico</option>
+                <option value="RI">RI - Rhode Island</option>
+                <option value="SC">SC - South Carolina</option>
+                <option value="SD">SD - South Dakota</option>
+                <option value="TN">TN - Tennessee</option>
+                <option value="TX">TX - Texas</option>
+                <option value="UM">UM - United States Minor Outlying Islands</option>
+                <option value="UT">UT - Utah</option>
+                <option value="VT">VT - Vermont</option>
+                <option value="VI">VI - Virgin Islands</option>
+                <option value="VA">VA - Virginia</option>
+                <option value="WA">WA - Washington</option>
+                <option value="WV">WV - West Virginia</option>
+                <option value="WI">WI - Wisconsin</option>
+                <option value="WY">WY - Wyoming</option>
+                <option value="AA">AA - Armed Forces Americas</option>
+                <option value="AE">AE - Armed Forces Africa</option>
+                <option value="AE">AE - Armed Forces Canada</option>
+                <option value="AE">AE - Armed Forces Europe</option>
+                <option value="AE">AE - Armed Forces Middle East</option>
+                <option value="AP">AP - Armed Forces Pacific</option>
+              </select>
+              <label class="usa-label" for="zip">ZIP code</label>
+              <input class="usa-input usa-input--medium" id="zip" name="zip" pattern="[\d]{5}(-[\d]{4})?" />
+              <label class="usa-label" for="urbanization">Urbanization (Puerto Rico only)</label>
+              <input class="usa-input" id="urbanization" name="urbanization" />
+            </fieldset>
             
-              <fieldset class="usa-fieldset margin-top-3">
-                <legend class="usa-legend">
-                  <h2 class="margin-bottom-0">Address</h2>
-                </legend>
-                <label class="usa-label" for="address-1">Street address</label>
-                <input class="usa-input" id="address-1" name="address-1" />
-                <label class="usa-label" for="address-2">Street address line 2</label>
-                <input class="usa-input" id="address-2" name="address-2" />
-                <label class="usa-label" for="city">City
-                  <abbr title="required" class="usa-hint usa-hint--required">*</abbr></label>
-                <input class="usa-input" id="city" name="city" required />
-                <label class="usa-label" for="state">State, territory, or military post
-                  <abbr title="required" class="usa-hint usa-hint--required">*</abbr></label>
-                <select class="usa-select" id="state" name="state">
-                  <option value>- Select -</option>
-                  <option value="AL">AL - Alabama</option>
-                  <option value="AK">AK - Alaska</option>
-                  <option value="AS">AS - American Samoa</option>
-                  <option value="AZ">AZ - Arizona</option>
-                  <option value="AR">AR - Arkansas</option>
-                  <option value="CA">CA - California</option>
-                  <option value="CO">CO - Colorado</option>
-                  <option value="CT">CT - Connecticut</option>
-                  <option value="DE">DE - Delaware</option>
-                  <option value="DC">DC - District of Columbia</option>
-                  <option value="FL">FL - Florida</option>
-                  <option value="GA">GA - Georgia</option>
-                  <option value="GU">GU - Guam</option>
-                  <option value="HI">HI - Hawaii</option>
-                  <option value="ID">ID - Idaho</option>
-                  <option value="IL">IL - Illinois</option>
-                  <option value="IN">IN - Indiana</option>
-                  <option value="IA">IA - Iowa</option>
-                  <option value="KS">KS - Kansas</option>
-                  <option value="KY">KY - Kentucky</option>
-                  <option value="LA">LA - Louisiana</option>
-                  <option value="ME">ME - Maine</option>
-                  <option value="MD">MD - Maryland</option>
-                  <option value="MA">MA - Massachusetts</option>
-                  <option value="MI">MI - Michigan</option>
-                  <option value="MN">MN - Minnesota</option>
-                  <option value="MS">MS - Mississippi</option>
-                  <option value="MO">MO - Missouri</option>
-                  <option value="MT">MT - Montana</option>
-                  <option value="NE">NE - Nebraska</option>
-                  <option value="NV">NV - Nevada</option>
-                  <option value="NH">NH - New Hampshire</option>
-                  <option value="NJ">NJ - New Jersey</option>
-                  <option value="NM">NM - New Mexico</option>
-                  <option value="NY">NY - New York</option>
-                  <option value="NC">NC - North Carolina</option>
-                  <option value="ND">ND - North Dakota</option>
-                  <option value="MP">MP - Northern Mariana Islands</option>
-                  <option value="OH">OH - Ohio</option>
-                  <option value="OK">OK - Oklahoma</option>
-                  <option value="OR">OR - Oregon</option>
-                  <option value="PA">PA - Pennsylvania</option>
-                  <option value="PR">PR - Puerto Rico</option>
-                  <option value="RI">RI - Rhode Island</option>
-                  <option value="SC">SC - South Carolina</option>
-                  <option value="SD">SD - South Dakota</option>
-                  <option value="TN">TN - Tennessee</option>
-                  <option value="TX">TX - Texas</option>
-                  <option value="UM">UM - United States Minor Outlying Islands</option>
-                  <option value="UT">UT - Utah</option>
-                  <option value="VT">VT - Vermont</option>
-                  <option value="VI">VI - Virgin Islands</option>
-                  <option value="VA">VA - Virginia</option>
-                  <option value="WA">WA - Washington</option>
-                  <option value="WV">WV - West Virginia</option>
-                  <option value="WI">WI - Wisconsin</option>
-                  <option value="WY">WY - Wyoming</option>
-                  <option value="AA">AA - Armed Forces Americas</option>
-                  <option value="AE">AE - Armed Forces Africa</option>
-                  <option value="AE">AE - Armed Forces Canada</option>
-                  <option value="AE">AE - Armed Forces Europe</option>
-                  <option value="AE">AE - Armed Forces Middle East</option>
-                  <option value="AP">AP - Armed Forces Pacific</option>
-                </select>
-                <label class="usa-label" for="zip">ZIP code</label>
-                <input class="usa-input usa-input--medium" id="zip" name="zip" pattern="[\d]{5}(-[\d]{4})?" />
-                <label class="usa-label" for="urbanization">Urbanization (Puerto Rico only)</label>
-                <input class="usa-input" id="urbanization" name="urbanization" />
-              </fieldset>
-            
-              <fieldset class="usa-fieldset margin-top-3 width-full">
-                <legend class="usa-legend">
-                  <h2 class="margin-bottom-0">Contact info</h2>
-                </legend>
-                  <label class="usa-label" for="tel">US Telephone Number</label>
-                  <div class="usa-hint" id="telHint">For example, 123-456-7890</div>
-                                <form>
+            <fieldset class="usa-fieldset margin-top-3 width-full">
+              <legend class="usa-legend">
+                <h2 class="margin-bottom-0">Contact info</h2>
+              </legend>
+              <label class="usa-label" for="tel">US Telephone Number</label>
+              <div class="usa-hint" id="telHint">For example, 123-456-7890</div>
+              <form>
+              <input id="tel" type="tel" inputmode="numeric" name="tel" placeholder="___-___-____" pattern="\d{3}-\d{3}-\d{4}"
+                class="usa-input usa-masked" aria-describedby="telHint" />
+              </form>
+              <label class="usa-label" for="email">Email address</label>
+              <input class="usa-input margin-bottom-1" id="email" name="email" type="email" autocapitalize="off" autocorrect="off"
+                required />
+              <div class="usa-radio">
+                <input class="usa-radio__input" id="yes-info" type="radio" name="sensitive-info" value="yes-info" />
+                <label class="usa-radio__label" for="yes-info">Yes, you may send sensitive information via email</label>
+              </div>
+              <div class="usa-radio">
+                <input class="usa-radio__input" id="no-info" type="radio" name="sensitive-info" value="no-info" />
+                <label class="usa-radio__label" for="no-info">No, please do not send sensitive information via email</label>
+              </div>
+            </fieldset>
 
-                  <input id="tel" type="tel" inputmode="numeric" name="tel" placeholder="___-___-____" pattern="\d{3}-\d{3}-\d{4}"
-                    class="usa-input usa-masked" aria-describedby="telHint" />
-                                              </form>
-
-                <label class="usa-label" for="email">Email address</label>
-                <input class="usa-input margin-bottom-1" id="email" name="email" type="email" autocapitalize="off" autocorrect="off"
-                  required />
-                <div class="usa-radio">
-                  <input class="usa-radio__input" id="yes-info" type="radio" name="sensitive-info" value="yes-info" />
-                  <label class="usa-radio__label" for="yes-info">Yes, you may send sensitive information via email</label>
-                </div>
-                <div class="usa-radio">
-                  <input class="usa-radio__input" id="no-info" type="radio" name="sensitive-info" value="no-info" />
-                  <label class="usa-radio__label" for="no-info">No, please do not send sensitive information via email</label>
-                </div>
-              </fieldset>
-
-            
             <fieldset class="usa-fieldset margin-top-3 width-full">
               <legend class="usa-legend">
                 <p aria-describedby="bioSexHint">Biological sex
@@ -236,7 +232,6 @@ title: Schedule appointment
                   </span>
                 </p>
               </legend>
-          
               <div class="usa-radio">
                 <input class="usa-radio__input" id="sex-male" type="radio" name="biological-sex" value="sex-male"
                   checked="checked" aria-required="true" />
