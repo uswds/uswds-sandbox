@@ -23,5 +23,10 @@ i.e.
 header.success {
    display: flex;
    align-items: center;
+   height: 5rem;
    border-bottom: 1px solid black;
+}
+
+.usa-form-group--month {
+   width: 15rem;
 }
