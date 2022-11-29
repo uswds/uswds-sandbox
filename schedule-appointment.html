@@ -104,25 +104,25 @@ title: Schedule appointment
                 Required fields are marked with an asterisk (<abbr title="required" class="usa-hint usa-hint--required">*</abbr>).
               </p>
 
-              <fieldset class="usa-fieldset margin-top-3 width-full">
+              <fieldset class="usa-fieldset margin-top-3 margin-bottom-4">
                 <legend class="usa-legend">
                   <h2 class="margin-bottom-0">Appointment time and date</h2>
                 </legend>
                 <label class="usa-label" id="appointment-date-label" for="appointment-date">Appointment date</label>
                 <div class="usa-hint" id="appointment-date-hint">mm/dd/yyyy</div>
-                <div class="usa-date-picker">
+                <div class="usa-date-picker width-mobile">
                   <input class="usa-input" id="appointment-date" name="appointment-date" aria-labelledby="appointment-date-label"
                     aria-describedby="appointment-date-hint" />
                 </div>
                 <label class="usa-label" id="appointment-time-label" for="appointment-time">Appointment time</label>
                 <div class="usa-hint" id="appointment-time-hint">hh:mm</div>
-                <div class="usa-time-picker">
+                <div class="usa-time-picker" data-min-time="08:00" data-max-time="17:00">
                   <input class="usa-input" id="appointment-time" name="appointment-time"
                     aria-describedby="appointment-time-label appointment-time-hint" />
                 </div>
               </fieldset>
 
-              <a aria-label="Schedule appointment" href="additional-information.html" class="usa-button margin-y-4" type="submit">Additional information</a>
+              <a aria-label="Schedule appointment" href="additional-information.html" class="usa-button margin-y-4" type="submit">Next: Additional information</a>
 
             </form>
           </div>

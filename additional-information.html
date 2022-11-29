@@ -103,7 +103,7 @@ title: Schedule appointment
                 request the following information from you. This information will only be used in cases of medical
                 emergency.</p>
 
-              <fieldset class="usa-fieldset">
+              <fieldset class="usa-fieldset margin-top-5">
                 <legend class="usa-legend">Date of Birth</legend>
                 <span class="usa-hint" id="mdHint">For example: January 19 2000</span>
                 <div class="usa-memorable-date">
@@ -161,6 +161,31 @@ title: Schedule appointment
               </fieldset>
 
               <fieldset class="usa-fieldset margin-top-3">
+                <legend class="usa-legend usa-legend">What sex was originally listed on your birth certificate?</legend>
+                <div class="usa-radio">
+                  <input class="usa-radio__input" id="male" type="radio" name="biological-sex" value="male" />
+                  <label class="usa-radio__label" for="male">Male</label>
+                </div>
+                <div class="usa-radio">
+                  <input class="usa-radio__input" id="female" type="radio" name="biological-sex" value="female" />
+                  <label class="usa-radio__label" for="female">Female</label>
+                </div>
+                <div class="usa-radio">
+                  <input class="usa-radio__input" id="x" type="radio" name="biological-sex" value="x" />
+                  <label class="usa-radio__label" for="x">Choose not to answer</label>
+                </div>
+              </fieldset>
+
+              <label class="usa-label margin-top-3" for="gender-identity">I think of myself as</label>
+              <div class="usa-hint" id="gHint">For example, Male, Female, Transgender man/trans man, Genderqueer</div>
+              <input class="usa-input" id="gender-identity" name="gender-identity" aria-describedby="gHint" />
+              <div class="usa-checkbox">
+                <input class="usa-checkbox__input" id="prefer-not-to-answer" type="checkbox" name="prefer-not-to-answer"
+                  value="prefer-not-to-answer" />
+                <label class="usa-checkbox__label" for="prefer-not-to-answer">Choose not to answer</label>
+              </div>
+
+              <fieldset class="usa-fieldset margin-top-3 margin-bottom-4">
                 <legend class="usa-legend">
                   <h2 class="margin-bottom-0">Emergency contact</h2>
                 </legend>
@@ -172,7 +197,7 @@ title: Schedule appointment
               </fieldset>
 
               <a aria-label="Schedule appointment" href="review-and-submit.html" class="usa-button margin-y-4"
-                type="submit">Review and submit</a>
+                type="submit">Next: Review and submit</a>
 
             </form>
           </div>
