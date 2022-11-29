@@ -43,5 +43,6 @@ exports.copyTheme = uswds.copyTheme;
 exports.copyAssets = uswds.copyAssets;
 exports.update = series(uswds.copyImages, uswds.copyJS);
 exports.buildSass = uswds.compile;
+exports.compile = uswds.compile; 
 exports.watchSass = uswds.watch;
 exports.default = uswds.watch;

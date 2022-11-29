@@ -19,3 +19,9 @@ i.e.
 @include u-padding-right('05');
 ----------------------------------------
 */
+
+header.success {
+   display: flex;
+   align-items: center;
+   border-bottom: 1px solid black;
+}

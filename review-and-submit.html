@@ -96,91 +96,53 @@ title: Schedule appointment
                   </li>
               </ol>
             </div>
-            <div class="usa-alert usa-alert--success">
-              <div class="usa-alert__body">
-                <h4 class="usa-alert__heading">Success</h4>
-                <p class="usa-alert__text">
-                  Your information was submitted correctly
-                </p>
-              </div>
+          
+            <h1 class="margin-bottom-5">Review your information</h1>
+            <h2>Personal Information</h2>
+            
+            <div class="margin-bottom-4">
+              <h3>Name</h3>
+              <p><strong>First or given name:</strong> John</p>
+              <p><strong>Last or family name:</strong> Smith</p>
             </div>
-            <h1 class="margin-bottom-0">Schedule your appointment</h1>
-            <p>Let us know what date and times work best for you and we'll send a confirmation email.</p>
-            <form class="" action="review-and-submit.html" method="post" autocomplete="chrome-off">
-              <p>
-                Required fields are marked with an asterisk (<abbr title="required" class="usa-hint usa-hint--required">*</abbr>).
-              </p>
 
-              <fieldset class="usa-fieldset margin-top-3 width-full">
-                <legend class="usa-legend">
-                  <h2 class="margin-bottom-0">Appointment time and date</h2>
-                </legend>
-                <label class="usa-label" id="appointment-date-label" for="appointment-date">Appointment date</label>
-                <div class="usa-hint" id="appointment-date-hint">mm/dd/yyyy</div>
-                <div class="usa-date-picker">
-                  <input class="usa-input" id="appointment-date" name="appointment-date" aria-labelledby="appointment-date-label"
-                    aria-describedby="appointment-date-hint" />
-                </div>
-                <label class="usa-label" id="appointment-time-label" for="appointment-time">Appointment time</label>
-                <div class="usa-hint" id="appointment-time-hint">hh:mm</div>
-                <div class="usa-time-picker">
-                  <input class="usa-input" id="appointment-time" name="appointment-time"
-                    aria-describedby="appointment-time-label appointment-time-hint" />
-                </div>
-              </fieldset>
+            <div class="margin-bottom-4">
+              <h3>Address</h3>
+              <p><strong>Street address:</strong> 123 Main Street</p>
+              <p><strong>Street address line 2:</strong></p>
+              <p><strong>City:</strong> Columbus</p>
+              <p><strong>State, territory, or military post:</strong> OH - Ohio</p>
+              <p><strong>ZIP code:</strong> 43004</p>
+              <p><strong>Urbanization (Puerto Rico only):</strong></p>
+            </div>
 
-              <h2 class="margin-bottom-0 margin-top-6">Medical Information</h2>
-              <p><u>In case of emergency:</u> Due to the nature of the taskforce’s work, we may need to share
-                information about you with medical professionals. In order to provide the most accurate information we
-                request the following information from you. This information will only be used in cases of medical
-                emergency.</p>
+            <div class="margin-bottom-4">
+              <h3>Contact info</h3>
+              <p><strong>US Telephone Number:</strong> 555-555-5555</p>
+              <p><strong>Email address:</strong> jsmith@gmail.com</p>
+              <p><strong>Sensitive information:</strong> No, please do not send sensitive information via email</p>
+              <p><strong>Biologival sex:</strong> Male</p>
+            </div>
 
-              <fieldset class="usa-fieldset">
-                <legend class="usa-legend">Date of Birth</legend>
-                <span class="usa-hint" id="mdHint">For example: January 19 2000</span>
-                <div class="usa-memorable-date">
-                  <div class="usa-form-group usa-form-group--month usa-form-group--select">
-                    <label class="usa-label" for="date_of_birth_month">Month</label>
-                    <select class="usa-select" id="date_of_birth_month" name="date_of_birth_month" aria-describedby="mdHint">
-                      <option value>- Select -</option>
-                      <option value="1">01 - January</option>
-                      <option value="2">02 - February</option>
-                      <option value="3">03 - March</option>
-                      <option value="4">04 - April</option>
-                      <option value="5">05 - May</option>
-                      <option value="6">06 - June</option>
-                      <option value="7">07 - July</option>
-                      <option value="8">08 - August</option>
-                      <option value="9">09 - September</option>
-                      <option value="10">10 - October</option>
-                      <option value="11">11 - November</option>
-                      <option value="12">12 - December</option>
-                    </select>
-                  </div>
-                  <div class="usa-form-group usa-form-group--day">
-                    <label class="usa-label" for="date_of_birth_day">Day</label>
-                    <input class="usa-input" aria-describedby="mdHint" id="date_of_birth_day" name="date_of_birth_day" maxlength="2"
-                      pattern="[0-9]*" inputmode="numeric" value="" />
-                  </div>
-                  <div class="usa-form-group usa-form-group--year">
-                    <label class="usa-label" for="date_of_birth_year">Year</label>
-                    <input class="usa-input" aria-describedby="mdHint" id="date_of_birth_year" name="date_of_birth_year" minlength="4"
-                      maxlength="4" pattern="[0-9]*" inputmode="numeric" value="" />
-                  </div>
-                </div>
-              </fieldset>
+            <h2>Time and Date</h2>
 
-              <fieldset class="usa-fieldset margin-top-3">
-                <legend class="usa-legend">
-                  <h2 class="margin-bottom-0">Emergency contact</h2>
-                </legend>
-                <label class="usa-label" for="full-name">Full name</label>
-                <div class="usa-hint" id="fnHint">
-                  For example, Prof. Madeline Martinez Hernandez
-                </div>
-                <input class="usa-input usa-input--xl" id="full-name" name="full-name" aria-describedby="fnHint" />
-              </fieldset>
+            <div class="margin-bottom-4">
+              <h3>Appointment time and date</h3>
+              <p><strong>Appointment date:</strong> 11/11/2022</p>
+              <p><strong>Appointment time:</strong> 8:30am</p>
+            </div>
 
+            <h2>Additional information</h2>
+            
+            <div class="margin-bottom-4">
+              <h3>Medical information</h3>
+              <p><strong>Date of birth:</strong> 01/01/1980</p>
+              <p><strong>Emergency contact:</strong> Joan Smith</p>
+            </div>
+
+            <p>Does everthing look good? If so, click Submit. If not, you can go back and edit your information.</p>
+
+            <a aria-label="Submit" href="personal-information.html" class="usa-button usa-button--outline margin-y-4" type="submit">Go back</a>
             <a aria-label="Submit" href="success.html" class="usa-button margin-y-4" type="submit">Submit</a>
 
             </form>
