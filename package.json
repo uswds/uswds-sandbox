@@ -21,12 +21,12 @@
     "test": "snyk test"
   },
   "dependencies": {
-    "uswds": "^2.13.0"
+    "uswds": "^2.13.3"
   },
   "devDependencies": {
-    "@uswds/compile": "^1.0.0-beta.2",
+    "@uswds/compile": "^1.0.0-beta.3",
     "concurrently": "^6.4.0",
-    "nth-check": "^2.0.1",
-    "snyk": "^1.996.0"
+    "nth-check": "^2.1.1",
+    "snyk": "^1.1066.0"
   }
 }
