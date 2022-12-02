@@ -17,6 +17,7 @@
     "uswds-copy-js": "gulp copyJS",
     "uswds-copy-theme": "gulp copyTheme",
     "uswds-update": "npm update uswds && ./build.sh",
+    "pa11y-ci:sitemap": "pa11y-ci --sitemap http://localhost:4000/sitemap.xml",
     "watch": "gulp watchSass",
     "test": "snyk test"
   },
@@ -27,6 +28,7 @@
     "@uswds/compile": "^1.0.0-beta.2",
     "concurrently": "^6.4.0",
     "nth-check": "^2.0.1",
+    "pa11y-ci": "^3.0.1",
     "snyk": "^1.996.0"
   }
 }
