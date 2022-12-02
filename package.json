@@ -24,6 +24,7 @@
     "uswds": "^2.13.3"
   },
   "devDependencies": {
+    "@11ty/eleventy": "^1.0.2",
     "@uswds/compile": "^1.0.0-beta.3",
     "concurrently": "^6.4.0",
     "nth-check": "^2.1.1",
