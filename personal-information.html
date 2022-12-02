@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Schedule appointment
+title: Personal information - Schedule an appointment
 ---
 
 <a class="usa-skipnav" href="#main-content">Skip to main content</a>
@@ -68,7 +68,7 @@ title: Schedule appointment
 <header class="usa-header usa-header--extended">
   <div class="usa-navbar">
     <div class="usa-logo" id="extended-logo">
-      <em class="usa-logo__text"><a href="" title="Home" aria-label="Home">Schedule an appointment</a></em>
+      <em class="usa-logo__text"><a href="" title="Home" aria-label="Home">Appointment scheduler</a></em>
   </div>
 </header>
 
@@ -97,7 +97,7 @@ title: Schedule appointment
               </ol>
             </div>
             
-            <h1 class="margin-bottom-0">Personal Information</h1>
+            <h1 class="margin-bottom-0">Personal Information - Schedule an appointment</h1>
             <p>
               Required fields are marked with an asterisk (<abbr title="required" class="usa-hint usa-hint--required">*</abbr>).
             </p>
@@ -108,12 +108,12 @@ title: Schedule appointment
               </legend>
               <label class="usa-label" for="given-name">First or given name <abbr title="required" class="usa-hint usa-hint--required">*</abbr></label>
               <div class="usa-hint" id="gnHint">For example, Jose, Darren, or Mai</div>
-              <input class="usa-input usa-input--xl" id="given-name" name="first-name" aria-describedby="gnHint" />
+              <input class="usa-input usa-input--xl" id="given-name" name="first-name" aria-describedby="gnHint" required/>
               <label class="usa-label" for="family-name">Last or family name <abbr title="required" class="usa-hint usa-hint--required">*</abbr></label>
               <div class="usa-hint" id="lnHint">
                 For example, Martinez Gonzalez, Gu, or Smith
               </div>
-              <input class="usa-input usa-input--xl" id="family-name" name="last-name" aria-describedby="lnHint" />
+              <input class="usa-input usa-input--xl" id="family-name" name="last-name" aria-describedby="lnHint" required/>
             </fieldset>
             
             <fieldset class="usa-fieldset margin-top-3">
@@ -129,7 +129,7 @@ title: Schedule appointment
               <input class="usa-input" id="city" name="city" required />
               <label class="usa-label" for="state">State, territory, or military post
                 <abbr title="required" class="usa-hint usa-hint--required">*</abbr></label>
-              <select class="usa-select" id="state" name="state">
+              <select class="usa-select" id="state" name="state" required>
                 <option value>- Select -</option>
                 <option value="AL">AL - Alabama</option>
                 <option value="AK">AK - Alaska</option>
@@ -203,7 +203,7 @@ title: Schedule appointment
             
             <fieldset class="usa-fieldset margin-top-3 margin-bottom-4 width-full">
               <legend class="usa-legend">
-                <h2 class="margin-bottom-0">Contact info</h2>
+                <h2 class="margin-bottom-0">Contact information</h2>
               </legend>
               <label class="usa-label" for="tel">US Telephone Number</label>
               <div class="usa-hint" id="telHint">For example, 123-456-7890</div>
