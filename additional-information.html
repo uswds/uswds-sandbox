@@ -70,6 +70,7 @@ title: Additional information - Schedule an appointment
                       maxlength="2"
                       pattern="[0-9]*"
                       inputmode="numeric"
+                      autocomplete="chrome-off" 
                       value=""
                     />
                   </div>
@@ -84,6 +85,7 @@ title: Additional information - Schedule an appointment
                       maxlength="4"
                       pattern="[0-9]*"
                       inputmode="numeric"
+                      autocomplete="chrome-off" 
                       value=""
                     />
                   </div>
@@ -96,7 +98,7 @@ title: Additional information - Schedule an appointment
                 </legend>
                 <label class="usa-label margin-top-3" for="gender-identity">I think of myself as</label>
                 <div class="usa-hint" id="gHint">For example, Male, Female, Transgender man/trans man, Genderqueer</div>
-                <input class="usa-input" id="gender-identity" name="gender-identity" aria-describedby="gHint" />
+                <input class="usa-input" id="gender-identity" name="gender-identity" aria-describedby="gHint" autocomplete="chrome-off"  />
                 <div class="usa-checkbox">
                   <input class="usa-checkbox__input" id="prefer-not-to-answer" type="checkbox" name="prefer-not-to-answer"
                     value="prefer-not-to-answer" />
@@ -128,7 +130,7 @@ title: Additional information - Schedule an appointment
                 <div class="usa-hint" id="fnHint">
                   For example, Prof. Madeline Martinez Hernandez
                 </div>
-                <input class="usa-input usa-input--xl" id="full-name" name="full-name" aria-describedby="fnHint" />
+                <input class="usa-input usa-input--xl" id="full-name" name="full-name" aria-describedby="fnHint" autocomplete="chrome-off" />
               </fieldset>
 
               <a aria-label="Go back to time and date" href="schedule-appointment.html" class="usa-button usa-button--outline margin-y-4">Back</a>

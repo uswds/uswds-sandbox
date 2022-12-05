@@ -39,12 +39,12 @@ title: Personal information - Schedule an appointment
               </legend>
               <label class="usa-label" for="given-name">First or given name <abbr title="required" class="usa-hint usa-hint--required">*</abbr></label>
               <div class="usa-hint" id="gnHint">For example, Jose, Darren, or Mai</div>
-              <input class="usa-input usa-input--xl" id="given-name" name="first-name" aria-describedby="gnHint" required/>
+              <input class="usa-input usa-input--xl" id="given-name" name="first-name" aria-describedby="gnHint" autocomplete="chrome-off" required/>
               <label class="usa-label" for="family-name">Last or family name <abbr title="required" class="usa-hint usa-hint--required">*</abbr></label>
               <div class="usa-hint" id="lnHint">
                 For example, Martinez Gonzalez, Gu, or Smith
               </div>
-              <input class="usa-input usa-input--xl" id="family-name" name="last-name" aria-describedby="lnHint" required/>
+              <input class="usa-input usa-input--xl" id="family-name" name="last-name" aria-describedby="lnHint" autocomplete="chrome-off" required/>
             </fieldset>
             
             <fieldset class="usa-fieldset margin-top-3">
@@ -52,12 +52,12 @@ title: Personal information - Schedule an appointment
                 <h2 class="margin-bottom-0">Address</h2>
               </legend>
               <label class="usa-label" for="address-1">Street address</label>
-              <input class="usa-input" id="address-1" name="address-1" />
+              <input class="usa-input" id="address-1" name="address-1" autocomplete="chrome-off" />
               <label class="usa-label" for="address-2">Street address line 2</label>
-              <input class="usa-input" id="address-2" name="address-2" />
+              <input class="usa-input" id="address-2" name="address-2" autocomplete="chrome-off" />
               <label class="usa-label" for="city">City
                 <abbr title="required" class="usa-hint usa-hint--required">*</abbr></label>
-              <input class="usa-input" id="city" name="city" required />
+              <input class="usa-input" id="city" name="city" autocomplete="chrome-off" required />
               <label class="usa-label" for="state">State, territory, or military post
                 <abbr title="required" class="usa-hint usa-hint--required">*</abbr></label>
               <select class="usa-select" id="state" name="state" required>
@@ -127,9 +127,9 @@ title: Personal information - Schedule an appointment
                 <option value="AP">AP - Armed Forces Pacific</option>
               </select>
               <label class="usa-label" for="zip">ZIP code</label>
-              <input class="usa-input usa-input--medium" id="zip" name="zip" pattern="[\d]{5}(-[\d]{4})?" />
+              <input class="usa-input usa-input--medium" id="zip" name="zip" pattern="[\d]{5}(-[\d]{4})?" autocomplete="chrome-off" />
               <label class="usa-label" for="urbanization">Urbanization (Puerto Rico only)</label>
-              <input class="usa-input" id="urbanization" name="urbanization" />
+              <input class="usa-input" id="urbanization" name="urbanization" autocomplete="chrome-off" />
             </fieldset>
             
             <fieldset class="usa-fieldset margin-top-3 margin-bottom-4 width-full">
@@ -139,13 +139,13 @@ title: Personal information - Schedule an appointment
               <label class="usa-label" for="tel">US Telephone Number</label>
               <div class="usa-hint" id="telHint">For example, 123-456-7890</div>
               <form>
-              <input id="tel" type="tel" inputmode="numeric" name="tel" placeholder="___-___-____" pattern="\d{3}-\d{3}-\d{4}"
+              <input id="tel" type="tel" inputmode="numeric" autocomplete="chrome-off" name="tel" placeholder="___-___-____" pattern="\d{3}-\d{3}-\d{4}"
                 class="usa-input usa-masked" aria-describedby="telHint" />
               </form>
               <fieldset class="usa-fieldset margin-top-3">
                 <legend class="usa-legend">Email address</legend>
                 <input class="usa-input margin-bottom-1" id="email_address" name="email_address" type="email" autocapitalize="off"
-                  autocorrect="off" required />
+                  autocorrect="off" autocomplete="chrome-off" required />
                 <div class="usa-radio">
                   <input class="usa-radio__input" id="yes-info" type="radio" name="sensitive-info" value="yes-info" />
                   <label class="usa-radio__label" for="yes-info">Yes, you may send sensitive information via email</label>
