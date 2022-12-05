@@ -1,5 +1,5 @@
 ---
-layout: extended-prose
+# layout: extended-prose
 title: Hi
 body:
 ---
