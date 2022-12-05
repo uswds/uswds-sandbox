@@ -1,0 +1,18 @@
+<!doctype html>
+<html lang="en">
+{% include "head.njk" %}
+  <body class="{{ page.body }}">
+    {% include "skipnav.njk" %}
+    {% include "banner.njk" %}
+    {% include "header--extended.njk" %}
+    <main id="main-content">
+      <div class="grid-container usa-prose padding-y-3">
+        {% include "breadcrumb.njk" %}
+        {{ content | safe }}
+      </div>
+    </main>
+    {% include "footer.njk" %}
+    {% include "identifier.njk" %}
+    <script src="/assets/js/uswds.min.js"></script>
+  </body>
+</html>
