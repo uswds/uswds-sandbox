@@ -4,9 +4,10 @@
   "author": "USWDS",
   "license": "CC0-1.0",
   "scripts": {
-    "federalist": "npm install && ./build.sh && npm run uswds-copy-assets && npm run uswds-build-sass",
+    "federalist": "npm install && ./build.sh && npm run uswds-copy-assets && npm run uswds-build-sass && npm run build",
     "init": "npm install && npm update uswds && npm run uswds-copy-assets && npm run uswds-copy-theme && npm run uswds-build-sass",
     "serve": "npx @11ty/eleventy --serve",
+    "build": "npx @11ty/eleventy",
     "start": "concurrently \"npm:serve\" \"npm:watch\"",
     "uswds-build-sass": "gulp buildSass",
     "uswds-build-app": "gulp compile",
