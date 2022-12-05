@@ -1,16 +1,14 @@
 primary:
-  - name: Services
+  - name: Schedule
     contents:
-      - Product studio
-      - Site analytics
-      - Consultations
-  - name: Community
+      - Where to get your vaccine
+  - name: Information
     contents:
-      - Slack
-      - GitHub
-      - Newsgroups and listserv
+      - What to know
+      - Side effects
+      - Zombie information
   - name: Contact
 
 secondary:
-  - name: Design principles
+  - name: Sign up
   - name: Log in

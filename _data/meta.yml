@@ -1,5 +1,5 @@
 project:
-  name: Prototype Lab
-  agency: Agency
-  agency_shortname: Agency
-  domain: agency.gov
+  name: Appointment scheduler
+  agency: CDC
+  agency_shortname: CDC
+  domain: cdc.gov
