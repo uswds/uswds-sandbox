@@ -27,6 +27,6 @@
     "@uswds/compile": "^1.0.0-beta.3",
     "concurrently": "^6.4.0",
     "nth-check": "^2.1.1",
-    "snyk": "^1.1066.0"
+    "snyk": "^1.1068.0"
   }
 }
