@@ -1,5 +1,5 @@
 ---
-layout: "extended-prose.njk"
+layout: "extended-prose.html"
 title: Hi
 body:
 ---
