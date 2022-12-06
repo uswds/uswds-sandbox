@@ -8,9 +8,12 @@ module.exports = function (eleventyConfig) {
 
   return {
     pathPrefix: pathPrefix,
+    templateFormats: ["md", "njk", "html", "liquid"],
+    markdownTemplateEngine: "liquid",
+    htmlTemplateEngine: "liquid",
     dir: {
       layouts: "_layouts",
       data: "_data",
     },
-  }
-}
+  };
+};

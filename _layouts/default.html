@@ -1,10 +1,10 @@
 <!doctype html>
 <html lang="en">
 
-{% include "head.njk" %}
+{% include "head.html" %}
 
 <body class="{{ page.body }}">
-  {{ content | safe }}
+  {{ content }}
   <script src="/assets/js/uswds.min.js"></script>
 </body>
 </html>

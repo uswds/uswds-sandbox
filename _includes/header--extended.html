@@ -19,7 +19,7 @@
         {% for item in nav.primary %}
         <li class="usa-nav__primary-item">
           {% if item.contents %}
-          {% set button_id = "nav-" + item.name | slugify %}
+          {% assign button_id = item.name | slugify | prepend: "nav-" %}
           <button
             class="usa-accordion__button usa-nav__link usa-current"
             aria-expanded="false"
@@ -65,7 +65,7 @@
           />
           <button class="usa-button" type="submit">
             <img
-              src="{{ '/assets/img/usa-icons-bg/search--white.svg' |url }}"
+              src="{{ '/assets/img/usa-icons-bg/search--white.svg' | url }}"
               class="usa-search__submit-icon"
               alt="Search"
             />
