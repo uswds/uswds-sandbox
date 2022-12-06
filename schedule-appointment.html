@@ -10,7 +10,7 @@ title: Time and date - Schedule an appointment
         <div class="grid-col-12 mobile-lg:grid-col-10 tablet:grid-col-8 desktop:grid-col-12 margin-bottom-4">
           <h1 class="desktop:display-none font-sans-lg margin-bottom-4 tablet:margin-top-neg-3">Appointment scheduler</h1>
           <div class="bg-white padding-y-3 padding-x-5 border border-base-lighter">
-            <div class="usa-step-indicator margin-top-3 margin-bottom-6" aria-label="progress">
+            <div class="usa-step-indicator margin-top-3 margin-bottom-6" role="progressbar" aria-label="progress">
               <ol class="usa-step-indicator__segments">
                 <li class="usa-step-indicator__segment usa-step-indicator__segment--complete">
                   <span class="usa-step-indicator__segment-label">Personal information<span
@@ -30,7 +30,7 @@ title: Time and date - Schedule an appointment
             </div>
             <h1 class="margin-bottom-0">Time and date - Schedule your appointment</h1>
             <p>Let us know what date and times work best for you and we'll send a confirmation email.</p>
-            <form method="get" action="additional-information.html" autocomplete="chrome-off">
+            <form method="get" action="additional-information.html" autocomplete="off">
               <p>
                 Required fields are marked with an asterisk (<abbr title="required" class="usa-hint usa-hint--required">*</abbr>).
               </p>
@@ -43,13 +43,13 @@ title: Time and date - Schedule an appointment
                 <div class="usa-hint" id="appointment-date-hint">mm/dd/yyyy</div>
                 <div class="usa-date-picker width-mobile">
                   <input class="usa-input" id="appointment-date" name="appointment-date" aria-labelledby="appointment-date-label"
-                    aria-describedby="appointment-date-hint" autocomplete="chrome-off" />
+                    aria-describedby="appointment-date-hint" autocomplete="off" />
                 </div>
                 <label class="usa-label" id="appointment-time-label" for="appointment-time">Appointment time</label>
                 <div class="usa-hint" id="appointment-time-hint">hh:mm</div>
                 <div class="usa-time-picker" data-min-time="08:00" data-max-time="17:00">
                   <input class="usa-input" id="appointment-time" name="appointment-time"
-                    aria-describedby="appointment-time-label appointment-time-hint" autocomplete="chrome-off" />
+                    aria-describedby="appointment-time-label appointment-time-hint" autocomplete="off" />
                 </div>
               </fieldset>
 
