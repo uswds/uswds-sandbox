@@ -1,0 +1,18 @@
+---
+---
+
+<!doctype html>
+<html lang="en">
+{% include head.html %}
+{% include skipnav.html %}
+{% include banner.html %}
+{% include site-alert.html %}
+{% include header--zombie-vaccine.html %}
+
+<body class="{{ page.body }}">
+  {{ content }}
+  <script src="{{ '/assets/js/uswds.min.js' | relative_url }}"></script>
+  {% include footer.html %}
+  {% include identifier.html %}
+</body>
+</html>
