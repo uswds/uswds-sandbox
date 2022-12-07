@@ -1,6 +1,6 @@
 {
   "title": "USWDS Sandbox",
   "baseurl": "",
-  "url": "",
+  "url": "http://localhost:8080",
   "description": ""
 }
