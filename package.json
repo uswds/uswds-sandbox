@@ -4,10 +4,10 @@
   "author": "USWDS",
   "license": "CC0-1.0",
   "scripts": {
-    "federalist": "npm install && ./build.sh && npm run uswds-copy-assets && npm run uswds-build-sass",
-    "init": "npm install && npm update uswds && npm run jekyll-install && npm run uswds-copy-assets && npm run uswds-copy-theme && npm run uswds-build-sass",
-    "jekyll-install": "gem install bundler && bundle install",
-    "serve": "bundle exec jekyll serve --livereload --host=localhost",
+    "federalist": "npm install && ./build.sh && npm run uswds-copy-assets && npm run uswds-build-sass && npm run build",
+    "init": "npm install && npm update uswds && npm run uswds-copy-assets && npm run uswds-copy-theme && npm run uswds-build-sass",
+    "serve": "npx @11ty/eleventy --serve",
+    "build": "npx @11ty/eleventy",
     "start": "concurrently \"npm:serve\" \"npm:watch\"",
     "uswds-build-sass": "gulp buildSass",
     "uswds-build-app": "gulp compile",
@@ -22,13 +22,14 @@
     "test": "snyk test"
   },
   "dependencies": {
-    "uswds": "^2.13.0"
+    "uswds": "^2.13.3"
   },
   "devDependencies": {
-    "@uswds/compile": "^1.0.0-beta.2",
-    "concurrently": "^6.4.0",
-    "nth-check": "^2.0.1",
+    "@11ty/eleventy": "^1.0.2",
+    "@uswds/compile": "^1.0.0-beta.3",
+    "concurrently": "^7.6.0",
+    "nth-check": "^2.1.1",
     "pa11y-ci": "^3.0.1",
-    "snyk": "^1.996.0"
+    "snyk": "^1.1069.0"
   }
 }
