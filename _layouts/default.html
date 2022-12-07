@@ -1,14 +1,14 @@
 <!doctype html>
 <html lang="en">
-{% include head.html %}
-{% include skipnav.html %}
-{% include banner.html %}
-{% include header--zombie-vaccine.html %}
+{% include "head.html" %}
+{% include "skipnav.html" %}
+{% include "banner.html" %}
+{% include "header--zombie-vaccine.html" %}
 
 <body class="{{ page.body }}">
   {{ content }}
   <script src="{{ '/assets/js/uswds.min.js' | url }}"></script>
-  {% include footer.html %}
-  {% include identifier.html %}
+  {% include "footer.html" %}
+  {% include "identifier.html" %}
 </body>
 </html>
