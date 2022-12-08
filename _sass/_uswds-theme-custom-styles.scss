@@ -27,3 +27,7 @@ abbr[title] {
    cursor: inherit !important;
    text-decoration: none !important;
 }
+
+* + .usa-site-alert .usa-alert {
+   margin-top: 0;
+}
