@@ -1,7 +1,7 @@
 module.exports = function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy("src/assets");
 
-  const pathPrefix = "/";
+  let pathPrefix = "/";
   if (process.env.BASEURL) {
     pathPrefix = process.env.BASEURL;
   }
