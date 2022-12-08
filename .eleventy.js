@@ -12,6 +12,7 @@ module.exports = function (eleventyConfig) {
     markdownTemplateEngine: "liquid",
     htmlTemplateEngine: "liquid",
     dir: {
+      input: "src",
       layouts: "_layouts",
       data: "_data",
     },
