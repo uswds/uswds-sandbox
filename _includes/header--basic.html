@@ -4,8 +4,8 @@
     <div class="usa-navbar">
       <div class="usa-logo" id="basic-logo">
         <em class="usa-logo__text">
-          <a href="javascript:void(0)" title="{{ site.data.meta.project.name }}">
-            {{ site.data.meta.project.name }}
+          <a href="javascript:void(0)" title="{{ meta.project.name }}">
+            {{ meta.project.name }}
           </a>
         </em>
       </div>
@@ -13,10 +13,10 @@
     </div>
     <nav aria-label="Primary navigation" class="usa-nav">
       <button class="usa-nav__close">
-        <img src="{{ site.baseurl }}/assets/img/usa-icons/close.svg" role="img" alt="Close" />
+        <img src="{{ '/assets/img/usa-icons/close.svg' | url }}" role="img" alt="Close" />
       </button>
       <ul class="usa-nav__primary usa-accordion">
-        {% for item in site.data.nav.primary %}
+        {% for item in nav.primary %}
         <li class="usa-nav__primary-item">
           {% if item.contents %}
           {% assign button_id = item.name | slugify | prepend: "nav-" %}
@@ -55,7 +55,7 @@
         />
         <button class="usa-button" type="submit">
           <img
-            src="{{ site.baseurl }}/assets/img/usa-icons-bg/search--white.svg"
+            src="{{ '/assets/img/usa-icons-bg/search--white.svg' | url }}"
             class="usa-search__submit-icon"
             alt="Search"
           />

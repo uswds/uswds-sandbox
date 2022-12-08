@@ -8,7 +8,7 @@
         <div class="tablet:grid-col-8">
           <nav class="usa-footer__nav" aria-label="Footer navigation,,">
             <div class="grid-row grid-gap-4">
-              {% for item in site.data.nav.primary %}
+              {% for item in nav.primary %}
               <div class="mobile-lg:grid-col-6 desktop:grid-col-3">
                 <section
                   class="usa-footer__primary-content usa-footer__primary-content--collapsible"
@@ -53,12 +53,12 @@
           <div class="mobile-lg:grid-col-auto">
             <img
               class="usa-footer__logo-img"
-              src="{{ site.baseurl }}/assets/img/logo-img.png"
+              src="{{ '/assets/img/logo-img.png' |url }}"
               alt=""
             />
           </div>
           <div class="mobile-lg:grid-col-auto">
-            <p class="usa-footer__logo-heading">{{ site.data.meta.project.agency }}</p>
+            <p class="usa-footer__logo-heading">{{ meta.project.agency }}</p>
           </div>
         </div>
         <div class="usa-footer__contact-links mobile-lg:grid-col-6">
@@ -67,7 +67,7 @@
               <a class="usa-social-link" href="javascript:void(0);">
                 <img
                   class="usa-social-link__icon"
-                  src="{{ site.baseurl }}/assets/img/usa-icons/facebook.svg"
+                  src="{{ '/assets/img/usa-icons/facebook.svg' |url }}"
                   alt="Facebook"
                 />
               </a>
@@ -77,7 +77,7 @@
               <a class="usa-social-link" href="javascript:void(0);">
                 <img
                   class="usa-social-link__icon"
-                  src="{{ site.baseurl }}/assets/img/usa-icons/twitter.svg"
+                  src="{{ '/assets/img/usa-icons/twitter.svg' |url }}"
                   alt="Twitter"
                 />
               </a>
@@ -87,7 +87,7 @@
               <a class="usa-social-link" href="javascript:void(0);">
                 <img
                   class="usa-social-link__icon"
-                  src="{{ site.baseurl }}/assets/img/usa-icons/youtube.svg"
+                  src="{{ '/assets/img/usa-icons/youtube.svg' |url }}"
                   alt="YouTube"
                 />
               </a>
@@ -97,7 +97,7 @@
               <a class="usa-social-link" href="javascript:void(0);">
                 <img
                   class="usa-social-link__icon"
-                  src="{{ site.baseurl }}/assets/img/usa-icons/instagram.svg"
+                  src="{{ '/assets/img/usa-icons/instagram.svg' |url }}"
                   alt="Instagram"
                 />
               </a>
@@ -107,7 +107,7 @@
               <a class="usa-social-link" href="javascript:void(0);">
                 <img
                   class="usa-social-link__icon"
-                  src="{{ site.baseurl }}/assets/img/usa-icons/rss_feed.svg"
+                  src="{{ '/assets/img/usa-icons/rss_feed.svg' |url }}"
                   alt="RSS"
                 />
               </a>
