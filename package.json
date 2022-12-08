@@ -3,6 +3,17 @@
   "private": true,
   "author": "USWDS",
   "license": "CC0-1.0",
+  "description": "A Jekyll site for rapid web prototyping and testing new work with USWDS. This site is designed to run locally and on [Cloud.gov Pages](https://pages.cloud.gov).",
+  "version": "1.0.0",
+  "main": "gulpfile.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/uswds/uswds-sandbox.git"
+  },
+  "bugs": {
+    "url": "https://github.com/uswds/uswds-sandbox/issues"
+  },
+  "homepage": "https://github.com/uswds/uswds-sandbox#readme",
   "scripts": {
     "federalist": "npm install && ./build.sh && npm run uswds-copy-assets && npm run uswds-build-sass && npm run build",
     "init": "npm install && npm update uswds && npm run uswds-copy-assets && npm run uswds-copy-theme && npm run uswds-build-sass",

@@ -32,7 +32,7 @@ title: Personal information - Schedule an appointment
             <p>
               Required fields are marked with an asterisk (<abbr title="required" class="usa-hint usa-hint--required">*</abbr>).
             </p>
-            <form method="get" action="schedule-appointment.html" autocomplete="off">
+            <!-- <form method="get" action="schedule-appointment.html" autocomplete="off"> -->
             <fieldset class="usa-fieldset">
               <legend class="usa-legend">
                 <h2 class="margin-bottom-0">Name</h2>
@@ -136,27 +136,32 @@ title: Personal information - Schedule an appointment
               <legend class="usa-legend">
                 <h2 class="margin-bottom-0">Contact information</h2>
               </legend>
+              <form>
               <label class="usa-label" for="tel">US Telephone Number</label>
               <div class="usa-hint" id="telHint">For example, 123-456-7890</div>
-              <input id="tel" type="tel" inputmode="numeric" autocomplete="off" name="tel" placeholder="___-___-____" aria-placeholder="" pattern="\d{3}-\d{3}-\d{4}"
+              <input id="tel" type="tel" inputmode="numeric" autocomplete="off" name="tel" aria-placeholder="" placeholder="___-___-____" pattern="\d{3}-\d{3}-\d{4}"
                 class="usa-input usa-masked" aria-describedby="telHint" />
+                </form>
               <label class="usa-label" for="email_address">Email address</label>
               <input class="usa-input margin-bottom-1" id="email_address" name="email_address" type="email" autocapitalize="off"
                 autocorrect="off" autocomplete="off" />
-              <div class="usa-radio">
-                <input class="usa-radio__input" id="yes-info" type="radio" name="sensitive-info" value="yes-info" />
-                <label class="usa-radio__label" for="yes-info">Yes, you may send sensitive information via email</label>
-              </div>
-              <div class="usa-radio">
-                <input class="usa-radio__input" id="no-info" type="radio" name="sensitive-info" value="no-info" />
-                <label class="usa-radio__label" for="no-info">No, please do not send sensitive information via email</label>
-              </div>
+              <div role="radiogroup" aria-labelledby="sensitive-radios">
+                <div class="usa-hint" id="sensitive-radios">Can we send you sensitive information via email?</div>
+                <div class="usa-radio">
+                  <input class="usa-radio__input" id="yes-info" type="radio" name="sensitive-info" value="yes-info" />
+                  <label class="usa-radio__label" for="yes-info">Yes, you may send sensitive information via email</label>
+                </div>
+                <div class="usa-radio">
+                  <input class="usa-radio__input" id="no-info" type="radio" name="sensitive-info" value="no-info" />
+                  <label class="usa-radio__label" for="no-info">No, please do not send sensitive information via email</label>
+                </div>
+                </div>
             </fieldset>
             
-            <a aria-label="Go back home" href="/" class="usa-button usa-button--outline margin-y-4" type="submit">Back</a>
-            <button class="usa-button margin-y-4" type="" submit">Next: Time and date</button>
+            <a aria-label="Go back home" href="/" class="usa-button usa-button--outline margin-y-4">Back</a>
+            <!-- <button class="usa-button margin-y-4" type="" submit">Next: Time and date</button> -->
+            <a href="schedule-appointment.html" class="usa-button margin-y-4">Next: Time and date</a>
 
-          </form>
           </div>
         </div>
     </section>

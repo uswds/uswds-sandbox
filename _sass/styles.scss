@@ -1,5 +1,3 @@
-@use "uswds-core" with (
-  $theme-show-compile-warnings: false,
-);
+@forward "uswds-theme";
 @forward "uswds";
 @forward "uswds-theme-custom-styles";

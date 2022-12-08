@@ -1,12 +1,9 @@
 @use "uswds-core" as *;
 
-header.success {
-   display: flex;
-   align-items: center;
-   height: 5rem;
-   border-bottom: 1px solid black;
-}
+@use "uswds-core" as *;
 
-.usa-form-group--month {
-   width: 15rem;
+abbr[title] {
+   border-bottom: none !important;
+   cursor: inherit !important;
+   text-decoration: none !important;
 }
