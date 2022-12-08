@@ -1,0 +1,4 @@
+@use "uswds-core" with (
+  $theme-show-compile-warnings: false,
+  $theme-font-type-sans: "public-sans",
+);

@@ -12,7 +12,7 @@ PATHS
 ----------------------------------------
 */
 
-uswds.settings.version = 2;
+uswds.settings.version = 3;
 
 // Project Sass source directory
 uswds.paths.dist.theme = "./_sass";
@@ -43,5 +43,6 @@ exports.copyTheme = uswds.copyTheme;
 exports.copyAssets = uswds.copyAssets;
 exports.updateUswds = uswds.updateUswds;
 exports.buildSass = uswds.compile;
+exports.compile = uswds.compile; 
 exports.watchSass = uswds.watch;
 exports.default = uswds.watch;
