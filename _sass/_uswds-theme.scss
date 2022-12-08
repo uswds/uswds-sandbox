@@ -1,15 +1,3 @@
-/*
-----------------------------------------
-USWDS with settings overrides
-----------------------------------------
-Uncomment the following lines and add a list of changed settings
-in the form $setting: value,
-----------------------------------------
-*/
-
-//
-//  @use "uswds-core" with (
-//    $setting: value,
-//    $setting: value
-//  );
-//
+@use "uswds-core" with (
+  $theme-show-compile-warnings: false,
+);
