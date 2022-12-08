@@ -25,10 +25,9 @@
     "uswds": "^2.13.3"
   },
   "devDependencies": {
-    "@11ty/eleventy": "^1.0.2",
+    "@11ty/eleventy": "^2.0.0-canary.12",
     "@uswds/compile": "^1.0.0-beta.3",
     "concurrently": "^7.6.0",
-    "nth-check": "^2.1.1",
     "pa11y-ci": "^3.0.1",
     "snyk": "^1.1069.0"
   }
