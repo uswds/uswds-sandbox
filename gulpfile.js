@@ -27,7 +27,7 @@ uswds.paths.dist.fonts = "./src/assets/fonts";
 uswds.paths.dist.js = "./src/assets/js";
 
 // Compiled CSS destination
-uswds.paths.dist.css = "./src/assets/css";
+uswds.paths.dist.css = "./_site/assets/css";
 
 /*
 ----------------------------------------
