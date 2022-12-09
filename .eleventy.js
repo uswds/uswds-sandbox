@@ -13,9 +13,6 @@ module.exports = function (eleventyConfig) {
   if (process.env.BASEURL) {
     baseurl = process.env.BASEURL;
   }
-  // DEBUG
-  console.log(`BASEURL: ${process.env.BASEURL}`);
-  console.log(`pathPrefix: ${baseurl}`);
 
   return {
     pathPrefix: baseurl,
