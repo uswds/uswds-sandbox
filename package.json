@@ -15,8 +15,8 @@
   },
   "homepage": "https://github.com/uswds/uswds-sandbox#readme",
   "scripts": {
-    "federalist": "npm install && ./build.sh && npm run uswds-copy-assets && npm run uswds-build-sass && npm run build",
-    "init": "npm install && npm update uswds && npm run uswds-copy-assets && npm run uswds-copy-theme && npm run uswds-build-sass",
+    "federalist": "npm run init && npm run build && npm run uswds-build-sass",
+    "init": "./build.sh && npm run uswds-copy-fonts & npm run uswds-copy-img & npm run uswds-copy-js",
     "serve": "npx @11ty/eleventy --serve",
     "build": "npx @11ty/eleventy",
     "start": "concurrently \"npm:serve\" \"npm:watch\"",
@@ -33,7 +33,7 @@
     "test": "snyk test"
   },
   "dependencies": {
-    "@uswds/uswds": "3.3.0"
+    "@uswds/uswds": "^3.3.0"
   },
   "devDependencies": {
     "@11ty/eleventy": "^1.0.2",
