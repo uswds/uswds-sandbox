@@ -1,16 +1,21 @@
+// TODO: After Canary 19:
+// const { EleventyHtmlBasePlugin } = require("@11ty/eleventy");
+
 module.exports = function (eleventyConfig) {
+  // TODO: After Canary 19:
+  // eleventyConfig.addPlugin(EleventyHtmlBasePlugin);
   eleventyConfig.addPassthroughCopy("src/assets");
 
-  let pathPrefix = "/";
+  let baseurl = "/";
   if (process.env.BASEURL) {
-    pathPrefix = process.env.BASEURL;
+    baseurl = process.env.BASEURL;
   }
   // DEBUG
   console.log(`BASEURL: ${process.env.BASEURL}`);
-  console.log(`pathPrefix: ${pathPrefix}`);
+  console.log(`pathPrefix: ${baseurl}`);
 
   return {
-    pathPrefix: pathPrefix,
+    pathPrefix: baseurl,
     templateFormats: ["md", "njk", "html", "liquid"],
     markdownTemplateEngine: "liquid",
     htmlTemplateEngine: "liquid",
