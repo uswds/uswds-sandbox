@@ -3,35 +3,7 @@
   "private": true,
   "author": "USWDS",
   "license": "CC0-1.0",
-  "scripts": {
-    "federalist": "npm install && ./build.sh && npm run uswds-copy-assets && npm run uswds-build-sass",
-    "init": "npm install && npm update uswds && npm run jekyll-install && npm run uswds-copy-assets && npm run uswds-copy-theme && npm run uswds-build-sass",
-    "jekyll-install": "gem install bundler && bundle install",
-    "serve": "bundle exec jekyll serve --livereload --host=localhost",
-    "start": "concurrently \"npm:serve\" \"npm:watch\"",
-    "uswds-build-sass": "gulp buildSass",
-    "uswds-build-app": "gulp compile",
-    "uswds-copy-assets": "gulp copyAssets",
-    "uswds-copy-fonts": "gulp copyFonts",
-    "uswds-copy-img": "gulp copyImages",
-    "uswds-copy-js": "gulp copyJS",
-    "uswds-copy-theme": "gulp copyTheme",
-    "uswds-update": "npm update uswds && ./build.sh",
-    "pa11y-ci:sitemap": "pa11y-ci --sitemap http://localhost:4000/sitemap.xml",
-    "watch": "gulp watchSass",
-    "test": "snyk test"
-  },
-  "dependencies": {
-    "@uswds/uswds": "3.3.0"
-  },
-  "devDependencies": {
-    "@uswds/compile": "^1.0.0-beta.2",
-    "concurrently": "^6.4.0",
-    "nth-check": "^2.0.1",
-    "pa11y-ci": "^3.0.1",
-    "snyk": "^1.996.0"
-  },
-  "description": "A Jekyll site for rapid web prototyping and testing new work with USWDS. This site is designed to run locally and on [Federalist](https://federalist.18f.gov).",
+  "description": "A Jekyll site for rapid web prototyping and testing new work with USWDS. This site is designed to run locally and on [Cloud.gov Pages](https://pages.cloud.gov).",
   "version": "1.0.0",
   "main": "gulpfile.js",
   "repository": {
@@ -41,5 +13,33 @@
   "bugs": {
     "url": "https://github.com/uswds/uswds-sandbox/issues"
   },
-  "homepage": "https://github.com/uswds/uswds-sandbox#readme"
+  "homepage": "https://github.com/uswds/uswds-sandbox#readme",
+  "scripts": {
+    "federalist": "npm run init && npm run build && npm run uswds-build-sass",
+    "init": "./build.sh && npm run uswds-copy-fonts & npm run uswds-copy-img & npm run uswds-copy-js",
+    "serve": "npx @11ty/eleventy --serve",
+    "build": "npx @11ty/eleventy",
+    "start": "concurrently \"npm:serve\" \"npm:watch\"",
+    "uswds-build-sass": "gulp buildSass",
+    "uswds-build-app": "gulp compile",
+    "uswds-copy-assets": "gulp copyAssets",
+    "uswds-copy-fonts": "gulp copyFonts",
+    "uswds-copy-img": "gulp copyImages",
+    "uswds-copy-js": "gulp copyJS",
+    "uswds-copy-theme": "gulp copyTheme",
+    "uswds-update": "npm update uswds && ./build.sh",
+    "pa11y-ci:sitemap": "pa11y-ci --sitemap http://localhost:8080/sitemap.xml",
+    "watch": "gulp watchSass",
+    "test": "snyk test"
+  },
+  "dependencies": {
+    "@uswds/uswds": "^3.3.0"
+  },
+  "devDependencies": {
+    "@11ty/eleventy": "^1.0.2",
+    "@uswds/compile": "^1.0.0-beta.3",
+    "concurrently": "^7.6.0",
+    "pa11y-ci": "^3.0.1",
+    "snyk": "^1.1069.0"
+  }
 }
