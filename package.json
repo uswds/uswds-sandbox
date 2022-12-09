@@ -4,7 +4,7 @@
   "author": "USWDS",
   "license": "CC0-1.0",
   "scripts": {
-    "federalist": "npm run init && npm run build && uswds-build-sass",
+    "federalist": "npm run init && npm run build && npm run uswds-build-sass",
     "init": "./build.sh && npm run uswds-copy-fonts & npm run uswds-copy-img & npm run uswds-copy-js",
     "serve": "npx @11ty/eleventy --serve",
     "build": "npx @11ty/eleventy",
