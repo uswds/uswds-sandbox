@@ -1,48 +1,59 @@
 ---
 layout: home
-title: Zombie vaccination - Schedule an appointment
+title: Zombie Defense Training
 ---
 
 <main id="main-content">
-  <section class="usa-hero" aria-label="Introduction">
-    <div class="grid-container">
-      <div class="usa-hero__callout">
-        <h1 class="usa-hero__heading">
-          <span class="usa-hero__heading--alt">Schedule an appointment</span>
-        </h1>
-        <p>Sign up for your zombie vaccination. Don’t delay!</p>
-        <a class="usa-button width-full" href="{{ '/personal-information' | url }}">Begin</a>
-        <!--<a class="usa-button width-full usa-button--accent-warm margin-top-2" href="create-account.html">Join the team</a>-->
-      </div>
-    </div>
-  </section>
+  <div class="bg-base-lightest">
+    <section class="grid-container usa-section">
+      <div class="grid-row flex-justify-center">
+        <div class="grid-col-12 tablet:grid-col-8 desktop:grid-col-6">
+          <div class="
+                bg-white
+                padding-y-3 padding-x-5
+                border border-base-lighter
+              ">
+            <h1 class="margin-bottom-0">Sign in</h1>
+              <fieldset class="usa-fieldset">
+                <legend class="usa-legend">
+                  Access your account
+                </legend>
+                <form class="usa-form maxw-full">
+                  <label class="usa-label" for="alphanumeric">ZombID</label>
+                  <div class="usa-hint" id="alphanumericHint">For example, A1B 2C3</div>
+                  <input id="alphanumeric" inputmode="text" name="alphanumeric" placeholder="___ ___" pattern="\w\d\w \d\w\d"
+                    class="usa-input usa-masked" aria-describedby="alphanumericHint" data-charset="A#A #A#" autocomplete="off" />
+                </form>
+                <label class="usa-label" for="password-sign-in">Password</label>
+                <input class="usa-input" id="password-sign-in" name="password" type="password" autocomplete="off" required />
+                <button title="Toggle password" type="button" class="usa-show-password" aria-controls="password-sign-in"
+                  data-show-text="Show password" data-hide-text="Hide password">
+                  Show password
+                </button>
+              </fieldset>
+              
+              <div class="usa-accordion">
+                <h4 class="usa-accordion__heading">
+                  <button type="button" class="usa-accordion__button" aria-expanded="false" aria-controls="a1">
+                    What is ZombieCon?
+                  </button>
+                </h4>
+                <div id="a1" class="usa-accordion__content usa-prose">
+                  <p>
+                    ZombieCon is America’s premier event for sharing zombie defense knowledge and building the partnerships necessary to
+                    prepare for undead threats and other public health emergencies. Sign up today to reserve your spot and join over 1,000
+                    attendees from local, state, federal, volunteer, and academic organizations. Advance your zombie defense skill set and
+                    take away innovative strategies to keep our communities secure against zombies.
+                  </p>
+                </div>
+              </div>
 
-  <section class="grid-container usa-section">
-    <div class="grid-row grid-gap">
-      <div class="tablet:grid-col-4">
-        <h2 class="font-heading-xl margin-top-0 tablet:margin-bottom-0">
-          Why schedule an appointment?
-        </h2>
+              <a href="/course-details" class="usa-button margin-y-4">Sign in</a>
+
+
+          </div>
+        </div>
       </div>
-      <div class="tablet:grid-col-8 usa-prose">
-        <p>
-          <strong>Zombie Protection</strong>
-          The new zombie vaccines are the best way to protect yourself and those around you from serious illness, hospitalization,
-          death, and reanimation into a zombie.
-        </p>
-        <p>
-          <strong>Vaccine Problems are Rare</strong>
-          The zombie vaccine is safe and effective. Most adults and children have minimal or no side-effects from the
-          immunization. If you have any known allergies or other concerns, please talk to your doctor if you have questions about
-          getting a zombie vaccine.
-        </p>
-        <p>
-          <strong>The Zombie Vaccine is Free</strong>
-          The recently authorized Reconstruction Operation and Medical Emergency Relief Order, or ROMERO act, guarantees zombie
-          vaccinations are free of charge to all people living in the United States, regardless of health insurance or immigration
-          status.
-        </p>
-      </div>
-    </div>
-  </section>
+    </section>
+  </div>
 </main>
