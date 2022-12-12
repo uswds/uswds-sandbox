@@ -107,20 +107,23 @@ title: Additional information - Schedule an appointment
                 </div>
               </fieldset>
 
-              <h3 class="margin-top-3 margin-bottom-1">Biological sex</h3>
-              <fieldset class="usa-fieldset margin-top-0 margin-bottom-4">
-                <legend class="usa-legend usa-legend">What sex was originally listed on your birth certificate?</legend>
+              <h3 class="margin-top-3 margin-bottom-2">Biological sex</h3>
+              <fieldset class="usa-fieldset margin-bottom-3">
+                <legend class="usa-legend usa-legend">Sex listed at birth</legend>
+                <span class="usa-hint" id="slabHint">Please enter the sex that appears on your original birth certificate. Use
+                  <code>X</code> for a sex listed on your birth certificate that is neither male nor female. <a href="#" title="because">Why do we ask
+                    for sex information?</a></span>
                 <div class="usa-radio">
-                  <input class="usa-radio__input" id="male" type="radio" name="biological-sex" value="male" />
-                  <label class="usa-radio__label" for="male">Male</label>
+                  <input class="usa-radio__input" id="slab-male" type="radio" name="sex-listed-at-birth" value="male" />
+                  <label class="usa-radio__label" for="slab-male">Male</label>
                 </div>
                 <div class="usa-radio">
-                  <input class="usa-radio__input" id="female" type="radio" name="biological-sex" value="female" />
-                  <label class="usa-radio__label" for="female">Female</label>
+                  <input class="usa-radio__input" id="slab-female" type="radio" name="sex-listed-at-birth" value="female" />
+                  <label class="usa-radio__label" for="slab-female">Female</label>
                 </div>
                 <div class="usa-radio">
-                  <input class="usa-radio__input" id="x" type="radio" name="biological-sex" value="x" />
-                  <label class="usa-radio__label" for="x">Choose not to answer this answer about the original sex on my birth certificate</label>
+                  <input class="usa-radio__input" id="slab-x" type="radio" name="sex-listed-at-birth" value="x" />
+                  <label class="usa-radio__label" for="slab-x">X</label>
                 </div>
               </fieldset>
 
