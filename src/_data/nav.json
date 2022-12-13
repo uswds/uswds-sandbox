@@ -2,7 +2,10 @@
   "primary": [
     {
       "name": "Schedule",
-      "contents": "Where to get your vaccine"
+      "contents": [ 
+        "Schedule your training",
+        "Course details"
+     ]
     },
     {
       "name": "Information",
