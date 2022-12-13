@@ -1,6 +1,11 @@
 @use "uswds-core" with (
   $theme-show-compile-warnings: false,
   $theme-show-notifications: false,
-  // $theme-font-type-sans: "public-sans",
-  // $theme-body-background-color: "ink",
+  $theme-font-type-sans: "public-sans",
+  $theme-body-background-color: "red-warm-50v",
+  $global-color-palettes: "palette-color-system",
+  $font-palettes: (
+    "palette-font-system"
+  ),
+  $theme-font-weight-thin: 200,
 );
