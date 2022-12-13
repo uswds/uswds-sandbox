@@ -8,7 +8,7 @@
     "federalist": "npm run init && npm run build && npm run uswds:buildSass",
     "init": "npm run uswds:buildDist && npm run uswds:copyAssets",
     "serve": "npx @11ty/eleventy --serve",
-    "start": "concurrently \"npm:serve\" \"npm:watch\"",
+    "start": "npm-run-all -p serve watch",
     "uswds:buildDist": "./build.sh",
     "uswds:buildSass": "gulp buildSass",
     "uswds:copyAssets": "gulp copyAssets",
@@ -25,7 +25,7 @@
   "devDependencies": {
     "@11ty/eleventy": "^1.0.2",
     "@uswds/compile": "^1.0.0-beta.3",
-    "concurrently": "^7.6.0",
+    "npm-run-all": "^4.1.5",
     "snyk": "^1.1069.0"
   }
 }
