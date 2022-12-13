@@ -5,8 +5,8 @@
   "license": "CC0-1.0",
   "scripts": {
     "build": "npx @11ty/eleventy",
-    "federalist": "npm run init && npm run build && npm run uswds:buildSass",
-    "init": "npm run uswds:buildDist && npm run uswds:copyAssets",
+    "federalist": "npm-run-all init build uswds:buildSass",
+    "init": "npm-run-all uswds:buildDist uswds:copyAssets",
     "serve": "npx @11ty/eleventy --serve",
     "start": "npm-run-all -p serve watch",
     "uswds:buildDist": "./build.sh",
