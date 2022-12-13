@@ -32,7 +32,7 @@ title: Instructor details - Zombie defense training
               </div>
             </fieldset>
 
-            <fieldset class="usa-fieldset margin-y-3" aria-multiselectable="true">
+            <fieldset class="usa-fieldset margin-y-3">
               <legend class="usa-legend">Which of the following race classifications best describe you?</legend>
               <div class="usa-hint">Select all that apply. For example, "Black or African American" and "White"</div>
               <div class="usa-checkbox">
@@ -73,14 +73,12 @@ title: Instructor details - Zombie defense training
               <div class="usa-hint" id="eiHint">You may report more than one ethnicity. For example, "Hmong and Italian"</div>
               <input class="usa-input usa-input--xl" id="ethnic-identity" name="ethnic-identity" aria-describedby="eiHint">
               <div class="usa-checkbox">
-                <input class="usa-checkbox__input" id="prefer-not-to-answer" type="checkbox" name="refer-not-to-answer"
+                <input class="usa-checkbox__input" id="prefer-not-to-answer-race-ethnicity" type="checkbox" name="prefer-not-to-answer-race-ethnicity"
                   value="prefer-not-to-answer" />
-                <label class="usa-checkbox__label" for="prefer-not-to-answer">Prefer not to share my race and ethnicity</label>
+                <label class="usa-checkbox__label" for="prefer-not-to-answer-race-ethnicity">Prefer not to share my race and ethnicity</label>
               </div>
             </fieldset>
 
-
-            
             <a aria-label="Go back to scheduling details" href="{{ '/scheduling-details' | url }}" class="usa-button usa-button--outline margin-y-4">Back</a>
             <!-- <button class="usa-button margin-y-4" type="" submit">Next: Time and date</button> -->
             <a href="{{ '/confirm-submission' | url }}" class="usa-button margin-y-4">Next: Confirm submission</a>
