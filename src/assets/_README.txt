@@ -1,4 +1,4 @@
-IMPORTANT: Add custom assets in the src/assets/project directory NOT directly into sdrc/assets.
+IMPORTANT: Add custom assets in the src/assets/project directory NOT directly into src/assets.
 
 The /css, /fonts, /img, and /js directories are used by USWDS. They have this special pathing to allow easier copy/pasting of components from the USWDS site, and are ignored by git.
 
