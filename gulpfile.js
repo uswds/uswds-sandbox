@@ -12,22 +12,22 @@ PATHS
 ----------------------------------------
 */
 
-uswds.settings.version = 2;
+uswds.settings.version = 3;
 
 // Project Sass source directory
-uswds.paths.dist.theme = "./_sass";
+uswds.paths.dist.theme = "./src/_styles";
 
 // Images destination
-uswds.paths.dist.img = "./assets/img";
+uswds.paths.dist.img = "./src/assets/img";
 
 // Fonts destination
-uswds.paths.dist.fonts = "./assets/fonts";
+uswds.paths.dist.fonts = "./src/assets/fonts";
 
 // Javascript destination
-uswds.paths.dist.js = "./assets/js";
+uswds.paths.dist.js = "./src/assets/js";
 
 // Compiled CSS destination
-uswds.paths.dist.css = "./assets/css";
+uswds.paths.dist.css = "./_site/assets/css";
 
 /*
 ----------------------------------------
@@ -39,9 +39,8 @@ exports.compileIcons = uswds.compileIcons;
 exports.copyFonts = uswds.copyFonts;
 exports.copyImages = uswds.copyImages;
 exports.copyJS = uswds.copyJS;
-exports.copyTheme = uswds.copyTheme;
 exports.copyAssets = uswds.copyAssets;
 exports.updateUswds = uswds.updateUswds;
-exports.buildSass = uswds.compile;
+exports.buildSass = uswds.compileSass;
 exports.watchSass = uswds.watch;
 exports.default = uswds.watch;
