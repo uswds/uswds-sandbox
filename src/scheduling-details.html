@@ -8,36 +8,58 @@ title: Time and date - Schedule an appointment
     <section class="grid-container usa-section">
       <div class="grid-row margin-x-neg-205 flex-justify-center">
         <div class="grid-col-12 mobile-lg:grid-col-10 tablet:grid-col-8 desktop:grid-col-12 margin-bottom-4">
-          <h1 class="desktop:display-none font-sans-lg margin-bottom-4 tablet:margin-top-neg-3">Appointment scheduler</h1>
+          <h1 class="desktop:display-none font-sans-lg margin-bottom-4 tablet:margin-top-neg-3">Scheduling details</h1>
           <div class="bg-white padding-y-3 padding-x-5 border border-base-lighter">
             
-            <h1 class="margin-bottom-0">Time and date - Schedule your appointment</h1>
+            <h1 class="margin-bottom-0">Scheduling details - Zombie defense training</h1>
             <p>Let us know what date and times work best for you and we'll send a confirmation email.</p>
             <form method="get" action="additional-information.html" autocomplete="off">
               <p>
                 Required fields are marked with an asterisk (<abbr title="required" class="usa-hint usa-hint--required">*</abbr>).
               </p>
 
-              <fieldset class="usa-fieldset margin-top-3 margin-bottom-4">
+              <fieldset class="usa-fieldset margin-y-3">
                 <legend class="usa-legend">
-                  <h2 class="margin-bottom-0">Appointment time and date</h2>
+                  <h2 class="margin-bottom-0">Course availability and length</h2>
                 </legend>
-                <label class="usa-label" id="appointment-date-label" for="appointment-date">Appointment date</label>
-                <div class="usa-hint" id="appointment-date-hint">mm/dd/yyyy</div>
-                <div class="usa-date-picker width-mobile">
-                  <input class="usa-input" id="appointment-date" name="appointment-date" aria-labelledby="appointment-date-label"
-                    aria-describedby="appointment-date-hint" autocomplete="off" />
-                </div>
-                <label class="usa-label" id="appointment-time-label" for="appointment-time">Appointment time</label>
-                <div class="usa-hint" id="appointment-time-hint">hh:mm</div>
-                <div class="usa-time-picker" data-min-time="08:00" data-max-time="17:00">
-                  <input class="usa-input" id="appointment-time" name="appointment-time"
-                    aria-describedby="appointment-time-label appointment-time-hint" autocomplete="off" />
+                <div class="usa-date-range-picker">
+                  <h3>What dates are you available to teach this course?</h3>
+                  <div class="usa-form-group">
+                    <label class="usa-label" id="event-date-start-label" for="event-date-start">Availability start date</label>
+                    <div class="usa-hint" id="event-date-start-hint">mm/dd/yyyy</div>
+                    <div class="usa-date-picker">
+                      <input class="usa-input" id="event-date-start" name="event-date-start" aria-labelledby="event-date-start-label"
+                        aria-describedby="event-date-start-hint" />
+                    </div>
+                  </div>
+                  <div class="usa-form-group">
+                    <label class="usa-label" id="event-date-end-label" for="event-date-end">Availability end date</label>
+                    <div class="usa-hint" id="event-date-end-hint">mm/dd/yyyy</div>
+                    <div class="usa-date-picker">
+                      <input class="usa-input" id="event-date-end" name="event-date-end" aria-labelledby="event-date-end-label"
+                        aria-describedby="event-date-end-hint" />
+                    </div>
+                  </div>
                 </div>
               </fieldset>
 
-              <a aria-label="Go back to personal information" href="{{ '/personal-information' | url }}" class="usa-button usa-button--outline margin-y-4" type="submit">Back</a>
-              <a href="{{ '/additional-information' | url }}" class="usa-button margin-y-4">Next: Additional information</a>
+              <fieldset class="usa-fieldset margin-bottom-3">
+                <legend class="usa-legend">
+                  <h3 class="margin-bottom-0">Presentation length</h3>
+                </legend>
+                <form class="usa-form">
+                  <label class="usa-label" for="options">How long do you need to conduct your training sessions?</label>
+                  <select class="usa-select" name="options" id="options">
+                    <option value>- Select -</option>
+                    <option value="short">Short Course (1 hour)</option>
+                    <option value="workshop">Workshop (2-4 hours)</option>
+                    <option value="immersive">Immersive Training (8 hours)</option>
+                  </select>
+                </form>
+              </fieldset>
+
+              <a aria-label="Go back to course details" href="{{ '/course-details' | url }}" class="usa-button usa-button--outline margin-y-4" type="submit">Back</a>
+              <a href="{{ '/instructor-details' | url }}" class="usa-button margin-y-4">Next: Instructor details</a>
 
             </form>
           </div>
