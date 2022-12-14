@@ -18,12 +18,32 @@ title: Zombie Defense Training
                 <legend class="usa-legend">
                   Access your account
                 </legend>
+                <div class="usa-alert usa-alert--info usa-alert--validation">
+                  <div class="usa-alert__body">
+                    <h3 class="usa-alert__heading">Email check</h3>
+                    <ul class="usa-checklist" id="validate-code">
+                      <li class="usa-checklist__item" data-validator="email">
+                        Do you have a valid email address?
+                      </li>
+                    </ul>
+                  </div>
+                </div>
                 <form class="usa-form maxw-full">
                   <label class="usa-label" for="alphanumeric">ZombID</label>
                   <div class="usa-hint" id="alphanumericHint">For example, A1B 2C3</div>
                   <input id="alphanumeric" inputmode="text" name="alphanumeric" placeholder="___ ___" pattern="\w\d\w \d\w\d"
                     class="usa-input usa-masked" aria-describedby="alphanumericHint" data-charset="A#A #A#" autocomplete="off" />
                 </form>
+                <label class="usa-label" for="email">Email address</label>
+                <input class="usa-input margin-bottom-1" 
+                  id="email_address" 
+                  name="email" 
+                  type="email" 
+                  autocapitalize="off" 
+                  autocorrect="off" 
+                  data-validate-email="^[\w-\.]+@([\w-]+\.)+[\w-]{2,4}$"
+                  data-validation-element="validate-code" 
+                  required />
                 <label class="usa-label" for="password-sign-in">Password</label>
                 <input class="usa-input" id="password-sign-in" name="password" type="password" autocomplete="off" required />
                 <button title="Toggle password" type="button" class="usa-show-password" aria-controls="password-sign-in"
