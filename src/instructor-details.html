@@ -10,14 +10,14 @@ title: Instructor details - Zombie defense training
         <div class="grid-col-12 mobile-lg:grid-col-10 tablet:grid-col-8 desktop:grid-col-12 margin-bottom-4">
           <h1 class="desktop:display-none font-sans-lg margin-bottom-4 tablet:margin-top-neg-3">Appointment scheduler</h1>
           <div class="bg-white padding-y-3 padding-x-5 border border-base-lighter">
-            <h1 class="margin-bottom-0">Instructor details - Zombie defense training</h1>
+            <h1 class="margin-bottom-0">Step 3 of 4: Instructor details</h1>
             <p>
               Required fields are marked with an asterisk (<abbr title="required" class="usa-hint usa-hint--required">*</abbr>).
             </p>
             <!-- <form method="get" action="schedule-appointment.html" autocomplete="off"> -->
-            <fieldset class="usa-fieldset">
+            <fieldset class="usa-fieldset margin-bottom-5">
               <legend class="usa-legend">
-                <h2 class="margin-bottom-0">Tell us about yourself</h2>
+                <h2 class="margin-bottom-0">Please tell us more about yourself</h2>
               </legend>
               <label class="usa-label" for="full-name">Full name</label>
               <div class="usa-hint" id="fnHint">For example, Prof. Madeline Martinez Hernandez</div>
@@ -31,6 +31,15 @@ title: Instructor details - Zombie defense training
                 <label class="usa-checkbox__label" for="prefer-not-to-answer">Prefer not to share my pronouns</label>
               </div>
             </fieldset>
+
+            <h2 class="margin-bottom-0 display-flex">Demographic information 
+              <a class="usa-tooltip" data-position="top" title="Providing demographic information is voluntary and this information will only be used for overall statistical reporting.">
+                <span class="usa-sr-only">Tooltip</span>
+                <svg class="usa-icon margin-left-1 top-2px" aria-hidden="true" focusable="false" role="img">
+                  <use xlink:href="/assets/img/sprite.svg#help"></use>
+                </svg>
+              </a>
+            </h2>
 
             <fieldset class="usa-fieldset margin-y-3">
               <legend class="usa-legend">Which of the following race classifications best describe you?</legend>
@@ -64,7 +73,7 @@ title: Instructor details - Zombie defense training
                 <input class="usa-checkbox__input" id="white" type="checkbox" name="white" value="white" />
                 <label class="usa-checkbox__label" for="white">White</label>
               </div>
-              <div class="usa-checkbox">
+              <div class="usa-checkbox">/scheduling-details
                 <input class="usa-checkbox__input" id="some-other-race" type="checkbox" name="some-other-race"
                   value="some-other-race" />
                 <label class="usa-checkbox__label" for="some-other-race">Some other race</label>
