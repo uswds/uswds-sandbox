@@ -16,11 +16,11 @@ title: Sign in - Zombie defense training
             <h1 class="margin-bottom-0">Zombie Defense Training</h1>
               <fieldset class="usa-fieldset">
                 <legend class="usa-legend">
-                  Sign in to your account
+                  <h2>Sign in to your account</h2>
                 </legend>
                 <div class="usa-alert usa-alert--info usa-alert--validation">
                   <div class="usa-alert__body">
-                    <h3 class="usa-alert__heading">Email check</h3>
+                    <h3 class="usa-alert__heading">Form check</h3>
                     <ul class="usa-checklist" id="validate-code">
                       <li class="usa-checklist__item" data-validator="email">
                         Do you have a valid email address?
@@ -28,7 +28,10 @@ title: Sign in - Zombie defense training
                     </ul>
                   </div>
                 </div>
-                <label class="usa-label" for="email">Email address</label>
+                <p>
+                  Required fields are marked with an asterisk (<abbr title="required" class="usa-hint usa-hint--required">*</abbr>).
+                </p>
+                <label class="usa-label" for="email">Email address <abbr title="required" class="usa-hint usa-hint--required">*</abbr></label>
                 <input class="usa-input margin-bottom-1" 
                   id="email_address" 
                   name="email" 
@@ -45,7 +48,7 @@ title: Sign in - Zombie defense training
                   <input id="alphanumeric" inputmode="text" name="alphanumeric" placeholder="___ ___" pattern="\w\d\w \d\w\d"
                     class="usa-input usa-masked" aria-describedby="alphanumericHint" data-charset="A#A #A#" autocomplete="off" />
                 </form>
-                <label class="usa-label" for="password-sign-in">Password</label>
+                <label class="usa-label" for="password-sign-in">Password <abbr title="required" class="usa-hint usa-hint--required">*</abbr></label>
                 <input class="usa-input" id="password-sign-in" name="password" type="password" autocomplete="off" required />
                 <button title="Toggle password" type="button" class="usa-show-password" aria-controls="password-sign-in"
                   data-show-text="Show password" data-hide-text="Hide password">
@@ -54,11 +57,11 @@ title: Sign in - Zombie defense training
               </fieldset>
               
               <div class="usa-accordion">
-                <h2 class="usa-accordion__heading">
+                <p class="usa-accordion__heading">
                   <button type="button" class="usa-accordion__button" aria-expanded="false" aria-controls="a1">
                     Instructors Wanted!
                   </button>
-                </h2>
+                </p>
                 <div id="a1" class="usa-accordion__content usa-prose">
                   <ul>
                     <li>Zombie Defense Training (ZDT) is seeking volunteer instructors to help create online and in-person training sessions for
