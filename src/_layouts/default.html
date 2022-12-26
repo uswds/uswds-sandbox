@@ -2,9 +2,13 @@
 <html lang="en">
 
 {% include "head.html" %}
-
+{% include "banner.html" %}
+{% include "header--basic.html" %}
 <body class="{{ page.body }}">
   {{ content }}
   <script src="{{ '/assets/js/uswds.min.js' | url }}"></script>
+  <script src="{{ '/assets/scripts/main.js' | url }}" defer></script>
 </body>
+{% include "footer.html" %}
+{% include "identifier.html" %}
 </html>

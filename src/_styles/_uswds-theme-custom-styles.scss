@@ -1,1 +1,44 @@
 @use "uswds-core" as *;
+
+[role="tab"][aria-selected="true"] {
+    background: #005ea2;
+    color: white;
+}
+
+.usa-radio__input--tile + [class*="__label"] {
+    padding-left: 0.75rem;
+}
+
+.flex {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    gap: 10px;
+}
+
+.usa-radio:focus {
+    input {
+        outline: 2px solid black;
+        outline-offset: 2px;
+    }
+}
+
+.usa-radio__label::before {
+    content: none;
+}
+
+#tabbed-interface {
+    display: flex;
+    flex-direction: column;
+}
+
+#tabs {
+    margin-bottom: 20px;
+}
+
+.tab-content {
+    display: none;
+}
+
+.tab-content.active {
+    display: block;
+}

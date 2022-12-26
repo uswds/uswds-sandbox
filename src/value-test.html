@@ -1,0 +1,41 @@
+---
+layout: default
+title: 
+---
+
+<main id="main-content">
+  <div class="bg-base-lightest">
+    <section class="grid-container usa-section">
+      <div class="grid-row flex-justify-center">
+        <div class="grid-col-12 tablet:grid-col-12 desktop:grid-col-12">
+          <div class="
+                bg-white
+                padding-y-3 padding-x-5
+                border border-base-lighter
+              ">
+            <h1 class="margin-bottom-0">Values</h1>
+            <p><strong>Date of appointment:</strong> <span id="savedDay"></span></p>
+            <p><strong>Time of appointment:</strong> <span id="savedTime"></span></p>
+
+          </div>
+        </div>
+
+        <a href="{{ '/value-test' | url }}" class="usa-button margin-y-4">Sign in</a>
+
+
+      </div>
+    </section>
+  </div>
+</main>
+
+<script type="application/javascript">
+
+  // Get the saved form data from local storage
+  var savedDay = localStorage.getItem("day");
+  var savedTime = localStorage.getItem("time");
+
+  // Update the HTML elements with the saved data
+  document.getElementById("savedDay").innerHTML = savedDay;
+  document.getElementById("savedTime").innerHTML = savedTime;
+    
+</script>
