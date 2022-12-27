@@ -158,3 +158,61 @@ title:
     </section>
   </div>
 </main>
+
+<script type="application/javascript">
+
+ window.addEventListener('load', function () {
+    var tablists = document.querySelectorAll('[role=tablist].automatic');
+    for (var i = 0; i < tablists.length; i++) {
+      new TabsAutomatic(tablists[i]);
+    }
+  });
+
+  const tabs = document.querySelector('#tabs');
+  const tabContents = document.querySelectorAll('.tab-content');
+
+  if (document.querySelector('#tabs')) {
+    tabs.addEventListener('change', () => {
+      tabContents.forEach(tabContent => {
+        tabContent.classList.remove('active');
+        tabContent.blur();
+      });
+      const selectedTab = document.querySelector(`#${tabs.value}`);
+      selectedTab.classList.add('active');
+    });
+  }
+
+
+  // Get all the radio buttons
+  const buttons = document.querySelectorAll('input[type="radio"]');
+
+  // Add a click event listener to each button
+  buttons.forEach(button => {
+    button.addEventListener('click', () => {
+      const lastButtonClicked = button.value;
+      localStorage.setItem("time", lastButtonClicked);
+      // When a button is clicked, deselect all buttons in the other groups
+      buttons.forEach(otherButton => {
+        if (otherButton !== button && otherButton.name !== button.name) {
+          otherButton.checked = false;
+        }
+      });
+    });
+  });
+
+  var submitButton = document.getElementById("save-day");
+
+  if (document.getElementById("save-day")) {
+    submitButton.addEventListener("click", saveDate);
+  }
+
+  function saveDate() {
+    // Get the form data
+    var form = document.getElementById("dateForm");
+    var day = form.elements["tabs"].value;
+
+    // Save the form data to local storage
+    localStorage.setItem("day", day);
+  }
+
+</script>
