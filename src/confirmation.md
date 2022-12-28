@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Zombie Defense Training Course Evaluation
+title: Confirmation
 body:
 ---
 
@@ -14,10 +14,8 @@ body:
                 padding-y-3 padding-x-5
                 border border-base-lighter
               ">
-            <h1 class="margin-bottom-0">Zombie Defense Training Course Evaluation</h1>
-            <form method="get" action="{{ '/report-an-issue-step-1' | url }}">
-              <button class="usa-button margin-y-4" id="save-day">Report an issue</a>
-            </form>
+            <h1 class="margin-bottom-0">Confirmation</h1>
+            <p>Something: <span id="something">{{ Something }}</span></p>
           </div>
         </div>
       </div>

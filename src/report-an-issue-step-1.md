@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Zombie Defense Training Course Evaluation
+title: Report an issue - Step 1
 body:
 ---
 
@@ -14,9 +14,9 @@ body:
                 padding-y-3 padding-x-5
                 border border-base-lighter
               ">
-            <h1 class="margin-bottom-0">Zombie Defense Training Course Evaluation</h1>
-            <form method="get" action="{{ '/report-an-issue-step-1' | url }}">
-              <button class="usa-button margin-y-4" id="save-day">Report an issue</a>
+            <h1 class="margin-bottom-0">Report an Accessibility Issue (step 1 of 2)</h1>
+            <form method="get" action="{{ '/report-an-issue-step-2' | url }}">
+              <button class="usa-button margin-y-4" id="save-day">Report an issue - Step 2</button>
             </form>
           </div>
         </div>
