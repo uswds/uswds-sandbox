@@ -1,19 +1,18 @@
 {
   "primary": [
     {
-      "name": "Services",
-      "contents": [
-        "Product studio",
-        "Site analytics",
-        "Consultations"
-      ]
+      "name": "Schedule",
+      "contents": [ 
+        "Schedule your training",
+        "Course details"
+     ]
     },
     {
-      "name": "Community",
+      "name": "Information",
       "contents": [
-        "Slack",
-        "GitHub",
-        "Newsgroups and listserv"
+        "What to know",
+        "Side effects",
+        "Zombie information"
       ]
     },
     {
@@ -22,7 +21,7 @@
   ],
   "secondary": [
     {
-      "name": "Design principles"
+      "name": "Sign up"
     },
     {
       "name": "Log in"

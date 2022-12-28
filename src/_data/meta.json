@@ -1,8 +1,8 @@
 {
   "project": {
-    "name": "Prototype Lab",
-    "agency": "Agency",
-    "agency_shortname": "Agency",
-    "domain": "agency.gov"
+    "name": "Zombie Defense Training",
+    "agency": "Centers for Disease Control",
+    "agency_shortname": "CDC",
+    "domain": "cdc.gov"
   }
 }
