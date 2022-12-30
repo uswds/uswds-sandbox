@@ -16,7 +16,8 @@ body:
               ">
             <h1 class="">Zombie Defense Training Course Evaluation</h1>
               <form method="get" action="{{ '/report-an-issue-step-1' | url }}">
-                <div class="usa-accordion usa-accordion--bordered">
+              <h2>Course details</h2>
+                <div class="usa-accordion usa-accordion--bordered margin-bottom-5">
                   <h4 class="usa-accordion__heading">
                     <button
                       type="button"
@@ -78,6 +79,48 @@ body:
                     </p>
                   </div>
                 </div>
+                <h2 class="margin-bottom-0 display-flex"><span class="margin-right-1">Rate Training Session</span>
+                  <a class="usa-tooltip" data-position="top" title="Information about the training rating">
+                    <span class="usa-sr-only">Tooltip</span>
+                    <svg class="usa-icon top-2px" aria-hidden="true" focusable="false" role="img"><use xlink:href="{{ '/assets/img/sprite.svg#help' | url }}"></use></svg>
+                  </a>
+                </h2>
+                <label class="usa-label" for="usa-range">Course Content Rating</label>
+                <div class="usa-hint" id="courseHint">Please use the slider below to rate the quality of the course content.
+                    A rating of 1 means the content was very low quality and 10 rating  means the content was very high quality.
+                </div>
+                <input
+                  id="course-range"
+                  class="usa-range"
+                  type="range"
+                  min="0"
+                  max="100"
+                  step="10"
+                  value="0"
+                  aria-valuemin="0"
+                  aria-valuemax="100"
+                  aria-valuenow="0"
+                  aria-describedby="courseHint"
+                  role="slider"
+                />
+                  <label class="usa-label" for="usa-range">Instructor Rating</label>
+                <div class="usa-hint" id="instHint">Please use the slider below to rate the quality of the course content.
+                    A rating of 1 means the content was very low quality and 10 rating  means the content was very high quality.
+                </div>
+                <input
+                  id="instructor-range"
+                  class="usa-range"
+                  type="range"
+                  min="0"
+                  max="100"
+                  step="10"
+                  value="0"
+                  aria-valuemin="0"
+                  aria-valuemax="100"
+                  aria-valuenow="0"
+                  aria-describedby="instHint"
+                  role="slider"
+                />
               <button class="usa-button margin-y-4" id="save-day">Report an issue</a>
             </form>
           </div>

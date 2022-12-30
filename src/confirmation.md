@@ -15,7 +15,9 @@ body:
                 border border-base-lighter
               ">
             <h1 class="margin-bottom-0">Confirmation</h1>
-            <p>Something: <span id="something">{{ Something }}</span></p>
+            <p><strong>Date of appointment:</strong> <span id="savedDay"></span></p>
+            <p><strong>Time of appointment:</strong> <span id="savedTime"></span></p>
+            <button class="usa-button" id="clear-storage" onclick="localStorage.clear();">Clear localStorage</button>
           </div>
         </div>
       </div>
@@ -24,5 +26,11 @@ body:
 </main>
 
 <script type="application/javascript">
+ // Get the saved form data from local storage
+  var savedDay = localStorage.getItem("day");
+  var savedTime = localStorage.getItem("time");
 
+  // Update the HTML elements with the saved data
+  document.getElementById("savedDay").innerHTML = savedDay;
+  document.getElementById("savedTime").innerHTML = savedTime;
 </script>

@@ -16,12 +16,167 @@ body:
               ">
             <h1 class="margin-bottom-0">Report an Accessibility Issue (step 1 of 2)</h1>
             <form method="get" action="{{ '/report-an-issue-step-2' | url }}">
+            <h2>Tell us about the issue</h2>
+            <div class="usa-character-count">
+              <div class="usa-form-group">
+                <label class="usa-label" for="with-hint-textarea">Description of problem</label>
+                <span id="with-hint-textarea-hint" class="usa-hint"
+                  >Tell us about the problem.</span
+                >
+                <textarea
+                  class="usa-textarea usa-character-count__field"
+                  id="with-hint-textarea"
+                  maxlength="250"
+                  name="with-hint-textarea"
+                  rows="5"
+                  aria-describedby="with-hint-textarea-info with-hint-textarea-hint"
+                ></textarea>
+              </div>
+              <span id="with-hint-textarea-info" class="usa-character-count__message"
+                >You can enter up to 250 characters</span
+              >
+            </div>
+            <div class="usa-form-group width-mobile margin-bottom-3">
+              <label class="usa-label" id="appointment-date-label" for="appointment-date"
+                >When did you encounter this issue?</label
+              >
+              <div class="usa-hint" id="appointment-date-hint">mm/dd/yyyy</div>
+              <div class="usa-date-picker">
+                <input
+                  class="usa-input"
+                  id="appointment-date"
+                  name="appointment-date"
+                  aria-labelledby="appointment-date-label"
+                  aria-describedby="appointment-date-hint"
+                />
+              </div>
+            </div>
+            <fieldset class="usa-fieldset margin-bottom-5">
+              <legend class="usa-legend usa-legend">How severe was the issue?</legend>
+              <div class="usa-radio">
+                <input
+                  class="usa-radio__input"
+                  id="historical-truth"
+                  type="radio"
+                  name="severity"
+                  value="minor"
+                  checked="checked"
+                />
+                <label class="usa-radio__label" for="historical-truth"
+                  >Minor: I could still perform my activities without extra effort on the site despite this issue</label
+                >
+              </div>
+              <div class="usa-radio">
+                <input
+                  class="usa-radio__input"
+                  id="historical-douglass"
+                  type="radio"
+                  name="severity"
+                  value="medium"
+                />
+                <label class="usa-radio__label" for="historical-douglass"
+                  >Medium: This issue disrupted my ability to use the site and required me to use workarounds to complete my tasks</label
+                >
+              </div>
+              <div class="usa-radio">
+                <input
+                  class="usa-radio__input"
+                  id="historical-washington"
+                  type="radio"
+                  name="severity"
+                  value="major"
+                />
+                <label class="usa-radio__label" for="historical-washington"
+                  >Major: This issue was a significant barrier to using the site or prevented me from finishing my tasks</label
+                >
+              </div>
+            </fieldset>
+            <h2>System details</h2>
+              <fieldset class="usa-fieldset">
+                <legend class="usa-legend usa-legend">Device type</legend>
+                <div class="usa-radio">
+                  <input
+                    class="usa-radio__input"
+                    id="historical-truth"
+                    type="radio"
+                    name="device-type"
+                    value="Desktop / laptop"
+                    checked="checked"
+                    required
+                  />
+                  <label class="usa-radio__label" for="historical-truth"
+                    >Desktop / laptop</label
+                  >
+                </div>
+                <div class="usa-radio">
+                  <input
+                    class="usa-radio__input"
+                    id="historical-douglass"
+                    type="radio"
+                    name="device-type"
+                    value="Mobile phone"
+                  />
+                  <label class="usa-radio__label" for="historical-douglass"
+                    >Mobile phone</label
+                  >
+                </div>
+                <div class="usa-radio">
+                  <input
+                    class="usa-radio__input"
+                    id="historical-washington"
+                    type="radio"
+                    name="device-type"
+                    value="Tablet"
+                  />
+                  <label class="usa-radio__label" for="historical-washington"
+                    >Tablet</label
+                  >
+                </div>
+                 <div class="usa-radio">
+                  <input
+                    class="usa-radio__input"
+                    id="historical-washington"
+                    type="radio"
+                    name="device-type"
+                    value="Other"
+                  />
+                  <label class="usa-radio__label" for="historical-washington"
+                    >Other</label
+                  >
+                </div>
+              </fieldset>
+              <label class="usa-label" for="browser">Browser</label>
+              <select class="usa-select" name="options" id="browser">
+                <option value>- Select -</option>
+                <option value="Apple Safari">Apple Safari</option>
+                <option value="Microsoft Edge">Microsoft Edge</option>
+                <option value="Google Chrome">Google Chrome</option>
+                <option value="Other">Other</option>
+              </select>
+              <label class="usa-label" for="assistive-tech">Assistive Technology</label>
+              <div class="usa-hint" id="atHint">For example, JAWS, NVDA, Voiceover, Dragon Naturally Speaking</div>
+              <input class="usa-input usa-input--xl margin-bottom-5" id="assistive-tech" name="full-name" aria-describedby="atHint">
+              <h2>Contact information</h2>
+              <label class="usa-label" for="full-name">Full name</label>
+              <div class="usa-hint" id="fnHint">For example, Prof. Madeline Martinez Hernandez</div>
+              <input class="usa-input usa-input--xl" id="full-name" name="full-name" aria-describedby="fnHint">
+               <label class="usa-label" for="email_address">Email address</label>
+              <input class="usa-input margin-bottom-1" id="email_address" name="email_address" type="email" autocapitalize="off"
+                autocorrect="off" autocomplete="off" />
+              <label class="usa-label" for="tel">US Telephone Number</label>
+              <div class="usa-hint" id="telHint">For example, 123-456-7890</div>
+              <input id="tel" type="tel" inputmode="numeric" autocomplete="off" name="tel" aria-placeholder="" placeholder="___-___-____" pattern="\d{3}-\d{3}-\d{4}"
+                class="usa-input usa-masked" aria-describedby="telHint" />
+              <label class="usa-label" for="additional_information">Additional information that will help us contact you</label>
+              <div class="usa-hint" id="aiHint"> For example, “Please leave a message” or “I'm a TTY/TDD user"</div>
+              <input class="usa-input margin-bottom-1" id="additional-information" name="additional-information" aria-describedby="aiHint"/>
               <button class="usa-button margin-y-4" id="save-day">Report an issue - Step 2</button>
             </form>
           </div>
         </div>
       </div>
     </section>
+
   </div>
 </main>
 
