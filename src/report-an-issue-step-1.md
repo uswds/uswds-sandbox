@@ -15,11 +15,14 @@ body:
                 border border-base-lighter
               ">
             <h1 class="margin-bottom-0">Report an Accessibility Issue (step 1 of 2)</h1>
-            <form method="get" action="{{ '/report-an-issue-step-2' | url }}">
+             <p>
+              Required fields are marked with an asterisk (<abbr title="required" class="usa-hint usa-hint--required">*</abbr>).
+            </p>
+            <form id="infoForm" method="get" action="{{ '/report-an-issue-step-2' | url }}">
             <h2>Tell us about the issue</h2>
             <div class="usa-character-count">
               <div class="usa-form-group">
-                <label class="usa-label" for="with-hint-textarea">Description of problem</label>
+                <label class="usa-label" for="with-hint-textarea">Description of problem <abbr title="required" class="usa-hint usa-hint--required">*</abbr></label>
                 <span id="with-hint-textarea-hint" class="usa-hint"
                   >Tell us about the problem.</span
                 >
@@ -30,6 +33,7 @@ body:
                   name="with-hint-textarea"
                   rows="5"
                   aria-describedby="with-hint-textarea-info with-hint-textarea-hint"
+                  required
                 ></textarea>
               </div>
               <span id="with-hint-textarea-info" class="usa-character-count__message"
@@ -38,7 +42,7 @@ body:
             </div>
             <div class="usa-form-group width-mobile margin-bottom-3">
               <label class="usa-label" id="appointment-date-label" for="appointment-date"
-                >When did you encounter this issue?</label
+                >When did you encounter this issue? <abbr title="required" class="usa-hint usa-hint--required">*</abbr></label
               >
               <div class="usa-hint" id="appointment-date-hint">mm/dd/yyyy</div>
               <div class="usa-date-picker">
@@ -48,6 +52,7 @@ body:
                   name="appointment-date"
                   aria-labelledby="appointment-date-label"
                   aria-describedby="appointment-date-hint"
+                  required
                 />
               </div>
             </div>
@@ -56,91 +61,94 @@ body:
               <div class="usa-radio">
                 <input
                   class="usa-radio__input"
-                  id="historical-truth"
+                  id="severe-minor"
                   type="radio"
                   name="severity"
                   value="minor"
                   checked="checked"
                 />
-                <label class="usa-radio__label" for="historical-truth"
+                <label class="usa-radio__label" for="severe-minor"
                   >Minor: I could still perform my activities without extra effort on the site despite this issue</label
                 >
               </div>
               <div class="usa-radio">
                 <input
                   class="usa-radio__input"
-                  id="historical-douglass"
+                  id="severe-medium"
                   type="radio"
                   name="severity"
                   value="medium"
                 />
-                <label class="usa-radio__label" for="historical-douglass"
+                <label class="usa-radio__label" for="severe-medium"
                   >Medium: This issue disrupted my ability to use the site and required me to use workarounds to complete my tasks</label
                 >
               </div>
               <div class="usa-radio">
                 <input
                   class="usa-radio__input"
-                  id="historical-washington"
+                  id="severe-major"
                   type="radio"
                   name="severity"
                   value="major"
                 />
-                <label class="usa-radio__label" for="historical-washington"
+                <label class="usa-radio__label" for="severe-major"
                   >Major: This issue was a significant barrier to using the site or prevented me from finishing my tasks</label
                 >
               </div>
             </fieldset>
             <h2>System details</h2>
               <fieldset class="usa-fieldset">
-                <legend class="usa-legend usa-legend">Device type</legend>
+                <legend class="usa-legend usa-legend">Device type <abbr title="required" class="usa-hint usa-hint--required">*</abbr></legend>
                 <div class="usa-radio">
                   <input
                     class="usa-radio__input"
-                    id="historical-truth"
+                    id="desktop-laptop"
                     type="radio"
                     name="device-type"
                     value="Desktop / laptop"
                     checked="checked"
                     required
                   />
-                  <label class="usa-radio__label" for="historical-truth"
+                  <label class="usa-radio__label" for="desktop-laptop"
                     >Desktop / laptop</label
                   >
                 </div>
                 <div class="usa-radio">
                   <input
                     class="usa-radio__input"
-                    id="historical-douglass"
+                    id="mobile-phone"
                     type="radio"
                     name="device-type"
                     value="Mobile phone"
+                    required
                   />
-                  <label class="usa-radio__label" for="historical-douglass"
+                  <label class="usa-radio__label" for="mobile-phone"
                     >Mobile phone</label
                   >
                 </div>
                 <div class="usa-radio">
                   <input
                     class="usa-radio__input"
-                    id="historical-washington"
+                    id="tablet"
                     type="radio"
                     name="device-type"
                     value="Tablet"
+                    required
                   />
-                  <label class="usa-radio__label" for="historical-washington"
+                  <label class="usa-radio__label" for="tablet"
                     >Tablet</label
                   >
                 </div>
                  <div class="usa-radio">
                   <input
                     class="usa-radio__input"
-                    id="historical-washington"
+                    id="other-device"
                     type="radio"
                     name="device-type"
                     value="Other"
+                    required
                   />
-                  <label class="usa-radio__label" for="historical-washington"
+                  <label class="usa-radio__label" for="other-device"
                     >Other</label
                   >
                 </div>
@@ -170,16 +178,24 @@ body:
               <label class="usa-label" for="additional_information">Additional information that will help us contact you</label>
               <div class="usa-hint" id="aiHint"> For example, “Please leave a message” or “I'm a TTY/TDD user"</div>
               <input class="usa-input margin-bottom-1" id="additional-information" name="additional-information" aria-describedby="aiHint"/>
-              <button class="usa-button margin-y-4" id="save-day">Report an issue - Step 2</button>
+              <button class="usa-button margin-y-4" id="save-info">Report an issue - Step 2</button>
             </form>
           </div>
         </div>
       </div>
     </section>
-
   </div>
 </main>
 
 <script type="application/javascript">
+  var submitButton = document.getElementById("save-info");
+  submitButton.addEventListener("click", saveInfo);
 
+  function saveInfo() {
+    // Get the form data
+    var textArea = document.getElementById('with-hint-textarea').value;
+
+    // Save the form data to local storage
+    localStorage.setItem("textArea", textArea);
+  }
 </script>

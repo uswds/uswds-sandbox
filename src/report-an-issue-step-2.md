@@ -204,10 +204,7 @@ body:
   });
 
   var submitButton = document.getElementById("save-day");
-
-  if (document.getElementById("save-day")) {
-    submitButton.addEventListener("click", saveDate);
-  }
+  submitButton.addEventListener("click", saveDate);
 
   function saveDate() {
     // Get the form data

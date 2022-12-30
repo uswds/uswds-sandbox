@@ -1,5 +1,15 @@
 @use "uswds-core" as *;
 
+abbr[title] {
+    border-bottom: none !important;
+    cursor: inherit !important;
+    text-decoration: none !important;
+}
+
+* + .usa-site-alert .usa-alert {
+    margin-top: 0;
+}
+
 [role="tab"][aria-selected="true"] {
     background: #005ea2;
     color: white;
