@@ -121,7 +121,7 @@ body:
                   aria-describedby="instHint"
                   role="slider"
                 />
-              <button class="usa-button margin-y-4" id="save">Report an issue</a>
+              <button class="usa-button margin-y-4" id="save-info">Report an issue</a>
             </form>
           </div>
         </div>
@@ -131,13 +131,13 @@ body:
 </main>
 
 <script type="application/javascript">
-  var submitButton = document.getElementById("save");
+  const submitButton = document.getElementById("save-info");
   submitButton.addEventListener("click", saveInfo);
 
   function saveInfo() {
     // Get the form data
-    var courseRange = document.getElementById('course-range').value;
-    var instructorRange = document.getElementById('instructor-range').value;
+    const courseRange = document.getElementById('course-range').value;
+    const instructorRange = document.getElementById('instructor-range').value;
 
     // Save the form data to local storage
     localStorage.setItem("courseRange", courseRange);

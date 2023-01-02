@@ -161,15 +161,15 @@ body:
                 <option value="Google Chrome">Google Chrome</option>
                 <option value="Other">Other</option>
               </select>
-              <label class="usa-label" for="assistive-tech">Assistive Technology</label>
+              <label class="usa-label" for="assistive-tech">Assistive technology</label>
               <div class="usa-hint" id="atHint">For example, JAWS, NVDA, Voiceover, Dragon Naturally Speaking</div>
               <input class="usa-input usa-input--xl margin-bottom-5" id="assistive-tech" name="full-name" aria-describedby="atHint">
               <h2>Contact information</h2>
               <label class="usa-label" for="full-name">Full name</label>
               <div class="usa-hint" id="fnHint">For example, Prof. Madeline Martinez Hernandez</div>
               <input class="usa-input usa-input--xl" id="full-name" name="full-name" aria-describedby="fnHint">
-               <label class="usa-label" for="email_address">Email address</label>
-              <input class="usa-input margin-bottom-1" id="email_address" name="email_address" type="email" autocapitalize="off"
+               <label class="usa-label" for="email-address">Email address</label>
+              <input class="usa-input margin-bottom-1" id="email-address" name="email-address" type="email" autocapitalize="off"
                 autocorrect="off" autocomplete="off" />
               <label class="usa-label" for="tel">US Telephone Number</label>
               <div class="usa-hint" id="telHint">For example, 123-456-7890</div>
@@ -188,14 +188,39 @@ body:
 </main>
 
 <script type="application/javascript">
-  var submitButton = document.getElementById("save-info");
+  const submitButton = document.getElementById("save-info");
   submitButton.addEventListener("click", saveInfo);
 
   function saveInfo() {
     // Get the form data
-    var textArea = document.getElementById('with-hint-textarea').value;
+    const textArea = document.getElementById('with-hint-textarea').value;
+    const issueDate = document.getElementById('appointment-date').value;
+    const severity = document.querySelector('input[name="severity"]:checked');
+    const selectedSeverity = severity.value;
+    const device = document.querySelector('input[name="device-type"]:checked');
+    const selectedDevice = device.value;
+    const browser = document.getElementById('browser').value;
+    const assistiveTech = document.getElementById('assistive-tech').value;
+    const fullName = document.getElementById('full-name').value;
+    const emailAddress = document.getElementById('email-address').value;
+    const telephoneNumber = document.getElementById('tel').value;
+    const additionalInfo = document.getElementById('additional-information').value;
 
     // Save the form data to local storage
-    localStorage.setItem("textArea", textArea);
-  }
+    const values = {
+      textArea: textArea, 
+      issueDate: issueDate,
+      selectedSeverity: selectedSeverity, 
+      selectedDevice: selectedDevice,
+      browser: browser,
+      assistiveTech: assistiveTech,
+      fullName: fullName,
+      emailAddress: emailAddress,
+      telephoneNumber: telephoneNumber,
+      additionalInfo: additionalInfo
+    };
+    for (const key in values) {
+      localStorage.setItem(key, values[key]);
+    }
+}
 </script>

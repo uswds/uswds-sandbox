@@ -16,7 +16,7 @@ body:
               ">
             <h1 class="margin-bottom-0">Report an Accessibility Issue (step 2 of 2)</h1>
             <h2>Setup a technical support session</h2>
-            <p>Donec quis porta eros. Aenean convallis, massa eget ultricies vulputate, nulla elit semper sem, vitae scelerisque augue enim ac lacus. Curabitur rutrum malesuada viverra. Aenean ullamcorper elit ut augue dignissim volutpat. Praesent in quam sed lacus fringilla pretium. In eu dapibus tortor. Pellentesque condimentum varius lacus ut iaculis. Aliquam erat volutpat. Donec lobortis quis mauris eget volutpat.</p>
+            <p>Donec quis porta eros. Aenean convallis, massa eget ultricies vulputate, nulla elit semper sem, vitae scelerisque augue enim ac lacus. Curabitur rutrum malesuada viverra. Aenean ullamcorper elit ut augue dignissim volutpat. Praesent in quam sed lacus fringilla pretium. In eu dapibus tortor. Pellentesque condimentum constius lacus ut iaculis. Aliquam erat volutpat. Donec lobortis quis mauris eget volutpat.</p>
             <h2>View upcoming openings for one-on-one support</h2>
             <form id="dateForm" method="get" action="{{ '/confirmation' | url }}">
               <div id="tabbed-interface" class="height-mobile">
@@ -153,7 +153,7 @@ body:
                   </fieldset>
                 </div>
               </div>
-              <button class="usa-button margin-y-4" id="save-day">Confirmation</a>
+              <button class="usa-button margin-y-4" id="save-info">Confirmation</a>
             </form>
           </div>
         </div>
@@ -164,11 +164,11 @@ body:
 </main>
 
 <script type="application/javascript">
-  window.addEventListener('load', function () {
-    var tablists = document.querySelectorAll('[role=tablist].automatic');
-    for (var i = 0; i < tablists.length; i++) {
-      new TabsAutomatic(tablists[i]);
-    }
+  window.addEventListener('DOMContentLoaded', () => {
+    const tablists = document.querySelectorAll('[role=tablist].automatic');
+    tablists.forEach(tablist => {
+      new TabsAutomatic(tablist);
+    });
   });
 
   const tabs = document.querySelector('#tabs');
@@ -203,17 +203,19 @@ body:
     });
   });
 
-  var submitButton = document.getElementById("save-day");
+  const submitButton = document.getElementById("save-info");
   submitButton.addEventListener("click", saveDate);
+
+  const day = document.querySelector["#tabs"].value;
 
   function saveDate() {
     // Get the form data
-    var form = document.getElementById("dateForm");
-    var day = form.elements["tabs"].value;
-    var date = new Date(day);
-    day = date.toLocaleDateString('en-US', { month: 'long', day: 'numeric', year: 'numeric' });
+    
+    const day = document.querySelector('#tabs').value;
+    const date = new Date(day);
+    const formattedDay = date.toLocaleDateString('en-US', { month: 'long', day: 'numeric', year: 'numeric' });
 
     // Save the form data to local storage
-    localStorage.setItem("day", day);
+    localStorage.setItem("formattedDay", formattedDay);
   }
 </script>
