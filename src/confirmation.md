@@ -46,23 +46,19 @@ body:
     high: 'High',
   }
   
-  if (courseRange <= 30) {
-    label = rangeLabels.low;
-  } else if (courseRange > 31 && courseRange < 69) {
-    label = rangeLabels.medium;
-  } else {
-    label = rangeLabels.high;
+  const setRangeLabel = (range, elementId) => {
+    if (range <= 30) {
+      label = rangeLabels.low;
+    } else if (range > 31 && range < 69) {
+      label = rangeLabels.medium;
+    } else {
+      label = rangeLabels.high;
+    }
+    document.getElementById(elementId).innerHTML = `${range} (${label})`;
   }
-  document.getElementById("courseRange").innerHTML = `${courseRange} (${label})`;
 
-  if (instructorRange <= 30) {
-    label = rangeLabels.low;
-  } else if (instructorRange > 31 && instructorRange < 69) {
-    label = rangeLabels.medium;
-  } else {
-    label = rangeLabels.high;
-  }
-  document.getElementById("instructorRange").innerHTML = `${instructorRange} (${label})`;
+  setRangeLabel(courseRange, "courseRange");
+  setRangeLabel(instructorRange, "instructorRange");
 
   document.getElementById("textArea").innerHTML = textArea;
   document.getElementById("savedDay").innerHTML = savedDay;
