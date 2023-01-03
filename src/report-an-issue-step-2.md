@@ -17,10 +17,10 @@ body:
             <h1 class="margin-bottom-0">Report an Accessibility Issue (step 2 of 2)</h1>
             <h2>Setup a technical support session</h2>
             <p>Donec quis porta eros. Aenean convallis, massa eget ultricies vulputate, nulla elit semper sem, vitae scelerisque augue enim ac lacus. Curabitur rutrum malesuada viverra. Aenean ullamcorper elit ut augue dignissim volutpat. Praesent in quam sed lacus fringilla pretium. In eu dapibus tortor. Pellentesque condimentum constius lacus ut iaculis. Aliquam erat volutpat. Donec lobortis quis mauris eget volutpat.</p>
-            <h2>View upcoming openings for one-on-one support</h2>
+            <h2 class="margin-top-5">View upcoming openings for one-on-one support</h2>
             <form id="dateForm" method="get" action="{{ '/confirmation' | url }}">
               <div id="tabbed-interface" class="height-mobile">
-                <label class="usa-label" for="tabs">Select a date</label>
+                <label class="usa-label margin-top-0" for="tabs">Select a date</label>
                 <select class="usa-select" id="tabs">
                   <option disabled>Select a date</option>
                   <option value="Jan-16-2022">Jan 16, 2022</option>
@@ -165,13 +165,6 @@ body:
 
 <script type="application/javascript">
   // I don't remember why I had this but keeping it commented out just in case
-  // window.addEventListener('DOMContentLoaded', () => {
-  //   const tablists = document.querySelectorAll('[role=tablist].automatic');
-  //   tablists.forEach(tablist => {
-  //     new TabsAutomatic(tablist);
-  //   });
-  // });
-
   // Create faux tabs with select dropdown
   const tabs = document.querySelector('#tabs');
   const tabContents = document.querySelectorAll('.tab-content');

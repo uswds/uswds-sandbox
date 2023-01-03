@@ -14,24 +14,24 @@ body:
                 padding-y-3 padding-x-5
                 border border-base-lighter
               ">
-            <h1 class="margin-bottom-0">Confirmation</h1>
-            <h2>Training session rating</h2>
+            <h1>Confirmation</h1>
+            <h2 class="margin-top-5">Training session rating</h2>
             <p><strong>Course Rating:</strong> <span id="courseRange"></span></p>
             <p><strong>Instructor Rating:</strong> <span id="instructorRange"></span></p>
-            <h2>About the issue</h2>
+            <h2 class="margin-top-5">About the issue</h2>
             <p><strong>Description of problem:</strong> <span id="textArea"></span></p>
             <p><strong>When did you encounter the issue?:</strong> <span id="issueDate"></span></p>
             <p><strong>How severe was the issue?:</strong> <span id="selectedSeverity"></span></p>
-            <h2>System details</h2>
+            <h2 class="margin-top-5">System details</h2>
             <p><strong>Device type:</strong> <span id="selectedDevice"></span></p>
             <p><strong>Browser:</strong> <span id="browser"></span></p>
             <p><strong>Assistive technology:</strong> <span id="assistiveTech"></span></p>
-            <h2>Contact information</h2>
+            <h2 class="margin-top-5">Contact information</h2>
             <p><strong>Full name:</strong> <span id="fullName"></span></p>
             <p><strong>Email address:</strong> <span id="emailAddress"></span></p>
             <p><strong>US Telephone number:</strong> <span id="telephoneNumber"></span></p>
             <p><strong>Additional information that will help us contact you:</strong> <span id="additionalInfo"></span></p>
-            <h2>One-on-one support appointment date and time</h2>
+            <h2 class="margin-top-5">One-on-one support appointment date and time</h2>
             <p><strong>Date of appointment:</strong> <span id="savedDay"></span></p>
             <p><strong>Time of appointment:</strong> <span id="savedTime"></span></p>
             <button class="usa-button margin-top-5" id="clear-storage" onclick="localStorage.clear();">Clear localStorage</button>
@@ -67,9 +67,9 @@ body:
   }
   
   const setRangeLabel = (range, elementId) => {
-    if (range <= 30) {
+    if (range <= 3) {
       label = rangeLabels.low;
-    } else if (range > 31 && range < 69) {
+    } else if (range >= 4 && range <= 6) {
       label = rangeLabels.medium;
     } else {
       label = rangeLabels.high;

@@ -16,7 +16,7 @@ body:
               ">
             <h1 class="">Zombie Defense Training Course Evaluation</h1>
               <form method="get" action="{{ '/report-an-issue-step-1' | url }}">
-              <h2>Course details</h2>
+              <h2 class="margin-top-5">Course details</h2>
                 <div class="usa-accordion usa-accordion--bordered margin-bottom-5">
                   <h3 class="usa-accordion__heading">
                     <button
@@ -94,29 +94,29 @@ body:
                   class="usa-range"
                   type="range"
                   min="0"
-                  max="100"
-                  step="10"
+                  max="10"
+                  step="1"
                   value="0"
                   aria-valuemin="0"
-                  aria-valuemax="100"
+                  aria-valuemax="10"
                   aria-valuenow="0"
                   aria-describedby="courseHint"
                   role="slider"
                 />
                   <label class="usa-label" for="instructor-range">Instructor Rating</label>
-                <div class="usa-hint" id="instHint">Please use the slider below to rate the quality of the course content.
-                    A rating of 1 means the content was very low quality and 10 rating  means the content was very high quality.
+                <div class="usa-hint" id="instHint">Please use the slider below to rate the quality of the instructor.
+                    A rating of 1 means the instructor was of very low quality and 10 rating means the instructor was of very high quality.
                 </div>
                 <input
                   id="instructor-range"
                   class="usa-range"
                   type="range"
                   min="0"
-                  max="100"
-                  step="10"
+                  max="10"
+                  step="1"
                   value="0"
                   aria-valuemin="0"
-                  aria-valuemax="100"
+                  aria-valuemax="10"
                   aria-valuenow="0"
                   aria-describedby="instHint"
                   role="slider"

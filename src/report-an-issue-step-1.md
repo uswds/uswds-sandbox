@@ -52,6 +52,7 @@ body:
                   name="appointment-date"
                   aria-labelledby="appointment-date-label"
                   aria-describedby="appointment-date-hint"
+                  autocomplete="off"
                   required
                 />
               </div>
@@ -163,11 +164,11 @@ body:
               </select>
               <label class="usa-label" for="assistive-tech">Assistive technology</label>
               <div class="usa-hint" id="atHint">For example, JAWS, NVDA, Voiceover, Dragon Naturally Speaking</div>
-              <input class="usa-input usa-input--xl margin-bottom-5" id="assistive-tech" name="full-name" aria-describedby="atHint">
+              <input class="usa-input usa-input--xl margin-bottom-5" id="assistive-tech" name="full-name" aria-describedby="atHint" autocomplete="off" >
               <h2>Contact information</h2>
               <label class="usa-label" for="full-name">Full name</label>
               <div class="usa-hint" id="fnHint">For example, Prof. Madeline Martinez Hernandez</div>
-              <input class="usa-input usa-input--xl" id="full-name" name="full-name" aria-describedby="fnHint">
+              <input class="usa-input usa-input--xl" id="full-name" name="full-name" aria-describedby="fnHint" autocomplete="off" >
                <label class="usa-label" for="email-address">Email address</label>
               <input class="usa-input margin-bottom-1" id="email-address" name="email-address" type="email" autocapitalize="off"
                 autocorrect="off" autocomplete="off" />
@@ -177,7 +178,7 @@ body:
                 class="usa-input usa-masked" aria-describedby="telHint" />
               <label class="usa-label" for="additional-information">Additional information that will help us contact you</label>
               <div class="usa-hint" id="aiHint"> For example, “Please leave a message” or “I'm a TTY/TDD user"</div>
-              <input class="usa-input margin-bottom-1" id="additional-information" name="additional-information" aria-describedby="aiHint"/>
+              <input class="usa-input margin-bottom-1" id="additional-information" name="additional-information" aria-describedby="aiHint" autocomplete="off"/>
               <button class="usa-button margin-y-4" id="save-info">Report an issue - Step 2</button>
             </form>
           </div>
