@@ -59,8 +59,6 @@ body:
   var telephoneNumber = localStorage.getItem("telephoneNumber");
   var additionalInfo = localStorage.getItem("additionalInfo");
 
-  console.log(selectedSeverity);
-
   // Add context to course and instructor range
   const rangeLabels = {
     low: 'Low',
@@ -82,7 +80,6 @@ body:
   // Update the HTML elements with the saved data
   setRangeLabel(courseRange, "courseRange");
   setRangeLabel(instructorRange, "instructorRange");
-
   document.getElementById("textArea").innerHTML = textArea;
   document.getElementById("issueDate").innerHTML = issueDate;
   document.getElementById("selectedSeverity").innerHTML = selectedSeverity;

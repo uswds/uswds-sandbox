@@ -164,13 +164,15 @@ body:
 </main>
 
 <script type="application/javascript">
-  window.addEventListener('DOMContentLoaded', () => {
-    const tablists = document.querySelectorAll('[role=tablist].automatic');
-    tablists.forEach(tablist => {
-      new TabsAutomatic(tablist);
-    });
-  });
+  // I don't remember why I had this but keeping it commented out just in case
+  // window.addEventListener('DOMContentLoaded', () => {
+  //   const tablists = document.querySelectorAll('[role=tablist].automatic');
+  //   tablists.forEach(tablist => {
+  //     new TabsAutomatic(tablist);
+  //   });
+  // });
 
+  // Create faux tabs with select dropdown
   const tabs = document.querySelector('#tabs');
   const tabContents = document.querySelectorAll('.tab-content');
 
@@ -184,7 +186,6 @@ body:
       selectedTab.classList.add('active');
     });
   }
-
 
   // Get all the radio buttons
   const buttons = document.querySelectorAll('input[type="radio"]');
@@ -203,6 +204,7 @@ body:
     });
   });
 
+  // 
   const submitButton = document.getElementById("save-info");
   submitButton.addEventListener("click", saveDate);
 
@@ -210,7 +212,6 @@ body:
 
   function saveDate() {
     // Get the form data
-    
     const day = document.querySelector('#tabs').value;
     const date = new Date(day);
     const formattedDay = date.toLocaleDateString('en-US', { month: 'long', day: 'numeric', year: 'numeric' });

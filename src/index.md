@@ -18,7 +18,7 @@ body:
               <form method="get" action="{{ '/report-an-issue-step-1' | url }}">
               <h2>Course details</h2>
                 <div class="usa-accordion usa-accordion--bordered margin-bottom-5">
-                  <h4 class="usa-accordion__heading">
+                  <h3 class="usa-accordion__heading">
                     <button
                       type="button"
                       class="usa-accordion__button"
@@ -27,13 +27,13 @@ body:
                     >
                       Class Information
                     </button>
-                  </h4>
+                  </h3>
                   <div id="b-a1" class="usa-accordion__content usa-prose">
                     <p>
                       (TBD)
                     </p>
                   </div>
-                  <h4 class="usa-accordion__heading">
+                  <h3 class="usa-accordion__heading">
                     <button
                       type="button"
                       class="usa-accordion__button"
@@ -42,13 +42,13 @@ body:
                     >
                       Instructor Information
                     </button>
-                  </h4>
+                  </h3>
                   <div id="b-a2" class="usa-accordion__content usa-prose">
                     <p>
                       (TBD)
                     </p>
                   </div>
-                  <h4 class="usa-accordion__heading">
+                  <h3 class="usa-accordion__heading">
                     <button
                       type="button"
                       class="usa-accordion__button"
@@ -57,13 +57,13 @@ body:
                     >
                       ZDT Learning Credits
                     </button>
-                  </h4>
+                  </h3>
                   <div id="b-a3" class="usa-accordion__content usa-prose">
                     <p>
                       (TBD)
                     </p>
                   </div>
-                  <h4 class="usa-accordion__heading">
+                  <h3 class="usa-accordion__heading">
                     <button
                       type="button"
                       class="usa-accordion__button"
@@ -72,7 +72,7 @@ body:
                     >
                       (TBD)
                     </button>
-                  </h4>
+                  </h3>
                   <div id="b-a4" class="usa-accordion__content usa-prose">
                     <p>
                       (TBD)
@@ -85,7 +85,7 @@ body:
                     <svg class="usa-icon top-2px" aria-hidden="true" focusable="false" role="img"><use xlink:href="{{ '/assets/img/sprite.svg#help' | url }}"></use></svg>
                   </a>
                 </h2>
-                <label class="usa-label" for="usa-range">Course Content Rating</label>
+                <label class="usa-label" for="course-range">Course Content Rating</label>
                 <div class="usa-hint" id="courseHint">Please use the slider below to rate the quality of the course content.
                     A rating of 1 means the content was very low quality and 10 rating  means the content was very high quality.
                 </div>
@@ -103,7 +103,7 @@ body:
                   aria-describedby="courseHint"
                   role="slider"
                 />
-                  <label class="usa-label" for="usa-range">Instructor Rating</label>
+                  <label class="usa-label" for="instructor-range">Instructor Rating</label>
                 <div class="usa-hint" id="instHint">Please use the slider below to rate the quality of the course content.
                     A rating of 1 means the content was very low quality and 10 rating  means the content was very high quality.
                 </div>

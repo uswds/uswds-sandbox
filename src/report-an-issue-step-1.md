@@ -175,7 +175,7 @@ body:
               <div class="usa-hint" id="telHint">For example, 123-456-7890</div>
               <input id="tel" type="tel" inputmode="numeric" autocomplete="off" name="tel" aria-placeholder="" placeholder="___-___-____" pattern="\d{3}-\d{3}-\d{4}"
                 class="usa-input usa-masked" aria-describedby="telHint" />
-              <label class="usa-label" for="additional_information">Additional information that will help us contact you</label>
+              <label class="usa-label" for="additional-information">Additional information that will help us contact you</label>
               <div class="usa-hint" id="aiHint"> For example, “Please leave a message” or “I'm a TTY/TDD user"</div>
               <input class="usa-input margin-bottom-1" id="additional-information" name="additional-information" aria-describedby="aiHint"/>
               <button class="usa-button margin-y-4" id="save-info">Report an issue - Step 2</button>
