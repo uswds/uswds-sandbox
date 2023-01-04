@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Report an issue - Step 2
+title: Report an Accessibility Issue (step 2 of 2)
 body:
 ---
 
