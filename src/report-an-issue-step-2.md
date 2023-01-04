@@ -164,7 +164,7 @@ body:
 </main>
 
 <script type="application/javascript">
-  // I don't remember why I had this but keeping it commented out just in case
+  
   // Create faux tabs with select dropdown
   const tabs = document.querySelector('#tabs');
   const tabContents = document.querySelectorAll('.tab-content');
@@ -197,14 +197,18 @@ body:
     });
   });
 
-  // 
+  // Submit form
+  document.querySelector('#dateForm').addEventListener('keypress', function(e) {
+    if(e.target.tagName != 'BUTTON') {
+      e.preventDefault();
+    }  
+  });
+
   const submitButton = document.getElementById("save-info");
   submitButton.addEventListener("click", saveDate);
 
-  const day = document.querySelector["#tabs"].value;
-
   function saveDate() {
-    // Get the form data
+    // Get the form data and format day to be human-readable
     const day = document.querySelector('#tabs').value;
     const date = new Date(day);
     const formattedDay = date.toLocaleDateString('en-US', { month: 'long', day: 'numeric', year: 'numeric' });
