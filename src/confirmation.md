@@ -17,7 +17,9 @@ body:
             <h1>Confirmation</h1>
             <h2 class="margin-top-5">Training session rating</h2>
             <p><strong>Course Rating:</strong> <span id="courseRange"></span></p>
+            <meter class="width-card height-3" id="courseMeter" min="0" low="3" high="7" optimum="8" max="10"></meter>
             <p><strong>Instructor Rating:</strong> <span id="instructorRange"></span></p>
+            <meter class="width-card height-3" id="instructorMeter" min="0" low="3" high="7" optimum="8" max="10"></meter>
             <h2 class="margin-top-5">About the issue</h2>
             <p><strong>Description of problem:</strong> <span id="textArea"></span></p>
             <p><strong>When did you encounter the issue?:</strong> <span id="issueDate"></span></p>
@@ -79,7 +81,9 @@ body:
 
   // Update the HTML elements with the saved data
   setRangeLabel(courseRange, "courseRange");
+  document.querySelector('#courseMeter').value = courseRange;
   setRangeLabel(instructorRange, "instructorRange");
+  document.querySelector('#instructorMeter').value = instructorRange;
   document.getElementById("textArea").innerHTML = textArea;
   document.getElementById("issueDate").innerHTML = issueDate;
   document.getElementById("selectedSeverity").innerHTML = selectedSeverity;
