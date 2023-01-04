@@ -16,7 +16,10 @@ body:
               ">
             <h1 class="margin-bottom-0">Report an Accessibility Issue (step 2 of 2)</h1>
             <h2>Setup a technical support session</h2>
-            <p>Donec quis porta eros. Aenean convallis, massa eget ultricies vulputate, nulla elit semper sem, vitae scelerisque augue enim ac lacus. Curabitur rutrum malesuada viverra. Aenean ullamcorper elit ut augue dignissim volutpat. Praesent in quam sed lacus fringilla pretium. In eu dapibus tortor. Pellentesque condimentum constius lacus ut iaculis. Aliquam erat volutpat. Donec lobortis quis mauris eget volutpat.</p>
+            <ul class="usa-list">
+              <li>To help resolve your accessibility issue, we offer one-on-one technical support sessions with our team’s accessibility specialists.</li>
+              <li>Select a data and time for an open session and we’ll setup a meeting to talk about your issue in more detail.</li>
+            </ul>
             <h2 class="margin-top-5">View upcoming openings for one-on-one support</h2>
             <form id="dateForm" method="get" action="{{ '/confirmation' | url }}">
               <div id="tabbed-interface" class="height-mobile">

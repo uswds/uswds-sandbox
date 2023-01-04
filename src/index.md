@@ -15,7 +15,7 @@ body:
                 border border-base-lighter
               ">
             <h1 class="">Zombie Defense Training Course Evaluation</h1>
-              <form method="get" action="{{ '/report-an-issue-step-1' | url }}">
+              <form method="get" action="{{ '/success' | url }}">
               <h2 class="margin-top-5">Course details</h2>
                 <div class="usa-accordion usa-accordion--bordered margin-bottom-5">
                   <h3 class="usa-accordion__heading">
@@ -30,7 +30,7 @@ body:
                   </h3>
                   <div id="b-a1" class="usa-accordion__content usa-prose">
                     <p>
-                      (TBD)
+                      The Smell of Survival: A introduction into zombie olfactory avoidance strategies. Learn how to eliminate or mask common smells that can draw the attention of zombies.
                     </p>
                   </div>
                   <h3 class="usa-accordion__heading">
@@ -45,7 +45,7 @@ body:
                   </h3>
                   <div id="b-a2" class="usa-accordion__content usa-prose">
                     <p>
-                      (TBD)
+                      Susanna Funk - Tacoma, Washington Zombie Protection Squad member
                     </p>
                   </div>
                   <h3 class="usa-accordion__heading">
@@ -60,7 +60,7 @@ body:
                   </h3>
                   <div id="b-a3" class="usa-accordion__content usa-prose">
                     <p>
-                      (TBD)
+                      Completion of the course counts toward 6 annual ZDT Learning Credits.
                     </p>
                   </div>
                   <h3 class="usa-accordion__heading">
@@ -70,17 +70,17 @@ body:
                       aria-expanded="false"
                       aria-controls="b-a4"
                     >
-                      (TBD)
+                      Online Resources
                     </button>
                   </h3>
                   <div id="b-a4" class="usa-accordion__content usa-prose">
                     <p>
-                      (TBD)
+                      No online resources are available for this course.
                     </p>
                   </div>
                 </div>
                 <h2 class="margin-bottom-0 display-flex"><span class="margin-right-1">Rate Training Session</span>
-                  <a class="usa-tooltip" data-position="top" title="Information about the training rating">
+                  <a class="usa-tooltip" data-position="top" title="Your ratings are anonymous and will not impact your pass or fail status for the course.">
                     <span class="usa-sr-only">Tooltip</span>
                     <svg class="usa-icon top-2px" aria-hidden="true" focusable="false" role="img"><use xlink:href="{{ '/assets/img/sprite.svg#help' | url }}"></use></svg>
                   </a>
@@ -121,7 +121,7 @@ body:
                   aria-describedby="instHint"
                   role="slider"
                 />
-              <button class="usa-button margin-y-4" id="save-info">Report an issue</a>
+              <button class="usa-button margin-y-4" id="save-info">Submit rating</a>
             </form>
           </div>
         </div>
