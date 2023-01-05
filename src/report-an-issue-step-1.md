@@ -40,6 +40,24 @@ body:
                 >You can enter up to 250 characters</span
               >
             </div>
+            <div class="usa-input-mask">
+              <div class="usa-form-group">
+                <label class="usa-label" for="date">US Date</label>
+                <div class="usa-hint" id="date-hint">For example, 01/01/1970</div>
+                <input 
+                    aria-describedby="date-hint date-hint-info"
+                    class="usa-input usa-input-mask__field"
+                    id="date"
+                    inputmode="numeric"
+                    mask="99/99/9999"
+                    name="date"
+                    pattern="\\d{2}/\\d{2}/\\d{4}"
+                    placeholder="__/__/____"
+                    type="numeric"
+                >
+              </div>
+              <span id="date-hint-info" class="usa-input-mask__message"></span>
+            </div>
             <div class="usa-form-group width-mobile margin-bottom-3">
               <label class="usa-label" id="appointment-date-label" for="appointment-date"
                 >When did you encounter this issue? <abbr title="required" class="usa-hint usa-hint--required">*</abbr></label
@@ -51,7 +69,7 @@ body:
                   id="appointment-date"
                   name="appointment-date"
                   aria-labelledby="appointment-date-label"
-                  aria-describedby="appointment-date-hint"
+                  aria-describedby="appointment-date-hint appointment-date-hint-info"
                   autocomplete="off"
                   required
                 />
