@@ -18,7 +18,7 @@ body:
              <p>
               Required fields are marked with an asterisk (<abbr title="required" class="usa-hint usa-hint--required">*</abbr>).
             </p>
-            <form id="infoForm" method="get" action="{{ '/report-an-issue-step-2' | url }}">
+            <form class="usa-form" id="infoForm" method="get" action="{{ '/report-an-issue-step-2' | url }}">
             <h2>Tell us about the issue</h2>
             <div class="usa-character-count">
               <div class="usa-form-group">
@@ -155,7 +155,7 @@ body:
                 </div>
               </fieldset>
               <label class="usa-label" for="browser">Browser</label>
-              <select class="usa-select" name="options" id="browser">
+              <select class="usa-select usa-input--xl" name="options" id="browser">
                 <option value>- Select -</option>
                 <option value="Apple Safari">Apple Safari</option>
                 <option value="Microsoft Edge">Microsoft Edge</option>
@@ -169,20 +169,31 @@ body:
               <label class="usa-label" for="full-name">Full name</label>
               <div class="usa-hint" id="fnHint">For example, Prof. Madeline Martinez Hernandez</div>
               <input class="usa-input usa-input--xl" id="full-name" name="full-name" aria-describedby="fnHint" autocomplete="off" >
-               <label class="usa-label" for="email-address">Email address</label>
-              <input class="usa-input margin-bottom-1" id="email-address" name="email-address" type="email" autocapitalize="off"
+              <label class="usa-label" for="email-address">Email address</label>
+              <input class="usa-input usa-input--xl margin-bottom-1" id="email-address" name="email-address" type="email" autocapitalize="off"
                 autocorrect="off" autocomplete="off" />
               <div class="usa-input-mask">
                 <div class="usa-form-group">
                   <label class="usa-label" for="tel">US Telephone Number</label>
-                  <div class="usa-hint" id="tel-hint">For example, (123) 456-7890</div>
-                  <span class="usa-input-mask__shell" data-mask="(___) ___-____"><span class="usa-input-mask__content" aria-hidden="true" id="telMask"><i>(</i>___) ___-____</span><input aria-describedby="tel-hint tel-hint-info" class="usa-input usa-input-mask__field" id="tel" inputmode="numeric" mask="(999) 999-9999" name="tel" pattern="(\d{3}) \d{3}-\d{4}" type="tel" maxlength="14" data-placeholder="(___) ___-____"></span>
+                  <div class="usa-hint" id="tel-hint">For example, 123-456-7890</div>
+                  <input 
+                    aria-describedby="tel-hint tel-hint-info"
+                    class="usa-input usa-input--xl usa-input-mask__field"
+                    id="tel"
+                    inputmode="numeric"
+                    mask="999-999-9999"
+                    name="tel"
+                    pattern="\d{3}-\d{3}-\d{4}"
+                    placeholder="___-___-____"
+                    type="tel"
+                    autocomplete="off"
+                  >
                 </div>
-                <span id="tel-hint-info" class="usa-input-mask__message usa-sr-only"></span>
+                <span id="tel-hint-info" class="usa-input-mask__message"></span>
               </div>
               <label class="usa-label" for="additional-information">Additional information that will help us contact you</label>
               <div class="usa-hint" id="aiHint"> For example, “Please leave a message” or “I'm a TTY/TDD user"</div>
-              <input class="usa-input margin-bottom-1" id="additional-information" name="additional-information" aria-describedby="aiHint" autocomplete="off"/>
+              <input class="usa-input usa-input--xl margin-bottom-1" id="additional-information" name="additional-information" aria-describedby="aiHint" autocomplete="off"/>
               <button class="usa-button margin-y-4" id="save-info">Report an issue - Step 2</button>
             </form>
           </div>

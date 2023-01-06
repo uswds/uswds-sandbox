@@ -27,10 +27,10 @@ body:
             </div>
             <div id="upcoming-openings">
               <h2 class="margin-top-5">View upcoming openings for one-on-one support</h2>
-              <form id="dateForm" method="get" action="{{ '/confirmation' | url }}">
+              <form class="usa-form" id="dateForm" method="get" action="{{ '/confirmation' | url }}">
                 <div id="tabbed-interface" class="height-mobile">
                   <label class="usa-label margin-top-0" for="tabs">Select a date</label>
-                  <select class="usa-select" id="tabs">
+                  <select class="usa-select usa-input--xl" id="tabs">
                     <option disabled>Select a date</option>
                     <option value="Jan-16-2022">Jan 16, 2022</option>
                     <option value="Jan-18-2022">Jan 18, 2022</option>

@@ -28,10 +28,6 @@ abbr[title] {
     }
 }
 
-// .usa-radio__label::before {
-//     content: none;
-// }
-
 #tabbed-interface {
     display: flex;
     flex-direction: column;
@@ -47,4 +43,10 @@ abbr[title] {
 
 .tab-content.active {
     display: block;
+}
+
+@media (min-width: 30rem) {
+    .usa-form {
+        max-width: 30rem;
+    }
 }
