@@ -20,7 +20,7 @@
     "test": "snyk test"
   },
   "dependencies": {
-    "@uswds/uswds": "github:uswds/uswds#mm-input-mask"
+    "@uswds/uswds": "^3.3.0"  
   },
   "devDependencies": {
     "@11ty/eleventy": "^1.0.2",
