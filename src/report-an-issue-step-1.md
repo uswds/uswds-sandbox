@@ -40,24 +40,6 @@ body:
                 >You can enter up to 250 characters</span
               >
             </div>
-            <div class="usa-input-mask">
-              <div class="usa-form-group">
-                <label class="usa-label" for="date">US Date</label>
-                <div class="usa-hint" id="date-hint">For example, 01/01/1970</div>
-                <input 
-                    aria-describedby="date-hint date-hint-info"
-                    class="usa-input usa-input-mask__field"
-                    id="date"
-                    inputmode="numeric"
-                    mask="99/99/9999"
-                    name="date"
-                    pattern="\\d{2}/\\d{2}/\\d{4}"
-                    placeholder="__/__/____"
-                    type="numeric"
-                >
-              </div>
-              <span id="date-hint-info" class="usa-input-mask__message"></span>
-            </div>
             <div class="usa-form-group width-mobile margin-bottom-3">
               <label class="usa-label" id="appointment-date-label" for="appointment-date"
                 >When did you encounter this issue? <abbr title="required" class="usa-hint usa-hint--required">*</abbr></label
@@ -190,10 +172,25 @@ body:
                <label class="usa-label" for="email-address">Email address</label>
               <input class="usa-input margin-bottom-1" id="email-address" name="email-address" type="email" autocapitalize="off"
                 autocorrect="off" autocomplete="off" />
-              <label class="usa-label" for="tel">US Telephone Number</label>
-              <div class="usa-hint" id="telHint">For example, 123-456-7890</div>
-              <input id="tel" type="tel" inputmode="numeric" autocomplete="off" name="tel" aria-placeholder="" placeholder="___-___-____" pattern="\d{3}-\d{3}-\d{4}"
-                class="usa-input usa-masked" aria-describedby="telHint" />
+              <div class="usa-input-mask">
+                <div class="usa-form-group">
+                  <label class="usa-label" for="tel">US Telephone Number</label>
+                  <div class="usa-hint" id="tel-hint">For example, 123-456-7890</div>
+                  <input 
+                    aria-describedby="tel-hint tel-hint-info"
+                    class="usa-input usa-input-mask__field"
+                    id="tel"
+                    inputmode="numeric"
+                    mask="999-999-9999"
+                    name="tel"
+                    pattern="\d{3}-\d{3}-\d{4}"
+                    placeholder="___-___-____"
+                    type="tel"
+                    autocomplete="off"
+                  >
+              </div>
+              <span id="tel-hint-info" class="usa-input-mask__message"></span>
+            </div>
               <label class="usa-label" for="additional-information">Additional information that will help us contact you</label>
               <div class="usa-hint" id="aiHint"> For example, “Please leave a message” or “I'm a TTY/TDD user"</div>
               <input class="usa-input margin-bottom-1" id="additional-information" name="additional-information" aria-describedby="aiHint" autocomplete="off"/>
