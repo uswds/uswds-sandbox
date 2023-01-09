@@ -62,7 +62,7 @@ body:
               name="appointment-date"
               inputmode="numeric"
               placeholder="mm/dd/yyyy"
-              pattern="/(0[1-9]|1[012])[- \/.](0[1-9]|[12][0-9]|3[01])[- \/.](19|20)\d\d/"
+              pattern="[0-9]{2}/[0-9]{2}/[0-9]{4}"
               class="usa-input usa-masked margin-bottom-3 width-card-lg"
               aria-describedby="dateHint"
               aria-labelledby="appointment-date-label"
