@@ -46,8 +46,9 @@ body:
                   required
                 ></textarea>
               </div>
-              <span id="with-hint-textarea-info" class="usa-character-count__message"
-                ><span id="typed-characters">250</span> characters allowed</span>
+              <span id="with-hint-textarea-info" class="usa-character-count__message">
+                <span id="typed-characters">250</span> characters allowed
+              </span>
               <span id="count-region" class="usa-character-count__sr-status usa-sr-only" role="region" aria-live="polite"></span>
             </div>
             <div class="usa-form-group width-mobile margin-bottom-3">
@@ -182,25 +183,18 @@ body:
               <label class="usa-label" for="email-address">Email address</label>
               <input class="usa-input usa-input--xl margin-bottom-1" id="email-address" name="email-address" type="email" autocapitalize="off"
                 autocorrect="off" autocomplete="off" />
-              <div class="usa-input-mask">
-                <div class="usa-form-group">
-                  <label class="usa-label" for="tel">US Telephone Number</label>
-                  <div class="usa-hint" id="tel-hint">For example, 123-456-7890</div>
-                  <input 
-                    aria-describedby="tel-hint tel-hint-info"
-                    class="usa-input usa-input--xl usa-input-mask__field"
-                    id="tel"
-                    inputmode="numeric"
-                    mask="999-999-9999"
-                    name="tel"
-                    pattern="\d{3}-\d{3}-\d{4}"
-                    placeholder="___-___-____"
-                    type="tel"
-                    autocomplete="off"
-                  >
-                </div>
-                <span id="tel-hint-info" class="usa-input-mask__message"></span>
-              </div>
+              <label class="usa-label" for="tel">US Telephone Number</label>
+              <div class="usa-hint" id="telHint">For example, 123-456-7890</div>
+              <input
+                id="tel"
+                type="tel"
+                inputmode="numeric"
+                name="tel"
+                placeholder="___-___-____"
+                pattern="\d{3}-\d{3}-\d{4}"
+                class="usa-input usa-masked"
+                aria-describedby="telHint"
+              />
               <label class="usa-label" for="additional-information">Additional information that will help us contact you</label>
               <div class="usa-hint" id="aiHint"> For example, “Please leave a message” or “I'm a TTY/TDD user"</div>
               <input class="usa-input usa-input--xl margin-bottom-1" id="additional-information" name="additional-information" aria-describedby="aiHint" autocomplete="off"/>
