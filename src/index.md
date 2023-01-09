@@ -30,7 +30,7 @@ body:
                   </h3>
                   <div id="b-a1" class="usa-accordion__content usa-prose">
                     <p>
-                      The Smell of Survival: A introduction into zombie olfactory avoidance strategies. Learn how to eliminate or mask common smells that can draw the attention of zombies.
+                      The Smell of Survival: An introduction into zombie olfactory avoidance strategies. Learn how to eliminate or mask common smells that can draw the attention of zombies.
                     </p>
                   </div>
                   <h3 class="usa-accordion__heading">
