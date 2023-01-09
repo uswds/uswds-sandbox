@@ -47,9 +47,11 @@ body:
                 ></textarea>
               </div>
               <span id="with-hint-textarea-info" class="usa-character-count__message">
-                <span id="typed-characters">250</span> characters allowed
+                <span class="typed-characters">250</span> characters allowed
               </span>
-              <span id="count-region" class="usa-character-count__sr-status usa-sr-only" role="region" aria-live="polite"></span>
+              <span class="usa-character-count__sr-status usa-sr-only" role="region" aria-live="polite">
+                <span class="sr-characters">250</span>
+              </span>
             </div>
             <label class="usa-label" id="appointment-date-label" for="appointment-date"
                 >When did you encounter this issue? <abbr title="required" class="usa-hint usa-hint--required">*</abbr></label
@@ -213,20 +215,21 @@ body:
   const textCount = document.querySelector("#with-hint-textarea");
   const textWrapper = document.querySelector("#character-count");
   const characterCounterElement = document.querySelector("#with-hint-textarea-info");
-  const typedCharactersElement = document.querySelector("#typed-characters");
-  const countRegion = document.querySelector("#count-region");
+  const typedCharactersElement = document.querySelector(".typed-characters");
+  const screenReaderElement = document.querySelector(".sr-characters");
 
+  // Show the characters remaining. The code for the aria live region to announce it to AT is in here too. 
   textCount.addEventListener("keyup", (event) => {
     let typedCharacters = textCount.value.length;
     typedCharactersElement.textContent = 250 - typedCharacters;
+    screenReaderElement.textContent = 250 - typedCharacters + " characters remaining";
 
-      if (typedCharacters >= 250) {
-      textWrapper.classList.add("error");
-      countRegion.textContent = "You have hit the maximum amount of characters allowed";
-      } else if (typedCharacters < 250 ) {
-        textWrapper.classList.remove("error");
-        countRegion.textContent = "";
-      }
+    if (typedCharacters >= 250) {
+    textWrapper.classList.add("error");
+    } else if (typedCharacters < 250 ) {
+      textWrapper.classList.remove("error");
+    }
+
   });
 
 
