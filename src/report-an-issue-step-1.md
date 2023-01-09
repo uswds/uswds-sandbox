@@ -32,7 +32,7 @@ body:
             <h2>Tell us about the issue</h2>
             <div class="usa-character-count" id="character-count">
               <div class="usa-form-group">
-                <label class="usa-label" for="with-hint-textarea">Description of problem <abbr title="required" class="usa-hint usa-hint--required">*</abbr></label>
+                <label class="usa-label" for="with-hint-textarea">Description of the accessibility issue you ran into <abbr title="required" class="usa-hint usa-hint--required">*</abbr></label>
                 <span id="with-hint-textarea-hint" class="usa-hint"
                   >Tell us about the problem.</span
                 >
@@ -54,7 +54,7 @@ body:
               </span>
             </div>
             <label class="usa-label" id="appointment-date-label" for="appointment-date"
-                >When did you encounter this issue? <abbr title="required" class="usa-hint usa-hint--required">*</abbr></label
+                >When did you encounter this accessibility issue? <abbr title="required" class="usa-hint usa-hint--required">*</abbr></label
               >
             <div class="usa-hint" id="dateHint">For example, 01/01/2001</div>
             <input
@@ -70,7 +70,7 @@ body:
               required
             />
             <fieldset class="usa-fieldset margin-bottom-5">
-              <legend class="usa-legend usa-legend">How severe was the issue?</legend>
+              <legend class="usa-legend usa-legend">How severe was the accessibility issue?</legend>
               <div class="usa-radio">
                 <input
                   class="usa-radio__input"
