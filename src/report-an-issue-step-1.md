@@ -4,6 +4,16 @@ title: Report an Accessibility Issue (step 1 of 2)
 body:
 ---
 
+<style>
+  .error #with-hint-textarea-info {
+    font-weight: bold; 
+    color: red;
+  }
+  .error textarea {
+    outline: 3px solid red; 
+  }
+</style>
+
 <main id="main-content">
   <div class="bg-base-lightest">
     <section class="grid-container usa-section">
@@ -20,14 +30,14 @@ body:
             </p>
             <form class="usa-form" id="infoForm" method="get" action="{{ '/report-an-issue-step-2' | url }}">
             <h2>Tell us about the issue</h2>
-            <div class="usa-character-count">
+            <div class="usa-character-count" id="character-count">
               <div class="usa-form-group">
                 <label class="usa-label" for="with-hint-textarea">Description of problem <abbr title="required" class="usa-hint usa-hint--required">*</abbr></label>
                 <span id="with-hint-textarea-hint" class="usa-hint"
                   >Tell us about the problem.</span
                 >
                 <textarea
-                  class="usa-textarea usa-character-count__field"
+                  class="usa-textarea margin-bottom-05"
                   id="with-hint-textarea"
                   maxlength="250"
                   name="with-hint-textarea"
@@ -37,8 +47,8 @@ body:
                 ></textarea>
               </div>
               <span id="with-hint-textarea-info" class="usa-character-count__message"
-                >You can enter up to 250 characters</span
-              >
+                ><span id="typed-characters">250</span> characters allowed</span>
+              <span id="count-region" class="usa-character-count__sr-status usa-sr-only" role="region" aria-live="polite"></span>
             </div>
             <div class="usa-form-group width-mobile margin-bottom-3">
               <label class="usa-label" id="appointment-date-label" for="appointment-date"
@@ -204,6 +214,28 @@ body:
 </main>
 
 <script type="application/javascript">
+
+  // Custom character counter 
+  const textCount = document.querySelector("#with-hint-textarea");
+  const textWrapper = document.querySelector("#character-count");
+  const characterCounterElement = document.querySelector("#with-hint-textarea-info");
+  const typedCharactersElement = document.querySelector("#typed-characters");
+  const countRegion = document.querySelector("#count-region");
+
+  textCount.addEventListener("keyup", (event) => {
+    let typedCharacters = textCount.value.length;
+    typedCharactersElement.textContent = 250 - typedCharacters;
+
+      if (typedCharacters >= 250) {
+      textWrapper.classList.add("error");
+      countRegion.textContent = "You have hit the maximum amount of characters allowed";
+      } else if (typedCharacters < 250 ) {
+        textWrapper.classList.remove("error");
+        countRegion.textContent = "";
+      }
+  });
+
+
   const submitButton = document.getElementById("save-info");
   submitButton.addEventListener("click", saveInfo);
 
