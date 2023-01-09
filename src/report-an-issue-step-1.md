@@ -18,7 +18,7 @@ body:
              <p>
               Required fields are marked with an asterisk (<abbr title="required" class="usa-hint usa-hint--required">*</abbr>).
             </p>
-            <form id="infoForm" method="get" action="{{ '/report-an-issue-step-2' | url }}">
+            <form class="usa-form" id="infoForm" method="get" action="{{ '/report-an-issue-step-2' | url }}">
             <h2>Tell us about the issue</h2>
             <div class="usa-character-count">
               <div class="usa-form-group">
