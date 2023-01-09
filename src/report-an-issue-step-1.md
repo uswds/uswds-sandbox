@@ -51,23 +51,22 @@ body:
               </span>
               <span id="count-region" class="usa-character-count__sr-status usa-sr-only" role="region" aria-live="polite"></span>
             </div>
-            <div class="usa-form-group width-mobile margin-bottom-3">
-              <label class="usa-label" id="appointment-date-label" for="appointment-date"
+            <label class="usa-label" id="appointment-date-label" for="appointment-date"
                 >When did you encounter this issue? <abbr title="required" class="usa-hint usa-hint--required">*</abbr></label
               >
-              <div class="usa-hint" id="appointment-date-hint">mm/dd/yyyy</div>
-              <div class="usa-date-picker">
-                <input
-                  class="usa-input"
-                  id="appointment-date"
-                  name="appointment-date"
-                  aria-labelledby="appointment-date-label"
-                  aria-describedby="appointment-date-hint"
-                  autocomplete="off"
-                  required
-                />
-              </div>
-            </div>
+            <div class="usa-hint" id="dateHint">For example, 01/01/2001</div>
+            <input
+              id="appointment-date"
+              name="appointment-date"
+              inputmode="numeric"
+              placeholder="mm/dd/yyyy"
+              pattern="/(0[1-9]|1[012])[- \/.](0[1-9]|[12][0-9]|3[01])[- \/.](19|20)\d\d/"
+              class="usa-input usa-masked margin-bottom-3 width-card-lg"
+              aria-describedby="dateHint"
+              aria-labelledby="appointment-date-label"
+              autocomplete="off"
+              required
+            />
             <fieldset class="usa-fieldset margin-bottom-5">
               <legend class="usa-legend usa-legend">How severe was the issue?</legend>
               <div class="usa-radio">
@@ -194,6 +193,7 @@ body:
                 pattern="\d{3}-\d{3}-\d{4}"
                 class="usa-input usa-masked"
                 aria-describedby="telHint"
+                autocomplete="off"
               />
               <label class="usa-label" for="additional-information">Additional information that will help us contact you</label>
               <div class="usa-hint" id="aiHint"> For example, “Please leave a message” or “I'm a TTY/TDD user"</div>
