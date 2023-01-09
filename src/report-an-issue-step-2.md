@@ -177,21 +177,21 @@ body:
 <script type="application/javascript">
 
   // Hide/show date content
-  document.addEventListener('DOMContentLoaded', function() {
-      document.querySelector('#not-interested').checked = false;
-  });
+  // document.addEventListener('DOMContentLoaded', function() {
+  //     document.querySelector('#not-interested').checked = false;
+  // });
 
-  document.querySelector('#not-interested').addEventListener('change', function() {
-      let section = document.querySelector('#upcoming-openings');
-      let confirmation = document.querySelector('#confirmation-link');
-      if(this.checked) {
-          section.style.display = 'none';
-          confirmation.style.display = 'inline-block';
-      } else {
-          section.style.display = 'block';
-          confirmation.style.display = 'none';
-      }
-  });
+  // document.querySelector('#not-interested').addEventListener('change', function() {
+  //     let section = document.querySelector('#upcoming-openings');
+  //     let confirmation = document.querySelector('#confirmation-link');
+  //     if(this.checked) {
+  //         section.style.display = 'none';
+  //         confirmation.style.display = 'inline-block';
+  //     } else {
+  //         section.style.display = 'block';
+  //         confirmation.style.display = 'none';
+  //     }
+  // });
   
   // Create faux tabs with select dropdown
   const tabs = document.querySelector('#tabs');
