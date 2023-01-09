@@ -27,5 +27,16 @@
     "@uswds/compile": "^1.0.0-beta.3",
     "npm-run-all": "^4.1.5",
     "snyk": "^1.1069.0"
-  }
+  },
+  "description": "An eleventy site for rapid web prototyping and testing new work with USWDS. This site is designed to run locally and on [Cloud.gov pages](https://pages.cloud.gov/).",
+  "version": "1.0.0",
+  "main": ".eleventy.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/uswds/uswds-sandbox.git"
+  },
+  "bugs": {
+    "url": "https://github.com/uswds/uswds-sandbox/issues"
+  },
+  "homepage": "https://github.com/uswds/uswds-sandbox#readme"
 }
