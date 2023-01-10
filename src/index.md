@@ -4,6 +4,13 @@ title: Zombie Defense Training Course Evaluation
 body:
 ---
 
+<style>
+  output {
+    font-size: 1.5rem;
+    margin-top: 0.5rem; 
+  }
+</style>
+
 <main id="main-content">
   <div class="bg-base-lightest">
     <section class="grid-container usa-section">
@@ -89,38 +96,46 @@ body:
                 <div class="usa-hint" id="courseHint">Please use the slider below to rate the quality of the course content.
                     A rating of 1 means the content was very low quality and 10 rating  means the content was very high quality.
                 </div>
-                <input
-                  id="course-range"
-                  class="usa-range"
-                  type="range"
-                  min="0"
-                  max="10"
-                  step="1"
-                  value="0"
-                  aria-valuemin="0"
-                  aria-valuemax="10"
-                  aria-valuenow="0"
-                  aria-describedby="courseHint"
-                  role="slider"
-                />
-                  <label class="usa-label" for="instructor-range">Instructor Rating</label>
+                <div class="display-flex flex-align-center">
+                  <input
+                    id="course-range"
+                    class="usa-range margin-right-2"
+                    type="range"
+                    min="0"
+                    max="10"
+                    step="1"
+                    value="0"
+                    aria-valuemin="0"
+                    aria-valuemax="10"
+                    aria-valuenow="0"
+                    aria-describedby="courseHint"
+                    role="slider"
+                    oninput="this.nextElementSibling.value = this.value"
+                  />
+                  <output role="region" aria-live="polite">0</output>
+                </div>
+                <label class="usa-label" for="instructor-range">Instructor Rating</label>
                 <div class="usa-hint" id="instHint">Please use the slider below to rate the quality of the instructor.
                     A rating of 1 means the instructor was of very low quality and 10 rating means the instructor was of very high quality.
                 </div>
-                <input
-                  id="instructor-range"
-                  class="usa-range"
-                  type="range"
-                  min="0"
-                  max="10"
-                  step="1"
-                  value="0"
-                  aria-valuemin="0"
-                  aria-valuemax="10"
-                  aria-valuenow="0"
-                  aria-describedby="instHint"
-                  role="slider"
-                />
+                <div class="display-flex flex-align-center">
+                  <input
+                    id="instructor-range"
+                    class="usa-range margin-right-2"
+                    type="range"
+                    min="0"
+                    max="10"
+                    step="1"
+                    value="0"
+                    aria-valuemin="0"
+                    aria-valuemax="10"
+                    aria-valuenow="0"
+                    aria-describedby="instHint"
+                    role="slider"
+                    oninput="this.nextElementSibling.value = this.value"
+                  />
+                  <output role="region" aria-live="polite">0</output>
+                </div>
               <button class="usa-button margin-y-4" id="save-info">Submit rating</a>
             </form>
           </div>

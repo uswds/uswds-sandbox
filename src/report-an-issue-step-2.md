@@ -18,7 +18,7 @@ body:
             <h2>Setup a technical support session</h2>
             <ul class="usa-list">
               <li>To help resolve your accessibility issue, we offer one-on-one technical support sessions with our team’s accessibility specialists.</li>
-              <li>Select a data and time for an open session and we’ll setup a meeting to talk about your issue in more detail.</li>
+              <li>Select a date and time for an open session and we’ll setup a meeting to talk about your issue in more detail.</li>
             </ul>
             <div class="usa-checkbox margin-top-5">
               <input class="usa-checkbox__input" id="not-interested" type="checkbox" name="not-interested"
@@ -32,14 +32,14 @@ body:
                   <label class="usa-label margin-top-0" for="tabs">Select a date</label>
                   <select class="usa-select usa-input--xl" id="tabs">
                     <option disabled>Select a date</option>
-                    <option value="Jan-16-2022">Jan 16, 2022</option>
-                    <option value="Jan-18-2022">Jan 18, 2022</option>
-                    <option value="Jan-19-2022">Jan 19, 2022</option>
-                    <option value="Jan-22-2022">Jan 22, 2022</option>
+                    <option value="Jan-16-2023">Jan 16, 2023</option>
+                    <option value="Jan-18-2023">Jan 18, 2023</option>
+                    <option value="Jan-19-2023">Jan 19, 2023</option>
+                    <option value="Jan-22-2023">Jan 22, 2023</option>
                   </select>
-                  <div id="Jan-16-2022" class="tab-content active">
+                  <div id="Jan-16-2023" class="tab-content active">
                       <fieldset class="usa-fieldset flex">
-                        <legend class="usa-legend">Pick a time for January 16th, 2022</legend>
+                        <legend class="usa-legend">Pick a time for January 16th, 2023</legend>
                         <div class="usa-radio">
                           <input class="usa-radio__input usa-radio__input--tile" id="time-1" type="radio" name="day-1-time" value="9:00am"/>
                           <label class="usa-radio__label" for="time-1">9:00am</label>
@@ -70,9 +70,9 @@ body:
                         </div>
                       </fieldset>
                   </div>
-                  <div id="Jan-18-2022" class="tab-content">
+                  <div id="Jan-18-2023" class="tab-content">
                     <fieldset class="usa-fieldset flex">
-                      <legend class="usa-legend">Pick a time for January 18th, 2022</legend>
+                      <legend class="usa-legend">Pick a time for January 18th, 2023</legend>
                       <div class="usa-radio">
                         <input class="usa-radio__input usa-radio__input--tile" id="time-11" type="radio" name="day-2-time" value="8:00am" />
                         <label class="usa-radio__label" for="time-11">8:00am</label>
@@ -111,9 +111,9 @@ body:
                       </div>
                     </fieldset>
                   </div>
-                  <div id="Jan-19-2022" class="tab-content">
+                  <div id="Jan-19-2023" class="tab-content">
                     <fieldset class="usa-fieldset flex">
-                      <legend class="usa-legend">Pick a time for January 19th, 2022</legend>
+                      <legend class="usa-legend">Pick a time for January 19th, 2023</legend>
                       <div class="usa-radio">
                         <input class="usa-radio__input usa-radio__input--tile" id="time-20" type="radio" name="day-3-time" value="1:30pm" />
                         <label class="usa-radio__label" for="time-20">1:30pm</label>
@@ -140,9 +140,9 @@ body:
                       </div>
                     </fieldset>
                   </div>
-                  <div id="Jan-22-2022" class="tab-content">
+                  <div id="Jan-22-2023" class="tab-content">
                     <fieldset class="usa-fieldset flex">
-                      <legend class="usa-legend">Pick a time for January 22nd, 2022</legend>
+                      <legend class="usa-legend">Pick a time for January 22nd, 2023</legend>
                       <div class="usa-radio">
                         <input class="usa-radio__input usa-radio__input--tile" id="time-30" type="radio" name="day-4-time" value="7:00am" />
                         <label class="usa-radio__label" for="time-30">7:00am</label>
