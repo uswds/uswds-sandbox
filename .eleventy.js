@@ -1,8 +1,9 @@
-const { EleventyHtmlBasePlugin } = require("@11ty/eleventy");
+// TODO: After Canary 19:
+// const { EleventyHtmlBasePlugin } = require("@11ty/eleventy");
 
 module.exports = function (eleventyConfig) {
-  eleventyConfig.addPlugin(EleventyHtmlBasePlugin);
-  eleventyConfig.addPassthroughCopy("src/assets");
+  // TODO: After Canary 19:
+  // eleventyConfig.addPlugin(EleventyHtmlBasePlugin);  eleventyConfig.addPassthroughCopy("src/assets");
 	eleventyConfig.setBrowserSyncConfig({
 		files: './_site/assets/css/**/*.css'
 	});
