@@ -1,5 +1,5 @@
 # USWDS Sandbox
-An eleventy site for rapid web prototyping and testing new work with USWDS. This site is designed to run locally and on [Cloud.gov pages](https://pages.cloud.gov/).
+An slinkity site (with React) for rapid web prototyping and testing new work with USWDS. This site is designed to run locally and on [Cloud.gov pages](https://pages.cloud.gov/).
 
 ## Requirements
 - Node v18 (LTS)
@@ -27,3 +27,7 @@ SASS files will be in the `/_styles` directory. Running `npm start` will also wa
 - `default`: A blank-slate sandbox page
 - `basic-prose`: A page with a banner, basic header, footer, identifier, and a prose container
 - `extended-prose`: A page with a banner, extended header, footer, identifier, and a prose container
+
+### Templating with React
+
+React components can be found in `_islands` directory. USWDS components must be loaded with `clientOnlyIsland` to ensure that the component is rendered completely on client-side. See `src/_islands/UsaBanner.jsx` for code reference.
