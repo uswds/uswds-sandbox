@@ -3,8 +3,17 @@
 {% include "head.html" %}
   <body class="{{ page.body }}">
     {% include "skipnav.html" %}
-    {% include "banner.html" %}
+    <!--
+      Dynamic components must live in their own unique directory.
+      https://slinkity.dev/docs/config/#islandsdir
+
+      We're using clientOnlyIsland instead of island because we need
+      window when initializing component. Using `island` will render on
+      server and won't recognize `window`.
+    -->
+    {% clientOnlyIsland "UsaBanner.jsx" %}{% endclientOnlyIsland %}
     {% include "header--extended.html" %}
+
     <main id="main-content">
       <div class="grid-container usa-prose padding-y-3">
         {% include "breadcrumb.html" %}
