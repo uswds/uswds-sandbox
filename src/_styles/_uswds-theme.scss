@@ -2,7 +2,30 @@
   $theme-show-compile-warnings: false,
   $theme-show-notifications: false,
   $theme-utility-breakpoints: (
-      "mobile": true,
-      "card": true,
-    )
+    "mobile": true,
+    "card": true,
+  ),
+
+  /*
+  ----------------------------------------------------------
+    THEME NAMESPACE
+  ----------------------------------------------------------
+
+  - This is the full map for $theme-namespace
+  - Test by removing/adding individual values and viewing how the demo page reacts
+  - When updating or enabling namespaces, you will need to update the namespace in the demo page to enable it
+  - Try removing the grid map, enabling utility namespace output, and changing the namespace to "util-"
+  - Grid will maintain default values, and there are current classes in the demo to update the background color using a utility class
+  */
+
+  $theme-namespace: (
+    "grid": (
+      namespace: "grid-",
+      output: true
+    ),
+    "utility": (
+      namespace: "util-",
+      output: true,
+    ),
+  )
 );
