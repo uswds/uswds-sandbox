@@ -11,6 +11,7 @@
     "start": "npm-run-all -p serve watch",
     "uswds:buildDist": "./build.sh",
     "uswds:buildSass": "gulp buildSass",
+    "uswds:compileIcons": "gulp compileIcons",
     "uswds:copyAssets": "gulp copyAssets",
     "uswds:copyFonts": "gulp copyFonts",
     "uswds:copyImages": "gulp copyImages",
