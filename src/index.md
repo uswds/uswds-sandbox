@@ -15,4 +15,7 @@ body:
   <p>
     <a class="usa-button" href="./pages/grid/index">Namespace</a>
   </p>
+  <p>
+    <a class="usa-button" href="./pages/utility-settings/index">Utility Settings</a>
+  </p>
 </div>
