@@ -20,7 +20,7 @@
     "test": "snyk test"
   },
   "dependencies": {
-    "@uswds/uswds": "^3.3.0"
+    "@uswds/uswds": "github:uswds/uswds#cm-theme-setting-maps"
   },
   "devDependencies": {
     "@11ty/eleventy": "^2.0.0",
