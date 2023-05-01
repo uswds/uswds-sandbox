@@ -24,8 +24,33 @@
       output: true
     ),
     "utility": (
-      namespace: "util-",
-      output: true,
+      namespace: "u-",
+      output: false,
     ),
+  ),
+
+  /*
+  ----------------------------------------------------------
+    UTILITY MODULE SETTINGS
+  ----------------------------------------------------------
+  - The default map for $background-color-settings is: 
+
+    $background-color-settings: (
+      output: true,
+      responsive: false,
+      active: false,
+      focus: false,
+      hover: true,
+      visited: false,
+    )
+  
+    - By setting responsive to true, you can change background 
+
+  */
+
+  $background-color-settings: (
+    responsive: true,
+    active: true,
+    focus: true
   )
 );

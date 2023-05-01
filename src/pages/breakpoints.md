@@ -6,6 +6,10 @@ body:
 
     <h3 class="site-preview-heading">Active breakpoints</h3>
 
+    Enable/disable breakpoints in `_uswds-theme.scss`
+
+    Undefined values should retain their default value instead of switching to false
+
     <div class="usa-alert usa-alert--info display-none card:display-block">
       <div class="usa-alert__body">
         <h4 class="usa-alert__heading">Card status</h4>
