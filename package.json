@@ -21,7 +21,7 @@
     "test": "snyk test"
   },
   "dependencies": {
-    "@uswds/uswds": "^3.4.1"
+    "@uswds/uswds": "github:uswds/uswds#cm-card-border-width-0"
   },
   "devDependencies": {
     "@11ty/eleventy": "^2.0.1",
