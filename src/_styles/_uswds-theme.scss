@@ -1,6 +1,10 @@
 @use "uswds-core" with (
   $theme-show-compile-warnings: false,
   $theme-show-notifications: false,
-  // $theme-font-type-sans: "public-sans",
-  // $theme-body-background-color: "ink",
+
+  // ↓↓↓ TEST VARIABLES ↓↓↓
+  // Only use one at a time
+  
+  $theme-card-border-width: 0
+  // $theme-card-border-width: "05"
 );
