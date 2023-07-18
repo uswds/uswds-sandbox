@@ -14,5 +14,6 @@
   <title>{% if page.title %}{{ page.title | escape }}{% else %}{{ site.title | escape }}{% endif %}</title>
   <link rel="stylesheet" href="{{ "/assets/css/styles.css" | url }}">
   <link rel="canonical" href="{{ page.url | replace:'index.html','' | url }}">
+  <script src="{{ '/assets/js/uswds-init.min.js' | url }}"></script>
   <link rel="preload" href="{{ '/assets/js/uswds.min.js' | url }}" as="script">
 </head>
