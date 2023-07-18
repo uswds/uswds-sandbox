@@ -1,1 +1,90 @@
 @use "uswds-core" as *;
+
+$header-bg-color: color("indigo-60");
+$header-bg-color-dark: color("indigo-80");
+$header-bg-color-light: color("indigo-20");
+
+.site-header {
+  background-color: $header-bg-color;
+  color: color("white");
+
+  //
+  // Logo
+  // ==========================================================================
+  .usa-logo a {
+    color: inherit;
+  }
+
+  // ==========================================================================
+  // Mobile navigation
+  // ==========================================================================
+
+  //
+  // Mobile menu button
+  // ==========================================================================
+  .usa-menu-btn {
+    background-color: $header-bg-color-dark;
+  }
+
+  //
+  // Mobile slideout menu
+  // ==========================================================================
+  .usa-nav {
+    background-color: $header-bg-color;
+    color: inherit;
+  }
+
+  // Accordion buttons in mobile.
+  .usa-nav__primary button:hover {
+    background-color: $header-bg-color-dark;
+  }
+
+  .usa-nav__primary button[aria-expanded="false"] span::after {
+    background-color: color("white");
+  }
+
+  .usa-nav__primary button[aria-expanded="true"] span::after {
+    background-color: color("white");
+  }
+
+  // All mobile nav links. Requires `!important` because of `:not()` selector.
+  .usa-nav__link,
+  .usa-nav__submenu-item a,
+  .usa-nav__secondary-links a {
+    color: color("white") !important;
+  }
+
+  //
+  // Desktop
+  // ==========================================================================
+  .site-header .usa-nav__primary button:hover {
+    background-color: $header-bg-color-dark;
+  }
+
+  // Current border color.
+  .usa-nav__primary-item > .usa-current::after,
+  .usa-nav__primary-item > .usa-nav__link:hover::after {
+    @include at-media("desktop") {
+      background-color: color("white");
+    }
+  }
+
+  .usa-nav__primary button:hover {
+    @include at-media("desktop") {
+      background-color: $header-bg-color-dark;
+    }
+  }
+
+  .usa-nav__submenu {
+    @include at-media("desktop") {
+      background-color: $header-bg-color-dark;
+    }
+  }
+
+  //
+  // Secondary links
+  // ==========================================================================
+  .usa-nav__secondary .usa-button {
+    background-color: $header-bg-color-light;
+  }
+}

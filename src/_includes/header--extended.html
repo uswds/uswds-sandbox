@@ -1,5 +1,5 @@
 <div class="usa-overlay"></div>
-<header class="usa-header usa-header--extended">
+<header class="site-header usa-header usa-header--extended">
   <div class="usa-navbar">
     <div class="usa-logo" id="extended-logo">
       <em class="usa-logo__text">
@@ -13,7 +13,8 @@
   <nav aria-label="Primary navigation" class="usa-nav">
     <div class="usa-nav__inner">
       <button class="usa-nav__close">
-        <img src="{{ '/assets/img/usa-icons/close.svg' | url }}" role="img" alt="Close" />
+        <!-- We need to update the close icon because it's set via img tag. -->
+        <img src="{{ '/assets/img/usa-icons-bg/close--white.svg' | url }}" role="img" alt="Close" />
       </button>
       <ul class="usa-nav__primary usa-accordion">
         {% for item in nav.primary %}
@@ -64,8 +65,9 @@
             name="search"
           />
           <button class="usa-button" type="submit">
+            <!-- We need to update the icon path because it's set via img tag. -->
             <img
-              src="{{ '/assets/img/usa-icons-bg/search--white.svg' | url }}"
+              src="{{ '/assets/img/usa-icons/search.svg' | url }}"
               class="usa-search__submit-icon"
               alt="Search"
             />
