@@ -5,7 +5,7 @@ body:
 ---
 
 <div class="padding-2">
-  <div class="usa-card tablet:grid-col-4 usa-card--header-first">
+  <div class="usa-card usa-card--header-first maxw-mobile-lg">
     <div class="usa-card__container">
       <div class="usa-card__header">
         <h2 class="usa-card__heading">Media with header first</h2>
