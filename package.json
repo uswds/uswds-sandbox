@@ -21,7 +21,7 @@
     "test": "snyk test"
   },
   "dependencies": {
-    "@uswds/uswds": "^3.5.0"
+    "@uswds/uswds": "github:uswds/uswds#cm-media-header-cutoff"
   },
   "devDependencies": {
     "@11ty/eleventy": "^2.0.1",
