@@ -21,7 +21,7 @@
     "test": "snyk test"
   },
   "dependencies": {
-    "@uswds/uswds": "3.6.0"
+    "@uswds/uswds": "github:uswds/uswds#al-storybook-modal-padding"
   },
   "devDependencies": {
     "@11ty/eleventy": "^2.0.1",
