@@ -144,7 +144,7 @@ body:
               </li>
               <li class="usa-nav__submenu-item">
                 <a href="./pages/page2"
-                  ><span>Nested page link</span></a
+                  ><span>Nested page lin</span></a
                 >
               </li>
             </ul>
