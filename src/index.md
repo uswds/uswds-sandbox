@@ -145,7 +145,7 @@ body:
             </ul>
           </li>
           <li class="usa-nav__primary-item">
-            <a href="{{ site.baseurl }}/pages/page2" class="usa-nav-link"
+            <a href="./pages/page2" class="usa-nav-link"
               ><span>Page link</span></a
             >
           </li>
