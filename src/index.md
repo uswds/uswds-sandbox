@@ -142,6 +142,11 @@ body:
                   ><span>Section heading (h4)</span></a
                 >
               </li>
+              <li class="usa-nav__submenu-item">
+                <a href="./pages/page2"
+                  ><span>Nested page link</span></a
+                >
+              </li>
             </ul>
           </li>
           <li class="usa-nav__primary-item">
