@@ -101,7 +101,6 @@ body:
       </div>
     </div>
   </section>
-  <div class="usa-overlay"></div>
   <header class="usa-header usa-header--basic">
     <div class="usa-nav-container">
       <div class="usa-navbar">
@@ -118,39 +117,7 @@ body:
         </button>
         <ul class="usa-nav__primary usa-accordion">
           <li class="usa-nav__primary-item">
-            <button
-              type="button"
-              class="usa-accordion__button usa-nav__link usa-current"
-              aria-expanded="false"
-              aria-controls="basic-nav-section-one"
-            >
-              <span>Accordion link</span>
-            </button>
-            <ul id="basic-nav-section-one" class="usa-nav__submenu">
-              <li class="usa-nav__submenu-item">
-                <a href="#section-heading-h2"
-                  ><span>Section heading (h2)</span></a
-                >
-              </li>
-              <li class="usa-nav__submenu-item">
-                <a href="#section-heading-h3"
-                  ><span>Section heading (h3)</span></a
-                >
-              </li>
-              <li class="usa-nav__submenu-item">
-                <a href="#section-heading-h4"
-                  ><span>Section heading (h4)</span></a
-                >
-              </li>
-              <li class="usa-nav__submenu-item">
-                <a href="./pages/page2"
-                  ><span>Nested page link</span></a
-                >
-              </li>
-            </ul>
-          </li>
-          <li class="usa-nav__primary-item">
-            <a href="./pages/page2" class="usa-nav-link"
+            <a href="../../" class="usa-nav-link"
               ><span>Page link</span></a
             >
           </li>
@@ -181,56 +148,92 @@ body:
       </nav>
     </div>
   </header>
-  <div class="usa-section">
-    <div class="grid-container">
-      <div class="grid-row grid-gap">
-        <main
-          class="
-            usa-layout-docs__main
-            desktop:grid-col-9
-            usa-prose usa-layout-docs
-          "
-          id="main-content"
-        >
-          <h1>Page heading (h1)</h1>
-          <p class="usa-intro">
-            The page heading communicates the main focus of the page. Make your
-            page heading descriptive and keep it succinct.
-          </p>
-          <h2 id="section-heading-h2">Section heading (h2)</h2>
-          <p>
-            These headings introduce, respectively, sections and subsections
-            within your body copy. As you create these headings, follow the same
-            guidelines that you use when writing section headings: Be succinct,
-            descriptive, and precise.
-          </p>
-          <h3 id="section-heading-h3">Subsection heading (h3)</h3>
-          <p>
-            The particulars of your body copy will be determined by the topic of
-            your page. Regardless of topic, it’s a good practice to follow the
-            inverted pyramid structure when writing copy: Begin with the
-            information that’s most important to your users and then present
-            information of less importance.
-          </p>
-          <p>
-            Keep each section and subsection focused — a good approach is to
-            include one theme (topic) per section.
-          </p>
-          <h4 id="section-heading-h4">Subsection heading (h4)</h4>
-          <p>
-            Use the side navigation menu to help your users quickly skip to
-            different sections of your page. The menu is best suited to
-            displaying a hierarchy with one to three levels and, as we
-            mentioned, to display the sub-navigation of a given page.
-          </p>
-          <p>
-            Read the full documentation on our side navigation on the component
-            page.
-          </p>
-        </main>
-      </div>
+  <div class="usa-overlay"></div>
+
+  <main id="main-content">
+    <div class="bg-base-lightest">
+      <section class="grid-container usa-section">
+        <div class="grid-row flex-justify-center">
+          <div class="grid-col-12 tablet:grid-col-8 desktop:grid-col-6">
+            <div
+              class="
+                bg-white
+                padding-y-3 padding-x-5
+                border border-base-lighter
+              "
+            >
+              <h1 class="margin-bottom-0">Sign in</h1>
+              <form class="usa-form">
+                <fieldset class="usa-fieldset">
+                  <legend class="usa-legend usa-legend--large">
+                    Access your account
+                  </legend>
+                  <label class="usa-label" for="email">Email address</label>
+                  <input
+                    class="usa-input"
+                    id="email"
+                    name="email"
+                    type="email"
+                    autocapitalize="off"
+                    autocorrect="off"
+                    required
+                  />
+                  <label class="usa-label" for="password-sign-in"
+                    >Password</label
+                  >
+                  <input
+                    class="usa-input"
+                    id="password-sign-in"
+                    name="password"
+                    type="password"
+                    required
+                  />
+                  <button
+                    title="Toggle password"
+                    type="button"
+                    class="usa-show-password"
+                    aria-controls="password-sign-in"
+                    data-show-text="Show password"
+                    data-hide-text="Hide password"
+                  >
+                    Show password
+                  </button>
+                  <input class="usa-button" type="submit" value="Sign in" />
+                  <p>
+                    <a href="javascript:void()" title="Forgot password"
+                      >Forgot password?</a
+                    >
+                  </p>
+                </fieldset>
+              </form>
+            </div>
+            <p class="text-center">
+              Don't have an account?
+              <a class="usa-link" href="javascript:void(0);"
+                >Create your account now</a
+              >.
+            </p>
+            <div
+              class="border-top border-base-lighter margin-top-3 padding-top-1"
+            >
+              <h2>Are you a federal employee?</h2>
+              <div class="usa-prose">
+                <p>
+                  If you are a federal employee or &lt;other secondary user&gt;,
+                  please use &lt;secondary Single Sign On (SSO)&gt;.
+                </p>
+                <p>
+                  <a class="usa-button usa-button--outline" href=""
+                    >Launch secondary SSO</a
+                  >
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
     </div>
-  </div>
+  </main>
   <footer class="usa-footer">
     <div class="grid-container usa-footer__return-to-top">
       <a href="#">Return to top</a>
