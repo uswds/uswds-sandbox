@@ -142,11 +142,6 @@ body:
                   ><span>Section heading (h4)</span></a
                 >
               </li>
-              <li class="usa-nav__submenu-item">
-                <a href="/"
-                  ><span>Link to prose page</span></a
-                >
-              </li>
             </ul>
           </li>
           <li class="usa-nav__primary-item">
@@ -184,40 +179,6 @@ body:
   <div class="usa-section">
     <div class="grid-container">
       <div class="grid-row grid-gap">
-        <div class="usa-layout-docs__sidenav desktop:grid-col-3">
-          <nav aria-label="Secondary navigation">
-            <ul class="usa-sidenav">
-              <li class="usa-sidenav__item"><a href="">Parent link</a></li>
-              <li class="usa-sidenav__item">
-                <a href="" class="usa-current">Current page</a>
-                <ul class="usa-sidenav__sublist">
-                  <li class="usa-sidenav__item"><a href="">Child link</a></li>
-                  <li class="usa-sidenav__item">
-                    <a href="" class="usa-current">Child link</a>
-                    <ul class="usa-sidenav__sublist">
-                      <li class="usa-sidenav__item">
-                        <a href="">Grandchild link</a>
-                      </li>
-                      <li class="usa-sidenav__item">
-                        <a href="">Grandchild link</a>
-                      </li>
-                      <li class="usa-sidenav__item">
-                        <a href="" class="usa-current">Grandchild link</a>
-                      </li>
-                      <li class="usa-sidenav__item">
-                        <a href="">Grandchild link</a>
-                      </li>
-                    </ul>
-                  </li>
-                  <li class="usa-sidenav__item"><a href="">Child link</a></li>
-                  <li class="usa-sidenav__item"><a href="">Child link</a></li>
-                  <li class="usa-sidenav__item"><a href="">Child link</a></li>
-                </ul>
-              </li>
-              <li class="usa-sidenav__item"><a href="">Parent link</a></li>
-            </ul>
-          </nav>
-        </div>
         <main
           class="
             usa-layout-docs__main
