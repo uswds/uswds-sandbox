@@ -117,7 +117,7 @@ body:
         </button>
         <ul class="usa-nav__primary usa-accordion">
           <li class="usa-nav__primary-item">
-            <a href="../../index" class="usa-nav-link"
+            <a href="../../" class="usa-nav-link"
               ><span>Page link</span></a
             >
           </li>
