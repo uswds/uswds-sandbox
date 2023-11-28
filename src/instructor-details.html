@@ -133,9 +133,9 @@ title: Instructor details - Zombie defense trainings
                 <label class="usa-checkbox__label" for="prefer-not-to-answer-race-ethnicity">Prefer not to share my race and ethnicity</label>
               </div>
             </fieldset>
-
-            <button onclick="location.href = '{{ baseURL }}/scheduling-details'" class="usa-button usa-button--outline margin-y-4">Go back to scheduling details</button>
-            <button onclick="location.href = '{{ baseURL }}/confirm-submission'" class="usa-button margin-y-4" type="submit">Next: Confirm submission</button>
+            
+            <button onclick="location.href = `{{ '/scheduling-details' | url }}`" class="usa-button usa-button--outline margin-y-4">Go back to scheduling details</button>
+            <button onclick="location.href = `{{ '/confirm-submission' | url }}`" class="usa-button margin-y-4" type="submit">Next: Confirm submission</button>
 
           </div>
         </div>
