@@ -7,10 +7,56 @@ title: Instructor details - Zombie defense trainings
   <div class="bg-base-lightest">
     <section class="grid-container usa-section">
       <div class="grid-row margin-x-neg-205 flex-justify-center">
-        <div class="grid-col-12 mobile-lg:grid-col-10 tablet:grid-col-8 desktop:grid-col-12 margin-bottom-4">
-          <h1 class="desktop:display-none font-sans-lg margin-bottom-4 tablet:margin-top-neg-3">Appointment scheduler</h1>
+        <div class="grid-col-12 mobile-lg:grid-col-10 desktop:grid-col-12 margin-bottom-4">
           <div class="bg-white padding-y-3 padding-x-5 border border-base-lighter">
-            <h1 class="margin-bottom-0">Step 3 of 4: Instructor details</h1>
+
+            <div
+              class="usa-step-indicator"
+              aria-label="progress"
+            >
+              <ol class="usa-step-indicator__segments">
+                <li
+                  class="usa-step-indicator__segment usa-step-indicator__segment--complete"
+                >
+                  <span class="usa-step-indicator__segment-label">
+                    Training Details<span class="usa-sr-only">completed</span>
+                  </span
+                  >
+                </li>
+                <li
+                  class="usa-step-indicator__segment usa-step-indicator__segment--complete"
+                >
+                  <span class="usa-step-indicator__segment-label"
+                    >Scheduling details<span class="usa-sr-only">completed</span></span
+                  >
+                </li>
+                <li
+                  class="usa-step-indicator__segment usa-step-indicator__segment--current"
+                  aria-current="true"
+                >
+                  <span class="usa-step-indicator__segment-label"
+                    >Instructor details</span
+                  >
+                </li>
+                <li class="usa-step-indicator__segment">
+                  <span class="usa-step-indicator__segment-label"
+                    >Confirm submission <span class="usa-sr-only">not completed</span></span
+                  >
+                </li>
+              </ol>
+              <div class="usa-step-indicator__header">
+                <h1 class="usa-step-indicator__heading">
+                  <span class="usa-step-indicator__heading-counter"
+                    ><span class="usa-sr-only">Step</span>
+                    <span class="usa-step-indicator__current-step">3</span>
+                    <span class="usa-step-indicator__total-steps">of 4</span> </span
+                  ><span class="usa-step-indicator__heading-text"
+                    >Instructor Details</span
+                  >
+                </h1>
+              </div>
+            </div>
+
             <p>
               Required fields are marked with an asterisk (<abbr title="required" class="usa-hint usa-hint--required">*</abbr>).
             </p>
@@ -87,10 +133,9 @@ title: Instructor details - Zombie defense trainings
                 <label class="usa-checkbox__label" for="prefer-not-to-answer-race-ethnicity">Prefer not to share my race and ethnicity</label>
               </div>
             </fieldset>
-
-            <a href="{{ '/scheduling-details' | url }}" class="usa-button usa-button--outline margin-y-4">Go back to scheduling details</a>
-            <!-- <button class="usa-button margin-y-4" type="" submit">Next: Time and date</button> -->
-            <a href="{{ '/confirm-submission' | url }}" class="usa-button margin-y-4">Next: Confirm submission</a>
+            
+            <button onclick="location.href = `{{ '/scheduling-details' | url }}`" class="usa-button usa-button--outline margin-y-4">Go back to scheduling details</button>
+            <button onclick="location.href = `{{ '/confirm-submission' | url }}`" class="usa-button margin-y-4" type="submit">Next: Confirm submission</button>
 
           </div>
         </div>
