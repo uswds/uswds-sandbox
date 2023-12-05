@@ -17,7 +17,7 @@ body:
     </div>
     <nav aria-label="Primary navigation" class="usa-nav">
       <button type="button" class="usa-nav__close">
-        <img src="/assets/img/usa-icons/close.svg" role="img" alt="Close" />
+        <img src="./assets/img/usa-icons/close.svg" role="img" alt="Close" />
       </button>
       <ul class="usa-nav__primary usa-accordion">
         <li class="usa-nav__primary-item">
@@ -96,7 +96,7 @@ body:
           />
           <button class="usa-button" type="submit">
             <img
-              src="/assets/img/usa-icons-bg/search--white.svg"
+              src="./assets/img/usa-icons-bg/search--white.svg"
               class="usa-search__submit-icon"
               alt="Search"
             />
@@ -122,7 +122,7 @@ body:
     </div>
     <nav aria-label="Primary navigation" class="usa-nav">
       <button type="button" class="usa-nav__close">
-        <img src="/assets/img/usa-icons/close.svg" role="img" alt="Close" />
+        <img src="./assets/img/usa-icons/close.svg" role="img" alt="Close" />
       </button>
       <ul class="usa-nav__primary usa-accordion">
         <li class="usa-nav__primary-item">
@@ -286,7 +286,7 @@ body:
           />
           <button class="usa-button" type="submit">
             <img
-              src="/assets/img/usa-icons-bg/search--white.svg"
+              src="./assets/img/usa-icons-bg/search--white.svg"
               class="usa-search__submit-icon"
               alt="Search"
             />
@@ -312,7 +312,7 @@ body:
   <nav aria-label="Primary navigation" class="usa-nav">
     <div class="usa-nav__inner">
       <button type="button" class="usa-nav__close">
-        <img src="/assets/img/usa-icons/close.svg" role="img" alt="Close" />
+        <img src="./assets/img/usa-icons/close.svg" role="img" alt="Close" />
       </button>
       <ul class="usa-nav__primary usa-accordion">
         <li class="usa-nav__primary-item">
@@ -393,7 +393,7 @@ body:
             />
             <button class="usa-button" type="submit">
               <img
-                src="/assets/img/usa-icons-bg/search--white.svg"
+                src="./assets/img/usa-icons-bg/search--white.svg"
                 class="usa-search__submit-icon"
                 alt="Search"
               />
@@ -420,7 +420,7 @@ body:
   <nav aria-label="Primary navigation" class="usa-nav">
     <div class="usa-nav__inner">
       <button type="button" class="usa-nav__close">
-        <img src="/assets/img/usa-icons/close.svg" role="img" alt="Close" />
+        <img src="./assets/img/usa-icons/close.svg" role="img" alt="Close" />
       </button>
       <ul class="usa-nav__primary usa-accordion">
         <li class="usa-nav__primary-item">
@@ -586,7 +586,7 @@ body:
             />
             <button class="usa-button" type="submit">
               <img
-                src="/assets/img/usa-icons-bg/search--white.svg"
+                src="./assets/img/usa-icons-bg/search--white.svg"
                 class="usa-search__submit-icon"
                 alt="Search"
               />
