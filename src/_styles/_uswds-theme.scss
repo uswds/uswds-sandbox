@@ -1,6 +1,7 @@
 @use "uswds-core" with (
   $theme-show-compile-warnings: false,
   $theme-show-notifications: false,
+  // $theme-layout-grid-use-important: true
   // $theme-font-type-sans: "public-sans",
   // $theme-body-background-color: "ink",
 );

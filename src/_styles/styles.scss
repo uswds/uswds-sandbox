@@ -1,3 +1,12 @@
 @forward "uswds-theme";
-@forward "uswds";
+
 @forward "uswds-theme-custom-styles";
+@forward "uswds-global";
+@forward "uswds-utilities";
+@forward "uswds-typography";
+
+@forward "usa-footer";
+
+// * Uncomment to resolve modified footer layout.
+@forward "usa-layout-grid";
+
