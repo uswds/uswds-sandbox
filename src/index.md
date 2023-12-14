@@ -5,7 +5,7 @@ body:
 ---
 
 <div class="padding-2">
-  <p class="font-sans-3xl margin-top-1 margin-bottom-0 text-light">Standard footer markup.</p>
+  <p class="font-sans-3xl margin-top-1 margin-bottom-0 text-light">mobile-lg breakpoint takes priority</p>
 </div>
 
 <footer class="usa-footer">
@@ -16,28 +16,28 @@ body:
     <nav class="usa-footer__nav" aria-label="Footer navigation">
       <ul class="grid-row grid-gap">
         <li
-          class="mobile-lg:grid-col-4 desktop:grid-col-auto usa-footer__primary-content"
+          class="mobile-lg:grid-col-4 desktop:grid-col-6 usa-footer__primary-content"
         >
           <a class="usa-footer__primary-link" href="javascript:void(0);"
             >&lt;Primary link&gt;</a
           >
         </li>
         <li
-          class="mobile-lg:grid-col-4 desktop:grid-col-auto usa-footer__primary-content"
+          class="mobile-lg:grid-col-4 desktop:grid-col-6 usa-footer__primary-content"
         >
           <a class="usa-footer__primary-link" href="javascript:void(0);"
             >&lt;Primary link&gt;</a
           >
         </li>
         <li
-          class="mobile-lg:grid-col-4 desktop:grid-col-auto usa-footer__primary-content"
+          class="mobile-lg:grid-col-4 desktop:grid-col-6 usa-footer__primary-content"
         >
           <a class="usa-footer__primary-link" href="javascript:void(0);"
             >&lt;Primary link&gt;</a
           >
         </li>
         <li
-          class="mobile-lg:grid-col-4 desktop:grid-col-auto usa-footer__primary-content"
+          class="mobile-lg:grid-col-4 desktop:grid-col-6 usa-footer__primary-content"
         >
           <a class="usa-footer__primary-link" href="javascript:void(0);"
             >&lt;Primary link&gt;</a
@@ -122,7 +122,7 @@ body:
 </footer>
 
 <div class="padding-2">
-  <p class="font-sans-3xl margin-top-1 margin-bottom-0 text-light">Modified column widths.</p>
+  <p class="font-sans-3xl margin-top-1 margin-bottom-0 text-light">[class=*"grid-col"] takes priority</p>
 </div>
 
 <footer class="usa-footer">
