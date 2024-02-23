@@ -1,0 +1,20 @@
+---
+---
+
+<!doctype html>
+<html lang="en">
+{% include "head.html" %}
+  <body class="{{ page.body }}">
+    {% include "skipnav.html" %}
+    {% include "banner.html" %}
+    {% include "site-alert.html" %}
+    {% include "header--nps.html" %}
+    <main id="main-content">
+      <div class="grid-container usa-prose padding-y-3">
+        {{ content }}
+      </div>
+    </main>
+    {% include "footer--nps.html" %}
+    <script src="{{ '/assets/js/uswds.min.js' | url }}"></script>
+  </body>
+</html>

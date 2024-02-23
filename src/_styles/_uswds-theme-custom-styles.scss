@@ -1,1 +1,9 @@
 @use "uswds-core" as *;
+
+.usa-fieldset {
+  margin-top: units(6);
+}
+
+*+.usa-site-alert .usa-alert {
+  margin-top: 0;
+}

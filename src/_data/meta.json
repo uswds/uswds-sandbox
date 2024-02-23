@@ -1,8 +1,8 @@
 {
   "project": {
-    "name": "Prototype Lab",
-    "agency": "Agency",
-    "agency_shortname": "Agency",
+    "name": "National Park Service",
+    "agency": "National Park Service",
+    "agency_shortname": "NPS",
     "domain": "agency.gov"
   }
 }
