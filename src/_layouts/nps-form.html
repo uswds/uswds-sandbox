@@ -22,15 +22,16 @@
     <!--end site alert-->
 
     <!--start simple header-->
-    <header class="usa-header usa-header--basic">
+    <header class="usa-header usa-header--basic bg-ink">
       <div class="usa-nav-container">
         <div class="usa-navbar">
-          <div class="usa-logo" id="basic-logo">
-            <em class="usa-logo__text">
-              <a href="javascript:void(0)" title="{{ meta.project.name }}">
-                {{ meta.project.name }}
-              </a>
-            </em>
+          <div class="usa-logo margin-top-2" id="basic-logo">
+            <a class="display-flex flex-align-center" href="javascript:void(0)" title="{{ meta.project.name }}">
+              <img class="width-4 margin-right-2" src="https://www.nps.gov/theme/assets/dist/images/branding/logo.png" alt="">
+              <em class="usa-logo__text text-white font-sans-md">
+                  {{ meta.project.name }}
+              </em>
+            </a>
           </div>
         </div>
       </div>
@@ -45,12 +46,9 @@
 
     <!--start simple footer-->
     <footer class="usa-footer usa-footer--big">
-      <div class="grid-container usa-footer__return-to-top">
-        <a href="#">Return to top</a>
-      </div>
       <div class="usa-footer__primary-section">
-        <div class="grid-container">
-          <h2>Contact Us</h2>
+        <div class="grid-container padding-bottom-2">
+          <h2 class="padding-top-2">Contact Us</h2>
           <ul class="usa-icon-list">
             <li class="usa-icon-list__item">
               <div class="usa-icon-list__icon">
@@ -59,7 +57,7 @@
                 </svg>
               </div>
               <div class="usa-icon-list__content">
-                Call us at 555-444-3333
+                Call us at <a class="usa-link" href="tel:5554443333">555-444-3333</a>
               </div>
             </li>
             <li class="usa-icon-list__item">
@@ -68,7 +66,7 @@
                   <use xlink:href="/assets/img/sprite.svg#mail_outline"></use>
                 </svg>
               </div>
-              <div class="usa-icon-list__content">Email us at purplestone@parks.gov</div>
+              <div class="usa-icon-list__content">Email us at <a class="usa-link" href="mailto:purplestone@parks.gov">purplestone@parks.gov</a></div>
             </li>
           </ul>
         </div>
@@ -77,5 +75,10 @@
     <!--start simple footer-->
 
     <script src="{{ '/assets/js/uswds.min.js' | url }}"></script>
+    <script>
+      function preventClick(e) {
+         e.preventDefault();
+      }
+    </script>
   </body>
 </html>

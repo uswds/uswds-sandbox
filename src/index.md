@@ -4,10 +4,12 @@ title: Same day reservations at Purplestone National Park
 body:
 ---
 
+# Same-day reservations at Purplestone National Park
+
 <form class="usa-form usa-form--large" onsubmit="return validateForm()">
   A red asterisk (<abbr title="required" class="usa-hint usa-hint--required">*</abbr>) indicates a required field.
 
-  You must be at least 18 years old to reserve an activity.
+  **You must be at least 18 years old to reserve an activity.**
 
   <!--start memorable date-->
   <fieldset class="usa-fieldset">
@@ -77,7 +79,8 @@ body:
   <!--start radio activities-->
   <fieldset class="usa-fieldset">
     <legend class="usa-legend">
-      Choose the activity you want to reserve*
+      Choose the activity you want to reserve:
+      <abbr title="required" class="usa-hint usa-hint--required">*</abbr>
     </legend>
     <div class="usa-radio">
       <input
@@ -136,8 +139,9 @@ body:
           name="activity"
           value="atv"
           aria-disabled="true"
+          onclick="preventClick(event);"
         />
-        <label class="usa-radio__label" for="atv-buffalo">
+        <label class="usa-radio__label" for="atv-buffalo" style="pointer-events: none;">
           Ride an ATV among the buffalo
         </label>
     </div>
@@ -148,6 +152,7 @@ body:
   <fieldset class="usa-fieldset">
     <label class="usa-label" id="appointment-time-label" for="appointment-time">
       Select a time to reserve your spot
+      <abbr title="required" class="usa-hint usa-hint--required">*</abbr>
     </label>
     <div class="usa-hint" id="appointment-time-hint">hh:mm</div>
     <div class="usa-time-picker">
@@ -164,6 +169,10 @@ body:
 
   <!--start code of conduct radio buttons-->
   <fieldset class="usa-fieldset">
+    <legend class="usa-legend">
+      I certify that I read, understand, and agree to the Purplestone National Park's <a href="">rules of conduct and environmental stewardship</a>.
+      <abbr title="required" class="usa-hint usa-hint--required">*</abbr>
+    </legend>
     <div class="usa-radio">
       <input class="usa-radio__input" id="agree" type="radio" name="conduct2" value="agree" required>
       <label class="usa-radio__label" for="agree">
@@ -180,6 +189,6 @@ body:
   <!--end code of conduct radio buttons-->
 
   <!--start submit button -->
-  <input type="submit" class="usa-button" value="Reserve my spot!">
+  <input type="submit" class="usa-button margin-top-4" value="Reserve my spot!">
   <!--end submit button -->
 </form>

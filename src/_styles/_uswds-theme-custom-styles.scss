@@ -1,7 +1,18 @@
 @use "uswds-core" as *;
 
-.usa-fieldset {
-  margin-top: units(6);
+.usa-fieldset,
+.usa-legend,
+.usa-form .usa-button {
+  margin-top: units(4);
+}
+
+.usa-label {
+  margin-top: 0;
+}
+
+.usa-legend {
+  @include u-font("sans", "md");
+  margin-bottom: units(1);
 }
 
 *+.usa-site-alert .usa-alert {
