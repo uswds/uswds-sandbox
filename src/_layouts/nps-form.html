@@ -7,14 +7,75 @@
   <body class="{{ page.body }}">
     {% include "skipnav.html" %}
     {% include "banner.html" %}
-    {% include "site-alert.html" %}
-    {% include "header--nps.html" %}
+
+    <!--start site alert-->
+    <section class="usa-site-alert usa-site-alert--info usa-site-alert--no-icon" aria-label="Site alert">
+      <div class="usa-alert margin-top-0">
+        <div class="usa-alert__body">
+          <p class="usa-alert__text text-bold">
+            Alert: Some parts of Purplestone are currently closed due to our buffalo herd's annual migration to the south.
+            <a href="">Link.</a>
+          </p>
+        </div>
+      </div>
+    </section>
+    <!--end site alert-->
+
+    <!--start simple header-->
+    <header class="usa-header usa-header--basic">
+      <div class="usa-nav-container">
+        <div class="usa-navbar">
+          <div class="usa-logo" id="basic-logo">
+            <em class="usa-logo__text">
+              <a href="javascript:void(0)" title="{{ meta.project.name }}">
+                {{ meta.project.name }}
+              </a>
+            </em>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!--end simple header-->
+
     <main id="main-content">
       <div class="grid-container usa-prose padding-y-3">
         {{ content }}
       </div>
     </main>
-    {% include "footer--nps.html" %}
+
+    <!--start simple footer-->
+    <footer class="usa-footer usa-footer--big">
+      <div class="grid-container usa-footer__return-to-top">
+        <a href="#">Return to top</a>
+      </div>
+      <div class="usa-footer__primary-section">
+        <div class="grid-container">
+          <h2>Contact Us</h2>
+          <ul class="usa-icon-list">
+            <li class="usa-icon-list__item">
+              <div class="usa-icon-list__icon">
+                <svg class="usa-icon" aria-hidden="true" role="img">
+                  <use xlink:href="/assets/img/sprite.svg#phone"></use>
+                </svg>
+              </div>
+              <div class="usa-icon-list__content">
+                Call us at 555-444-3333
+              </div>
+            </li>
+            <li class="usa-icon-list__item">
+              <div class="usa-icon-list__icon">
+                <svg class="usa-icon" aria-hidden="true" role="img">
+                  <use xlink:href="/assets/img/sprite.svg#mail_outline"></use>
+                </svg>
+              </div>
+              <div class="usa-icon-list__content">Email us at purplestone@parks.gov</div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+    <!--start simple footer-->
+
     <script src="{{ '/assets/js/uswds.min.js' | url }}"></script>
   </body>
 </html>
