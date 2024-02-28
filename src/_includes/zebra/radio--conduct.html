@@ -1,0 +1,43 @@
+<!--start code of conduct radio buttons-->
+<fieldset class="usa-fieldset">
+  <legend class="usa-legend">
+    I certify that I read, understand, and agree to the Purplestone National Park's <a href="">rules of conduct and environmental stewardship</a>.
+    <abbr title="required" class="usa-hint usa-hint--required">*</abbr>
+    <br/>
+    <span id="conduct-error-hint" class="text-error text-italic">
+      You must select "I agree" before you can submit this form.
+    </span>
+  </legend>
+  <div class="usa-radio">
+    <input class="usa-radio__input" id="agree" type="radio" name="conduct" value="agree" required onChange="checkConduct()">
+    <label class="usa-radio__label" for="agree">
+      I agree
+
+    </label>
+  </div>
+  <div class="usa-radio">
+    <input class="usa-radio__input" id="disagree" type="radio" name="conduct" value="disagree" required onChange="checkConduct()">
+    <label class="usa-radio__label" for="disagree">
+      I DO NOT agree (you will not be able to reserve if so)
+    </label>
+  </div>
+
+
+</fieldset>
+<!--end code of conduct radio buttons-->
+
+<script>
+  function checkConduct() {
+    const conductSelection = document.querySelector('input[name = "conduct"]:checked');
+    const hintText = document.getElementById('conduct-error-hint');
+    const submitButton = document.getElementById("submitbutton");
+
+    if (conductSelection.value == "agree") {
+      submitButton.disabled = false;
+      hintText.hidden = true;
+    } else {
+      submitButton.disabled = "disabled";
+      hintText.hidden = false;
+    }
+  }
+  </script>

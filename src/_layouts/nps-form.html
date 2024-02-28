@@ -7,36 +7,8 @@
   <body class="{{ page.body }}">
     {% include "skipnav.html" %}
     {% include "banner.html" %}
-
-    <!--start site alert-->
-    <section class="usa-site-alert usa-site-alert--info usa-site-alert--no-icon" aria-label="Site alert">
-      <div class="usa-alert margin-top-0">
-        <div class="usa-alert__body">
-          <p class="usa-alert__text text-bold">
-            Alert: Some parts of Purplestone are currently closed due to our buffalo herd's annual migration to the south.
-            <a href="">Link.</a>
-          </p>
-        </div>
-      </div>
-    </section>
-    <!--end site alert-->
-
-    <!--start simple header-->
-    <header class="usa-header usa-header--basic bg-ink">
-      <div class="usa-nav-container">
-        <div class="usa-navbar">
-          <div class="usa-logo margin-top-2" id="basic-logo">
-            <a class="display-flex flex-align-center" href="javascript:void(0)" title="{{ meta.project.name }}">
-              <img class="width-4 margin-right-2" src="https://www.nps.gov/theme/assets/dist/images/branding/logo.png" alt="">
-              <em class="usa-logo__text text-white font-sans-md">
-                  {{ meta.project.name }}
-              </em>
-            </a>
-          </div>
-        </div>
-      </div>
-    </header>
-    <!--end simple header-->
+    {% include "zebra/site-alert.html" %}
+    {% include "zebra/header.html" %}
 
     <main id="main-content">
       <div class="grid-container usa-prose padding-y-3">
@@ -44,41 +16,8 @@
       </div>
     </main>
 
-    <!--start simple footer-->
-    <footer class="usa-footer usa-footer--big">
-      <div class="usa-footer__primary-section">
-        <div class="grid-container padding-bottom-2">
-          <h2 class="padding-top-2">Contact Us</h2>
-          <ul class="usa-icon-list">
-            <li class="usa-icon-list__item">
-              <div class="usa-icon-list__icon">
-                <svg class="usa-icon" aria-hidden="true" role="img">
-                  <use xlink:href="/assets/img/sprite.svg#phone"></use>
-                </svg>
-              </div>
-              <div class="usa-icon-list__content">
-                Call us at <a class="usa-link" href="tel:5554443333">555-444-3333</a>
-              </div>
-            </li>
-            <li class="usa-icon-list__item">
-              <div class="usa-icon-list__icon">
-                <svg class="usa-icon" aria-hidden="true" role="img">
-                  <use xlink:href="/assets/img/sprite.svg#mail_outline"></use>
-                </svg>
-              </div>
-              <div class="usa-icon-list__content">Email us at <a class="usa-link" href="mailto:purplestone@parks.gov">purplestone@parks.gov</a></div>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </footer>
-    <!--start simple footer-->
+    {% include "zebra/footer.html" %}
 
     <script src="{{ '/assets/js/uswds.min.js' | url }}"></script>
-    <script>
-      function preventClick(e) {
-         e.preventDefault();
-      }
-    </script>
   </body>
 </html>
