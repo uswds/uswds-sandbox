@@ -7,7 +7,11 @@
   <body class="{{ page.body }}">
     {% include "skipnav.html" %}
     {% include "banner.html" %}
-    {% include "zebra/site-alert.html" %}
+    {%  if alert_type == "status" %}
+      {% include "zebra/site-alert.html" %}
+      {% elsif alert_type =="emergency" %}
+      {% include "zebra/site-alert--emergency.html" %}
+    {% endif %}
     {% include "zebra/header.html" %}
 
     <main id="main-content">

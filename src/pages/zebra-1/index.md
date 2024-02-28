@@ -1,5 +1,6 @@
 ---
 layout: nps-form
+alert_type: status
 ---
 
 # {{ zebra.title }}

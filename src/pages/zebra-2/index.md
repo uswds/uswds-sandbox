@@ -1,5 +1,7 @@
 ---
 layout: nps-form
+alert_type: emergency
+
 ---
 
 # {{ zebra.title }}
