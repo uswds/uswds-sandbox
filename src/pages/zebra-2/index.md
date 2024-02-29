@@ -1,13 +1,7 @@
 ---
 layout: nps-form
 alert_type: emergency
-
+alert_after_banner: false
 ---
 
-# {{ zebra.title }}
-
-<form class="usa-form usa-form--large">
-  {% include "zebra/intro.html" %}
-  {% include "zebra/memorable-date--text.html" %}
-  {% include "zebra/form-bottom.html" %}
-</form>
+{% include "zebra/memorable-date--text.html" %}
