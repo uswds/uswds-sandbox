@@ -6,19 +6,20 @@
 {% include "head.html" %}
   <body class="{{ page.body }}">
     {% include "skipnav.html" %}
+
+    {% if alert_before_banner == true and alert_type =="emergency" %}
+      {% include "zebra/site-alert--emergency.html" %}
+    {% endif %}
+
     {% include "banner.html" %}
 
     {%  if alert_type == "status" %}
       {% include "zebra/site-alert.html" %}
-      {% elsif alert_type =="emergency" and alert_after_banner == false %}
+      {% elsif alert_type =="emergency" and alert_before_banner == false %}
       {% include "zebra/site-alert--emergency.html" %}
     {% endif %}
 
     {% include "zebra/header.html" %}
-
-    {% if alert_after_banner == true %}
-    {% include "zebra/site-alert--emergency.html" %}
-    {% endif %}
 
     <main id="main-content">
       <div class="grid-container usa-prose padding-y-3">

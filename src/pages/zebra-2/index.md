@@ -1,7 +1,7 @@
 ---
-layout: nps-form
+layout: zebra
 alert_type: emergency
-alert_after_banner: false
+alert_before_banner: false
 ---
 
 {% include "zebra/memorable-date--text.html" %}

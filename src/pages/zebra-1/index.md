@@ -1,7 +1,7 @@
 ---
-layout: nps-form
+layout: zebra
 alert_type: status
-alert_after_banner: false
+alert_before_banner: false
 ---
 
 {% include "memorable-date.html" %}
