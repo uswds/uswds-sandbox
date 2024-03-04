@@ -33,8 +33,10 @@
 
     if (conductSelection.value == "agree") {
       submitButton.disabled = false;
+      hintText.classList.remove("text-error");
     } else {
       submitButton.disabled = "disabled";
+      hintText.classList.add("text-error");
     }
   }
   </script>
