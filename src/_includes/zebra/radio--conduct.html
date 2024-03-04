@@ -10,9 +10,6 @@
     <input class="usa-radio__input" id="agree" type="radio" name="conduct" value="agree" required onChange="checkConduct()">
     <label class="usa-radio__label" for="agree">
       I agree
-      <span id="conduct-error-hint" class="text-error text-italic">
-        You must select "I agree" before you can submit this form.
-      </span>
     </label>
   </div>
   <div class="usa-radio">
@@ -21,10 +18,12 @@
       I DO NOT agree (you will not be able to reserve if so)
     </label>
   </div>
-
-
 </fieldset>
 <!--end code of conduct radio buttons-->
+
+<p id="conduct-error-hint" class="text-italic">
+  You must select "I agree" before you can submit this form.
+</p>
 
 <script>
   function checkConduct() {
@@ -34,10 +33,8 @@
 
     if (conductSelection.value == "agree") {
       submitButton.disabled = false;
-      hintText.hidden = true;
     } else {
       submitButton.disabled = "disabled";
-      hintText.hidden = false;
     }
   }
   </script>
