@@ -5,12 +5,16 @@
     <abbr title="required" class="usa-hint usa-hint--required">*</abbr>
   </label>
   <div class="usa-hint" id="appointment-time-hint">hh:mm</div>
-  <div class="usa-time-picker">
+  <div class="usa-time-picker"
+    data-min-time="09:00"
+    data-max-time="19:00"
+  >
     <input
       class="usa-input"
       id="appointment-time"
       name="appointment-time"
       aria-describedby="appointment-time-label appointment-time-hint"
+
       required
     />
   </div>
