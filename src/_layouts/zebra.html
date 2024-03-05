@@ -4,7 +4,7 @@
 <!doctype html>
 <html lang="en">
 {% include "head.html" %}
-  <body class="{{ page.body }}">
+  <body class="height-full">
     {% include "skipnav.html" %}
 
     {% if alert_before_banner == true and alert_type =="emergency" %}
@@ -13,7 +13,7 @@
 
     {% include "banner.html" %}
 
-    {%  if alert_type == "status" %}
+    {% if alert_type == "status" %}
       {% include "zebra/site-alert.html" %}
       {% elsif alert_type =="emergency" and alert_before_banner == false %}
       {% include "zebra/site-alert--emergency.html" %}
@@ -23,11 +23,16 @@
 
     <main id="main-content">
       <div class="grid-container usa-prose padding-y-3">
+        {% if form %}
         <h1>{{ zebra.title }}</h1>
+
         <form class="usa-form usa-form--large">
           {% include "zebra/intro.html" %}
+        {% endif %}
           {{ content }}
+        {% if form %}
           {% include "zebra/form-bottom.html" %}
+        {% endif %}
         </form>
       </div>
     </main>
