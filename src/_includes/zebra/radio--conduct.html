@@ -6,7 +6,7 @@
 
 <!--start code of conduct radio buttons-->
 <fieldset class="usa-fieldset">
-  <legend class="usa-legend" aria-describedby="conduct-error-hint">
+  <legend class="usa-legend">
     I certify that I read, understand, and agree to the Purplestone National Park's <a href="http://designsystem.digital.gov">rules of conduct and environmental stewardship</a>.
     <abbr title="required" class="usa-hint usa-hint--required">*</abbr>
   </legend>
@@ -22,13 +22,11 @@
       I DO NOT agree (you will not be able to reserve if so)
     </label>
   </div>
+  <p id="conduct-error-hint" class="text-italic margin-bottom-0 height-3" role="alert">
+    You must select "I agree" before you can submit this form.
+  </p>
 </fieldset>
 <!--end code of conduct radio buttons-->
-
-<p id="conduct-error-hint" class="text-italic margin-bottom-0 height-3" role="alert">
-  You must select "I agree" before you can submit this form.
-</p>
-
 
 <script>
   function checkConduct() {
@@ -41,10 +39,10 @@
     if (conductSelection.value == "agree") {
       submitButton.disabled = false;
       hintElement.innerHTML = ``;
-
     } else {
       submitButton.disabled = "disabled";
       hintElement.innerHTML = `${hintText}`;
+      hintElement.classList.add("text-error");
     }
   }
   </script>
