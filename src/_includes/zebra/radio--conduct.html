@@ -1,48 +1,67 @@
 <!--
-  TODO
-  - Remove utility classes
-  - Remove hintIcon if no longer needed
+  Variation from default:
+  - Different content
+  - Added "onChange" function
+  - Added required attribute and legend text
+
+  Likely not reusable
 -->
 
 <!--start code of conduct radio buttons-->
 <fieldset class="usa-fieldset">
   <legend class="usa-legend">
-    I certify that I read, understand, and agree to the Purplestone National Park's <a href="http://designsystem.digital.gov">rules of conduct and environmental stewardship</a>.
+    I certify that I read, understand, and agree to the Purplestone National Park's <a
+      href="http://designsystem.digital.gov">rules of conduct and environmental stewardship</a>.
     <abbr title="required" class="usa-hint usa-hint--required">*</abbr>
   </legend>
   <div class="usa-radio">
-    <input class="usa-radio__input" id="agree" type="radio" name="conduct" value="agree" required onChange="checkConduct()">
+    <input
+      class="usa-radio__input"
+      id="agree"
+      type="radio"
+      name="conduct"
+      value="agree"
+      required
+      onChange="checkConductSelection()"
+    />
     <label class="usa-radio__label" for="agree">
       I agree
     </label>
   </div>
   <div class="usa-radio">
-    <input class="usa-radio__input" id="disagree" type="radio" name="conduct" value="disagree" required onChange="checkConduct()">
-    <label class="usa-radio__label" for="disagree" >
+    <input
+      class="usa-radio__input"
+      id="disagree"
+      type="radio"
+      name="conduct"
+      value="disagree"
+      required
+      onChange="checkConductSelection()"
+    />
+    <label class="usa-radio__label" for="disagree">
       I DO NOT agree (you will not be able to reserve if so)
     </label>
   </div>
-  <p id="conduct-error-hint" class="text-italic margin-bottom-0 height-3" role="alert">
+  <p id="conduct-error-hint" class="text-italic margin-bottom-0" role="alert">
     You must select "I agree" before you can submit this form.
   </p>
 </fieldset>
 <!--end code of conduct radio buttons-->
 
 <script>
-  function checkConduct() {
+  function checkConductSelection() {
     const conductSelection = document.querySelector('input[name = "conduct"]:checked');
-    const hintElement = document.getElementById('conduct-error-hint');
     const submitButton = document.getElementById("submitbutton");
+    const hintElement = document.getElementById('conduct-error-hint');
     const hintText = 'You must select "I agree" before you can submit this form.'
-    const hintIcon = '<svg class="usa-icon width-3" aria-hidden="true" focusable="false" role="img"><use xlink:href="/assets/img/sprite.svg#priority_high"></use></svg>';
 
     if (conductSelection.value == "agree") {
       submitButton.disabled = false;
-      hintElement.innerHTML = ``;
+      hintElement.innerHTML = '';
     } else {
       submitButton.disabled = "disabled";
       hintElement.innerHTML = `${hintText}`;
       hintElement.classList.add("text-error");
     }
   }
-  </script>
+</script>
