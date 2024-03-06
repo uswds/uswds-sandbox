@@ -1,8 +1,8 @@
 {
   "project": {
-    "name": "National Park Service",
-    "agency": "National Park Service",
-    "agency_shortname": "NPS",
+    "name": "U.S. National Parks",
+    "agency": "U.S. National Parks",
+    "agency_shortname": "USNP",
     "domain": "agency.gov"
   }
 }
