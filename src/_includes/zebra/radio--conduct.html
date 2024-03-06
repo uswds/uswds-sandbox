@@ -54,7 +54,7 @@
     const submitButton = document.getElementById("submitbutton");
     const hintElement = document.getElementById('conduct-error-hint');
     const hintText = 'You must select "I agree" before you can submit this form.'
-    const hintIcon = '<svg class="usa-icon square-3" aria-hidden="true" focusable="false" role="img"><use xlink:href="/assets/img/sprite.svg#priority_high"></use></svg>';
+    const hintIcon = `<svg class="usa-icon square-3" aria-hidden="true" focusable="false" role="img"><use xlink:href="{{ '/assets/img/sprite.svg#priority_high' | url}}"></use></svg>`;
 
     if (conductSelection.value == "agree") {
       submitButton.disabled = false;
