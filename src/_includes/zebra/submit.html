@@ -1,9 +1,3 @@
-<script>
-  function openConfirmationPage () {
-    window.open('https://federalist-d5e7c07c-6ffa-4b8e-935f-49a7df24a505.sites.pages.cloud.gov/preview/uswds/uswds-sandbox/al-zebra-prototype/pages/zebra-confirmation')
-  }
-</script>
 <!--start submit button -->
-<input type="submit" class="usa-button" id="submitbutton" value="Reserve my spot!" disabled onclick="openConfirmationPage()">
+<input type="submit" class="usa-button" id="submitbutton" value="Reserve my spot!" disabled formaction="{{ '/pages/zebra-confirmation/' | url }}">
 <!--end submit button -->
-
