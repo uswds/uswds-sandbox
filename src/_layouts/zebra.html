@@ -15,7 +15,7 @@
 
     {% if alert_type == "status" %}
       {% include "zebra/site-alert.html" %}
-      {% elsif alert_type =="emergency" and alert_before_banner == false %}
+    {% elsif alert_type =="emergency" and alert_before_banner == false %}
       {% include "zebra/site-alert--emergency.html" %}
     {% endif %}
 
