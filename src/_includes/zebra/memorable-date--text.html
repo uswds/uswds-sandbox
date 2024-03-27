@@ -13,10 +13,12 @@
   <span class="usa-hint" id="mdHint">Please enter 2 digits for the month and day and 4 digits for the year</span>
   <div class="usa-memorable-date display-flex">
     <div class="usa-form-group usa-form-group--month">
-      <label class="usa-label" for="date_of_birth_month">Month</label>
+      <label class="usa-label" for="date_of_birth_month">
+        Month
+        <span class="usa-sr-only">Enter two digits</span>
+      </label>
       <input
         class="usa-input"
-        aria-describedby="mdHint"
         id="date_of_birth_month"
         name="date_of_birth_month"
         minlength="2"
@@ -25,14 +27,15 @@
         inputmode="numeric"
         value=""
         required
-        placeholder="MM"
       />
     </div>
     <div class="usa-form-group usa-form-group--day">
-      <label class="usa-label" for="date_of_birth_day">Day</label>
+      <label class="usa-label" for="date_of_birth_day">
+        Day
+        <span class="usa-sr-only">Enter two digits</span>
+      </label>
       <input
         class="usa-input"
-        aria-describedby="mdHint"
         id="date_of_birth_day"
         name="date_of_birth_day"
         minlength="2"
@@ -41,14 +44,15 @@
         inputmode="numeric"
         value=""
         required
-        placeholder="DD"
       />
     </div>
     <div class="usa-form-group usa-form-group--year">
-      <label class="usa-label" for="date_of_birth_year">Year</label>
+      <label class="usa-label" for="date_of_birth_year">
+        Year
+        <span class="usa-sr-only">Enter four digits</span>
+      </label>
       <input
         class="usa-input"
-        aria-describedby="mdHint"
         id="date_of_birth_year"
         name="date_of_birth_year"
         minlength="4"
@@ -57,7 +61,6 @@
         inputmode="numeric"
         value=""
         required
-        placeholder="YYYY"
       />
     </div>
   </div>
