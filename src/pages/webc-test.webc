@@ -20,7 +20,14 @@ components: "../_components/usa-link.webc"
 <body>
   <h1>WebC/Web Components Test</h1>
 
+  <p>Ok! Here's a WebC-flavored web component version of a <code>usa-link</code>:</p>
   <usa-link href="https://designsystem.digital.gov">I'm a link</usa-link>
+  <p>It's rendered as HTML at build time.</p>
+
+  <p>For comparison, here's a third party web component that's loaded as a script and runs as client side js (It's <a
+      href="https://github.com/zachleat/details-utils"><code>details-utils</code></a>, which wraps a vanilla
+    <code>details</code> element and gives it super powers)
+  </p>
 
   <details-utils close-esc>
     <details>
@@ -28,6 +35,9 @@ components: "../_components/usa-link.webc"
       Something small enough to escape casual notice.
     </details>
   </details-utils>
+
+  <p>Then finally, here are a couple of third-party components that are loaded from a CDN (ripped right from <a
+      href="https://codepen.io/mejiaj/pen/PogVBJY">James's Pen</a>)</p>
 
   <va-link href="https://designsystem.digital.gov" text="Visit USWDS"></va-link>
 
