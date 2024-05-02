@@ -21,7 +21,8 @@
     "test": "snyk test"
   },
   "dependencies": {
-    "@uswds/uswds": "3.8.0"
+    "@uswds/uswds": "3.8.0",
+    "@zachleat/details-utils": "^2.0.2"
   },
   "devDependencies": {
     "@11ty/eleventy": "^2.0.1",

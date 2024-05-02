@@ -8,6 +8,10 @@ module.exports = function (eleventyConfig) {
   // eleventyConfig.addPlugin(EleventyHtmlBasePlugin);
   eleventyConfig.addPlugin(pluginWebc);
   eleventyConfig.addPassthroughCopy("src/assets");
+  eleventyConfig.addPassthroughCopy({
+    "./node_modules/@zachleat/details-utils/details-utils.js":
+      "assets/js/details-utils.js",
+  });
   eleventyConfig.setBrowserSyncConfig({
     files: "./_site/assets/css/**/*.css",
   });
