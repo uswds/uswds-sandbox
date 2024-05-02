@@ -6,7 +6,12 @@ const pluginWebc = require("@11ty/eleventy-plugin-webc");
 module.exports = function (eleventyConfig) {
   // TODO: After Canary 19:
   // eleventyConfig.addPlugin(EleventyHtmlBasePlugin);
-  eleventyConfig.addPlugin(pluginWebc);
+  // eleventyConfig.addPlugin(pluginWebc, {
+  //   components: ["./src/components/**/*.webc", "./src/pages/**/*.webc"],
+  // });
+  eleventyConfig.addPlugin(pluginWebc, {
+    components: "src/_components/**/*.webc",
+  });
   eleventyConfig.addPassthroughCopy("src/assets");
   eleventyConfig.addPassthroughCopy({
     "./node_modules/@zachleat/details-utils/details-utils.js":

@@ -1,0 +1,48 @@
+<style webc:scoped>
+  :host {
+    --theme-link-color: #005ea2;
+    --theme-link-visited-color: #54278f;
+    --theme-link-hover-color: #1a4480;
+    --theme-link-active-color: #162e51;
+    --theme-focus-color: #2491ff;
+    --theme-focus-style: solid;
+    --theme-focus-width: .25rem;
+    --theme-focus-offset: 0;
+
+
+    a {
+      color: var(--theme-link-color);
+      text-decoration: underline;
+    }
+    a:visited {
+      color: var(--theme-link-visited-color);
+    }
+
+    a:hover {
+      color: var(--theme-link-hover-color);
+    }
+
+    a:active {
+      color: var(--theme-link-active-color);
+    }
+
+    a:focus {
+      /* @include focus-outline; */
+      outline: var(--theme-focus-width) var(--theme-focus-style) var(--theme-focus-color);
+      outline-offset: var(--theme-focus-offset);
+    }
+  }
+</style>
+
+<a :href="href">
+  <slot></slot>
+</a>
+
+<script>
+  window.customElements.define("usa-link", class extends HTMLElement {
+    connectedCallback() {
+      let tmpl = this.querySelector("template");
+      tmpl.replaceWith(tmpl.content);
+    }
+  })
+</script>

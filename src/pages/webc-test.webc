@@ -1,3 +1,7 @@
+---
+webc:
+components: "../_components/usa-link.webc"
+---
 <!DOCTYPE html>
 <html lang="en">
 
@@ -10,10 +14,13 @@
     import {defineCustomElements} from "https://unpkg.com/@department-of-veterans-affairs/web-components/dist/esm/loader.js";
     defineCustomElements();
   </script>
+  <style @raw="getBundle('css')" webc:keep></style>
 </head>
 
 <body>
   <h1>WebC/Web Components Test</h1>
+
+  <usa-link href="https://designsystem.digital.gov">I'm a link</usa-link>
 
   <details-utils close-esc>
     <details>
@@ -47,6 +54,7 @@
     </va-accordion-item>
 
   </va-accordion>
+
 </body>
 
 </html>
