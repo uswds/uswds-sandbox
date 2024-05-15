@@ -21,7 +21,7 @@
     "test": "snyk test"
   },
   "dependencies": {
-    "@uswds/uswds": "3.8.0"
+    "@uswds/uswds": "github:uswds/uswds#cm-footer-restore-grid-dep"
   },
   "devDependencies": {
     "@11ty/eleventy": "^2.0.1",
