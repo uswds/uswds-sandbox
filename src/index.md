@@ -9,10 +9,10 @@ body:
   <p class="font-sans-3xl margin-top-1 text-light">It’s the new Sandbox, running on 11ty.</p>
 
   <svg class="usa-icon" aria-hidden="true" focusable="false" role="img">
-    <use xlink:href="/assets/img/sprite.svg#add"></use>
+    <use xlink:href="{{ '/assets/img/sprite.svg#add' | url }}"></use>
   </svg>
 
   <svg class="usa-icon" aria-hidden="true" focusable="false" role="img">
-    <use xlink:href="/assets/img/sprite.svg#account_balance"></use>
+    <use xlink:href="{{ '/assets/img/sprite.svg#account_balance' | url }}"></use>
   </svg>
 </div>
