@@ -31,10 +31,10 @@
     "postcss": "^8.2.3",
     "postcss-csso": "^5.0.0",
     "sass": "^1.32.2",
-    "uswds": "^2.10.0",
-    "uswds-gulp": "github:uswds/uswds-gulp"
+    "uswds": "^2.10.0"
   },
   "devDependencies": {
+    "@uswds/compile": "git+https://github.com/uswds/uswds-compile.git",
     "snyk": "^1.521.0"
   }
 }
