@@ -34,7 +34,7 @@
     "uswds": "^2.10.0"
   },
   "devDependencies": {
-    "@uswds/compile": "git+https://github.com/uswds/uswds-compile.git",
+    "@uswds/compile": "git+https://github.com/uswds/uswds-compile.git#develop",
     "snyk": "^1.521.0"
   }
 }
