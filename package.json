@@ -21,7 +21,7 @@
     "test": "snyk test"
   },
   "dependencies": {
-    "@uswds/uswds": "3.8.1"
+    "@uswds/uswds": "github:uswds/uswds#theme-utility-breakpoints-custom"
   },
   "devDependencies": {
     "@11ty/eleventy": "^2.0.1",
