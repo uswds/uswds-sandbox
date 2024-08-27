@@ -12,14 +12,14 @@ PATHS
 ----------------------------------------
 */
 
-// Version 2
+// Version 2 settings:
+// Comment out "Version 3" section below when this section is active
 uswds.settings.version = 2;
-// Project Sass source directory
 uswds.paths.dist.theme = "./src/sass";
 
-// Version 3
+// Version 3 settings:
+// Comment "Version 2" section above when this section is active
 // uswds.settings.version = 3;
-// Project Sass source directory
 // uswds.paths.dist.theme = "./src/_styles";
 
 // Images destination
