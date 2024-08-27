@@ -12,10 +12,15 @@ PATHS
 ----------------------------------------
 */
 
-uswds.settings.version = 3;
-
+// Version 2
+uswds.settings.version = 2;
 // Project Sass source directory
-uswds.paths.dist.theme = "./src/_styles";
+uswds.paths.dist.theme = "./src/sass";
+
+// Version 3
+// uswds.settings.version = 3;
+// Project Sass source directory
+// uswds.paths.dist.theme = "./src/_styles";
 
 // Images destination
 uswds.paths.dist.img = "./src/assets/img";
@@ -35,6 +40,7 @@ TASKS
 ----------------------------------------
 */
 
+exports.init = uswds.init;
 exports.compileIcons = uswds.compileIcons;
 exports.copyFonts = uswds.copyFonts;
 exports.copyImages = uswds.copyImages;
