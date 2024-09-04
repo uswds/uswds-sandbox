@@ -6,8 +6,29 @@
     {% include "banner.html" %}
     {% include "header--extended.html" %}
     <main id="main-content">
+      <section class="usa-site-alert usa-site-alert--info" aria-label="Site alert,">
+        <div class="usa-alert">
+          <div class="usa-alert__body">
+            <h4 class="usa-alert__heading">Site alert heading</h4>
+            <p class="usa-alert__text">
+              Additional context and followup information including
+              <a class="usa-link" href="javascript:void(0);">a link</a>.
+            </p>
+          </div>
+        </div>
+      </section>
       <div class="grid-container usa-prose padding-y-3">
         {% include "breadcrumb.html" %}
+        <div class="usa-alert usa-alert--info">
+          <div class="usa-alert__body">
+            <h4 class="usa-alert__heading">Alert heading</h4>
+            <p class="usa-alert__text">
+              Lorem ipsum dolor sit amet,
+              <a class="usa-link" href="javascript:void(0);">consectetur adipiscing</a>
+              elit, sed do eiusmod.
+            </p>
+          </div>
+        </div>
         {{ content }}
       </div>
     </main>

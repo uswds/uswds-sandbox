@@ -1,6 +1,10 @@
 @use "uswds-core" with (
   $theme-show-compile-warnings: false,
   $theme-show-notifications: false,
-  // $theme-font-type-sans: "public-sans",
-  // $theme-body-background-color: "ink",
+  $theme-site-margins-width: 0,
+  // $theme-alert-bar-width: 4,
+  // $theme-alert-font-family: "ui",
+  // $theme-alert-icon-size: 4,
+  // $theme-alert-padding-x: 6 ,
+  // $theme-alert-padding-y: 2,
 );
