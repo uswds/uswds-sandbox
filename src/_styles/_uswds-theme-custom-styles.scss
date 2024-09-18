@@ -1,1 +1,28 @@
 @use "uswds-core" as *;
+
+.usa-fieldset,
+.usa-legend,
+.usa-form .usa-button {
+  margin-top: units(4);
+}
+
+.usa-label {
+  margin-top: 0;
+}
+
+.usa-legend {
+  @include u-font("sans", "md");
+  margin-bottom: units(1);
+}
+
+*+.usa-site-alert .usa-alert {
+  margin-top: 0;
+}
+
+.usa-form-group--month select {
+  width: 20ex;
+}
+
+.usa-header--basic .usa-navbar {
+  width:100%!important;
+}
