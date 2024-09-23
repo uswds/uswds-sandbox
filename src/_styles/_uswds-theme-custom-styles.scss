@@ -1,7 +1,15 @@
 @use "uswds-core" as *;
 
+// 1100px
 @include at-media("desktop-custom") {
   body {
     border: 10px solid orangered;
   }
 }
+
+// 1120px
+// @include at-media("desktop-custom-rem") {
+//   body {
+//     border: 10px solid orchid;
+//   }
+// }

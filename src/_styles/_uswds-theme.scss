@@ -3,7 +3,11 @@
   $theme-show-notifications: false,
   $theme-utility-breakpoints-custom: (
     "desktop-custom": 1100px,
-  )
-  // $theme-font-type-sans: "public-sans",
-// $theme-body-background-color: "ink",
+    // "desktop-custom-rem": 70rem // 1120px,
+  ),
+  // $background-color-settings: (
+  //   responsive: true,
+  // ),
+  // $theme-respect-user-font-size: false,
+  // $theme-root-font-size: 20px,
 );
