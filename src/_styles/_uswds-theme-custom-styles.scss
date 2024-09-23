@@ -1,1 +1,7 @@
 @use "uswds-core" as *;
+
+@include at-media("desktop-custom") {
+  body {
+    border: 10px solid orangered;
+  }
+}

@@ -1,6 +1,9 @@
 @use "uswds-core" with (
   $theme-show-compile-warnings: false,
   $theme-show-notifications: false,
+  $theme-utility-breakpoints-custom: (
+    "desktop-custom": 1100px,
+  )
   // $theme-font-type-sans: "public-sans",
-  // $theme-body-background-color: "ink",
+// $theme-body-background-color: "ink",
 );
