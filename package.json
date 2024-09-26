@@ -21,7 +21,7 @@
     "test": "snyk test"
   },
   "dependencies": {
-    "@uswds/uswds": "3.8.2"
+    "@uswds/uswds": "github:uswds/uswds#al-custom-breakpoints"
   },
   "devDependencies": {
     "@11ty/eleventy": "^2.0.1",

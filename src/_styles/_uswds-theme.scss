@@ -3,4 +3,10 @@
   $theme-show-notifications: false,
   // $theme-font-type-sans: "public-sans",
   // $theme-body-background-color: "ink",
+  $theme-utility-breakpoints-custom: (
+    "new-breakpoint": 800px
+  ),
+  $theme-utility-breakpoints: (
+    widescreen: true,
+  )
 );
