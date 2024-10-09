@@ -5,6 +5,24 @@ body:
 ---
 
 <div class="padding-2">
-  <p class="font-sans-3xl margin-bottom-0 text-bold">Hi.</p>
-  <p class="font-sans-3xl margin-top-1 text-light">It’s the new Sandbox, running on 11ty.</p>
+  <div class="grid-row">
+    <div class="grid-col-3">
+      <div class="usa-form-group">
+        <label class="usa-label" id="appointment-date-label" for="appointment-date"
+          >Appointment date</label
+        >
+        <div class="usa-hint" id="appointment-date-hint">mm/dd/yyyy</div>
+        <div class="usa-date-picker">
+          <input
+            class="usa-input"
+            id="appointment-date"
+            name="appointment-date"
+            aria-labelledby="appointment-date-label"
+            aria-describedby="appointment-date-hint"
+          />
+        </div>
+      </div>
+    </div>
+    <div class="grid-col-9">.grid-col-9</div>
+  </div>
 </div>
