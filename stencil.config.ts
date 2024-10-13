@@ -23,6 +23,7 @@ export const config: Config = {
     },
     {
       type: 'www',
+      dir: '_site', // Publish for Cloud.gov pages build.
       serviceWorker: null, // disable service workers
     },
   ],

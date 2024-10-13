@@ -24,6 +24,7 @@
   ],
   "scripts": {
     "build": "stencil build",
+    "pages": "npm run build",
     "uswds:update": "npm update uswds",
     "test:snyk": "snyk test",
     "test": "stencil test --spec --e2e",
