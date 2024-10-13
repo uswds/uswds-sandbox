@@ -9,8 +9,8 @@
   "collection": "dist/collection/collection-manifest.json",
   "exports": {
     ".": {
-      "import": "./dist/uswds-sandbox/uswds-sandbox.esm.js",
-      "require": "./dist/uswds-sandbox/uswds-sandbox.cjs.js"
+      "import": "./dist/stencil-components/stencil-components.esm.js",
+      "require": "./dist/stencil-components/stencil-components.cjs.js"
     },
     "./loader": {
       "import": "./loader/index.js",

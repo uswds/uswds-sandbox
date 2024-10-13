@@ -1,7 +1,7 @@
 import { Config } from '@stencil/core';
 
 export const config: Config = {
-  namespace: 'uswds-sandbox',
+  namespace: 'stencil-components',
   outputTargets: [
     {
       type: 'dist',
