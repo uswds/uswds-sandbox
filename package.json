@@ -3,14 +3,43 @@
   "private": true,
   "author": "USWDS",
   "license": "CC0-1.0",
+  "main": "dist/index.cjs.js",
+  "module": "dist/index.js",
+  "types": "dist/types/index.d.ts",
+  "collection": "dist/collection/collection-manifest.json",
+  "exports": {
+    ".": {
+      "import": "./dist/uswds-sandbox/uswds-sandbox.esm.js",
+      "require": "./dist/uswds-sandbox/uswds-sandbox.cjs.js"
+    },
+    "./loader": {
+      "import": "./loader/index.js",
+      "require": "./loader/index.cjs",
+      "types": "./loader/index.d.ts"
+    }
+  },
+  "files": [
+    "dist/",
+    "loader/"
+  ],
   "scripts": {
+    "build": "stencil build",
     "uswds:update": "npm update uswds",
-    "test": "snyk test"
+    "test:snyk": "snyk test",
+    "test": "stencil test --spec --e2e",
+    "test.watch": "stencil test --spec --e2e --watchAll",
+    "start": "stencil build --dev --watch --serve",
+    "generate": "stencil generate"
   },
   "dependencies": {
     "@uswds/uswds": "^3.9.0"
   },
   "devDependencies": {
+    "@stencil/core": "^4.22.1",
+    "@types/jest": "^29.5.13",
+    "@types/node": "^22.7.5",
+    "jest": "^29.7.0",
+    "jest-cli": "^29.7.0",
     "snyk": "^1.1293.0"
   }
 }
