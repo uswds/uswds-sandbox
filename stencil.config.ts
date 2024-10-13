@@ -1,7 +1,13 @@
 import { Config } from '@stencil/core';
+import { sass } from '@stencil/sass';
 
 export const config: Config = {
   namespace: 'stencil-components',
+  plugins: [
+    sass({
+      includePaths: ['@uswds/uswds/packages'],
+    }),
+  ],
   outputTargets: [
     {
       type: 'dist',
