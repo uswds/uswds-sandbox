@@ -27,6 +27,6 @@
     "@11ty/eleventy": "^2.0.1",
     "@uswds/compile": "git+https://github.com/uswds/uswds-compile.git#develop",
     "npm-run-all": "^4.1.5",
-    "snyk": "^1.1292.2"
+    "snyk": "^1.1293.1"
   }
 }
