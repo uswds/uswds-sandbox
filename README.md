@@ -10,8 +10,14 @@ A sandbox branch using StencilJS and USWDS.
 
 After cloning the template repo, install dependencies using:
 
-```
+```sh
 npm install
 ```
 
-USWDS assets **won't** be copied. That will depend on your framework of choice.
+Serve the site locally and watch for changes.
+
+```sh
+npm start
+```
+
+If all goes well, visit the site at http://localhost:3333/.
