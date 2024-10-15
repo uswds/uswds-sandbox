@@ -6,21 +6,33 @@ An eleventy site for rapid web prototyping and testing new work with USWDS. This
 
 - Node v20 (LTS)
 
-## Running locally
+## Running code locally
 
-To run `uswds-sandbox` locally:
+After cloning the template repo, install USWDS, eleventy, and any necessary dependencies using:
 
-1. Clone the `uswds-sandbox` repo.
-2. Run `npm install` to install USWDS, eleventy, and other necessary dependencies.
-3. Run `npm run init` to copy USWDS images, fonts, and JavaScript to a project directory.
-4. Run `npm start` to serve the site locally and watch for changes.
-5. If all goes well, visit the site at http://localhost:8080.
+```
+npm install
+```
+
+Then, copy USWDS images, fonts, and JavaScript to a project directory.
+
+```
+npm run init
+```
+
+Finally, serve the site locally and watch for changes:
+
+```
+npm start
+```
+
+If all goes well, visit the site at http://localhost:8080.
 
 USWDS assets will be in `assets/fonts` and `assets/img`.
 
 SASS files will be in the `/_styles` directory. Running `npm start` will also watch these files and recompile when there are changes.
 
-## Running locally with a development version of USWDS
+## Installing USWDS from a branch
 
 If you have made changes to the `uswds` project and want to test it with `uswds-sandbox`:
 
