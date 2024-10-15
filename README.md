@@ -1,6 +1,6 @@
 # USWDS Sandbox
 
-This branch is a blank slate to use as a basis for testing other frameworks.
+A sandbox branch using StencilJS and USWDS.
 
 ## Requirements
 
