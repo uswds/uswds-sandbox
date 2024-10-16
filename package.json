@@ -21,7 +21,7 @@
     "test": "snyk test"
   },
   "dependencies": {
-    "@uswds/uswds": "3.8.2"
+    "@uswds/uswds": "github:uswds/uswds#rc-focus-trap-after-initionalization"
   },
   "devDependencies": {
     "@11ty/eleventy": "^2.0.1",
