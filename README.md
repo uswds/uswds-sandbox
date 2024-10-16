@@ -32,6 +32,16 @@ USWDS assets will be in `assets/fonts` and `assets/img`.
 
 SASS files will be in the `/_styles` directory. Running `npm start` will also watch these files and recompile when there are changes.
 
+## Installing USWDS from a branch
+
+If you have made changes to the `uswds` project and want to test it with `uswds-sandbox`:
+
+1. Push your changes to `uswds` to a branch on GitHub.
+2. In your `uswds-sandbox` working copy, run `npm install "https://github.com/YOUR_USERNAME/uswds/tree/YOUR_BRANCH" --save` where the URL refers to your `uswds` branch.
+3. Run `npm install` to install dependencies including your new version of `uswds`.
+4. Run `npm run init`.
+5. Run `npm start` and open http://localhost:8080.
+
 ## Templates
 
 - `default`: A blank-slate sandbox page
