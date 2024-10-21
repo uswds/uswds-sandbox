@@ -5,6 +5,18 @@
 
 <body class="{{ page.body }}">
   {{ content }}
-  <script src="{{ '/assets/js/uswds.min.js' | url }}"></script>
+  <script src="{{ '/assets/js/uswds.min.js' | url }}" nonce="mynonce"></script>
+  <h3 class="site-preview-heading">Input accepts a single file</h3>
+<div class="usa-form-group">
+  <label class="usa-label" for="file-input-single"
+    >Input accepts a single file</label
+  >
+  <input
+    id="file-input-single"
+    class="usa-file-input"
+    type="file"
+    name="file-input-single"
+  />
+</div>
 </body>
 </html>
