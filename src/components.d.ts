@@ -11,6 +11,7 @@ export namespace Components {
           * The first name
          */
         "first": string;
+        "href": string;
         /**
           * The last name
          */
@@ -38,6 +39,7 @@ declare namespace LocalJSX {
           * The first name
          */
         "first"?: string;
+        "href"?: string;
         /**
           * The last name
          */

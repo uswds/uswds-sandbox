@@ -1,6 +1,8 @@
 import { Config } from '@stencil/core';
 import { sass } from '@stencil/sass';
 
+const pagesBaseUrl = process.env.BASEURL || '/';
+
 export const config: Config = {
   namespace: 'stencil-components',
   plugins: [
@@ -25,6 +27,7 @@ export const config: Config = {
       type: 'www',
       dir: '_site', // Publish for Cloud.gov pages build.
       serviceWorker: null, // disable service workers
+      baseUrl: pagesBaseUrl,
     },
   ],
   testing: {
