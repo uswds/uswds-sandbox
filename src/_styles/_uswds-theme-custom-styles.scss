@@ -1,1 +1,11 @@
 @use "uswds-core" as *;
+
+.usa-header {
+    height: 100px;
+    position: sticky;
+    background-color: white;
+    z-index: 1000;
+    top: 0px;
+    border-bottom: 1px solid lightgrey;
+    scroll-margin-top: 100px;
+}
