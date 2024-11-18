@@ -8,7 +8,7 @@
     "federalist": "npm run init && npm run build && npm run uswds:buildSass",
     "init": "npm run uswds:buildDist && npm run uswds:copyAssets",
     "serve": "npx @11ty/eleventy --serve",
-    "start": "npm-run-all -p serve watch",
+    "start": "npm run serve && npm run watch",
     "uswds:buildDist": "./build.sh",
     "uswds:buildSass": "gulp buildSass",
     "uswds:compileIcons": "gulp compileIcons",
