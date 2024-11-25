@@ -13,7 +13,6 @@ PATHS
 */
 
 uswds.settings.version = 3;
-uswds.settings.compile.quietSassDeps = true;
 
 // Project Sass source directory
 uswds.paths.dist.theme = "./src/_styles";
