@@ -1,1 +1,26 @@
 @use "uswds-core" as *;
+@use "sass:color";
+
+// Triggers import deprecation warning
+@import "mixins/mixin.scss";
+
+$test-unit: 20rem;
+
+.example {
+  @include link-color(orange);
+  
+  // Triggers color deprecation warning
+  color: color.blue($color: #000000);;
+
+  a {
+    font-weight: bold;
+  }
+
+  // Supposed to trigger mixed declarations deprecation warning
+  font-weight: normal;
+
+  // Triggers Global built-in functions deprecation warning
+  @if unit($test-unit) != "rem" {
+    @debug ""
+  }
+}
