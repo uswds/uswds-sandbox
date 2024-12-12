@@ -1,3 +1,18 @@
 @forward "uswds-theme";
-@forward "uswds";
+
+
+// @forward "uswds";
+
+// ↓↓↓ Using these for basic typography/spacing/margins
+@forward "uswds-global";
+@forward "uswds-typography";
+@forward "usa-label";
+@forward "usa-legend";
+@forward "uswds-utilities";
+
+// ↓↓↓ Re-order / replace these to test
+@forward "usa-form";
+@forward "usa-input";
+@forward "usa-checkbox";
+
 @forward "uswds-theme-custom-styles";
