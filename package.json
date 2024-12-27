@@ -4,7 +4,9 @@
   "author": "USWDS",
   "license": "CC0-1.0",
   "scripts": {
+    "federalist": "npm run build",
     "dev": "vite",
+    "build": "vite build",
     "start": "npm run dev",
     "uswds:update": "npm update uswds",
     "test": "snyk test"
