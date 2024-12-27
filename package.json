@@ -4,7 +4,8 @@
   "author": "USWDS",
   "license": "CC0-1.0",
   "scripts": {
-    "start": "vite",
+    "dev": "vite",
+    "start": "npm run dev",
     "uswds:update": "npm update uswds",
     "test": "snyk test"
   },
