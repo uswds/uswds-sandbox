@@ -9,3 +9,4 @@ src/assets/css
 src/assets/fonts
 src/assets/js
 node_modules
+dist
