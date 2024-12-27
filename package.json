@@ -7,7 +7,7 @@
     "federalist": "npm run build",
     "dev": "vite",
     "build": "vite build",
-    "start": "npm run dev",
+    "start": "NODE_ENV=production npm run dev",
     "uswds:update": "npm update uswds",
     "test": "snyk test"
   },
