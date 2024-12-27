@@ -18,7 +18,8 @@
     "uswds:copyJS": "gulp copyJS",
     "uswds:update": "npm update uswds && npm run uswds:buildDist",
     "watch": "gulp watchSass",
-    "test": "snyk test"
+    "test": "snyk test",
+    "link:sync": "npm link @uswds/uswds && npm run init && npm run start"
   },
   "dependencies": {
     "@uswds/uswds": "3.9.0"
