@@ -4,7 +4,7 @@ This branch is a blank slate to use as a basis for testing other frameworks.
 
 ## Requirements
 
-- Node v20 (LTS)
+- Node LTS, see `.nvmrc`
 
 ## Running code locally
 
