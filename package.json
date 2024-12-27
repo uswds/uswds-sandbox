@@ -4,13 +4,17 @@
   "author": "USWDS",
   "license": "CC0-1.0",
   "scripts": {
+    "start": "vite",
     "uswds:update": "npm update uswds",
     "test": "snyk test"
   },
   "dependencies": {
-    "@uswds/uswds": "3.11.0"
+    "@uswds/uswds": "3.11.0",
+    "@uswds/web-components": "0.0.1-alpha"
   },
   "devDependencies": {
-    "snyk": "^1.1294.3"
+    "lit": "3.2.1",
+    "snyk": "^1.1294.3",
+    "vite": "6.0.6"
   }
 }
