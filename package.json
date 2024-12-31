@@ -2,9 +2,13 @@
   "name": "uswds-sandbox",
   "private": true,
   "author": "USWDS",
+  "type": "module",
   "license": "CC0-1.0",
   "scripts": {
-    "start": "vite",
+    "federalist": "npm run build",
+    "dev": "vite",
+    "build": "vite build --outDir _site",
+    "start": "NODE_ENV=production npm run dev",
     "uswds:update": "npm update uswds",
     "test": "snyk test"
   },
@@ -13,7 +17,6 @@
     "@uswds/web-components": "0.0.1-alpha"
   },
   "devDependencies": {
-    "lit": "3.2.1",
     "snyk": "^1.1294.3",
     "vite": "6.0.6"
   }
