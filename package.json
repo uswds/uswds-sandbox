@@ -2,6 +2,7 @@
   "name": "uswds-sandbox",
   "private": true,
   "author": "USWDS",
+  "type": "module",
   "license": "CC0-1.0",
   "scripts": {
     "federalist": "npm run build",
@@ -16,7 +17,6 @@
     "@uswds/web-components": "0.0.1-alpha"
   },
   "devDependencies": {
-    "lit": "3.2.1",
     "snyk": "^1.1294.3",
     "vite": "6.0.6"
   }
