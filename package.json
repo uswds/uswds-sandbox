@@ -15,6 +15,7 @@
   "devDependencies": {
     "lit": "3.2.1",
     "snyk": "^1.1294.3",
-    "vite": "6.0.6"
+    "vite": "6.0.6",
+    "vite-plugin-commonjs": "^0.10.4"
   }
 }
