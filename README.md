@@ -1,6 +1,6 @@
 # USWDS Sandbox
 
-This branch is a blank slate to use as a basis for testing other frameworks.
+This sandbox is meant for testing https://github.com/uswds/uswds/pull/6299
 
 ## Requirements
 
@@ -8,10 +8,10 @@ This branch is a blank slate to use as a basis for testing other frameworks.
 
 ## Running code locally
 
-After cloning the template repo, install dependencies using:
+After cloning:
 
-```
-npm install
-```
+Run `nvm use`
+Run `npm i`
+In the `ml-modal-toggle-refactor` branch on `uswds` run `npm link`
+In this sandbox branch run `link:sync` to sync and start
 
-USWDS assets **won't** be copied. That will depend on your framework of choice.

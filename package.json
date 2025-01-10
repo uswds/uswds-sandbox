@@ -6,7 +6,8 @@
   "scripts": {
     "start": "vite",
     "uswds:update": "npm update uswds",
-    "test": "snyk test"
+    "test": "snyk test",
+    "link:sync": "npm link @uswds/uswds && npm start"
   },
   "dependencies": {
     "@uswds/uswds": "3.11.0",
