@@ -35,9 +35,10 @@
           {{ content }}
 
         {% if form %}
-          {% include "zebra/form-reservation.html" %}
+          {% include "zebra/forms/{{ form }}.html" %}
         </form>
         {% endif %}
+
       </div>
     </main>
 
