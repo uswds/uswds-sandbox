@@ -2,8 +2,9 @@
   Date picker
 
   Variables:
-    - input_name: String of the input's name. Used to create the label and hint ID.
-    - label_text: String for the input label.
+    - required: Boolean to determine if input is required.
+    - input_id: String of the input's name. Used to create the label [`input_label_id`] and hint ID [`hint_id`].
+    - label_text: String for the input's human readable label.
     - hint_text: String for optional input hint text.
 
   Used in `src/_includes/zebra/forms/book-tour.html`.
@@ -19,6 +20,10 @@
 <div class="usa-form-group {% if error_message  %}usa-form-group--error{% endif %}">
   <label class="usa-label" id="{{ input_label_id }}" for="{{ input_id }}">
     {{ label_text | default: "Date picker label" }}
+
+    {% if required %}
+      {% include "required-hint.html" %}
+    {% endif %}
   </label>
   <div class="usa-hint" id="{{ hint_id }}">
     {{ hint_text | default: "mm/dd/yyyy"  }}
@@ -37,6 +42,7 @@
       name="{{ input_id }}"
       aria-labelledby="{{ input_label_id }}"
       aria-describedby="{{ hint_id }}"
+      {% if required %}required{% endif %}
     />
   </div>
 </div>
