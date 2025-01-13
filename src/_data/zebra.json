@@ -1,3 +1,16 @@
 {
-  "title": "Same day reservations at Purplestone National Park"
+  "title": "Same day reservations at Purplestone National Park",
+  "tour_options": [
+    "Bike - Ancient cave drawings",
+    "Bike - Park ranger training camp",
+    "Climb - Boulder",
+    "Climb - Grand Point",
+    "Helicopter - East side",
+    "Helicopter - West side",
+    "Hike - Cliff trail",
+    "Hike - Geiser trail",
+    "Hike - Waterfall trail",
+    "Hot air balloon - Buffalo valley",
+    "Train - Park perimeter"
+  ]
 }

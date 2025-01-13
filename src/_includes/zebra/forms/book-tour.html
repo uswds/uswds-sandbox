@@ -6,5 +6,12 @@
   "error_message: date_picker.error_message
 %}
 
+{%
+  include "combo-box.html"
+  required
+  dropdown: zebra.tour_options
+  input_name: "tour-type"
+  label_text: "Choose the tour you'd like to reserve"
+%}
 
 {% include "zebra/time-picker.html" %}
