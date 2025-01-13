@@ -7,4 +7,6 @@ breadcrumb:
   - label: Tours
   - label: Book a tour
     current: true
+date_picker:
+  error_message: "Enter or choose the date that you'd like to reserve a tour"
 ---
