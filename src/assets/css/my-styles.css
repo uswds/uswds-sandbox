@@ -1,0 +1,60 @@
+@import url("https://unpkg.com/open-props");
+@import url("https://unpkg.com/open-props/normalize.min.css");
+
+:root {
+  --my-text-color: var(--blue-12);
+  --my-background-color: white;
+}
+
+* {
+  text-wrap: auto;
+}
+
+body {
+  background-color: var(--my-background-color);
+  color: var(--my-text-color);
+  font-family: var(--font-system-ui);
+  padding: var(--size-3);
+}
+
+my-intro {
+  display: block;
+}
+my-intro > h1 {
+  font-size: var(--font-size-8);
+  line-height: var(--font-lineheight-0);
+}
+
+my-intro > p {
+  font-size: var(--font-size-4);
+  line-height: var(--font-lineheight-2);
+  margin-top: var(--size-3);
+}
+
+my-nav-links {
+  display: block;
+  margin-top: var(--size-6);
+}
+
+my-nav-link > a {
+  --button-color: var(--red-1);
+  display: inline-block;
+  text-decoration: underline;
+  padding: var(--size-4);
+  border-radius: var(--radius-2);
+  background-color: var(--button-color);
+  color: var(--my-text-color);
+  font-size: var(--font-size-3);
+  line-height: var(--font-lineheight-0);
+  font-weight: bold;
+  border: 2px solid transparent;
+
+  &:hover {
+    border-color: var(--my-text-color);
+  }
+}
+
+my-nav-link[type="back"] > a {
+  background-color: var(--red-0);
+  font-weight: normal;
+}
