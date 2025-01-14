@@ -4,7 +4,7 @@
   input_name: "reservation-date"
   label_text: "Choose the date that you'd like to reserve a tour"
   error_message: date_picker.error_message
-  hint_text: "Select a time from the dropdown. Type into the input to filter options."
+  hint_text: "mm/dd/yyyy"
 %}
 
 {%
@@ -15,7 +15,10 @@
   label_text: "Choose the tour you'd like to reserve"
 %}
 
-{% include "zebra/time-picker.html" %}
+{%
+  include "zebra/time-picker.html"
+  hint_text: "Select a time from the dropdown. Type into the input to filter options."
+%}
 
 {%
   include "zebra/character-count.html"
