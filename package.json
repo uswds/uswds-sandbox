@@ -10,7 +10,7 @@
     "link:sync": "npm link @uswds/uswds && npm start"
   },
   "dependencies": {
-    "@uswds/uswds": "3.11.0",
+    "@uswds/uswds": "github:uswds/uswds#ml-modal-toggle-refactor",
     "@uswds/web-components": "0.0.1-alpha"
   },
   "devDependencies": {
