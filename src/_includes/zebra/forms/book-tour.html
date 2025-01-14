@@ -22,3 +22,29 @@
   error_message: character_count.error_message
 %}
 
+{% include "zebra/submit.html" %}
+
+<script>
+  /**
+   * Simple check to ensure text inputs aren't empty.
+   * Validating other form elements will need additional work.
+   */
+  window.addEventListener("DOMContentLoaded", () => {
+    const requiredInputs = document.querySelectorAll("[required]");
+    const submitButton = document.querySelector("input[type='submit']");
+
+    let enableSubmit = false;
+
+    function getFormstate() {
+      requiredInputs.forEach(input => {
+        let inputValue = input.value.trim();
+
+        enableSubmit = inputValue !== '' ? true : false;
+      })
+
+      submitButton.disabled = !enableSubmit;
+    }
+
+    requiredInputs.forEach(input => input.addEventListener("change", getFormstate));
+  });
+</script>
