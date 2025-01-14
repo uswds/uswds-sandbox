@@ -33,18 +33,22 @@
     const requiredInputs = document.querySelectorAll("[required]");
     const submitButton = document.querySelector("input[type='submit']");
 
-    let enableSubmit = false;
+    function enableSubmit() {
+      let enableSubmit = true;
 
-    function getFormstate() {
       requiredInputs.forEach(input => {
         let inputValue = input.value.trim();
 
-        enableSubmit = inputValue !== '' ? true : false;
+        if (!inputValue.length) {
+          return enableSubmit = false;
+        }
       })
 
       submitButton.disabled = !enableSubmit;
     }
 
-    requiredInputs.forEach(input => input.addEventListener("change", getFormstate));
+    enableSubmit();
+
+    requiredInputs.forEach(input => input.addEventListener("change", enableSubmit));
   });
 </script>
