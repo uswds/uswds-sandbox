@@ -13,7 +13,10 @@
   <ol class="usa-breadcrumb__list">
     <!-- Home link. -->
     <li class="usa-breadcrumb__list-item">
-      <a href="" class="usa-breadcrumb__link" aria-label="{{ link_aria_label }}">
+      <a
+        href=""
+        class="usa-breadcrumb__link"
+        aria-label="{{ link_aria_label | append: ' Home' | capitalize }}">
         <span>Home</span>
       </a>
     </li>
@@ -33,7 +36,7 @@
           href="{{ breadcrumb_href }}"
           class="usa-breadcrumb__link"
           {% if item.current %}aria-current="page"{% endif %}
-          aria-label="{{ link_aria_label }}">
+          aria-label="{{ link_aria_label | append: ' ' | append: item.label | capitalize }}">
           <span>{{ item.label }}</span>
         </a>
       </li>
