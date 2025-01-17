@@ -10,3 +10,4 @@ body:
 - [Form 2]({{ '/pages/zebra-2/' | url }})
 - [Form 3]({{ '/pages/zebra-3/' | url }})
 - [Book tour]({{ '/pages/zebra-book-tour/' | url }})
+- [Book tour error]({{ '/pages/zebra-book-tour/error' | url }})
