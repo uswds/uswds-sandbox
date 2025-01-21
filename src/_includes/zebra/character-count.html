@@ -18,11 +18,11 @@
 
 <div class="usa-character-count">
   <div class="usa-form-group {% if error_message  %}usa-form-group--error{% endif %}">
-    <label class="usa-label" for="{{ input_id }}">
+    <label class="usa-label {% if error_message  %}usa-label--error{% endif %}" for="{{ input_id }}">
       {{ label_text }}
 
       {% if required %}
-      {% include "required-hint.html" %}
+      {% render "required-hint.html" %}
       {% endif %}
 
       <svg
@@ -35,9 +35,7 @@
     </label>
 
     {% if error_message %}
-      <span class="usa-error-message" role="alert">
-        {{ error_message }}
-      </span>
+      {% render "error-message.html" %}
     {% endif %}
 
     <textarea

@@ -3,8 +3,8 @@
   type="submit"
   class="usa-button margin-top-2"
   id="submitbutton"
-  value="Reserve my spot!"
-  disabled
+  value="{{ label | default: 'Reserve my spot!' }}"
+  {% if not enabled %}disabled{% endif %}
   formaction="{{ '/pages/zebra-confirmation/' | url }}"
   aria-describedby="conduct-error-hint"
 >

@@ -1,5 +1,5 @@
 {%
-  include "date-picker.html"
+  render "date-picker.html"
   required
   input_name: "reservation-date"
   label_text: "Choose the date that you'd like to reserve a tour"
@@ -8,7 +8,7 @@
 %}
 
 {%
-  include "combo-box.html"
+  render "combo-box.html"
   required
   dropdown: zebra.tour_options
   input_name: "tour-type"
@@ -16,12 +16,12 @@
 %}
 
 {%
-  include "zebra/time-picker.html"
+  render "zebra/time-picker.html"
   hint_text: "Select a time from the dropdown. Type into the input to filter options."
 %}
 
 {%
-  include "zebra/character-count.html"
+  render "zebra/character-count.html"
   label_text: "List any accommodations your group might need during your tour. (optional)"
   error_message: character_count.error_message
 %}
