@@ -29,7 +29,7 @@
         <h1>{{ zebra.title }}</h1>
 
         <form class="usa-form usa-form--large">
-          {% render "zebra/intro.html" %}
+          {% render "zebra/intro.html" age_disclaimer: age_disclaimer | default: true %}
         {% endif %}
 
           {{ content }}

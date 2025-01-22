@@ -1,6 +1,7 @@
 ---
 layout: zebra
 form: "book-tour"
+age_disclaimer: false
 breadcrumb:
   - label: Tours
   - label: Book a tour

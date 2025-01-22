@@ -1,3 +1,5 @@
 <p>A red asterisk ({% render "required-hint.html" %}) indicates a required field.</p>
 
+{% if age_disclaimer %}
 <p class="margin-top-4 margin-bottom-1"><strong>You must be at least 18 years old to reserve an activity.</strong></p>
+{% endif %}
