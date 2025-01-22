@@ -22,7 +22,7 @@
     {{ label_text | default: "Date picker label" }}
 
     {% if required %}
-      {% render "required-hint.html" %}
+      {% include "required-hint.html" %}
     {% endif %}
   </label>
   <div class="usa-hint" id="{{ hint_id }}">
@@ -30,7 +30,7 @@
   </div>
 
   {% if error_message %}
-    {% render "error-message.html" %}
+    {% include "error-message.html" %}
   {% endif %}
 
   <div class="usa-date-picker">

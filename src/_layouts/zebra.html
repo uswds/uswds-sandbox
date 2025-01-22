@@ -3,23 +3,23 @@
 
 <!DOCTYPE html>
 <html lang="en">
-  {% render "head.html" %}
+  {% include "head.html" %}
   <body class="height-full">
-    {% render "skipnav.html" %}
+    {% include "skipnav.html" %}
     {% if alert_before_banner == true and alert_type =="emergency" %}
-      {% render "zebra/site-alert--emergency.html" %}
+      {% include "zebra/site-alert--emergency.html" %}
     {% endif %}
-    {% render "banner.html" %}
+    {% include "banner.html" %}
     {% if alert_type == "status" %}
-      {% render "zebra/site-alert.html" %}
+      {% include "zebra/site-alert.html" %}
     {% elsif alert_type =="emergency" and alert_before_banner == false %}
-      {% render "zebra/site-alert--emergency.html" %}
+      {% include "zebra/site-alert--emergency.html" %}
     {% endif %}
-    {% render "zebra/header.html" %}
+    {% include "zebra/header.html" %}
 
     {% if breadcrumb %}
     <div class="grid-container">
-      {% render "zebra/breadcrumb.html" %}
+      {% include "zebra/breadcrumb.html" %}
     </div>
     {% endif %}
 
@@ -29,7 +29,7 @@
         <h1>{{ zebra.title }}</h1>
 
         <form class="usa-form usa-form--large">
-          {% render "zebra/intro.html" age_disclaimer: age_disclaimer | default: true %}
+          {% include "zebra/intro.html" age_disclaimer: age_disclaimer | default: true %}
         {% endif %}
 
           {{ content }}
@@ -45,7 +45,7 @@
       </div>
     </main>
 
-    {% render "zebra/footer.html" %}
+    {% include "zebra/footer.html" %}
 
     <script src="{{ '/assets/js/uswds.min.js' | url }}"></script>
   </body>

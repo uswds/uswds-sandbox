@@ -16,7 +16,7 @@
   <label class="usa-label" for="{{ input_id }}">
     {{ label_text }}
     {% if required %}
-      {% render "required-hint.html" %}
+      {% include "required-hint.html" %}
     {% endif %}
   </label>
   <div class="usa-combo-box">

@@ -1,18 +1,18 @@
 <!doctype html>
 <html lang="en">
-{% render "head.html" %}
+{% include "head.html" %}
   <body class="{{ page.body }}">
-    {% render "skipnav.html" %}
-    {% render "banner.html" %}
-    {% render "header--extended.html" %}
+    {% include "skipnav.html" %}
+    {% include "banner.html" %}
+    {% include "header--extended.html" %}
     <main id="main-content">
       <div class="grid-container usa-prose padding-y-3">
-        {% render "breadcrumb.html" %}
+        {% include "breadcrumb.html" %}
         {{ content }}
       </div>
     </main>
-    {% render "footer.html" %}
-    {% render "identifier.html" %}
+    {% include "footer.html" %}
+    {% include "identifier.html" %}
     <script src="{{ '/assets/js/uswds.min.js' | url }}"></script>
   </body>
 </html>

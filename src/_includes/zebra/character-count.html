@@ -22,7 +22,7 @@
       {{ label_text }}
 
       {% if required %}
-      {% render "required-hint.html" %}
+      {% include "required-hint.html" %}
       {% endif %}
 
       <svg
@@ -35,7 +35,7 @@
     </label>
 
     {% if error_message %}
-      {% render "error-message.html" %}
+      {% include "error-message.html" %}
     {% endif %}
 
     <textarea
@@ -43,6 +43,7 @@
       id="{{ input_id }}"
       maxlength="{{ character_limit | default: 50 }}"
       name="{{ input_id }}"
+      {% if value %}value="{{ value  }}"{% endif %}
       {% if required %}required{% endif %}></textarea>
     <span id="with-hint-textarea-info" class="usa-character-count__message">
       {{ hint_text | default: "You can enter up to 50 characters" }}
