@@ -35,7 +35,10 @@
           {{ content }}
 
         {% if form %}
-          {% render "zebra/forms/{{ form }}.html" %}
+          {% comment %}
+            ! Using render here causes issues with global data.
+          {% endcomment %}
+          {% include "zebra/forms/{{ form | append: \".html\" }}" %}
         </form>
         {% endif %}
 
