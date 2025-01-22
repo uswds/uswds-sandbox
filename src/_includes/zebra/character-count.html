@@ -43,8 +43,7 @@
       id="{{ input_id }}"
       maxlength="{{ character_limit | default: 50 }}"
       name="{{ input_id }}"
-      {% if value %}value="{{ value  }}"{% endif %}
-      {% if required %}required{% endif %}></textarea>
+      {% if required %}required{% endif %}>{% if value %}{{ value  }}{% endif %}</textarea>
     <span id="with-hint-textarea-info" class="usa-character-count__message">
       {{ hint_text | default: "You can enter up to 50 characters" }}
     </span>
