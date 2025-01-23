@@ -1,6 +1,6 @@
 ---
 layout: zebra
-alert_type: status
+# alert_type: status
 alert_before_banner: false
 ---
 
@@ -8,4 +8,4 @@ alert_before_banner: false
 
 Your confirmation number is #54321.
 
-Give this number to the park ranger when you arrive for your activity.
+Give this number to the park ranger when you arrive for your tour.
