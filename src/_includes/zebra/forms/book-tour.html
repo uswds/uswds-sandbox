@@ -4,7 +4,7 @@
   input_name: "reservation-date"
   label_text: "Choose the date that you'd like to reserve a tour"
   error_message: date_picker.error_message
-  hint_text: "mm/dd/yyyy"
+  hint_text: "Enter the date in the form of mm/dd/yyyy or pick from the calendar"
 %}
 
 {%
@@ -27,4 +27,8 @@
   value: character_count.value
 %}
 
-{% include "zebra/submit.html" label: "Reserve" enabled: true %}
+{% include "zebra/submit.html"
+  label: "Reserve"
+  enabled: true
+  tooltip_title: "Finish your booking"
+%}
