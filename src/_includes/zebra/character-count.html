@@ -17,8 +17,8 @@
 {% assign input_label_id = input_id | append: "-label" %}
 
 <div class="usa-character-count">
-  <div class="usa-form-group {% if error_message  %}usa-form-group--error{% endif %}">
-    <label class="usa-label {% if error_message  %}usa-label--error{% endif %}" for="{{ input_id }}">
+  <div class="usa-form-group">
+    <label class="usa-label" for="{{ input_id }}">
       {{ label_text }}
 
       {% if required %}
@@ -49,3 +49,17 @@
     </span>
   </div>
 </div>
+
+{% comment %}
+  Workaround for custom error until uswds/uswds#6317 gets closed.
+  https://github.com/uswds/uswds/issues/6317
+{% endcomment %}
+<style>
+  .usa-character-count .usa-error-message {
+    display: none;
+  }
+
+  .usa-character-count .usa-form-group--error .usa-error-message {
+    display: initial;
+  }
+</style>
