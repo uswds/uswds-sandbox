@@ -36,3 +36,18 @@
   </div>
 </fieldset>
 <!--end time picker-->
+
+{% comment %}
+  Workaround for https://github.com/uswds/uswds/issues/6315.
+
+  Once time picker is enhanced, we add the hint via aria-describedby to the generated list.
+{% endcomment %}
+<script>
+  window.addEventListener("DOMContentLoaded", () => {
+    const timePicker = document.querySelector(".usa-time-picker");
+    const timePickerList = timePicker.querySelector(".usa-combo-box__list");
+    const hintID = timePicker.closest(".usa-fieldset").firstElementChild.nextElementSibling.id;
+
+    timePickerList.setAttribute("aria-describedby", hintID);
+  })
+</script>
