@@ -19,7 +19,7 @@
 
     {% if breadcrumb %}
     <div class="grid-container">
-      {% include "zebra/breadcrumb.html" %}
+      {% include "zebra/breadcrumb.html" control_group: breadcrumb.control_group | default: false %}
     </div>
     {% endif %}
 
