@@ -9,10 +9,112 @@
       <div class="grid-container usa-prose padding-y-3">
         {% include "breadcrumb.html" %}
         {{ content }}
+        <div id="root"></div>
       </div>
     </main>
     {% include "footer.html" %}
     {% include "identifier.html" %}
-    <script src="{{ '/assets/js/uswds.min.js' | url }}"></script>
+    <script src="{{ '/assets/js/uswds.min.js' | url }}">
+      import React, { useRef, useState, useEffect } from "https://esm.sh/react@18";
+      import ReactDOM from "https://esm.sh/react-dom@18";
+      import UswdsUswds from "https://esm.sh/@uswds/uswds@3.8.1";
+
+      const App = () => {
+            const [data, setData] = useState({
+              presentations: ["", "This is 16 chars"],
+          });
+
+        const buttonRef = useRef();
+          const onChange = (id, index=null) => (event) => {
+            if (index >= 0) {
+                  let copy = data[id]
+                  let item = copy[index]
+                  item = event.target.value;
+                  copy[index] = item;
+
+                  setData({
+                      ...data,
+                      [id]: copy
+                  });
+
+              } else {
+                  setData({
+                      ...data,
+                      [id]: event.target.value
+                  });
+              }
+          };
+        
+            const handleAddPresentation = () => {
+              setData({
+                  ...data,
+                  presentations: [...data.presentations, ""]
+              })
+          }
+            
+        return(
+      <section id="presentation_section">
+                      <div className="grid-column presentation-info">
+                          <p>
+                            This is an example of the textarea not getting the correct char count underneath.
+                          </p>
+                        <br/>
+                        <p>The first textarea correctly shows "1000 characters allowed".</p>
+                        
+                        <br/>
+                        <p>The second textarea incorrectly shows "1000 characters allowed" until you alter the text</p>
+                        
+                        <br/>
+                        <p>Any further textareas added will show "1000 character limit" because the JS doesn't seem to work.</p>
+                      </div>
+
+                      <div className="grid-row presentations-list">
+                          <form className="usa-form">
+                                  {data.presentations.map((pres, i) => {
+                                          return (
+                              <div className="usa-character-count" key={"pres"+i}>
+                                  <div className="usa-form-group">
+                                              <textarea
+                                                  className="usa-textarea usa-character-count__field"
+                                                  id="presentations_textarea"
+                                                  maxLength="1000"
+                                                  name="with-hint-textarea"
+                                                  rows="5"
+                                                  defaultValue={pres}
+                                                  onChange={onChange('presentations', i)}/>
+                                  </div>
+                                              {/* Put a placeholder 1000 char limit text here because on new presentation text areas the js isn't adding the text automatically */}
+                                              {/* https://designsystem.digital.gov/components/character-count/ */}
+                                              <span id="with-hint-input-info" className="usa-character-count__message">1000 character limit</span>
+                              </div>
+                                          )
+                                      })}
+                              <button className="usa-button usa-button--outline add-presentation-button" onClick={() =>  handleAddPresentation() }
+                                      type="button"
+                                      >
+                                  <svg className="usa-icon usa-button__icon--left" role="graphics-symbol">
+                                      <use xlinkHref="/static/img/sprite.svg#add"></use>
+                                  </svg>
+                                  Add another presentation
+                              </button>
+                              <div className="usa-checkbox">
+                                  <input
+                                      className="usa-checkbox__input"
+                                      id="presentations_no"
+                                      name="presentations_no"
+                                      type="checkbox"
+                                      onChange={onChange('no_new_presentations')}
+                                  />
+                              </div>
+                          </form>
+                      </div>
+                  </section>
+
+        );
+      }
+
+      ReactDOM.render(<App />,
+      document.getElementById("root"))
+    </script>
   </body>
 </html>
