@@ -3,7 +3,7 @@
   required
   input_name: "reservation-date"
   label_text: "Choose the date that you'd like to reserve a tour"
-  error_message: date_picker.error_message
+  error_message: reservation.error_message
   hint_text: "Enter the date in the form of mm/dd/yyyy or pick from the calendar"
 %}
 
@@ -19,6 +19,7 @@
 {%
   include "zebra/time-picker.html"
   hint_text: "Select a time from the dropdown. Type into the input to filter options."
+  value: reservation.value | default: null
 %}
 
 {%

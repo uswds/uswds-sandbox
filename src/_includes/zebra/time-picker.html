@@ -4,6 +4,7 @@
 
   variables:
     - hint_text: String optional hint text.
+    - value: String optional default value.
 
   Variations from default:
   - Updated label text
@@ -30,6 +31,7 @@
       class="usa-input"
       id="appointment-time"
       name="appointment-time"
+      {% if value %}value="{{ value }}"{% endif %}
       aria-describedby="appointment-time-label appointment-time-hint"
       required
     />
