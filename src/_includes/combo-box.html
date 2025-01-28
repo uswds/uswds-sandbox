@@ -19,7 +19,7 @@
       {% include "required-hint.html" %}
     {% endif %}
   </label>
-  <div class="usa-combo-box">
+  <div class="usa-combo-box" {% if value %}data-default-value="{{ value }}"{% endif %} >
     {% if dropdown %}
       <select
         class="usa-select"
