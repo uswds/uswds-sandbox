@@ -4,7 +4,7 @@ layout: zebra
 alert_before_banner: false
 ---
 
-## Thanks for making a reservation!
+# Thanks for making a reservation!
 
 Your confirmation number is #54321.
 
