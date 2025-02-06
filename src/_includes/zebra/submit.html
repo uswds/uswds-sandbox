@@ -1,11 +1,14 @@
 <!--start submit button -->
 <input
   type="submit"
-  class="usa-button margin-top-2"
+  class="usa-button margin-top-2 {% if tooltip_title %}usa-tooltip{% endif %}"
   id="submitbutton"
-  value="Reserve my spot!"
-  disabled
-  formaction="{{ '/pages/zebra-confirmation/' | url }}"
+  {% if tooltip_title %}
+    title="{{ tooltip_title }}"
+  {% endif %}
+  value="{{ label | default: 'Reserve my spot!' }}"
+  {% if not enabled %}disabled{% endif %}
+  formaction="{{ '/pages/confirmation/' | url }}"
   aria-describedby="conduct-error-hint"
 >
 <!--end submit button -->

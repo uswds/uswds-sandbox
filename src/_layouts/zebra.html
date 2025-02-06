@@ -1,25 +1,27 @@
 ---
 ---
 
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-{% include "head.html" %}
+  {% include "head.html" %}
   <body class="height-full">
     {% include "skipnav.html" %}
-
     {% if alert_before_banner == true and alert_type =="emergency" %}
       {% include "zebra/site-alert--emergency.html" %}
     {% endif %}
-
     {% include "banner.html" %}
-
     {% if alert_type == "status" %}
       {% include "zebra/site-alert.html" %}
     {% elsif alert_type =="emergency" and alert_before_banner == false %}
       {% include "zebra/site-alert--emergency.html" %}
     {% endif %}
-
     {% include "zebra/header.html" %}
+
+    {% if breadcrumb %}
+    <div class="grid-container">
+      {% include "zebra/breadcrumb.html" control_group: breadcrumb.control_group | default: false %}
+    </div>
+    {% endif %}
 
     <main id="main-content">
       <div class="grid-container usa-prose padding-y-3">
@@ -27,13 +29,19 @@
         <h1>{{ zebra.title }}</h1>
 
         <form class="usa-form usa-form--large">
-          {% include "zebra/intro.html" %}
+          {% include "zebra/intro.html" age_disclaimer: age_disclaimer | default: true %}
         {% endif %}
+
           {{ content }}
+
         {% if form %}
-          {% include "zebra/form-bottom.html" %}
-        {% endif %}
+          {% comment %}
+            ! Using render here causes issues with global data.
+          {% endcomment %}
+          {% include "zebra/forms/{{ form | append: \".html\" }}" %}
         </form>
+        {% endif %}
+
       </div>
     </main>
 

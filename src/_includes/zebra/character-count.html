@@ -1,0 +1,75 @@
+{% comment %}
+  Character count
+
+  **Note:** This component includes changes specifically for zebra testing that diverge from the default component.
+
+  Variables:
+    - required: Boolean to determine if input is required.
+    - input_name: String of the input's name. Used to create the label and hint ID.
+    - label_text: String for the input label.
+    - character_limit: Number for the component character limit count.
+    - hint_text: String for optional input hint text.
+
+  Used in `src/_includes/zebra/forms/book-tour.html`.
+{% endcomment %}
+
+{% assign input_id = input_name | default: "character-count" %}
+{% assign input_label_id = input_id | append: "-label" %}
+
+<div class="usa-character-count">
+  <div class="usa-form-group">
+    <label class="usa-label" for="{{ input_id }}">
+      {{ label_text }}
+
+      {% if required %}
+      {% include "required-hint.html" %}
+      {% endif %}
+
+      <svg
+        class="usa-icon usa-tooltip"
+        data-position="top"
+        title="Accommodations are available but limited"
+        role="img"
+        alt="More info">
+          <use href="{{ '/assets/img/sprite.svg#info' | url }}"></use>
+      </svg>
+    </label>
+
+    {% if error_message %}
+      {% include "error-message.html" %}
+    {% endif %}
+
+    <textarea
+      class="usa-textarea usa-character-count__field"
+      id="{{ input_id }}"
+      maxlength="{{ character_limit | default: 50 }}"
+      name="{{ input_id }}"
+      {% if required %}required{% endif %}>{% if value %}{{ value  }}{% endif %}</textarea>
+    <span id="with-hint-textarea-info" class="usa-character-count__message">
+      {{ hint_text | default: "You can enter up to 50 characters" }}
+    </span>
+  </div>
+</div>
+
+{% comment %}
+  Workaround for custom error until uswds/uswds#6317 gets closed.
+  https://github.com/uswds/uswds/issues/6317
+{% endcomment %}
+<style>
+  .usa-character-count .usa-error-message {
+    display: none;
+  }
+
+  .usa-character-count label {
+    position: relative;
+    z-index: 1;
+  }
+
+  .usa-character-count .usa-form-group--error .usa-error-message {
+    display: initial;
+  }
+
+  .usa-character-count .usa-tooltip {
+    z-index: 100;
+  }
+</style>

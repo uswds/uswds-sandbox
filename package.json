@@ -21,10 +21,11 @@
     "test": "snyk test"
   },
   "dependencies": {
-    "@uswds/uswds": "3.11.0"
+    "@uswds/uswds": "github:uswds/uswds#ux-prototype-2025Q1"
   },
   "devDependencies": {
     "@11ty/eleventy": "^3.0.0",
+    "@shopify/prettier-plugin-liquid": "1.6.3",
     "@uswds/compile": "^1.2.1",
     "concurrently": "^9.1.2",
     "snyk": "^1.1294.3"

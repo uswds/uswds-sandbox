@@ -2,6 +2,10 @@
   TODO
   Make this component reusable by using data to set data-min-time, data-max-time, required attributes
 
+  variables:
+    - hint_text: String optional hint text.
+    - value: String optional default value.
+
   Variations from default:
   - Updated label text
   - Added data-min-time, data-min-time
@@ -14,9 +18,11 @@
 <fieldset class="usa-fieldset">
   <label class="usa-label" id="appointment-time-label" for="appointment-time">
     Select a time to reserve your spot
-    <abbr title="required" class="usa-hint usa-hint--required">*</abbr>
+    {% include "required-hint.html" %}
   </label>
-  <div class="usa-hint" id="appointment-time-hint">hh:mm</div>
+  {% if hint_text %}
+  <div class="usa-hint" id="appointment-time-hint">{{ hint_text }}</div>
+  {% endif %}
   <div class="usa-time-picker"
     data-min-time="07:00"
     data-max-time="19:00"
@@ -25,9 +31,25 @@
       class="usa-input"
       id="appointment-time"
       name="appointment-time"
+      {% if value %}value="{{ value }}"{% endif %}
       aria-describedby="appointment-time-label appointment-time-hint"
       required
     />
   </div>
 </fieldset>
 <!--end time picker-->
+
+{% comment %}
+  Workaround for https://github.com/uswds/uswds/issues/6315.
+
+  Once time picker is enhanced, we add the hint via aria-describedby to the generated list.
+{% endcomment %}
+<script>
+  window.addEventListener("DOMContentLoaded", () => {
+    const timePicker = document.querySelector(".usa-time-picker");
+    const timePickerList = timePicker.querySelector(".usa-combo-box__list");
+    const hintID = timePicker.closest(".usa-fieldset").firstElementChild.nextElementSibling.id;
+
+    timePickerList.setAttribute("aria-describedby", hintID);
+  })
+</script>

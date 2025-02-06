@@ -1,0 +1,36 @@
+{%
+  include "date-picker.html"
+  required
+  input_name: "reservation-date"
+  label_text: "Choose the date that you'd like to reserve a tour"
+  error_message: reservation.error_message
+  hint_text: "Enter the date in the form of mm/dd/yyyy or pick from the calendar"
+%}
+
+{%
+  include "combo-box.html"
+  required
+  dropdown: zebra.tour_options
+  input_name: "tour-type"
+  label_text: "Choose the tour you'd like to reserve"
+  value: tour_type.value | default: null
+%}
+
+{%
+  include "zebra/time-picker.html"
+  hint_text: "Select a time from the dropdown. Type into the input to filter options."
+  value: reservation.value | default: null
+%}
+
+{%
+  include "zebra/character-count.html"
+  label_text: "List any accommodations your group might need during your tour. (optional)"
+  error_message: character_count.error_message
+  value: character_count.value
+%}
+
+{% include "zebra/submit.html"
+  label: "Reserve"
+  enabled: true
+  tooltip_title: "Finish your booking"
+%}
