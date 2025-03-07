@@ -29,6 +29,12 @@ uswds.paths.dist.js = "./src/assets/js";
 // Compiled CSS destination
 uswds.paths.dist.css = "./_site/assets/css";
 
+// Test custom SASS compilation options
+uswds.settings.compile.sassOptions = {
+  style: "expanded",
+  loadPaths: ["./src/custom"],
+};
+
 /*
 ----------------------------------------
 TASKS
