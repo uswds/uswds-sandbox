@@ -9,10 +9,12 @@
       <div class="grid-container usa-prose padding-y-3">
         {% include "breadcrumb.html" %}
         {{ content }}
+        <div id="root"></div>
       </div>
     </main>
     {% include "footer.html" %}
     {% include "identifier.html" %}
     <script src="{{ '/assets/js/uswds.min.js' | url }}"></script>
+    <script type="module" jsx src="{{ '/assets/js/character-count.js' }}"></script>
   </body>
 </html>
