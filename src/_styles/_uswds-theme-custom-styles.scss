@@ -1,1 +1,6 @@
 @use "uswds-core" as *;
+@use "custom";
+
+.my-paragraph {
+  font-style: custom.myitalic();
+}
